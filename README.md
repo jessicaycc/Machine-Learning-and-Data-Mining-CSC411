@@ -1,2 +1,5 @@
 # CSC411
-This course serves as a broad introduction to machine learning and data mining. We will cover the fundamentals of supervised and unsupervised learning. We will focus on neural networks, policy gradient methods in reinforcement learning. We will use the Python NumPy/SciPy stack. Students should be comfortable with calculus, probability, and linear algebra.
+Project 1: Face Recognition and Gender Classification with Regression
+Project 1 bonus: k-Nearest Neighbours
+Project 2: Deep Neural Networks for Handwritten Digit and Face Recognition
+Project 2 bonus: Visualizing Deep Neural Networks
