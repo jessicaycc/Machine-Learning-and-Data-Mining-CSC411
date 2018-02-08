@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='content-type'>
+    <title>moviepilot - Huch!, Oups!, ¡Ooops!, Ups! (404)</title>
+    <style>
+      body {
+          background-repeat: no-repeat;
+          margin: 10px 0 0 0;
+          padding: 0;
+          background: none repeat scroll 0 0 #EAEAEA;
+        font-family: Verdana,Tahoma,'Vera Sans',Helvetica,Arial,sans-serif;
+        text-align:center;
+        font-size: 12px;
+          line-height: 20px;
+      }
+      a {
+          border: 0 none;
+          color: #3F6CA6;
+          outline: medium none;
+          text-decoration: none;
+      }
+      a:hover {
+        text-decoration:underline;
+      }
+      #header {
+        height: 60px;
+          margin-bottom: 30px;
+          overflow: visible;
+          position: relative;
+          text-align: center;
+          background-repeat: repeat-x;
+        background-position: 0 -210px;
+        background-color: #113b72;
+        background: #2a486e;
+      }
+      #header-content {
+          position: relative;
+          margin: 0 auto;
+          width: 980px;
+      }
+      #logo {
+          background: url("/images/layout_v2/logo-moviepilot.png") no-repeat scroll 0 -5px transparent;
+          float: left;
+          height: 43px;
+          margin: 19px 20px 0 25px;
+          width: 150px;
+      }
+      #logo span {
+          background-position: 2px -1px;
+          display: block;
+          float: left;
+          height: 13px;
+          margin-top: 34px;
+          overflow: hidden;
+          text-indent: 160px;
+          white-space: nowrap;
+          width: 150px;
+      }
+      .content-with-sidebar {
+          padding-bottom: 0;
+          display: block;
+          background-color: white;
+          background-image: none;
+          border: 1px solid #D0D0D0;
+          display: inline-block;
+          margin: 0 auto;
+          text-align:center;
+          overflow: hidden;
+          padding: 1.5em 0;
+          width:980px;
+      }
+      .content-with-sidebar #main {
+          float: left;
+          margin: 0 10px 0 25px;
+          padding-right: 0 18px 7px 0;
+          width: 590px;
+        text-align:left;
+      }
+      .content-with-sidebar #sidebar {
+          float: left;
+          width: 310px;
+          border-left: 1px dotted #D0D0D0;
+          padding: 0 22px;
+        text-align:left;
+        min-height:560px;
+      }
+      .main h1 {
+          margin: 0;
+      }
+      h1 {
+          color: #414141;
+          font-family: Verdana,Tahoma,'Vera Sans',Helvetica,Arial,sans-serif;
+          font-size: 36px;
+          font-weight: bold;
+          line-height: 40px;
+          margin: 20px 24px 0;
+          position: relative;
+      }
+      h6 {
+          color: #9C9C9C !important;
+          margin-bottom: 20px;
+        margin-top: 0 !important;
+      }
+      hr {
+          border:0px none;
+          border-bottom: 1px dotted #CCCCCC;
+          clear: both;
+          height: 0;
+          margin: 0px 1px 19px 0;
+          padding:20px 0 0 0;
+          position: relative;
+        color:#FFF;
+      }
+      .movie {
+          padding-top: 0;
+          float: left;
+          margin-right: 10px;
+          text-align: center;
+          width: 110px;
+      }
+      .details {
+        margin-left:176px;
+        font-size: 12px;
+          line-height: 20px;
+          position: relative;
+      }
+      .main h2 {
+          font-weight: bold;
+          margin-bottom: 20px;
+          color: #414141;
+          font-family: Verdana,Tahoma,'Vera Sans',Helvetica,Arial,sans-serif;
+          font-size: 16px;
+          line-height: 20px;
+          position: relative;
+      }
+      .main h2 span {
+          color: #9C9C9C;
+          font-size: 11px;
+          font-weight: normal;
+          line-height: 17px;
+          white-space: nowrap;
+      }
+      .comment-author-details strong {
+        color:#3F6CA6;
+      }
+      .comment-author-details {
+        color:#9C9C9C;
+      }
+      .userpic {
+        float: left;
+        margin-right: 10px;
+        width: 90px;
+      }
+      .comment-content {
+        float: left;
+        width: 490px;
+      }
+      .comment-comment {
+        border-radius: 6px;
+        background: none repeat scroll 0 0 #EAEAEA;
+        display: inline-block;
+        height: 1%;
+        margin-bottom: 15px;
+        min-height: 50px;
+        overflow: hidden;
+        padding: 5px 10px;
+      }
+      .button, a.button:link, a.button:visited {
+        border-width: 1px;
+        border-style: solid;
+        cursor: pointer;
+        display: inline-block;
+        margin: 0;
+        outline: 0;
+        text-align: center;
+        border-radius: 3px;
+        padding: 4px 15px;
+        border-color: #AFB2B6;
+        color: #3C3F43;
+      }
+      .button:hover, a.button:hover {
+        text-decoration:none;
+        border-color: #a1a5aa;
+        color: #242628;
+        background: #c9cbce;
+      }
+      .button:active, a.button:active {
+        text-decoration:none;
+        border-color: #878b91;
+        color: #0c0c0d;
+        background: #999999;
+      }
+      #footer {
+          clear: both;
+          margin-bottom: 0;
+          margin-left: auto;
+          margin-right: auto;
+          text-align:center;
+          margin-top: 40px !important;
+          width: 980px;
+      }
+      #footer .navigation {
+        background-color: #414141;
+        padding: 10px 0;
+        text-align: center;
+        width: 980px;
+      }
+      #footer .navigation a {
+        color: white;
+        height: 20px;
+        padding: 1px 9px 1px 0px;
+        margin: 0 5px;
+        display: -moz-inline-box;
+        -moz-box-orient: vertical;
+        display: inline-block;
+        vertical-align: middle;
+        border-right: 1px #9c9c9c solid;
+      }
+      #footer .navigation a:last-child { border-right: none; }
+    </style>
+  </head>
+  <body>
+    <div id='header'>
+      <div id='header-content'>
+        <a href='/' id='logo' title='moviepilot - Filme nach deinem Geschmack.'>
+          <span class='typo-claim-de'></span>
+        </a>
+      </div>
+    </div>
+    <div class='content-with-sidebar'>
+      <div class='main' id='main'>
+        <div class='movie-details'>
+          <h1></h1>
+          <h4>Fehler</h4>
+          <hr>
+          <div class='movie'>
+            <img src='/images/errorpages/error_movieposter.jpg' width='166'>
+          </div>
+          <div class='details'>
+            <h3>Invasion der Seitenfresser</h3>
+            <h6>DE 2011</h6>
+            Das Leben in der Berliner Innenstadt der Webentwickler läuft in den Bahnen Computer, Großstadt und Beziehungen. Doch nach und nach verschwinden immer wieder plötzlich Webseiten. Ein immer stärker werdender Verdacht drängt sich auf. Es kommt zur
+            <strong>Invasion der Seitenfresser</strong>,
+            die ihre Lebensenergie aus Fehlern ziehen. Die IT-Crew stellt sich der Aufgabe, bevor die kleinen Monster zu mächtig werden.
+          </div>
+          <hr>
+          <h2 id='comments'>
+            Kommentare (1)
+            <span>&mdash; Film: Angriff der Seitenfresser</span>
+          </h2>
+          <p class='comment-author-details'>
+            <strong>Moviepilot IT</strong>
+            vor 2 Tagen
+          </p>
+          <img class='userpic' src='/images/errorpages/userpic_itcrew.png'>
+          <div class='comment-content'>
+            <div class='comment-comment'>
+              Was für ein unrealistischer Streifen. Wer saugt sich denn so was aus den Fingern. Wenn mal eine Seite nicht gefunden wird, kümmern wir uns drum. So schnell, da kann sich niemand von ernähren.
+            </div>
+          </div>
+          <hr>
+          <a class='button' href='/'>Zur Startseite</a>
+        </div>
+      </div>
+      <div class='sidebar' id='sidebar'>
+        <p>
+          <b>Huch! Unter dieser Adresse gibt es bei moviepilot nichts zu finden (Fehler 404).</b>
+        </p>
+        <p>
+          Vielleicht hast Du einen alten Link oder ein altes Bookmark verwendet.
+          <br>
+          Bitte versuch es einmal mit
+          <a href='javascript:history.back()' title='zurück'>"zurück"</a>
+          oder gehe zur
+          <a href='/' title='Zur Startseite'>Startseite</a>
+          von moviepilot.de.
+        </p>
+        <p>
+          <br>
+          <a class='button' href='javascript:history.back()' style='margin-right:30px;'>zurück</a>
+          <a class='button' href='/'>Zur Startseite</a>
+        </p>
+        <p></p>
+      </div>
+    </div>
+    <div id='footer'>
+      <div class='navigation'>
+        <a href='/pages/about' title='Über uns'>Über uns</a>
+        <a href='http://blog.moviepilot.de/presse/' title='Presseinformationen'>Presse</a>
+        <a href='/pages/contact' rel='nofollow' title='Kontakt'>Kontakt</a>
+        <a href='/pages/imprint' rel='nofollow' title='Impressum'>Impressum</a>
+        <a href='/pages/terms' rel='nofollow' title='AGB'>AGB</a>
+        <a href='/pages/privacy' rel='nofollow' title='Datenschutz'>Datenschutz</a>
+        <a href='/filme/beste' title='Film-Archiv'>Alle Filme</a>
+        <a href='/serien/beste' title='Serienarchiv'>Alle Serien</a>
+        <a href='http://www.facebook.com/moviepilot'>Facebook</a>
+        <a href='http://twitter.com/moviepilot'>Twitter</a>
+      </div>
+    </div>
+    <script>
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          :javascript
+      var pageTracker = _gat._getTracker('UA-1017584-2');
+      _gat._anonymizeIp();
+      pageTracker._initData();
+
+
+        pageTracker._trackPageview("/404.html?page=" + document.location.pathname + document.location.search + "&from=" + document.referrer);
+
+
+      // moviepilot wrapper code below
+      function trackPageView(uri) {
+        pageTracker._trackPageview(uri);
+      }
+    </script>
+  </body>
+</html>

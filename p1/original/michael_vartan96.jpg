@@ -1,0 +1,1748 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <script type='text/javascript'>window.NREUM||(NREUM={});NREUM.info = {"agent":"","beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"3672224fa0","applicationID":"76197341","applicationTime":1.520093,"transactionName":"MQZQMEVRDUNYARddWwhMdxxHQgZDSggQG3MjNx1L","queueTime":0,"ttGuid":"10ff3866e5c7dc0","agentToken":null}; window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <title>Movies News - MTV</title>
+  <link rel="dns-prefetch" href="https://shared.mtv.com"/>
+  <link rel="dns-prefetch" href="http://btg.mtvnservices.com"/>
+  <link rel="dns-prefetch" href="https://imagesmtv-a.akamaihd.net/"/>
+  <link rel="dns-prefetch" href="http://www.mtv.com/"/>
+  <link rel="preload" href="http://www.mtv.com/news/assets/main.9707255056ea4e978149.css" as="style" onload="this.rel='stylesheet'">
+  <link rel="preload" href="https://www.mtv.com/media/news-base.css" as="style" onload="this.rel='stylesheet'">
+      <script type='text/javascript'>
+      !function(e){"use strict";var t=function(t,n,r){function o(e){return i.body?e():void setTimeout(function(){o(e)})}function a(){d.addEventListener&&d.removeEventListener("load",a),d.media=r||"all"}var l,i=e.document,d=i.createElement("link");if(n)l=n;else{var s=(i.body||i.getElementsByTagName("head")[0]).childNodes;l=s[s.length-1]}var u=i.styleSheets;d.rel="stylesheet",d.href=t,d.media="only x",o(function(){l.parentNode.insertBefore(d,n?l:l.nextSibling)});var f=function(e){for(var t=d.href,n=u.length;n--;)if(u[n].href===t)return e();setTimeout(function(){f(e)})};return d.addEventListener&&d.addEventListener("load",a),d.onloadcssdefined=f,f(a),d};"undefined"!=typeof exports?exports.loadCSS=t:e.loadCSS=t}("undefined"!=typeof global?global:this),function(e){if(e.loadCSS){var t=loadCSS.relpreload={};if(t.support=function(){try{return e.document.createElement("link").relList.supports("preload")}catch(t){return!1}},t.poly=function(){for(var t=e.document.getElementsByTagName("link"),n=0;n<t.length;n++){var r=t[n];"preload"===r.rel&&"style"===r.getAttribute("as")&&(e.loadCSS(r.href,r),r.rel=null)}},!t.support()){t.poly();var n=e.setInterval(t.poly,300);e.addEventListener&&e.addEventListener("load",function(){e.clearInterval(n)}),e.attachEvent&&e.attachEvent("onload",function(){e.clearInterval(n)})}}}(this);
+      </script>  <link rel="alternate" type="application/rss+xml" title="News &raquo; Feed" href="http://www.mtv.com/news/feed/" />
+  <link rel="shortcut icon" href="http://www.mtv.com/favicon.ico"/>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+  <meta name="HandheldFriendly" content="true"/>
+  <meta name="MobileOptimized" content="320"/>
+  <meta property="reporting:beacon_url" content="http://mb.mtv.com/data/collect/v1/mb.gif"/>
+  <meta property="reporting:call_config" content='{"omniture":{"pageName":"/news/category/movies","channel":"news","prop8":"none","prop12":"Movies","prop15":"no-franchise","prop21":"ALLTRAFFIC:MTV","prop28":"News article","prop38":"mtv.com","prop55":"News","eVar6":"none","eVar9":"/news/category/movies","eVar10":"ALLTRAFFIC:MTV","eVar68":"no-franchise","hier1":"/news/category/movies"}}'/>
+  <meta property="og:site_name" content="MTV News"/>
+
+
+
+
+    <meta property="ao:mgid" content="mgid:wordpress:siteloc:articles.mtv.com:hp"/>
+
+  
+  
+  <meta property="author" content="">
+
+  <meta property="fb:app_id" content="122150691493"/>
+  <meta property="fb:admins" content="unset"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta property="og:type" content="website"/>
+  <meta property="asset_url" content="http://www.mtv.com/news"/>
+  <script src="https://btg.mtvnservices.com/aria/bentojs.js?site=mtvviral&v=1.13.3" type="text/javascript" async></script>
+
+  
+  <meta name="expression" content="shownav" /><script type="text/javascript">
+
+  window._tfa = window._tfa || [];
+
+  _tfa.push({
+    notify: 'action',
+    name: 'page_view'
+  });
+
+  _tfa.push({
+    notify: 'mark',
+    type: 'sitevisitors'
+  });
+
+</script>
+
+<script type="text/javascript" src="//cdn.taboola.com/libtrc/mtv-sc/tfa.js" async></script>
+	<meta name="description" content="The ultimate news source for music, celebrity, entertainment, movies, and current events on the web. It&amp;amp;#039;s pop culture on steroids."/>
+	<meta property="og:description" content="The ultimate news source for music, celebrity, entertainment, movies, and current events on the web. It&amp;amp;#039;s pop culture on steroids."/>
+	<meta name="twitter:description" content="The ultimate news source for music, celebrity, entertainment, movies, and current events on the web. It&amp;amp;#039;s pop culture on steroids."/>
+	<meta name="twitter:title" content="News - Entertainment, Music, Movies, Celebrity"/>
+	<meta property="og:title" content="News - Entertainment, Music, Movies, Celebrity"/>
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebPage",
+      "url": "http://www.mtv.com/news/movies/wp-content/uploads/2011/12/michael-vartan500x300.jpg"
+    }
+  </script>
+  
+    <link rel="canonical" href="http://www.mtv.com/news/movies/wp-content/uploads/2011/12/michael-vartan500x300.jpg"/>
+    <meta property="og:url" content="http://www.mtv.com/news/movies/wp-content/uploads/2011/12/michael-vartan500x300.jpg"/>
+    <meta name="twitter:url" content="http://www.mtv.com/news/movies/wp-content/uploads/2011/12/michael-vartan500x300.jpg"/>
+</head>
+
+<body class="hub category site-build-mtv shownav" data-hubtype="category" data-taxslug="movies">
+<div id="page_root">
+<header class="site-header cf" role="banner">
+  <div id="ad-banner" class="ad-banner" data-ad-sizes="728x90"></div>
+  <div id="header" class="navbar-inner-crabapple global_navigation_portable">
+    <div class="site_header">
+      <div class="top_outer">
+        <div class="top_inner">
+          <div class="menu_holder">
+            <div id="hamburger-holder">
+            </div>
+            <a href="http://www.mtv.com/">
+              <div class="site_logo">
+                <span data-graphics="A" class="icon"></span>
+                <span class="screen-reader-text">mtv</span>
+              </div>
+            </a>
+            <div class="page_overlay"></div>
+          </div>
+          <a href="http://www.mtv.com/news/" class="show_logo">
+            <span class="wrapper">
+              <span class="title sitename">news</span>
+            </span>
+          </a>
+          <div class="search_wrapper">
+            <div class="search_btn"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+
+
+<header class="taxonomy">
+
+
+  <div class="meta">
+    
+    <h1>Movies</h1>
+      <span>The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.</span>
+  </div>
+
+
+</header>
+
+<main role="main" class="hub">
+
+
+
+
+<section class="cards ">
+
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3060628" data-taxonomy="category:movies" class="post " >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3060628/star-wars-the-last-jedi-novelization-additional-scenes/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:264289?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy  ">
+    		                <a href="http://www.mtv.com/news/movies/">
+    		                    Movies
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3060628/star-wars-the-last-jedi-novelization-additional-scenes/">
+    		          <span>                  <em>The Last Jedi</em> Novelization Will Feature Han Solo's Funeral And More Deleted Scenes
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            Rose and Paige Tico's relationship will also be highlighted
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2016/07/no_author_photo_250x250-1468514818.png?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/schulmana/" rel="author" class="author">Alissa Schulman</a>
+    		                    <time datetime="2018-01-24 20:13">18h ago</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3060628",
+    		    "title": "<em>The Last Jedi</em> Novelization Will Feature Han Solo's Funeral And More Deleted Scenes",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":79192,"label":"Rian Johnson","slug":"rian-johnson","description":null,"mgid":"mgid:aodb:term:mtv:79192","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":76773,"label":"Star Wars [Film Series]","slug":"star-wars-film-series","description":null,"mgid":"mgid:aodb:term:mtv:76773","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":83713,"label":"Star Wars: The Last Jedi","slug":"star-wars-the-last-jedi","description":null,"mgid":"mgid:aodb:term:mtv:83713","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"}],
+    		    "dateCreated": "2018-01-25T01:13:25+00:00",
+    		    "author": "Alissa Schulman"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3059942" data-taxonomy="event:oscars" class="post  oscars" >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3059942/2018-oscar-nominations-snubs-surprises/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:264176?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy tier_one  ">
+    		                <a href="http://www.mtv.com/news/event/oscars/">
+    		                    Oscars
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3059942/2018-oscar-nominations-snubs-surprises/">
+    		          <span>                  11 Biggest Snubs And Surprises Of The 2018 Oscar Nominations
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            From 'Logan' to 'Lady Bird,' the most unpredictable awards season in years finally heats up
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2017/05/headshot-med-1495221420.png?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/bellcr/" rel="author" class="author">Crystal Bell</a>
+    		                        <a href="https://twitter.com/crystalbell" class="twitter" target="twitter"><span class="handle">crystalbell</span></a>
+    		                    <time datetime="2018-01-23 17:14">01/23/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3059942",
+    		    "title": "11 Biggest Snubs And Surprises Of The 2018 Oscar Nominations",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"event","description":null,"id":74,"name":"event","terms":[{"modifiedDate":null,"id":66310,"label":"Oscars","slug":"oscars","description":"","mgid":"mgid:aodb:term:mtv:66310","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"event","tierOne":true},{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83282,"label":"Feature","slug":"feature","description":"In-depth, researched pieces (e.g. Cover Stories, a list of top movie scenes).","mgid":"mgid:aodb:term:mtv:83282","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":83068,"label":"It","slug":"it","description":null,"mgid":"mgid:aodb:term:mtv:83068","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":83393,"label":"Logan","slug":"logan","description":null,"mgid":"mgid:aodb:term:mtv:83393","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":84631,"label":"Lady Bird","slug":"lady-bird","description":null,"mgid":"mgid:aodb:term:mtv:84631","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":86603,"label":"The Florida Project","slug":"the-florida-project","description":null,"mgid":"mgid:aodb:term:mtv:86603","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"}],
+    		    "dateCreated": "2018-01-23T22:14:55+00:00",
+    		    "author": "Crystal Bell"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3059964" data-taxonomy="event:oscars" class="post  oscars" >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3059964/oscar-nominations-2018-reactions/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:264131?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy tier_one  ">
+    		                <a href="http://www.mtv.com/news/event/oscars/">
+    		                    Oscars
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3059964/oscar-nominations-2018-reactions/">
+    		          <span>                  Kobe Bryant, Saoirse Ronan, And More React To Their Oscar Nominations
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            Bryant calls the honor 'beyond the realm of imagination'
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2016/07/no_author_photo_250x250-1468514818.png?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/schulmana/" rel="author" class="author">Alissa Schulman</a>
+    		                    <time datetime="2018-01-23 13:51">01/23/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3059964",
+    		    "title": "Kobe Bryant, Saoirse Ronan, And More React To Their Oscar Nominations",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"event","description":null,"id":74,"name":"event","terms":[{"modifiedDate":null,"id":66310,"label":"Oscars","slug":"oscars","description":"","mgid":"mgid:aodb:term:mtv:66310","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"event","tierOne":true},{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":77831,"label":"Dunkirk","slug":"dunkirk","description":null,"mgid":"mgid:aodb:term:mtv:77831","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":83827,"label":"Get Out","slug":"get-out","description":null,"mgid":"mgid:aodb:term:mtv:83827","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":84630,"label":"The Shape of Water","slug":"the-shape-of-water","description":null,"mgid":"mgid:aodb:term:mtv:84630","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":84631,"label":"Lady Bird","slug":"lady-bird","description":null,"mgid":"mgid:aodb:term:mtv:84631","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":84689,"label":"Three Billboards Outside Ebbing, Missouri","slug":"three-billboards-outside-ebbing-missouri","description":null,"mgid":"mgid:aodb:term:mtv:84689","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":73124,"label":"Meryl Streep","slug":"meryl-streep","description":null,"mgid":"mgid:aodb:term:mtv:73124","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":73399,"label":"Sam Rockwell","slug":"sam-rockwell","description":null,"mgid":"mgid:aodb:term:mtv:73399","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":73975,"label":"Saoirse Ronan","slug":"saoirse-ronan","description":null,"mgid":"mgid:aodb:term:mtv:73975","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":74763,"label":"Greta Gerwig","slug":"greta-gerwig","description":null,"mgid":"mgid:aodb:term:mtv:74763","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":79486,"label":"Jordan Peele","slug":"jordan-peele","description":null,"mgid":"mgid:aodb:term:mtv:79486","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":83947,"label":"Daniel Kaluuya","slug":"daniel-kaluuya","description":null,"mgid":"mgid:aodb:term:mtv:83947","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":86601,"label":"Laurie Metcalf","slug":"laurie-metcalf","description":null,"mgid":"mgid:aodb:term:mtv:86601","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"}],
+    		    "dateCreated": "2018-01-23T18:51:02+00:00",
+    		    "author": "Alissa Schulman"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card ad ">
+    
+    
+    			<div id="ad-0" data-ad-sizes="300x250"></div>
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3059922" data-taxonomy="event:oscars" class="post  oscars" >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3059922/jordan-peele-oscar-nominations-reaction-get-out/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:264021?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy tier_one  ">
+    		                <a href="http://www.mtv.com/news/event/oscars/">
+    		                    Oscars
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3059922/jordan-peele-oscar-nominations-reaction-get-out/">
+    		          <span>                  Jordan Peele Had The Best Reaction To <i>Get Out</i>'s Oscar Nominations
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            'What's the opposite of the Sunken Place?'
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2017/05/headshot-med-1495221420.png?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/bellcr/" rel="author" class="author">Crystal Bell</a>
+    		                        <a href="https://twitter.com/crystalbell" class="twitter" target="twitter"><span class="handle">crystalbell</span></a>
+    		                    <time datetime="2018-01-23 10:33">01/23/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3059922",
+    		    "title": "Jordan Peele Had The Best Reaction To <i>Get Out</i>'s Oscar Nominations",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"event","description":null,"id":74,"name":"event","terms":[{"modifiedDate":null,"id":66310,"label":"Oscars","slug":"oscars","description":"","mgid":"mgid:aodb:term:mtv:66310","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"event","tierOne":true},{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":83827,"label":"Get Out","slug":"get-out","description":null,"mgid":"mgid:aodb:term:mtv:83827","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":79486,"label":"Jordan Peele","slug":"jordan-peele","description":null,"mgid":"mgid:aodb:term:mtv:79486","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"}],
+    		    "dateCreated": "2018-01-23T15:33:21+00:00",
+    		    "author": "Crystal Bell"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3059902" data-taxonomy="event:oscars" class="post  oscars" >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3059902/oscar-nominations-2018-full-list/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:264007?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy tier_one  ">
+    		                <a href="http://www.mtv.com/news/event/oscars/">
+    		                    Oscars
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3059902/oscar-nominations-2018-full-list/">
+    		          <span>                  Here Are Your 2018 Oscar Nominations
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            Get your ballots ready
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2017/05/headshot-med-1495221420.png?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/bellcr/" rel="author" class="author">Crystal Bell</a>
+    		                        <a href="https://twitter.com/crystalbell" class="twitter" target="twitter"><span class="handle">crystalbell</span></a>
+    		                    <time datetime="2018-01-23 09:28">01/23/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3059902",
+    		    "title": "Here Are Your 2018 Oscar Nominations — See The Full List",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"event","description":null,"id":74,"name":"event","terms":[{"modifiedDate":null,"id":66310,"label":"Oscars","slug":"oscars","description":"","mgid":"mgid:aodb:term:mtv:66310","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"event","tierOne":true},{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"}],
+    		    "dateCreated": "2018-01-23T14:28:56+00:00",
+    		    "author": "Crystal Bell"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3059832" data-taxonomy="category:movies" class="post " >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3059832/incredibles-2-first-look-new-characters/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:263976?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy  ">
+    		                <a href="http://www.mtv.com/news/movies/">
+    		                    Movies
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3059832/incredibles-2-first-look-new-characters/">
+    		          <span>                  <i>Incredibles 2</i> Debuts First Look At Some Super New Characters
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            One of them has to be the villain, right?!
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2017/05/headshot-med-1495221420.png?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/bellcr/" rel="author" class="author">Crystal Bell</a>
+    		                        <a href="https://twitter.com/crystalbell" class="twitter" target="twitter"><span class="handle">crystalbell</span></a>
+    		                    <time datetime="2018-01-22 16:58">01/22/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3059832",
+    		    "title": "<i>Incredibles 2</i> Debuts First Look At Some Super New Characters",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":79022,"label":"The Incredibles 2","slug":"the-incredibles-2","description":null,"mgid":"mgid:aodb:term:mtv:79022","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"}],
+    		    "dateCreated": "2018-01-22T21:58:35+00:00",
+    		    "author": "Crystal Bell"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3059640" data-taxonomy="category:movies" class="post " >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3059640/lucius-malfoy-shares-illicit-never-before-seen-harry-potter-set-photo/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:263740?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy  ">
+    		                <a href="http://www.mtv.com/news/movies/">
+    		                    Movies
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3059640/lucius-malfoy-shares-illicit-never-before-seen-harry-potter-set-photo/">
+    		          <span>                  Lucius Malfoy Actor Shares 'Illicit' Never-Before-Seen <em>Harry Potter</em> Set Photo
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            Jason Isaacs 'couldn't stop himself'
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2016/07/no_author_photo_250x250-1468514818.png?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/schulmana/" rel="author" class="author">Alissa Schulman</a>
+    		                    <time datetime="2018-01-19 21:03">01/19/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3059640",
+    		    "title": "Lucius Malfoy Actor Shares 'Illicit' Never-Before-Seen <em>Harry Potter</em> Set Photo",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":74932,"label":"Harry Potter and the Prisoner of Azkaban","slug":"harry-potter-and-the-prisoner-of-azkaban","description":null,"mgid":"mgid:aodb:term:mtv:74932","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":75054,"label":"Harry Potter and the Chamber of Secrets","slug":"harry-potter-and-the-chamber-of-secrets","description":null,"mgid":"mgid:aodb:term:mtv:75054","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":75055,"label":"Harry Potter and the Sorcerer's Stone","slug":"harry-potter-and-the-sorcerers-stone","description":null,"mgid":"mgid:aodb:term:mtv:75055","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":75147,"label":"Harry Potter and the Goblet of Fire","slug":"harry-potter-and-the-goblet-of-fire","description":null,"mgid":"mgid:aodb:term:mtv:75147","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":75283,"label":"Harry Potter and the Order of the Phoenix","slug":"harry-potter-and-the-order-of-the-phoenix","description":null,"mgid":"mgid:aodb:term:mtv:75283","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":76678,"label":"Harry Potter [Film Series]","slug":"harry-potter-film-series","description":null,"mgid":"mgid:aodb:term:mtv:76678","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":82550,"label":"Harry Potter and the Half-Blood Prince","slug":"harry-potter-and-the-half-blood-prince","description":"","mgid":"mgid:aodb:term:mtv:82550","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":86596,"label":"Harry Potter and the Deathly Hallows, Part 2","slug":"harry-potter-and-the-deathly-hallows-part-2-2","description":"","mgid":"mgid:aodb:term:mtv:86596","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":86597,"label":"Harry Potter and the Deathly Hallows, Part 1","slug":"harry-potter-and-the-deathly-hallows-part-1-2","description":"","mgid":"mgid:aodb:term:mtv:86597","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":72862,"label":"Rupert Grint","slug":"rupert-grint","description":null,"mgid":"mgid:aodb:term:mtv:72862","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":72882,"label":"Daniel Radcliffe","slug":"daniel-radcliffe","description":null,"mgid":"mgid:aodb:term:mtv:72882","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":83057,"label":"Jason Isaacs","slug":"jason-isaacs","description":null,"mgid":"mgid:aodb:term:mtv:83057","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"}],
+    		    "dateCreated": "2018-01-20T02:03:51+00:00",
+    		    "author": "Alissa Schulman"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3059610" data-taxonomy="category:movies" class="post " >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3059610/daniel-radcliffe-drug-mule-beast-of-burden-trailer/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:263739?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy  ">
+    		                <a href="http://www.mtv.com/news/movies/">
+    		                    Movies
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3059610/daniel-radcliffe-drug-mule-beast-of-burden-trailer/">
+    		          <span>                  Daniel Radcliffe Is A Drug Mule In The First Trailer For 'Beast Of Burden'
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            He must side with either the cartel or the DEA
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2016/07/no_author_photo_250x250-1468514818.png?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/schulmana/" rel="author" class="author">Alissa Schulman</a>
+    		                    <time datetime="2018-01-19 19:01">01/19/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3059610",
+    		    "title": "Daniel Radcliffe Is A Drug Mule In The First Trailer For <em>Beast Of Burden</em>",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":86595,"label":"Beast of Burden","slug":"beast-of-burden","description":null,"mgid":"mgid:aodb:term:mtv:86595","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":72882,"label":"Daniel Radcliffe","slug":"daniel-radcliffe","description":null,"mgid":"mgid:aodb:term:mtv:72882","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"}],
+    		    "dateCreated": "2018-01-20T00:01:22+00:00",
+    		    "author": "Alissa Schulman"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3059550" data-taxonomy="category:movies" class="post " >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3059550/rian-johnson-star-wars-last-jedi-force-question-answer/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:263688?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy  ">
+    		                <a href="http://www.mtv.com/news/movies/">
+    		                    Movies
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3059550/rian-johnson-star-wars-last-jedi-force-question-answer/">
+    		          <span>                  <i>Last Jedi</i> Director Rian Johnson Just Answered A <i>Star Wars</i> Question You Probably Had
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            The director shuts down his Forcesplaining critics in a series of tweets
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2017/05/headshot-med-1495221420.png?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/bellcr/" rel="author" class="author">Crystal Bell</a>
+    		                        <a href="https://twitter.com/crystalbell" class="twitter" target="twitter"><span class="handle">crystalbell</span></a>
+    		                    <time datetime="2018-01-19 15:07">01/19/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3059550",
+    		    "title": "<i>Last Jedi</i> Director Rian Johnson Just Answered A <i>Star Wars</i> Question You Probably Had",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":83713,"label":"Star Wars: The Last Jedi","slug":"star-wars-the-last-jedi","description":null,"mgid":"mgid:aodb:term:mtv:83713","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":79192,"label":"Rian Johnson","slug":"rian-johnson","description":null,"mgid":"mgid:aodb:term:mtv:79192","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"}],
+    		    "dateCreated": "2018-01-19T20:07:42+00:00",
+    		    "author": "Crystal Bell"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3059326" data-taxonomy="category:movies" class="post " >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3059326/dylan-minnette-netflix-the-open-house/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:263643?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy  ">
+    		                <a href="http://www.mtv.com/news/movies/">
+    		                    Movies
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3059326/dylan-minnette-netflix-the-open-house/">
+    		          <span>                  Dylan Minnette Explains How His 'Dark' New Thriller Is Nothing Like <em>13 Reasons Why</em>
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            'The Open House' is 'intense' and 'very, very different'
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2016/07/no_author_photo_250x250-1468514818.png?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/schulmana/" rel="author" class="author">Alissa Schulman</a>
+    		                    <time datetime="2018-01-19 10:37">01/19/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3059326",
+    		    "title": "Dylan Minnette Explains How His 'Dark' New Thriller Is Nothing Like <em>13 Reasons Why</em>",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83282,"label":"Feature","slug":"feature","description":"In-depth, researched pieces (e.g. Cover Stories, a list of top movie scenes).","mgid":"mgid:aodb:term:mtv:83282","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":84114,"label":"13 Reasons Why [TV Series]","slug":"13-reasons-why-tv-series","description":null,"mgid":"mgid:aodb:term:mtv:84114","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":83666,"label":"Dylan Minnette","slug":"dylan-minnette","description":null,"mgid":"mgid:aodb:term:mtv:83666","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"}],
+    		    "dateCreated": "2018-01-19T15:37:40+00:00",
+    		    "author": "Alissa Schulman"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3059315" data-taxonomy="category:movies" class="post " >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3059315/zac-efron-ted-bundy-first-look/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:263583?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy  ">
+    		                <a href="http://www.mtv.com/news/movies/">
+    		                    Movies
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3059315/zac-efron-ted-bundy-first-look/">
+    		          <span>                  Zac Efron Is Serial Killer Ted Bundy In <i>Extremely Wicked</i> First Look
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            You can't unsee this
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2017/05/headshot-med-1495221420.png?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/bellcr/" rel="author" class="author">Crystal Bell</a>
+    		                        <a href="https://twitter.com/crystalbell" class="twitter" target="twitter"><span class="handle">crystalbell</span></a>
+    		                    <time datetime="2018-01-18 14:41">01/18/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3059315",
+    		    "title": "Zac Efron Is Serial Killer Ted Bundy In <i>Extremely Wicked</i> First Look",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":73831,"label":"Zac Efron","slug":"zac-efron","description":null,"mgid":"mgid:aodb:term:mtv:73831","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"}],
+    		    "dateCreated": "2018-01-18T19:41:59+00:00",
+    		    "author": "Crystal Bell"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3059166" data-taxonomy="category:movies" class="post " >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3059166/deadpool-betty-white-happy-birthday/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:263525?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy  ">
+    		                <a href="http://www.mtv.com/news/movies/">
+    		                    Movies
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3059166/deadpool-betty-white-happy-birthday/">
+    		          <span>                  <em>Deadpool</em> Wishes Betty White A Happy Birthday In The Most <em>Deadpool</em> Way Possible
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            He toasted the 96-year-old with 'Tinis and Weenies'
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2016/07/no_author_photo_250x250-1468514818.png?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/schulmana/" rel="author" class="author">Alissa Schulman</a>
+    		                    <time datetime="2018-01-17 19:18">01/17/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3059166",
+    		    "title": "<em>Deadpool</em> Wishes Betty White A Happy Birthday In The Most <em>Deadpool</em> Way Possible",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":77072,"label":"Deadpool","slug":"deadpool","description":null,"mgid":"mgid:aodb:term:mtv:77072","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":77456,"label":"The Golden Girls [TV Series]","slug":"the-golden-girls-tv-series","description":null,"mgid":"mgid:aodb:term:mtv:77456","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":79000,"label":"Deadpool 2","slug":"deadpool-2","description":null,"mgid":"mgid:aodb:term:mtv:79000","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":73213,"label":"Ryan Reynolds","slug":"ryan-reynolds","description":null,"mgid":"mgid:aodb:term:mtv:73213","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":79715,"label":"Betty White","slug":"betty-white","description":null,"mgid":"mgid:aodb:term:mtv:79715","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":82754,"label":"Bea Arthur","slug":"bea-arthur","description":null,"mgid":"mgid:aodb:term:mtv:82754","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"}],
+    		    "dateCreated": "2018-01-18T00:18:48+00:00",
+    		    "author": "Alissa Schulman"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3059010" data-taxonomy="category:movies" class="post " >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3059010/finn-wolfhard-ansel-elgort-cast-the-goldfinch/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:263377?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy  ">
+    		                <a href="http://www.mtv.com/news/movies/">
+    		                    Movies
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3059010/finn-wolfhard-ansel-elgort-cast-the-goldfinch/">
+    		          <span>                  Finn Wolfhard And Ansel Elgort Are Officially Joining Forces On The Big Screen
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            The Fault In Our Stranger Things? Baby It?
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2016/07/no_author_photo_250x250-1468514818.png?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/schulmana/" rel="author" class="author">Alissa Schulman</a>
+    		                    <time datetime="2018-01-16 20:10">01/16/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3059010",
+    		    "title": "Finn Wolfhard And Ansel Elgort Are Officially Joining Forces On The Big Screen",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":86590,"label":"The Goldfinch","slug":"the-goldfinch","description":null,"mgid":"mgid:aodb:term:mtv:86590","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":74596,"label":"Ansel Elgort","slug":"ansel-elgort","description":null,"mgid":"mgid:aodb:term:mtv:74596","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":84023,"label":"Finn Wolfhard","slug":"finn-wolfhard","description":null,"mgid":"mgid:aodb:term:mtv:84023","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"}],
+    		    "dateCreated": "2018-01-17T01:10:57+00:00",
+    		    "author": "Alissa Schulman"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3058583" data-taxonomy="category:movies" class="post " >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3058583/chris-pratt-dwayne-johnson-jumanji-twitter/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:263213?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy  ">
+    		                <a href="http://www.mtv.com/news/movies/">
+    		                    Movies
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3058583/chris-pratt-dwayne-johnson-jumanji-twitter/">
+    		          <span>                  Chris Pratt And Dwayne Johnson Just Squeed Over <em>Jumanji</em> Together
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            Proof that people can be nice on the internet!!!
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2017/05/hil-hughes-250-1495648696.jpg?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/hugheshi/" rel="author" class="author">Hilary Hughes</a>
+    		                        <a href="https://twitter.com/hilmonstah" class="twitter" target="twitter"><span class="handle">hilmonstah</span></a>
+    		                    <time datetime="2018-01-14 17:41">01/14/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3058583",
+    		    "title": "Chris Pratt And Dwayne Johnson Just Squeed Over <em>Jumanji</em> Together",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":84393,"label":"Jumanji: Welcome to the Jungle","slug":"jumanji-welcome-to-the-jungle","description":null,"mgid":"mgid:aodb:term:mtv:84393","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":74681,"label":"Chris Pratt","slug":"chris-pratt","description":null,"mgid":"mgid:aodb:term:mtv:74681","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":86588,"label":"Dwayne Johnson-Cochran","slug":"dwayne-johnson-cochran","description":null,"mgid":"mgid:aodb:term:mtv:86588","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"}],
+    		    "dateCreated": "2018-01-14T22:41:23+00:00",
+    		    "author": "Hilary Hughes"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3058532" data-taxonomy="category:movies" class="post " >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3058532/michelle-williams-mark-wahlberg-times-up-donation-response/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:263198?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy  ">
+    		                <a href="http://www.mtv.com/news/movies/">
+    		                    Movies
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3058532/michelle-williams-mark-wahlberg-times-up-donation-response/">
+    		          <span>                  Michelle Williams Responds To Mark Wahlberg's Time's Up Donation: 'Today Isn't About Me'
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            'My fellow actresses stood by me and stood up for me'
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2017/05/hil-hughes-250-1495648696.jpg?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/hugheshi/" rel="author" class="author">Hilary Hughes</a>
+    		                        <a href="https://twitter.com/hilmonstah" class="twitter" target="twitter"><span class="handle">hilmonstah</span></a>
+    		                    <time datetime="2018-01-14 12:37">01/14/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3058532",
+    		    "title": "Michelle Williams Responds To Mark Wahlberg's Time's Up Donation: 'Today Isn't About Me'",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":84633,"label":"All the Money in the World","slug":"all-the-money-in-the-world","description":null,"mgid":"mgid:aodb:term:mtv:84633","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":72668,"label":"Mark Wahlberg","slug":"mark-wahlberg","description":null,"mgid":"mgid:aodb:term:mtv:72668","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":74006,"label":"Michelle Williams","slug":"michelle-williams","description":null,"mgid":"mgid:aodb:term:mtv:74006","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"}],
+    		    "dateCreated": "2018-01-14T17:37:53+00:00",
+    		    "author": "Hilary Hughes"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3058496" data-taxonomy="category:movies" class="post " >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3058496/mark-wahlberg-michelle-williams-times-up-legal-defense-fund/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:263176?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy  ">
+    		                <a href="http://www.mtv.com/news/movies/">
+    		                    Movies
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3058496/mark-wahlberg-michelle-williams-times-up-legal-defense-fund/">
+    		          <span>                  Mark Wahlberg Will Donate His <em>All The Money In The World</em> Reshoot Salary To Time's Up
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            'I 100% support the right to fair pay'
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2017/05/hil-hughes-250-1495648696.jpg?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/hugheshi/" rel="author" class="author">Hilary Hughes</a>
+    		                        <a href="https://twitter.com/hilmonstah" class="twitter" target="twitter"><span class="handle">hilmonstah</span></a>
+    		                    <time datetime="2018-01-13 15:30">01/13/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3058496",
+    		    "title": "Mark Wahlberg Will Donate His <em>All The Money In The World</em> Reshoot Salary To Time's Up",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":84633,"label":"All the Money in the World","slug":"all-the-money-in-the-world","description":null,"mgid":"mgid:aodb:term:mtv:84633","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":72668,"label":"Mark Wahlberg","slug":"mark-wahlberg","description":null,"mgid":"mgid:aodb:term:mtv:72668","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":74006,"label":"Michelle Williams","slug":"michelle-williams","description":null,"mgid":"mgid:aodb:term:mtv:74006","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"}],
+    		    "dateCreated": "2018-01-13T20:30:21+00:00",
+    		    "author": "Hilary Hughes"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3058177" data-taxonomy="category:movies" class="post " >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3058177/daniel-radcliffe-reacts-to-johnny-depp-fantastic-beasts-controversy/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:263129?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy  ">
+    		                <a href="http://www.mtv.com/news/movies/">
+    		                    Movies
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3058177/daniel-radcliffe-reacts-to-johnny-depp-fantastic-beasts-controversy/">
+    		          <span>                  Daniel Radcliffe Reacts To Johnny Depp's <em>Fantastic Beasts</em> Casting Controversy
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            He 'can see why' fans are dissatisfied
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2016/07/no_author_photo_250x250-1468514818.png?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/schulmana/" rel="author" class="author">Alissa Schulman</a>
+    		                    <time datetime="2018-01-12 16:18">01/12/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3058177",
+    		    "title": "Daniel Radcliffe Reacts To Johnny Depp's <em>Fantastic Beasts</em> Casting Controversy",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":76558,"label":"Fantastic Beasts and Where to Find Them","slug":"fantastic-beasts-and-where-to-find-them","description":null,"mgid":"mgid:aodb:term:mtv:76558","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":83487,"label":"Fantastic Beasts and Where to Find Them 2","slug":"fantastic-beasts-and-where-to-find-them-2","description":null,"mgid":"mgid:aodb:term:mtv:83487","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":72697,"label":"Johnny Depp","slug":"johnny-depp","description":null,"mgid":"mgid:aodb:term:mtv:72697","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":72882,"label":"Daniel Radcliffe","slug":"daniel-radcliffe","description":null,"mgid":"mgid:aodb:term:mtv:72882","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"}],
+    		    "dateCreated": "2018-01-12T21:18:11+00:00",
+    		    "author": "Alissa Schulman"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3058157" data-taxonomy="category:movies" class="post " >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3058157/the-summer-of-84-trailer-stranger-things/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:263124?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy  ">
+    		                <a href="http://www.mtv.com/news/movies/">
+    		                    Movies
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3058157/the-summer-of-84-trailer-stranger-things/">
+    		          <span>                  The <i>Summer Of '84</i> Trailer Is Basically <i>Stranger Things</i> With Serial Killers
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            And it looks bitchin'
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2017/05/headshot-med-1495221420.png?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/bellcr/" rel="author" class="author">Crystal Bell</a>
+    		                        <a href="https://twitter.com/crystalbell" class="twitter" target="twitter"><span class="handle">crystalbell</span></a>
+    		                    <time datetime="2018-01-12 15:40">01/12/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3058157",
+    		    "title": "The <i>Summer Of '84</i> Trailer Is Basically <i>Stranger Things</i> With Serial Killers",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":86586,"label":"Judah Lewis","slug":"judah-lewis","description":null,"mgid":"mgid:aodb:term:mtv:86586","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"}],
+    		    "dateCreated": "2018-01-12T20:40:01+00:00",
+    		    "author": "Crystal Bell"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3057904" data-taxonomy="category:movies" class="post " >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3057904/deadpool-2-release-date-may-2018/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:262951?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy  ">
+    		                <a href="http://www.mtv.com/news/movies/">
+    		                    Movies
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3057904/deadpool-2-release-date-may-2018/">
+    		          <span>                  It's Deadpool Vs. The Avengers Vs. Han Solo At The Movies This May
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            Surprise! 'Deadpool 2' gets a new release date.
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2017/05/headshot-med-1495221420.png?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/bellcr/" rel="author" class="author">Crystal Bell</a>
+    		                        <a href="https://twitter.com/crystalbell" class="twitter" target="twitter"><span class="handle">crystalbell</span></a>
+    		                    <time datetime="2018-01-11 18:20">01/11/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3057904",
+    		    "title": "It's Deadpool Vs. The Avengers Vs. Han Solo At The Movies This May",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":79000,"label":"Deadpool 2","slug":"deadpool-2","description":null,"mgid":"mgid:aodb:term:mtv:79000","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":73213,"label":"Ryan Reynolds","slug":"ryan-reynolds","description":null,"mgid":"mgid:aodb:term:mtv:73213","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"}],
+    		    "dateCreated": "2018-01-11T23:20:16+00:00",
+    		    "author": "Crystal Bell"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3057670" data-taxonomy="category:movies" class="post " >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3057670/marvel-black-widow-stand-alone-movie-finally-happening/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:262824?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy  ">
+    		                <a href="http://www.mtv.com/news/movies/">
+    		                    Movies
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3057670/marvel-black-widow-stand-alone-movie-finally-happening/">
+    		          <span>                  The <em>Black Widow</em> Movie Just Got One Step Closer To Actually Happening
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            This is not a drill
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2016/07/no_author_photo_250x250-1468514818.png?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/schulmana/" rel="author" class="author">Alissa Schulman</a>
+    		                    <time datetime="2018-01-10 20:35">01/10/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3057670",
+    		    "title": "The <em>Black Widow</em> Movie Just Got One Step Closer To Actually Happening",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":76073,"label":"Iron Man 2","slug":"iron-man-2","description":null,"mgid":"mgid:aodb:term:mtv:76073","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":76320,"label":"Marvel's The Avengers","slug":"marvels-the-avengers","description":null,"mgid":"mgid:aodb:term:mtv:76320","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":76477,"label":"Captain America: The Winter Soldier","slug":"captain-america-the-winter-soldier","description":null,"mgid":"mgid:aodb:term:mtv:76477","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":81012,"label":"Captain America: Civil War","slug":"captain-america-civil-war","description":null,"mgid":"mgid:aodb:term:mtv:81012","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":82846,"label":"Avengers: Age of Ultron","slug":"avengers-age-of-ultron","description":"","mgid":"mgid:aodb:term:mtv:82846","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":83127,"label":"Avengers: Infinity War","slug":"avengers-infinity-war","description":null,"mgid":"mgid:aodb:term:mtv:83127","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":73239,"label":"Scarlett Johansson","slug":"scarlett-johansson","description":null,"mgid":"mgid:aodb:term:mtv:73239","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":79930,"label":"Kevin Feige","slug":"kevin-feige","description":null,"mgid":"mgid:aodb:term:mtv:79930","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"}],
+    		    "dateCreated": "2018-01-11T01:35:16+00:00",
+    		    "author": "Alissa Schulman"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3057571" data-taxonomy="category:movies" class="post " >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3057571/lupita-nyongo-black-panther-pre-sale-box-office/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:262787?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy  ">
+    		                <a href="http://www.mtv.com/news/movies/">
+    		                    Movies
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3057571/lupita-nyongo-black-panther-pre-sale-box-office/">
+    		          <span>                  Even Lupita Nyong'o Can't Get <em>Black Panther</em> Tickets
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            Marvel's next blockbuster just became a pre-sale champion, so get your tickets fast — if you can!
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2017/05/hil-hughes-250-1495648696.jpg?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/hugheshi/" rel="author" class="author">Hilary Hughes</a>
+    		                        <a href="https://twitter.com/hilmonstah" class="twitter" target="twitter"><span class="handle">hilmonstah</span></a>
+    		                    <time datetime="2018-01-10 15:44">01/10/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3057571",
+    		    "title": "Even Lupita Nyong'o Can't Get <em>Black Panther</em> Tickets",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":77238,"label":"Black Panther","slug":"black-panther","description":null,"mgid":"mgid:aodb:term:mtv:77238","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":74610,"label":"Lupita Nyong'o","slug":"lupita-nyongo","description":null,"mgid":"mgid:aodb:term:mtv:74610","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"}],
+    		    "dateCreated": "2018-01-10T20:44:30+00:00",
+    		    "author": "Hilary Hughes"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3057424" data-taxonomy="category:movies" class="post " >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3057424/millie-bobby-brown-enola-brown-mysteries/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:262719?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy  ">
+    		                <a href="http://www.mtv.com/news/movies/">
+    		                    Movies
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3057424/millie-bobby-brown-enola-brown-mysteries/">
+    		          <span>                  Millie Bobby Brown Is Going To Be The Female Sherlock Holmes
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            She'll play Sherlock's younger sister, Enola
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2016/07/no_author_photo_250x250-1468514818.png?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/schulmana/" rel="author" class="author">Alissa Schulman</a>
+    		                    <time datetime="2018-01-09 19:03">01/09/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3057424",
+    		    "title": "Millie Bobby Brown Is Going To Be The Female Sherlock Holmes",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"}],
+    		    "dateCreated": "2018-01-10T00:03:56+00:00",
+    		    "author": "Alissa Schulman"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3057414" data-taxonomy="category:movies" class="post " >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3057414/bill-skarsgard-pennywise-nightmares/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:233456?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy  ">
+    		                <a href="http://www.mtv.com/news/movies/">
+    		                    Movies
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3057414/bill-skarsgard-pennywise-nightmares/">
+    		          <span>                  Of Course Bill Skarsgård Still Has Nightmares About <i>It</i>'s Pennywise
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            You did this to yourself, Billy Boy
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2017/05/headshot-med-1495221420.png?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/bellcr/" rel="author" class="author">Crystal Bell</a>
+    		                        <a href="https://twitter.com/crystalbell" class="twitter" target="twitter"><span class="handle">crystalbell</span></a>
+    		                    <time datetime="2018-01-09 18:18">01/09/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3057414",
+    		    "title": "Of Course Bill Skarsgård Still Has Nightmares About <i>It</i>'s Pennywise",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":84355,"label":"Bill Skarsgård","slug":"bill-skarsgard","description":null,"mgid":"mgid:aodb:term:mtv:84355","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":83068,"label":"It","slug":"it","description":null,"mgid":"mgid:aodb:term:mtv:83068","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"}],
+    		    "dateCreated": "2018-01-09T23:18:47+00:00",
+    		    "author": "Crystal Bell"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3057242" data-taxonomy="event:golden-globes" class="post  golden-globes" >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3057242/david-harbour-hellboy-singing/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:262579?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy tier_one  ">
+    		                <a href="http://www.mtv.com/news/event/golden-globes/">
+    		                    Golden Globes
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3057242/david-harbour-hellboy-singing/">
+    		          <span>                  David Harbour Says He Might Be Doing Some 'Crooning' In <i>Hellboy</i>
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            'It was the hardest job I've ever done'
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2017/05/headshot-med-1495221420.png?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/bellcr/" rel="author" class="author">Crystal Bell</a>
+    		                        <a href="https://twitter.com/crystalbell" class="twitter" target="twitter"><span class="handle">crystalbell</span></a>
+    		                    <time datetime="2018-01-09 17:16">01/09/2018</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3057242",
+    		    "title": "David Harbour Says He Might Be Doing Some 'Crooning' In <i>Hellboy</i>",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"event","description":null,"id":74,"name":"event","terms":[{"modifiedDate":null,"id":66315,"label":"Golden Globes","slug":"golden-globes","description":"","mgid":"mgid:aodb:term:mtv:66315","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"event","tierOne":true},{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":84436,"label":"David Harbour","slug":"david-harbour","description":null,"mgid":"mgid:aodb:term:mtv:84436","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":74934,"label":"Hellboy","slug":"hellboy","description":null,"mgid":"mgid:aodb:term:mtv:74934","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"}],
+    		    "dateCreated": "2018-01-09T22:16:20+00:00",
+    		    "author": "Crystal Bell"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+  
+    <button class="btn more"><a href="http://www.mtv.com/news/category/movies/?start=2&size=24"></a></button></section>
+
+</main>
+
+<footer class="site-footer hide" role="contentinfo">
+<div class="sub-footer">
+  <div class="icon-logo-mtv-container">
+    <a href="http://www.mtv.com/news" target="_blank" class="icon-logo">
+    </a>
+  </div>
+  <div class="about-archive-container">
+    <span class="about"><a href="http://www.mtv.com/news/about/">ABOUT</a></span>
+    <span class="archive"><a href="http://www.mtv.com/news/archive/">ARCHIVE</a></span>
+  </div>
+  <div class = "line"></div>
+  <div class="icons">
+     <ul class="list">
+        <li class="list_item">
+          <a href="http://www.facebook.com/mtvnews/" target="_blank" title="facebook" class="facebook"></a>
+        </li>
+        <li class="list_item">
+          <a href="https://twitter.com/MTVNews" target="_blank" title="twitter" class="twitter"></a>
+        </li>
+        <li class="list_item">
+          <a href="https://www.instagram.com/mtvnews" target="_blank" title="instagram" class="instagram"></a>
+        </li>
+        <li class="list_item">
+          <a href="https://www.youtube.com/channel/UCAUO8EhsSTz02stvKDupChQ" target="_blank" title="youtube" class="icon-youtube">
+         </a>
+        </li>
+         <li class="list_item">
+          <a href="http://www.mtv.com/news/newsletter/" target="_blank" title="newsletter" class="newsletter-icon"></a>
+        </li>
+      </ul>
+  </div>
+</div>
+<div class="ent_m006">
+    <ul class="list"><li class="list_item"><a href="http://www.mtv.com/legal/frequently-asked-questions" target="_blank" title="FAQ/Help" class="faq_help">FAQ/Help</a></li><li class="list_item"><a href="http://www.viacomcareers.com/" target="_blank" title="Jobs" class="jobs">Jobs</a></li><li class="list_item"><a href="http://www.mtv.com/legal/terms" target="_blank" title="Terms of Use [Updated 3/14/2017]" class="terms_of_use__updated_3_14_2017_">Terms of Use [Updated 3/14/2017]</a></li><li class="list_item"><a href="http://www.mtv.com/legal/privacy" target="_blank" title="Privacy Policy/Privacy Rights [Updated 6/22/2017]" class="privacy_policy_privacy_rights__updated_6_22_2017_">Privacy Policy/Privacy Rights [Updated 6/22/2017]</a></li><li class="list_item"><a href="http://www.mtv.com/legal/copyright" target="_blank" title="Copyright" class="copyright">Copyright</a></li><li class="list_item"><a href="http://mainevents.mtvn.com/accessibility/" target="_blank" title="Closed Captioning" class="closed_captioning">Closed Captioning</a></li><li class="list_item"><a href="http://srp.viacom.com/sitefaq.html" target="_blank" title="Ad Choices" class="ad_choices">Ad Choices</a></li></ul><ul class="list"><li class="list_item"><a href="http://www.facebook.com/MTV" target="_blank" title="facebook" class="facebook">facebook</a></li><li class="list_item"><a href="https://twitter.com/MTV" target="_blank" title="Twitter" class="twitter">Twitter</a></li><li class="list_item"><a href="http://mtv.tumblr.com/" target="_blank" title="Tumblr" class="tumblr">Tumblr</a></li><li class="list_item"><a href="http://instagram.com/mtv" target="_blank" title="Instagram" class="instagram">Instagram</a></li><li class="list_item"><a href="https://vine.co/MTV" target="_blank" title="Vine" class="vine">Vine</a></li></ul><div class="logo"></div><p class="copyright">&#169; 2018 Viacom International Inc. All Rights Reserved. MTV and all related titles and logos are trademarks of Viacom International Inc.</p>
+</div>
+</footer>
+<script src="http://www.mtv.com/news/assets/main.9707255056ea4e978149.js" type="text/javascript" async></script>
+
+<script type="application/json" id="site-nav-object">{"envelope":{"version":"1.0","name":"entertainment-standard-json"},"status":{"text":"OK","code":100},"result":{"promo":{"shortId":"p3phba","displayType":"default","promoType":"ENT_M066","headline":"","images":[],"subHeadline":"","url":"","additionalPromoMetadata":[],"copy":"","tuneIn":"","parameters":[],"links":[]},"siteNavigation":[{"title":"Shows","url":"http://www.mtv.com/shows","entries":[{"title":"Full Episodes","url":"http://www.mtv.com/full-episodes"},{"title":"Shows A-Z","url":"http://www.mtv.com/shows"},{"title":"TV Schedule","url":"http://www.mtv.com/tv-schedule"},{"title":"Shows News","url":"http://www.mtv.com/news/collection/mtv-shows/"},{"title":"MTV App","url":"http://www.mtv.com/app"},{"title":"Amazingness","url":"http://www.mtv.com/shows/amazingness"},{"title":"Are You The One?","url":"http://www.mtv.com/shows/are-you-the-one"},{"title":"Catfish: The TV Show","url":"http://www.mtv.com/shows/catfish-the-tv-show"},{"title":"The Challenge: Champs vs. Stars","url":"http://www.mtv.com/shows/champs-vs-stars"},{"title":"The Challenge: Vendettas","url":"http://www.mtv.com/shows/vendettas"},{"title":"Fear Factor","url":"http://www.mtv.com/shows/fear-factor"},{"title":"MTV Floribama Shore","url":"http://www.mtv.com/shows/floribama"},{"title":"Ridiculousness","url":"http://www.mtv.com/shows/ridiculousness"},{"title":"Siesta Key","url":"http://www.mtv.com/shows/siesta-key"},{"title":"Teen Mom","url":"http://www.mtv.com/shows/teen-mom"},{"title":"TRL","url":"http://trl.mtv.com/"},{"title":"Wild 'n Out","url":"http://www.mtv.com/shows/nick-cannon-presents-wild-n-out"},{"title":"Music From The Shows","url":"http://soundtrack.mtv.com"},{"title":"Casting Calls","url":"http://www.mtv.com/casting-calls"},{"title":"MTV2","url":"http://www.mtv.com/mtv2"}]},{"title":"Music","url":"http://www.mtv.com/music"},{"title":"News","url":"http://www.mtv.com/news/","entries":[{"title":"Latest News","url":"http://www.mtv.com/news/"},{"title":"Music","url":"http://www.mtv.com/news/music/"},{"title":"Celebrity","url":"http://www.mtv.com/news/celebrity/"},{"title":"TV","url":"http://www.mtv.com/news/tv/"},{"title":"Movies","url":"http://www.mtv.com/news/movies/"},{"title":"Style","url":"http://www.mtv.com/news/style/"},{"title":"Politics","url":"http://www.mtv.com/news/politics/"},{"title":"Life","url":"http://www.mtv.com/news/life/"},{"title":"Podcasts","url":"http://www.mtv.com/news/podcasts/"}]},{"title":"Watch Live TV","url":"http://www.mtv.com/live-tv"}],"socialHandlers":{"facebook":"http://www.facebook.com/MTV","twitter":"https://twitter.com/MTV","tumblr":"http://mtv.tumblr.com/"}},"messages":{}}</script><ul id="seo-nav">
+  <li><a href="http://www.mtv.com/shows">Shows</a>
+      <li class="sub_entries"><ul>
+        <li><a href="http://www.mtv.com/full-episodes">Full Episodes</a>
+        <li><a href="http://www.mtv.com/shows">Shows A-Z</a>
+        <li><a href="http://www.mtv.com/tv-schedule">TV Schedule</a>
+        <li><a href="http://www.mtv.com/news/collection/mtv-shows/">Shows News</a>
+        <li><a href="http://www.mtv.com/app">MTV App</a>
+        <li><a href="http://www.mtv.com/shows/amazingness">Amazingness</a>
+        <li><a href="http://www.mtv.com/shows/are-you-the-one">Are You The One?</a>
+        <li><a href="http://www.mtv.com/shows/catfish-the-tv-show">Catfish: The TV Show</a>
+        <li><a href="http://www.mtv.com/shows/champs-vs-stars">The Challenge: Champs vs. Stars</a>
+        <li><a href="http://www.mtv.com/shows/vendettas">The Challenge: Vendettas</a>
+        <li><a href="http://www.mtv.com/shows/fear-factor">Fear Factor</a>
+        <li><a href="http://www.mtv.com/shows/floribama">MTV Floribama Shore</a>
+        <li><a href="http://www.mtv.com/shows/ridiculousness">Ridiculousness</a>
+        <li><a href="http://www.mtv.com/shows/siesta-key">Siesta Key</a>
+        <li><a href="http://www.mtv.com/shows/teen-mom">Teen Mom</a>
+        <li><a href="http://trl.mtv.com/">TRL</a>
+        <li><a href="http://www.mtv.com/shows/nick-cannon-presents-wild-n-out">Wild 'n Out</a>
+        <li><a href="http://soundtrack.mtv.com">Music From The Shows</a>
+        <li><a href="http://www.mtv.com/casting-calls">Casting Calls</a>
+        <li><a href="http://www.mtv.com/mtv2">MTV2</a>
+      </ul></li>
+  </li>
+  <li><a href="http://www.mtv.com/music">Music</a>
+  </li>
+  <li><a href="http://www.mtv.com/news/">News</a>
+      <li class="sub_entries"><ul>
+        <li><a href="http://www.mtv.com/news/">Latest News</a>
+        <li><a href="http://www.mtv.com/news/music/">Music</a>
+        <li><a href="http://www.mtv.com/news/celebrity/">Celebrity</a>
+        <li><a href="http://www.mtv.com/news/tv/">TV</a>
+        <li><a href="http://www.mtv.com/news/movies/">Movies</a>
+        <li><a href="http://www.mtv.com/news/style/">Style</a>
+        <li><a href="http://www.mtv.com/news/politics/">Politics</a>
+        <li><a href="http://www.mtv.com/news/life/">Life</a>
+        <li><a href="http://www.mtv.com/news/podcasts/">Podcasts</a>
+      </ul></li>
+  </li>
+  <li><a href="http://www.mtv.com/live-tv">Watch Live TV</a>
+  </li>
+</ul>
+
+<script type='text/javascript'>
+
+  var _nanData = {
+    appId: '526869',
+    sku: '/news/movies/wp-content/uploads/2011/12/michael-vartan500x300.jpg'
+  };
+
+  NaN_api = [
+    [_nanData.appId, ''],
+    ['visit', 'landing', 0, {
+      'sku': _nanData.sku
+    }]
+  ];
+
+  (function() {
+    var h = document.getElementsByTagName('head')[0];
+
+    var m = document.createElement('meta');
+    m.id = 'nanigans-meta';
+    m.content = JSON.stringify(_nanData);
+    h.appendChild(m);
+
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = '//cdn.nanigans.com/NaN_tracker.js';
+    h.appendChild(s);
+  })();
+
+</script>
+<script type='text/javascript'>
+if (typeof MTVN == 'undefined') MTVN = {};
+if (typeof MTVN.config == 'undefined') MTVN.config = {};
+if (typeof MTVN.config.btg == 'undefined') MTVN.config.btg = {};
+if (typeof MTVN.config.btg.DoubleClick == 'undefined') MTVN.config.btg.DoubleClick = {};
+if (typeof MTVN.config.btg.Omniture == 'undefined') MTVN.config.btg.Omniture = {};
+if (typeof MTVN.config.btg.Flux == 'undefined') MTVN.config.btg.Flux = {};
+
+MTVN.config.btg.DoubleClick.auto = false;
+MTVN.config.btg.DoubleClick.onDemand = true;
+MTVN.config.btg.Omniture.account = "viamtv";
+MTVN.config.btg.Flux.enabled = false;
+
+var vmn_page_data = {"metadata":{"property":"mtv","is_main":false,"hub":"news"},"mappings":{"ad-unit":{"1":"@property","2":"@hub"},"key-values":{"content_type":"blogs"},"exclusion-categories":"blogs"},"settings":{"reload":true,"reload_interval":60000,"autoRefreshByVisibility":true}};
+</script>
+
+<!-- START Parse.ly Include: Standard -->
+<div id="parsely-root" style="display: none">
+  <span id="parsely-cfg" data-parsely-site="mtv.com"></span>
+</div>
+<script>
+  (function(s, p, d) {
+    var h=d.location.protocol, i=p+"-"+s,
+      e=d.getElementById(i), r=d.getElementById(p+"-root"),
+      u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+      :"static."+p+".com";
+    if (e) return;
+    e = d.createElement(s); e.id = i; e.async = true;
+    e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+  })("script", "parsely", document);
+</script>
+<!-- END Parse.ly Include: Standard -->
+
+<script type='text/javascript'>
+  (function(document, id, tag) {
+    var pollingTime = 50;
+
+    function checkIfReadyToLoadCODA () {
+      if ( typeof Bento === "object" && typeof Bento.version !== "undefined" ) {
+        var scriptTag = document.createElement(tag);
+        var parselyDiv = document.getElementById(id);
+
+        scriptTag.src = 'https://btg.mtvnservices.com/aria/coda.html?site=mtv.com&v=3.22';
+        scriptTag.onload = function() {
+          var evt = new Event('AO:coda:loaded');
+          document.dispatchEvent(evt);
+        }
+
+        parselyDiv.parentNode.appendChild(scriptTag, parselyDiv);
+      } else {
+        setTimeout( checkIfReadyToLoadCODA, pollingTime );
+      }
+    }
+
+    checkIfReadyToLoadCODA();
+  }(document, 'parsely-root', 'script'));
+</script>
+<script src="http://www.mtv.com/media/news-triforce-include.js" type="text/javascript" async></script><div data-zergnet-out-id="57215"></div>
+</div>
+</body>
+</html>
+<!-- PAGEOK -->

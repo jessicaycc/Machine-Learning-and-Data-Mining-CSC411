@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>404访问错误</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<meta http-equiv="refresh" content="5;url=http://www.hwhr.cn"/>
+<style>
+body{margin:0px;background:url(http://www.hwhr.cn/images/404_img.png) center 100px no-repeat;font-size:12px;font-family:'微软雅黑';color:#39434d;}
+#box_404{position:relative; width:}
+.text_404 a{margin:0px 8px;font-family:'宋体'; color:#39434d;text-decoration:none;}
+.text_404{margin-top:600px; text-align:center;}
+.text_404_1{font-size:48px;color:#fff; position:absolute;top:400px;left:50%;margin-left:-140px;font-weight:bold;}
+.back_404{position:absolute;top:490px;left:50%;margin-left:-12px; font-weight:bold;}
+</style>
+</head>
+
+<body>
+	<div class="back_404">
+    	<span>五秒钟后自动</span><br />
+        <a style="color:#2f7a99;line-height:20px;" href="http://www.hwhr.cn">返回首页</a>
+    </div>
+    <div class="text_404">
+		<a href="http://www.hwhr.cn/qiuzhi/">重庆找工作</a>|<a href="http://www.hwhr.cn/zhaopinhui/">重庆人才市场</a>|<a href="http://www.hwhr.cn/school/">校园招聘</a>|<a href="http://www.hwhr.cn/zph/xiajiaohui/8.html">南坪会展中心</a>|<a href="http://www.hwhr.cn/zhichang/">职场指南</a>    
+    </div>
+    <div class="text_404_1">
+    	<span>哎呀！出错了！</span>
+    </div>
+</body>
+</html>

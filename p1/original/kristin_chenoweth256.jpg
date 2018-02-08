@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchBucket</Code><Message>The specified bucket does not exist</Message><BucketName>cmi-niche</BucketName><RequestId>9110DFCAB988801A</RequestId><HostId>74J9urqm6lNgxy957iwgXeIYierIAopmcBw+AXwuhjeTme7zLdUlo6WFx97WCsJoMwi/RKjME2E=</HostId></Error>

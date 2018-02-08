@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+<head>
+    <title>Page Not Found | The Stage</title>
+    <meta charset="UTF-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="fb:pages" content="7383655823" />
+    <link rel="pingback" href="https://www.thestage.co.uk/xmlrpc.php" />
+    <meta name="referrer" content="always" />
+
+    <link rel="icon" type="image/png" href="https://cdn.thestage.co.uk/wp-content/uploads/2015/03/The-Stage-favicon2.png"><link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://cdn.thestage.co.uk/wp-content/uploads/2015/12/touch-icon-ipad1.png"/><script>
+// don't show page in an iframe
+if ( window.location !== window.parent.location ) { 
+  // redirect parent
+  window.parent.location = document.location; 
+  // prevent browsers from loading document
+  if (window.stop !== undefined ) { window.stop(); }
+  else { document.execCommand('Stop'); }
+}
+</script>
+
+<!-- This site is optimized with the Yoast SEO plugin v5.4.2 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="noindex,follow"/>
+<link rel="publisher" href="https://plus.google.com/+thestage"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="object" />
+<meta property="og:title" content="Page Not Found | The Stage" />
+<meta property="og:site_name" content="The Stage" />
+<meta property="og:image" content="http://beta.thestage.co.uk/wp-content/themes/stage_wp_hybrid/assets/TheStageLogo/fb_fallback_picture.jpg" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Page Not Found | The Stage" />
+<meta name="twitter:site" content="@TheStage" />
+<meta name="twitter:image" content="http://beta.thestage.co.uk/wp-content/themes/stage_wp_hybrid/assets/TheStageLogo/fb_fallback_picture.jpg" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/www.thestage.co.uk\/","name":"The Stage","potentialAction":{"@type":"SearchAction","target":"https:\/\/www.thestage.co.uk\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="The Stage &raquo; Feed" href="https://www.thestage.co.uk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Stage &raquo; Comments Feed" href="https://www.thestage.co.uk/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.thestage.co.uk\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.3"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+
+
+
+
+
+<link rel='https://api.w.org/' href='https://www.thestage.co.uk/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.thestage.co.uk/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.thestage.co.uk/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.8.3" />
+<!--[if lt IE 9]><script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://www.thestage.co.uk/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="https://www.thestage.co.uk/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]--><style>body {visibility:hidden;}</style>
+<!-- JS generated by theme -->
+
+<script>
+    
+
+var td_blocks = []; //here we store all the items for the current page
+
+//td_block class - each ajax block uses a object of this class for requests
+function td_block() {
+    this.id = '';
+    this.block_type = 1; //block type id (1-234 etc)
+    this.atts = '';
+    this.td_cur_cat = '';
+    this.td_column_number = '';
+    this.td_current_page = 1; //
+    this.post_count = 0; //from wp
+    this.found_posts = 0; //from wp
+    this.max_num_pages = 0; //from wp
+    this.is_ajax_running = false;
+    this.header_color = '';
+    this.ajax_pagination_infinite_stop = ''; //show load more at page x
+}
+
+    
+var td_ad_background_click_link="";
+var td_ad_background_click_target="";
+var td_ajax_url="https://www.thestage.co.uk/wp-admin/admin-ajax.php";
+var td_get_template_directory_uri="https://www.thestage.co.uk/wp-content/themes/Newspaper";
+var tds_snap_menu="smart_snap_always";
+var tds_header_style="";
+var tds_mobile_swipe="";
+var td_search_url="https://www.thestage.co.uk/search/";
+var td_please_wait="Please wait...";
+var td_email_user_pass_incorrect="User or password incorrect!";
+var td_email_user_incorrect="Email or username incorrect!";
+var td_email_incorrect="Email incorrect!";
+var tds_more_articles_on_post_enable="";
+var tds_more_articles_on_post_time_to_wait="";
+var tds_more_articles_on_post_pages_distance_from_top="0";
+var tds_theme_color_site_wide="#4db2ec";
+</script>
+
+<script src="//8e6e36b3b6424b0cb37f171f125d3e9e.js.ubembed.com" async></script><link rel="icon" href="https://cdn.thestage.co.uk/wp-content/uploads/2017/11/22103103/cropped-siteicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://cdn.thestage.co.uk/wp-content/uploads/2017/11/22103103/cropped-siteicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://cdn.thestage.co.uk/wp-content/uploads/2017/11/22103103/cropped-siteicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://cdn.thestage.co.uk/wp-content/uploads/2017/11/22103103/cropped-siteicon-270x270.png" />
+<!-- Google Analytics -->
+<script>
+var ts_custom_dimensions = {};
+
+if (document.cookie.indexOf('thestage_subscriber=true') != -1) {
+  // When subscriber cookie set, set subscriber and loggedin CDs to true
+  ts_custom_dimensions['dimension3'] = true;
+  ts_custom_dimensions['dimension2'] = true;
+} else {
+  // When no subscriber cookie, set subscriber CD to false and test loggedin cookie
+  ts_custom_dimensions['dimension3'] = false;
+
+  document.cookie.indexOf('thestage_logged_in=true') != -1
+    ? ts_custom_dimensions['dimension2'] = true
+    : ts_custom_dimensions['dimension2'] = false;
+}
+
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-78953-8', 'auto', {'allowLinker': true});
+ga('require', 'linker');
+ga('linker:autoLink', ['subscriptions.thestage.co.uk']);
+ga('require', 'displayfeatures');
+ga('require', 'linkid', 'linkid.js');
+ga('send', 'pageview', ts_custom_dimensions);</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
+<!-- Hotjar Tracking Code for www.thestage.co.uk -->
+<script>
+ (function(h,o,t,j,a,r){
+   h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+   h._hjSettings={hjid:78990,hjsv:5};
+   a=o.getElementsByTagName('head')[0];
+   r=o.createElement('script');r.async=1;
+   r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+   a.appendChild(r);
+ })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<!-- End Hotjar Tracking Code for www.thestage.co.uk -->
+<!-- Facebook Tracking -->
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+  _fbq.push(['addPixelId', '1528133074080161']);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1528133074080161&ev=PixelInitialized" /></noscript>
+<!-- End Facebook Tracking -->
+<!-- Google Publisher Tags library -->
+<script async="async" src="https://www.googletagservices.com/tag/js/gpt.js">
+</script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+<!-- End Google Publisher Tags library -->
+<!-- Google Publisher Tags definition/pushing -->
+<script>
+// GPT Slots
+var gptAdSlots = [];
+var articleGptAdSlots = [];
+googletag.cmd.push(function() {
+
+  // Mobile/Tablet/Desktop
+  var mappingLeaderTop = googletag.sizeMapping()
+    .addSize([0,0], [320,50])
+    .addSize([100, 100], [320, 50])             
+    .addSize([767, 400], [728, 90])             
+    .addSize([1050, 200], [[728, 90],[970,90]])
+    .build();
+  
+  var mappingDMPU = googletag.sizeMapping()
+    .addSize([100, 400], [])                                              // NO Mobile
+    .addSize([767,400],[[230,250],[160,600]])                             // Tablet
+    .addSize([1050, 200], [[230,250],[300, 250], [300, 600], [160, 600]]) // Desktop
+    .build();
+
+  var mappingMPU = googletag.sizeMapping()
+    .addSize([100, 480], [])            // No Mobile
+    .addSize([767, 400], [[230, 250]])  // Tablet
+    .addSize([1050, 200], [[300, 250]]) // Desktop
+    .build();
+
+  var handleDeviceReplacement = googletag.sizeMapping()
+    .addSize([100,480], [300,250])  // Mobile
+    .addSize([767, 400], [])        // No Tablet && Desktop        
+    .build();    
+
+  // Change priority: [300,600] has more priority than [300,250] 
+  var handleDeviceReplacementDMPU = googletag.sizeMapping()
+    .addSize([100,480], [300,600],[300,250])  // Mobile
+    .addSize([767, 400], [])                  // No Tablet && Desktop        
+    .build();         
+
+  // Define the GPT slots
+  gptAdSlots[0] = googletag.defineSlot('/1010711/ROS', [[320,50],[728,90],[970,90]], 'div-gpt-ad-1423747868238-0')  //Leaderboard: always shown whatever the device
+    .defineSizeMapping(mappingLeaderTop)
+    .addService(googletag.pubads());
+  gptAdSlots[0].setTargeting("type","houseLeader").setTargeting("pos","top");
+
+  gptAdSlots[1] = googletag.defineSlot('/1010711/ROS', [], 'div-gpt-ad-1423747868238-1') // TOP MPU sidebar: Only Desktop. 
+    .defineSizeMapping(mappingMPU)
+    .addService(googletag.pubads());
+  gptAdSlots[1].setTargeting("type","houseTop").setTargeting("pos","top");
+
+  gptAdSlots[2] = googletag.defineSlot('/1010711/ROS', [], 'div-gpt-ad-1423747868238-2') //Middle DMPU sidebar: Only Desktop.
+    .defineSizeMapping(mappingDMPU)
+    .addService(googletag.pubads());
+  gptAdSlots[2].setTargeting("type","houseMid").setTargeting("pos","mid");
+
+  gptAdSlots[3] = googletag.defineSlot('/1010711/ROS', [], 'div-gpt-ad-1423747868238-3') //Bottom MPU sidebar: Desktop only
+    .defineSizeMapping(mappingMPU)
+    .addService(googletag.pubads());
+  gptAdSlots[3].setTargeting("type","houseBottom").setTargeting("pos","bottom"); //This has to show the INTERNAL Ad (Thestage directory)
+  
+  gptAdSlots[4] = googletag.defineSlot('/1010711/ROS', [[300, 250]], 'div-gpt-ad-1423747868238-4') //Replacement for TOP MPU (gpt-ad-1) (pos -> top): visible only Mobile
+    .defineSizeMapping(handleDeviceReplacement)
+    .addService(googletag.pubads());
+  gptAdSlots[4].setTargeting("type","houseTop").setTargeting("pos","top");                  
+  
+  // Latest stories mobile
+  gptAdSlots[5] = googletag.defineSlot('/1010711/ROS', [[300, 600],[300, 250]], 'div-gpt-ad-1423747868238-5') //Replacement for Middle MPU (gpt-ad-2) (pos -> mid): Only Mobile. Shown after first row of two articles in Latest stories
+    .defineSizeMapping(handleDeviceReplacementDMPU) 
+    .addService(googletag.pubads());
+  gptAdSlots[5].setTargeting("type","houseMid").setTargeting("pos","mid"); 
+
+  gptAdSlots[6] = googletag.defineSlot('/1010711/ROS', [[300, 250]], 'div-gpt-ad-1423747868238-6') //Replacement for bottom MPU (gpt-ad-3) (pos -> bottom): Only Mobile. Shown after second row of two articles in Latest stories
+    .defineSizeMapping(handleDeviceReplacement)
+    .addService(googletag.pubads());
+  gptAdSlots[6].setTargeting("type","houseBottom").setTargeting("pos","bottom");
+
+  gptAdSlots[7] = googletag.defineSlot('/1010711/ROS', [[300, 250]], 'div-gpt-ad-1423747868238-7') //Bottom2: Only Mobile. Shown after third row of two articles in Latest stories
+    .defineSizeMapping(handleDeviceReplacement)
+    .addService(googletag.pubads());
+  gptAdSlots[7].setTargeting("pos","bottom2"); 
+  
+  // Article page adverts            
+  articleGptAdSlots[0] = googletag.defineSlot('/1010711/ROS', [[300, 250]], 'article-gpt-ad-inline-0') //Inline article advert
+    .defineSizeMapping(handleDeviceReplacement)
+    .addService(googletag.pubads());
+  articleGptAdSlots[0].setTargeting("pos","inlineArticle"); 
+
+  articleGptAdSlots[1] = googletag.defineSlot('/1010711/ROS', [[300, 250]], 'article-gpt-ad-bottom-1') //Bottom article advert
+    .defineSizeMapping(handleDeviceReplacement)
+    .addService(googletag.pubads());
+  articleGptAdSlots[1].setTargeting("pos","bottomArticle"); 
+            
+  // Gets the seperate portions of the URL
+  var pathPart = location.pathname.split('/');
+  pathPart.pop();
+  pathPart.shift();
+
+  if ( pathPart.length == 0 ) pathPart[0] = "home" ;
+
+  googletag.pubads().setTargeting("site", "thestage");
+
+  if( pathPart[0] ) {
+    googletag.pubads().setTargeting("section", pathPart[0]);
+  }
+  
+  if( pathPart[1] !== undefined ) {
+     googletag.pubads().setTargeting("subsection", pathPart[1]);
+  }
+
+  // When there are 3 or more parts of the URL
+  if( pathPart.length >= 3 ) {
+    // And if the penultimate part has 4 digits and is a number (YYYY)
+    var pathPartStr = pathPart[pathPart.length - 2];
+    var pathPartInt = parseInt(pathPartStr);
+    if ( pathPartStr.length == 4 && !isNaN(pathPartInt) && isFinite(pathPartInt)) {
+      // Then the page is an article/review and should intermix mobile ads
+      googletag.pubads().setTargeting("pagetype", "article");
+    }
+  } else {
+    googletag.pubads().setTargeting("pagetype", "section"); // Don't intermix ads
+  }
+
+  googletag.pubads().setTargeting("art", "0");
+
+  // When in Staging, set targeting to Staging
+  if( location.pathname.search("staging.") != -1 ) {
+    googletag.pubads().setTargeting("staging", 1);
+  }
+
+  googletag.pubads().collapseEmptyDivs();
+
+  // Start ad fetching
+  googletag.enableServices();
+});
+</script>
+<!-- Google Publisher Tags definition/pushing -->
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+</head>
+<body class="error404 td-full-layout wpb-js-composer js-comp-ver-4.12.1 vc_responsive">
+
+<div id="outer-wrap">
+    <div id="td-mobile-nav" class="td-transition-content-and-menu">
+    <!-- mobile menu close -->
+    <div class="td-mobile-close">
+        <a href="#">Close</a>
+        <div class="td-nav-triangle"></div>
+    </div>
+
+    <div class="td-mobile-content">
+        <div class="menu-main-menu-container"><ul id="menu-main-menu" class=""><li id="menu-item-79891" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-first td-no-down-arrow menu-item-79891 home"><a href="/"><span class="menu_icon td-sp td-sp-ico-home"></span><span class="menu_hidden">Home</span></a></li>
+<li id="menu-item-79848" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-79848 news"><a title="news" href="https://www.thestage.co.uk/news/">News</a></li>
+<li id="menu-item-80751" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80751 reviews"><a title="reviews" href="https://www.thestage.co.uk/reviews/">Reviews</a>
+<ul  class="sub-menu">
+	<li id="menu-item-0" class="menu-item-0 dance"><a href="https://www.thestage.co.uk/reviews/dance/">Dance</a></li>
+	<li class="menu-item-0 opera"><a href="https://www.thestage.co.uk/reviews/opera/">Opera</a></li>
+	<li class="menu-item-0 theatre"><a href="https://www.thestage.co.uk/reviews/theatre/">Theatre</a></li>
+	<li class="menu-item-0 tv-radio"><a href="https://www.thestage.co.uk/reviews/tv-radio/">TV &amp; radio</a></li>
+	<li class="menu-item-0 various"><a href="https://www.thestage.co.uk/reviews/other/">Various</a></li>
+</ul>
+</li>
+<li id="menu-item-79849" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-79849 opinion"><a title="opinion" href="https://www.thestage.co.uk/opinion/">Opinion</a>
+<ul  class="sub-menu">
+	<li class="menu-item-0 hamlet"><a href="https://www.thestage.co.uk/opinion/hamlet-opinion/">Hamlet</a></li>
+	<li class="menu-item-0 letters"><a href="https://www.thestage.co.uk/opinion/letters/">Letters</a></li>
+	<li class="menu-item-0 tabard"><a href="https://www.thestage.co.uk/opinion/tabard/">Tabard</a></li>
+</ul>
+</li>
+<li id="menu-item-79847" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-79847 features"><a title="features" href="https://www.thestage.co.uk/features/">Features</a>
+<ul  class="sub-menu">
+	<li class="menu-item-0 analysis"><a href="https://www.thestage.co.uk/features/analysis/">Analysis</a></li>
+	<li class="menu-item-0 interviews"><a href="https://www.thestage.co.uk/features/interviews/">Interviews</a></li>
+	<li class="menu-item-0 obituaries"><a href="https://www.thestage.co.uk/features/obituaries/">Obituaries</a></li>
+	<li class="menu-item-0 promoted"><a href="https://www.thestage.co.uk/features/promoted/">Promoted</a></li>
+	<li class="menu-item-0 video-interviews"><a href="https://www.thestage.co.uk/features/theatre-lives/">Video interviews</a></li>
+</ul>
+</li>
+<li id="menu-item-79846" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-79846 advice"><a title="advice" href="https://www.thestage.co.uk/advice/">Advice</a>
+<ul  class="sub-menu">
+	<li class="menu-item-0 how-to"><a href="https://www.thestage.co.uk/advice/how-to/">How To</a></li>
+	<li class="menu-item-0 scholarships"><a href="https://www.thestage.co.uk/advice/scholarships/">Scholarships</a></li>
+	<li class="menu-item-0 the-green-room"><a href="https://www.thestage.co.uk/advice/the-green-room/">The Green Room</a></li>
+</ul>
+</li>
+<li id="menu-item-393485" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-393485 subscribe"><a title="subscribe" href="https://subscriptions.thestage.co.uk/?utm_source=navigation%20bar&#038;utm_medium=navigation%20bar&#038;utm_campaign=the%20stage%20navigation%20bar">Subscribe</a>
+<ul  class="sub-menu">
+	<li id="menu-item-506277" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-506277 buy-a-gift"><a href="http://more.thestage.co.uk/gift-subscriptions/?utm_source=thestagehomepage&#038;utm_medium=navigationbar&#038;utm_campaign=subscribebutton">Buy a gift</a></li>
+	<li id="menu-item-458846" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-458846 print-edition"><a title="subscribe to the print edition" href="https://subscriptions.thestage.co.uk/store/products,the-stage-print_4.htm?utm_source=navigation%20bar&#038;utm_medium=navigation%20bar&#038;utm_campaign=the%20stage%20navigation%20bar">Print Edition</a></li>
+	<li id="menu-item-458847" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-458847 digital-edition"><a title="subscribe to the digital edition" href="https://subscriptions.thestage.co.uk/store/products,the-stage-digital_3.htm?utm_source=navigation%20bar&#038;utm_medium=navigation%20bar&#038;utm_campaign=the%20stage%20navigation%20bar">Digital Edition</a></li>
+	<li id="menu-item-458848" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-458848 web-only"><a title="subscribe to web only" href="https://subscriptions.thestage.co.uk/store/products,the-stage-web-only_5.htm?utm_source=navigation%20bar&#038;utm_medium=navigation%20bar&#038;utm_campaign=the%20stage%20navigation%20bar">Web Only</a></li>
+	<li id="menu-item-458849" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-458849 single-copy"><a title="subscribe to a single copy" href="https://subscriptions.thestage.co.uk/store/products,the-stage-single-copy_7.htm?utm_source=navigation%20bar&#038;utm_medium=navigation%20bar&#038;utm_campaign=the%20stage%20navigation%20bar">Single Copy</a></li>
+</ul>
+</li>
+<li id="menu-item-302412" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-302412 jobs"><a title="The Stage Jobs" href="/jobs">Jobs</a></li>
+<li id="menu-item-461645" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-461645 supports"><a title="The Stage Supports" href="http://supports.thestage.co.uk/?utm_source=thestagewebsite&#038;utm_medium=navigationbar&#038;utm_campaign=navigationbar">Supports</a>
+<ul  class="sub-menu">
+	<li id="menu-item-475923" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-475923 homepage"><a href="http://supports.thestage.co.uk/?utm_source=thestagewebsite&#038;utm_medium=navigationbar&#038;utm_campaign=navigationbar">Homepage</a></li>
+	<li id="menu-item-475925" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-475925 debut-awards"><a href="http://supports.thestage.co.uk/debut-awards/?utm_source=thestagewebsite&#038;utm_campaign=debuts&#038;utm_medium=navigationbar">Debut Awards</a></li>
+</ul>
+</li>
+<li id="menu-item-474213" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-474213 awards"><a title="The Stage Awards" href="https://www.thestage.co.uk/awards?utm_source=thestagewebsite&#038;utm_medium=menubar&#038;utm_campaign=thestageawards">Awards</a></li>
+<li id="menu-item-429904" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children td-no-down-arrow menu-item-429904 categories"><a href="#"><span class="menu_icon td-sp td-sp-ico-categ"></span><span class="menu_hidden">Categories</span></a>
+<ul  class="sub-menu">
+	<li id="menu-item-429905" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-429905 training"><a title="training" href="https://www.thestage.co.uk/training/">Training</a></li>
+	<li id="menu-item-429906" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-429906 archive"><a title="archive" href="http://more.thestage.co.uk/archive/">Archive</a></li>
+	<li id="menu-item-429907" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-429907 directory"><a title="directory" href="https://www.thestage.co.uk/directory/">Directory</a></li>
+	<li id="menu-item-429908" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-429908 castings"><a title="castings" href="https://www.thestage.co.uk/castings">Castings</a></li>
+	<li id="menu-item-429910" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-429910 dating"><a title="dating" href="http://www.lovearts.com/s/a/19425?utm_source=thestage.co.uk&#038;utm_medium=referral&#038;utm_content=thestage_nav_bar&#038;utm_campaign=thestage_nav_bar">Dating</a></li>
+	<li id="menu-item-482453" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-482453 advertise"><a href="http://more.thestage.co.uk/advertising-enquiries/">Advertise</a></li>
+	<li id="menu-item-506249" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-506249 awards"><a href="https://www.thestage.co.uk/awards?utm_source=thestagewebsite&#038;utm_medium=menubar&#038;utm_campaign=thestageawards">Awards</a></li>
+	<li id="menu-item-506250" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-506250 supports"><a href="http://supports.thestage.co.uk/?utm_source=thestagewebsite&#038;utm_medium=navigationbar&#038;utm_campaign=navigationbar">Supports</a>
+	<ul  class="sub-menu">
+		<li id="menu-item-506251" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-506251 homepage"><a href="http://supports.thestage.co.uk/?utm_source=thestagewebsite&#038;utm_medium=navigationbar&#038;utm_campaign=navigationbar">Homepage</a></li>
+		<li id="menu-item-506252" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-506252 debut-awards"><a href="http://supports.thestage.co.uk/debut-awards/?utm_source=thestagewebsite&#038;utm_campaign=debuts&#038;utm_medium=navigationbar">Debut Awards</a></li>
+	</ul>
+</li>
+	<li id="menu-item-506253" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-506253 tickets"><a href="http://www.lovetheatre.com/thestage?utm_source=thestagewebsite&#038;utm_medium=navigationbar&#038;utm_campaign=navigationbar">Tickets</a></li>
+</ul>
+</li>
+</ul></div>    </div>
+</div>    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    </div>
+  </div>
+</div>
+    <div id="inner-wrap" class="td-transition-content-and-menu ">
+
+<div class="td-header-menu-wrap">
+  <div class="container">
+    <div class="row ">
+      <div class="span12 td-header-add">
+        <div class="td-a-rec td-a-rec-id-header "><!-- StageMedia Top Leaderboard-->
+<div id="div-gpt-ad-1423747868238-0"> 
+   <script>
+     googletag.cmd.push(function() {
+       googletag.display('div-gpt-ad-1423747868238-0');
+     });
+   </script> 
+</div>
+<span style="display: none">dfp_header_hidden_string</span></div>      </div>
+    </div>
+    <div class ="line"></div>
+    <div class="row gridFixRow">
+      <div class="span2 gridFixSpan2" id="menu-top-menu-left">
+        <img id="user-menu-loader" src="https://www.thestage.co.uk/wp-content/themes/thestage/includes/img/loader-on-black.gif" alt="loading..." style="margin-left:50px;" />
+        <div id="user-menu-container"></div>
+      </div>
+      <div class="span10 gridFixSpan10" id="login-register">
+                <div class="menu-top-container"><ul id="menu-top-menu-right" class="top-header-menu"><li id="menu-item-79877" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-first td-menu-item td-normal-menu menu-item-79877 home"><a title="topmenu-home" href="/?utm_source=thestagewebsite&#038;utm_campaign=menubar&#038;utm_medium=topmenu">Home</a></li>
+<li id="menu-item-482452" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-482452 advertise"><a href="http://more.thestage.co.uk/advertising-enquiries/">Advertise</a></li>
+<li id="menu-item-79874" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79874 training"><a title="topmenu-training" href="/training?utm_source=thestagewebsite&#038;utm_campaign=menubar&#038;utm_medium=topmenu">Training</a></li>
+<li id="menu-item-79878" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79878 archive"><a title="topmenu-archive" href="http://more.thestage.co.uk/archive/?utm_source=thestagewebsite&#038;utm_campaign=menubar&#038;utm_medium=topmenu">Archive</a></li>
+<li id="menu-item-79875" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79875 directory"><a title="topmenu-directory" href="/directory?utm_source=thestagewebsite&#038;utm_campaign=menubar&#038;utm_medium=topmenu">Directory</a></li>
+<li id="menu-item-79876" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79876 castings"><a title="topmenu-castings" href="/castings?utm_source=thestagewebsite&#038;utm_campaign=menubar&#038;utm_medium=topmenu">Castings</a></li>
+<li id="menu-item-79879" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79879 jobs"><a title="topmenu-jobs" href="/jobs?utm_source=thestagewebsite&#038;utm_campaign=menubar&#038;utm_medium=topmenu">Jobs</a></li>
+<li id="menu-item-79880" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79880 dating"><a title="topmenu-dating" href="http://www.lovearts.co.uk/s/a/19425?utm_source=thestagewebsite&#038;utm_campaign=menubar&#038;utm_medium=topmenu">Dating</a></li>
+</ul></div>              </div>
+    </div>
+  </div>
+</div>
+
+<!-- graphic logo and ad -->
+<div class="td-header-bg ">
+    <div class="container td-logo-rec-wrap">
+        
+        <div class="row addslot">
+        
+        <div class ="line">  </div>
+        
+            <div class="span12 header-logo-wrap" role="banner" itemscope="itemscope" itemtype="https://schema.org/Organization">
+                                        <div class="logo-holder">
+                            <a itemprop="url" href="https://www.thestage.co.uk"><img width="300" src="https://cdn.thestage.co.uk/wp-content/uploads/2015/03/thestage_logo.svg" alt=""/></a>
+                            <meta itemprop="name" content="The Stage">
+                        </div>
+                        <div class="tagline">SINCE 1880</div>
+                        
+                                    </div>
+            
+        </div>
+    </div>
+</div>
+<!-- header menu -->
+
+<div class="td-menu-placeholder">
+
+    <div class="td-menu-background">
+        <div class="container td-menu-wrap">
+
+
+
+            <div class="row-fluid td-menu-header">
+
+                <div class="span10">
+                                            <div class="mobile-logo-wrap">
+                                                                    <a itemprop="url" href="https://www.thestage.co.uk"><img width="300"  src="https://cdn.thestage.co.uk/wp-content/uploads/2015/03/thestage_logo.svg" alt=""/></a>
+                                        <meta itemprop="name" content="The Stage">
+                                                            </div>
+                    
+
+                    <div id="td-top-mobile-toggle">
+                        <ul class="sf-menu">
+                            <li>
+                                <a href="#">
+                                    <span class="menu_icon td-sp td-sp-ico-menu"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="td-top-menu" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+
+                            <div class="menu-main-menu-container"><ul id="menu-main-menu-1" class="sf-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-first td-no-down-arrow td-menu-item td-normal-menu menu-item-79891 home"><a href="/"><span class="menu_icon td-sp td-sp-ico-home"></span><span class="menu_hidden">Home</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-mega-menu menu-item-79848 news"><a title="news" href="https://www.thestage.co.uk/news/">News</a>
+<ul  class="sub-menu">
+	<li class="menu-item-0 var-block_td_uid_1_5a6a29ea5b2d4-new-td_blockblock_td_uid_1_5a6a29ea5b2d4-id-td_uid_1_5a6a29ea5b2d4block_td_uid_1_5a6a29ea5b2d4-atts-limit5td_column_number3ajax_pagination"><div class="td-mega-grid"><script>var block_td_uid_1_5a6a29ea5b2d4 = new td_block();
+block_td_uid_1_5a6a29ea5b2d4.id = "td_uid_1_5a6a29ea5b2d4";
+block_td_uid_1_5a6a29ea5b2d4.atts = '{"limit":"5","td_column_number":3,"ajax_pagination":"next_prev","category_id":"48","show_child_cat":"5","post_type":["post","reviews"]}';
+block_td_uid_1_5a6a29ea5b2d4.td_cur_cat = "48";
+block_td_uid_1_5a6a29ea5b2d4.td_column_number = "1";
+block_td_uid_1_5a6a29ea5b2d4.block_type = "td_mega_menu";
+block_td_uid_1_5a6a29ea5b2d4.post_count = "5";
+block_td_uid_1_5a6a29ea5b2d4.found_posts = "21265";
+block_td_uid_1_5a6a29ea5b2d4.max_num_pages = "4253";
+block_td_uid_1_5a6a29ea5b2d4.header_color = "";
+block_td_uid_1_5a6a29ea5b2d4.ajax_pagination_infinite_stop = "";
+td_blocks.push(block_td_uid_1_5a6a29ea5b2d4);
+</script><div class="td_block_wrap td_block_mega_menu td-no-subcats"><div id=td_uid_1_5a6a29ea5b2d4 class="td_block_inner animated fadeInDown">
+        <div class="td_mod_mega_menu">
+
+        <!-- code modified by tahmina mega menu default image display -->
+            
+<div class="thumb-wrap"><a href="https://www.thestage.co.uk/news/2018/english-national-opera-staff-vote-capped-hours-increased-pay-offer/" rel="bookmark" title="English National Opera staff to vote on capped hours and increased pay offer"><img width="198" height="143" itemprop="image" class="entry-thumb" src="https://cdn.thestage.co.uk/wp-content/uploads/2015/02/London_Coliseum-credit-Mike-Peel1-198x143.jpg" alt="The London Coliseum, home of English National Opera. Photo: Mike Peel" title="English National Opera staff to vote on capped hours and increased pay offer"/></a></div>           
+
+
+
+
+            <div class="item-details mega-menu">
+                <h4 itemprop="name" class="entry-title"><a itemprop="url" href="https://www.thestage.co.uk/news/2018/english-national-opera-staff-vote-capped-hours-increased-pay-offer/" rel="bookmark" title="English National Opera staff to vote on capped hours and increased pay offer">English National Opera staff to vote on capped hours and increased pay offer</a></h4>            </div>
+        </div>
+        
+        <div class="td_mod_mega_menu">
+
+        <!-- code modified by tahmina mega menu default image display -->
+            
+<div class="thumb-wrap"><a href="https://www.thestage.co.uk/news/2018/drama-school-scraps-audition-fees-encourage-working-class-applicants/" rel="bookmark" title="Liverpool Theatre School scraps audition fees to encourage working-class applicants"><img width="198" height="143" itemprop="image" class="entry-thumb" src="https://cdn.thestage.co.uk/wp-content/uploads/2018/01/25160203/MaxineEllis-198x143.jpg" alt="Liverpool Theatre School principal Maxine Ellis" title="Liverpool Theatre School scraps audition fees to encourage working-class applicants"/></a></div>           
+
+
+
+
+            <div class="item-details mega-menu">
+                <h4 itemprop="name" class="entry-title"><a itemprop="url" href="https://www.thestage.co.uk/news/2018/drama-school-scraps-audition-fees-encourage-working-class-applicants/" rel="bookmark" title="Liverpool Theatre School scraps audition fees to encourage working-class applicants">Liverpool Theatre School scraps audition fees to encourage working-class applicants</a></h4>            </div>
+        </div>
+        
+        <div class="td_mod_mega_menu">
+
+        <!-- code modified by tahmina mega menu default image display -->
+            
+<div class="thumb-wrap"><a href="https://www.thestage.co.uk/news/2018/derbys-assembly-rooms-replaced-44m-performance-space/" rel="bookmark" title="Derby’s Assembly Rooms to be replaced with £44m performance space"><img width="198" height="143" itemprop="image" class="entry-thumb" src="https://cdn.thestage.co.uk/wp-content/uploads/2015/02/assembly-rooms-198x143.jpg" alt="" title="Derby’s Assembly Rooms to be replaced with £44m performance space"/></a></div>           
+
+
+
+
+            <div class="item-details mega-menu">
+                <h4 itemprop="name" class="entry-title"><a itemprop="url" href="https://www.thestage.co.uk/news/2018/derbys-assembly-rooms-replaced-44m-performance-space/" rel="bookmark" title="Derby’s Assembly Rooms to be replaced with £44m performance space">Derby’s Assembly Rooms to be replaced with £44m performance space</a></h4>            </div>
+        </div>
+        
+        <div class="td_mod_mega_menu">
+
+        <!-- code modified by tahmina mega menu default image display -->
+            
+<div class="thumb-wrap"><a href="https://www.thestage.co.uk/news/2018/farnham-redgrave-theatre-demolition/" rel="bookmark" title="Farnham&#8217;s Redgrave Theatre approved for demolition again"><img width="198" height="143" itemprop="image" class="entry-thumb" src="https://cdn.thestage.co.uk/wp-content/uploads/2015/02/redgrave-198x143.jpg" alt="The Redgrave Theatre in Farnham, Surrey. Photo: Theatres Trust" title="Farnham&#8217;s Redgrave Theatre approved for demolition again"/></a></div>           
+
+
+
+
+            <div class="item-details mega-menu">
+                <h4 itemprop="name" class="entry-title"><a itemprop="url" href="https://www.thestage.co.uk/news/2018/farnham-redgrave-theatre-demolition/" rel="bookmark" title="Farnham&#8217;s Redgrave Theatre approved for demolition again">Farnham&#8217;s Redgrave Theatre approved for demolition again</a></h4>            </div>
+        </div>
+        
+        <div class="td_mod_mega_menu">
+
+        <!-- code modified by tahmina mega menu default image display -->
+            
+<div class="thumb-wrap"><a href="https://www.thestage.co.uk/news/2018/casting-directors-guild-code-conduct-aims-protect-actors/" rel="bookmark" title="Casting Directors’ Guild launches code of conduct to protect actors"><img width="198" height="143" itemprop="image" class="entry-thumb" src="https://cdn.thestage.co.uk/wp-content/uploads/2018/01/25114802/casting-director-guild-award-launch-2-198x143.jpg" alt="Casting director Andy Pryor and actors David Gyasi, Mark Gatiss, Jade Anouka and Vanessa Kirby at the launch of the CDG Awards" title="Casting Directors’ Guild launches code of conduct to protect actors"/></a></div>           
+
+
+
+
+            <div class="item-details mega-menu">
+                <h4 itemprop="name" class="entry-title"><a itemprop="url" href="https://www.thestage.co.uk/news/2018/casting-directors-guild-code-conduct-aims-protect-actors/" rel="bookmark" title="Casting Directors’ Guild launches code of conduct to protect actors">Casting Directors’ Guild launches code of conduct to protect actors</a></h4>            </div>
+        </div>
+        </div><div class="td-next-prev-wrap"><a href="#" class="td_ajax-prev-page ajax-page-disabled" id="prev-page-td_uid_1_5a6a29ea5b2d4" data-td_block_id="td_uid_1_5a6a29ea5b2d4"></a><a href="#"  class="td-ajax-next-page" id="next-page-td_uid_1_5a6a29ea5b2d4" data-td_block_id="td_uid_1_5a6a29ea5b2d4"></a></div><div class="clearfix"></div></div> <!-- ./block1 --></div></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-mega-menu menu-item-80751 reviews"><a title="reviews" href="https://www.thestage.co.uk/reviews/">Reviews</a>
+<ul  class="sub-menu">
+	<li class="menu-item-0 var-block_td_uid_3_5a6a29ea803c7-new-td_blockblock_td_uid_3_5a6a29ea803c7-id-td_uid_3_5a6a29ea803c7block_td_uid_3_5a6a29ea803c7-atts-limit4td_column_number3ajax_paginationn"><div class="td-mega-grid"><script>var block_td_uid_3_5a6a29ea803c7 = new td_block();
+block_td_uid_3_5a6a29ea803c7.id = "td_uid_3_5a6a29ea803c7";
+block_td_uid_3_5a6a29ea803c7.atts = '{"limit":4,"td_column_number":3,"ajax_pagination":"next_prev","category_id":"10409","show_child_cat":"5","post_type":["post","reviews"]}';
+block_td_uid_3_5a6a29ea803c7.td_cur_cat = "10409";
+block_td_uid_3_5a6a29ea803c7.td_column_number = "1";
+block_td_uid_3_5a6a29ea803c7.block_type = "td_mega_menu";
+block_td_uid_3_5a6a29ea803c7.post_count = "4";
+block_td_uid_3_5a6a29ea803c7.found_posts = "21472";
+block_td_uid_3_5a6a29ea803c7.max_num_pages = "5368";
+block_td_uid_3_5a6a29ea803c7.header_color = "";
+block_td_uid_3_5a6a29ea803c7.ajax_pagination_infinite_stop = "";
+td_blocks.push(block_td_uid_3_5a6a29ea803c7);
+</script><div class="td_block_wrap td_block_mega_menu"><div class="td_mega_menu_sub_cats"><div class="block-mega-child-cats"><div><a class="cur-sub-cat ajax-sub-cat-mega sub-cat-td_uid_3_5a6a29ea803c7" id="sub-cat-td_uid_3_5a6a29ea803c7-10409" data-cat_id="10409"
+                        data-td_block_id="td_uid_3_5a6a29ea803c7" href="https://www.thestage.co.uk/reviews/">All</a></div><div><a class="ajax-sub-cat-mega sub-cat-td_uid_3_5a6a29ea803c7" id="sub-cat-td_uid_3_5a6a29ea803c7-10433" data-cat_id="10433" data-td_block_id="td_uid_3_5a6a29ea803c7" href="https://www.thestage.co.uk/reviews/dance/">Dance</a></div><div><a class="ajax-sub-cat-mega sub-cat-td_uid_3_5a6a29ea803c7" id="sub-cat-td_uid_3_5a6a29ea803c7-10414" data-cat_id="10414" data-td_block_id="td_uid_3_5a6a29ea803c7" href="https://www.thestage.co.uk/reviews/opera/">Opera</a></div><div><a class="ajax-sub-cat-mega sub-cat-td_uid_3_5a6a29ea803c7" id="sub-cat-td_uid_3_5a6a29ea803c7-10415" data-cat_id="10415" data-td_block_id="td_uid_3_5a6a29ea803c7" href="https://www.thestage.co.uk/reviews/theatre/">Theatre</a></div><div><a class="ajax-sub-cat-mega sub-cat-td_uid_3_5a6a29ea803c7" id="sub-cat-td_uid_3_5a6a29ea803c7-208" data-cat_id="208" data-td_block_id="td_uid_3_5a6a29ea803c7" href="https://www.thestage.co.uk/reviews/tv-radio/">TV &amp; radio</a></div><div><a class="ajax-sub-cat-mega sub-cat-td_uid_3_5a6a29ea803c7" id="sub-cat-td_uid_3_5a6a29ea803c7-10422" data-cat_id="10422" data-td_block_id="td_uid_3_5a6a29ea803c7" href="https://www.thestage.co.uk/reviews/other/">Various</a></div></div></div><div id=td_uid_3_5a6a29ea803c7 class="td_block_inner animated fadeInDown">
+        <div class="td_mod_mega_menu">
+
+        <!-- code modified by tahmina mega menu default image display -->
+            
+<div class="thumb-wrap"><a href="https://www.thestage.co.uk/reviews/2018/mother-review-at-barbican-theatre-london-uncanny-dance-theatre/" rel="bookmark" title="Mother (Moeder) review at Barbican Theatre, London – &#8216;uncanny dance theatre&#8217;"><img width="198" height="143" itemprop="image" class="entry-thumb" src="https://cdn.thestage.co.uk/wp-content/uploads/2018/01/25135959/Peeping-Tom-Mother-Barbican-1-198x143.jpg" alt="A scene from Mother (Moeder) at Barbican, London. Photo: Tristram Kenton" title="Mother (Moeder) review at Barbican Theatre, London – &#8216;uncanny dance theatre&#8217;"/></a></div>           
+
+
+
+
+            <div class="item-details mega-menu">
+                <h4 itemprop="name" class="entry-title"><a itemprop="url" href="https://www.thestage.co.uk/reviews/2018/mother-review-at-barbican-theatre-london-uncanny-dance-theatre/" rel="bookmark" title="Mother (Moeder) review at Barbican Theatre, London – &#8216;uncanny dance theatre&#8217;">Mother (Moeder) review at Barbican Theatre, London – &#8216;uncanny dance theatre&#8217;</a></h4>            </div>
+        </div>
+        
+        <div class="td_mod_mega_menu">
+
+        <!-- code modified by tahmina mega menu default image display -->
+            
+<div class="thumb-wrap"><a href="https://www.thestage.co.uk/reviews/2018/toyboy-diaries-review-hope-mill-theatre-manchester/" rel="bookmark" title="The ToyBoy Diaries review at Hope Mill Theatre, Manchester – &#8216;frivolous escapism&#8217;"><img width="198" height="143" itemprop="image" class="entry-thumb" src="https://cdn.thestage.co.uk/wp-content/uploads/2018/01/25103859/Sharif-Afifi-Johanne-Murdock-in-The-ToyBoy-Diaries-at-Hope-Mill-Theatre1-198x143.jpg" alt="Sharif Afifi and Johanne Murdock in The ToyBoy Diaries at the Hope Mill Theatre, Manchester" title="The ToyBoy Diaries review at Hope Mill Theatre, Manchester – &#8216;frivolous escapism&#8217;"/></a></div>           
+
+
+
+
+            <div class="item-details mega-menu">
+                <h4 itemprop="name" class="entry-title"><a itemprop="url" href="https://www.thestage.co.uk/reviews/2018/toyboy-diaries-review-hope-mill-theatre-manchester/" rel="bookmark" title="The ToyBoy Diaries review at Hope Mill Theatre, Manchester – &#8216;frivolous escapism&#8217;">The ToyBoy Diaries review at Hope Mill Theatre, Manchester – &#8216;frivolous escapism&#8217;</a></h4>            </div>
+        </div>
+        
+        <div class="td_mod_mega_menu">
+
+        <!-- code modified by tahmina mega menu default image display -->
+            
+<div class="thumb-wrap"><a href="https://www.thestage.co.uk/reviews/2018/john-review-national-theatre-london/" rel="bookmark" title="John review at National Theatre, London – &#8216;exquisite, disturbing and startlingly funny&#8217;"><img width="198" height="143" itemprop="image" class="entry-thumb" src="https://cdn.thestage.co.uk/wp-content/uploads/2018/01/24180910/John-198x143.jpg" alt="Scene from John at National Theatre, London. Photo: Stephen Cummiskey" title="John review at National Theatre, London – &#8216;exquisite, disturbing and startlingly funny&#8217;"/></a></div>           
+
+
+
+
+            <div class="item-details mega-menu">
+                <h4 itemprop="name" class="entry-title"><a itemprop="url" href="https://www.thestage.co.uk/reviews/2018/john-review-national-theatre-london/" rel="bookmark" title="John review at National Theatre, London – &#8216;exquisite, disturbing and startlingly funny&#8217;">John review at National Theatre, London – &#8216;exquisite, disturbing and startlingly funny&#8217;</a></h4>            </div>
+        </div>
+        
+        <div class="td_mod_mega_menu">
+
+        <!-- code modified by tahmina mega menu default image display -->
+            
+<div class="thumb-wrap"><a href="https://www.thestage.co.uk/reviews/2018/flying-lovers-vitebsk-review-wiltons-music-hall-london/" rel="bookmark" title="The Flying Lovers of Vitebsk review at Wilton&#8217;s Music Hall, London – &#8216;gorgeous, intimate and moving&#8217;"><img width="198" height="143" itemprop="image" class="entry-thumb" src="https://cdn.thestage.co.uk/wp-content/uploads/2018/01/24174052/FlyingLovers-198x143.jpg" alt="Daisy Maywood and Marc Antolin in The Flying Lovers of Vitebsk at Wilton&#039;s Music Hall, London" title="The Flying Lovers of Vitebsk review at Wilton&#8217;s Music Hall, London – &#8216;gorgeous, intimate and moving&#8217;"/></a></div>           
+
+
+
+
+            <div class="item-details mega-menu">
+                <h4 itemprop="name" class="entry-title"><a itemprop="url" href="https://www.thestage.co.uk/reviews/2018/flying-lovers-vitebsk-review-wiltons-music-hall-london/" rel="bookmark" title="The Flying Lovers of Vitebsk review at Wilton&#8217;s Music Hall, London – &#8216;gorgeous, intimate and moving&#8217;">The Flying Lovers of Vitebsk review at Wilton&#8217;s Music Hall, London – &#8216;gorgeous, intimate and moving&#8217;</a></h4>            </div>
+        </div>
+        </div><div class="td-next-prev-wrap"><a href="#" class="td_ajax-prev-page ajax-page-disabled" id="prev-page-td_uid_3_5a6a29ea803c7" data-td_block_id="td_uid_3_5a6a29ea803c7"></a><a href="#"  class="td-ajax-next-page" id="next-page-td_uid_3_5a6a29ea803c7" data-td_block_id="td_uid_3_5a6a29ea803c7"></a></div><div class="clearfix"></div></div> <!-- ./block1 --></div></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-mega-menu menu-item-79849 opinion"><a title="opinion" href="https://www.thestage.co.uk/opinion/">Opinion</a>
+<ul  class="sub-menu">
+	<li class="menu-item-0 var-block_td_uid_5_5a6a29eaa9a8f-new-td_blockblock_td_uid_5_5a6a29eaa9a8f-id-td_uid_5_5a6a29eaa9a8fblock_td_uid_5_5a6a29eaa9a8f-atts-limit4td_column_number3ajax_paginationn"><div class="td-mega-grid"><script>var block_td_uid_5_5a6a29eaa9a8f = new td_block();
+block_td_uid_5_5a6a29eaa9a8f.id = "td_uid_5_5a6a29eaa9a8f";
+block_td_uid_5_5a6a29eaa9a8f.atts = '{"limit":4,"td_column_number":3,"ajax_pagination":"next_prev","category_id":"85","show_child_cat":"5","post_type":["post","reviews"]}';
+block_td_uid_5_5a6a29eaa9a8f.td_cur_cat = "85";
+block_td_uid_5_5a6a29eaa9a8f.td_column_number = "1";
+block_td_uid_5_5a6a29eaa9a8f.block_type = "td_mega_menu";
+block_td_uid_5_5a6a29eaa9a8f.post_count = "4";
+block_td_uid_5_5a6a29eaa9a8f.found_posts = "5036";
+block_td_uid_5_5a6a29eaa9a8f.max_num_pages = "1259";
+block_td_uid_5_5a6a29eaa9a8f.header_color = "";
+block_td_uid_5_5a6a29eaa9a8f.ajax_pagination_infinite_stop = "";
+td_blocks.push(block_td_uid_5_5a6a29eaa9a8f);
+</script><div class="td_block_wrap td_block_mega_menu"><div class="td_mega_menu_sub_cats"><div class="block-mega-child-cats"><div><a class="cur-sub-cat ajax-sub-cat-mega sub-cat-td_uid_5_5a6a29eaa9a8f" id="sub-cat-td_uid_5_5a6a29eaa9a8f-85" data-cat_id="85"
+                        data-td_block_id="td_uid_5_5a6a29eaa9a8f" href="https://www.thestage.co.uk/opinion/">All</a></div><div><a class="ajax-sub-cat-mega sub-cat-td_uid_5_5a6a29eaa9a8f" id="sub-cat-td_uid_5_5a6a29eaa9a8f-10410" data-cat_id="10410" data-td_block_id="td_uid_5_5a6a29eaa9a8f" href="https://www.thestage.co.uk/opinion/hamlet-opinion/">Hamlet</a></div><div><a class="ajax-sub-cat-mega sub-cat-td_uid_5_5a6a29eaa9a8f" id="sub-cat-td_uid_5_5a6a29eaa9a8f-10411" data-cat_id="10411" data-td_block_id="td_uid_5_5a6a29eaa9a8f" href="https://www.thestage.co.uk/opinion/letters/">Letters</a></div><div><a class="ajax-sub-cat-mega sub-cat-td_uid_5_5a6a29eaa9a8f" id="sub-cat-td_uid_5_5a6a29eaa9a8f-92" data-cat_id="92" data-td_block_id="td_uid_5_5a6a29eaa9a8f" href="https://www.thestage.co.uk/opinion/tabard/">Tabard</a></div></div></div><div id=td_uid_5_5a6a29eaa9a8f class="td_block_inner animated fadeInDown">
+        <div class="td_mod_mega_menu">
+
+        <!-- code modified by tahmina mega menu default image display -->
+            
+<div class="thumb-wrap"><a href="https://www.thestage.co.uk/opinion/2018/rob-halliday-fingers-crossed-the-eu-sees-the-light-over-theatre-tungsten-ban/" rel="bookmark" title="Rob Halliday: Fingers crossed the EU sees the light over theatre tungsten ban"><img width="198" height="143" itemprop="image" class="entry-thumb" src="https://cdn.thestage.co.uk/wp-content/uploads/2016/12/Poppy-Miller-Ginny-Potter-and-Jamie-Parker-Harry-Potter-Harry-Potter-and-the-Cursed-Child-photo-credit-Manuel-Harlan-198x143.jpg" alt="" title="Rob Halliday: Fingers crossed the EU sees the light over theatre tungsten ban"/></a></div>           
+
+
+
+
+            <div class="item-details mega-menu">
+                <h4 itemprop="name" class="entry-title"><a itemprop="url" href="https://www.thestage.co.uk/opinion/2018/rob-halliday-fingers-crossed-the-eu-sees-the-light-over-theatre-tungsten-ban/" rel="bookmark" title="Rob Halliday: Fingers crossed the EU sees the light over theatre tungsten ban">Rob Halliday: Fingers crossed the EU sees the light over theatre tungsten ban</a></h4>            </div>
+        </div>
+        
+        <div class="td_mod_mega_menu">
+
+        <!-- code modified by tahmina mega menu default image display -->
+            
+<div class="thumb-wrap"><a href="https://www.thestage.co.uk/opinion/2018/lady-windermeres-fan-vaudeville-review-round-up/" rel="bookmark" title="Lady Windermere&#8217;s Fan at the Vaudeville, London – review round-up"><img width="198" height="143" itemprop="image" class="entry-thumb" src="https://cdn.thestage.co.uk/wp-content/uploads/2018/01/25135034/Grace-Molony-as-Lady-Windermere-and-Samantha-Spiro-as-Mrs-Erlynne-2-Credit-Marc-Brenner-198x143.jpg" alt="Grace Molony as Lady Windermere and Samantha Spiro as Mrs Erlynne. Photo: Marc Brenner" title="Lady Windermere&#8217;s Fan at the Vaudeville, London – review round-up"/></a></div>           
+
+
+
+
+            <div class="item-details mega-menu">
+                <h4 itemprop="name" class="entry-title"><a itemprop="url" href="https://www.thestage.co.uk/opinion/2018/lady-windermeres-fan-vaudeville-review-round-up/" rel="bookmark" title="Lady Windermere&#8217;s Fan at the Vaudeville, London – review round-up">Lady Windermere&#8217;s Fan at the Vaudeville, London – review round-up</a></h4>            </div>
+        </div>
+        
+        <div class="td_mod_mega_menu">
+
+        <!-- code modified by tahmina mega menu default image display -->
+            
+<div class="thumb-wrap"><a href="https://www.thestage.co.uk/opinion/2018/mark-shenton-oscars-show-debt-british-theatre/" rel="bookmark" title="Mark Shenton: Oscars show their debt to British theatre"><img width="198" height="143" itemprop="image" class="entry-thumb" src="https://cdn.thestage.co.uk/wp-content/uploads/2016/05/Blue-Orange-Young-Vic-311-198x143.jpg" alt="" title="Mark Shenton: Oscars show their debt to British theatre"/></a></div>           
+
+
+
+
+            <div class="item-details mega-menu">
+                <h4 itemprop="name" class="entry-title"><a itemprop="url" href="https://www.thestage.co.uk/opinion/2018/mark-shenton-oscars-show-debt-british-theatre/" rel="bookmark" title="Mark Shenton: Oscars show their debt to British theatre">Mark Shenton: Oscars show their debt to British theatre</a></h4>            </div>
+        </div>
+        
+        <div class="td_mod_mega_menu">
+
+        <!-- code modified by tahmina mega menu default image display -->
+            
+<div class="thumb-wrap"><a href="https://www.thestage.co.uk/opinion/2018/rufus-norris-now-is-the-time-to-change-theatres-culture-of-secrecy/" rel="bookmark" title="Rufus Norris: Now is the time to change theatre’s culture of secrecy"><img width="198" height="143" itemprop="image" class="entry-thumb" src="https://cdn.thestage.co.uk/wp-content/uploads/2018/01/23174916/NT-entrance_4-Feb-2015-Photo-by-Philip-Vile-edited-198x143.jpg" alt="National Theatre. Photo: Philip Vile" title="Rufus Norris: Now is the time to change theatre’s culture of secrecy"/></a></div>           
+
+
+
+
+            <div class="item-details mega-menu">
+                <h4 itemprop="name" class="entry-title"><a itemprop="url" href="https://www.thestage.co.uk/opinion/2018/rufus-norris-now-is-the-time-to-change-theatres-culture-of-secrecy/" rel="bookmark" title="Rufus Norris: Now is the time to change theatre’s culture of secrecy">Rufus Norris: Now is the time to change theatre’s culture of secrecy</a></h4>            </div>
+        </div>
+        </div><div class="td-next-prev-wrap"><a href="#" class="td_ajax-prev-page ajax-page-disabled" id="prev-page-td_uid_5_5a6a29eaa9a8f" data-td_block_id="td_uid_5_5a6a29eaa9a8f"></a><a href="#"  class="td-ajax-next-page" id="next-page-td_uid_5_5a6a29eaa9a8f" data-td_block_id="td_uid_5_5a6a29eaa9a8f"></a></div><div class="clearfix"></div></div> <!-- ./block1 --></div></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-mega-menu menu-item-79847 features"><a title="features" href="https://www.thestage.co.uk/features/">Features</a>
+<ul  class="sub-menu">
+	<li class="menu-item-0 var-block_td_uid_7_5a6a29eab97d7-new-td_blockblock_td_uid_7_5a6a29eab97d7-id-td_uid_7_5a6a29eab97d7block_td_uid_7_5a6a29eab97d7-atts-limit4td_column_number3ajax_paginationn"><div class="td-mega-grid"><script>var block_td_uid_7_5a6a29eab97d7 = new td_block();
+block_td_uid_7_5a6a29eab97d7.id = "td_uid_7_5a6a29eab97d7";
+block_td_uid_7_5a6a29eab97d7.atts = '{"limit":4,"td_column_number":3,"ajax_pagination":"next_prev","category_id":"84","show_child_cat":"5","post_type":["post","reviews"]}';
+block_td_uid_7_5a6a29eab97d7.td_cur_cat = "84";
+block_td_uid_7_5a6a29eab97d7.td_column_number = "1";
+block_td_uid_7_5a6a29eab97d7.block_type = "td_mega_menu";
+block_td_uid_7_5a6a29eab97d7.post_count = "4";
+block_td_uid_7_5a6a29eab97d7.found_posts = "5215";
+block_td_uid_7_5a6a29eab97d7.max_num_pages = "1304";
+block_td_uid_7_5a6a29eab97d7.header_color = "";
+block_td_uid_7_5a6a29eab97d7.ajax_pagination_infinite_stop = "";
+td_blocks.push(block_td_uid_7_5a6a29eab97d7);
+</script><div class="td_block_wrap td_block_mega_menu"><div class="td_mega_menu_sub_cats"><div class="block-mega-child-cats"><div><a class="cur-sub-cat ajax-sub-cat-mega sub-cat-td_uid_7_5a6a29eab97d7" id="sub-cat-td_uid_7_5a6a29eab97d7-84" data-cat_id="84"
+                        data-td_block_id="td_uid_7_5a6a29eab97d7" href="https://www.thestage.co.uk/features/">All</a></div><div><a class="ajax-sub-cat-mega sub-cat-td_uid_7_5a6a29eab97d7" id="sub-cat-td_uid_7_5a6a29eab97d7-11505" data-cat_id="11505" data-td_block_id="td_uid_7_5a6a29eab97d7" href="https://www.thestage.co.uk/features/analysis/">Analysis</a></div><div><a class="ajax-sub-cat-mega sub-cat-td_uid_7_5a6a29eab97d7" id="sub-cat-td_uid_7_5a6a29eab97d7-10" data-cat_id="10" data-td_block_id="td_uid_7_5a6a29eab97d7" href="https://www.thestage.co.uk/features/interviews/">Interviews</a></div><div><a class="ajax-sub-cat-mega sub-cat-td_uid_7_5a6a29eab97d7" id="sub-cat-td_uid_7_5a6a29eab97d7-12" data-cat_id="12" data-td_block_id="td_uid_7_5a6a29eab97d7" href="https://www.thestage.co.uk/features/obituaries/">Obituaries</a></div><div><a class="ajax-sub-cat-mega sub-cat-td_uid_7_5a6a29eab97d7" id="sub-cat-td_uid_7_5a6a29eab97d7-7318" data-cat_id="7318" data-td_block_id="td_uid_7_5a6a29eab97d7" href="https://www.thestage.co.uk/features/promoted/">Promoted</a></div><div><a class="ajax-sub-cat-mega sub-cat-td_uid_7_5a6a29eab97d7" id="sub-cat-td_uid_7_5a6a29eab97d7-11076" data-cat_id="11076" data-td_block_id="td_uid_7_5a6a29eab97d7" href="https://www.thestage.co.uk/features/theatre-lives/">Video interviews</a></div></div></div><div id=td_uid_7_5a6a29eab97d7 class="td_block_inner animated fadeInDown">
+        <div class="td_mod_mega_menu">
+
+        <!-- code modified by tahmina mega menu default image display -->
+            
+<div class="thumb-wrap"><a href="https://www.thestage.co.uk/features/interviews/2018/need-celebrate-talent-like-daniel-kaluuya-keep-country/" rel="bookmark" title="Playwright Bola Agbaje: &#8216;We need to celebrate talent like Daniel Kaluuya and keep them in this country&#8217;"><img width="198" height="143" itemprop="image" class="entry-thumb" src="https://cdn.thestage.co.uk/wp-content/uploads/2018/01/25113914/Sucker-Punch-Royal-Court-90-198x143.jpg" alt="Daniel Kaluuya in Sucker Punch at the Royal Court. Photo: Tristram Kenton" title="Playwright Bola Agbaje: &#8216;We need to celebrate talent like Daniel Kaluuya and keep them in this country&#8217;"/></a></div>           
+
+
+
+
+            <div class="item-details mega-menu">
+                <h4 itemprop="name" class="entry-title"><a itemprop="url" href="https://www.thestage.co.uk/features/interviews/2018/need-celebrate-talent-like-daniel-kaluuya-keep-country/" rel="bookmark" title="Playwright Bola Agbaje: &#8216;We need to celebrate talent like Daniel Kaluuya and keep them in this country&#8217;">Playwright Bola Agbaje: &#8216;We need to celebrate talent like Daniel Kaluuya and keep them in this country&#8217;</a></h4>            </div>
+        </div>
+        
+        <div class="td_mod_mega_menu">
+
+        <!-- code modified by tahmina mega menu default image display -->
+            
+<div class="thumb-wrap"><a href="https://www.thestage.co.uk/features/analysis/2018/harassment-bullying-theatre-industry-special-report-sexual-assault/" rel="bookmark" title="Harassment and bullying in the theatre industry special report: Sexual assault"><img width="198" height="143" itemprop="image" class="entry-thumb" src="https://cdn.thestage.co.uk/wp-content/uploads/2018/01/25134345/STAGE-100-image-Harassment-report-7-198x143.png" alt="" title="Harassment and bullying in the theatre industry special report: Sexual assault"/></a></div>           
+
+
+
+
+            <div class="item-details mega-menu">
+                <h4 itemprop="name" class="entry-title"><a itemprop="url" href="https://www.thestage.co.uk/features/analysis/2018/harassment-bullying-theatre-industry-special-report-sexual-assault/" rel="bookmark" title="Harassment and bullying in the theatre industry special report: Sexual assault">Harassment and bullying in the theatre industry special report: Sexual assault</a></h4>            </div>
+        </div>
+        
+        <div class="td_mod_mega_menu">
+
+        <!-- code modified by tahmina mega menu default image display -->
+            
+<div class="thumb-wrap"><a href="https://www.thestage.co.uk/features/analysis/2018/harassment-bullying-theatre-industry-special-report-harassment/" rel="bookmark" title="Harassment and bullying in the theatre industry special report: Harassment"><img width="198" height="143" itemprop="image" class="entry-thumb" src="https://cdn.thestage.co.uk/wp-content/uploads/2018/01/24155217/STAGE-100-image-Harassment-report-5-198x143.png" alt="" title="Harassment and bullying in the theatre industry special report: Harassment"/></a></div>           
+
+
+
+
+            <div class="item-details mega-menu">
+                <h4 itemprop="name" class="entry-title"><a itemprop="url" href="https://www.thestage.co.uk/features/analysis/2018/harassment-bullying-theatre-industry-special-report-harassment/" rel="bookmark" title="Harassment and bullying in the theatre industry special report: Harassment">Harassment and bullying in the theatre industry special report: Harassment</a></h4>            </div>
+        </div>
+        
+        <div class="td_mod_mega_menu">
+
+        <!-- code modified by tahmina mega menu default image display -->
+            
+<div class="thumb-wrap"><a href="https://www.thestage.co.uk/features/analysis/2018/harassment-bullying-theatre-industry-special-report-inside-story/" rel="bookmark" title="Harassment and bullying in the theatre industry special report: Inside the story"><img width="198" height="143" itemprop="image" class="entry-thumb" src="https://cdn.thestage.co.uk/wp-content/uploads/2018/01/24145845/STAGE-100-image-Harassment-report-3-198x143.png" alt="" title="Harassment and bullying in the theatre industry special report: Inside the story"/></a></div>           
+
+
+
+
+            <div class="item-details mega-menu">
+                <h4 itemprop="name" class="entry-title"><a itemprop="url" href="https://www.thestage.co.uk/features/analysis/2018/harassment-bullying-theatre-industry-special-report-inside-story/" rel="bookmark" title="Harassment and bullying in the theatre industry special report: Inside the story">Harassment and bullying in the theatre industry special report: Inside the story</a></h4>            </div>
+        </div>
+        </div><div class="td-next-prev-wrap"><a href="#" class="td_ajax-prev-page ajax-page-disabled" id="prev-page-td_uid_7_5a6a29eab97d7" data-td_block_id="td_uid_7_5a6a29eab97d7"></a><a href="#"  class="td-ajax-next-page" id="next-page-td_uid_7_5a6a29eab97d7" data-td_block_id="td_uid_7_5a6a29eab97d7"></a></div><div class="clearfix"></div></div> <!-- ./block1 --></div></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-mega-menu menu-item-79846 advice"><a title="advice" href="https://www.thestage.co.uk/advice/">Advice</a>
+<ul  class="sub-menu">
+	<li class="menu-item-0 var-block_td_uid_9_5a6a29eacbecb-new-td_blockblock_td_uid_9_5a6a29eacbecb-id-td_uid_9_5a6a29eacbecbblock_td_uid_9_5a6a29eacbecb-atts-limit4td_column_number3ajax_paginationn"><div class="td-mega-grid"><script>var block_td_uid_9_5a6a29eacbecb = new td_block();
+block_td_uid_9_5a6a29eacbecb.id = "td_uid_9_5a6a29eacbecb";
+block_td_uid_9_5a6a29eacbecb.atts = '{"limit":4,"td_column_number":3,"ajax_pagination":"next_prev","category_id":"10408","show_child_cat":"5","post_type":["post","reviews"]}';
+block_td_uid_9_5a6a29eacbecb.td_cur_cat = "10408";
+block_td_uid_9_5a6a29eacbecb.td_column_number = "1";
+block_td_uid_9_5a6a29eacbecb.block_type = "td_mega_menu";
+block_td_uid_9_5a6a29eacbecb.post_count = "4";
+block_td_uid_9_5a6a29eacbecb.found_posts = "1078";
+block_td_uid_9_5a6a29eacbecb.max_num_pages = "270";
+block_td_uid_9_5a6a29eacbecb.header_color = "";
+block_td_uid_9_5a6a29eacbecb.ajax_pagination_infinite_stop = "";
+td_blocks.push(block_td_uid_9_5a6a29eacbecb);
+</script><div class="td_block_wrap td_block_mega_menu"><div class="td_mega_menu_sub_cats"><div class="block-mega-child-cats"><div><a class="cur-sub-cat ajax-sub-cat-mega sub-cat-td_uid_9_5a6a29eacbecb" id="sub-cat-td_uid_9_5a6a29eacbecb-10408" data-cat_id="10408"
+                        data-td_block_id="td_uid_9_5a6a29eacbecb" href="https://www.thestage.co.uk/advice/">All</a></div><div><a class="ajax-sub-cat-mega sub-cat-td_uid_9_5a6a29eacbecb" id="sub-cat-td_uid_9_5a6a29eacbecb-10412" data-cat_id="10412" data-td_block_id="td_uid_9_5a6a29eacbecb" href="https://www.thestage.co.uk/advice/how-to/">How To</a></div><div><a class="ajax-sub-cat-mega sub-cat-td_uid_9_5a6a29eacbecb" id="sub-cat-td_uid_9_5a6a29eacbecb-2174" data-cat_id="2174" data-td_block_id="td_uid_9_5a6a29eacbecb" href="https://www.thestage.co.uk/advice/scholarships/">Scholarships</a></div><div><a class="ajax-sub-cat-mega sub-cat-td_uid_9_5a6a29eacbecb" id="sub-cat-td_uid_9_5a6a29eacbecb-10413" data-cat_id="10413" data-td_block_id="td_uid_9_5a6a29eacbecb" href="https://www.thestage.co.uk/advice/the-green-room/">The Green Room</a></div></div></div><div id=td_uid_9_5a6a29eacbecb class="td_block_inner animated fadeInDown">
+        <div class="td_mod_mega_menu">
+
+        <!-- code modified by tahmina mega menu default image display -->
+            
+<div class="thumb-wrap"><a href="https://www.thestage.co.uk/advice/2018/does-online-actor-training-work/" rel="bookmark" title="Careers Clinic: Does online actor training work?"><img width="198" height="143" itemprop="image" class="entry-thumb" src="https://cdn.thestage.co.uk/wp-content/uploads/2015/09/Careers-clinic-john-byrne-198x143.jpg" alt="John Byrne. Photo: Catherine Usher" title="Careers Clinic: Does online actor training work?"/></a></div>           
+
+
+
+
+            <div class="item-details mega-menu">
+                <h4 itemprop="name" class="entry-title"><a itemprop="url" href="https://www.thestage.co.uk/advice/2018/does-online-actor-training-work/" rel="bookmark" title="Careers Clinic: Does online actor training work?">Careers Clinic: Does online actor training work?</a></h4>            </div>
+        </div>
+        
+        <div class="td_mod_mega_menu">
+
+        <!-- code modified by tahmina mega menu default image display -->
+            
+<div class="thumb-wrap"><a href="https://www.thestage.co.uk/advice/2018/dear-west-end-producer-i-had-an-audition-for-invisible-man-but-didnt-go-i-still-got-the-part-should-i-accept/" rel="bookmark" title="Dear West End Producer: I had an audition for Invisible Man, but didn’t go. I still got the part. Should I accept?"><img width="198" height="143" itemprop="image" class="entry-thumb" src="https://cdn.thestage.co.uk/wp-content/uploads/2015/10/WEP-web-700x455-198x143.jpg" alt="West End Producer" title="Dear West End Producer: I had an audition for Invisible Man, but didn’t go. I still got the part. Should I accept?"/></a></div>           
+
+
+
+
+            <div class="item-details mega-menu">
+                <h4 itemprop="name" class="entry-title"><a itemprop="url" href="https://www.thestage.co.uk/advice/2018/dear-west-end-producer-i-had-an-audition-for-invisible-man-but-didnt-go-i-still-got-the-part-should-i-accept/" rel="bookmark" title="Dear West End Producer: I had an audition for Invisible Man, but didn’t go. I still got the part. Should I accept?">Dear West End Producer: I had an audition for Invisible Man, but didn’t go. I still got the part. Should I accept?</a></h4>            </div>
+        </div>
+        
+        <div class="td_mod_mega_menu">
+
+        <!-- code modified by tahmina mega menu default image display -->
+            
+<div class="thumb-wrap"><a href="https://www.thestage.co.uk/advice/scholarships/2018/the-stage-scholarships-2018-pauline-quirke-academy-studios-london/" rel="bookmark" title="The Stage Scholarships 2018: Pauline Quirke Academy Studios London"><img width="198" height="143" itemprop="image" class="entry-thumb" src="https://cdn.thestage.co.uk/wp-content/uploads/2018/01/23131454/Singing_132-198x143.jpg" alt="PQA Studios London students. Photo: Brian Thomas" title="The Stage Scholarships 2018: Pauline Quirke Academy Studios London"/></a></div>           
+
+
+
+
+            <div class="item-details mega-menu">
+                <h4 itemprop="name" class="entry-title"><a itemprop="url" href="https://www.thestage.co.uk/advice/scholarships/2018/the-stage-scholarships-2018-pauline-quirke-academy-studios-london/" rel="bookmark" title="The Stage Scholarships 2018: Pauline Quirke Academy Studios London">The Stage Scholarships 2018: Pauline Quirke Academy Studios London</a></h4>            </div>
+        </div>
+        
+        <div class="td_mod_mega_menu">
+
+        <!-- code modified by tahmina mega menu default image display -->
+            
+<div class="thumb-wrap"><a href="https://www.thestage.co.uk/advice/scholarships/2018/stage-scholarships-2018-italia-conti-academy-theatre-arts/" rel="bookmark" title="The Stage Scholarships 2018: Italia Conti Academy of Theatre Arts"><img width="198" height="143" itemprop="image" class="entry-thumb" src="https://cdn.thestage.co.uk/wp-content/uploads/2018/01/23130117/16wLPM_3780-198x143.jpg" alt="Italia Conti students performing" title="The Stage Scholarships 2018: Italia Conti Academy of Theatre Arts"/></a></div>           
+
+
+
+
+            <div class="item-details mega-menu">
+                <h4 itemprop="name" class="entry-title"><a itemprop="url" href="https://www.thestage.co.uk/advice/scholarships/2018/stage-scholarships-2018-italia-conti-academy-theatre-arts/" rel="bookmark" title="The Stage Scholarships 2018: Italia Conti Academy of Theatre Arts">The Stage Scholarships 2018: Italia Conti Academy of Theatre Arts</a></h4>            </div>
+        </div>
+        </div><div class="td-next-prev-wrap"><a href="#" class="td_ajax-prev-page ajax-page-disabled" id="prev-page-td_uid_9_5a6a29eacbecb" data-td_block_id="td_uid_9_5a6a29eacbecb"></a><a href="#"  class="td-ajax-next-page" id="next-page-td_uid_9_5a6a29eacbecb" data-td_block_id="td_uid_9_5a6a29eacbecb"></a></div><div class="clearfix"></div></div> <!-- ./block1 --></div></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children td-menu-item td-normal-menu menu-item-393485 subscribe"><a title="subscribe" href="https://subscriptions.thestage.co.uk/?utm_source=navigation%20bar&#038;utm_medium=navigation%20bar&#038;utm_campaign=the%20stage%20navigation%20bar">Subscribe</a>
+<ul  class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-506277 buy-a-gift"><a href="http://more.thestage.co.uk/gift-subscriptions/?utm_source=thestagehomepage&#038;utm_medium=navigationbar&#038;utm_campaign=subscribebutton">Buy a gift</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-458846 print-edition"><a title="subscribe to the print edition" href="https://subscriptions.thestage.co.uk/store/products,the-stage-print_4.htm?utm_source=navigation%20bar&#038;utm_medium=navigation%20bar&#038;utm_campaign=the%20stage%20navigation%20bar">Print Edition</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-458847 digital-edition"><a title="subscribe to the digital edition" href="https://subscriptions.thestage.co.uk/store/products,the-stage-digital_3.htm?utm_source=navigation%20bar&#038;utm_medium=navigation%20bar&#038;utm_campaign=the%20stage%20navigation%20bar">Digital Edition</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-458848 web-only"><a title="subscribe to web only" href="https://subscriptions.thestage.co.uk/store/products,the-stage-web-only_5.htm?utm_source=navigation%20bar&#038;utm_medium=navigation%20bar&#038;utm_campaign=the%20stage%20navigation%20bar">Web Only</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-458849 single-copy"><a title="subscribe to a single copy" href="https://subscriptions.thestage.co.uk/store/products,the-stage-single-copy_7.htm?utm_source=navigation%20bar&#038;utm_medium=navigation%20bar&#038;utm_campaign=the%20stage%20navigation%20bar">Single Copy</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-302412 jobs"><a title="The Stage Jobs" href="/jobs">Jobs</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children td-menu-item td-normal-menu menu-item-461645 supports"><a title="The Stage Supports" href="http://supports.thestage.co.uk/?utm_source=thestagewebsite&#038;utm_medium=navigationbar&#038;utm_campaign=navigationbar">Supports</a>
+<ul  class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-475923 homepage"><a href="http://supports.thestage.co.uk/?utm_source=thestagewebsite&#038;utm_medium=navigationbar&#038;utm_campaign=navigationbar">Homepage</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-475925 debut-awards"><a href="http://supports.thestage.co.uk/debut-awards/?utm_source=thestagewebsite&#038;utm_campaign=debuts&#038;utm_medium=navigationbar">Debut Awards</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-474213 awards"><a title="The Stage Awards" href="https://www.thestage.co.uk/awards?utm_source=thestagewebsite&#038;utm_medium=menubar&#038;utm_campaign=thestageawards">Awards</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children td-no-down-arrow td-menu-item td-normal-menu menu-item-429904 categories"><a href="#"><span class="menu_icon td-sp td-sp-ico-categ"></span><span class="menu_hidden">Categories</span></a>
+<ul  class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-429905 training"><a title="training" href="https://www.thestage.co.uk/training/">Training</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-429906 archive"><a title="archive" href="http://more.thestage.co.uk/archive/">Archive</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-429907 directory"><a title="directory" href="https://www.thestage.co.uk/directory/">Directory</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-429908 castings"><a title="castings" href="https://www.thestage.co.uk/castings">Castings</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-429910 dating"><a title="dating" href="http://www.lovearts.com/s/a/19425?utm_source=thestage.co.uk&#038;utm_medium=referral&#038;utm_content=thestage_nav_bar&#038;utm_campaign=thestage_nav_bar">Dating</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-482453 advertise"><a href="http://more.thestage.co.uk/advertising-enquiries/">Advertise</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-506249 awards"><a href="https://www.thestage.co.uk/awards?utm_source=thestagewebsite&#038;utm_medium=menubar&#038;utm_campaign=thestageawards">Awards</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children td-menu-item td-normal-menu menu-item-506250 supports"><a href="http://supports.thestage.co.uk/?utm_source=thestagewebsite&#038;utm_medium=navigationbar&#038;utm_campaign=navigationbar">Supports</a>
+	<ul  class="sub-menu">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-506251 homepage"><a href="http://supports.thestage.co.uk/?utm_source=thestagewebsite&#038;utm_medium=navigationbar&#038;utm_campaign=navigationbar">Homepage</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-506252 debut-awards"><a href="http://supports.thestage.co.uk/debut-awards/?utm_source=thestagewebsite&#038;utm_campaign=debuts&#038;utm_medium=navigationbar">Debut Awards</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-506253 tickets"><a href="http://www.lovetheatre.com/thestage?utm_source=thestagewebsite&#038;utm_medium=navigationbar&#038;utm_campaign=navigationbar">Tickets</a></li>
+</ul>
+</li>
+</ul></div>                    </div>
+
+                </div>
+
+                 <div class="span2" id="td-top-search">
+                    <!-- Search -->
+                    <div class="header-search-wrap">
+                        <div class="dropdown header-search">
+                            <a id="search-button" href="#" role="button" class="dropdown-toggle " data-toggle="dropdown"><button type="button" class="wpb_button wpb_btn-inverse btn" ><span class="glyphicon glyphicon-search"></span> Search</button></a>
+                            <div class="dropdown-menu" aria-labelledby="search-button">
+                                <form role="search" method="get" class="td-search-form" action="https://www.thestage.co.uk/">
+                                    <div class="td-head-form-search-wrap">
+                                        <input class="needsclick" id="td-header-search" type="text" value="" name="s" autocomplete="off" /><input class="wpb_button wpb_btn-inverse btn" type="submit" id="td-header-search-top" value="Search" />
+                                    </div>
+                                </form>
+                                <div id="td-aj-search"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div> <!-- /.row-fluid -->
+        </div> <!-- /.td-menu-wrap -->
+    </div> <!-- /.td-menu-background -->
+</div> <!-- /.td-menu-placeholder -->
+
+        <div class="container td-page-wrap">
+            <div class="row">
+                <div class="span12">
+                    <div class="td-grid-wrap">
+                        <div class="container-fluid">
+                            <div class="row-fluid ">
+        
+    <div class="span12 column_container">
+        
+        <div class="span6">
+             <div class="td-404-title">
+                404 Error            </div>
+
+            <div class="td-404-sub-title">
+                We're sorry we couldn't find the page that you're looking for. <br/>
+                Try searching again here:  <br/>
+
+                 <form role="search" method="get" class="td-search-form" action="https://www.thestage.co.uk/">
+                    <input id="error-page-search-bar" type="text" value="" name="s" autocomplete="off" /><input class="wpb_button wpb_btn-inverse btn" id="error-page-search-button" type="submit" value="Search" />
+                </form>
+                
+                <br/>Alternatively, head back to our                <a href="https://www.thestage.co.uk">homepage</a>.
+
+            </div>
+        </div>
+        <div class="span6" style="text-align:center;" >
+            <a href="https://www.thestage.co.uk"><img src="https://www.thestage.co.uk/wp-content/themes/thestage/includes/img/404_error_newspaper.png" alt="404 error page not found newspaper" /></a>
+        </div>
+    </div>
+
+
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<div class="td-sub-footer-wrap">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+            <div class="menu-footer-menu-container"><ul id="menu-footer-menu" class=""><li id="menu-item-79865" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-first td-menu-item td-normal-menu menu-item-79865 get-in-touch"><a href="#">Get in touch</a>
+<ul  class="sub-menu">
+	<li id="menu-item-393476" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-393476 subscribe"><a href="http://subscriptions.thestage.co.uk/?utm_source=bottom%20navigation%20bar&#038;utm_medium=navigation%20bar&#038;utm_campaign=the%20stage%20bottom%20navigation%20bar">Subscribe</a></li>
+	<li id="menu-item-442243" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-442243 about-the-stage"><a href="https://www.thestage.co.uk/about-theatre-publication/">About The Stage</a></li>
+	<li id="menu-item-79858" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-79858 contact-us"><a href="https://www.thestage.co.uk/contact/">Contact us</a></li>
+	<li id="menu-item-79866" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-79866 advertising-enquiries"><a href="https://www.thestage.co.uk/advertise/">Advertising enquiries</a></li>
+	<li id="menu-item-79906" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79906 where-to-buy-the-stage"><a href="http://bit.ly/buystage">Where to buy The Stage</a></li>
+	<li id="menu-item-436431" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-436431 subscriptions-faq"><a href="https://www.thestage.co.uk/faq/">Subscriptions FAQ</a></li>
+	<li id="menu-item-425715" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-425715 scholarships-faq"><a href="https://www.thestage.co.uk/the-stage-scholarships-faq/">Scholarships FAQ</a></li>
+	<li id="menu-item-485900" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-485900 press-centre"><a href="/press-centre%20">Press Centre</a></li>
+	<li id="menu-item-437837" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-437837 login"><a href="/wp-login.php">Login</a></li>
+	<li id="menu-item-400515" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-400515 logout"><a href="/wp-login.php?action=logout">Logout</a></li>
+</ul>
+</li>
+<li id="menu-item-79894" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children td-menu-item td-normal-menu menu-item-79894 editorial"><a href="#">Editorial</a>
+<ul  class="sub-menu">
+	<li id="menu-item-79895" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home td-menu-item td-normal-menu menu-item-79895 home"><a href="https://www.thestage.co.uk/">Home</a></li>
+	<li id="menu-item-79867" class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-79867 news"><a href="https://www.thestage.co.uk/news/">News</a></li>
+	<li id="menu-item-301857" class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-301857 reviews"><a href="https://www.thestage.co.uk/reviews/">Reviews</a></li>
+	<li id="menu-item-79868" class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-79868 opinion"><a href="https://www.thestage.co.uk/opinion/">Opinion</a></li>
+	<li id="menu-item-79870" class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-79870 features"><a href="https://www.thestage.co.uk/features/">Features</a></li>
+	<li id="menu-item-79869" class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-79869 advice"><a href="https://www.thestage.co.uk/advice/">Advice</a></li>
+	<li id="menu-item-498035" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-498035 edinburgh"><a href="/tag/edfringe,edinburgh-international-festival/">Edinburgh</a></li>
+</ul>
+</li>
+<li id="menu-item-79887" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children td-menu-item td-normal-menu menu-item-79887 more-from-the-stage"><a href="#">More from The Stage</a>
+<ul  class="sub-menu">
+	<li id="menu-item-79883" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79883 training"><a href="/training/">Training</a></li>
+	<li id="menu-item-79884" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79884 archive"><a href="http://more.thestage.co.uk/archive">Archive</a></li>
+	<li id="menu-item-79885" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79885 directory"><a href="/directory/">Directory</a></li>
+	<li id="menu-item-79886" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79886 castings"><a href="/castings/">Castings</a></li>
+	<li id="menu-item-79897" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79897 jobs"><a href="/jobs/">Jobs</a></li>
+	<li id="menu-item-475949" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-475949 tickets"><a href="http://www.lovetheatre.com/thestage">Tickets</a></li>
+	<li id="menu-item-79898" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79898 dating"><a href="http://www.lovearts.co.uk/s/a/19425?utm_source=thestage.co.uk&#038;utm_medium=referral&#038;utm_content=thestage_nav_bar&#038;utm_campaign=thestage_nav_bar">Dating</a></li>
+	<li id="menu-item-79920" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79920 digital-edition"><a href="/digital/">Digital edition</a></li>
+	<li id="menu-item-79864" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-79864 mobile-apps"><a href="https://www.thestage.co.uk/app/">Mobile apps</a></li>
+</ul>
+</li>
+<li id="menu-item-79896" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children td-menu-item td-normal-menu menu-item-79896 awards"><a href="#">Awards</a>
+<ul  class="sub-menu">
+	<li id="menu-item-431254" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-431254 the-stage-awards"><a href="/awards">The Stage Awards</a></li>
+	<li id="menu-item-475932" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-475932 the-stage-debut-awards"><a href="http://supports.thestage.co.uk/debut-awards">The Stage Debut Awards</a></li>
+	<li id="menu-item-79907" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79907 the-stage-edinburgh-awards"><a href="https://www.edfringe.com/media/award-winners#StageAward">The Stage Edinburgh Awards</a></li>
+	<li id="menu-item-79908" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79908 uk-theatre-awards"><a href="http://uktheatre.org/training-events/uk-theatre-awards/">UK Theatre Awards</a></li>
+	<li id="menu-item-79909" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79909 sma-awards"><a href="http://www.stagemanagementassociation.co.uk/conference/awards">SMA Awards</a></li>
+</ul>
+</li>
+<li id="menu-item-79888" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children td-menu-item td-normal-menu menu-item-79888 social-media"><a href="#">Social media</a>
+<ul  class="sub-menu">
+	<li id="menu-item-79889" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79889 facebook"><a href="https://www.facebook.com/thestage">Facebook</a></li>
+	<li id="menu-item-79890" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79890 twitter"><a href="https://twitter.com/TheStage">Twitter</a></li>
+	<li id="menu-item-79901" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79901 instagram"><a href="http://instagram.com/thestageuk">Instagram</a></li>
+	<li id="menu-item-79902" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79902 linkedin"><a href="https://www.linkedin.com/company/the-stage-media-company-ltd">LinkedIn</a></li>
+	<li id="menu-item-79903" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79903 pinterest"><a href="https://uk.pinterest.com/thestage/">Pinterest</a></li>
+	<li id="menu-item-79904" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79904 google"><a href="https://plus.google.com/+thestage/posts">Google+</a></li>
+	<li id="menu-item-79905" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-79905 youtube"><a href="https://www.youtube.com/user/thestagenewspaper">YouTube</a></li>
+	<li id="menu-item-485902" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-485902 52-stages"><a href="/52stages%20">52 Stages</a></li>
+</ul>
+</li>
+<li id="menu-item-79900" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children td-menu-item td-normal-menu menu-item-79900 legal"><a href="#">Legal</a>
+<ul  class="sub-menu">
+	<li id="menu-item-79859" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-79859 cookies"><a href="https://www.thestage.co.uk/cookies/">Cookies</a></li>
+	<li id="menu-item-79863" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-79863 terms-and-conditions"><a href="https://www.thestage.co.uk/terms/">Terms and conditions</a></li>
+	<li id="menu-item-465375" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-465375 advertising-terms-and-conditions"><a href="https://www.thestage.co.uk/advertising-terms-and-conditions/">Advertising terms and conditions</a></li>
+	<li id="menu-item-421686" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-421686 contributor-agreement"><a href="https://www.thestage.co.uk/the-stage-contributor-agreement/">Contributor agreement</a></li>
+	<li id="menu-item-79861" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-79861 privacy-policy"><a href="https://www.thestage.co.uk/privacy/">Privacy policy</a></li>
+	<li id="menu-item-79860" class="menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-79860 house-rules"><a href="https://www.thestage.co.uk/house-rules/">House rules</a></li>
+</ul>
+</li>
+</ul></div>            </div>
+            <div class="span12 footer-lower-container">
+                            <a class="footer-logo-link" href="https://www.thestage.co.uk">
+                <img class="footer-logo-image" src="https://cdn.thestage.co.uk/wp-content/uploads/2015/03/thestage_logo.svg" />
+              </a>
+                            <span class='footer-copyright'>&copy; Copyright The Stage Media Company Limited 2018</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<!--/#inner-wrap-->
+</div>
+<!--/#outer-wrap-->
+
+<div class="td-sp td-scroll-up">^</div>
+
+<!-- W3TC-include-js-head -->
+<link rel="stylesheet" type="text/css" href="https://www.thestage.co.uk/wp-content/cache/minify/6d62e.default.include.db287d.css" media="all" />
+
+
+
+    <!--
+
+        Theme: Newspaper by tagDiv 2014
+        Version: 4.5 (rara)
+        Deploy mode: deploy
+        Speed booster: v2.5
+
+        uid: 5a6a29eae5822
+    -->
+
+    <link rel='stylesheet' id='google-font-rest-css'  href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|Ubuntu:400,400italic|Open+Sans:400italic,400|Oswald:400,700|Roboto+Condensed:400italic,700italic,400,700?ver=4.5' type='text/css' media='all' />
+
+
+<link rel='stylesheet' id='tsrs.css-css'  href='https://www.thestage.co.uk/wp-content/plugins/ts-related-slider//css/tsrs.css?ver=4.5' type='text/css' media='all' />
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js?ver=1.11.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var cnArgs = {"ajaxurl":"https:\/\/www.thestage.co.uk\/wp-admin\/admin-ajax.php","hideEffect":"fade","cookieName":"cookie_notice_accepted","cookieValue":"TRUE","cookieTime":"31337313373","cookiePath":"\/","cookieDomain":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.thestage.co.uk/wp-content/plugins/cookie-notice/js/front.js?ver=4.8.3'></script>
+<script type='text/javascript' src='https://www.thestage.co.uk/wp-content/plugins/latest-jobs-feed/js/ljf.js?ver=1.1'></script>
+<script type='text/javascript' src='https://www.thestage.co.uk/wp-content/plugins/ts-related-slider//js/tsrs.js?ver=1.1'></script>
+<script type='text/javascript' src='https://www.thestage.co.uk/wp-content/themes/thestage/lib/jquery/jquery.raty.min.js?ver=2.5.2'></script>
+<script type='text/javascript' src='https://www.thestage.co.uk/wp-content/themes/thestage/js/login_modal_request.js?ver=1.1.6'></script>
+<script type='text/javascript' src='https://www.thestage.co.uk/wp-content/themes/thestage/js/paywall_token.js?ver=1.1.4'></script>
+<script type='text/javascript' src='https://www.thestage.co.uk/wp-content/themes/thestage/js/paywall.js?ver=1.2'></script>
+<script type='text/javascript' src='https://www.thestage.co.uk/wp-content/themes/thestage/js/thestage.js?ver=1.1'></script>
+<script type='text/javascript' src='https://www.thestage.co.uk/wp-content/themes/Newspaper/js/td_external.js?ver=4.5'></script>
+<script type='text/javascript' src='https://www.thestage.co.uk/wp-content/themes/Newspaper/js/full_compact/site.js?ver=4.5'></script>
+<script type='text/javascript' src='https://www.thestage.co.uk/wp-content/themes/thestage/js/override-site.js?ver=1'></script>
+<script type='text/javascript' src='https://www.thestage.co.uk/wp-content/themes/thestage/lib/bootstrap/js/bootstrap.min.js?ver=1'></script>
+<script type='text/javascript' src='https://www.thestage.co.uk/wp-content/themes/thestage/js/ads.js'></script>
+<script type='text/javascript' src='https://www.thestage.co.uk/wp-content/themes/thestage/js/adblock_logging.js?ver=1'></script>
+<script type='text/javascript' src='https://www.thestage.co.uk/wp-content/themes/thestage/js/track_outbound_link.js?ver=1'></script>
+<script type='text/javascript' src='https://www.thestage.co.uk/wp-includes/js/wp-embed.min.js?ver=4.8.3'></script>
+
+<!-- Style compiled by theme -->
+
+<style>
+    
+body .td-post-text-content {
+        font-size:16px;
+	line-height:22px;
+	
+    }
+</style>
+
+
+<!-- JS generated by theme -->
+
+<script>
+    
+</script>
+
+
+			<div id="cookie-notice" class="cn-top wp-default" style="color: #fff; background-color: #000;"><div class="cookie-notice-container">We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.<a href="" id="cn-accept-cookie" class="button wp-default">Okay</a><a href="/cookies/" target="_blank" class="button wp-default">Find out more</a>
+				</div>
+			</div><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"102258864f","applicationID":"44742310","transactionName":"YVxVY0sCDxFQUxUNWVgWdlRNCg4MHgRRUA==","queueTime":0,"applicationTime":905,"atts":"TRtWFQMYHB8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using memcache
+Minified using memcache
+
+ Served from: www.thestage.co.uk @ 2018-01-25 19:03:06 by W3 Total Cache -->

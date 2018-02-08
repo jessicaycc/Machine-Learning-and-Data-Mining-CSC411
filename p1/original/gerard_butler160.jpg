@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0"/>
+	<title>Page not found - 404</title>
+	<meta name="description" content=""/>
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+	<meta name="robots" content="index,follow" />
+    <meta name="distribution" content="global" />
+    <meta http-equiv="Content-Language" content="EN" />
+    <meta name="document-rating" content="general" />
+    <meta name="google-site-verification" content="e1LsEO7OiyN24xrnsPgKCrT8PsowX_zwclD2UzBOHx8" />
+	<link rel=stylesheet type=text/css href="style.css">
+</head>
+
+<body>
+	<div id="top">
+    	<a href="http://m.browsebiography.com">BrowseBiography</a>
+    </div>
+    <div id="letters">
+    	&nbsp;Biography by letter : 
+        <a href="http://m.browsebiography.com/letter-a-1.html">A</a>
+        <a href="http://m.browsebiography.com/letter-b-1.html">B</a>
+        <a href="http://m.browsebiography.com/letter-c-1.html">C</a>
+        <a href="http://m.browsebiography.com/letter-d-1.html">D</a>
+        <a href="http://m.browsebiography.com/letter-e-1.html">E</a>
+        <a href="http://m.browsebiography.com/letter-f-1.html">F</a>
+        <a href="http://m.browsebiography.com/letter-g-1.html">G</a>
+        <a href="http://m.browsebiography.com/letter-h-1.html">H</a>
+        <a href="http://m.browsebiography.com/letter-i-1.html">I</a>
+        <a href="http://m.browsebiography.com/letter-j-1.html">J</a>
+        <a href="http://m.browsebiography.com/letter-k-1.html">K</a>
+        <a href="http://m.browsebiography.com/letter-l-1.html">L</a>
+        <a href="http://m.browsebiography.com/letter-m-1.html">M</a>
+        <a href="http://m.browsebiography.com/letter-n-1.html">N</a>
+        <a href="http://m.browsebiography.com/letter-o-1.html">O</a>
+        <a href="http://m.browsebiography.com/letter-p-1.html">P</a>
+        <a href="http://m.browsebiography.com/letter-q-1.html">Q</a>
+        <a href="http://m.browsebiography.com/letter-r-1.html">R</a>
+        <a href="http://m.browsebiography.com/letter-s-1.html">S</a>
+        <a href="http://m.browsebiography.com/letter-t-1.html">T</a>
+        <a href="http://m.browsebiography.com/letter-u-1.html">U</a>
+        <a href="http://m.browsebiography.com/letter-v-1.html">V</a>
+        <a href="http://m.browsebiography.com/letter-w-1.html">W</a>
+        <a href="http://m.browsebiography.com/letter-x-1.html">X</a>
+        <a href="http://m.browsebiography.com/letter-y-1.html">Y</a>
+        <a href="http://m.browsebiography.com/letter-z-1.html">Z</a>
+        <a href="http://m.browsebiography.com/letter-0-1.html">0-9</a>
+    </div>
+    <form name="search" action="search.php" method="GET">
+    <div style="font-size:10px;">
+    	<table cellpadding="0" cellspacing="1">
+        	<tr>
+            	<td align="right">Search in :</td>
+                <td>
+                	
+		<select name="categorii">
+			<option value="-1">All categories</option>
+		
+			<option value="1">Arhitecture and Engineering</option>
+			
+			<option value="2">Arts and Entertainment</option>
+			
+			<option value="7">Famous Figures</option>
+			
+			<option value="6">Historian personalities</option>
+			
+			<option value="3">Politics</option>
+			
+			<option value="4">Science and Technology</option>
+			
+			<option value="5">Sports</option>
+			</select>                </td>
+            </tr>
+            <tr>
+            	<td><input type="text" name="textul"  style="font-size:10px;" /></td>
+                <td align="center"><input type="submit" name="submit" value="Search" style="font-size:10px;" /></td>
+            </tr>
+        </table>
+    </div>
+    </form>
+    <div id="content">
+		
+	<div class="error">Error... We can't find what you are looking for.</div>
+	    </div>
+    <div id="bottom">
+    	<a href="http://www.browsebiography.com">Browsebiography computer mode</a>
+    </div>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-9332049-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
+
+

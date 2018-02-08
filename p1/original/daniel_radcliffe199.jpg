@@ -1,0 +1,757 @@
+
+
+
+
+			<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>404 Error - Mid Day</title>
+<link href="https://www.mid-day.com/Resources/midday/css/headfoot2017.css" rel="stylesheet" type="text/css"/>
+<link href="https://www.mid-day.com/Resources/midday/css/error.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="https://www.mid-day.com/Resources/midday/js/jquery-1.8.1.js"></script>
+<script type="text/javascript" src="https://www.mid-day.com/Resources/midday/js/swiper.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-2326030-24', 'auto');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+</script>
+<script src="https://www.mid-day.com/Resources/midday/js/solrsearch.js" type="text/javascript"></script>
+</head>
+<body>
+<!--header starts here--> 
+<!--topbar-->
+<div class="top-row">
+  <div class="container">
+    <ul class="box1">
+      <li> <a rel="nofollow" target="_blank" href="http://www.onlymyhealth.com">Health Tips</a> </li>
+      <li> <a rel="nofollow" target="_blank" href="http://post.jagran.com">English News</a> </li>
+      <li> <a rel="nofollow" target="_blank" href="https://www.jagran.com">Hindi News</a> </li>
+      <li> <a rel="nofollow" target="_blank" href="https://www.jagranjosh.com">Education</a> </li>
+      <li> <a rel="nofollow" target="_blank" href="https://www.mid-day.com/news/board-exam-result">Board Results</a> </li>
+      <li> <a rel="nofollow" target="_blank" href="http://www.khojle.in">Classifieds</a> </li>
+      <li> <a rel="nofollow" target="_blank" href="http://www.planetradiocity.com">Radiocity</a> </li>
+    </ul>
+    <ul class="box2">
+      <li class="fb"><a href="https://www.facebook.com/middayindia" target="_blank" title="Facebook"></a></li>
+      <li class="tw"><a href="https://twitter.com/mid_day" target="_blank" title="Twitter"></a></li>
+      <li class="pin"><a href="https://www.pinterest.com/middaydotcom/" target="_blank" title="Pintrest"></a></li>
+      <li class="rss-top"><a href="https://www.mid-day.com/rss.htm" target="_blank" title="RSS"></a></li>
+      <li class="gplus"><a href="https://www.mid-day.com/rss.htm" target="_blank" title="Googleplus"></a></li>
+      <li class="insta-top"><a href="https://www.instagram.com/middayindia/" target="_blank" title="Instagram"></a> </li>
+      <li class="android-ico"> <a href="https://play.google.com/store/apps/details?id=com.jagran.midday&amp;hl=en" target="_blank"></a></li>
+      <li class="icon-ios"><a href="https://itunes.apple.com/in/app/mid-day/id1155001691?mt=8" target="_blank"></a></li>
+      <li class="epaper"><a target="_blank" href="http://epaper2.mid-day.com">Epaper</a></li>
+    </ul>
+  </div>
+</div>
+<div class="ls-area header" id="ls-row-2-area-1">
+<header role="header">
+  <div class="container Nheader">
+    <div itemscope="" itemtype="https://schema.org/Organization" class="logo"> <a itemprop="url" href="/"><img itemprop="logo" src="https://www.mid-day.com/Resources/midday/images/logo-new.png" title="Latest Breaking News" name="Latest Breaking News" alt="mid-day"/></a> </div>
+    <div class="header_adbanner">
+      <div id="header_ad_top_adbox"></div>
+    </div>
+  </div>
+  <header>
+  
+</div>
+
+<!--navigation-->
+<nav role="navigation">
+<div class="container">
+  <div class="navigation-row">
+    <div class="respmenu">
+      <ul class="menu">
+        <li> <a href="/"><i class="icon-home-nav"></i></a> </li>
+        <li> <a href="/mumbai">Mumbai</a>
+          <div class="dropdownbox">
+            <div class="ddcol1">
+              <p> <a href="/mumbai">More in Mumbai</a> </p>
+              <ul>
+                <li> <a href="/mumbai/food" title="Mumbai Food">Mumbai Food</a> </li>
+                <li> <a href="/mumbai/things-to-do" title="Things to do">Things to do</a> </li>
+                <li> <a href="/mumbai/people" title="People">People</a> </li>
+                <li> <a href="/mumbai/vintage" title="Vintage Mumbai">Vintage Mumbai</a> </li>
+                <li> <a href="/mumbai/festivals" title="Festivals">Festivals</a> </li>
+              </ul>
+            </div>
+            <div class="ddcol2"> <a href="/articles/mumbai-news-eight-year-old-girl-beaten-mankhurd-childrens-home-forced-to-lick-vomit/18291155" title="Mumbai: 8-year-old thrashed, forced to lick her own vomit"><img alt="Mumbai: 8-year-old thrashed, forced to lick her own vomit" title="Mumbai: 8-year-old thrashed, forced to lick her own vomit" src="https://images.mid-day.com/images/2017/may/mankhurd-s.jpg"/>
+              <p>Mumbai: 8-year-old thrashed, forced to lick her own vomit</p>
+              </a>
+              <ul class="ddcol3">
+                <li> <a href="/articles/mumbai-news-fairness-creams-beauty-products-prescription-only-drugs-cases/18290188" title="Mumbai: Fairness creams are not playing a fair game, reveals FDA">
+                  <p>Mumbai: Fairness creams are not playing a fair game, reveals FDA</p>
+                  </a> </li>
+                <li> <a href="/articles/mumbai-crime-news-con-woman-arrested-rs-75-lakh-fraud-case-bhandup-police/18290197" title="Mumbai Crime: 'Promising' con woman cheats people of Rs 75 lakh">
+                  <p>Mumbai Crime: 'Promising' con woman cheats people of Rs 75 lakh</p>
+                  </a> </li>
+                <li> <a href="/articles/salman-khan-tubelight-trailer-baahubali-2-box-office-dangal-bollywood-news/18279181" title="Salman Khan unfazed when asked if 'Tubelight' can overtake 'Baahubali 2'">
+                  <p>Salman Khan unfazed when asked if 'Tubelight' can overtake 'Baahubali 2'</p>
+                  </a> </li>
+                <li> <a href="/articles/leopard-death-sgnp-sanjay-gandhi-national-park-investigations-mumbai-news/18291160" title="Mumbai: Leopard drops dead at SGNP, but no one knows why">
+                  <p>Mumbai: Leopard drops dead at SGNP, but no one knows why</p>
+                  </a> </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li> <a href="/entertainment">Entertainment</a>
+          <div class="dropdownbox">
+            <div class="ddcol1">
+              <p> <a href="/entertainment">More in Entertainment</a> </p>
+              <ul>
+                <li> <a href="/entertainment/bollywood" title="Bollywood News">Bollywood News</a> </li>
+                <li> <a href="/entertainment/television" title="Television News">Television News</a> </li>
+                <li> <a href="/entertainment/hollywood" title="Hollywood News">Hollywood News</a> </li>
+				<li> <a href="/entertainment/regional-cinema" title="Regional Cinema News">Regional Cinema News</a> </li>
+				<li> <a href="/entertainment/bollywood-fashion" title="Bollywood Fashion">Bollywood Fashion</a> </li>
+				<li> <a href="/entertainment/movie-reviews" title="Movie Reviews">Movie Reviews</a> </li>
+                <li> <a href="/entertainment/movies/baadshaho" title="Movies">Movies</a> </li>
+				<li> <a href="/entertainment/celebrities" title="Celebrity">Celebrities</a> </li>
+                
+                
+              </ul>
+            </div>
+            <div class="ddcol2"> <a href="/articles/aamir-khan-dangal-china-box-office-audience-bollywood-news/18290182" title="Aamir Khan: I still don't know what connects me to audience"><img alt="Aamir Khan: I still don't know what connects me to audience" title="Aamir Khan: I still don't know what connects me to audience" src="https://images.mid-day.com/images/2017/may/amirkhan-ak-s.jpg"/>
+              <p>Aamir Khan: I still don't know what connects me to audience</p>
+              </a>
+              <ul class="ddcol3">
+                <li> <a href="/articles/shahid-kapoor-ranveer-singh-padmavati-deepika-padukone-shooting-bollywood-news/18289190" title="Shahid Kapoor and Ranveer Singh get into 'war of words' for 'Padmavati'">
+                  <p>Shahid Kapoor and Ranveer Singh get into 'war of words' for 'Padmavati'</p>
+                  </a> </li>
+                <li> <a href="/articles/rajinikanth-shoots-mumbai-south-superstar-spotted-thalaiva-grant-road-mumbai-regional-cinema-news/18290185" title="Superstar spotted! Rajinikanth shoots for his film in Mumbai">
+                  <p>Superstar spotted! Rajinikanth shoots for his film in Mumbai</p>
+                  </a> </li>
+                <li> <a href="/articles/shot-in-the-dark-married-dusky-actress-filmmaker-mumbai-hotel-bollywood-gossip-news/18290191" title="Shot in the dark: This married actress and filmmaker make merry at bash">
+                  <p>Shot in the dark: This married actress and filmmaker make merry at bash</p>
+                  </a> </li>
+                <li> <a href="/articles/suneeta-rao-song-paree-hoon-main-used-in-shah-rukh-khan-fairness-cream-ad-bollywood-news/18292167" title="Suneeta Rao furious her song was used in SRK's fairness cream ad">
+                  <p>Suneeta Rao furious her song was used in SRK's fairness cream ad</p>
+                  </a> </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li> <a href="/news">News</a>
+          <div class="dropdownbox">
+            <div class="ddcol1">
+              <p> <a href="/news">More in News</a> </p>
+              <ul>
+                <li> <a href="/news/mumbai" title="Mumbai News">Mumbai News</a> </li>
+                <li> <a href="/news/crime" title="Crime News">Crime News</a> </li>
+                <li> <a href="/news/national" title="National News">National News</a> </li>
+				<li> <a href="/news/international" title="International News">International News</a> </li>
+				<li> <a href="/news/columnists" title="Columnists">Columnists</a> </li>
+                <li> <a href="/news/hatke" title="Hatke News ">Hatke News </a> </li>
+                <li> <a href="/news/mumbai-rains" title="Mumbai Rains">Mumbai Rains</a> </li>
+              </ul>
+            </div>
+            <div class="ddcol2"> <a href="/articles/mumbai-news-eight-year-old-girl-beaten-mankhurd-childrens-home-forced-to-lick-vomit/18291155" title="Mumbai: 8-year-old thrashed, forced to lick her own vomit"><img alt="Mumbai: 8-year-old thrashed, forced to lick her own vomit" title="Mumbai: 8-year-old thrashed, forced to lick her own vomit" src="https://images.mid-day.com/images/2017/may/mankhurd-s.jpg"/>
+              <p>Mumbai: 8-year-old thrashed, forced to lick her own vomit</p>
+              </a>
+              <ul class="ddcol3">
+                <li> <a href="/articles/mumbai-news-fairness-creams-beauty-products-prescription-only-drugs-cases/18290188" title="Mumbai: Fairness creams are not playing a fair game, reveals FDA">
+                  <p>Mumbai: Fairness creams are not playing a fair game, reveals FDA</p>
+                  </a> </li>
+                <li> <a href="/articles/mumbai-crime-news-con-woman-arrested-rs-75-lakh-fraud-case-bhandup-police/18290197" title="Mumbai Crime: 'Promising' con woman cheats people of Rs 75 lakh">
+                  <p>Mumbai Crime: 'Promising' con woman cheats people of Rs 75 lakh</p>
+                  </a> </li>
+                <li> <a href="/articles/mumbai-news-dombivli-raddiwala-handcart-invents-solar-powered-autorickshaw/18289189" title="Dombivli 'raddiwala' ditches handcart and invents solar-powered autorickshaw">
+                  <p>Dombivli 'raddiwala' ditches handcart and invents solar-powered autorickshaw</p>
+                  </a> </li>
+                <li> <a href="/articles/mumbai-crime-holiday-club-priority-international-con-scheme-top-surgeon-holy-family-hospital-bandra/18292199" title="Mumbai Crime: Con travel scheme takes top city surgeon for a 'trip'">
+                  <p>Mumbai Crime: Con travel scheme takes top city surgeon for a 'trip'</p>
+                  </a> </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li> <a href="/photos">Photos</a>
+          <div class="dropdownbox">
+            <div class="ddcol1">
+              <p> <a href="/photos">More in Photos</a> </p>
+              <ul>
+                <li> <a href="/photos/online-entertainment-gallery" title="Entertainment galleries">Entertainment galleries</a> </li>
+				<li> <a href="/photos/online-mumbai-gallery" title="Mumbai galleries">Mumbai galleries</a> </li>
+				<li> <a href="/photos/online-sports-gallery" title="Sports galleries">Sports galleries</a> </li>
+                <li> <a href="/photos/online-news-gallery" title="News galleries">News galleries</a> </li>
+                <li> <a href="/photos/online-offbeat-gallery" title="Offbeat galleries">Offbeat galleries</a> </li>
+                <li> <a href="/photos/online-life-and-style-gallery" title="Life and style galleries">Life and style galleries</a> </li>
+              </ul>
+            </div>
+            <div class="ddcol2"> <a href="/photos/photos-jhanvi-kapoor-and-ishaan-khattar-watch-baywatch-together/13486" title="Photos: Jhanvi Kapoor and Ishaan Khattar watch 'Baywatch' together"><img alt="Photos: Jhanvi Kapoor and Ishaan Khattar watch 'Baywatch' together" title="Photos: Jhanvi Kapoor and Ishaan Khattar watch 'Baywatch' together" src="https://images.mid-day.com/images/2017/may/ishaan-jhanvi-baywatch-s.jpg"/>
+              <p>Photos: Jhanvi Kapoor and Ishaan Khattar watch 'Baywatch' together</p>
+              </a>
+              <ul class="ddcol3">
+                <li> <a href="/photos/photos-kareena-kapoor-khan-amrita-arora-ladak-at-gym/13488" title="Photos: Kareena Kapoor Khan, Amrita Arora Ladak at gym">
+                  <p>Photos: Kareena Kapoor Khan, Amrita Arora Ladak at gym</p>
+                  </a> </li>
+                <li> <a href="/photos/photos-malaika-arora-sonakshi-sinha-at-mumbai-airport/13487" title="Photos: Malaika Arora, Sonakshi Sinha at Mumbai airport">
+                  <p>Photos: Malaika Arora, Sonakshi Sinha at Mumbai airport</p>
+                  </a> </li>
+                <li> <a href="/photos/spotted-hrithik-roshan-and-sussanne-khan-with-kids/13473" title="Spotted: Hrithik Roshan and Sussanne Khan with kids">
+                  <p>Spotted: Hrithik Roshan and Sussanne Khan with kids</p>
+                  </a> </li>
+                <li> <a href="/photos/photos-shilpa-shetty-kundras-dinner-outing-with-raj-kundra/13475" title="Photos: Shilpa Shetty Kundra's dinner outing with Raj Kundra">
+                  <p>Photos: Shilpa Shetty Kundra's dinner outing with Raj Kundra</p>
+                  </a> </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li> <a href="/videos">Videos</a>
+          <div class="dropdownbox">
+            <div class="ddcol1">
+              <p> <a href="/videos">More in Videos</a> </p>
+              <ul>
+                <li> <a href="/videos/entertainment" title="Entertainment Videos">Entertainment Videos</a> </li>
+				<li> <a href="/videos/viral" title="Viral Videos">Viral Videos</a> </li>
+				<li> <a href="/videos/mumbai" title="Mumbai Videos">Mumbai Videos</a> </li>
+                <li> <a href="/videos/news" title="News Videos">News Videos</a> </li>
+                <li> <a href="/videos/sports" title="Sports Videos">Sports Videos</a> </li>
+              </ul>
+            </div>
+            <div class="ddcol2"> <a href="/videos/video-ishan-khattar-ignores-shahid-kapoors-warning-over-jhanvi-kapoor/943052" title="Video: Ishan Khattar ignores Shahid Kapoor's warning over Jhanvi Kapoor"><img alt="Video: Ishan Khattar ignores Shahid Kapoor's warning over Jhanvi Kapoor" title="Video: Ishan Khattar ignores Shahid Kapoor's warning over Jhanvi Kapoor" src="https://images.mid-day.com/images/2017/may/jhanvi-khattar-video.jpg"/>
+              <p>Video: Ishan Khattar ignores Shahid Kapoor's warning over Jhanvi Kapoor</p>
+              </a>
+              <ul class="ddcol3">
+                <li> <a href="/videos/this-is-how-kailash-kher-recorded-his-first-jingle/943097" title="This is how Kailash Kher recorded his first jingle">
+                  <p>This is how Kailash Kher recorded his first jingle</p>
+                  </a> </li>
+                <li> <a href="/videos/watch-video-riteish-deshmukh-gets-royally-roasted-and-its-hilarious/943017" title="Watch video: Riteish Deshmukh gets royally roasted and it's hilarious!">
+                  <p>Watch video: Riteish Deshmukh gets royally roasted and it's hilarious!</p>
+                  </a> </li>
+                <li> <a href="/videos/bollywood-news-rajinikanth-in-mumbai-for-shoot/943025" title="Bollywood News: Rajinikanth in Mumbai for shoot">
+                  <p>Bollywood News: Rajinikanth in Mumbai for shoot</p>
+                  </a> </li>
+                <li> <a href="/videos/whoa-ranbir-kapoor-looks-exactly-like-sanjay-dutt-from-rocky/942539" title="Whoa! Ranbir Kapoor looks exactly like Sanjay Dutt from 'Rocky'">
+                  <p>Whoa! Ranbir Kapoor looks exactly like Sanjay Dutt from 'Rocky'</p>
+                  </a> </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li> <a href="/sports">Sports</a>
+          <div class="dropdownbox">
+            <div class="ddcol1">
+              <p> <a href="/sports">More in Sports</a> </p>
+              <ul>
+                <li> <a href="/sports/cricket" title="Cricket">Cricket</a> </li>
+                <li> <a href="/sports/football" title="Football">Football</a> </li>
+                <li> <a href="/sports/tennis" title="Tennis">Tennis</a> </li>
+                <li> <a href="/sports/badminton" title="Badminton">Badminton</a></li>
+                <li> <a href="/sports/other-sports" title="Other Sports">Other Sports</a></li>
+              </ul>
+            </div>
+            <div class="ddcol2"> <a href="/articles/champions-trophy-virat-kohli-not-happy-with-team-india-head-coach-anil-kumble/18292168" title="Is Virat Kohli 'not happy' with Team India head coach Anil Kumble?"><img alt="Is Virat Kohli 'not happy' with Team India head coach Anil Kumble?" title="Is Virat Kohli 'not happy' with Team India head coach Anil Kumble?" src="https://images.mid-day.com/images/2017/may/kohli-vs-kumble-s.jpg"/>
+              <p>Is Virat Kohli 'not happy' with Team India head coach Anil Kumble?</p>
+              </a>
+              <ul class="ddcol3">
+                <li> <a href="/articles/champions-trophy-2017-virat-kohli-how-pakistan-better-record-against-india-cricket-news/18291166" title="Champions Trophy: Here's how Pakistan have a better record against India">
+                  <p>Champions Trophy: Here's how Pakistan have a better record against India</p>
+                  </a> </li>
+                <li> <a href="/articles/champions-trophy-2017-be-deciding-factor-in-ms-dhonis-future-india/18291164" title="Will MS Dhoni call it quits on ODI career after Champions Trophy 2017?">
+                  <p>Will MS Dhoni call it quits on ODI career after Champions Trophy 2017?</p>
+                  </a> </li>
+                <li> <a href="/articles/champions-trophy-virat-kohli-and-co-enjoy-british-meal-after-win-over-new-zealand/18291189" title="Champions Trophy: Virat Kohli and Co enjoy a British meal">
+                  <p>Champions Trophy: Virat Kohli and Co enjoy a British meal</p>
+                  </a> </li>
+                <li> <a href="/articles/india-pacer-umesh-yadav-marriage-anniversary-message-instagram-post-tanya-wadhwa-cricket-news/18289198" title="Umesh Yadav celebrates marriage anniversary with sweet message">
+                  <p>Umesh Yadav celebrates marriage anniversary with sweet message</p>
+                  </a> </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li> <a href="/life-and-style">Life &amp; Style</a>
+          <div class="dropdownbox">
+            <div class="ddcol1">
+              <p> <a href="/life-and-style">More in Life &amp; Style</a> </p>
+              <ul>
+                <li> <a href="/horoscope" title="Horoscope">Horoscope</a> </li>
+                <li> <a href="/life-and-style/sex-relationships" title="Sex &amp; relationships">Sex &amp; relationships</a> </li>
+                <li> <a href="/life-and-style/food-drinks" title="Food &amp; Drinks">Food &amp; Drinks</a> </li>
+				<li> <a href="/life-and-style/sunday-mid-day" title="Sunday-midday">Sunday-midday</a> </li>
+				<li> <a href="/life-and-style/dr-love" title="Dr. Love">Dr. Love</a> </li>
+                <li> <a href="/life-and-style/technology" title="Technology">Technology</a> </li>
+                <li> <a href="/life-and-style/cars-bikes" title="Cars-Bikes">Cars-Bikes</a> </li>
+                <li> <a href="/life-and-style/health" title="Health">Health</a> </li>
+                <li> <a href="/life-and-style/travel" title="Travel">Travel</a> </li>
+                <li> <a href="/life-and-style/culture" title="Culture">Culture</a> </li>
+                <li> <a href="/life-and-style/environment" title="Environment">Environment</a> </li>
+                
+              </ul>
+            </div>
+            <div class="ddcol2"> <a href="/articles/mumbai-food-german-cuisine-street-fare-bandra-mahlzeit-mumbai-guide/18288185" title="Mumbai Food: Indulge in German street fare in Bandra"><img alt="Mumbai Food: Indulge in German street fare in Bandra" title="Mumbai Food: Indulge in German street fare in Bandra" src="https://images.mid-day.com/images/2017/may/german-food-s.jpg"/>
+              <p>Mumbai Food: Indulge in German street fare in Bandra</p>
+              </a>
+              <ul class="ddcol3">
+                <li> <a href="/articles/mumbai-events-latin-beats-salsa-workshop-tonight-may-30-goregaon-sahiba-sawhney-lifestyle-culture/18292150" title="Groove to music together at a Salsa workshop tonight">
+                  <p>Groove to music together at a Salsa workshop tonight</p>
+                  </a> </li>
+                <li> <a href="/articles/lifestyle-events-thane-fitness-experts-mumbai-jaipur-ultrathon-awareness-female-foeticide/18291197" title="Mumbai-Jaipur ultrathon: Thane citizens to spread awareness on female foeticide">
+                  <p>Mumbai-Jaipur ultrathon: Thane citizens to spread awareness on female foeticide</p>
+                  </a> </li>
+                <li> <a href="/articles/mumbai-food-quirky-food-city-hottest-bars-falafel-yucca-chips-seekh-kebab/18289196" title="Mumbai food: Here are some quirky eats from the city's hottest bars">
+                  <p>Mumbai food: Here are some quirky eats from the city's hottest bars</p>
+                  </a> </li>
+                <li> <a href="/articles/mumbais-home-chefs-put-video-recipes-to-test-mumbai-food-sunday-mid-day/18285162" title="Mumbai's home chefs put video recipes to test">
+                  <p>Mumbai's home chefs put video recipes to test</p>
+                  </a> </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        
+      
+        
+      </ul>
+      <div class="search-box">
+        <button href="javascript:void(0);" class="btn-search"></button>
+        <form id="headerSearchForm" name="headerSearchForm" action=".seed?submit=true&amp;componentID=1500295242238" method="post">
+          <input onkeypress="return submitenter('/','headerSearchForm',event)" id="serchText" name="serchText" placeholder="Search here.." class="txtsearch" type="text"/>
+          <input onclick="searchFunc('/','headerSearchForm');" value="search" type="button"/>
+        </form>
+      </div>
+    </div>
+  </div>
+</div></nav>
+
+<!-- ends here--> 
+
+<!-- mid part-->
+
+<div class="error-page" style="float:left;">
+  <div class="error-img" style="display:inline-block"><img style="float:left;margin-right:10px;" src="https://www.mid-day.com/Resources/midday/images/error-404.png" alt=""/>
+    <h2 style="float:left">404</h2>
+  </div>
+  <div class="h3">Page Not Found</div>
+  <p>We're sorry, We seem to have lost this page, but we don't want to lose you.</p>
+  <p>May be you would like to check out our top stories at the moment.</p>
+  <ul>
+    <li><a href="javascript: window.history.back();">Go back to the previous page</a></li>
+    <li><a href="/">Go to Homepage</a></li>
+  </ul>
+</div>
+
+<script type="text/javascript">
+$( document ).ready(function() {
+   callPhotosXml();
+   callVideosXml();
+ });
+ 
+ function callPhotosXml(){
+  $.ajax({
+	type     : "GET",
+	url      : "/Resources/midday/xmls/photo/photoTopSlider.xml",
+	dataType : "xml",
+	success  : function(xmlData){
+	  photoBind(xmlData);
+	},
+	error    : function(){
+     console.error("Could not retrieve photo XML file.");
+	}
+ }); 
+ }
+ 
+ function photoBind(xml){
+ 
+	 document.getElementById('data').innerHTML="";
+	 
+	  var databind = '<div class="swiper-container swiper2">'+
+	  				 '<div class="swiper-wrapper">';
+	     
+	     var list = $(xml).find("LIST");
+	      console.error(list);
+	    
+	     $(list).each(function(){
+	    var id = $(this).find('ID').text();
+	    var name = $(this).find('NAME').text();
+	    var pdate = $(this).find('PUBLISH_DATE').text();
+	    var bimag = $(this).find('BIG_IMAGE').text();
+	    var catname = $(this).find('CATEGORY_NAME').text();
+	    var caturl = $(this).find('SUB_CATEGORY_URL').text();
+	    var url = $(this).find('URL').text();
+	    
+	    var hrefpath= '/photos/'+url+'/'+id;
+	    var srcpath = 'https://images.mid-day.com/'+bimag;
+	    var cathrefpath= '/photos/'+caturl;
+	    
+	      databind = databind.concat('<div class="box swiper-slide" style="width: 300px; margin-right: 48px;">'+
+	    				'<a href="'+hrefpath+'" title="'+name+'"><i class="cam-icon"></i>'+
+	    				'<figure>'+
+	    				  '<img class="swiper-lazy swiper-lazy-loaded" src="'+srcpath+'" title="'+name+'" alt="'+name+'"></img>'+
+	    				'</figure></a>'+
+	    				'<div class="text_gbgBlack">'+	    				
+	    				'<div class="h4"><a href="'+hrefpath+'">'+name+'</a></div>'+
+	    				'</div></div>');
+	    }); 
+		
+		
+	   
+	  databind = databind.concat('</div></div>');
+	  document.getElementById('data').innerHTML=databind;
+	  photogallery();
+ }
+ 
+  function callVideosXml(){
+  $.ajax({
+	type     : "GET",
+	url      : "/Resources/midday/xmls/video/videoCategory.xml",
+	dataType : "xml",
+	success  : function(xmlData){
+	  videoBind(xmlData);
+	},
+	error    : function(){
+     console.error("Could not retrieve video XML file.");
+	}
+ }); 
+ }
+ 
+ function videoBind(xml){
+ 
+	 document.getElementById('vdata').innerHTML="";
+	 
+	  var databind = '<div class="swiper-container swiper3">'+
+	  				 '<div class="swiper-wrapper">';
+	     
+	     var list = $(xml).find("LIST");
+	      console.error(list);
+	    
+	     $(list).each(function(){
+	    var id = $(this).find('ID').text();
+	    var name = $(this).find('TITLE').text();
+	    var pdate = $(this).find('PUBLISH_DATE').text();
+	    var bimag = $(this).find('BIG_IMAGE').text();
+	    var catname = $(this).find('CATEGORY_NAME').text();
+	    var caturl = $(this).find('SUB_CATEGORY_URL').text();
+	    var url = $(this).find('URL').text();
+	    
+	    var hrefpath= '/videos/'+url+'/'+id;
+	    var srcpath = 'https://images.mid-day.com/'+bimag;
+	    var cathrefpath= '/videos/'+caturl;
+	    
+	      databind = databind.concat('<div class="box swiper-slide" style="width: 300px; margin-right: 48px;">'+
+	    				'<a href="'+hrefpath+'" title="'+name+'"><i class="video-playicon"></i>'+
+	    				'<figure>'+
+	    				  '<img class="swiper-lazy" src="'+srcpath+'" title="'+name+'" alt="'+name+'"></img>'+
+	    				'</figure></a>'+
+	    				'<div class="text_gbgBlack">'+	    				
+	    				'<div class="h4"><a href="'+hrefpath+'">'+name+'</a></div>'+
+	    				'</div></div>');
+						
+						
+	    }); 
+	  
+	  databind = databind.concat('</div></div>');
+	  document.getElementById('vdata').innerHTML=databind;
+	   videogallery();
+ }
+ 
+</script>
+
+<div class="container"><div class="photoGallery">
+  <h2 class="iconPhoto"> <i class="icon"></i><a title="Top Photo Galleries" href="/photos">Top Photo Galleries</a> </h2>
+  <div class="clear"></div>
+  <div id="data"></div>
+  <!-- <div class="swiper-container swiper2 swiper-container-horizontal">
+    <div class="swiper-wrapper" id="data"> -->
+    
+       <!-- <div class="box swiper-slide swiper-slide-active" style="width: 300px; margin-right: 48px;"> 
+       		<a href="/photos/photos-models-sashay-down-the-ramp-in-colourful-lingerie/13447" title="Photos: Models sashay down the ramp in colourful lingerie"><i class="cam-icon"></i>
+        <figure> <img class="swiper-lazy swiper-lazy-loaded" title="Photos: Models sashay down the ramp in colourful lingerie" src="http://images.mid-day.com/images/2017/may/fashion-lingerie-s.jpg"></figure>
+        </a>
+        <div class="text_gbgBlack">
+          <h3> <a>Entertainment</a> </h3>
+          <p> <a>Photos: Models sashay down the ramp in colourful lingerie</a> </p>
+        </div>
+      </div> -->
+      
+    <!--  <div class="box swiper-slide swiper-slide-next" style="width: 300px; margin-right: 48px;"> <a href="/photos/photos-these-10-mumbai-eateries-are-a-must-visit-for-every-foodie/13380" title="Photos: These 10 Mumbai eateries are a must visit for every foodie"><i class="cam-icon"></i>
+        <figure> <img class="swiper-lazy swiper-lazy-loaded" title="Photos: These 10 Mumbai eateries are a must visit for every foodie" src="http://images.mid-day.com/images/2017/may/19food-joint-s.jpg"></figure>
+        </a>
+        <div class="text_gbgBlack">
+          <h3> <a>Entertainment</a> </h3>
+          <p> <a>Photos: These 10 Mumbai eateries are a must visit for every foodie</a> </p>
+        </div>
+      </div>
+      <div class="box swiper-slide" style="width: 300px; margin-right: 48px;"> <a href="/photos/mumbai-food-10-best-non-vegetarian-momos-that-will-melt-your-heart/13331" title="Mumbai food: 10 best non vegetarian momos that will melt your heart"><i class="cam-icon"></i>
+        <figure> <img class="swiper-lazy swiper-lazy-loaded" title="Mumbai food: 10 best non vegetarian momos that will melt your heart" src="http://images.mid-day.com/images/2017/may/mumbai-momos-s.jpg"></figure>
+        </a>
+        <div class="text_gbgBlack">
+          <h3> <a>Entertainment</a> </h3>
+          <p> <a>Mumbai food: 10 best non vegetarian momos that will melt your heart</a> </p>
+        </div>
+      </div>
+      <div class="box swiper-slide" style="width: 300px; margin-right: 48px;"> <a href="/photos/mothers-day-unseen-photos-of-your-favourite-celebs-with-their-moms/5300" title="Mother's Day: Unseen photos of your favourite celebs with their moms"><i class="cam-icon"></i>
+        <figure> <img class="swiper-lazy" title="Mother's Day: Unseen photos of your favourite celebs with their moms" data-src="http://images.mid-day.com/images/2017/may/mothers-day-bollywood-s.jpg"></figure>
+        </a>
+        <div class="text_gbgBlack">
+          <h3> <a>Entertainment</a> </h3>
+          <p> <a>Mother's Day: Unseen photos of your favourite celebs with their moms</a> </p>
+        </div>
+      </div>
+      <div class="box swiper-slide" style="width: 300px; margin-right: 48px;"> <a href="/photos/photos-10-mouth-watering-seafood-dishes-you-must-try-in-mumbai/13221" title="Photos: 10 mouth watering seafood dishes you must try in Mumbai"><i class="cam-icon"></i>
+        <figure> <img class="swiper-lazy" title="Photos: 10 mouth watering seafood dishes you must try in Mumbai" data-src="http://images.mid-day.com/images/2017/may/seafood-mumbai-s.jpg"></figure>
+        </a>
+        <div class="text_gbgBlack">
+          <h3> <a>Entertainment</a> </h3>
+          <p> <a>Photos: 10 mouth watering seafood dishes you must try in Mumbai</a> </p>
+        </div>
+      </div>
+      <div class="box swiper-slide" style="width: 300px; margin-right: 48px;"> <a href="/photos/photos-12-mumbai-foods-you-simply-cannot-live-without/13162" title="Photos: 12 Mumbai foods you simply cannot live without"><i class="cam-icon"></i>
+        <figure> <img class="swiper-lazy" title="Photos: 12 Mumbai foods you simply cannot live without" data-src="http://images.mid-day.com/images/2017/apr/mumbai-snacks-s.jpg"></figure>
+        </a>
+        <div class="text_gbgBlack">
+          <h3> <a>Entertainment</a> </h3>
+          <p> <a>Photos: 12 Mumbai foods you simply cannot live without</a> </p>
+        </div>
+      </div> -->
+  <!--   </div>
+  </div> -->
+   <div class="swiper-button-next2"></div>
+  <div class="swiper-button-prev2 swiper-button-disabled"></div>
+  <div class="vmore">
+		<a href="/photos">View More</a>
+</div>
+</div></div>
+<div class="container"><div class="videoGallery">
+  <h2 class="iconVideo"> <i class="icon"></i><a title="Top Videos" href="/videos">Top Videos</a> </h2>
+  <div class="clear"></div>
+  <div id="vdata"></div>
+  <!-- <div class="swiper-container swiper3 swiper-container-horizontal">
+    <div class="swiper-wrapper">
+      <div class="box swiper-slide swiper-slide-active" style="width: 300px; margin-right: 48px;"> <a href="/videos/cooking-hacks-from-celebrity-mumbai-chef-rakhee-vaswani/942001" title="Cooking hacks from celebrity Mumbai chef Rakhee Vaswani"><i class="video-playicon"></i>
+        <figure> <img class="swiper-lazy swiper-lazy-loaded" alt="Cooking hacks from celebrity Mumbai chef Rakhee Vaswani" title="Cooking hacks from celebrity Mumbai chef Rakhee Vaswani" src="http://ventunomidday.edgesuite.net/videos/1264/28-05-2017/Mid_DayRestaurant____Chef_Rakhee_Vaswani__JQHKDASW_1280x720_3_crop.jpg">
+          <div class="overlayImg"></div>
+        </figure>
+        </a>
+        <div class="text_gbgBlack">
+          <h3> <a href="#">Life &amp; Style</a> </h3>
+          <p> <a href="/videos/cooking-hacks-from-celebrity-mumbai-chef-rakhee-vaswani/942001">Cooking hacks from celebrity Mumbai chef Rakhee Vaswani</a> </p>
+        </div>
+      </div>
+      <div class="box swiper-slide swiper-slide-next" style="width: 300px; margin-right: 48px;"> <a href="/videos/author-chetan-bhagat-expects-more-hatred/832301" title="Author Chetan Bhagat expects more hatred"><i class="video-playicon"></i>
+        <figure> <img class="swiper-lazy swiper-lazy-loaded" alt="Author Chetan Bhagat expects more hatred" title="Author Chetan Bhagat expects more hatred" src="http://ventunomidday.edgesuite.net/videos/1264/02-10-2016/Chetan_Bhagat_reading_j__F07XKS45_crop.jpg">
+          <div class="overlayImg"></div>
+        </figure>
+        </a>
+        <div class="text_gbgBlack">
+          <h3> <a href="#">Life &amp; Style</a> </h3>
+          <p> <a href="/videos/author-chetan-bhagat-expects-more-hatred/832301">Author Chetan Bhagat expects more hatred</a> </p>
+        </div>
+      </div>
+      <div class="box swiper-slide" style="width: 300px; margin-right: 48px;"> <a href="/videos/revealed-how-does-anil-kapoor-keep-fit/829415" title="Revealed! How does Anil Kapoor keep fit?"><i class="video-playicon"></i>
+        <figure> <img class="swiper-lazy swiper-lazy-loaded" alt="Revealed! How does Anil Kapoor keep fit?" title="Revealed! How does Anil Kapoor keep fit?" src="http://ventunomidday.edgesuite.net/videos/1264/25-09-2016/Anil_Kapoor_fitness_j__CM0JOIX1_crop.jpg">
+          <div class="overlayImg"></div>
+        </figure>
+        </a>
+        <div class="text_gbgBlack">
+          <h3> <a href="#">Life &amp; Style</a> </h3>
+          <p> <a href="/videos/revealed-how-does-anil-kapoor-keep-fit/829415">Revealed! How does Anil Kapoor keep fit?</a> </p>
+        </div>
+      </div>
+      <div class="box swiper-slide" style="width: 300px; margin-right: 48px;"> <a href="/videos/huma-qureshi-exposes-the-secret-behind-actresses-sudden-weight-loss/828068" title="Huma Qureshi exposes the secret behind actresses' sudden weight loss!"><i class="video-playicon"></i>
+        <figure> <img class="swiper-lazy" alt="Huma Qureshi exposes the secret behind actresses' sudden weight loss!" title="Huma Qureshi exposes the secret behind actresses' sudden weight loss!" data-src="http://ventunomidday.edgesuite.net/videos/1264/22-09-2016/Huma_Qureshi_Sitaro_Ki_Baat_Sitaro_Ke_sa__8I0OYCES_crop.jpg" src="http://ventunomidday.edgesuite.net/videos/1264/22-09-2016/Huma_Qureshi_Sitaro_Ki_Baat_Sitaro_Ke_sa__8I0OYCES_crop.jpg">
+          <div class="overlayImg"></div>
+        </figure>
+        </a>
+        <div class="text_gbgBlack">
+          <h3> <a href="#">Life &amp; Style</a> </h3>
+          <p> <a href="/videos/huma-qureshi-exposes-the-secret-behind-actresses-sudden-weight-loss/828068">Huma Qureshi exposes the secret behind actresses' sudden weight loss!</a> </p>
+        </div>
+      </div>
+      <div class="box swiper-slide" style="width: 300px; margin-right: 48px;"> <a href="/videos/kareena-was-born-to-be-an-actor-and-she-made-it-and-how/827575" title="Kareena was born to be an actor and she made it and how!"><i class="video-playicon"></i>
+        <figure> <img class="swiper-lazy" alt="Kareena was born to be an actor and she made it and how!" title="Kareena was born to be an actor and she made it and how!" data-src="http://ventunomidday.edgesuite.net/videos/1264/21-09-2016/Kareena_Kapoor_FDFF_j__MXHU6TZD_crop.jpg" src="http://ventunomidday.edgesuite.net/videos/1264/21-09-2016/Kareena_Kapoor_FDFF_j__MXHU6TZD_crop.jpg">
+          <div class="overlayImg"></div>
+        </figure>
+        </a>
+        <div class="text_gbgBlack">
+          <h3> <a href="#">Life &amp; Style</a> </h3>
+          <p> <a href="/videos/kareena-was-born-to-be-an-actor-and-she-made-it-and-how/827575">Kareena was born to be an actor and she made it and how!</a> </p>
+        </div>
+      </div>
+      <div class="box swiper-slide" style="width: 300px; margin-right: 48px;"> <a href="/videos/exclusive-where-is-tiger-shroff-going-wrong-in-his-career/827268" title="Exclusive: Where is Tiger Shroff going wrong in his career?"><i class="video-playicon"></i>
+        <figure> <img class="swiper-lazy" alt="Exclusive: Where is Tiger Shroff going wrong in his career?" title="Exclusive: Where is Tiger Shroff going wrong in his career?" data-src="http://ventunomidday.edgesuite.net/videos/1264/20-09-2016/tiger_j_copy__OE76M2BN_crop.jpg" src="http://ventunomidday.edgesuite.net/videos/1264/20-09-2016/tiger_j_copy__OE76M2BN_crop.jpg">
+          <div class="overlayImg"></div>
+        </figure>
+        </a>
+        <div class="text_gbgBlack">
+          <h3> <a href="#">Life &amp; Style</a> </h3>
+          <p> <a href="/videos/exclusive-where-is-tiger-shroff-going-wrong-in-his-career/827268">Exclusive: Where is Tiger Shroff going wrong in his career?</a> </p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div class="swiper-button-next3"></div>
+  <div class="swiper-button-prev3 swiper-button-disabled"></div>
+<div class="vmore">
+<a href="/videos">View More</a>
+</div>
+</div></div>
+
+<!--mid part ends--> 
+
+<!--footer starts here-->
+<footer role="footer">
+<div class="footer-last">
+  <div class="container">
+    <div class="footer-navTop">
+      <ul>
+        <li> <a href="/">Home</a> </li>
+        <li> <a href="/mumbai">Mumbai</a> </li>
+        <li> <a href="/entertainment">Entertainment</a> </li>
+        <li> <a href="/news">News</a> </li>
+        <li> <a href="/photos">Photos</a> </li>
+        <li> <a href="/videos">Videos</a> </li>
+        <li> <a href="/sports">Sports</a> </li>
+        <li> <a href="/life-and-style">Life &amp; Style</a> </li>
+      </ul>
+    </div>
+    <div class="footermid">
+      <ul class="footer-icon">
+        <li class="mdlogo"> <a href="/" target="_blank" title="Mid-Day"><i class="icon"></i></a> </li>
+       <!-- <li class="rss"> <a href="http://www.mid-day.com/rss.htm" target="_blank" title="RSS"><i class="icon"></i></a> </li>--><li class="fb"> <a href="https://www.facebook.com/middayindia" target="_blank" title="Facebook"><i class="icon"></i></a> </li>
+        <li class="tw"> <a href="https://twitter.com/mid_day" target="_blank" title="Twitter"><i class="icon"></i></a> </li>
+        <li class="insta"> <a href="#" target="_blank" title="Instagram"><i class="icon"></i></a> </li>
+        <li class="gplus"> <a href="#" target="_blank" title="Googleplus"><i class="icon"></i></a> </li>
+        <li class="youtube"> <a href="#" target="_blank" title="Youtube"><i class="icon"></i></a> </li>
+        
+        <li class="apple"> <a href="https://itunes.apple.com/in/app/mid-day/id1155001691?mt=8" target="_blank" title="Apple"><i class="icon"></i></a> </li>
+        <li class="android"> <a href="https://play.google.com/store/apps/details?id=com.jagran.midday&amp;hl=en" target="_blank" title="Android"><i class="icon"></i></a> </li>
+      </ul>
+      <div class="subsbox">
+        <iframe src="https://www.mid-day.com/Resources/midday/subscribe-html/newsletter.htm" scrolling="No" width="290" frameborder="0" height="42"></iframe>
+      </div>
+    </div>
+    <div class="footer-navBottom">
+      <ul>
+        <li> <a href="/about-us">About Us</a> </li>
+        <li> <a href="/advertise-with-us">Advertise With Us</a> </li>
+        <li> <a href="/privacy-policy">Privacy Policy</a> </li>
+        <li> <a href="/terms-and-conditions">Terms &amp; Conditions</a> </li>
+        <li> <a href="/contact-us">Contact Us</a> </li>
+        <li> <a href="http://middayinfomedia.com">Corporate</a> </li>
+        <li> <a href="http://www.jagran.com">Hindi News</a> </li>
+        <li> <a href="http://www.gujaratimidday.com">Gujrati News</a> </li>
+        <li> <a href="http://inquilab.com">Urdu News</a> </li>
+      </ul>
+    </div>
+    <div class="copy-right MT15">
+      <p>Copyright © 2017 Mid-Day Infomedia Ltd. All rights reserverd.</p>
+    </div>
+  </div>
+  </div>
+</footer>
+<a class="gotop" href="#top" id="gotop" style="display: block;">Go to top</a> 
+<!--footer ends here--> 
+
+<div id="midday_ros_lhs_160x600" style="position:fixed; left:0; bottom:0;float:left">
+</div>    
+
+<div id="midday_ros_rhs_160x600" style="position:fixed; right:0; bottom:0;float:right">
+</div>          
+    
+
+<script type="text/javascript"> 
+ 	$(document).ready(function() {
+       	
+		$(".btn-search").click(function(){
+			
+        	$("#headerSearchForm").slideToggle("slow");
+    	});	
+ });
+ $('#gotop').hide();
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#gotop').fadeIn();
+			} else {
+				$('#gotop').fadeOut();
+			}
+		});
+		// scroll body to 0px on click
+		$('#gotop').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
+	photogallery();videogallery();
+	function photogallery(){
+	var swiper2 = new Swiper('.swiper2', {
+        nextButton: '.swiper-button-next2',
+        prevButton: '.swiper-button-prev2', 
+		 slidesPerView: 3,
+		  spaceBetween: 48,   
+		  preloadImages: false,
+		  lazyLoading: true    
+    });
+	}
+	
+	function videogallery(){
+	var swiper3 = new Swiper('.swiper3', {
+        nextButton: '.swiper-button-next3',
+        prevButton: '.swiper-button-prev3', 
+		 slidesPerView: 3,
+		  spaceBetween: 48,
+		  preloadImages: false,
+		  lazyLoading: true    
+    });}
+	
+	
+	$(function() {  
+	var fixmeTop = $('.navigation-row').offset().top;
+	  $(window).scroll(function() {
+		  var currentScroll = $(window).scrollTop(); 
+		 if (currentScroll >= fixmeTop) {	
+			$('.navigation-row').css({
+				'position': 'fixed',			
+				'z-index':'99999',
+				'width':'996px',
+				'top': 0
+			});
+		} else {		
+			$('.navigation-row').css({
+				'position': 'relative',
+				'top': 'none'
+			});
+		}
+	});
+});
+	
+ </script>
+ 
+ <script type="text/javascript" src="https://www.mid-day.com/Resources/midday/js/dd.js"></script>
+<div class="landing-adsbase">
+	<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+    <script>
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/1025214/midday_ros_header_728x90', [[970, 90], [728, 90]], 'div-gpt-ad-1497418350899-1').addService(googletag.pubads());
+	    googletag.defineSlot('/1025214/midday_ros_lhs_160x600', [160, 600], 'div-gpt-ad-1497418350899-6').addService(googletag.pubads());
+    googletag.defineSlot('/1025214/midday_ros_rhs_160x600', [160, 600], 'div-gpt-ad-1497418350899-7').addService(googletag.pubads());
+    googletag.pubads().set("page_url", "http://mid-day.com");
+    googletag.pubads().collapseEmptyDivs();
+    googletag.pubads().setTargeting('category', []);
+    googletag.enableServices();
+  });
+</script>
+</div> 
+ <script>loadAds.loadDFPAd('header_ad_top_adbox', 'div-gpt-ad-1497418350899-1');
+ loadAds.loadDFPAd('midday_ros_lhs_160x600', 'div-gpt-ad-1497418350899-6');
+	loadAds.loadDFPAd('midday_ros_rhs_160x600', 'div-gpt-ad-1497418350899-7');</script>
+</body>
+</html>
+
+			

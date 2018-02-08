@@ -1,0 +1,691 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<title>Blog | Progressive Pulse</title>
+<link rel="Shortcut Icon" href="http://progressivepulse.com/wp-content/themes/catalyst/images/favicon.png" type="image/x-icon" />
+<link rel='dns-prefetch' href='//s.w.org' />
+
+<script>
+var MP3jPLAYLISTS = [];
+var MP3jPLAYERS = [];
+</script>
+<link rel="alternate" type="application/rss+xml" title="Progressive Pulse &raquo; Feed" href="http://progressivepulse.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Progressive Pulse &raquo; Comments Feed" href="http://progressivepulse.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/progressivepulse.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.2"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56794,8205,9794,65039],[55358,56794,8203,9794,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='dzs.vplayer-css'  href='http://progressivepulse.com/wp-content/plugins/dzs-videogallery/videogallery/vplayer.css?ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dzs.vgallery.skin2-css'  href='http://progressivepulse.com/wp-content/plugins/dzs-videogallery/videogallery/skin_white.css?ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dzs.vgallery.skin.custom-css'  href='http://progressivepulse.com/wp-content/plugins/dzs-videogallery/customs/skin_custom.css?ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery.prettyphoto-css'  href='http://progressivepulse.com/wp-content/plugins/dzs-videogallery/prettyphoto/prettyPhoto.css?ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='portfolio_slideshow-css'  href='http://progressivepulse.com/wp-content/plugins/portfolio-slideshow-pro/css/portfolio-slideshow.min.css?ver=1.8.7' type='text/css' media='screen' />
+<link rel='stylesheet' id='fancybox-css'  href='http://progressivepulse.com/wp-content/plugins/portfolio-slideshow-pro/js/fancybox/jquery.fancybox-1.3.4.css?ver=1.3.4a' type='text/css' media='screen' />
+<link rel='stylesheet' id='ps-photoswipe-style-css'  href='http://progressivepulse.com/wp-content/plugins/portfolio-slideshow-pro/css/photoswipe.min.css?ver=1.8.7' type='text/css' media='screen' />
+<link rel='stylesheet' id='catalyst_dynamik_stylesheet-css'  href='http://progressivepulse.com/wp-content/themes/dynamik/css/dynamik.css?ver=1405093922' type='text/css' media='all' />
+<link rel='stylesheet' id='catalyst_custom_stylesheet-css'  href='http://progressivepulse.com/wp-content/themes/dynamik/css/catalyst-custom.css?ver=1404347078' type='text/css' media='all' />
+<link rel='stylesheet' id='mp3-jplayer-css'  href='http://progressivepulse.com/wp-content/plugins/mp3-jplayer/css/v1-skins/v1-dark.css?ver=2.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='rotatingtext_style-css'  href='http://progressivepulse.com/wp-content/plugins/rotatingtext/css/rotatingtext.css?ver=4.9.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://progressivepulse.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://progressivepulse.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://progressivepulse.com/wp-content/plugins/dzs-videogallery/videogallery/vplayer.js?ver=4.9.2'></script>
+<script type='text/javascript' src='http://progressivepulse.com/wp-content/plugins/dzs-videogallery/prettyphoto/jquery.prettyPhoto.js?ver=4.9.2'></script>
+<script type='text/javascript' src='http://progressivepulse.com/wp-content/plugins/bitly/js/bitly-client.js?ver=4.9.2'></script>
+<script type='text/javascript' src='http://progressivepulse.com/wp-content/themes/catalyst/lib/js/modernizr.min.js?ver=1.5.4'></script>
+<script type='text/javascript' src='http://progressivepulse.com/wp-content/themes/catalyst/lib/js/respond/respond.min.js?ver=1.5.4'></script>
+<script type='text/javascript' src='http://progressivepulse.com/wp-content/plugins/rotatingtext/js/rotatingtext.js?ver=4.9.2'></script>
+<link rel="pingback" href="http://progressivepulse.com/xmlrpc.php" />
+<link rel='https://api.w.org/' href='http://progressivepulse.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://progressivepulse.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://progressivepulse.com/wp-includes/wlwmanifest.xml" /> 
+<meta property="bitly:url" content="http://bit.ly/2rmI1dZ" />
+<meta property="og:url" content="http://bit.ly/2rmI1dZ" />
+<script>window.dzsvg_swfpath="http://progressivepulse.com/wp-content/plugins/dzs-videogallery/preview.swf";</script>
+<!-- Portfolio Slideshow-->
+<noscript><link rel="stylesheet" type="text/css" href="http://progressivepulse.com/wp-content/plugins/portfolio-slideshow-pro/css/portfolio-slideshow-noscript.css?ver=1.8.7" /></noscript><style type="text/css">.centered .ps-next {} .scrollable {height:75px;} .ps-prev {top:42.5px} .ps-next {top:-47.5px} .slideshow-wrapper .pscarousel img {margin-right:8px !important; margin-bottom:8px !important;}</style><script type="text/javascript">/* <![CDATA[ */var psTimeout = new Array(); psAudio = new Array(); var psAutoplay = new Array(); var psDelay = new Array(); var psFluid = new Array(); var psTrans = new Array(); var psRandom = new Array(); var psCarouselSize = new Array(); var touchWipe = new Array(); var psPagerStyle = new Array(); psCarousel = new Array(); var psSpeed = new Array(); var psLoop = new Array(); var psClickOpens = new Array(); /* ]]> */</script>
+<!--//Portfolio Slideshow-->
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52480793-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body class="blog unknown-os unknown-browser right-sidebar catalyst_default logo-image ez-feature-top-2 ez-fat-footer-1 fat-footer-outside">
+
+<div id="wrap" class="clearfix">
+<div id="header-wrap">
+<header id="header" role="banner">
+<div id="header-left">
+<p id="title"><a href="http://progressivepulse.com/" title="Progressive Pulse">Progressive Pulse</a></p><h1 id="tagline">Your ultimate source for progressive lifestyle content</h1></div>
+<div id="header-right">
+<div id="navbar-1-wrap"><nav id="navbar-1" class="clearfix" role="navigation"><div id="navbar-1-left"><ul id="nav-1" class="nav-1 superfish"><li id="menu-item-8311" class="nav1 fashion menu-item menu-item-type-custom menu-item-object-custom menu-item-8311"><a href="http://progressivepulse.com/fashion">Fashion</a></li>
+<li id="menu-item-8310" class="nav1 music menu-item menu-item-type-custom menu-item-object-custom menu-item-8310"><a href="http://progressivepulse.com/music">Music</a></li>
+<li id="menu-item-8312" class="nav1 art menu-item menu-item-type-custom menu-item-object-custom menu-item-8312"><a href="http://progressivepulse.com/art">Art</a></li>
+<li id="menu-item-8313" class="nav1 politics menu-item menu-item-type-custom menu-item-object-custom menu-item-8313"><a href="http://progressivepulse.com/politics">Politics</a></li>
+<li id="menu-item-8314" class="nav1 travel menu-item menu-item-type-custom menu-item-object-custom menu-item-8314"><a href="http://progressivepulse.com/travel">Travel</a></li>
+</ul></div></nav></div>
+</div>
+</header>
+</div>
+<div id="navbar-2-wrap"><nav id="navbar-2" class="clearfix" role="navigation"><div id="navbar-2-left"><ul id="nav-2" class="nav-2 superfish"><li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-46"><a href="http://progressivepulse.com/">Home</a></li>
+<li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"><a href="http://progressivepulse.com/about/">About</a></li>
+<li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="http://progressivepulse.com/subscribe/">Subscribe</a></li>
+<li id="menu-item-9029" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-9029"><a href="http://progressivepulse.com/blog">Blog</a></li>
+<li id="menu-item-42" class="social-intro menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="http://progressivepulse.com/contact/">Contact</a></li>
+<li id="menu-item-709" class="all-caps cursor-default menu-item menu-item-type-custom menu-item-object-custom menu-item-709"><a href="feed://progressivepulse.com/feed/">FOLLOW OUR FEED &#038; SOCIAL PULSE →</a></li>
+<li id="menu-item-49" class="socialnav twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-49"><a target="_blank" href="https://twitter.com/#!/progressivepuls">Twitter</a></li>
+<li id="menu-item-50" class="socialnav facebook menu-item menu-item-type-custom menu-item-object-custom menu-item-50"><a target="_blank" href="https://www.facebook.com/ProgressivePulse">Facebook</a></li>
+<li id="menu-item-51" class="socialnav youtube menu-item menu-item-type-custom menu-item-object-custom menu-item-51"><a target="_blank" href="http://www.youtube.com/meademania">YouTube</a></li>
+<li id="menu-item-52" class="socialnav myspace menu-item menu-item-type-custom menu-item-object-custom menu-item-52"><a target="_blank" href="http://www.myspace.com/progressive_pulse">MySpace</a></li>
+<li id="menu-item-53" class="socialnav linkedin menu-item menu-item-type-custom menu-item-object-custom menu-item-53"><a target="_blank" href="http://www.linkedin.com/profile/view?id=25584125&#038;trk=EML-inv-acc-prof">Linked In</a></li>
+</ul></div><div id="navbar-2-right" class="navbar-right-search">
+		<form method="get" class="searchform" action="http://progressivepulse.com/" >
+			<input type="text" value="Search" name="s" class="s" onfocus="if(this.value == 'Search' ) {this.value = '';}" onblur="if(this.value == '' ) {this.value = 'Search';}" />
+			<input type="submit" class="searchsubmit" value="GO" />
+		</form>
+	</div></nav></div>
+	<div id="ez-feature-top-container-wrap" class="clearfix">
+	
+		<div id="ez-feature-top-container" class="clearfix">
+
+			<div id="ez-feature-top-1" class="ez-widget-area ez-feature-top-widget-area  ez-one-half ez-first">
+				<aside id="php-text-26" class="widget php-text"><div class="widget-wrap">			
+			<div class="php-textwidget"><div class="pp-newsletter-signup"><h4>Sign Up for Progressive Pulse Updates <a href="http://progressivepulse.com/subscribe/" class="pp-news-btn">Sign Up</a></h4></div>
+<a href="http://bit.ly/1pRwfy1"><img src="http://www.progressivepulse.com/files/images/pp-newsletter.png"></a></div>
+		</div></aside>
+			</div><!-- end #feature-top-1 -->
+			
+			<div id="ez-feature-top-2" class="ez-widget-area ez-feature-top-widget-area  ez-one-half">
+				<aside id="php-text-10" class="widget php-text"><div class="widget-wrap">			
+			<div class="php-textwidget"><span class="small-txt">Check out the latest pulse shots &rarr;</span> </div>
+		</div></aside>
+			</div><!-- end #feature-top-2 -->
+		
+		</div><!-- end #feature-top-container -->
+		
+	</div><!-- end #feature-top-container-wrap -->
+
+		<div id="container-wrap">
+		
+			<a name="content"></a>
+			<div id="container">
+			
+							
+				<div id="content-sidebar-wrap">
+				
+										
+					<div id="content-wrap">
+
+						<aside id="ithemes-billboard-2" class="widget widget_ithemes-billboard catalyst-widget-area before-content"><div class="widget-wrap"><div class="ithemes-billboard ithemes-billboard-featured-artist"  style="text-align:center;">
+</div>
+</div></aside>
+						
+						<div id="content" class="hfeed" role="main">
+						
+							
+		
+		
+	<article class="post-21713 post type-post status-publish format-standard has-post-thumbnail hentry category-art category-music category-news category-performance category-theatres tag-jekyll-and-hyde tag-burt-bacharach tag-feinsteins tag-frank-wildhorn tag-hotel-niko tag-jazz tag-linda-eder tag-retro">
+	
+		<header class="entry-header">
+			<a href="http://progressivepulse.com/news/showstopping-linda-eder-is-back-and-yet-she-never-left/" title="Showstopping Linda Eder Is Back &#8211; And Yet She Never Left"><img width="150" height="150" src="http://progressivepulse.com/wp-content/uploads/2018/01/EderPerforms-150x150.jpg" class="alignleft wp-post-image" alt="" srcset="http://progressivepulse.com/wp-content/uploads/2018/01/EderPerforms-150x150.jpg 150w, http://progressivepulse.com/wp-content/uploads/2018/01/EderPerforms-91x91.jpg 91w, http://progressivepulse.com/wp-content/uploads/2018/01/EderPerforms-125x125.jpg 125w, http://progressivepulse.com/wp-content/uploads/2018/01/EderPerforms-64x64.jpg 64w" sizes="(max-width: 150px) 100vw, 150px" /></a>			<h2 class="entry-title"><a href="http://progressivepulse.com/news/showstopping-linda-eder-is-back-and-yet-she-never-left/" rel="bookmark">Showstopping Linda Eder Is Back &#8211; And Yet She Never Left</a></h2>
+
+					</header>
+		
+				<div class="entry-content">
+		<p>by Kevin M. Thomas, @ReelKev If you&#8217;ve been wondering where Linda Eder has been, you&#8217;d likely be surprised she hasn&#8217;t gone anywhere. But a lot of her &#8220;new&#8221; music actually isn&#8217;t new at all. Eder has taken more control of her career and sells her music &#8211; and art &#8211; on her own website, For [&hellip;] <a class="excerpt-read-more" href="http://progressivepulse.com/news/showstopping-linda-eder-is-back-and-yet-she-never-left/">   Click to read more »</a></p>
+		</div>
+		<footer class="post-meta"><p><span class="categories">Categories: <a href="http://progressivepulse.com/art/" rel="category tag">Art</a>, <a href="http://progressivepulse.com/music/" rel="category tag">Music</a>, <a href="http://progressivepulse.com/news/" rel="category tag">News</a>, <a href="http://progressivepulse.com/music/performance/" rel="category tag">Performance</a>, <a href="http://progressivepulse.com/art/theatres/" rel="category tag">Theatres</a></span>   <span class="tags">Tags: <a href="http://progressivepulse.com/tag/jekyll-and-hyde/" rel="tag">"Jekyll and Hyde"</a>, <a href="http://progressivepulse.com/tag/burt-bacharach/" rel="tag">Burt Bacharach</a>, <a href="http://progressivepulse.com/tag/feinsteins/" rel="tag">Feinstein's</a>, <a href="http://progressivepulse.com/tag/frank-wildhorn/" rel="tag">Frank Wildhorn</a>, <a href="http://progressivepulse.com/tag/hotel-niko/" rel="tag">Hotel Niko</a>, <a href="http://progressivepulse.com/tag/jazz/" rel="tag">jazz</a>, <a href="http://progressivepulse.com/tag/linda-eder/" rel="tag">Linda Eder</a>, <a href="http://progressivepulse.com/tag/retro/" rel="tag">Retro</a></span> </p></footer>		
+	</article>
+		
+	
+		
+		
+	<article class="post-21704 post type-post status-publish format-standard has-post-thumbnail hentry category-art category-music category-news category-performance category-theatres tag-saturday-night-fever tag-bend-and-snap tag-groundhog-day tag-if-i-cant-have-you tag-legally-blonde tag-old-friends tag-pretty-woman tag-seeing-you tag-andy-karl tag-best-actor tag-broadway tag-cabaret tag-feinsteins tag-feinsteins-54-below tag-olivier-award tag-orfeh-karl tag-tony">
+	
+		<header class="entry-header">
+			<a href="http://progressivepulse.com/news/tony-nominated-married-stars-bring-their-love-of-theatre-to-sfs-feinsteins/" title="Tony-Nominated Married Stars Bring Their Love of Theatre to SF&#8217;s Feinstein&#8217;s"><img width="150" height="150" src="http://progressivepulse.com/wp-content/uploads/2018/01/AndyKarl_Orfeh-150x150.jpg" class="alignleft wp-post-image" alt="" srcset="http://progressivepulse.com/wp-content/uploads/2018/01/AndyKarl_Orfeh-150x150.jpg 150w, http://progressivepulse.com/wp-content/uploads/2018/01/AndyKarl_Orfeh-91x91.jpg 91w, http://progressivepulse.com/wp-content/uploads/2018/01/AndyKarl_Orfeh-125x125.jpg 125w, http://progressivepulse.com/wp-content/uploads/2018/01/AndyKarl_Orfeh-64x64.jpg 64w" sizes="(max-width: 150px) 100vw, 150px" /></a>			<h2 class="entry-title"><a href="http://progressivepulse.com/news/tony-nominated-married-stars-bring-their-love-of-theatre-to-sfs-feinsteins/" rel="bookmark">Tony-Nominated Married Stars Bring Their Love of Theatre to SF&#8217;s Feinstein&#8217;s</a></h2>
+
+					</header>
+		
+				<div class="entry-content">
+		<p>by Kevin M. Thomas, @ReelKev I just completed the worst interview with three-time Tony nominee Andy Karl and his Tony-nominated wife Orfeh, who bring their &#8220;Legally Bound&#8221; cabaret act to San Francisco Feinstein&#8217;s at the Nikko on Jan. 12 and 13. Don&#8217;t get me wrong. They weren&#8217;t boring and they had plenty to say. But after [&hellip;] <a class="excerpt-read-more" href="http://progressivepulse.com/news/tony-nominated-married-stars-bring-their-love-of-theatre-to-sfs-feinsteins/">   Click to read more »</a></p>
+		</div>
+		<footer class="post-meta"><p><span class="categories">Categories: <a href="http://progressivepulse.com/art/" rel="category tag">Art</a>, <a href="http://progressivepulse.com/music/" rel="category tag">Music</a>, <a href="http://progressivepulse.com/news/" rel="category tag">News</a>, <a href="http://progressivepulse.com/music/performance/" rel="category tag">Performance</a>, <a href="http://progressivepulse.com/art/theatres/" rel="category tag">Theatres</a></span>   <span class="tags">Tags: <a href="http://progressivepulse.com/tag/saturday-night-fever/" rel="tag">'Saturday Night Fever'</a>, <a href="http://progressivepulse.com/tag/bend-and-snap/" rel="tag">"Bend and Snap"</a>, <a href="http://progressivepulse.com/tag/groundhog-day/" rel="tag">"Groundhog Day"</a>, <a href="http://progressivepulse.com/tag/if-i-cant-have-you/" rel="tag">"If I Can't Have You"</a>, <a href="http://progressivepulse.com/tag/legally-blonde/" rel="tag">"Legally Blonde"</a>, <a href="http://progressivepulse.com/tag/old-friends/" rel="tag">"Old Friends"</a>, <a href="http://progressivepulse.com/tag/pretty-woman/" rel="tag">"Pretty Woman"</a>, <a href="http://progressivepulse.com/tag/seeing-you/" rel="tag">"Seeing You"</a>, <a href="http://progressivepulse.com/tag/andy-karl/" rel="tag">Andy Karl</a>, <a href="http://progressivepulse.com/tag/best-actor/" rel="tag">Best Actor</a>, <a href="http://progressivepulse.com/tag/broadway/" rel="tag">Broadway</a>, <a href="http://progressivepulse.com/tag/cabaret/" rel="tag">cabaret</a>, <a href="http://progressivepulse.com/tag/feinsteins/" rel="tag">Feinstein's</a>, <a href="http://progressivepulse.com/tag/feinsteins-54-below/" rel="tag">Feinstein's 54 Below</a>, <a href="http://progressivepulse.com/tag/olivier-award/" rel="tag">Olivier Award</a>, <a href="http://progressivepulse.com/tag/orfeh-karl/" rel="tag">Orfeh Karl</a>, <a href="http://progressivepulse.com/tag/tony/" rel="tag">TONY</a></span> </p></footer>		
+	</article>
+		
+	
+		
+		
+	<article class="post-21695 post type-post status-publish format-standard has-post-thumbnail hentry category-art category-news category-theatres">
+	
+		<header class="entry-header">
+			<a href="http://progressivepulse.com/news/last-minute-holiday-gift-idea-enjoying-live-theatre-from-your-own-home/" title="Last Minute Holiday Gift Idea:  Enjoying Live Theatre From Your Own Home"><img width="150" height="150" src="http://progressivepulse.com/wp-content/uploads/2017/12/audramcdonaldladyday-150x150.jpg" class="alignleft wp-post-image" alt="" srcset="http://progressivepulse.com/wp-content/uploads/2017/12/audramcdonaldladyday-150x150.jpg 150w, http://progressivepulse.com/wp-content/uploads/2017/12/audramcdonaldladyday-91x91.jpg 91w, http://progressivepulse.com/wp-content/uploads/2017/12/audramcdonaldladyday-125x125.jpg 125w, http://progressivepulse.com/wp-content/uploads/2017/12/audramcdonaldladyday-64x64.jpg 64w" sizes="(max-width: 150px) 100vw, 150px" /></a>			<h2 class="entry-title"><a href="http://progressivepulse.com/news/last-minute-holiday-gift-idea-enjoying-live-theatre-from-your-own-home/" rel="bookmark">Last Minute Holiday Gift Idea:  Enjoying Live Theatre From Your Own Home</a></h2>
+
+					</header>
+		
+				<div class="entry-content">
+		<p>by Kevin M. Thomas   If you&#8217;re looking for a last minute Christmas present &#8211; or one for yourself &#8211; I have become a big fan of the streaming device BroadwayHD.   BroadwayHD is the perfect answer for people who can&#8217;t afford to go to live theatre (pity) or those who don&#8217;t have the time [&hellip;] <a class="excerpt-read-more" href="http://progressivepulse.com/news/last-minute-holiday-gift-idea-enjoying-live-theatre-from-your-own-home/">   Click to read more »</a></p>
+		</div>
+		<footer class="post-meta"><p><span class="categories">Categories: <a href="http://progressivepulse.com/art/" rel="category tag">Art</a>, <a href="http://progressivepulse.com/news/" rel="category tag">News</a>, <a href="http://progressivepulse.com/art/theatres/" rel="category tag">Theatres</a></span> </p></footer>		
+	</article>
+		
+	
+		
+		
+	<article class="post-21690 post type-post status-publish format-standard has-post-thumbnail hentry category-news tag-the-bands-visit tag-adam-kantor tag-ariel-stachel tag-cannes-film-festival tag-chet-baker tag-david-cromer tag-david-yazbek tag-eran-kolirin tag-itamar-moses tag-jazz-history tag-off-broadway">
+	
+		<header class="entry-header">
+			<a href="http://progressivepulse.com/news/this-bands-visit-is-definitely-worth-a-trip/" title="This &#8220;Band&#8217;s Visit&#8221; is Definitely Worth a Trip"><img width="150" height="150" src="http://progressivepulse.com/wp-content/uploads/2017/12/9WEEKENDARTS1COVER2-master768-150x150.jpg" class="alignleft wp-post-image" alt="" srcset="http://progressivepulse.com/wp-content/uploads/2017/12/9WEEKENDARTS1COVER2-master768-150x150.jpg 150w, http://progressivepulse.com/wp-content/uploads/2017/12/9WEEKENDARTS1COVER2-master768-91x91.jpg 91w, http://progressivepulse.com/wp-content/uploads/2017/12/9WEEKENDARTS1COVER2-master768-125x125.jpg 125w, http://progressivepulse.com/wp-content/uploads/2017/12/9WEEKENDARTS1COVER2-master768-64x64.jpg 64w" sizes="(max-width: 150px) 100vw, 150px" /></a>			<h2 class="entry-title"><a href="http://progressivepulse.com/news/this-bands-visit-is-definitely-worth-a-trip/" rel="bookmark">This &#8220;Band&#8217;s Visit&#8221; is Definitely Worth a Trip</a></h2>
+
+					</header>
+		
+				<div class="entry-content">
+		<p>By Kevin M. Thomas, @ReelKev When I am reviewing a show, I try to go in blindly. I don&#8217;t want to know others&#8217; opinions and even sometimes a lot about the story or cast.   It was hard to attend &#8220;The Band&#8217;s Visit&#8221; without having a bit of knowledge. Not only did I miss opening [&hellip;] <a class="excerpt-read-more" href="http://progressivepulse.com/news/this-bands-visit-is-definitely-worth-a-trip/">   Click to read more »</a></p>
+		</div>
+		<footer class="post-meta"><p><span class="categories">Categories: <a href="http://progressivepulse.com/news/" rel="category tag">News</a></span>   <span class="tags">Tags: <a href="http://progressivepulse.com/tag/the-bands-visit/" rel="tag">"The Band's Visit"</a>, <a href="http://progressivepulse.com/tag/adam-kantor/" rel="tag">Adam Kantor</a>, <a href="http://progressivepulse.com/tag/ariel-stachel/" rel="tag">Ari'el Stachel</a>, <a href="http://progressivepulse.com/tag/cannes-film-festival/" rel="tag">Cannes Film Festival</a>, <a href="http://progressivepulse.com/tag/chet-baker/" rel="tag">Chet baker</a>, <a href="http://progressivepulse.com/tag/david-cromer/" rel="tag">David Cromer</a>, <a href="http://progressivepulse.com/tag/david-yazbek/" rel="tag">David Yazbek</a>, <a href="http://progressivepulse.com/tag/eran-kolirin/" rel="tag">Eran Kolirin</a>, <a href="http://progressivepulse.com/tag/itamar-moses/" rel="tag">Itamar Moses</a>, <a href="http://progressivepulse.com/tag/jazz-history/" rel="tag">jazz history</a>, <a href="http://progressivepulse.com/tag/off-broadway/" rel="tag">Off-Broadway</a></span> </p></footer>		
+	</article>
+		
+	
+		
+		
+	<article class="post-21685 post type-post status-publish format-standard has-post-thumbnail hentry category-art category-news category-theatres tag-a-christmas-story-the-musical tag-a-christmas-story tag-christmas-classic tag-mario-gianni-herrera tag-sf-playhouse">
+	
+		<header class="entry-header">
+			<a href="http://progressivepulse.com/news/a-star-is-born-in-a-christmas-story/" title="A Star is Born in &#8220;A Christmas Story&#8221;"><img width="150" height="150" src="http://progressivepulse.com/wp-content/uploads/2017/12/ACSclassroom-150x150.jpg" class="alignleft wp-post-image" alt="" srcset="http://progressivepulse.com/wp-content/uploads/2017/12/ACSclassroom-150x150.jpg 150w, http://progressivepulse.com/wp-content/uploads/2017/12/ACSclassroom-91x91.jpg 91w, http://progressivepulse.com/wp-content/uploads/2017/12/ACSclassroom-125x125.jpg 125w, http://progressivepulse.com/wp-content/uploads/2017/12/ACSclassroom-64x64.jpg 64w" sizes="(max-width: 150px) 100vw, 150px" /></a>			<h2 class="entry-title"><a href="http://progressivepulse.com/news/a-star-is-born-in-a-christmas-story/" rel="bookmark">A Star is Born in &#8220;A Christmas Story&#8221;</a></h2>
+
+					</header>
+		
+				<div class="entry-content">
+		<p>by Kevin M. Thomas, @ReelKev   A star is born. Not Barbra Streisand or Judy Garland. Or, even way back to Janet Gaynor.   &#8220;A Christmas Story: The Musical&#8221; is playing at the SF Playhouse and I caught it when the understudy took on the lead role of Ralphie.   Oftentimes, people think the understudy [&hellip;] <a class="excerpt-read-more" href="http://progressivepulse.com/news/a-star-is-born-in-a-christmas-story/">   Click to read more »</a></p>
+		</div>
+		<footer class="post-meta"><p><span class="categories">Categories: <a href="http://progressivepulse.com/art/" rel="category tag">Art</a>, <a href="http://progressivepulse.com/news/" rel="category tag">News</a>, <a href="http://progressivepulse.com/art/theatres/" rel="category tag">Theatres</a></span>   <span class="tags">Tags: <a href="http://progressivepulse.com/tag/a-christmas-story-the-musical/" rel="tag">"A Christmas Story: The Musical"</a>, <a href="http://progressivepulse.com/tag/a-christmas-story/" rel="tag">"A Christmas Story"</a>, <a href="http://progressivepulse.com/tag/christmas-classic/" rel="tag">Christmas classic</a>, <a href="http://progressivepulse.com/tag/mario-gianni-herrera/" rel="tag">Mario Gianni Herrera</a>, <a href="http://progressivepulse.com/tag/sf-playhouse/" rel="tag">SF Playhouse</a></span> </p></footer>		
+	</article>
+		
+	
+		
+		
+	<article class="post-21679 post type-post status-publish format-standard has-post-thumbnail hentry category-art category-news category-theatres tag-a-j-shively tag-bright-star tag-broadway tag-carmen-cusack tag-curran-theatre tag-dee-hoty tag-eddie-brikell tag-hanna-elless tag-jeff-blumenkrantz tag-michael-mulheren tag-paul-alexander-nolan tag-stephen-bogardus tag-steve-martin tag-walter-bobbie">
+	
+		<header class="entry-header">
+			<a href="http://progressivepulse.com/news/a-bright-star-of-broadway-shines-just-as-bright-on-tour-in-sf/" title="A &#8220;Bright Star&#8221; of Broadway Shines Just As Bright on Tour in SF"><img width="150" height="150" src="http://progressivepulse.com/wp-content/uploads/2017/12/carmen_cusack_in_bright_star_at_the_kennedy_center_photo_by_joan_marcus-150x150.jpg" class="alignleft wp-post-image" alt="" srcset="http://progressivepulse.com/wp-content/uploads/2017/12/carmen_cusack_in_bright_star_at_the_kennedy_center_photo_by_joan_marcus-150x150.jpg 150w, http://progressivepulse.com/wp-content/uploads/2017/12/carmen_cusack_in_bright_star_at_the_kennedy_center_photo_by_joan_marcus-91x91.jpg 91w, http://progressivepulse.com/wp-content/uploads/2017/12/carmen_cusack_in_bright_star_at_the_kennedy_center_photo_by_joan_marcus-125x125.jpg 125w, http://progressivepulse.com/wp-content/uploads/2017/12/carmen_cusack_in_bright_star_at_the_kennedy_center_photo_by_joan_marcus-64x64.jpg 64w" sizes="(max-width: 150px) 100vw, 150px" /></a>			<h2 class="entry-title"><a href="http://progressivepulse.com/news/a-bright-star-of-broadway-shines-just-as-bright-on-tour-in-sf/" rel="bookmark">A &#8220;Bright Star&#8221; of Broadway Shines Just As Bright on Tour in SF</a></h2>
+
+					</header>
+		
+				<div class="entry-content">
+		<p>by Kevin M. Thomas, @ReelKev The closest one can get to Broadway is to see the touring version of the Tony-nominated musical &#8220;Bright Star,&#8221; which has made a stop at San Francisco&#8217;s Curran Theatre and playing only through Dec. 17. This production has many of the same cast members from New York including two of the [&hellip;] <a class="excerpt-read-more" href="http://progressivepulse.com/news/a-bright-star-of-broadway-shines-just-as-bright-on-tour-in-sf/">   Click to read more »</a></p>
+		</div>
+		<footer class="post-meta"><p><span class="categories">Categories: <a href="http://progressivepulse.com/art/" rel="category tag">Art</a>, <a href="http://progressivepulse.com/news/" rel="category tag">News</a>, <a href="http://progressivepulse.com/art/theatres/" rel="category tag">Theatres</a></span>   <span class="tags">Tags: <a href="http://progressivepulse.com/tag/a-j-shively/" rel="tag">A.J. Shively</a>, <a href="http://progressivepulse.com/tag/bright-star/" rel="tag">BRIGHT STAR</a>, <a href="http://progressivepulse.com/tag/broadway/" rel="tag">Broadway</a>, <a href="http://progressivepulse.com/tag/carmen-cusack/" rel="tag">Carmen Cusack</a>, <a href="http://progressivepulse.com/tag/curran-theatre/" rel="tag">Curran Theatre</a>, <a href="http://progressivepulse.com/tag/dee-hoty/" rel="tag">Dee Hoty</a>, <a href="http://progressivepulse.com/tag/eddie-brikell/" rel="tag">Eddie Brikell</a>, <a href="http://progressivepulse.com/tag/hanna-elless/" rel="tag">Hanna Elless</a>, <a href="http://progressivepulse.com/tag/jeff-blumenkrantz/" rel="tag">Jeff Blumenkrantz</a>, <a href="http://progressivepulse.com/tag/michael-mulheren/" rel="tag">Michael Mulheren</a>, <a href="http://progressivepulse.com/tag/paul-alexander-nolan/" rel="tag">Paul Alexander Nolan</a>, <a href="http://progressivepulse.com/tag/stephen-bogardus/" rel="tag">Stephen Bogardus</a>, <a href="http://progressivepulse.com/tag/steve-martin/" rel="tag">Steve Martin</a>, <a href="http://progressivepulse.com/tag/walter-bobbie/" rel="tag">Walter Bobbie</a></span> </p></footer>		
+	</article>
+		
+	
+		
+		
+	<article class="post-21673 post type-post status-publish format-standard has-post-thumbnail hentry category-art category-news category-theatres tag-brighter-colors-and-bold-patterns tag-i-totally-know-what-you-did-last-donna-summer tag-torch-song tag-dara-wishingrad tag-drew-droege tag-michael-urie tag-new-yorks-soho-playhouse tag-the-groundlings">
+	
+		<header class="entry-header">
+			<a href="http://progressivepulse.com/news/los-angeles-comedic-talent-shows-new-yorkers-his-bright-and-bold-side/" title="Los Angeles Comedic Talent Shows New Yorkers His Bright and Bold Side"><img width="150" height="150" src="http://progressivepulse.com/wp-content/uploads/2017/12/DDGOldenGirlz-150x150.jpg" class="alignleft wp-post-image" alt="" srcset="http://progressivepulse.com/wp-content/uploads/2017/12/DDGOldenGirlz-150x150.jpg 150w, http://progressivepulse.com/wp-content/uploads/2017/12/DDGOldenGirlz-300x300.jpg 300w, http://progressivepulse.com/wp-content/uploads/2017/12/DDGOldenGirlz-91x91.jpg 91w, http://progressivepulse.com/wp-content/uploads/2017/12/DDGOldenGirlz-125x125.jpg 125w, http://progressivepulse.com/wp-content/uploads/2017/12/DDGOldenGirlz-64x64.jpg 64w, http://progressivepulse.com/wp-content/uploads/2017/12/DDGOldenGirlz.jpg 640w" sizes="(max-width: 150px) 100vw, 150px" /></a>			<h2 class="entry-title"><a href="http://progressivepulse.com/news/los-angeles-comedic-talent-shows-new-yorkers-his-bright-and-bold-side/" rel="bookmark">Los Angeles Comedic Talent Shows New Yorkers His Bright and Bold Side</a></h2>
+
+					</header>
+		
+				<div class="entry-content">
+		<p>by Kevin M. Thomas, @ReelKev One of Los Angeles&#8217; most powerhouse performers and funniest humans on the planet brings his talents &#8211; and a little taste of Southern California &#8211; to New York&#8217;s Soho Playhouse. Drew Droege, writer and star of the one-man comedy &#8220;Bright Colors and Bold Patterns,&#8221; is giving New York a taste [&hellip;] <a class="excerpt-read-more" href="http://progressivepulse.com/news/los-angeles-comedic-talent-shows-new-yorkers-his-bright-and-bold-side/">   Click to read more »</a></p>
+		</div>
+		<footer class="post-meta"><p><span class="categories">Categories: <a href="http://progressivepulse.com/art/" rel="category tag">Art</a>, <a href="http://progressivepulse.com/news/" rel="category tag">News</a>, <a href="http://progressivepulse.com/art/theatres/" rel="category tag">Theatres</a></span>   <span class="tags">Tags: <a href="http://progressivepulse.com/tag/brighter-colors-and-bold-patterns/" rel="tag">"Brighter Colors and Bold Patterns"</a>, <a href="http://progressivepulse.com/tag/i-totally-know-what-you-did-last-donna-summer/" rel="tag">"I Totally Know What You Did Last Donna Summer"</a>, <a href="http://progressivepulse.com/tag/torch-song/" rel="tag">"Torch Song"</a>, <a href="http://progressivepulse.com/tag/dara-wishingrad/" rel="tag">Dara Wishingrad</a>, <a href="http://progressivepulse.com/tag/drew-droege/" rel="tag">Drew Droege</a>, <a href="http://progressivepulse.com/tag/michael-urie/" rel="tag">Michael Urie</a>, <a href="http://progressivepulse.com/tag/new-yorks-soho-playhouse/" rel="tag">New York's Soho Playhouse</a>, <a href="http://progressivepulse.com/tag/the-groundlings/" rel="tag">The Groundlings</a></span> </p></footer>		
+	</article>
+		
+	
+		
+		
+	<article class="post-21662 post type-post status-publish format-standard has-post-thumbnail hentry category-art category-web-series tag-adam-h-sandel tag-brian-patterson tag-damian-pelliccione tag-funny-or-die tag-gay-husbands-of-san-francisco tag-revry">
+	
+		<header class="entry-header">
+			<a href="http://progressivepulse.com/art/gay-husbands-are-giving-real-housewives-a-run-for-their-money-by-kevin-m-thomas-reelkev/" title="&#8220;Gay Husbands&#8221; Are Giving Real Housewives a Run for Their Money By Kevin M. Thomas, @ReelKev"><img width="150" height="84" src="http://progressivepulse.com/wp-content/uploads/2017/11/GAYHUSBANDSpromopage.jpg" class="alignleft wp-post-image" alt="" /></a>			<h2 class="entry-title"><a href="http://progressivepulse.com/art/gay-husbands-are-giving-real-housewives-a-run-for-their-money-by-kevin-m-thomas-reelkev/" rel="bookmark">&#8220;Gay Husbands&#8221; Are Giving Real Housewives a Run for Their Money By Kevin M. Thomas, @ReelKev</a></h2>
+
+					</header>
+		
+				<div class="entry-content">
+		<p>In a world of reality and pseudo-reality, the brand new hilarious show &#8220;The Gay Husbands of San Francisco,&#8221; will debut on REVRY on Dec. 1. This six-episode series showcases not only the beautiful city of San Francisco, but it also does something none of the housewives shows does: it doesn&#8217;t take itself seriously. Progressive Pulse [&hellip;] <a class="excerpt-read-more" href="http://progressivepulse.com/art/gay-husbands-are-giving-real-housewives-a-run-for-their-money-by-kevin-m-thomas-reelkev/">   Click to read more »</a></p>
+		</div>
+		<footer class="post-meta"><p><span class="categories">Categories: <a href="http://progressivepulse.com/art/" rel="category tag">Art</a>, <a href="http://progressivepulse.com/art/web-series/" rel="category tag">Web Series</a></span>   <span class="tags">Tags: <a href="http://progressivepulse.com/tag/adam-h-sandel/" rel="tag">Adam H. Sandel</a>, <a href="http://progressivepulse.com/tag/brian-patterson/" rel="tag">Brian Patterson</a>, <a href="http://progressivepulse.com/tag/damian-pelliccione/" rel="tag">Damian Pelliccione</a>, <a href="http://progressivepulse.com/tag/funny-or-die/" rel="tag">Funny or Die</a>, <a href="http://progressivepulse.com/tag/gay-husbands-of-san-francisco/" rel="tag">Gay Husbands of San Francisco</a>, <a href="http://progressivepulse.com/tag/revry/" rel="tag">REVRY</a></span> </p></footer>		
+	</article>
+		
+	
+		
+		
+	<article class="post-21651 post type-post status-publish format-standard has-post-thumbnail hentry category-art category-news category-theatres tag-no-more-tears tag-stamp-your-feet tag-summer-the-musical tag-ariana-debose tag-colman-domingo tag-des-mcanuff tag-disco tag-donna-summer tag-la-jolla-playhouse tag-lachanze tag-queen-of-disco tag-robert-cary tag-storm-lever">
+	
+		<header class="entry-header">
+			<a href="http://progressivepulse.com/news/donna-summer-musical-should-stamp-its-feet-all-the-way-to-broadway-by-kevin-m-thomas-reelkev/" title="Donna Summer Musical Should Stamp Its Feet All the Way to Broadway by Kevin M. Thomas, @ReelKev"><img width="150" height="150" src="http://progressivepulse.com/wp-content/uploads/2017/11/Summer3-150x150.jpg" class="alignleft wp-post-image" alt="" srcset="http://progressivepulse.com/wp-content/uploads/2017/11/Summer3-150x150.jpg 150w, http://progressivepulse.com/wp-content/uploads/2017/11/Summer3-91x91.jpg 91w, http://progressivepulse.com/wp-content/uploads/2017/11/Summer3-125x125.jpg 125w, http://progressivepulse.com/wp-content/uploads/2017/11/Summer3-64x64.jpg 64w" sizes="(max-width: 150px) 100vw, 150px" /></a>			<h2 class="entry-title"><a href="http://progressivepulse.com/news/donna-summer-musical-should-stamp-its-feet-all-the-way-to-broadway-by-kevin-m-thomas-reelkev/" rel="bookmark">Donna Summer Musical Should Stamp Its Feet All the Way to Broadway by Kevin M. Thomas, @ReelKev</a></h2>
+
+					</header>
+		
+				<div class="entry-content">
+		<p>The La Jolla Playhouse has a rich history of success and game changing shows. No wonder the theatre itself has a Tony Award. Even Broadway admires its artistry. La Jolla&#8217;s own Christopher Ashley won a Tony Award this year for the musical &#8220;Come From Away,&#8221; which transferred to the Great White Way from La Jolla [&hellip;] <a class="excerpt-read-more" href="http://progressivepulse.com/news/donna-summer-musical-should-stamp-its-feet-all-the-way-to-broadway-by-kevin-m-thomas-reelkev/">   Click to read more »</a></p>
+		</div>
+		<footer class="post-meta"><p><span class="categories">Categories: <a href="http://progressivepulse.com/art/" rel="category tag">Art</a>, <a href="http://progressivepulse.com/news/" rel="category tag">News</a>, <a href="http://progressivepulse.com/art/theatres/" rel="category tag">Theatres</a></span>   <span class="tags">Tags: <a href="http://progressivepulse.com/tag/no-more-tears/" rel="tag">"No More Tears"</a>, <a href="http://progressivepulse.com/tag/stamp-your-feet/" rel="tag">"Stamp Your Feet"</a>, <a href="http://progressivepulse.com/tag/summer-the-musical/" rel="tag">"Summer the Musical"</a>, <a href="http://progressivepulse.com/tag/ariana-debose/" rel="tag">Ariana DeBose</a>, <a href="http://progressivepulse.com/tag/colman-domingo/" rel="tag">Colman Domingo</a>, <a href="http://progressivepulse.com/tag/des-mcanuff/" rel="tag">Des McAnuff</a>, <a href="http://progressivepulse.com/tag/disco/" rel="tag">Disco</a>, <a href="http://progressivepulse.com/tag/donna-summer/" rel="tag">Donna Summer</a>, <a href="http://progressivepulse.com/tag/la-jolla-playhouse/" rel="tag">La Jolla Playhouse</a>, <a href="http://progressivepulse.com/tag/lachanze/" rel="tag">LaChanze</a>, <a href="http://progressivepulse.com/tag/queen-of-disco/" rel="tag">Queen of Disco</a>, <a href="http://progressivepulse.com/tag/robert-cary/" rel="tag">Robert Cary</a>, <a href="http://progressivepulse.com/tag/storm-lever/" rel="tag">Storm Lever</a></span> </p></footer>		
+	</article>
+		
+	
+		
+		
+	<article class="post-21644 post type-post status-publish format-standard has-post-thumbnail hentry category-art category-news category-theatres tag-i-feel-love tag-last-dance tag-once-upon-a-time tag-summer-the-musical tag-colman-domingo tag-des-mcanuff tag-disco tag-donna-summer tag-la-jolla-playhouse tag-robert-cary">
+	
+		<header class="entry-header">
+			<a href="http://progressivepulse.com/news/this-summer-heats-things-up-at-la-jolla-playhouse/" title="This &#8220;Summer&#8221; Heats Things Up at La Jolla Playhouse"><img width="150" height="150" src="http://progressivepulse.com/wp-content/uploads/2017/11/SUMMERconcertpic-150x150.jpg" class="alignleft wp-post-image" alt="" srcset="http://progressivepulse.com/wp-content/uploads/2017/11/SUMMERconcertpic-150x150.jpg 150w, http://progressivepulse.com/wp-content/uploads/2017/11/SUMMERconcertpic-91x91.jpg 91w, http://progressivepulse.com/wp-content/uploads/2017/11/SUMMERconcertpic-125x125.jpg 125w, http://progressivepulse.com/wp-content/uploads/2017/11/SUMMERconcertpic-64x64.jpg 64w" sizes="(max-width: 150px) 100vw, 150px" /></a>			<h2 class="entry-title"><a href="http://progressivepulse.com/news/this-summer-heats-things-up-at-la-jolla-playhouse/" rel="bookmark">This &#8220;Summer&#8221; Heats Things Up at La Jolla Playhouse</a></h2>
+
+					</header>
+		
+				<div class="entry-content">
+		<p>by Kevin M. Thomas, @ReelKev &#8220;Summer&#8221; is coming to Southern California. Not speaking of one of the four seasons, but something even hotter: &#8220;Summer: The Donna Summer Musical&#8221; makes its world premiere at the La Jolla Playhouse and is selling out most of its run through Dec. 17 faster than you can sing Donna Summer&#8217;s [&hellip;] <a class="excerpt-read-more" href="http://progressivepulse.com/news/this-summer-heats-things-up-at-la-jolla-playhouse/">   Click to read more »</a></p>
+		</div>
+		<footer class="post-meta"><p><span class="categories">Categories: <a href="http://progressivepulse.com/art/" rel="category tag">Art</a>, <a href="http://progressivepulse.com/news/" rel="category tag">News</a>, <a href="http://progressivepulse.com/art/theatres/" rel="category tag">Theatres</a></span>   <span class="tags">Tags: <a href="http://progressivepulse.com/tag/i-feel-love/" rel="tag">"I Feel Love"</a>, <a href="http://progressivepulse.com/tag/last-dance/" rel="tag">"Last Dance"</a>, <a href="http://progressivepulse.com/tag/once-upon-a-time/" rel="tag">"Once Upon a Time"</a>, <a href="http://progressivepulse.com/tag/summer-the-musical/" rel="tag">"Summer the Musical"</a>, <a href="http://progressivepulse.com/tag/colman-domingo/" rel="tag">Colman Domingo</a>, <a href="http://progressivepulse.com/tag/des-mcanuff/" rel="tag">Des McAnuff</a>, <a href="http://progressivepulse.com/tag/disco/" rel="tag">Disco</a>, <a href="http://progressivepulse.com/tag/donna-summer/" rel="tag">Donna Summer</a>, <a href="http://progressivepulse.com/tag/la-jolla-playhouse/" rel="tag">La Jolla Playhouse</a>, <a href="http://progressivepulse.com/tag/robert-cary/" rel="tag">Robert Cary</a></span> </p></footer>		
+	</article>
+		
+	
+	<nav class="post-nav"><ul>
+<li class="active"><a href="http://progressivepulse.com/blog/">1</a></li>
+<li ><a href="http://progressivepulse.com/blog/page/2/">2</a></li>
+<li ><a href="http://progressivepulse.com/blog/page/3/">3</a></li>
+<li>&hellip;</li>
+<li ><a href="http://progressivepulse.com/blog/page/84/">84</a></li>
+<li><a href="http://progressivepulse.com/blog/page/2/" >Next &raquo;</a></li>
+</ul></nav>
+
+						</div><!-- end #content -->
+						
+						<div style="clear:both;"></div>
+						
+						
+					</div><!-- end #content-wrap -->
+					
+						<div id="sidebar-1-wrap">
+				<div id="sidebar-1" role="complementary">
+			<aside id="php-text-38" class="widget php-text"><div class="widget-wrap">			
+			<div class="php-textwidget">&nbsp;</div>
+		</div></aside>
+		</div><!-- end #sidebar-1 -->
+		<div style="clear:both;"></div>
+			</div><!-- end #sidebar-1-wrap -->
+
+				</div><!-- end #content-sidebar-wrap -->
+				
+								
+			</div><!-- end #container -->
+			
+			<div style="clear:both;"></div>
+			
+						
+		</div><!-- end #container-wrap -->
+		
+		<div style="clear:both;"></div>
+
+			<div id="ez-fat-footer-container-wrap" class="clearfix">
+	
+		<div id="ez-fat-footer-container" class="clearfix">
+
+			<div id="ez-fat-footer-1" class="ez-widget-area ez-fat-footer-widget-area  ez-only">
+				<aside id="php-text-39" class="widget php-text"><div class="widget-wrap">			
+			<div class="php-textwidget">&nbsp;</div>
+		</div></aside>
+			</div><!-- end #fat-footer-1 -->
+		
+		</div><!-- end #fat-footer-container -->
+		
+	</div><!-- end #fat-footer-container-wrap -->
+<div id="footer-wrap">
+<footer id="footer" class="clearfix" role="contentinfo">
+<p class="footer-content footer-left"> </p> <p class="footer-content footer-right"> <span class="footer-text"><a href="http://progressivepulse.com/about/">About</a> | <a href="http://archive.constantcontact.com/fs045/1101666893568/archive/1109089160530.html">Newsletter</a> | <a href="http://progressivepulse.com/blog/">Blog</a> | <a href="http://progressivepulse.com/subscribe/">Subscribe</a> | <a href="http://progressivepulse.com/legal/">Legal</a> | <a href="http://progressivepulse.com/contact/">Contact</a><br /></span> </p>
+<p class="footer-content footer-center"><span class="site-credit"><a href="mailto:info@dannycardozo.com">Site design by DCCO</a></span>  </p> 
+</footer>
+</div>
+</div><!-- end #wrap -->
+<script type='text/javascript'>/* <![CDATA[ */ var portfolioSlideshowOptions = { psFancyBox:true, psHash:0, psThumbSize:'75', psFluid:true, psTouchSwipe:true, psKeyboardNav:true, psBackgroundImages:false, psInfoTxt:'of' };/* ]]> */</script>
+<!-- Begin Catalyst Footer Scripts -->
+ 
+<!-- End Catalyst Footer Scripts -->
+<script type='text/javascript' src='http://progressivepulse.com/wp-content/plugins/portfolio-slideshow-pro/js/scrollable.min.js?ver=1.2.5'></script>
+<script type='text/javascript' src='http://progressivepulse.com/wp-content/plugins/portfolio-slideshow-pro/js/portfolio-slideshow.min.js?ver=1.8.7'></script>
+<script type='text/javascript' src='http://progressivepulse.com/wp-content/plugins/portfolio-slideshow-pro/js/fancybox/jquery.fancybox-1.3.4.pack.js?ver=1.3.4a'></script>
+<script type='text/javascript' src='http://progressivepulse.com/wp-content/plugins/portfolio-slideshow-pro/js/code.photoswipe.jquery-3.0.4.min.js?ver=3.0.4'></script>
+<script type='text/javascript' src='http://progressivepulse.com/wp-content/plugins/portfolio-slideshow-pro/js/jquery.cycle.all.min.js?ver=2.99'></script>
+<script type='text/javascript' src='http://progressivepulse.com/wp-content/themes/catalyst/lib/js/navbars/superfish.js?ver=1.5.4'></script>
+<script type='text/javascript' src='http://progressivepulse.com/wp-includes/js/wp-embed.min.js?ver=4.9.2'></script>
+
+
+<!-- *** MP3-jPlayer - version 2.7.2 ***
+
+Template: Posts index
+Exiting (isExcerpt, allowed/manual:false)
+Exiting (isExcerpt, allowed/manual:false)
+Exiting (isExcerpt, allowed/manual:false)
+Exiting (isExcerpt, allowed/manual:false)
+Exiting (isExcerpt, allowed/manual:false)
+Exiting (isExcerpt, allowed/manual:false)
+Exiting (isExcerpt, allowed/manual:false)
+Exiting (isExcerpt, allowed/manual:false)
+Exiting (isExcerpt, allowed/manual:false)
+Exiting (isExcerpt, allowed/manual:false)
+
+Player count: 0
+
+Admin Settings:
+Array
+(
+    [initial_vol] => 100
+    [auto_play] => false
+    [mp3_dir] => http://www.progressivepulse.com/mp3s
+    [player_theme] => styleG
+    [allow_remoteMp3] => false
+    [player_float] => rel-C
+    [player_onblog] => true
+    [playlist_show] => true
+    [remember_settings] => true
+    [hide_mp3extension] => true
+    [show_downloadmp3] => false
+    [db_plugin_version] => 2.7.2
+    [custom_stylesheet] => /wp-content/plugins/mp3-jplayer/css/player-silverALT.css
+    [echo_debug] => true
+    [add_track_numbering] => true
+    [enable_popout] => true
+    [playlist_repeat] => false
+    [player_width] => 150px
+    [popout_background] => #000000
+    [popout_background_image] => 
+    [colour_settings] => Array
+        (
+            [screen_colour] => rgb(0,0,0)
+            [screen_opacity] => 100
+            [loadbar_colour] => rgb(89,89,89)
+            [loadbar_opacity] => 100
+            [posbar_colour] => rgb(255,0,0)
+            [posbar_tint] => none
+            [posbar_opacity] => 100
+            [screen_text_colour] => #FFFFFF
+            [playlist_colour] => rgb(0,0,0)
+            [playlist_tint] => darken2
+            [playlist_opacity] => 100
+            [list_text_colour] => #FF0000
+            [list_current_colour] => #FFFFFF
+            [list_hover_colour] => #000000
+            [listBGa_hover] => #FFFFFF
+            [listBGa_current] => #FF0000
+            [volume_grad] => dark
+            [list_divider] => med
+            [indicator] => tint
+            [font_size_1] => 16
+            [font_size_2] => 12
+            [font_family_1] => verdana
+            [font_family_2] => verdana
+            [titleAlign] => left
+            [titleOffset] => 16px
+            [titleOffsetR] => 16px
+            [titleBold] => false
+            [titleHide] => false
+            [titleItalic] => false
+            [titleTop] => 8px
+            [captionBold] => false
+            [captionItalic] => false
+            [listBold] => false
+            [listItalic] => false
+            [listAlign] => left
+            [imageAlign] => right
+            [imgOverflow] => false
+            [userClasses] => fullbars
+            [adminBG] => #f6f6f6
+            [adminCheckerIMG] => false
+            [adminIMG] => http://progressivepulse.com/wp-content/plugins/mp3-jplayer/css/admin/images/test-image.jpg
+            [adminSizer_w] => 570px
+            [adminSizer_h] => 320px
+        )
+
+    [paddings_top] => 0px
+    [paddings_bottom] => 25px
+    [paddings_inner] => 15px
+    [popout_max_height] => 600
+    [popout_width] => 250
+    [popout_button_title] => 
+    [max_list_height] => 200
+    [encode_files] => true
+    [library_sortcol] => filename
+    [library_direction] => ASC
+    [disable_jquery_libs] => 
+    [run_shcode_in_excerpt] => false
+    [f_separator] => ,
+    [c_separator] => ;
+    [volslider_on_singles] => false
+    [volslider_on_mp3j] => false
+    [dload_text] => DOWNLOAD MP3
+    [loggedout_dload_text] => LOG IN TO DOWNLOAD
+    [loggedout_dload_link] => http://progressivepulse.com/wp-login.php
+    [force_browser_dload] => true
+    [dloader_remote_path] => 
+    [make_player_from_link] => true
+    [make_player_from_link_shcode] => [mp3j track="{TEXT}@{URL}" volslider="y" style="outline"]
+    [audioFormats] => Array
+        (
+            [mp3] => true
+            [mp4] => true
+            [ogg] => false
+            [wav] => false
+            [webm] => false
+        )
+
+    [replace_WP_playlist] => true
+    [replace_WP_audio] => true
+    [replace_WP_embedded] => true
+    [replace_WP_attached] => true
+    [replacerShortcode_playlist] => player
+    [replacerShortcode_single] => mp3j
+    [imageSize] => autoH
+    [folderFeedSortcol] => file
+    [folderFeedDirection] => ASC
+    [autoCounterpart] => true
+    [allowRangeRequests] => true
+    [playerHeight] => 62px
+    [font_size_mp3t] => 14px
+    [font_size_mp3j] => 14px
+    [showErrors] => admin
+    [flipMP3t] => false
+    [flipMP3j] => true
+    [mp3tColour] => #00869b
+    [mp3tColour_on] => false
+    [mp3jColour] => #404040
+    [mp3jColour_on] => false
+    [playerTitle1] => titles
+    [playerTitle2] => artist
+    [hasListMeta] => false
+    [autoResume] => true
+    [can_view_players] => all
+)
+
+MP3's in Media Library: 15
+
+Array
+(
+    [filenames] => Array
+        (
+            [0] => 01_free_my_mind_katie_herzig.mp3
+            [1] => 02_electric_love_dirty_vegas.mp3
+            [2] => 03_if_you_want_to_lalah_hathaway.mp3
+            [3] => 04_alter_ego_baiyu.mp3
+            [4] => 05_animal_disanto.mp3
+            [5] => 06_i_got_it_guetzal_guerrero.mp3
+            [6] => 07_reach_notar_feat_chris_carrabba.mp3
+            [7] => 08_ta_lista_los_rakas.mp3
+            [8] => 09_wepa_keisha_mai_ash_tony_mardini_beat_is_on_mix_gloria_estefan.mp3
+            [9] => 10_close_your_eyes_miguel_migs_feat_Meshell_Ndegeocello_Shades_Of_Gray_Vocal_Mix.mp3
+            [10] => 11_joy_that_rogue_romeo.mp3
+            [11] => 12_clean_allisons_invention.mp3
+            [12] => featured_artist_close_your_eyes_miguel_migs_music.mp3
+            [13] => featured_artist_tonight_miguel_migs_music.mp3
+            [14] => free_download_close_your_eyes_shades_of_gray_music.mp3
+        )
+
+    [titles] => Array
+        (
+            [0] => Free My Mind - Katie Herzig
+            [1] => 02_electric_love_dirty_vegas
+            [2] => 03_if_you_want_to_lalah_hathaway
+            [3] => 04_alter_ego_baiyu
+            [4] => 05_animal_disanto
+            [5] => 06_i_got_it_guetzal_guerrero
+            [6] => 07_reach_notar_feat_chris_carrabba
+            [7] => 08_ta_lista_los_rakas
+            [8] => 09_wepa_keisha_mai_ash_tony_mardini_beat_is_on_mix_gloria_estefan
+            [9] => 10_close_your_eyes_miguel_migs_feat_Meshell_Ndegeocello_Shades_Of_Gray_Vocal_Mix
+            [10] => 11_joy_that_rogue_romeo
+            [11] => 12_clean_allisons_invention
+            [12] => featured_artist_close_your_eyes_miguel_migs_music
+            [13] => featured_artist_tonight_miguel_migs_music
+            [14] => free_download_close_your_eyes_shades_of_gray_music
+        )
+
+    [urls] => Array
+        (
+            [0] => http://progressivepulse.com/wp-content/uploads/2012/02/01_free_my_mind_katie_herzig.mp3
+            [1] => http://progressivepulse.com/wp-content/uploads/2012/02/02_electric_love_dirty_vegas.mp3
+            [2] => http://progressivepulse.com/wp-content/uploads/2012/02/03_if_you_want_to_lalah_hathaway.mp3
+            [3] => http://progressivepulse.com/wp-content/uploads/2012/02/04_alter_ego_baiyu.mp3
+            [4] => http://progressivepulse.com/wp-content/uploads/2012/02/05_animal_disanto.mp3
+            [5] => http://progressivepulse.com/wp-content/uploads/2012/02/06_i_got_it_guetzal_guerrero.mp3
+            [6] => http://progressivepulse.com/wp-content/uploads/2012/02/07_reach_notar_feat_chris_carrabba.mp3
+            [7] => http://progressivepulse.com/wp-content/uploads/2012/02/08_ta_lista_los_rakas.mp3
+            [8] => http://progressivepulse.com/wp-content/uploads/2012/02/09_wepa_keisha_mai_ash_tony_mardini_beat_is_on_mix_gloria_estefan.mp3
+            [9] => http://progressivepulse.com/wp-content/uploads/2012/02/10_close_your_eyes_miguel_migs_feat_Meshell_Ndegeocello_Shades_Of_Gray_Vocal_Mix.mp3
+            [10] => http://progressivepulse.com/wp-content/uploads/2012/02/11_joy_that_rogue_romeo.mp3
+            [11] => http://progressivepulse.com/wp-content/uploads/2012/02/12_clean_allisons_invention.mp3
+            [12] => http://progressivepulse.com/wp-content/uploads/2012/02/featured_artist_close_your_eyes_miguel_migs_music.mp3
+            [13] => http://progressivepulse.com/wp-content/uploads/2012/02/featured_artist_tonight_miguel_migs_music.mp3
+            [14] => http://progressivepulse.com/wp-content/uploads/2012/02/free_download_close_your_eyes_shades_of_gray_music.mp3
+        )
+
+    [excerpts] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+        )
+
+    [descriptions] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+        )
+
+    [postIDs] => Array
+        (
+            [0] => 9390
+            [1] => 9391
+            [2] => 9392
+            [3] => 9393
+            [4] => 9394
+            [5] => 9395
+            [6] => 9396
+            [7] => 9397
+            [8] => 9398
+            [9] => 9401
+            [10] => 9403
+            [11] => 9405
+            [12] => 9406
+            [13] => 9407
+            [14] => 9409
+        )
+
+    [postDates] => Array
+        (
+            [0] => 2012-02-13 05:59:13
+            [1] => 2012-02-13 06:00:15
+            [2] => 2012-02-13 06:01:40
+            [3] => 2012-02-13 06:03:07
+            [4] => 2012-02-13 06:04:27
+            [5] => 2012-02-13 06:06:04
+            [6] => 2012-02-13 06:08:02
+            [7] => 2012-02-13 06:09:13
+            [8] => 2012-02-13 06:11:15
+            [9] => 2012-02-13 06:14:03
+            [10] => 2012-02-13 06:16:12
+            [11] => 2012-02-13 06:17:32
+            [12] => 2012-02-13 06:19:33
+            [13] => 2012-02-13 06:21:23
+            [14] => 2012-02-13 06:24:13
+        )
+
+    [mimes] => Array
+        (
+            [0] => audio/mpeg
+            [1] => audio/mpeg
+            [2] => audio/mpeg
+            [3] => audio/mpeg
+            [4] => audio/mpeg
+            [5] => audio/mpeg
+            [6] => audio/mpeg
+            [7] => audio/mpeg
+            [8] => audio/mpeg
+            [9] => audio/mpeg
+            [10] => audio/mpeg
+            [11] => audio/mpeg
+            [12] => audio/mpeg
+            [13] => audio/mpeg
+            [14] => audio/mpeg
+        )
+
+    [count] => 15
+)
+
+
+Other arrays:
+
+-->
+
+
+</body>
+
+</html>

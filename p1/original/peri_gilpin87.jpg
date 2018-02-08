@@ -1,0 +1,678 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width">
+<meta name="title" content="Behind The Voice Actors - Images &amp; Sounds of Voice Over Actors / Seiyuu and the Characters they play on TV Shows, Animated Movies, Video Games and Commercials" />
+<meta name="description" content="BTVA is a voice acting community site that has a database of voice actors with images and sounds of the characters they play in cartoons, tv shows, movies, video games and more.">
+<meta name="keywords" content="voice, actors, voice actors, voice actor news, voice acting news, voice over, seiyuu, voice actor images, voice actor sounds, voice comparisons, voice actor clips, cartoons, anime, tv shows, movies, games, video games, voice actor sounds clips, voice actor photos, voice actor pictures, cast, voice actor roles">
+
+<meta property="og:title" content="Images &amp; Sounds of Voice Over Actors / Seiyuu and the Characters they play on TV Shows, Animated Movies, Video Games and Commercials" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.behindthevoiceactors.com/_img/actors/actor_114.jpg" />
+<meta property="og:image" content="http://www.behindthevoiceactors.com/_img/logo.png" />
+<meta property="og:site_name" content="Behind The Voice Actors" />
+<meta property="og:description" content="BTVA is a voice acting community site that has a database of voice actors with images and sounds of the characters they play in cartoons, tv shows, movies, video games and more." />
+<meta property="fb:admins" content="100000876591281" />
+
+<meta name="google-site-verification" content="bzyEawXDJqy0LACQhtEg4xex7pChYa18XBI2GAg6kJg" />
+
+<title>Behind The Voice Actors - Images &amp; Sounds of Voice Over Actors / Seiyuu and the Characters they play on TV Shows, Animated Movies, Video Games and Commercials</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--<link rel="shortcut icon" href="http://www.behindthevoiceactors.com/favicon.ico" type="image/x-icon" />-->
+<link rel="stylesheet" href="http://www.behindthevoiceactors.com/_css/default40.css" type="text/css">
+<link rel="stylesheet" href="http://statica.behindthevoiceactors.com/behindthevoiceactors/_css/tipsy.css" type="text/css">
+
+<script type="text/javascript" src="http://statica.behindthevoiceactors.com/behindthevoiceactors/_js/jquery.js"></script>
+
+</head>
+<body>
+
+<div class="vs-context-menu"></div>
+
+	<div class="popup popup_login">
+		<div style="padding-top: 6px; height: 24px;" class="bg_bucket_title">LOGIN</div>
+		<div class="login_content">
+		<form action="http://www.behindthevoiceactors.com/forums/login.php" method=post onsubmit=md5hash(vb_login_password,vb_login_md5password,vb_login_md5password_utf)>
+				<script type=text/javascript src="http://staticf.behindthevoiceactors.com/behindthevoiceactors/forums/clientscript/vbulletin_md5.js"></script>
+				<b>USERNAME</b>:<br />
+				<input class="login_field" name=vb_login_username type=text id=navbar_username onfocus="if (this.value == 'User Name') this.value = '';" style="margin-bottom: 10px;" />
+				<b>PASSWORD</b>:<br />
+				<input class="login_field" name=vb_login_password type=password />
+				<a href="http://www.behindthevoiceactors.com/forums/login.php?do=lostpw" style="font-size: 10px;">Forgot password?</a>
+				
+				<div style="text-align: center;">
+					<label for=cb_cookieuser_navbar><input name=cookieuser type=checkbox id=cb_cookieuser_navbar value=1 checked=checked /><span style="font-size: 10px;">Remember Me?</a><br /></label><input class="button" type="submit" value="&nbsp;LOGIN&nbsp;" style="margin: 5px 0 10px 0;" />
+					<br />
+					<span style="color: #777;">Don't have an account?</span> <a href="http://www.behindthevoiceactors.com/forums/register.php?s=">Join BTVA</a>
+				</div>
+					
+				<input type=hidden name=s value= />
+				<input type=hidden name=do value=login />
+				<input type=hidden name=vb_login_md5password />
+				<input type=hidden name=vb_login_md5password_utf />
+			</form>		</div>
+	</div>
+	<div id="popup_comments" class="popup"></div>
+
+<div id="popup_shoutout_who" class="popup">
+	<div class="bg_bucket_title bg_bucket_title_html_text">Members Who Shout This Out!<a href="javascript:;" class="jqmClose popup_close">[X]</a></div>
+	<div id="shoutout_who_container" style="overflow-y: scroll;"></div>
+</div>
+
+<div id="popup_confirmed_credit" class="popup">
+	<div class="bg_bucket_title bg_bucket_title_html_text">Confirmed Credits<a href="javascript:;" class="jqmClose popup_close">[X]</a></div>
+	<div style="height: 360px; overflow-y: scroll;"><img src="" /></div>
+</div>
+
+<div id="header">
+	<a id="logo" href="http://www.behindthevoiceactors.com/" title="Behind The Voice Actors" /></a>
+	
+	<!--<div id="announcement" style="float: left; width: 395px; padding: 3px; position: absolute; z-index: 15; margin: 10px 0 0 285px; border: 1px solid #FFB200; background: #F4EA5D; color: #604511;">
+		<b>ANNOUNCEMENT</b>: BTVA has been undergoing numerous server changes. The login issue should now be resolved. You may need to log out and log back in again to ensure a fresh session. Thanks.
+	</div>-->
+	<div id="search">
+		<form action="http://www.behindthevoiceactors.com/search.php" id="cse-search-box">
+		  <div>
+			<input type="hidden" name="cx" value="partner-pub-5058313487665123:1528131697" />
+			<input type="hidden" name="cof" value="FORID:10" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" />
+			<input type="submit" name="sa" value="&nbsp;" />
+		  </div>
+		</form>
+		
+	</div>
+	<div style="float: right; margin: 10px 0 0 0;">
+		<div class="top_links">
+							<a class="login_link" href="javascript:;">LOGIN</a> | 
+				<a href="http://www.behindthevoiceactors.com/forums/register.php?s=">JOIN BTVA</a>
+				<div class="accounts_alert"></div>
+						</div>
+		<div class="clear"></div>
+		<div style="float: right; margin-top: -54px;">
+			<a href="https://www.google.com/+BehindTheVoiceActors" title="Follow BTVA on Google+" target="_blank" style="display: block; float: right;"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/icons/socnet_googleplus.png" alt="Follow BTVA on Google+" style="width:30px;height:30px;"/></a>
+			<a href="http://www.twitter.com/BTVA" title="Follow BTVA on Twitter" target="_blank" style="display: block; float: right; margin-right: 4px;"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/icons/socnet_twitter.png" alt="Follow BTVA on Twitter" style="width: 30px; height: 30px;" /></a>
+			<a href="http://www.facebook.com/behindthe.voiceactors" title="Join BTVA on Facebook" target="_blank" style="display: block; float: right; margin-right: 3px;"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/icons/socnet_facebook.png" alt="Join BTVA on Facebook" style="width: 30px; height: 30px;" /></a>
+		</div>
+	</div>
+</div>
+
+<div id="container">
+	<div id="nav">
+		<div style="float: left;">
+		<a href="http://www.behindthevoiceactors.com/voice-actors/">Voice Actors</a><!--<div class="new_feature" style="margin-left: 170px;">Updated</div>-->
+		&nbsp;&nbsp;&nbsp;
+		<a href="http://www.behindthevoiceactors.com/characters/">Characters</a>
+		&nbsp;&nbsp;&nbsp;
+		<a href="http://www.behindthevoiceactors.com/tv-shows/">TV Shows</a>
+		&nbsp;&nbsp;&nbsp;
+		<a href="http://www.behindthevoiceactors.com/movies/">Movies</a>
+		&nbsp;&nbsp;&nbsp;
+		<a href="http://www.behindthevoiceactors.com/video-games/">Video Games</a>
+		&nbsp;&nbsp;&nbsp;
+		<a href="http://www.behindthevoiceactors.com/shorts/">Shorts</a>
+		&nbsp;&nbsp;&nbsp;
+		<a href="http://www.behindthevoiceactors.com/rides-attractions/">Attractions</a>
+		&nbsp;&nbsp;&nbsp;
+		<a href="http://www.behindthevoiceactors.com/commercials/">Commercials</a>
+		</div>
+		<div style="float: right;">
+		&nbsp;&nbsp;&nbsp;
+		<a href="http://www.behindthevoiceactors.com/forums/">Forums</a>
+		</div>
+	</div>
+	<div id="subnav">
+		<a href="http://www.behindthevoiceactors.com/news/">News</a>
+		&nbsp;&nbsp;
+		<a href="http://www.behindthevoiceactors.com/voice-compare/">Voice Compare</a> 
+		&nbsp;&nbsp;
+		<a href="http://www.behindthevoiceactors.com/voice-directors/">Voice Directors</a>
+		&nbsp;&nbsp;
+		<a href="http://www.behindthevoiceactors.com/franchises/">Franchises</a>
+		&nbsp;&nbsp;
+		<a href="http://www.behindthevoiceactors.com/casting-call/">Casting Call</a>
+		&nbsp;&nbsp;
+		<a href="http://www.behindthevoiceactors.com/top-listings/?type=pop_va_all">Top Listings</a>
+		&nbsp;&nbsp;
+		<a href="http://www.behindthevoiceactors.com/coming-soon/">Coming Soon</a>
+		&nbsp;&nbsp;
+		<a href="http://www.behindthevoiceactors.com/quotes/voice-actors/">VA Quotes</a>
+		&nbsp;&nbsp;
+		<a href="http://www.behindthevoiceactors.com/act-your-voice-out/">AYVO</a>
+		&nbsp;&nbsp;
+		<a href="http://www.behindthevoiceactors.com/btva-anime-awards/2016/general/">5th BTVA Anime Dub Awards</a>&nbsp;<span style="font-weight: bold; color: #C00; font-size:11px; font-family: Arial;">WINNERS!</span>
+	</div>
+	<!--<div id="trending_nav">
+		<b class="orange">TRENDING NOW</b>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;<a href="http://www.behindthevoiceactors.com/movies/The-Secret-Life-of-Pets/" />The Secret Life of Pets Cast</a>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;<a href="http://www.behindthevoiceactors.com/movies/Finding-Dory/" />Finding Dory Cast</a>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;<a href="http://www.behindthevoiceactors.com/movies/Zootopia/" />Zootopia Cast</a>
+	</div>-->
+		<div id="leaderboard">
+		<!-- behindthevoiceactors 728x90 combo: 970x90 970x250 728x90 -->
+		<div id="ros_20261">
+		<script type="text/javascript">
+		var googletag = googletag || {};
+		googletag.cmd = googletag.cmd || [];
+		(function() {
+		var gads = document.createElement("script");
+		gads.async = true;
+		gads.type = "text/javascript";
+		var useSSL = "https:" == document.location.protocol;
+		gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+		var node =document.getElementsByTagName("script")[0];
+		node.parentNode.insertBefore(gads, node);
+		})();
+		googletag.cmd.push(function() {
+		var newSlot = googletag.defineSlot('/4403/cr/behindthevoiceactors_perf/ros', [[728,90],[970,250],[970,90]],'ros_20261').setTargeting('site', 'behindthevoiceactors_perf').setTargeting('sect','ros').addService(googletag.pubads());
+		googletag.enableServices();
+		googletag.display('ros_20261');
+		});
+		</script>
+		</div>
+	</div>
+	<script type="text/javascript">
+$(function() {
+	$('.switch_week').click(function() {
+		$('.switch_all').css({'font-weight':'normal'});
+		$(this).css({'font-weight':'bold'});
+		$('.most_popular_all').hide();
+		$('.most_popular_week').fadeIn();
+	});
+	$('.switch_all').click(function() {
+		$('.switch_week').css({'font-weight':'normal'});
+		$(this).css({'font-weight':'bold'});
+		$('.most_popular_week').hide();
+		$('.most_popular_all').fadeIn();
+	});
+});
+</script>
+<div id="content_wide_left">
+	<script type="text/javascript">
+var theFeatureID = 0;
+$(function() {
+	rotateFeature = setTimeout("switchFeature(theFeatureID+1)", 15000);
+	
+	$('.carousel_item_switch_wide').click(function() {
+		clearTimeout(rotateFeature);
+		var featureID = $(this).attr('rel');
+		if (featureID == 1)
+			featureID = 5;
+		else
+			featureID = featureID - 1;
+		rotateFeature = switchFeature(featureID);
+	});
+});
+function switchFeature(featureID) {
+	featureID = parseInt(featureID);
+	$('.carousel_bg:visible').fadeOut(function() {
+		if (featureID == 5)
+			theFeatureID = 1;
+		else
+			theFeatureID = featureID + 1;
+	
+		$('#home_feature_'+theFeatureID).fadeIn();
+	
+		rotateFeature = setTimeout("switchFeature(theFeatureID)", 15000);
+	});
+}
+</script>
+<div id="in_the_spotlight" style="float: left;">
+	<div class="carousel_item_switch_wide_container" style="padding-top: 2px;"></div>
+				<a class="carousel_item_switch_wide" rel="1" href="javascript:;" title="Animaniacs Revival Coming to Hulu" style="padding-top: 2px;">
+					<img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1042_thumb.jpg" alt="Animaniacs Revival Coming to Hulu" />
+					<div>Animaniacs Revival Coming to Hulu</div>
+				</a><div class="carousel_item_switch_wide_container" style="padding-top: 1px;"></div>
+				<a class="carousel_item_switch_wide" rel="2" href="javascript:;" title="Netflix 2018 Announcements" style="padding-top: 1px;">
+					<img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1041_thumb.jpg" alt="Netflix 2018 Announcements" />
+					<div>Netflix 2018 Announcements</div>
+				</a><div class="carousel_item_switch_wide_container" style="padding-top: 1px;"></div>
+				<a class="carousel_item_switch_wide" rel="3" href="javascript:;" title="Ni no Kuni II: Japanese VO Cast" style="padding-top: 1px;">
+					<img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1040_thumb.jpg" alt="Ni no Kuni II: Japanese VO Cast" />
+					<div>Ni no Kuni II: Japanese VO Cast</div>
+				</a><div class="carousel_item_switch_wide_container" style="padding-top: 1px;"></div>
+				<a class="carousel_item_switch_wide" rel="4" href="javascript:;" title="Spider-Man: Into the Spider-Verse Trailer" style="padding-top: 1px;">
+					<img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1039_thumb.jpg" alt="Spider-Man: Into the Spider-Verse Trailer" />
+					<div>Spider-Man: Into the Spider-Verse Trailer</div>
+				</a><div class="carousel_item_switch_wide_container" style="padding-top: 1px;"></div>
+				<a class="carousel_item_switch_wide" rel="5" href="javascript:;" title="PSX 2017: Uncharted and Last of Us Cast Panels" style="padding-top: 1px;">
+					<img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1038_thumb.jpg" alt="PSX 2017: Uncharted and Last of Us Cast Panels" />
+					<div>PSX 2017: Uncharted and Last of Us Cast Panels</div>
+				</a></div>
+<div id="carousel_home" style="float: left;">
+	<a href="http://www.behindthevoiceactors.com/news/Animaniacs-Revival-Coming-to-Hulu/" title="Animaniacs Revival Coming to Hulu"><div id="home_feature_1" class="carousel_bg" style="background: url(http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1042.jpg) no-repeat;">
+			<div class="carousel_text">
+				<b style="font-family: Arial;">ANIMANIACS REVIVAL COMING TO HULU</b><br />
+				Planned for 2020, the original Animaniacs is also available now - along with Tiny Toons and Pinky and the Brain.
+			</div>
+		</div></a><a href="http://www.behindthevoiceactors.com/news/Netflix-2018-Announcements/" title="Netflix 2018 Announcements"><div id="home_feature_2" class="carousel_bg" style="display: none; background: url(http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1041.jpg) no-repeat;">
+			<div class="carousel_text">
+				<b style="font-family: Arial;">NETFLIX 2018 ANNOUNCEMENTS</b><br />
+				Netflix reveals a number of series that will be featured in 2018.
+			</div>
+		</div></a><a href="http://www.behindthevoiceactors.com/news/Ni-no-Kuni-II-Japanese-VO-Cast/" title="Ni no Kuni II: Japanese VO Cast"><div id="home_feature_3" class="carousel_bg" style="display: none; background: url(http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1040.jpg) no-repeat;">
+			<div class="carousel_text">
+				<b style="font-family: Arial;">NI NO KUNI II: JAPANESE VO CAST</b><br />
+				A Ghibli movie come to life will arrive on PS4 and PC this March.
+			</div>
+		</div></a><a href="http://www.behindthevoiceactors.com/news/Spider-Man-Into-the-Spider-Verse-Trailer/" title="Spider-Man: Into the Spider-Verse Trailer"><div id="home_feature_4" class="carousel_bg" style="display: none; background: url(http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1039.jpg) no-repeat;">
+			<div class="carousel_text">
+				<b style="font-family: Arial;">SPIDER-MAN: INTO THE SPIDER-VERSE TRAILER</b><br />
+				Miles Morales gets his own CGI film, hitting theatres next December.
+			</div>
+		</div></a><a href="http://www.behindthevoiceactors.com/news/PSX-2017-Uncharted-and-Last-of-Us-Cast-Panels/" title="PSX 2017: Uncharted and Last of Us Cast Panels"><div id="home_feature_5" class="carousel_bg" style="display: none; background: url(http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1038.jpg) no-repeat;">
+			<div class="carousel_text">
+				<b style="font-family: Arial;">PSX 2017: UNCHARTED AND LAST OF US CAST PANELS</b><br />
+				Troy Baker and Ashley Johnson sing, while Nolan North and Emily Rose show their audition tapes.
+			</div>
+		</div></a></div>
+<div class="clear"></div></div>
+<div class="clear"></div>
+<div id="content_home_left">
+	<div class="bucket">
+	<div class="bg_bucket_title"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/title_recently_updated.png" alt="Recently Updated" /></div>
+	<div style="padding: 6px 10px 0 10px;">
+	<div class="bucket_subtitle">VOICE ACTORS</div><div class="updated_image_block" style="margin-right: 10px;"><a class="updated_image" href="http://www.behindthevoiceactors.com/Andrew-Kishino/" title="Andrew Kishino"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/andrew-kishino-5.6_thumb.jpg" alt="Andrew Kishino" /></a><a class="newest" href="http://www.behindthevoiceactors.com/Andrew-Kishino/" title="Andrew Kishino">Andrew Kishino</a></div><div class="updated_image_block"><a class="updated_image" href="http://www.behindthevoiceactors.com/Anthony-De-Longis/" title="Anthony De Longis"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/anthony-de-longis-4.73_thumb.jpg" alt="Anthony De Longis" /></a><a class="newest" href="http://www.behindthevoiceactors.com/Anthony-De-Longis/" title="Anthony De Longis">Anthony De Longis</a></div><div class="clear"></div><div class="updated_image_block" style="margin-right: 10px;"><a class="updated_image" href="http://www.behindthevoiceactors.com/Chris-Cox/" title="Chris Cox"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/chris-cox-7.35_thumb.jpg" alt="Chris Cox" /></a><a class="newest" href="http://www.behindthevoiceactors.com/Chris-Cox/" title="Chris Cox">Chris Cox</a></div><div class="updated_image_block"><a class="updated_image" href="http://www.behindthevoiceactors.com/Dave-Wittenberg/" title="Dave Wittenberg"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/dave-wittenberg-83_thumb.jpg" alt="Dave Wittenberg" /></a><a class="newest" href="http://www.behindthevoiceactors.com/Dave-Wittenberg/" title="Dave Wittenberg">Dave Wittenberg</a></div><div class="clear"></div><div class="updated_image_block" style="margin-right: 10px;"><a class="updated_image" href="http://www.behindthevoiceactors.com/Jennifer-Hale/" title="Jennifer Hale"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/jennifer-hale-9.61_thumb.jpg" alt="Jennifer Hale" /></a><a class="newest" href="http://www.behindthevoiceactors.com/Jennifer-Hale/" title="Jennifer Hale">Jennifer Hale</a></div><div class="updated_image_block"><a class="updated_image" href="http://www.behindthevoiceactors.com/Robin-Atkin-Downes/" title="Robin Atkin Downes"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/robin-atkin-downes-71.1_thumb.jpg" alt="Robin Atkin Downes" /></a><a class="newest" href="http://www.behindthevoiceactors.com/Robin-Atkin-Downes/" title="Robin Atkin Downes">Robin Atkin Downes</a></div><div class="clear"></div><a class="orange" href="http://www.behindthevoiceactors.com/voice-actors/" title="MORE VOICE ACTORS" style="display: block; float: right; margin: 3px 0 -6px 0; font-size: 10px; font-weight: bold;">MORE VOICE ACTORS &raquo;</a><div class="divider"></div><div class="bucket_subtitle">TV SHOWS</div><div class="updated_image_block" style="margin-right: 10px;"><a class="updated_image" href="http://www.behindthevoiceactors.com/tv-shows/Ice-Age-A-Mammoth-Christmas/" title="Ice Age: A Mammoth Christmas"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shows/thumbs/series_2389_thumb.jpg" alt="Ice Age: A Mammoth Christmas" /></a><a class="newest" href="http://www.behindthevoiceactors.com/tv-shows/Ice-Age-A-Mammoth-Christmas/" title="Ice Age: A Mammoth Christmas">Ice Age: A Mammoth Christmas</a></div><div class="updated_image_block"><a class="updated_image" href="http://www.behindthevoiceactors.com/tv-shows/Americas-Got-Talent/" title="America's Got Talent"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shows/thumbs/series_3914_thumb.jpg" alt="America's Got Talent" /></a><a class="newest" href="http://www.behindthevoiceactors.com/tv-shows/Americas-Got-Talent/" title="America's Got Talent">America's Got Talent</a></div><div class="clear"></div><div class="updated_image_block" style="margin-right: 10px;"><a class="updated_image" href="http://www.behindthevoiceactors.com/tv-shows/The-Magic-School-Bus-Rides-Again/" title="The Magic School Bus Rides Again"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shows/thumbs/series_3174_thumb.jpg" alt="The Magic School Bus Rides Again" /></a><a class="newest" href="http://www.behindthevoiceactors.com/tv-shows/The-Magic-School-Bus-Rides-Again/" title="The Magic School Bus Rides Again">The Magic School Bus Rides Again</a></div><div class="updated_image_block"><a class="updated_image" href="http://www.behindthevoiceactors.com/tv-shows/Food-Wars-The-Second-Plate/" title="Food Wars! The Second Plate"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shows/thumbs/series_3479_thumb.jpg" alt="Food Wars! The Second Plate" /></a><a class="newest" href="http://www.behindthevoiceactors.com/tv-shows/Food-Wars-The-Second-Plate/" title="Food Wars! The Second Plate">Food Wars! The Second Plate</a></div><div class="clear"></div><div class="updated_image_block" style="margin-right: 10px;"><a class="updated_image" href="http://www.behindthevoiceactors.com/tv-shows/Miss-Kobayashis-Dragon-Maid/" title="Miss Kobayashi's Dragon Maid"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shows/thumbs/series_3704_thumb.jpg" alt="Miss Kobayashi's Dragon Maid" /></a><a class="newest" href="http://www.behindthevoiceactors.com/tv-shows/Miss-Kobayashis-Dragon-Maid/" title="Miss Kobayashi's Dragon Maid">Miss Kobayashi's Dragon Maid</a></div><div class="updated_image_block"><a class="updated_image" href="http://www.behindthevoiceactors.com/tv-shows/Jeff-and-Some-Aliens/" title="Jeff and Some Aliens"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shows/thumbs/series_3793_thumb.jpg" alt="Jeff and Some Aliens" /></a><a class="newest" href="http://www.behindthevoiceactors.com/tv-shows/Jeff-and-Some-Aliens/" title="Jeff and Some Aliens">Jeff and Some Aliens</a></div><div class="clear"></div><a class="orange" href="http://www.behindthevoiceactors.com/tv-shows/" title="MORE TV SHOWS" style="display: block; float: right; margin: 3px 0 -6px 0; font-size: 10px; font-weight: bold;">MORE TV SHOWS &raquo;</a><div class="divider"></div><div class="bucket_subtitle">MOVIES</div><div class="updated_image_block" style="margin-right: 10px;"><a class="updated_image" href="http://www.behindthevoiceactors.com/movies/Monsters-vs-Aliens/" title="Monsters vs. Aliens"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/movies/thumbs/movie_26_thumb.jpg" alt="Monsters vs. Aliens" /></a><a class="newest" href="http://www.behindthevoiceactors.com/movies/Monsters-vs-Aliens/" title="Monsters vs. Aliens">Monsters vs. Aliens</a></div><div class="updated_image_block"><a class="updated_image" href="http://www.behindthevoiceactors.com/movies/Rogue-One-A-Star-Wars-Story/" title="Rogue One: A Star Wars Story"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/movies/thumbs/movie_2228_thumb.jpg" alt="Rogue One: A Star Wars Story" /></a><a class="newest" href="http://www.behindthevoiceactors.com/movies/Rogue-One-A-Star-Wars-Story/" title="Rogue One: A Star Wars Story">Rogue One: A Star Wars Story</a></div><div class="clear"></div><div class="updated_image_block" style="margin-right: 10px;"><a class="updated_image" href="http://www.behindthevoiceactors.com/movies/Shrek-the-Third/" title="Shrek the Third"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/movies/thumbs/movie_382_thumb.jpg" alt="Shrek the Third" /></a><a class="newest" href="http://www.behindthevoiceactors.com/movies/Shrek-the-Third/" title="Shrek the Third">Shrek the Third</a></div><div class="updated_image_block"><a class="updated_image" href="http://www.behindthevoiceactors.com/movies/Shrek-2/" title="Shrek 2"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/movies/thumbs/movie_381_thumb.jpg" alt="Shrek 2" /></a><a class="newest" href="http://www.behindthevoiceactors.com/movies/Shrek-2/" title="Shrek 2">Shrek 2</a></div><div class="clear"></div><div class="updated_image_block" style="margin-right: 10px;"><a class="updated_image" href="http://www.behindthevoiceactors.com/movies/Shrek/" title="Shrek"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/movies/thumbs/movie_380_thumb.jpg" alt="Shrek" /></a><a class="newest" href="http://www.behindthevoiceactors.com/movies/Shrek/" title="Shrek">Shrek</a></div><div class="updated_image_block"><a class="updated_image" href="http://www.behindthevoiceactors.com/movies/Shrek-Forever-After/" title="Shrek Forever After"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/movies/thumbs/movie_383_thumb.jpg" alt="Shrek Forever After" /></a><a class="newest" href="http://www.behindthevoiceactors.com/movies/Shrek-Forever-After/" title="Shrek Forever After">Shrek Forever After</a></div><div class="clear"></div><a class="orange" href="http://www.behindthevoiceactors.com/movies/" title="MORE MOVIES" style="display: block; float: right; margin: 3px 0 -6px 0; font-size: 10px; font-weight: bold;">MORE MOVIES &raquo;</a><div class="divider"></div><div class="bucket_subtitle">VIDEO GAMES</div><div class="updated_image_block" style="margin-right: 10px;"><a class="updated_image" href="http://www.behindthevoiceactors.com/video-games/Bulletstorm/" title="Bulletstorm"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/games/thumbs/game_1217_thumb.jpg" alt="Bulletstorm" /></a><a class="newest" href="http://www.behindthevoiceactors.com/video-games/Bulletstorm/" title="Bulletstorm">Bulletstorm</a></div><div class="updated_image_block"><a class="updated_image" href="http://www.behindthevoiceactors.com/video-games/Surfs-Up/" title="Surf's Up"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/games/thumbs/game_2802_thumb.jpg" alt="Surf's Up" /></a><a class="newest" href="http://www.behindthevoiceactors.com/video-games/Surfs-Up/" title="Surf's Up">Surf's Up</a></div><div class="clear"></div><div class="updated_image_block" style="margin-right: 10px;"><a class="updated_image" href="http://www.behindthevoiceactors.com/video-games/Monsters-vs-Aliens-The-Game/" title="Monsters vs. Aliens The Game"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/games/thumbs/game_878_thumb.jpg" alt="Monsters vs. Aliens The Game" /></a><a class="newest" href="http://www.behindthevoiceactors.com/video-games/Monsters-vs-Aliens-The-Game/" title="Monsters vs. Aliens The Game">Monsters vs. Aliens The Game</a></div><div class="updated_image_block"><a class="updated_image" href="http://www.behindthevoiceactors.com/video-games/Hellboy-The-Science-of-Evil/" title="Hellboy: The Science of Evil"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/games/thumbs/game_1293_thumb.jpg" alt="Hellboy: The Science of Evil" /></a><a class="newest" href="http://www.behindthevoiceactors.com/video-games/Hellboy-The-Science-of-Evil/" title="Hellboy: The Science of Evil">Hellboy: The Science of Evil</a></div><div class="clear"></div><div class="updated_image_block" style="margin-right: 10px;"><a class="updated_image" href="http://www.behindthevoiceactors.com/video-games/Shadow-Complex/" title="Shadow Complex"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/games/thumbs/game_1344_thumb.jpg" alt="Shadow Complex" /></a><a class="newest" href="http://www.behindthevoiceactors.com/video-games/Shadow-Complex/" title="Shadow Complex">Shadow Complex</a></div><div class="updated_image_block"><a class="updated_image" href="http://www.behindthevoiceactors.com/video-games/Singularity/" title="Singularity"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/games/thumbs/game_1196_thumb.jpg" alt="Singularity" /></a><a class="newest" href="http://www.behindthevoiceactors.com/video-games/Singularity/" title="Singularity">Singularity</a></div><div class="clear"></div><a class="orange" href="http://www.behindthevoiceactors.com/video-games/" title="MORE VIDEO GAMES" style="display: block; float: right; margin: 3px 0 -6px 0; font-size: 10px; font-weight: bold;">MORE VIDEO GAMES &raquo;</a><div class="divider"></div><div class="bucket_subtitle">SHORTS</div><div class="updated_image_block" style="margin-right: 10px;"><a class="updated_image" href="http://www.behindthevoiceactors.com/shorts/Miss-Kobayashis-Dragon-Something/" title="Miss Kobayashi's Dragon Something"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shorts/thumbs/short_468_thumb.jpg" alt="Miss Kobayashi's Dragon Something" /></a><a class="newest" href="http://www.behindthevoiceactors.com/shorts/Miss-Kobayashis-Dragon-Something/" title="Miss Kobayashi's Dragon Something">Miss Kobayashi's Dragon Something</a></div><div class="updated_image_block"><a class="updated_image" href="http://www.behindthevoiceactors.com/shorts/Hanazuki-Full-of-Treasure/" title="Hanazuki: Full of Treasures"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shorts/thumbs/short_467_thumb.jpg" alt="Hanazuki: Full of Treasures" /></a><a class="newest" href="http://www.behindthevoiceactors.com/shorts/Hanazuki-Full-of-Treasure/" title="Hanazuki: Full of Treasures">Hanazuki: Full of Treasures</a></div><div class="clear"></div><div class="updated_image_block" style="margin-right: 10px;"><a class="updated_image" href="http://www.behindthevoiceactors.com/shorts/Gregory-Horror-Show/" title="Gregory Horror Show"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shorts/thumbs/short_421_thumb.jpg" alt="Gregory Horror Show" /></a><a class="newest" href="http://www.behindthevoiceactors.com/shorts/Gregory-Horror-Show/" title="Gregory Horror Show">Gregory Horror Show</a></div><div class="updated_image_block"><a class="updated_image" href="http://www.behindthevoiceactors.com/shorts/DC-Super-Friends/" title="DC Super Friends"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shorts/thumbs/short_369_thumb.jpg" alt="DC Super Friends" /></a><a class="newest" href="http://www.behindthevoiceactors.com/shorts/DC-Super-Friends/" title="DC Super Friends">DC Super Friends</a></div><div class="clear"></div><a class="orange" href="http://www.behindthevoiceactors.com/shorts/" title="MORE SHORTS" style="display: block; float: right; margin: 3px 0 -6px 0; font-size: 10px; font-weight: bold;">MORE SHORTS &raquo;</a><div class="divider"></div><div class="bucket_subtitle">COMMERCIALS</div><div class="updated_image_block" style="margin-right: 10px;"><a class="updated_image" href="http://www.behindthevoiceactors.com/commercials/Streets/" title="Streets"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/commercials/thumbs/commercial_186_thumb.jpg" alt="Streets" /></a><a class="newest" href="http://www.behindthevoiceactors.com/commercials/Streets/" title="Streets">Streets</a></div><div class="updated_image_block"><a class="updated_image" href="http://www.behindthevoiceactors.com/commercials/Champale/" title="Champale"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/commercials/thumbs/commercial_185_thumb.jpg" alt="Champale" /></a><a class="newest" href="http://www.behindthevoiceactors.com/commercials/Champale/" title="Champale">Champale</a></div><div class="clear"></div><a class="orange" href="http://www.behindthevoiceactors.com/commercials/" title="MORE COMMERCIALS" style="display: block; float: right; margin: 3px 0 -6px 0; font-size: 10px; font-weight: bold;">MORE COMMERCIALS &raquo;</a><div class="divider"></div>	</div>
+</div></div>
+
+<div id="content_home_center">
+		<div style="width: 412px; font-size: 11px; line-height: 13px; padding: 1px 10px 10px 10px;">
+		<div class="bg_bucket_title_onwhite" style="margin: 9px 0 10px 0;"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/title_latest_news.png" alt="Latest News" /></div>
+<div class="latest_news">
+			<a class="latest_news_heading"  href="http://www.behindthevoiceactors.com/news/Netflix-2018-Announcements/" title="Netflix 2018 Announcements">Netflix 2018 Announcements</a><a class="thin_img" href="http://www.behindthevoiceactors.com/news/Netflix-2018-Announcements/" title="Netflix 2018 Announcements" style="width: 120px;"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1041_thumb.jpg" alt="Netflix 2018 Announcements" style="width: 120px;" /></a><div class="img_left_text_right" style="width: 263px;">
+				<p>Netflix reveals a number of series that will be featured in 2018.</p><div style="font-size: 10px;">
+					<span style="color: #AAA;">Wednesday December 13th, 2017</span><br /><a href="http://www.behindthevoiceactors.com/news/Netflix-2018-Announcements/#comments" style="font-size: 10px; font-weight: bold;">25 Comments</a>, <a href="http://www.behindthevoiceactors.com/news/Netflix-2018-Announcements/#add_comment" style="font-size: 10px; font-weight: normal;">Add Comment</a></div>
+			</div>
+		</div>
+		<div class="divider"></div><div class="latest_news">
+			<a class="latest_news_heading"  href="http://www.behindthevoiceactors.com/news/Ni-no-Kuni-II-Japanese-VO-Cast/" title="Ni no Kuni II: Japanese VO Cast">Ni no Kuni II: Japanese VO Cast</a><a class="thin_img" href="http://www.behindthevoiceactors.com/news/Ni-no-Kuni-II-Japanese-VO-Cast/" title="Ni no Kuni II: Japanese VO Cast" style="width: 120px;"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1040_thumb.jpg" alt="Ni no Kuni II: Japanese VO Cast" style="width: 120px;" /></a><div class="img_left_text_right" style="width: 263px;">
+				<p>A Ghibli movie come to life will arrive on PS4 and PC this March.</p><div style="font-size: 10px;">
+					<span style="color: #AAA;">Tuesday December 12th, 2017</span><br /><a href="http://www.behindthevoiceactors.com/news/Ni-no-Kuni-II-Japanese-VO-Cast/#comments" style="font-size: 10px; font-weight: bold;">3 Comments</a>, <a href="http://www.behindthevoiceactors.com/news/Ni-no-Kuni-II-Japanese-VO-Cast/#add_comment" style="font-size: 10px; font-weight: normal;">Add Comment</a></div>
+			</div>
+		</div>
+		<div class="divider"></div><div class="latest_news">
+			<a class="latest_news_heading"  href="http://www.behindthevoiceactors.com/news/Spider-Man-Into-the-Spider-Verse-Trailer/" title="Spider-Man: Into the Spider-Verse Trailer">Spider-Man: Into the Spider-Verse Trailer</a><a class="thin_img" href="http://www.behindthevoiceactors.com/news/Spider-Man-Into-the-Spider-Verse-Trailer/" title="Spider-Man: Into the Spider-Verse Trailer" style="width: 120px;"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1039_thumb.jpg" alt="Spider-Man: Into the Spider-Verse Trailer" style="width: 120px;" /></a><div class="img_left_text_right" style="width: 263px;">
+				<p>Miles Morales gets his own CGI film, hitting theatres next December.</p><div style="font-size: 10px;">
+					<span style="color: #AAA;">Tuesday December 12th, 2017</span><br /><a href="http://www.behindthevoiceactors.com/news/Spider-Man-Into-the-Spider-Verse-Trailer/#comments" style="font-size: 10px; font-weight: bold;">3 Comments</a>, <a href="http://www.behindthevoiceactors.com/news/Spider-Man-Into-the-Spider-Verse-Trailer/#add_comment" style="font-size: 10px; font-weight: normal;">Add Comment</a></div>
+			</div>
+		</div>
+		<div class="divider"></div><div class="latest_news">
+			<a class="latest_news_heading"  href="http://www.behindthevoiceactors.com/news/PSX-2017-Uncharted-and-Last-of-Us-Cast-Panels/" title="PSX 2017: Uncharted and Last of Us Cast Panels">PSX 2017: Uncharted and Last of Us Cast Panels</a><a class="thin_img" href="http://www.behindthevoiceactors.com/news/PSX-2017-Uncharted-and-Last-of-Us-Cast-Panels/" title="PSX 2017: Uncharted and Last of Us Cast Panels" style="width: 120px;"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1038_thumb.jpg" alt="PSX 2017: Uncharted and Last of Us Cast Panels" style="width: 120px;" /></a><div class="img_left_text_right" style="width: 263px;">
+				<p>Troy Baker and Ashley Johnson sing, while Nolan North and Emily Rose show their audition tapes.</p><div style="font-size: 10px;">
+					<span style="color: #AAA;">Tuesday December 12th, 2017</span><br /><a href="http://www.behindthevoiceactors.com/news/PSX-2017-Uncharted-and-Last-of-Us-Cast-Panels/#comments" style="font-size: 10px; font-weight: bold;">1 Comments</a>, <a href="http://www.behindthevoiceactors.com/news/PSX-2017-Uncharted-and-Last-of-Us-Cast-Panels/#add_comment" style="font-size: 10px; font-weight: normal;">Add Comment</a></div>
+			</div>
+		</div>
+		<div class="divider"></div><div class="latest_news">
+			<a class="latest_news_heading"  href="http://www.behindthevoiceactors.com/news/Ryan-Reynolds-is-Detective-Pikachu/" title="Ryan Reynolds is Detective Pikachu">Ryan Reynolds is Detective Pikachu</a><a class="thin_img" href="http://www.behindthevoiceactors.com/news/Ryan-Reynolds-is-Detective-Pikachu/" title="Ryan Reynolds is Detective Pikachu" style="width: 120px;"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1037_thumb.jpg" alt="Ryan Reynolds is Detective Pikachu" style="width: 120px;" /></a><div class="img_left_text_right" style="width: 263px;">
+				<p>He will provide vocal and motion capture duties in this theatrical adaptation of the Detective Pikachu spinoff.</p><div style="font-size: 10px;">
+					<span style="color: #AAA;">Tuesday December 12th, 2017</span><br /><a href="http://www.behindthevoiceactors.com/news/Ryan-Reynolds-is-Detective-Pikachu/#comments" style="font-size: 10px; font-weight: bold;">10 Comments</a>, <a href="http://www.behindthevoiceactors.com/news/Ryan-Reynolds-is-Detective-Pikachu/#add_comment" style="font-size: 10px; font-weight: normal;">Add Comment</a></div>
+			</div>
+		</div>
+		<div class="divider"></div><div class="latest_news">
+			<a class="latest_news_heading"  href="http://www.behindthevoiceactors.com/news/Xenoblade-Chronicles-2-Launch-Trailer/" title="Xenoblade Chronicles 2 Launch Trailer">Xenoblade Chronicles 2 Launch Trailer</a><a class="thin_img" href="http://www.behindthevoiceactors.com/news/Xenoblade-Chronicles-2-Launch-Trailer/" title="Xenoblade Chronicles 2 Launch Trailer" style="width: 120px;"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1036_thumb.jpg" alt="Xenoblade Chronicles 2 Launch Trailer" style="width: 120px;" /></a><div class="img_left_text_right" style="width: 263px;">
+				<p>Nintendo wrap up the Switch's 2017 lineup with a newly-dubbed English trailer, and a Japanese story trailer.</p><div style="font-size: 10px;">
+					<span style="color: #AAA;">Monday November 27th, 2017</span><br /><a href="http://www.behindthevoiceactors.com/news/Xenoblade-Chronicles-2-Launch-Trailer/#add_comment" style="font-size: 10px; font-weight: normal;">Add Comment</a></div>
+			</div>
+		</div>
+		<div class="divider"></div><div class="latest_news">
+			<a class="latest_news_heading"  href="http://www.behindthevoiceactors.com/news/PRI-The-Fight-to-Belong-in-Hollywood/" title="PRI: The Fight to Belong in Hollywood">PRI: The Fight to Belong in Hollywood</a><a class="thin_img" href="http://www.behindthevoiceactors.com/news/PRI-The-Fight-to-Belong-in-Hollywood/" title="PRI: The Fight to Belong in Hollywood" style="width: 120px;"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1034_thumb.jpg" alt="PRI: The Fight to Belong in Hollywood" style="width: 120px;" /></a><div class="img_left_text_right" style="width: 263px;">
+				<p>Rupa Shenoy has interviewed VA GK Bowes, and the producers of Moana, about the challenge of ensuring authentic voiceover</p><div style="font-size: 10px;">
+					<span style="color: #AAA;">Monday November 20th, 2017</span><br /><a href="http://www.behindthevoiceactors.com/news/PRI-The-Fight-to-Belong-in-Hollywood/#comments" style="font-size: 10px; font-weight: bold;">4 Comments</a>, <a href="http://www.behindthevoiceactors.com/news/PRI-The-Fight-to-Belong-in-Hollywood/#add_comment" style="font-size: 10px; font-weight: normal;">Add Comment</a></div>
+			</div>
+		</div>
+		<div class="divider"></div><div class="latest_news">
+			<a class="latest_news_heading"  href="http://www.behindthevoiceactors.com/news/The-Incredibles-2-First-Teaser/" title="The Incredibles 2 First Teaser">The Incredibles 2 First Teaser</a><a class="thin_img" href="http://www.behindthevoiceactors.com/news/The-Incredibles-2-First-Teaser/" title="The Incredibles 2 First Teaser" style="width: 120px;"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1033_thumb.jpg" alt="The Incredibles 2 First Teaser" style="width: 120px;" /></a><div class="img_left_text_right" style="width: 263px;">
+				<p>Bob Odenkirk and Catherine Keener also added to the cast</p><div style="font-size: 10px;">
+					<span style="color: #AAA;">Monday November 20th, 2017</span><br /><a href="http://www.behindthevoiceactors.com/news/The-Incredibles-2-First-Teaser/#comments" style="font-size: 10px; font-weight: bold;">11 Comments</a>, <a href="http://www.behindthevoiceactors.com/news/The-Incredibles-2-First-Teaser/#add_comment" style="font-size: 10px; font-weight: normal;">Add Comment</a></div>
+			</div>
+		</div>
+		<div class="divider"></div><div class="latest_news">
+			<a class="latest_news_heading"  href="http://www.behindthevoiceactors.com/news/Valkyria-Chronicles-4-Announced/" title="Valkyria Chronicles 4 Announced">Valkyria Chronicles 4 Announced</a><a class="thin_img" href="http://www.behindthevoiceactors.com/news/Valkyria-Chronicles-4-Announced/" title="Valkyria Chronicles 4 Announced" style="width: 120px;"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1032_thumb.jpg" alt="Valkyria Chronicles 4 Announced" style="width: 120px;" /></a><div class="img_left_text_right" style="width: 263px;">
+				<p>After almost a decade's absence, Sega's cult strategy RPG series is back.</p><div style="font-size: 10px;">
+					<span style="color: #AAA;">Monday November 20th, 2017</span><br /><a href="http://www.behindthevoiceactors.com/news/Valkyria-Chronicles-4-Announced/#comments" style="font-size: 10px; font-weight: bold;">7 Comments</a>, <a href="http://www.behindthevoiceactors.com/news/Valkyria-Chronicles-4-Announced/#add_comment" style="font-size: 10px; font-weight: normal;">Add Comment</a></div>
+			</div>
+		</div>
+		<div class="divider"></div><div class="latest_news">
+			<a class="latest_news_heading"  href="http://www.behindthevoiceactors.com/news/Rise-of-the-Teenage-Mutant-Ninja-Turtles-Voice-Cast/" title="Rise of the Teenage Mutant Ninja Turtles Voice Cast">Rise of the Teenage Mutant Ninja Turtles Voice Cast</a><a class="thin_img" href="http://www.behindthevoiceactors.com/news/Rise-of-the-Teenage-Mutant-Ninja-Turtles-Voice-Cast/" title="Rise of the Teenage Mutant Ninja Turtles Voice Cast" style="width: 120px;"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1031_thumb.jpg" alt="Rise of the Teenage Mutant Ninja Turtles Voice Cast" style="width: 120px;" /></a><div class="img_left_text_right" style="width: 263px;">
+				<p>Dawn of the Rise of the Planet of the Teenage Tomb Raider Apes Origins: Revelations</p><div style="font-size: 10px;">
+					<span style="color: #AAA;">Thursday November 2nd, 2017</span><br /><a href="http://www.behindthevoiceactors.com/news/Rise-of-the-Teenage-Mutant-Ninja-Turtles-Voice-Cast/#comments" style="font-size: 10px; font-weight: bold;">24 Comments</a>, <a href="http://www.behindthevoiceactors.com/news/Rise-of-the-Teenage-Mutant-Ninja-Turtles-Voice-Cast/#add_comment" style="font-size: 10px; font-weight: normal;">Add Comment</a></div>
+			</div>
+		</div>
+		<div class="divider"></div><div class="latest_news">
+			<a class="latest_news_heading"  href="http://www.behindthevoiceactors.com/news/The-Lion-King-Live-Action-Cast-Announced/" title="The Lion King Live-Action Cast Announced">The Lion King Live-Action Cast Announced</a><a class="thin_img" href="http://www.behindthevoiceactors.com/news/The-Lion-King-Live-Action-Cast-Announced/" title="The Lion King Live-Action Cast Announced" style="width: 120px;"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1030_thumb.jpg" alt="The Lion King Live-Action Cast Announced" style="width: 120px;" /></a><div class="img_left_text_right" style="width: 263px;">
+				<p>Well, CGI characters on live-action backgrounds to be exact.</p><div style="font-size: 10px;">
+					<span style="color: #AAA;">Wednesday November 1st, 2017</span><br /><a href="http://www.behindthevoiceactors.com/news/The-Lion-King-Live-Action-Cast-Announced/#comments" style="font-size: 10px; font-weight: bold;">45 Comments</a>, <a href="http://www.behindthevoiceactors.com/news/The-Lion-King-Live-Action-Cast-Announced/#add_comment" style="font-size: 10px; font-weight: normal;">Add Comment</a></div>
+			</div>
+		</div>
+		<div class="divider"></div><div class="latest_news">
+			<a class="latest_news_heading"  href="http://www.behindthevoiceactors.com/news/SAG-AFTRA-Game-Strike-Draws-to-a-Tentative-Close/" title="SAG-AFTRA Game Strike Draws to a Tentative Close">SAG-AFTRA Game Strike Draws to a Tentative Close</a><a class="thin_img" href="http://www.behindthevoiceactors.com/news/SAG-AFTRA-Game-Strike-Draws-to-a-Tentative-Close/" title="SAG-AFTRA Game Strike Draws to a Tentative Close" style="width: 120px;"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1029_thumb.jpg" alt="SAG-AFTRA Game Strike Draws to a Tentative Close" style="width: 120px;" /></a><div class="img_left_text_right" style="width: 263px;">
+				<p>Though residuals could not be negotiated, bonus payments and greater transparency have been.</p><div style="font-size: 10px;">
+					<span style="color: #AAA;">Monday September 25th, 2017</span><br /><a href="http://www.behindthevoiceactors.com/news/SAG-AFTRA-Game-Strike-Draws-to-a-Tentative-Close/#comments" style="font-size: 10px; font-weight: bold;">12 Comments</a>, <a href="http://www.behindthevoiceactors.com/news/SAG-AFTRA-Game-Strike-Draws-to-a-Tentative-Close/#add_comment" style="font-size: 10px; font-weight: normal;">Add Comment</a></div>
+			</div>
+		</div>
+		<div class="divider"></div><div class="latest_news">
+			<a class="latest_news_heading"  href="http://www.behindthevoiceactors.com/news/Bryce-Papenbrook-and-David-Vincent-Present-Unlocked/" title="Bryce Papenbrook and David Vincent Present - Unlocked">Bryce Papenbrook and David Vincent Present - Unlocked</a><a class="thin_img" href="http://www.behindthevoiceactors.com/news/Bryce-Papenbrook-and-David-Vincent-Present-Unlocked/" title="Bryce Papenbrook and David Vincent Present - Unlocked" style="width: 120px;"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1028_thumb.jpg" alt="Bryce Papenbrook and David Vincent Present - Unlocked" style="width: 120px;" /></a><div class="img_left_text_right" style="width: 263px;">
+				<p>A new social platform for mobile phones and computers, allowing fans and voice actors to interact and engage.</p><div style="font-size: 10px;">
+					<span style="color: #AAA;">Friday September 22nd, 2017</span><br /><a href="http://www.behindthevoiceactors.com/news/Bryce-Papenbrook-and-David-Vincent-Present-Unlocked/#comments" style="font-size: 10px; font-weight: bold;">19 Comments</a>, <a href="http://www.behindthevoiceactors.com/news/Bryce-Papenbrook-and-David-Vincent-Present-Unlocked/#add_comment" style="font-size: 10px; font-weight: normal;">Add Comment</a></div>
+			</div>
+		</div>
+		<div class="divider"></div><div class="latest_news">
+			<a class="latest_news_heading"  href="http://www.behindthevoiceactors.com/news/First-Trailer-for-The-Magic-School-Bus-Rides-Again/" title="First Trailer for The Magic School Bus Rides Again">First Trailer for The Magic School Bus Rides Again</a><a class="thin_img" href="http://www.behindthevoiceactors.com/news/First-Trailer-for-The-Magic-School-Bus-Rides-Again/" title="First Trailer for The Magic School Bus Rides Again" style="width: 120px;"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1027_thumb.jpg" alt="First Trailer for The Magic School Bus Rides Again" style="width: 120px;" /></a><div class="img_left_text_right" style="width: 263px;">
+				<p>Class is in session on September 29, when the rebooted series premieres on Netflix.</p><div style="font-size: 10px;">
+					<span style="color: #AAA;">Wednesday September 6th, 2017</span><br /><a href="http://www.behindthevoiceactors.com/news/First-Trailer-for-The-Magic-School-Bus-Rides-Again/#comments" style="font-size: 10px; font-weight: bold;">28 Comments</a>, <a href="http://www.behindthevoiceactors.com/news/First-Trailer-for-The-Magic-School-Bus-Rides-Again/#add_comment" style="font-size: 10px; font-weight: normal;">Add Comment</a></div>
+			</div>
+		</div>
+		<div class="divider"></div><div class="latest_news">
+			<a class="latest_news_heading"  href="http://www.behindthevoiceactors.com/news/Travis-Strikes-Again-Without-Robin-Atkin-Downes/" title="Travis Strikes Again... Without Robin Atkin Downes">Travis Strikes Again... Without Robin Atkin Downes</a><a class="thin_img" href="http://www.behindthevoiceactors.com/news/Travis-Strikes-Again-Without-Robin-Atkin-Downes/" title="Travis Strikes Again... Without Robin Atkin Downes" style="width: 120px;"><img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/news/1026_thumb.jpg" alt="Travis Strikes Again... Without Robin Atkin Downes" style="width: 120px;" /></a><div class="img_left_text_right" style="width: 263px;">
+				<p>The cult classic Wii game, No More Heroes, will return next year, but Travis Touchdown will sound a bit different.</p><div style="font-size: 10px;">
+					<span style="color: #AAA;">Wednesday September 6th, 2017</span><br /><a href="http://www.behindthevoiceactors.com/news/Travis-Strikes-Again-Without-Robin-Atkin-Downes/#comments" style="font-size: 10px; font-weight: bold;">9 Comments</a>, <a href="http://www.behindthevoiceactors.com/news/Travis-Strikes-Again-Without-Robin-Atkin-Downes/#add_comment" style="font-size: 10px; font-weight: normal;">Add Comment</a></div>
+			</div>
+		</div>
+		<div class="divider"></div><a class="orange" href="http://www.behindthevoiceactors.com/news/" title="CHECK OUT ALL THE NEWS" style="display: block; float: right; margin-top: -5px; font-size: 10px; font-weight: bold;">CHECK OUT MORE NEWS &raquo;</a>
+<div class="clear"></div><div class="bucket_onwhite">
+	<div class="bg_bucket_title_onwhite"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/title_newest_additions.png" alt="Newest Additions" /></div>
+	<script type="text/javascript">
+	$(function() {
+		$('.switch').click(function() {
+			var medium_block = $(this).attr('rel');
+			$('.newest_block, .newest_link, .newest_image').hide();
+			$('#'+medium_block+' .newest_link').show();
+			$('#'+medium_block+' .newest_link .newest_image').show();
+			$('#'+medium_block).fadeIn();
+		});
+	});
+	</script>
+	<div id="newest_additions">
+		<a class="switch" rel="newest_actors" href="javascript:;">Actors</a> |
+		<a class="switch" rel="newest_shows" href="javascript:;">TV Shows</a> |
+		<a class="switch" rel="newest_movies" href="javascript:;">Movies</a> |
+		<a class="switch" rel="newest_games" href="javascript:;">Games</a> |
+		<a class="switch" rel="newest_shorts" href="javascript:;">Shorts</a> |
+		<a class="switch" rel="newest_commercials" href="javascript:;">Commercials</a>
+		<div style="margin-top: 4px;">
+		<div id="newest_actors" class="newest_block" style="display: block;"><div class="credit_pics_wide"><div class="credit_pics_container"><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/Miles-Koseleci-Vieira/" title="Miles Koseleci-Vieira"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/miles-koseleci-vieira-6.88_thumb.jpg" alt="Miles Koseleci-Vieira" /></a><a class="newest" href="http://www.behindthevoiceactors.com/Miles-Koseleci-Vieira/" title="Miles Koseleci-Vieira">Miles Koseleci-Vieira</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/Gabby-Clarke/" title="Gabby Clarke"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/gabby-clarke-32.3_thumb.jpg" alt="Gabby Clarke" /></a><a class="newest" href="http://www.behindthevoiceactors.com/Gabby-Clarke/" title="Gabby Clarke">Gabby Clarke</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/Leke-Maceda-Rustecki/" title="Leke Maceda-Rustecki"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/leke-maceda-rustecki-48.9_thumb.jpg" alt="Leke Maceda-Rustecki" /></a><a class="newest" href="http://www.behindthevoiceactors.com/Leke-Maceda-Rustecki/" title="Leke Maceda-Rustecki">Leke Maceda-Rustecki</a></div><div class="newaddition_image_block" style="margin-right: 0;"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/Lynsey-Pham/" title="Lynsey Pham"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/lynsey-pham-53.1_thumb.jpg" alt="Lynsey Pham" /></a><a class="newest" href="http://www.behindthevoiceactors.com/Lynsey-Pham/" title="Lynsey Pham">Lynsey Pham</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/Matthew-Mintz/" title="Matthew Mintz"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/matthew-mintz-86_thumb.jpg" alt="Matthew Mintz" /></a><a class="newest" href="http://www.behindthevoiceactors.com/Matthew-Mintz/" title="Matthew Mintz">Matthew Mintz</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/Lilly-Bartlam/" title="Lilly Bartlam"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/lilly-bartlam-53.2_thumb.jpg" alt="Lilly Bartlam" /></a><a class="newest" href="http://www.behindthevoiceactors.com/Lilly-Bartlam/" title="Lilly Bartlam">Lilly Bartlam</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/Mae-C-Jemison/" title="Mae C Jemison"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/mae-c-jemison-97.8_thumb.jpg" alt="Mae C Jemison" /></a><a class="newest" href="http://www.behindthevoiceactors.com/Mae-C-Jemison/" title="Mae C Jemison">Mae C Jemison</a></div><div class="newaddition_image_block" style="margin-right: 0;"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/Kaden-Stephen/" title="Kaden Stephen"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/kaden-stephen-8.46_thumb.jpg" alt="Kaden Stephen" /></a><a class="newest" href="http://www.behindthevoiceactors.com/Kaden-Stephen/" title="Kaden Stephen">Kaden Stephen</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/Birva-Pandya/" title="Birva Pandya"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/birva-pandya-2.28_thumb.jpg" alt="Birva Pandya" /></a><a class="newest" href="http://www.behindthevoiceactors.com/Birva-Pandya/" title="Birva Pandya">Birva Pandya</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/Mikaela-Blake/" title="Mikaela Blake"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/mikaela-blake-94.3_thumb.jpg" alt="Mikaela Blake" /></a><a class="newest" href="http://www.behindthevoiceactors.com/Mikaela-Blake/" title="Mikaela Blake">Mikaela Blake</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/Annelise-Forbes/" title="Annelise Forbes"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/annelise-forbes-58.9_thumb.jpg" alt="Annelise Forbes" /></a><a class="newest" href="http://www.behindthevoiceactors.com/Annelise-Forbes/" title="Annelise Forbes">Annelise Forbes</a></div><div class="newaddition_image_block" style="margin-right: 0;"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/Joe-Daniels/" title="Joe Daniels"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/joe-daniels-1.31_thumb.jpg" alt="Joe Daniels" /></a><a class="newest" href="http://www.behindthevoiceactors.com/Joe-Daniels/" title="Joe Daniels">Joe Daniels</a></div><div class="clear"></div></div></div></div><div id="newest_shows" class="newest_block" style="display: none;"><div class="credit_pics_wide"><div class="credit_pics_container"><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/tv-shows/Americas-Got-Talent/" title="America's Got Talent"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shows/thumbs/series_3914_thumb.jpg" alt="America's Got Talent" /></a><a class="newest" href="http://www.behindthevoiceactors.com/tv-shows/Americas-Got-Talent/" title="America's Got Talent">America's Got Talent</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/tv-shows/Cardcaptor-Sakura-Clear-Card/" title="Cardcaptor Sakura: Clear Card"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shows/thumbs/series_3913_thumb.jpg" alt="Cardcaptor Sakura: Clear Card" /></a><a class="newest" href="http://www.behindthevoiceactors.com/tv-shows/Cardcaptor-Sakura-Clear-Card/" title="Cardcaptor Sakura: Clear Card">Cardcaptor Sakura: Clear Card</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/tv-shows/Cardcaptor-Sakura-Clear-Card-Prologue/" title="Cardcaptor Sakura: Clear Card Prologue"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shows/thumbs/series_3912_thumb.jpg" alt="Cardcaptor Sakura: Clear Card Prologue" /></a><a class="newest" href="http://www.behindthevoiceactors.com/tv-shows/Cardcaptor-Sakura-Clear-Card-Prologue/" title="Cardcaptor Sakura: Clear Card Prologue">Cardcaptor Sakura: Clear Card Prologue</a></div><div class="newaddition_image_block" style="margin-right: 0;"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/tv-shows/Mickeys-50/" title="Mickey's 50"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shows/thumbs/series_3910_thumb.jpg" alt="Mickey's 50" /></a><a class="newest" href="http://www.behindthevoiceactors.com/tv-shows/Mickeys-50/" title="Mickey's 50">Mickey's 50</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/tv-shows/The-Butter-Battle-Book/" title="The Butter Battle Book"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shows/thumbs/series_3909_thumb.jpg" alt="The Butter Battle Book" /></a><a class="newest" href="http://www.behindthevoiceactors.com/tv-shows/The-Butter-Battle-Book/" title="The Butter Battle Book">The Butter Battle Book</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/tv-shows/Bugs-Bunnys-Lunar-Tunes/" title="Bugs Bunny's Lunar Tunes"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shows/thumbs/series_3908_thumb.jpg" alt="Bugs Bunny's Lunar Tunes" /></a><a class="newest" href="http://www.behindthevoiceactors.com/tv-shows/Bugs-Bunnys-Lunar-Tunes/" title="Bugs Bunny's Lunar Tunes">Bugs Bunny's Lunar Tunes</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/tv-shows/The-Garry-Shandling-Show-25th-Anniversary-Special/" title="The Garry Shandling Show: 25th Anniversary Special"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shows/thumbs/series_3907_thumb.jpg" alt="The Garry Shandling Show: 25th Anniversary Special" /></a><a class="newest" href="http://www.behindthevoiceactors.com/tv-shows/The-Garry-Shandling-Show-25th-Anniversary-Special/" title="The Garry Shandling Show: 25th Anniversary Special">The Garry Shandling Show: 25th Anniversary Special</a></div><div class="newaddition_image_block" style="margin-right: 0;"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/tv-shows/Pontoffel-Pock-Where-Are-You/" title="Pontoffel Pock, Where Are You?"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shows/thumbs/series_3906_thumb.jpg" alt="Pontoffel Pock, Where Are You?" /></a><a class="newest" href="http://www.behindthevoiceactors.com/tv-shows/Pontoffel-Pock-Where-Are-You/" title="Pontoffel Pock, Where Are You?">Pontoffel Pock, Where Are You?</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/tv-shows/Groove-High/" title="Groove High"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shows/thumbs/series_3905_thumb.jpg" alt="Groove High" /></a><a class="newest" href="http://www.behindthevoiceactors.com/tv-shows/Groove-High/" title="Groove High">Groove High</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/tv-shows/Attack-on-Titan-Lost-Girls/" title="Attack on Titan: Lost Girls"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shows/thumbs/series_3904_thumb.jpg" alt="Attack on Titan: Lost Girls" /></a><a class="newest" href="http://www.behindthevoiceactors.com/tv-shows/Attack-on-Titan-Lost-Girls/" title="Attack on Titan: Lost Girls">Attack on Titan: Lost Girls</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/tv-shows/3-Amigonauts/" title="3 Amigonauts"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shows/thumbs/series_3903_thumb.jpg" alt="3 Amigonauts" /></a><a class="newest" href="http://www.behindthevoiceactors.com/tv-shows/3-Amigonauts/" title="3 Amigonauts">3 Amigonauts</a></div><div class="newaddition_image_block" style="margin-right: 0;"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/tv-shows/Rolling-with-the-Ronks/" title="Rolling with the Ronks!"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shows/thumbs/series_3902_thumb.jpg" alt="Rolling with the Ronks!" /></a><a class="newest" href="http://www.behindthevoiceactors.com/tv-shows/Rolling-with-the-Ronks/" title="Rolling with the Ronks!">Rolling with the Ronks!</a></div><div class="clear"></div></div></div></div><div id="newest_movies" class="newest_block" style="display: none;"><div class="credit_pics_wide"><div class="credit_pics_container"><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/movies/Regression/" title="Regression"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/movies/thumbs/movie_2452_thumb.jpg" alt="Regression" /></a><a class="newest" href="http://www.behindthevoiceactors.com/movies/Regression/" title="Regression">Regression</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/movies/Hedgehogs/" title="Hedgehogs"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/movies/thumbs/movie_2449_thumb.jpg" alt="Hedgehogs" /></a><a class="newest" href="http://www.behindthevoiceactors.com/movies/Hedgehogs/" title="Hedgehogs">Hedgehogs</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/movies/Deep/" title="Deep"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/movies/thumbs/movie_2439_thumb.jpg" alt="Deep" /></a><a class="newest" href="http://www.behindthevoiceactors.com/movies/Deep/" title="Deep">Deep</a></div><div class="newaddition_image_block" style="margin-right: 0;"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/movies/Scooby-Doo-and-Batman-The-Brave-and-the-Bold/" title="Scooby-Doo! and Batman: The Brave and the Bold"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/movies/thumbs/movie_2437_thumb.jpg" alt="Scooby-Doo! and Batman: The Brave and the Bold" /></a><a class="newest" href="http://www.behindthevoiceactors.com/movies/Scooby-Doo-and-Batman-The-Brave-and-the-Bold/" title="Scooby-Doo! and Batman: The Brave and the Bold">Scooby-Doo! and Batman: The Brave and the Bold</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/movies/Pup-Star-Better-2Gether/" title="Pup Star: Better 2Gether"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/movies/thumbs/movie_2435_thumb.jpg" alt="Pup Star: Better 2Gether" /></a><a class="newest" href="http://www.behindthevoiceactors.com/movies/Pup-Star-Better-2Gether/" title="Pup Star: Better 2Gether">Pup Star: Better 2Gether</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/movies/Tangled-Before-Ever-After/" title="Tangled: Before Ever After"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/movies/thumbs/movie_2434_thumb.jpg" alt="Tangled: Before Ever After" /></a><a class="newest" href="http://www.behindthevoiceactors.com/movies/Tangled-Before-Ever-After/" title="Tangled: Before Ever After">Tangled: Before Ever After</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/movies/Krampus/" title="Krampus"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/movies/thumbs/movie_2433_thumb.jpg" alt="Krampus" /></a><a class="newest" href="http://www.behindthevoiceactors.com/movies/Krampus/" title="Krampus">Krampus</a></div><div class="newaddition_image_block" style="margin-right: 0;"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/movies/Eric-Nagler-Generic-Holiday-Family-Music-Special-for-All-Seasons/" title="Eric Nagler Generic Holiday Family Music Special for All Seasons"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/movies/thumbs/movie_2432_thumb.jpg" alt="Eric Nagler Generic Holiday Family Music Special for All Seasons" /></a><a class="newest" href="http://www.behindthevoiceactors.com/movies/Eric-Nagler-Generic-Holiday-Family-Music-Special-for-All-Seasons/" title="Eric Nagler Generic Holiday Family Music Special for All Seasons">Eric Nagler Generic Holiday Family Music Special for All Seasons</a></div><div class="clear"></div></div></div></div><div id="newest_games" class="newest_block" style="display: none;"><div class="credit_pics_wide"><div class="credit_pics_container"><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/video-games/Sword-Art-Online-Fatal-Bullet/" title="Sword Art Online: Fatal Bullet"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/games/thumbs/game_3226_thumb.jpg" alt="Sword Art Online: Fatal Bullet" /></a><a class="newest" href="http://www.behindthevoiceactors.com/video-games/Sword-Art-Online-Fatal-Bullet/" title="Sword Art Online: Fatal Bullet">Sword Art Online: Fatal Bullet</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/video-games/Memories-Off-Innocent-Fille/" title="Memories Off: Innocent Fille"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/games/thumbs/game_3225_thumb.jpg" alt="Memories Off: Innocent Fille" /></a><a class="newest" href="http://www.behindthevoiceactors.com/video-games/Memories-Off-Innocent-Fille/" title="Memories Off: Innocent Fille">Memories Off: Innocent Fille</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/video-games/Dance-with-Devils-My-Carol/" title="Dance with Devils My Carol"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/games/thumbs/game_3224_thumb.jpg" alt="Dance with Devils My Carol" /></a><a class="newest" href="http://www.behindthevoiceactors.com/video-games/Dance-with-Devils-My-Carol/" title="Dance with Devils My Carol">Dance with Devils My Carol</a></div><div class="newaddition_image_block" style="margin-right: 0;"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/video-games/Death-end-reQuest/" title="Death end re;Quest"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/games/thumbs/game_3223_thumb.jpg" alt="Death end re;Quest" /></a><a class="newest" href="http://www.behindthevoiceactors.com/video-games/Death-end-reQuest/" title="Death end re;Quest">Death end re;Quest</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/video-games/Tokyo-Clanpool/" title="Tokyo Clanpool"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/games/thumbs/game_3222_thumb.jpg" alt="Tokyo Clanpool" /></a><a class="newest" href="http://www.behindthevoiceactors.com/video-games/Tokyo-Clanpool/" title="Tokyo Clanpool">Tokyo Clanpool</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/video-games/Exile-Election/" title="Exile Election"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/games/thumbs/game_3221_thumb.jpg" alt="Exile Election" /></a><a class="newest" href="http://www.behindthevoiceactors.com/video-games/Exile-Election/" title="Exile Election">Exile Election</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/video-games/Castle-Panzers/" title="Castle Panzers"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/games/thumbs/game_3220_thumb.jpg" alt="Castle Panzers" /></a><a class="newest" href="http://www.behindthevoiceactors.com/video-games/Castle-Panzers/" title="Castle Panzers">Castle Panzers</a></div><div class="newaddition_image_block" style="margin-right: 0;"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/video-games/ReZERO-Starting-Life-in-Another-World-Death-or-Kiss/" title="Re:ZERO -Starting Life in Another World- Death or Kiss"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/games/thumbs/game_3219_thumb.jpg" alt="Re:ZERO -Starting Life in Another World- Death or Kiss" /></a><a class="newest" href="http://www.behindthevoiceactors.com/video-games/ReZERO-Starting-Life-in-Another-World-Death-or-Kiss/" title="Re:ZERO -Starting Life in Another World- Death or Kiss">Re:ZERO -Starting Life in Another World- Death or Kiss</a></div><div class="clear"></div></div></div></div><div id="newest_shorts" class="newest_block" style="display: none;"><div class="credit_pics_wide"><div class="credit_pics_container"><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/shorts/Miss-Kobayashis-Dragon-Something/" title="Miss Kobayashi's Dragon Something"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shorts/thumbs/short_468_thumb.jpg" alt="Miss Kobayashi's Dragon Something" /></a><a class="newest" href="http://www.behindthevoiceactors.com/shorts/Miss-Kobayashis-Dragon-Something/" title="Miss Kobayashi's Dragon Something">Miss Kobayashi's Dragon Something</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/shorts/Hanazuki-Full-of-Treasure/" title="Hanazuki: Full of Treasures"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shorts/thumbs/short_467_thumb.jpg" alt="Hanazuki: Full of Treasures" /></a><a class="newest" href="http://www.behindthevoiceactors.com/shorts/Hanazuki-Full-of-Treasure/" title="Hanazuki: Full of Treasures">Hanazuki: Full of Treasures</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/shorts/Ben-10-2016/" title="Ben 10 (2016)"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shorts/thumbs/short_466_thumb.jpg" alt="Ben 10 (2016)" /></a><a class="newest" href="http://www.behindthevoiceactors.com/shorts/Ben-10-2016/" title="Ben 10 (2016)">Ben 10 (2016)</a></div><div class="newaddition_image_block" style="margin-right: 0;"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/shorts/Voltron-Legendary-Defender/" title="Voltron: Legendary Defender"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shorts/thumbs/short_464_thumb.jpg" alt="Voltron: Legendary Defender" /></a><a class="newest" href="http://www.behindthevoiceactors.com/shorts/Voltron-Legendary-Defender/" title="Voltron: Legendary Defender">Voltron: Legendary Defender</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/shorts/Villainous/" title="Villainous"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shorts/thumbs/short_463_thumb.jpg" alt="Villainous" /></a><a class="newest" href="http://www.behindthevoiceactors.com/shorts/Villainous/" title="Villainous">Villainous</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/shorts/Lego-Batman/" title="Lego Batman"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shorts/thumbs/short_462_thumb.jpg" alt="Lego Batman" /></a><a class="newest" href="http://www.behindthevoiceactors.com/shorts/Lego-Batman/" title="Lego Batman">Lego Batman</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/shorts/Chain-Chronicle/" title="Chain Chronicle"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shorts/thumbs/short_461_thumb.jpg" alt="Chain Chronicle" /></a><a class="newest" href="http://www.behindthevoiceactors.com/shorts/Chain-Chronicle/" title="Chain Chronicle">Chain Chronicle</a></div><div class="newaddition_image_block" style="margin-right: 0;"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/shorts/Keijo/" title="Keijo!!!!!!!!"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shorts/thumbs/short_459_thumb.jpg" alt="Keijo!!!!!!!!" /></a><a class="newest" href="http://www.behindthevoiceactors.com/shorts/Keijo/" title="Keijo!!!!!!!!">Keijo!!!!!!!!</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/shorts/Monthly-Girls-Nozaki-kun/" title="Monthly Girls' Nozaki-kun"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shorts/thumbs/short_457_thumb.jpg" alt="Monthly Girls' Nozaki-kun" /></a><a class="newest" href="http://www.behindthevoiceactors.com/shorts/Monthly-Girls-Nozaki-kun/" title="Monthly Girls' Nozaki-kun">Monthly Girls' Nozaki-kun</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/shorts/Barakamon/" title="Barakamon"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shorts/thumbs/short_456_thumb.jpg" alt="Barakamon" /></a><a class="newest" href="http://www.behindthevoiceactors.com/shorts/Barakamon/" title="Barakamon">Barakamon</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/shorts/Inari-Kon-Kon-Pub-Fox-Theater/" title="Inari Kon Kon: Pub Fox Theater"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shorts/thumbs/short_455_thumb.jpg" alt="Inari Kon Kon: Pub Fox Theater" /></a><a class="newest" href="http://www.behindthevoiceactors.com/shorts/Inari-Kon-Kon-Pub-Fox-Theater/" title="Inari Kon Kon: Pub Fox Theater">Inari Kon Kon: Pub Fox Theater</a></div><div class="newaddition_image_block" style="margin-right: 0;"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/shorts/Nyanyashiki/" title="Nyanyashiki"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/shorts/thumbs/short_454_thumb.jpg" alt="Nyanyashiki" /></a><a class="newest" href="http://www.behindthevoiceactors.com/shorts/Nyanyashiki/" title="Nyanyashiki">Nyanyashiki</a></div><div class="clear"></div></div></div></div><div id="newest_commercials" class="newest_block" style="display: none;"><div class="credit_pics_wide"><div class="credit_pics_container"><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/commercials/Streets/" title="Streets"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/commercials/thumbs/commercial_186_thumb.jpg" alt="Streets" /></a><a class="newest" href="http://www.behindthevoiceactors.com/commercials/Streets/" title="Streets">Streets</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/commercials/Champale/" title="Champale"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/commercials/thumbs/commercial_185_thumb.jpg" alt="Champale" /></a><a class="newest" href="http://www.behindthevoiceactors.com/commercials/Champale/" title="Champale">Champale</a></div><div class="newaddition_image_block"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/commercials/7-Up/" title="7-Up"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/commercials/thumbs/commercial_184_thumb.jpg" alt="7-Up" /></a><a class="newest" href="http://www.behindthevoiceactors.com/commercials/7-Up/" title="7-Up">7-Up</a></div><div class="newaddition_image_block" style="margin-right: 0;"><a class="newaddition_image" href="http://www.behindthevoiceactors.com/commercials/Mintia/" title="Mintia"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/commercials/thumbs/commercial_183_thumb.jpg" alt="Mintia" /></a><a class="newest" href="http://www.behindthevoiceactors.com/commercials/Mintia/" title="Mintia">Mintia</a></div><div class="clear"></div></div></div></div>		<div class="clear"></div>
+		</div>
+	</div>
+</div>		
+	</div>
+	
+</div>
+
+<div id="content_home_right" style="float: right; margin-top: -250px;">
+	 <div style="width: 300px; padding: 17px 20px 0 20px; background: #DDD;">
+	<a href="http://www.behindthevoiceactors.com/btva-anime-awards/2016/general/" title="5th Annual BTVA Voice Acting Awards 2016"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/btva_awards/spotlight_btva_anime_awards_winner.jpg" alt="5th Annual BTVA Anime Dub Awards 2016" style="width: 300px;" /></a>
+</div>
+<div class="ad_300x250">
+	<!-- behindthevoiceactors ATF300x250: 300x250 -->
+	<div id="ros_7041">
+	<script type="text/javascript">
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+	(function() {
+	var gads = document.createElement("script");
+	gads.async = true;
+	gads.type = "text/javascript";
+	var useSSL = "https:" == document.location.protocol;
+	gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+	var node =document.getElementsByTagName("script")[0];
+	node.parentNode.insertBefore(gads, node);
+	})();
+	googletag.cmd.push(function() {
+	var newSlot = googletag.defineSlot('/4403/cr/behindthevoiceactors_perf/ros', [[300,250]],'ros_7041').setTargeting('site', 'behindthevoiceactors_perf').setTargeting('sect','ros').setTargeting('pos', 'a').addService(googletag.pubads()).setTargeting("dc_ref", "'+encodeURIComponent(location.href)+'");
+	googletag.enableServices();
+	googletag.display('ros_7041');
+	googletag.pubads().refresh([newSlot]);
+	});
+	</script>
+	</div>
+</div><div class="bucket">
+	<div class="bg_bucket_title"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/title_voice_compare.png" alt="Voice Compare" /></div>
+	<div style="padding: 6px 10px 8px 10px;">
+		<div class="bucket_subtitle">Newest Comparisons</div>
+		
+			<div style="width: 140px; float: left; line-height: 12px; margin: 10px 6px 0 6px; margin-right: 15px; text-align: center;">
+				
+				<a class="gray_border_img" href="http://www.behindthevoiceactors.com/voice-compare/Spiderwick-Chronicles/Thimbletack/" title="Thimbletack" style="width: 140px;">
+							<img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/voice_compare/3035.jpg" alt="Thimbletack" style="width: 140px;">
+						</a><a href="http://www.behindthevoiceactors.com/voice-compare/Spiderwick-Chronicles/Thimbletack/" title="Thimbletack">Thimbletack</a>
+						<br />
+						2 comparisons
+					</div><div style="width: 140px; float: left; line-height: 12px; margin: 10px 6px 0 6px;text-align: center;">
+				
+				<a class="gray_border_img" href="http://www.behindthevoiceactors.com/voice-compare/Spiderwick-Chronicles/Mulgarath/" title="Mulgarath" style="width: 140px;">
+							<img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/voice_compare/3034.jpg" alt="Mulgarath" style="width: 140px;">
+						</a><a href="http://www.behindthevoiceactors.com/voice-compare/Spiderwick-Chronicles/Mulgarath/" title="Mulgarath">Mulgarath</a>
+						<br />
+						2 comparisons
+					</div><div class="clear"></div><div style="width: 140px; float: left; line-height: 12px; margin: 10px 6px 0 6px; margin-right: 15px; text-align: center;">
+				
+				<a class="gray_border_img" href="http://www.behindthevoiceactors.com/voice-compare/Spiderwick-Chronicles/Hogsqueal/" title="Hogsqueal" style="width: 140px;">
+							<img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/voice_compare/3033.jpg" alt="Hogsqueal" style="width: 140px;">
+						</a><a href="http://www.behindthevoiceactors.com/voice-compare/Spiderwick-Chronicles/Hogsqueal/" title="Hogsqueal">Hogsqueal</a>
+						<br />
+						2 comparisons
+					</div><div style="width: 140px; float: left; line-height: 12px; margin: 10px 6px 0 6px;text-align: center;">
+				
+				<a class="gray_border_img" href="http://www.behindthevoiceactors.com/voice-compare/Spawn/The-Devil-Malebolgia/" title="The Devil Malebolgia" style="width: 140px;">
+							<img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/voice_compare/3032.jpg" alt="The Devil Malebolgia" style="width: 140px;">
+						</a><a href="http://www.behindthevoiceactors.com/voice-compare/Spawn/The-Devil-Malebolgia/" title="The Devil Malebolgia">The Devil Malebolgia</a>
+						<br />
+						2 comparisons
+					</div><div class="clear"></div><div class="clear"></div>		<div class="divider"></div>
+		<div class="bucket_subtitle">Recently Updated Comparisons</div>
+			<div style="width: 310px; float: left; line-height: 12px; margin: 8px 6px 0 6px; line-height: 15px; border-bottom: 1px dotted #CCC;">
+							<a class="updated_image" href="http://www.behindthevoiceactors.com/voice-compare/Batman/Detective-Harvey-Bullock/" title="Detective Harvey Bullock" style="width: 40px; display: block; float: left; margin-right: 10px;">
+								<img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/voice_compare/thumbs/1441_thumb.jpg" alt="Detective Harvey Bullock" style="width: 40px;">
+							</a><a href="http://www.behindthevoiceactors.com/voice-compare/Batman/Detective-Harvey-Bullock/" title="Detective Harvey Bullock"><b>Detective Harvey Bullock</b></a><br />1 compare added, <a href="http://www.behindthevoiceactors.com/voice-compare/Batman/Detective-Harvey-Bullock/#comments">45 Comments</a></div><div style="width: 310px; float: left; line-height: 12px; margin: 8px 6px 0 6px; line-height: 15px; border-bottom: 1px dotted #CCC;">
+							<a class="updated_image" href="http://www.behindthevoiceactors.com/voice-compare/Batman/Clayface/" title="Clayface" style="width: 40px; display: block; float: left; margin-right: 10px;">
+								<img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/voice_compare/thumbs/1661_thumb.jpg" alt="Clayface" style="width: 40px;">
+							</a><a href="http://www.behindthevoiceactors.com/voice-compare/Batman/Clayface/" title="Clayface"><b>Clayface</b></a><br />1 compare added, <a href="http://www.behindthevoiceactors.com/voice-compare/Batman/Clayface/#comments">80 Comments</a></div><div style="width: 310px; float: left; line-height: 12px; margin: 8px 6px 0 6px; line-height: 15px; border-bottom: 1px dotted #CCC;">
+							<a class="updated_image" href="http://www.behindthevoiceactors.com/voice-compare/Disney/Scrooge-McDuck/" title="Scrooge McDuck" style="width: 40px; display: block; float: left; margin-right: 10px;">
+								<img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/voice_compare/thumbs/1711_thumb.jpg" alt="Scrooge McDuck" style="width: 40px;">
+							</a><a href="http://www.behindthevoiceactors.com/voice-compare/Disney/Scrooge-McDuck/" title="Scrooge McDuck"><b>Scrooge McDuck</b></a><br />2 compares added, <a href="http://www.behindthevoiceactors.com/voice-compare/Disney/Scrooge-McDuck/#comments">61 Comments</a></div>		<div class="clear"></div>
+		<br />
+		<a class="orange" href="http://www.behindthevoiceactors.com/voice-compare/" title="CHECK OUT ALL VOICE COMPARES" style="display: block; float: right; margin-top: -5px; font-size: 10px; font-weight: bold;">CHECK OUT ALL VOICE COMPARES &raquo;</a>
+		<div class="clear"></div>
+	</div>
+</div><div class="bucket">
+	<div class="bg_bucket_title bg_bucket_title_html_text">OUT NOW</div>
+	<ul class="bucket_text_list bucket_text_list_no_bullet">
+		<li><a href="http://www.behindthevoiceactors.com/movies/Mary-and-The-Witchs-Flower/" title="Mary and The Witch's Flower" style="font-size: 11px;">Mary and The Witch's Flower</a>
+					<div style="width: 42px; float: right;">Jan 18</div>
+					<div class="clear"></div>
+					</li><li><a href="http://www.behindthevoiceactors.com/movies/Deep/" title="Deep" style="font-size: 11px;">Deep</a>
+					<div style="width: 42px; float: right;">Jan 15</div>
+					<div class="clear"></div>
+					</li><li><a href="http://www.behindthevoiceactors.com/movies/Paddington-2/" title="Paddington 2" style="font-size: 11px;">Paddington 2</a>
+					<div style="width: 42px; float: right;">Jan 12</div>
+					<div class="clear"></div>
+					</li><li><a href="http://www.behindthevoiceactors.com/movies/Scooby-Doo-and-Batman-The-Brave-and-the-Bold/" title="Scooby-Doo! and Batman: The Brave and the Bold" style="font-size: 11px;">Scooby-Doo! and Batman: The Brave and the Bold</a>
+					<div style="width: 42px; float: right;">Jan 09</div>
+					<div class="clear"></div>
+					</li><li><a href="http://www.behindthevoiceactors.com/tv-shows/Kiznaiver/" title="Kiznaiver" style="font-size: 11px;">Kiznaiver</a>
+					<div style="width: 42px; float: right;">Dec 26</div>
+					<div class="clear"></div>
+					</li>	</ul>
+		<div class="clear"></div>
+</div>
+<div class="bucket">
+	<div class="bg_bucket_title bg_bucket_title_html_text">COMING SOON</div>
+	<ul class="bucket_text_list bucket_text_list_no_bullet">
+		<li><a href="http://www.behindthevoiceactors.com/tv-shows/Ace-Attorney/" title="Ace Attorney" style="font-size: 11px;">Ace Attorney</a>
+					<div style="width: 42px; float: right;">Jan 23</div>
+					<div class="clear"></div>
+					</li><li><a href="http://www.behindthevoiceactors.com/tv-shows/Cardcaptor-Sakura-Clear-Card/" title="Cardcaptor Sakura: Clear Card" style="font-size: 11px;">Cardcaptor Sakura: Clear Card</a>
+					<div style="width: 42px; float: right;">Jan 24</div>
+					<div class="clear"></div>
+					</li><li><a href="http://www.behindthevoiceactors.com/tv-shows/Citrus/" title="Citrus" style="font-size: 11px;">Citrus</a>
+					<div style="width: 42px; float: right;">Jan 25</div>
+					<div class="clear"></div>
+					</li><li><a href="http://www.behindthevoiceactors.com/video-games/Dissidia-Final-Fantasy-NT/" title="Dissidia Final Fantasy NT" style="font-size: 11px;">Dissidia Final Fantasy NT</a>
+					<div style="width: 42px; float: right;">Jan 30</div>
+					<div class="clear"></div>
+					</li><li><a href="http://www.behindthevoiceactors.com/video-games/Radiant-Historia-Perfect-Chronology/" title="Radiant Historia: Perfect Chronology" style="font-size: 11px;">Radiant Historia: Perfect Chronology</a>
+					<div style="width: 42px; float: right;">Feb 13</div>
+					<div class="clear"></div>
+					</li><li><a href="http://www.behindthevoiceactors.com/tv-shows/Food-Wars-The-Second-Plate/" title="Food Wars! The Second Plate" style="font-size: 11px;">Food Wars! The Second Plate</a>
+					<div style="width: 42px; float: right;">Feb 13</div>
+					<div class="clear"></div>
+					</li><li><a href="http://www.behindthevoiceactors.com/video-games/Secret-of-Mana/" title="Secret of Mana" style="font-size: 11px;">Secret of Mana</a>
+					<div style="width: 42px; float: right;">Feb 15</div>
+					<div class="clear"></div>
+					</li><li><a href="http://www.behindthevoiceactors.com/video-games/Sword-Art-Online-Fatal-Bullet/" title="Sword Art Online: Fatal Bullet" style="font-size: 11px;">Sword Art Online: Fatal Bullet</a>
+					<div style="width: 42px; float: right;">Feb 23</div>
+					<div class="clear"></div>
+					</li><li><a href="http://www.behindthevoiceactors.com/tv-shows/Flip-Flappers/" title="Flip Flappers" style="font-size: 11px;">Flip Flappers</a>
+					<div style="width: 42px; float: right;">Feb 27</div>
+					<div class="clear"></div>
+					</li><li><a href="http://www.behindthevoiceactors.com/video-games/Kirby-Star-Allies/" title="Kirby: Star Allies" style="font-size: 11px;">Kirby: Star Allies</a>
+					<div style="width: 42px; float: right;">Mar 16</div>
+					<div class="clear"></div>
+					</li>	</ul>
+		<a class="orange see_more see_more_bucket_text_list" href="http://www.behindthevoiceactors.com/coming-soon/" title="See More">SEE MORE &raquo;</a>
+		<div class="clear"></div>
+</div>
+<div class="ad_300x600">
+	<div>
+		<!-- behindthevoiceactors BTF4 300x250: 300x250 -->
+		<div id="ros_27281">
+		<script type="text/javascript">
+		var googletag = googletag || {};
+		googletag.cmd = googletag.cmd || [];
+		(function() {
+		var gads = document.createElement("script");
+		gads.async = true;
+		gads.type = "text/javascript";
+		var useSSL = "https:" == document.location.protocol;
+		gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+		var node =document.getElementsByTagName("script")[0];
+		node.parentNode.insertBefore(gads, node);
+		})();
+		googletag.cmd.push(function() {
+		var newSlot = googletag.defineSlot('/4403/cr/behindthevoiceactors_perf/ros', [[300,250]],'ros_27281').setTargeting('site', 'behindthevoiceactors_perf').setTargeting('sect','ros').setTargeting('pos', 'd').addService(googletag.pubads());
+		googletag.enableServices();
+		googletag.display('ros_27281');
+		});
+		</script>
+		</div>
+	</div>
+	<div id="birthdays_today">
+	<b>Born Today, January 18th</b><br /><div class="bday">
+						<img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/danny-kaye-27.3_thumb.jpg" />
+						<br />
+						Danny Kaye
+					</div><div class="bday">
+						<img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/karan-brar-86_thumb.jpg" />
+						<br />
+						Karan Brar
+					</div><div class="clear"></div><div class="bday">
+						<img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/becca-tobin-80.7_thumb.jpg" />
+						<br />
+						Becca Tobin
+					</div><div class="bday">
+						<img class="img-ondemand" longdesc="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/thumbs/britt-mckillip-9.32_thumb.jpg" />
+						<br />
+						Britt McKillip
+					</div><div class="clear"></div></div></div><script type="text/javascript">
+$(function() {
+	$('.switch_week').click(function() {
+		$('.switch_all').css({'font-weight':'normal'});
+		$(this).css({'font-weight':'bold'});
+		$('.most_popular_all').hide();
+		$('.most_popular_week').fadeIn();
+	});
+	$('.switch_all').click(function() {
+		$('.switch_week').css({'font-weight':'normal'});
+		$(this).css({'font-weight':'bold'});
+		$('.most_popular_week').hide();
+		$('.most_popular_all').fadeIn();
+	});
+});
+</script>
+<div class="bucket">
+	<div class="bg_bucket_title"><img src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/title_most_popular.png" alt="Most Popular" /></div>
+
+	<div style="padding: 7px 10px 5px 10px;">
+		<a class="switch_week" href="javascript:;" style="font-weight: bold; font-size: 12px;">This Week</a> |
+		<a class="switch_all" href="javascript:;" style="font-size: 12px;">All Time</a>
+		<div class="name_list orange" style="margin-top: -5px;">
+			<div class="most_popular_week"><div style="float: left; margin-bottom: 30px;"><a id="most_popular_link" class="polaroid_img" href="http://www.behindthevoiceactors.com/Ben-Whishaw/" style="margin-right: 0;"><img id="most_popular_image" src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/ben-whishaw-4.07.jpg" alt="Ben Whishaw" style="width: 130px;" /></a></div><div style="float: right;"><div class="most_popular_number">1.&nbsp;</div><div class="most_popular_item" style="width: 155px;"><a class="most_popular" href="http://www.behindthevoiceactors.com/Ben-Whishaw/">Ben Whishaw</a></div><div class="clear"></div><div class="most_popular_number">2.&nbsp;</div><div class="most_popular_item" style="width: 155px;"><a class="most_popular" href="http://www.behindthevoiceactors.com/Todd-Haberkorn/">Todd Haberkorn</a></div><div class="clear"></div><div class="most_popular_number">3.&nbsp;</div><div class="most_popular_item" style="width: 155px;"><a class="most_popular" href="http://www.behindthevoiceactors.com/Matthew-Mercer/">Matthew Mercer</a></div><div class="clear"></div><div class="most_popular_number">4.&nbsp;</div><div class="most_popular_item" style="width: 155px;"><a class="most_popular" href="http://www.behindthevoiceactors.com/Cherami-Leigh/">Cherami Leigh</a></div><div class="clear"></div><div class="most_popular_number">5.&nbsp;</div><div class="most_popular_item" style="width: 155px;"><a class="most_popular" href="http://www.behindthevoiceactors.com/Bryce-Papenbrook/">Bryce Papenbrook</a></div><div class="clear"></div><div class="most_popular_number">6.&nbsp;</div><div class="most_popular_item" style="width: 155px;"><a class="most_popular" href="http://www.behindthevoiceactors.com/Jamie-Marchi/">Jamie Marchi</a></div><div class="clear"></div><div class="most_popular_number">7.&nbsp;</div><div class="most_popular_item" style="width: 155px;"><a class="most_popular" href="http://www.behindthevoiceactors.com/Vic-Mignogna/">Vic Mignogna</a></div><div class="clear"></div><div class="most_popular_number">8.&nbsp;</div><div class="most_popular_item" style="width: 155px;"><a class="most_popular" href="http://www.behindthevoiceactors.com/Johnny-Yong-Bosch/">Johnny Yong Bosch</a></div><div class="clear"></div><div class="most_popular_number">9.&nbsp;</div><div class="most_popular_item" style="width: 155px;"><a class="most_popular" href="http://www.behindthevoiceactors.com/Laura-Bailey/">Laura Bailey</a></div><div class="clear"></div><div class="most_popular_number">10.&nbsp;</div><div class="most_popular_item" style="width: 155px;"><a class="most_popular" href="http://www.behindthevoiceactors.com/Tara-Strong/">Tara Strong</a></div><div class="clear"></div></div><div class="divider"></div><a class="orange check_out_more" href="http://www.behindthevoiceactors.com/top-listings/?type=pop_va_weekly">CHECK OUT MORE &raquo;</a><div class="clear"></div></div><div class="most_popular_all" style="display: none;"><div style="float: left; margin-bottom: 30px;"><a id="most_popular_link" class="polaroid_img" href="http://www.behindthevoiceactors.com/Tara-Strong/" style="margin-right: 0;"><img id="most_popular_image" src="http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/actors/tara-strong-98.4.jpg" alt="Tara Strong" style="width: 130px;" /></a></div><div style="float: right;"><div class="most_popular_number">1.&nbsp;</div><div class="most_popular_item" style="width: 155px;"><a class="most_popular" href="http://www.behindthevoiceactors.com/Tara-Strong/">Tara Strong</a></div><div class="clear"></div><div class="most_popular_number">2.&nbsp;</div><div class="most_popular_item" style="width: 155px;"><a class="most_popular" href="http://www.behindthevoiceactors.com/Jamie-Marchi/">Jamie Marchi</a></div><div class="clear"></div><div class="most_popular_number">3.&nbsp;</div><div class="most_popular_item" style="width: 155px;"><a class="most_popular" href="http://www.behindthevoiceactors.com/Todd-Haberkorn/">Todd Haberkorn</a></div><div class="clear"></div><div class="most_popular_number">4.&nbsp;</div><div class="most_popular_item" style="width: 155px;"><a class="most_popular" href="http://www.behindthevoiceactors.com/Johnny-Yong-Bosch/">Johnny Yong Bosch</a></div><div class="clear"></div><div class="most_popular_number">5.&nbsp;</div><div class="most_popular_item" style="width: 155px;"><a class="most_popular" href="http://www.behindthevoiceactors.com/Matthew-Mercer/">Matthew Mercer</a></div><div class="clear"></div><div class="most_popular_number">6.&nbsp;</div><div class="most_popular_item" style="width: 155px;"><a class="most_popular" href="http://www.behindthevoiceactors.com/Cherami-Leigh/">Cherami Leigh</a></div><div class="clear"></div><div class="most_popular_number">7.&nbsp;</div><div class="most_popular_item" style="width: 155px;"><a class="most_popular" href="http://www.behindthevoiceactors.com/Bryce-Papenbrook/">Bryce Papenbrook</a></div><div class="clear"></div><div class="most_popular_number">8.&nbsp;</div><div class="most_popular_item" style="width: 155px;"><a class="most_popular" href="http://www.behindthevoiceactors.com/Laura-Bailey/">Laura Bailey</a></div><div class="clear"></div><div class="most_popular_number">9.&nbsp;</div><div class="most_popular_item" style="width: 155px;"><a class="most_popular" href="http://www.behindthevoiceactors.com/Vic-Mignogna/">Vic Mignogna</a></div><div class="clear"></div><div class="most_popular_number">10.&nbsp;</div><div class="most_popular_item" style="width: 155px;"><a class="most_popular" href="http://www.behindthevoiceactors.com/J-Michael-Tatum/">J Michael Tatum</a></div><div class="clear"></div></div><div class="divider"></div><a class="orange check_out_more" href="http://www.behindthevoiceactors.com/top-listings/?type=pop_va_all">CHECK OUT MORE &raquo;</a><div class="clear"></div></div>		</div>
+	</div>
+</div></div>
+
+
+	<div class="clear"></div>
+	<div id="footer">
+		<a href="http://www.behindthevoiceactors.com/contact/">Contact Us</a>
+		&nbsp;|&nbsp;
+		<a href="http://www.behindthevoiceactors.com/forums/">Forums</a>
+		&nbsp;|&nbsp;
+		<a href="http://www.behindthevoiceactors.com/faq/">FAQ</a>
+		&nbsp;|&nbsp;
+		<a href="http://www.behindthevoiceactors.com/terms-of-use/">Terms Of Use</a>
+		&nbsp;|&nbsp;
+		<a href="http://www.behindthevoiceactors.com/privacy-policy/">Privacy Policy</a>
+		<br />
+		<br />
+		<span style="font-size: 10px;">This is an unofficial site. All logos, images, video and audio clips pertaining to actors, characters and related indicia belong to their respective &copy; and &trade; owners.<br />All original content &copy; 2009-2018 Inyxception Enterprises, Inc. DBA Behind The Voice Actors. All Rights Reserved.</span>
+	</div>
+</div>
+
+<!--<script type="text/javascript" src="http://www.behindthevoiceactors.com/_js/jquery.plugins.min.js"></script>-->
+<script type="text/javascript" src="http://statica.behindthevoiceactors.com/behindthevoiceactors/_js/jquery.jqModal.js"></script>
+<script type="text/javascript" src="http://statica.behindthevoiceactors.com/behindthevoiceactors/_js/jquery.dimensions.js"></script>
+<script type="text/javascript" src="http://statica.behindthevoiceactors.com/behindthevoiceactors/_js/jquery.flash.js"></script>
+<!--<script type="text/javascript" src="http://www.behindthevoiceactors.com/_js/jquery.media.js"></script>-->
+<script type="text/javascript" src="http://statica.behindthevoiceactors.com/behindthevoiceactors/_js/jquery.vscontext.js"></script>
+<script type="text/javascript" src="http://statica.behindthevoiceactors.com/behindthevoiceactors/_js/jquery.tipsy.js"></script>
+<script type="text/javascript" src="http://statica.behindthevoiceactors.com/behindthevoiceactors/_js/jwplayer.js"></script>
+<script type="text/javascript" src="http://statica.behindthevoiceactors.com/behindthevoiceactors/_js/header_script5.js"></script>
+
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
+<script type="text/javascript">
+// Images OnDemand
+var _$d = $(document);
+var _$w = $(window);
+var imgToLoad = 1;
+
+// offset of bottom to load images, on px
+var offset = 50;
+
+function imgOndemand(){
+	 //calc current scroll position
+    var scrollPos = _$w.height() + _$w.scrollTop();
+    $('#current').html(scrollPos);
+
+	// get imgs not loaded
+	$('img.img-ondemand').each(function(){
+		var $img = $(this);
+		// filter imgs over scroll limit             
+        if($img.offset().top < scrollPos+offset){
+			$img.attr('src',$img.attr('longdesc')).removeClass('img-ondemand');
+        }
+	});
+	imgToLoad = $('img.img-ondemand').length;
+}
+$(function(){
+    imgOndemand();		
+});
+$(window).scroll(function(){ 
+	if (imgToLoad){
+		imgOndemand();
+	}
+});
+</script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-9533848-1']);
+_gaq.push(['_setSiteSpeedSampleRate', 100]);
+_gaq.push(['_setDomainName', 'www.behindthevoiceactors.com']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+</body>
+</html>

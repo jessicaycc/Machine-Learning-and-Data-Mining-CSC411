@@ -1,0 +1,20 @@
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<h1>404 Not Found</h1>
+<ul>
+<li>Code: NoSuchKey</li>
+<li>Message: The specified key does not exist.</li>
+<li>Key: www.wired.com/images/article/magazine/1605/gs_carell_f.jpg</li>
+<li>RequestId: 4D41A5EFEDEE4BAD</li>
+<li>HostId: hz5PmfY2t5ZypB23JdmAPlc9Dt9W036v98wO2TfbpqvSlukATD1CgMp/N2AVf6bE+Pr0hAQmh4c=</li>
+</ul>
+<h3>An Error Occurred While Attempting to Retrieve a Custom Error Document</h3>
+<ul>
+<li>Code: NoSuchKey</li>
+<li>Message: The specified key does not exist.</li>
+<li>Key: error.html</li>
+</ul>
+<hr/>
+</body>
+</html>

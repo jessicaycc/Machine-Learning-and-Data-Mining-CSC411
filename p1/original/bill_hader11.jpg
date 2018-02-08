@@ -1,0 +1,1214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7]>
+  <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en">
+<![endif]-->
+<!--[if IE 7]>
+  <html class="no-js lt-ie9 lt-ie8" lang="en">
+<![endif]-->
+<!--[if IE 8]>
+  <html class="no-js lt-ie9" lang="en">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<html xmlns:xlink="http://www.w3.org/1999/xlink" class="no-js" lang="en" xml:lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="stylesheet" type="text/css" href="http://www.kcrw.com/portal_css/Sunburst%20Theme/collective.js.jqueryui.custom.min-cachekey-ad4c59ad4a852e3d41a558ba4e4d80f0.css" media="screen" /><link rel="stylesheet" type="text/css" href="http://www.kcrw.com/portal_css/Sunburst%20Theme/base-cachekey-ebac9b5637f52b6182e2ab4d8461227f.css" /><link rel="canonical" href="http://www.kcrw.com/news-culture/shows/the-treatment/bill-hader-saturday-night-live" /><link rel="shortcut icon" type="image/x-icon" href="http://www.kcrw.com/favicon.ico" /><link rel="apple-touch-icon" href="http://www.kcrw.com/touch_icon.png" /><link rel="search" href="http://www.kcrw.com/@@search" title="Search this site" /><style type="text/css" media="screen" scoped="1">
+        #content .container404 {
+          width: 912px;
+          margin: 20px auto 0 auto;
+        }
+
+        #content img.img404 {
+          display: block;
+          margin: 0 auto 25px auto;
+        }
+      </style><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><base href="http://www.kcrw.com/news-culture/shows/the-treatment/bill-hader-saturday-night-live/" /><!--[if lt IE 7]></base><![endif]--><title data-full-title="Bill Hader: Saturday Night Live | The Treatment | Film Televsion and Arts Interviews | KCRW | KCRW">Bill Hader: Saturday Night Live | The Treatment | Film Televsion and Arts Interviews | KCRW | KCRW</title><meta name="description" content="Elvis Mitchell talks to actor Bill Hader about beginning his eighth season on 'Saturday Night Live' and his Emmy nomination for Outstanding Supporting Actor in a Comedy Series." /><meta name="viewport" id="viewport" content="width=device-width" /><meta name="apple-itunes-app" content="app-id=319014603, affiliate-data=10ld5K" /><!-- Google Tag Manager --><script class="kcrw-head" type="text/javascript" src="https://www.google.com/jsapi"></script><script class="kcrw-head" type="text/javascript">
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+    '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script><script class="kcrw-head" type="text/javascript">
+googletag.cmd.push(function() {
+
+var mapping = googletag.sizeMapping().
+        addSize([300, 50], [300, 50]). // Mobile
+        addSize([601, 100], [970, 50]). // Desktop
+        build();
+        googletag.defineSlot('/1001770/kcrw_top_970x50',
+        [970, 50], 'div-gpt-ad-1415923772346-0').
+        defineSizeMapping(mapping).
+        addService(googletag.pubads());
+
+var mapping = googletag.sizeMapping().
+        addSize([300, 50], [300, 50]). // Mobile
+        addSize([601, 100], [300, 600]). // Desktop
+        build();
+        googletag.defineSlot('/1001770/kcrw_middle_300x600',
+        [300, 600], 'div-gpt-ad-1415923826084-0').
+        defineSizeMapping(mapping).
+        addService(googletag.pubads());
+
+var mapping = googletag.sizeMapping().
+        addSize([300, 50], [300, 50]). // Mobile
+        addSize([601, 100], [300, 250]). // Desktop
+        build();
+        googletag.defineSlot('/1001770/kcrw_middle_300x250',
+        [300, 250], 'div-gpt-ad-1415924517883-0').
+        defineSizeMapping(mapping).
+        addService(googletag.pubads());
+
+var mapping = googletag.sizeMapping().
+        addSize([300, 50], [300, 50]). // Mobile
+        addSize([601, 100], [728, 90]). // Desktop
+        build();
+        googletag.defineSlot('/1001770/kcrw_within_content_728x90',
+        [728, 90], 'div-gpt-ad-1415924634932-0').
+        defineSizeMapping(mapping).
+        addService(googletag.pubads());
+
+var mapping = googletag.sizeMapping().
+        addSize([300, 50], [300, 50]). // Mobile
+        addSize([601, 100], [728, 90]). // Desktop
+        build();
+        googletag.defineSlot('/1001770/kcrw_bottom_728x90',
+        [728, 90], 'div-gpt-ad-1415924739221-0').
+        defineSizeMapping(mapping).
+        addService(googletag.pubads());
+googletag.enableServices();
+});
+</script><script class="kcrw-head" type="text/javascript">
+var _KCRW_portal_url = '/';
+var _KCRW_portal_url = _KCRW_portal_url == '/' ? _KCRW_portal_url : (_KCRW_portal_url + '/');
+var _KCRW_now_playing_base = _KCRW_portal_url + 'now_playing.json';
+var _KCRW_channel_map = {"on-demand": "On-Demand", "kdrw": "Simulcast", "kcrwmusic": "Music", "berlin": "Music", "kcrwnews": "News", "kcrwlive": "Simulcast"};
+var _KCRW_logged_in = false;
+var _KCRW_player_prefer_flash = false;
+var _KCRW_player_force_aac = false;
+</script><script>
+        dataLayer = [];
+      </script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-T5BC2V');</script><!-- End Google Tag Manager --><script>
+        function _set_viewport(value) {
+            if (!value) {
+                value = (screen.width > 600 && screen.width<=1024 && screen.height >= 1024)?'1024px, user-scalable=no':'device-width';
+                value = 'width=' + value;
+            }
+            var viewport = document.querySelector("meta[name=viewport]");
+            if (viewport) {
+                viewport.setAttribute("content", value);
+            }
+        }
+        _set_viewport();
+      </script><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" /><link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.2/featherlight.min.css" media="screen" rel="stylesheet" type="text/css" /><link href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" media="screen" rel="stylesheet" type="text/css" /><link href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" media="screen" rel="stylesheet" type="text/css" /><link href="/++theme++kcrw.theme/stylesheets/main.css?v=54" media="screen" rel="stylesheet" type="text/css" /><script src="/++theme++kcrw.theme/javascripts/all.js?v=126" type="text/javascript"></script><script src="//s7.addthis.com/js/300/addthis_widget.js#as"></script><script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.2/featherlight.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.5/clipboard.min.js"></script><script src="//cdn.optimizely.com/js/3744575119.js"></script><script src="//player.ooyala.com/static/v4/stable/latest/core.min.js"></script><script src="//player.ooyala.com/static/v4/stable/latest/video-plugin/main_html5.min.js"></script><script src="//player.ooyala.com/static/v4/stable/latest/skin-plugin/html5-skin.min.js"></script><script src="//player.ooyala.com/static/v4/stable/latest/video-plugin/bit_wrapper.min.js"></script><link rel="stylesheet" href="//player.ooyala.com/static/v4/stable/latest/skin-plugin/html5-skin.min.css" /><script src="//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.3"></script><script src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script><script type="text/javascript" src="http://www.kcrw.com/portal_javascripts/Sunburst%20Theme/collective.js.jqueryui.custom.min-cachekey-d981c9df966270516c0ddf0b8e203c34.js"></script><script type="text/javascript" src="http://www.kcrw.com/portal_javascripts/Sunburst%20Theme/resourcekcrw-widgets-cachekey-a551102246b11300ef6cbd454f480b32.js"></script><script>
+  googletag.cmd.push(function() {
+    googletag.pubads().enableAsyncRendering();
+    googletag.enableServices();
+  });
+</script><script type="text/javascript">
+        jQuery(function($){
+            if (typeof($.datepicker) != "undefined"){
+              $.datepicker.setDefaults(
+                jQuery.extend($.datepicker.regional[''],
+                {dateFormat: 'mm/dd/yy'}));
+            }
+        });
+        </script><link rel="apple-touch-icon" sizes="57x57" href="/++theme++kcrw.theme/icons/apple-touch-icon-57x57.png" /><link rel="apple-touch-icon" sizes="114x114" href="/++theme++kcrw.theme/icons/apple-touch-icon-114x114.png" /><link rel="apple-touch-icon" sizes="72x72" href="/++theme++kcrw.theme/icons/apple-touch-icon-72x72.png" /><link rel="apple-touch-icon" sizes="144x144" href="/++theme++kcrw.theme/icons/apple-touch-icon-144x144.png" /><link rel="apple-touch-icon" sizes="60x60" href="/++theme++kcrw.theme/icons/apple-touch-icon-60x60.png" /><link rel="apple-touch-icon" sizes="120x120" href="/++theme++kcrw.theme/icons/apple-touch-icon-120x120.png" /><link rel="apple-touch-icon" sizes="76x76" href="/++theme++kcrw.theme/icons/apple-touch-icon-76x76.png" /><link rel="apple-touch-icon" sizes="152x152" href="/++theme++kcrw.theme/icons/apple-touch-icon-152x152.png" /><link rel="icon" type="image/png" href="/++theme++kcrw.theme/icons/favicon-196x196.png" sizes="196x196" /><link rel="icon" type="image/png" href="/++theme++kcrw.theme/icons/favicon-160x160.png" sizes="160x160" /><link rel="icon" type="image/png" href="/++theme++kcrw.theme/icons/favicon-96x96.png" sizes="96x96" /><link rel="icon" type="image/png" href="/++theme++kcrw.theme/icons/favicon-16x16.png" sizes="16x16" /><link rel="icon" type="image/png" href="/++theme++kcrw.theme/icons/favicon-32x32.png" sizes="32x32" /><link rel="icon" type="image/x-icon" href="/++theme++kcrw.theme/icons/favicon.ico" /><meta name="msapplication-TileColor" content="#47c3d3" /><meta name="msapplication-TileImage" content="icons/mstile-144x144.png" /><meta property="og:type" content="article" /><meta property="og:url" content="http://www.kcrw.com/news-culture/shows/the-treatment/bill-hader-saturday-night-live" /><meta property="og:site_name" content="KCRW" /><meta property="og:image" content="http://www.kcrw.com/news-culture/shows/the-treatment/bill-hader-saturday-night-live/@@images/square_image/mini" /><meta property="og:title" content="Bill Hader: Saturday Night Live" /><meta property="og:description" content="Elvis Mitchell talks to actor Bill Hader about beginning his eighth season on 'Saturday Night Live' and his Emmy nomination for Outstanding Supporting Actor in a Comedy Series." /><meta property="twitter:card" content="summary" /><meta property="twitter:site" content="@kcrw" /><meta property="twitter:title" content="Bill Hader: Saturday Night Live" /><meta property="twitter:description" content="Elvis Mitchell talks to actor Bill Hader about beginning his eighth season on 'Saturday Night Live' and his Emmy nomination for Outstanding Supporting Actor in a Comedy Series." /><meta property="twitter:image" content="http://www.kcrw.com/news-culture/shows/the-treatment/bill-hader-saturday-night-live/@@images/square_image/mini" /><meta property="twitter:image:alt" content="Bill Hader: Saturday Night Live" /><meta property="article:published_time" content="2012-09-17T00:00:00-07:00" /><meta property="article:tag" content="The Treatment" /><meta property="article:tag" content="Elvis Mitchell" /><meta property="article:tag" content="Kristen Wiig" /><meta property="article:tag" content="Stefon" /><meta property="article:tag" content="Herb Welch" /><meta property="article:tag" content="SNL" /><meta property="article:tag" content="KCRW" /><meta property="article:tag" content="Saturday Night Live" /><meta property="article:tag" content="Alan Alda" /><meta property="article:tag" content="Interview" /><meta property="article:tag" content="Vincent Price" /><meta property="article:tag" content="Bill Hader" /><meta property="article:tag" content="Jon Hamm" /><meta property="article:tag" content="Lorne Michaels" /><meta property="article:tag" content="Clint Eastwood" /><meta property="article:tag" content="Highlight" /></head><body class="fixed-eyebrow template-default_error_message portaltype-kcrw-site-episode site-Plone section-news-culture subsection-shows subsection-shows-the-treatment subsection-shows-the-treatment-bill-hader-saturday-night-live userrole-anonymous"><!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5BC2V" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) --><!-- Icon sprites --><svg id="svg-sprites" style="display:none;"><symbol id="icon-close" viewbox="240.164 109.955 413.016 413.016"><g transform="translate(0 -952.36)"><path d="m286.05 1062.3l-45.886 45.886 160.62 160.63-160.62 160.62 45.887 45.887 160.61-160.62 160.63 160.62 45.887-45.887-160.63-160.62 160.63-160.63-45.887-45.886-160.63 160.63-160.61-160.6z"></path></g></symbol><symbol id="icon-audio" viewbox="0 0 45.23 52.226"><polygon points="0 0 45.23 26.112 0 52.226"></polygon></symbol><symbol id="icon-read" viewbox="0 0 223.477 148.98"><rect width="223.48" height="30.48"></rect><rect y="59" width="201.98" height="30.48"></rect><rect y="118.5" width="149.98" height="30.48"></rect></symbol><symbol id="icon-event" viewbox="186.743 34.378 539.435 539.197"><path d="m720.61 248.36l-321.24 321.24c-4.589 4.589-10.708 4.589-18.356 3.06-7.649-1.529-9.179-6.119-10.708-13.768l-6.119-42.831-42.832-6.119c-7.648-1.53-12.238-6.119-13.768-13.768l-4.589-41.303-42.832-6.118c-7.648-1.53-12.237-6.119-13.768-13.768l-4.589-41.302-41.302-4.59c-4.589-1.529-10.708-4.589-13.768-10.707 0-6.119 0-12.238 4.589-16.827l321.25-321.23c7.648-7.648 16.826-7.648 22.945-1.53 4.589 4.589 6.118 9.179 4.589 16.827l6.119 36.713 42.831 6.119c7.649 1.529 12.238 6.119 13.768 13.768l6.119 42.832 42.831 6.119c7.649 1.529 12.239 6.119 13.768 13.767l6.119 42.832 35.184 4.589c6.118 0 12.238 0 16.826 4.588 3.05 3.05 4.58 13.76-3.07 21.41zm-321.24 275.35l273.82-273.82-21.417-3.06c-7.647-1.53-12.236-6.119-13.767-13.767l-6.119-42.832-42.831-6.119c-7.648-1.53-12.238-6.119-13.768-13.767l-6.119-42.832-42.832-6.119c-7.648-1.53-12.237-6.119-13.768-13.768l-3.059-21.416-273.81 273.83 21.416 3.059c7.648 1.53 12.237 6.119 13.768 13.768l6.119 42.832 42.832 6.118c7.648 1.53 12.237 6.119 13.768 13.768l6.119 42.832 42.832 6.119c7.648 1.53 12.237 6.118 13.767 13.767l3.05 21.41z"></path><path d="m514.1 222.36l-140.73 140.73c-6.119 6.119-16.827 7.648-24.475 0s-7.649-16.826 0-24.476l139.2-139.2c7.649-7.649 16.827-7.648 24.476 0s7.64 16.83 1.52 22.95z"></path><path d="m559.99 268.25l-140.73 140.73c-6.119 6.118-16.827 7.647-24.475 0-7.648-7.648-7.649-16.827 0-24.476l139.2-139.2c7.648-7.649 16.827-7.648 24.475 0 7.65 7.65 7.65 16.83 1.53 22.95z"></path></symbol><symbol id="icon-video" viewbox="0 0 37.565 20.007"><g id="icon-video-Layer_2"><rect width="26.291" height="20"></rect><polygon points="37.565 20.007 26.29 10.02 37.565 0.033"></polygon></g></symbol><symbol id="icon-pause" viewbox="0 0 35.928 52.227"><g id="icon-pause-Layer_2"><rect x="0" y="0" width="13.994" height="52.146"></rect><rect x="21.956" y="0" width="13.993" height="52.146"></rect></g></symbol><symbol id="icon-announcement" viewbox="-21.538 -150.965 990.257 793.86" enable-background="new -21.538 -150.965 990.257 793.86" xml:space="preserve"><g><g><path d="M734.659-150.965L105.802,287.23l-127.339,55.526L92.361,603.965L219.7,548.438l110.046-23.891&#10;            c1.851,4.245,3.559,8.163,5.268,12.08c39.698,89.996,144.835,130.771,234.831,91.074&#10;            c69.758-30.771,112.192-102.53,105.544-178.482l293.331-63.4L734.659-150.965z M541.124,563.723&#10;            c-54.099,23.588-117.077-1.145-140.666-55.242l204.117-44.316C605.341,507.082,580.35,546.292,541.124,563.723z M868.68,334.626&#10;            L201.306,479.519l-71.833,31.323L72.524,380.236l65.302-28.475l566.27-394.583L868.68,334.626z"></path></g></g></symbol><symbol version="1.1" id="icon-download" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"><g><path d="M10,80h80v10H10V80z"></path><path d="M80,40H60V10H40v30H20l30,30L80,40z"></path></g></symbol></svg><!-- End Google Tag Manager --><div class="logo_wrapper">
+            <div id="player_logo" class="playing">
+              <!-- home link -->
+              <a href="http://www.kcrw.com" title="KCRW"></a>
+              KCRW
+            </div>
+          </div><!-- the scrubber has to exist outside of the player so it can extend a few pixels below the scrubber region. can't exist inside because we hide overflow. --><div id="player_scrubber" class="player-scrubber prevent-selection"><span class="handle"></span><span class="extender"></span><span class="scrubber"></span></div><ul id="eb-channels"><li id="eb_on_air" data-channel="kcrwlive" class="eb_live active">ON AIR</li>
+            <li id="eb_e24" data-channel="kcrwmusic" class="eb_live">ECLECTIC 24</li>
+            <li id="eb_news24" data-channel="kcrwnews" class="eb_live">NEWS 24</li>
+            <li id="eb_kcrw" data-channel="kdrw" class="eb_live">SANTA BARBARA</li>
+          </ul><div id="eyebrow" class="prevent-selection">
+            <div id="crowd_background"></div>
+            <div id="eb-left">
+              <a href="#" id="eb_toggle"></a>
+              <a href="http://www.kcrw.com" id="eb_logo" title="KCRW"></a>
+              <a href="#" id="eb_headphones"></a>
+            </div>
+            <div id="big_player" class="prevent-selection">
+              <div id="big_player_progress">
+                <div class="indicator">
+                  <div class="progress-gradient"></div>
+                </div>
+              </div>
+              <div id="player_controls">
+                <a href="#" id="player_back"></a>
+                <a href="#" id="player_back_30"></a>
+                <a href="#" id="player_start_stop" class=""></a>
+                <a href="#" id="player_fwd_30"></a>
+                <a href="#" id="player_fwd"></a>
+              </div>
+              <div id="player_now_playing">
+                <span id="mobile_on_air" class="active mobile-only">ON AIR<span id="player_on_air_icon"></span></span>
+                <div class="player-title-wrapper">
+                  <a href="#" id="player_main_title" class="player-title"></a>
+                  <a href="#" id="player_channel_trigger" title="show channels"></a>
+                  <a href="#" id="player_top_star" class="star-link">STAR</a>
+                </div>
+                <a href="#" id="player_subtitle" class="player-subtitle"></a>
+                <div id="player_meta">
+                  <div id="player_times">
+                    <span id="player_current_time">00:00:00</span>
+                    <span class="sep">|</span>
+                    <span id="player_total_time">3:02:50</span>
+                  </div>
+                </div>
+              </div>
+              <div id="player_social">
+                <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+                  <a class="share-button addthis_button_facebook"><i class="fa fa-facebook"></i><b>FACEBOOK</b></a>
+                  <a class="share-button addthis_button_twitter"><i class="fa fa-twitter"></i><b>TWITTER</b></a>
+                  <a class="share-button addthis_button_email"><i class="fa fa-envelope"></i><b>EMAIL</b></a>
+                  <a class="share-button copy-button"><i class="fa fa-link"></i><b>COPY LINK</b></a>
+                  <span class="tooltip" role="tooltip" aria-hidden="true"></span>
+                </div>
+                <a href="#" id="player_star" class="star-link star-disabled">STAR</a>
+                <a href="#" id="player_download" class="share-button download-link fixed-flyout player-flyout"><i class="fa fa-arrow-down"></i><b>DOWNLOAD</b></a>
+              </div>
+              <div id="player_right">
+                <p class="button-container">
+                  <a href="/join" class="button pink">DONATE</a>
+                </p>
+                <div class="player-pop">
+                  <a href="#" id="player_popup">MINI-PLAYER</a>
+                  <a href="#" id="player_hide">HIDE</a>
+                </div>
+              </div>
+            </div>
+            <div id="mobile_playing_image" class="mobile-only"></div>
+            <div id="player_segments" class="player-segments">
+              <div class="indicator">
+                <div class="progress-gradient"></div>
+              </div>
+            </div>
+            <nav id="main-navigation" role="navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement"><a href="http://www.kcrw.com" id="nav_logo" title="KCRW"></a>
+              <ul id="nav-top-level"><li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-listen-live">
+      <a href="http://www.kcrw.com/live-streams" title="" itemprop="url"><span itemprop="name">Listen Live</span></a>
+      
+
+      <div id="nav-listen-live-items" class="basic-row three-cols headless">
+        <div class="tile-wrapper">
+          <div class="basic channel-kcrwlive" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+            <a href="http://www.kcrw.com//on-air" class="title" itemprop="url" title="KCRW Live">
+              <span class="sandwiched-text big"><strong>KCRW Live</strong></span>
+            </a>
+            <div class="program-info">
+              <div class="heading">Currently Playing:</div>
+              <p>
+                <strong class="title" itemprop="name">Morning Becomes Eclectic: Wolf Parade</strong>
+                <span class="subtitle" itemprop="description">Canadian rockers Wolf Parade returned from a significant hiatus with their fantastic record Cry Cry Cry. The album has an energetic urgency and is full of tightly crafted punchy pop-rock anthems that will be incredible to witness live.</span>
+              </p>
+              <div class="show-airing">9AM - 12PM</div>
+              <a href="#" class="link audio" title="play" data-player-json="http://www.kcrw.com/now_playing.json?channel_id=kcrwlive">
+                  <span><i></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="basic channel-kcrwmusic" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+            <a href="http://www.kcrw.com//music/shows/eclectic24" class="title" itemprop="url" title="Eclectic 24">
+              <span class="sandwiched-text big"><strong>Eclectic 24</strong></span>
+            </a>
+            <div class="program-info">
+              <div class="heading">Currently Playing:</div>
+              <p>
+                <strong class="title" itemprop="name">Eclectic 24</strong>
+                <span class="subtitle" itemprop="description">KCRW's all-music channel Eclectic24, blending the collected talents and tastes of KCRW's DJs into a single voice. Free music streaming 24/7 at KCRW.com.</span>
+              </p>
+              <div class="show-airing">24/7 Music Stream</div>
+              <a href="#" class="link audio" title="play" data-player-json="http://www.kcrw.com/now_playing.json?channel_id=kcrwmusic">
+                  <span><i></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="basic channel-kcrwnews" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+            <a href="http://www.kcrw.com//news-culture/news24" class="title" itemprop="url" title="News + Culture 24">
+              <span class="sandwiched-text big"><strong>News + Culture 24</strong></span>
+            </a>
+            <div class="program-info">
+              <div class="heading">Currently Playing:</div>
+              <p>
+                <strong class="title" itemprop="name">BBC World Service</strong>
+                <span class="subtitle" itemprop="description">The BBC World Service provides international news, analysis and information in English and 32 other languages.</span>
+              </p>
+              <div class="show-airing">9AM - 10AM</div>
+              <a href="#" class="link audio" title="play" data-player-json="http://www.kcrw.com/now_playing.json?channel_id=kcrwnews">
+                  <span><i></i></span>
+              </a>
+            </div>
+          </div>
+          <a id="more-listen-live-nav" class="basic sub-nav-more last" href="http://www.kcrw.com/live-streams#on_air_schedule" title="Live Streams"><span>View Schedule</span></a>
+        </div>
+      </div>
+
+      
+
+      
+
+      
+      
+    </li>
+    <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-shows">
+      <a href="http://www.kcrw.com/shows" title="" itemprop="url"><span itemprop="name">Shows</span></a>
+      
+
+      
+
+      
+
+      
+
+      <div class="nav-sub" id="nav-sub-shows">
+        <ul><li class="active" id="nav-subsection-shows-music">
+            <h3 class="nav-heading" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+              <a href="http://www.kcrw.com/music/shows" title="" itemprop="url">
+                 <span itemprop="name">Music</span></a>
+            </h3>
+            <ul class="shows-section"><li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-morning-becomes-eclectic">
+                  <a href="/music/shows/morning-becomes-eclectic" itemprop="url" title="Jason Bentley hosts KCRW's signature daily music program. Featuring new releases, emerging &amp; established artists, live performances, and artist interviews."><span itemprop="name">Morning Becomes Eclectic</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-eclectic24">
+                  <a href="/music/shows/eclectic24" itemprop="url" title="KCRW's all-music channel Eclectic24, blending the collected talents and tastes of KCRW's DJs into a single voice. Free music streaming 24/7 at KCRW.com."><span itemprop="name">Eclectic 24</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-todays-top-tune">
+                  <a href="/music/shows/todays-top-tune" itemprop="url" title="Today's Top Tune is a weekday download of standout songs, including advance releases, exclusive live tracks, remixes, and new artists, at KCRW.com."><span itemprop="name">Today's Top Tune</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-guest-dj-project">
+                  <a href="/music/shows/guest-dj-project" itemprop="url" title="KCRW's Guest DJ Project invites an array of cultural luminaries to share and discuss songs that have inspired and moved them with a KCRW DJ."><span itemprop="name">Guest DJ Project</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-album-preview">
+                  <a href="/music/shows/album-preview" itemprop="url" title="KCRW's Album Preview offers a chance to hear new album releases in their entirety each week. The series showcases artists, composers and film soundtracks that are favorite selections from KCRW DJ's."><span itemprop="name">Album Preview</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-aaron-byrd">
+                  <a href="/music/shows/aaron-byrd" itemprop="url" title="A Global&#13;&#10;Exploration of Sounds."><span itemprop="name">Aaron Byrd</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-anne-litt">
+                  <a href="/music/shows/anne-litt" itemprop="url" title="Unexpected choices in progressive pop and new rhythms."><span itemprop="name">Anne Litt</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-anthony-valadez">
+                  <a href="/music/shows/anthony-valadez" itemprop="url" title="Broken beats, soulful key chords with guitar fuzz, combined with yesterday's dusty drums with tomorrow's samples and sounds."><span itemprop="name">Anthony Valadez</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-bo-leibowitz">
+                  <a href="/music/shows/bo-leibowitz" itemprop="url" title="Strictly jazz."><span itemprop="name">Bo Leibowitz</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-chris-douridas">
+                  <a href="/music/shows/chris-douridas" itemprop="url" title="New releases in all genres."><span itemprop="name">Chris Douridas</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-dan-wilcox">
+                  <a href="/music/shows/dan-wilcox" itemprop="url" title="Unearthing new discoveries, remixes and rarities, b-sides and lost classics."><span itemprop="name">Dan Wilcox</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-eric-j-lawrence">
+                  <a href="/music/shows/eric-j-lawrence" itemprop="url" title="A musical line-up of criminally overlooked tunes, hidden gems, guilty pleasures and standout selections from the latest releases."><span itemprop="name">Eric J. Lawrence</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-garth-trinidad">
+                  <a href="/music/shows/garth-trinidad" itemprop="url" title="An international mix of future soul, deep dance, indie rock, and jazz."><span itemprop="name">Garth Trinidad</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-gary-calamar">
+                  <a href="/music/shows/gary-calamar" itemprop="url" title="Adventurous pop music, both timely and timeless."><span itemprop="name">Gary Calamar</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-henry-rollins">
+                  <a href="/music/shows/henry-rollins" itemprop="url" title="From Punk to Funk, musician, actor, television and radio host Henry Rollins presents alternative rock radio. Independent radio streaming on KCRW.com."><span itemprop="name">Henry Rollins</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-jason-kramer">
+                  <a href="/music/shows/jason-kramer" itemprop="url" title="Featuring selections that range from carefully curated music from around the world with unique gems and quality tracks that will satisfy the needs of even the most discerning music aficionados."><span itemprop="name">Jason Kramer</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-jeremy-sole">
+                  <a href="/music/shows/jeremy-sole" itemprop="url" title="A Sonic trip through the past, present and future of Roots music."><span itemprop="name">Jeremy Sole</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-liza-richardson">
+                  <a href="/music/shows/liza-richardson" itemprop="url" title="A weekend evening jam session featuring cosmic rock, scenic techno soul, dub disco-punk and extra classic party explosives from around the world."><span itemprop="name">Liza Richardson</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-mario-cotto">
+                  <a href="/music/shows/mario-cotto" itemprop="url" title="A kaleidoscopic Dada dance party!"><span itemprop="name">Mario Cotto</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-mathieu-schreyer">
+                  <a href="/music/shows/mathieu-schreyer" itemprop="url" title="A global rhythm trip of passion and soul."><span itemprop="name">Mathieu Schreyer</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-metropolis">
+                  <a href="/music/shows/metropolis" itemprop="url" title="Explore the hypnotic pulse of current &amp; classic electronic dance music with Metropolis. A weekly Saturday night show from Jason Bentley, at KCRW.com."><span itemprop="name">Metropolis</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-music-special">
+                  <a href="/music/shows/music-special" itemprop="url" title="Special live performances, interviews and more."><span itemprop="name">Music Special</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-raul-campos">
+                  <a href="/music/shows/raul-campos" itemprop="url" title="Raul Campos creates a mix of emerging artists and current favorites, bringing essential cuts from around the world and a little closer to home -- from soulful grooves and fresh remixes to Latin rhythms and indie rock."><span itemprop="name">Raul Campos</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-the-lab">
+                  <a href="/music/shows/the-lab" itemprop="url" title="A roundtable of music experts."><span itemprop="name">The Lab</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-tom-schnabels-rhythm-planet">
+                  <a href="/music/shows/tom-schnabels-rhythm-planet" itemprop="url" title="Tom Schnabel features the latest and best in jazz and international music, with an emphasis on new Brazilian, European, African, and Tropical Latin music."><span itemprop="name">Rhythm Planet</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-travis-holcombe">
+                  <a href="/music/shows/travis-holcombe" itemprop="url" title="Lost un-classics, playful electronics, spine snapping breaks and a quirky selection of mind-melting grooves by the pound. Served fresh weekly."><span itemprop="name">Travis Holcombe</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-vuhaus-presents">
+                  <a href="/music/shows/vuhaus-presents" itemprop="url" title="KCRW brings you live streaming performances from other public radio stations, courtesy of VuHaus."><span itemprop="name">VuHaus Presents</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-find-share-rewind">
+                  <a href="/music/shows/find-share-rewind" itemprop="url" title="Bay Area groundbreaker DJ Shadow brings his innovative style to an exclusive monthly music residency show on KCRW. In Find, Share, Rewind, Shadow guides listeners through decades of genre-bending musical evolution."><span itemprop="name">Find, Share, Rewind</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-marion-hodges">
+                  <a href="/music/shows/marion-hodges" itemprop="url" title="If you see live music in Los Angeles, you've probably seen Marion Hodges -- either in her role as a blogger, a show promoter, or just a die-hard music fan, she is a ubiquitous presence at venues throughout the city..."><span itemprop="name">Marion Hodges</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-music-theblackmadonna">
+                  <a href="/music/shows/theblackmadonna" itemprop="url" title="Dance music is better with a luminary like The Black Madonna on the decks. For this limited series exclusive to KCRW, The Black Madonna digs deep into her extensive personal collection for a once-in-a-lifetime trek through the ABC’s of dance music—as only she can present it."><span itemprop="name">History Of The World, Parts I - III</span></a>
+              </li>
+            </ul></li>
+          
+          <li id="nav-subsection-shows-news-culture">
+            <h3 class="nav-heading" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+              <a href="http://www.kcrw.com/news-culture" title="" itemprop="url">
+                 <span itemprop="name">News &amp; Culture</span></a>
+            </h3>
+            <ul class="shows-section"><li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-to-the-point">
+                  <a href="/news-culture/shows/to-the-point" itemprop="url" title="To the Point, hosted by award-winning journalist Warren Olney. A fast-paced, news-based daily show about hot-button national issues of the day. At KCRW.com."><span itemprop="name">To the Point</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-left-right-center">
+                  <a href="/news-culture/shows/left-right-center" itemprop="url" title="Weekly half-hour program providing “A civilized yet provocative antidote to the screaming talking heads of political debate&quot; streaming &amp; podcasting at KCRW.com."><span itemprop="name">Left, Right &amp; Center</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-all-things-considered">
+                  <a href="/news-culture/shows/all-things-considered" itemprop="url" title="National Public Radio's weekday afternoon newsmagazine."><span itemprop="name">All Things Considered</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-art-talk">
+                  <a href="/news-culture/shows/art-talk" itemprop="url" title="Art reviews from art critics Edward Goldman and Hunter Drohojowska-Philp."><span itemprop="name">Art Talk</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-bookworm">
+                  <a href="/news-culture/shows/bookworm" itemprop="url" title="Bookworm, a premier literary talk show providing intellectual, accessible, and provocative literary conversations. Hosted by Michael Silverblatt at KCRW.com."><span itemprop="name">Bookworm</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-design-and-architecture">
+                  <a href="/news-culture/shows/design-and-architecture" itemprop="url" title="A thoughtful look at architecture and design in the modern age."><span itemprop="name">Design and Architecture</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-film-reviews">
+                  <a href="/news-culture/shows/film-reviews" itemprop="url" title="The Pulitzer Prize-winning critic of The Wall Street Journal, Joe Morgenstern reviews films weekly in the paper and on KCRW."><span itemprop="name">Film Reviews</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-good-food">
+                  <a href="/news-culture/shows/good-food" itemprop="url" title="Everything you wanted to know about good cooking, good eating, good food! From LA Chef, author, radio host, and restaurateur Evan Kleiman, at KCRW.com."><span itemprop="name">Good Food</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-hollywood-breakdown">
+                  <a href="/news-culture/shows/hollywood-breakdown" itemprop="url" title="KCRW’s 'The Business' host Kim Masters breaks down Hollywood's top stories."><span itemprop="name">Hollywood Breakdown</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-la-observed">
+                  <a href="/news-culture/shows/la-observed" itemprop="url" title="The week's top stories in LA media, politics and culture."><span itemprop="name">LA Observed</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-martini-shot">
+                  <a href="/news-culture/shows/martini-shot" itemprop="url" title="A wry take on real life in Hollywood."><span itemprop="name">Martini Shot</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-opening-the-curtain">
+                  <a href="/news-culture/shows/opening-the-curtain" itemprop="url" title="Musings on what Los Angeles theater is - and can be."><span itemprop="name">Opening the Curtain</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-orange-county-line">
+                  <a href="/news-culture/shows/orange-county-line" itemprop="url" title="OC Weekly editor Gustavo Arellano brings us a weekly tour of the real Orange County - warts and all."><span itemprop="name">Orange County Line</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-press-play-with-madeleine-brand">
+                  <a href="/news-culture/shows/press-play-with-madeleine-brand" itemprop="url" title="Madeleine Brand hosts Press Play, examining the latest ideas and trends shaping our world and Los Angeles. Streaming &amp; podcast daily at KCRW.com."><span itemprop="name">Press Play</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-second-opinion">
+                  <a href="/news-culture/shows/second-opinion" itemprop="url" title="An examination of medical ethics and the practioners who define them."><span itemprop="name">Second Opinion</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-strangers">
+                  <a href="/news-culture/shows/strangers" itemprop="url" title="From Peabody Award winner &amp; The Moth, Lea Thau presents Strangers, true stories about people and their lives. Streaming &amp; podcast at KCRW.com."><span itemprop="name">Strangers</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-the-business">
+                  <a href="/news-culture/shows/the-business" itemprop="url" title="The Business, an in-depth look inside the business of entertainment. Hosted by editor-at-Large of the Hollywood Reporter Kim Masters, at KCRW.com."><span itemprop="name">The Business</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-the-mixer">
+                  <a href="/news-culture/shows/the-mixer" itemprop="url" title="Steve Chiotakis talks to Los Angeles journalists about the week's leading news stories."><span itemprop="name">The Mixer</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-the-organist">
+                  <a href="/news-culture/shows/the-organist" itemprop="url" title="A bi-weekly experimental arts-and-culture program from McSweeney's and KCRW. &#13;&#10;   &#13;&#10; Subscribe to  The Organist’s occasional email newsletter ."><span itemprop="name">The Organist</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-the-spin-off">
+                  <a href="/news-culture/shows/the-spin-off" itemprop="url" title="Hosted by TV journalists Michael Schneider and Joe Adalian, KCRW's The Spin-off is the podcast that takes you inside the television industry. Twice a month we feature in-depth conversations with people who are changing what and how we watch. You'll hear from showrunners, writers, actors, executives and other TV journalists tackling the latest news and evolutions in television."><span itemprop="name">The Spin-off</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-the-treatment">
+                  <a href="/news-culture/shows/the-treatment" itemprop="url" title="In-depth interviews with the most innovative &amp; influential people in entertainment, art, and pop culture. Hosted by film critic Elvis Mitchell, at KCRW.com."><span itemprop="name">The Treatment</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-the-world">
+                  <a href="/news-culture/shows/the-world" itemprop="url" title="A weekday mix of news, features, interviews and music from around the globe."><span itemprop="name">The World</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-unfictional">
+                  <a href="/news-culture/shows/unfictional" itemprop="url" title="Captivating stories about life, by talented producers, writers, and performers in Los Angeles and around the country. Hosted by Bob Carlson, at KCRW.com."><span itemprop="name">UnFictional</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-cargoland">
+                  <a href="/news-culture/shows/cargoland" itemprop="url" title="Go behind the gates of America’s largest port complex for an intimate and unflinching look at the lives riding the waves of supply and demand."><span itemprop="name">Cargoland</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-here-be-monsters">
+                  <a href="/news-culture/shows/here-be-monsters" itemprop="url" title="Here Be Monsters is a growing community of radio producers, artists, and listeners who are interested in pursuing their fears and facing the unknown."><span itemprop="name">Here Be Monsters</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-below-the-ten-life-in-south-la">
+                  <a href="/news-culture/shows/below-the-ten-life-in-south-la" itemprop="url" title="Below the Ten: Stories of South LA  is an ongoing series telling intimate stories about the people who live in the neighborhoods south of the 10 Freeway, including Watts, Jefferson Park, and Compton. &#13;&#10; The series is supported by a grant from the Conrad N. Hilton Foundation."><span itemprop="name">Below the Ten: Life in South LA</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-zocalos-connecting-california">
+                  <a href="/news-culture/shows/zocalos-connecting-california" itemprop="url" title="Every week, Zócalo columnist and fourth-generation Southern Californian Joe Mathews talks to Morning Edition host Chery Glaser about 21st-century California's people, politics, trends and idiosyncrasies."><span itemprop="name">Zócalo's Connecting California</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-scheer-intelligence">
+                  <a href="/news-culture/shows/scheer-intelligence" itemprop="url" title="Scheer Intelligence features thoughtful and provocative conversations with &quot;American Originals&quot; -- people who, through a lifetime of engagement with political issues, offer unique and often surprising perspectives on the day's most important issues."><span itemprop="name">Scheer Intelligence</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-kcrw-investigates">
+                  <a href="/news-culture/shows/kcrw-investigates" itemprop="url" title="KCRW Investigates is an ongoing series focusing on some of the most vulnerable workers and the industries that employ them."><span itemprop="name">KCRW Investigates</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-off-the-block">
+                  <a href="/news-culture/shows/off-the-block" itemprop="url" title="A trip to jail, even a short stint, can upend many lives - the inmate, their loved ones, and their children among others. This series traces the path from city block to jail block and back."><span itemprop="name">Off the Block</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-the-document">
+                  <a href="/news-culture/shows/the-document" itemprop="url" title="The Document is a new kind of mash-up between documentaries and radio. It goes beyond clips and interviews, mining great stories from the raw footage of documentaries present, past and in-progress. A new episode is available every other Wednesday on iTunes and wherever fine podcasts are downloaded."><span itemprop="name">The Document</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-celestial-blood">
+                  <a href="/news-culture/shows/celestial-blood" itemprop="url" title="Celestial Blood is a bilingual radionovela about love and secrets in the family of twins Sol and Mundo Lucero. It’s narrated by Mexican actress Kate del Castillo."><span itemprop="name">Celestial Blood</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-sangre-celestial">
+                  <a href="/news-culture/shows/sangre-celestial" itemprop="url" title="Amor. Mentiras. Una receta secreta. Acompaña a Kate del Castillo y sigue las aventuras de los gemelos Sol y Mundo Lucero mientras tratan de descubrir la verdad acerca de su padre muerto Arturo. Pista: está en el infierno."><span itemprop="name">Sangre Celestial</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-screengrab">
+                  <a href="/news-culture/shows/screengrab" itemprop="url" title="Screengrab is a new KCRW commentary segment hosted by veteran TV journalists Michael Schneider and Joe Adalian. Each week, they'll have a lively discussion about the evolving world of television and that screens -- be they tablets, phones or TV sets -- increasingly dominate our lives."><span itemprop="name">Screengrab</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-kcrw-features">
+                  <a href="/news-culture/shows/kcrw-features" itemprop="url" title="KCRW's stories, special interviews, and in-depth reporting from the field. KCRW's features air on Morning Edition and All Things Considered."><span itemprop="name">KCRW Features</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-soundsla">
+                  <a href="/news-culture/shows/soundsla" itemprop="url" title="It's your city. What do you hear? KCRW looks at the sounds and people that make Los Angeles unique. Submit yours!  kcrw.com/soundsla"><span itemprop="name">SoundsLA</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-there-goes-the-neighborhood">
+                  <a href="/news-culture/shows/there-goes-the-neighborhood" itemprop="url" title="Los Angeles is having an identity crisis. City officials tout new development and shiny commuter trains, while longtime residents are doing all they can to hang on to home.        This eight-part series is supported by the Conrad N. Hilton Foundation."><span itemprop="name">There Goes the Neighborhood</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-the-805">
+                  <a href="/news-culture/shows/the-805" itemprop="url" title="The stories shaping California's Central Coast, hosted by Jonathan Bastian."><span itemprop="name">The 805</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-curious-coast">
+                  <a href="/news-culture/shows/curious-coast" itemprop="url" title="Whether you're a lifelong local or new to Southern California, there's always something new to discover.  So what do you want to know? Curious Coast answers your questions about the region, its culture and the people who live here. Submit yours: KCRW.com/CuriousCoast ."><span itemprop="name">Curious Coast</span></a>
+              </li>
+              <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-subitem-shows-news-culture-one-year-later">
+                  <a href="/news-culture/shows/one-year-later" itemprop="url" title="One Year Later is a special series that takes a new approach to the national political debate. A year after a polarizing election, three hosts, each with a distinct perspective, speak honestly about America's differences and look for ways to bridge the country's divides. &#13;&#10;   &#13;&#10; What's your perspective? Call us at  424-272-7082 !  Share your thoughts ."><span itemprop="name">One Year Later</span></a>
+              </li>
+            </ul></li>
+          
+        </ul></div>
+      
+    </li>
+    <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-podcasts">
+      <a href="http://www.kcrw.com/podcasts" title="" itemprop="url"><span itemprop="name">Podcasts</span></a>
+      
+
+      
+
+      <div id="nav-podcasts-items" class="basic-row three-cols headless">
+        <div class="tile-wrapper">
+          <div class="basic" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+            
+            <div class="photo"><a href="http://www.kcrw.com/news-culture/shows/one-year-later" title="One Year Later" itemprop="url"><img src="http://www.kcrw.com/news-culture/shows/one-year-later/@@images/2a43acf8-4e34-4563-a714-0b36e4cde000.jpeg" alt="One Year Later" title="One Year Later" height="592" width="592" /></a></div>
+            <div class="program-info">
+              <p>
+                <strong class="title" itemprop="name">One Year Later</strong>
+                <span class="subtitle" itemprop="description">One Year Later is a special series that takes a new approach to the national political debate. A year after a polarizing election, three hosts, each with a distinct perspective, speak honestly about America's differences and look for ways to bridge the country's divides. 
+   
+ What's your perspective? Call us at  424-272-7082 !  Share your thoughts .</span>
+              </p>
+              <a class="button subscribe" href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=1313471557">Subscribe</a>
+            </div>
+            
+          </div>
+          <div class="basic" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+            
+            <div class="photo"><a href="http://www.kcrw.com/news-culture/shows/to-the-point" title="To the Point" itemprop="url"><img src="http://www.kcrw.com/news-culture/shows/to-the-point/@@images/e89dd848-12c7-485f-ad32-0f986113c001.jpeg" alt="To the Point" title="To the Point" height="592" width="592" /></a></div>
+            <div class="program-info">
+              <p>
+                <strong class="title" itemprop="name">To the Point</strong>
+                <span class="subtitle" itemprop="description">To the Point, hosted by award-winning journalist Warren Olney. A fast-paced, news-based daily show about hot-button national issues of the day. At KCRW.com.</span>
+              </p>
+              <a class="button subscribe" href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=73330613">Subscribe</a>
+            </div>
+            
+          </div>
+          <div class="basic" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+            
+            <div class="photo"><a href="http://www.kcrw.com/news-culture/shows/there-goes-the-neighborhood" title="There Goes the Neighborhood" itemprop="url"><img src="http://www.kcrw.com/news-culture/shows/there-goes-the-neighborhood/@@images/6c834376-4828-454a-b0be-0b2fefaacd03.png" alt="There Goes the Neighborhood" title="There Goes the Neighborhood" height="592" width="592" /></a></div>
+            <div class="program-info">
+              <p>
+                <strong class="title" itemprop="name">There Goes the Neighborhood</strong>
+                <span class="subtitle" itemprop="description">Los Angeles is having an identity crisis. City officials tout new development and shiny commuter trains, while longtime residents are doing all they can to hang on to home.        This eight-part series is supported by the Conrad N. Hilton Foundation.</span>
+              </p>
+              <a class="button subscribe" href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=1089555645">Subscribe</a>
+            </div>
+            
+          </div>
+          <a id="more-podcasts-nav" class="basic sub-nav-more last" href="http://www.kcrw.com/podcasts" title="Podcasts"><span>All Podcasts</span></a>
+          
+        </div>
+      </div>
+
+      
+
+      
+      
+    </li>
+    <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-music">
+      <a href="http://www.kcrw.com/music" title="" itemprop="url"><span itemprop="name">Music</span></a>
+      
+
+      
+
+      
+
+      
+
+      
+      
+    </li>
+    <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-schedule">
+      <a href="http://www.kcrw.com/live-streams#on_air_schedule" title="" itemprop="url"><span itemprop="name">Schedule</span></a>
+      
+
+      
+
+      
+
+      
+
+      
+      
+    </li>
+    <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-blogs">
+      <a href="http://www.kcrw.com/blogs" title="" itemprop="url"><span itemprop="name">Blogs</span></a>
+      
+
+      
+
+      
+
+      
+
+      
+      
+    </li>
+    <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-playlist">
+      <a href="http://www.kcrw.com/playlists" title="" itemprop="url"><span itemprop="name">Playlist</span></a>
+      
+
+      
+
+      
+
+      
+
+      
+      
+    </li>
+    <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-events">
+      <a href="http://events.kcrw.com" title="" itemprop="url"><span itemprop="name">Events</span></a>
+      
+
+      
+
+      
+
+      
+
+      
+      
+    </li>
+    <li itemscope="" itemtype="http://schema.org/SiteNavigationElement" id="nav-donate">
+      <a href="http://www.kcrw.com/join" title="" itemprop="url"><span itemprop="name">Donate</span></a>
+      
+
+      
+
+      
+
+      
+
+      
+      
+    </li>
+  </ul><div id="in_nav_user_links" class="top-level mobile-only">
+                 <a href="#" id="in_nav_login" class="first action"></a> 
+                 
+                
+              </div>
+              <div class="nav-right">
+                <a id="player-expand-button" href="#">Expand</a>
+                <a href="#" id="player_start_stop_small" class=""></a>
+                <div id="user-actions">
+  
+</div>
+                
+                <a href="#" id="eb_volume"></a>
+                <div id="eb_volume_slider_container">
+                  <input id="eb_volume_slider" style="visibility:hidden;" value="50" type="text" data-slider-animate="false" data-slider="true" data-slider-highlight="true" data-slider-range="1,100" data-slider-snap="true" data-slider-step="1" data-slider-vertical="true" /></div>
+                <a href="#" id="eb_search"></a>
+              </div>
+              <a href="#" id="nav_close"></a>
+              <script>
+                $('#nav-shows .nav-heading a').click(function (e) {
+                  var $container = $(this).closest('li');
+                  if (!$('body').hasClass('nav-opened') || $container.hasClass('active')) {
+                    return true;
+                  }
+                  $container.addClass('active');
+                  $container.siblings('li').removeClass('active');
+                  e.stopPropagation();
+                  e.preventDefault();
+                  return false;
+                });
+                $('#nav_close').click(function (e) {
+                  $('body').removeClass('nav-opened');
+                  e.preventDefault();
+                  e.stopPropagation();
+                  return false;
+                });
+                $('a#more-featured-nav').click(function () {
+                  var _hide_css = {
+                    'transition': 'unset',
+                    '-webkit-transition': 'unset',
+                    '-moz-transition': 'unset',
+                    'pointer-events': 'none',
+                    'display': 'none'
+                  };
+                  var _default_css = {
+                    'transition': '',
+                    '-webkit-transition': '',
+                    '-moz-transition': '',
+                    'pointer-events': '',
+                    'display': ''
+                  };
+                  var $dropdowns = $('#main-navigation .basic-row.three-cols');
+                  $dropdowns.css(_hide_css);
+
+                  function _restore_dropdowns() {
+                    $dropdowns.css(_default_css);
+                    $('body').off('mousemove', _restore_dropdowns);
+                  }
+                  $('body').on('mousemove', _restore_dropdowns);
+
+                });
+                $(function () {
+                  $('html.touch #nav-shows > a, html.touch #nav-podcasts > a, html.touch #nav-featured > a, html.touch #nav-apps > a').on('click touchstart', function (e) {
+                    if ($('body').hasClass('nav-opened')) {
+                      return true;
+                    }
+                    e.preventDefault();
+                    e.stopPropagation();
+                    return false;
+                  });
+                  $('li#nav-listen-live .basic.channel-kcrwmusic').on('hover', function () {
+                    $(this).find('.program-info').kcrw_NowPlaying({channel_id: 'kcrwmusic'});
+                  });
+                  $('li#nav-listen-live .basic.channel-kcrwlive').on('hover', function () {
+                    $(this).find('.program-info').kcrw_NowPlaying({channel_id: 'kcrwlive'});
+                  });
+                });
+              </script></nav><p id="mobile_player_support" class="button-container mobile-only">
+              <a href="/join" class="button pink">DONATE!</a>
+            </p>
+          </div><div id="extra_player_content_container" class="other-shows fixed">
+            <img src="/++theme++kcrw.theme/images/close-x.png" class="close-up-next" title="close" alt="close" /><div id="extra_player_content">
+              <ul class="other-shows-list"><li id="extra_player_up_next">
+                  <div>
+                    <span class="top">UP NEXT</span>
+                    <span class="title">NPR'S MORNING EDITION</span>
+                    <span class="description">Nine Months After Sandy, Baby Boom (6 am - 9 am)</span>
+                  </div>
+                </li>
+                <li id="extra_player_live_stream">
+                  <div>
+                    <span class="top">LIVE STREAM</span>
+                    <a href="#" class="stream">
+                      <span class="icon"><i></i></span>
+                      <span class="title">ELECTIC 24</span>
+                      <span class="description">KCRW’s signature music blend.</span>
+                    </a>
+                  </div>
+                </li>
+                <li id="extra_player_recommendation">
+                  <div>
+                    <span class="top">YOU MIGHT LIKE</span>
+                    <a href="#" class="stream">
+                      <span class="icon"><i></i></span>
+                      <span class="title">TOM SCHNABEL’S RHYTHM PLANET</span>
+                      <span class="description">KCRW’s signature music blend.</span>
+                    </a>
+                  </div>
+                </li>
+              </ul></div>
+          </div><div id="breadcrumb-area"></div><div id="body_content">
+            <div id="content"><script class="ad-target" type="text/javascript">
+    var _KCRW_UID = '5087c462cf000e131d09741c9e5da093';
+    var _KCRW_portal_type = 'kcrw.site.episode';
+    var _KCRW_context_url = 'http://www.kcrw.com/news-culture/shows/the-treatment/bill-hader-saturday-night-live';
+
+    var googletag = googletag || {};
+    if (googletag.cmd !== undefined) {
+      googletag.cmd.push(function() {
+        var ads = googletag.pubads();
+        ads.clearTargeting();
+        
+        ads.setTargeting('section',
+                         ["news-culture"]);
+        
+        ads.setTargeting('program',
+                         ["the-treatment"]);
+        
+        ads.setTargeting('view',
+                         ["plone"]);
+        
+      });
+    }
+
+    if (dataLayer && dataLayer.push) {
+      dataLayer.push({
+        'kcrw_uid': _KCRW_UID,
+        'kcrw_portal_type': _KCRW_portal_type
+      });
+    }
+  </script>
+              <div class="bg-image"></div>
+              <dl class="portalMessage info" id="kssPortalMessage" style="display:none"><dt>Info</dt>
+        <dd></dd>
+    </dl><div class="container">
+
+                            
+
+                            
+
+        
+
+            
+
+                
+
+                <div id="content-core">
+                  <div class="container404">
+                    <img class="img404" src="http://www.kcrw.com/site_images/misc/404-page-graphic/image" alt="Ruh Roh! 404! Sorry, this page is unplugged!" /><h3>Looking for something specific?</h3>
+                    <section class="top-level" id="search_results_header"><form action="http://www.kcrw.com/@@search" method="GET">
+                        <div id="search_inputs">
+                          <input type="search" name="q" id="search_field" placeholder="SEARCH" /><input type="submit" id="search_button" value="ENTER TO SEARCH" /></div>
+                      </form>
+                    </section></div>
+                </div>
+            
+
+        
+
+        
+        
+
+
+                        </div>
+            </div><!-- end #content -->
+            <footer id="footer"><div class="top-level" itemscope="" itemtype="http://schema.org/BroadcastService">
+                <p class="download">
+                  DOWNLOAD OUR APPS FOR:
+                  <span class="links">
+    
+      <a href="http://www.kcrw.com/about/kcrw-mobile-applications">iOS</a>
+      |
+    
+      <a href="http://www.kcrw.com/about/kcrw-mobile-applications">ANDROID</a>
+      
+    
+  </span>
+                </p>
+                <div class="col-logo">
+                  <a href="http://www.kcrw.com" id="footer_logo" title="KCRW" itemprop="url">KCRW</a>
+                  <span class="SchemaMeta" itemprop="name">KCRW-FM</span>
+                  <img class="SchemaMeta" src="//www.kcrw.com/++theme++kcrw.theme/images/footer-logo.png" alt="KCRW Logo" itemprop="logo" /><span class="SchemaMeta" itemprop="broadcastDisplayName">KCRW</span>
+                  <div class="SchemaMeta" itemprop="broadcastFrequency" itemscope="" itemtype="http://schema.org/BroadcastFrequencySpecification">
+                    <meta itemprop="broadcastFrequencyValue" content="89.9" /><meta itemprop="broadcastSignalModulation" content="FM" /><meta itemprop="description" content="KCRW is a National Public Radio member station broadcasting from Santa Monica, CA. A unique mix of content centered around music discovery, NPR news, cultural exploration and informed public affairs." /></div>
+                </div>
+                <div class="col-1">
+                  <div class="footer_nav_container">
+                    <p class="desktop-only"> <!-- spacer --></p>
+                    <div class="diazo-links-1">
+    
+      <p><a href="http://www.kcrw.com/about">About KCRW / Contact</a></p>
+    
+      <p><a href="http://www.kcrw.com/careers">Careers &amp; Volunteers</a></p>
+    
+      <p><a href="http://www.kcrw.com/benefits">Fringe Benefits</a></p>
+    
+      <p><a href="http://capitalcampaign.kcrw.com/">Capital Campaign</a></p>
+    
+      <p><a href="http://www.kcrw.com/help">Help / FAQ</a></p>
+    
+  </div>
+                  </div>
+                </div>
+                <div class="col-3 mobile">
+                  <p>FOLLOW KCRW ON:</p>
+                  <div class="diazo-follow">
+    
+      <p><a itemprop="sameAs" href="https://www.facebook.com/kcrwradio">Facebook</a></p>
+    
+      <p><a itemprop="sameAs" href="https://twitter.com/kcrw">Twitter</a></p>
+    
+      <p><a itemprop="sameAs" href="http://instagram.com/kcrw">Instagram</a></p>
+    
+      <p><a itemprop="sameAs" href="https://www.youtube.com/user/kcrw">YouTube</a></p>
+    
+      <p><a itemprop="sameAs" href="https://soundcloud.com/kcrw">SoundCloud</a></p>
+    
+  </div>
+                </div>
+                <div class="col-2">
+                  <div class="footer_nav_container">
+                    <p class="desktop-only"> <!-- spacer --></p>
+                    <div class="diazo-links-2">
+    
+      <p><a href="http://www.kcrw.com/music/dj-picks">DJ Picks</a></p>
+    
+      <p><a href="http://www.kcrw.com/about/newsletters">Newsletters</a></p>
+    
+      <p><a href="http://www.sponsorkcrw.org/">Become a Sponsor</a></p>
+    
+      <p><a href="http://events.kcrw.com/">Events</a></p>
+    
+      <p><a href="http://www.kcrw.com/playlists">Playlists</a></p>
+    
+  </div>
+                  </div>
+                </div>
+                <div class="col-3 desktop">
+                  <p>FOLLOW KCRW ON:</p>
+                  <div class="diazo-follow">
+    
+      <p><a itemprop="sameAs" href="https://www.facebook.com/kcrwradio">Facebook</a></p>
+    
+      <p><a itemprop="sameAs" href="https://twitter.com/kcrw">Twitter</a></p>
+    
+      <p><a itemprop="sameAs" href="http://instagram.com/kcrw">Instagram</a></p>
+    
+      <p><a itemprop="sameAs" href="https://www.youtube.com/user/kcrw">YouTube</a></p>
+    
+      <p><a itemprop="sameAs" href="https://soundcloud.com/kcrw">SoundCloud</a></p>
+    
+  </div>
+                </div>
+              </div>
+              <div id="footer_eyebrow">
+                <div class="top-level">
+                  <span class="copyright">
+    © 2018 KCRW All Rights Reserved. Made in L.A.
+  </span>
+
+                  <span class="links">
+                    <a href="/about/terms-of-service">TERMS OF SERVICE</a>
+                      |  
+                    <a href="/about/privacy-policy">PRIVACY POLICY</a>
+                  </span>
+                </div>
+              </div>
+            </footer></div><script>
+            // This is a global var used to tell our dragging/touch lib (jquery.event.eu.js) when we're scrubbing or not scrubbing.
+            // It's necessary to prevent the text cursor icon from showing when scrubbing, we want to keep the pointer icon.
+            // Checkout it out in said JS for details.
+            _KCRWIsScrubberMoving = false;
+
+             // Delegate .transition() calls to .animate()
+             // if the browser can't do CSS transitions.
+             if (!$.support.transition)
+             $.fn.transition = $.fn.animate;
+
+             // TODO  - all these observers ought to go somewhere better.
+             $(function(){
+
+               // Default to the player open if not mobile.
+               if(!isMobile() || $('body').hasClass('breakout-player')){
+                 togglePlayer();
+               }
+
+               $('#extra_player_content_container').find('.close-up-next').click(function(e){
+                 // the player handles closing the extra info area.
+                 $.KCRW.player.hideExtraInfo();
+                 e.preventDefault();
+               });
+
+               // Search toggle button.
+               $('#eb_search').click(function(e){
+                 // Already open? Close it.
+                 if($('body').hasClass('search-open')){
+                   closeModal($('#search_modal_background'));
+                 } else {
+                   // Always close the other modals if they're open.
+                   closeModal($('#starred_modal_background'));
+                   showModal($('#search_modal_background'), function(){
+                     $('.nav-overlay #search_field').focus(); // Give the search field focus.
+                   });
+                 }
+                 e.preventDefault();
+               });
+
+               // Starred articles toggle button.
+               $('#eb_star, #nav_starred a').click(function(e){
+                 if($('body').hasClass('starred-open')){
+                   closeModal($('#starred_modal_background'));
+                 } else {
+                   closeModal($('#search_modal_background'));
+                   var favorites = JSON.parse(localStorage.getItem('favorites'));
+                   if (favorites == null) {
+                     favorites=[];
+                   }
+                   var starred_url = _KCRW_portal_url + "favorites";
+                   $('#starred_container').load(starred_url + " #starred_wrapper",
+                     {favs: favorites},
+                     function () {
+                       $('#starred_wrapper .download-link').kcrw_Flyout({
+                         flyoutId: '#download_flyout'
+                       });
+                       $('#starred_wrapper .share-link').kcrw_Flyout({
+                         flyoutId: '#share_flyout'
+                       });
+                     });
+                   showModal($('#starred_modal_background'));
+                 }
+                 e.preventDefault();
+               });
+
+               // Toggle the player.
+               $('#player-expand-button, #eb_headphones').click(function(e){
+                 e.preventDefault();
+                 togglePlayer(e);
+                 $('body').removeClass('nav-opened');
+               });
+               // Hide the player.
+               $('#player_hide').click(function(e){
+                  e.preventDefault();
+                  togglePlayer(e);
+                });
+
+               // Toggle volume control.
+               function volume_hide_delay() {
+                 if (!$('#eb_volume').is(':hover') && !$('#eb_volume_slider_container').is(':hover')) {
+                   $('body').removeClass('show-volume');
+                 }
+               }
+               var _volume_hide_timeout;
+               var _last_volume = 50;
+               $('#eb_volume').click(function(e){
+                 if (_volume_hide_timeout) {
+                   clearTimeout(_volume_hide_timeout);
+                   _volume_hide_timeout = null;
+                 }
+                 var slider_data = $('#eb_volume_slider').data().sliderObject;
+                 var volume = slider_data.value;
+                 if (volume <= 1) {
+                   slider_data.setValue(_last_volume);
+                 } else {
+                   _last_volume = volume;
+                   slider_data.setValue(0);
+                 }
+                 if (!$('body').hasClass('show-volume')) {
+                   $('body').addClass('show-volume');
+                 }
+                 e.preventDefault();
+               });
+               $('#eb_volume').hover(function(){
+                 if (_volume_hide_timeout) {
+                   clearTimeout(_volume_hide_timeout);
+                   _volume_hide_timeout = null;
+                 }
+                 $('body').addClass('show-volume');
+               });
+               $('#eb_volume, #eb_volume_slider_container').mouseout(function() {
+                 if (_volume_hide_timeout) {
+                   clearTimeout(_volume_hide_timeout);
+                   _volume_hide_timeout = null;
+                 }
+                 _volume_hide_timeout = setTimeout(volume_hide_delay, 500);
+               });
+
+               var _now_date = moment();
+               // April Fools
+               if (_now_date.date() === 1 && (_now_date.month() + 1) === 4) {
+                 $.KCRW.player.$el.bind('start', function(e){
+                   if (!$('body').hasClass('egg')) {
+                     egg();
+                   }
+                 });
+               }
+               // Halloween
+               if ((_now_date.date() <= 31 && _now_date.date() >= 24) && (_now_date.month() + 1) === 10) {
+                $('body').addClass('halloween');
+                $(window).on('statechangecomplete ', function () {
+                  $('body').addClass('halloween');
+                });
+               }
+
+               $('#eb_toggle').click(function(e){
+                 if($('body').hasClass('nav-opened')){
+                   $('body').removeClass('nav-opened');
+                 } else {
+                   $('body').addClass('nav-opened');
+                   if (isMobile()) {
+                     $('body').removeClass('player-open');
+                   }
+                 }
+                 e.preventDefault();
+               });
+
+               var $channels = $('#eb-channels');
+               function _hide_channels () {
+                 if (!$('#eb-channels').is(':hover')) {
+                   $channels.removeClass('show');
+                 }
+               }
+               var _channel_hide_timeout;
+               var _click_channel_closed;
+               function _show_channels() {
+                  var left_pos = $('#player_channel_trigger').offset().left;
+                  $channels.css('left', left_pos + 5);
+                  $channels.addClass('show');
+               }
+
+               $('#player_channel_trigger').on('click', function(e) {
+                  _show_channels();
+                  if (_channel_hide_timeout){
+                    clearTimeout(_channel_hide_timeout);
+                    _channel_hide_timeout = null;
+                  }
+                  if (!$channels.hasClass('show')) {
+                    _click_channel_closed = true;
+                  }
+                  e.preventDefault();
+               });
+               $('#player_channel_trigger, #player_main_title').on('hover', function() {
+                  if (_channel_hide_timeout){
+                    clearTimeout(_channel_hide_timeout);
+                    _channel_hide_timeout = null;
+                  }
+                  if (!_click_channel_closed && !$channels.hasClass('show')) {
+                    _show_channels();
+                  }
+               });
+               $('#eb-channels').mouseout(function() {
+                  if (_channel_hide_timeout){
+                    clearTimeout(_channel_hide_timeout);
+                    _channel_hide_timeout = null;
+                  }
+                  _channel_hide_timeout = setTimeout(_hide_channels, 500);
+               });
+               $('#player_channel_trigger, #player_main_title').mouseout(function() {
+                  if (_channel_hide_timeout){
+                    clearTimeout(_channel_hide_timeout);
+                    _channel_hide_timeout = null;
+                  }
+                  _click_channel_closed = false;
+                  _channel_hide_timeout = setTimeout(_hide_channels, 2000);
+               });
+
+               $('#main-navigation li.custom-nav > a').click(function (e) {
+                 e.preventDefault();
+               });
+
+             });
+
+             // Konami code to trigger the egg.
+             var konami_keys = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
+             var konami_index = 0;
+             $(document).keydown(function(e){
+                 if(e.keyCode === konami_keys[konami_index++]){
+                     if(konami_index === konami_keys.length){
+                         $(document).unbind('keydown', arguments.callee);
+                         egg();
+                     }
+                 }else{
+                     konami_index = 0;
+                 }
+             });
+
+             $('#copyright-year').text(moment().year());
+          </script><!-- the background element used behind the modals --><div class="modal-background"></div><!-- the flyout markup that gets reused per each flyout event --><div id="download_flyout" class="flyout arrowed-popup arrow-up">
+            <div class="row">
+              <a href="#" class="button popup pink" id="itunes_flyout_link">iTUNES</a>
+              <a href="#" class="button popup pink" id="spotify_flyout_link">SPOTIFY</a>
+            </div>
+            <div class="row">
+              <a href="#" class="button popup pink" id="amazon_flyout_link">AMAZON</a>
+              <a href="#" class="button popup pink" id="rdio_flyout_link">RDIO</a>
+            </div>
+            <div class="arrow"></div>
+          </div><div id="share_flyout" class="flyout arrowed-popup arrow-up">
+            <div class="row">
+              <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+                <a class="share-button addthis_button_facebook"><i class="fa fa-facebook"></i><b>FACEBOOK</b></a>
+                <a class="share-button addthis_button_twitter"><i class="fa fa-twitter"></i><b>TWITTER</b></a>
+                <a class="share-button addthis_button_email"><i class="fa fa-envelope"></i><b>EMAIL</b></a>
+              </div>
+              <a class="share-button copy-button" title="Copy URL"><i class="fa fa-link"></i><b>COPY LINK</b></a>
+              <span class="tooltip" role="tooltip" aria-hidden="true"></span>
+              <a href="#" class="share-button download-direct-link" title="Download Audio"><i class="fa fa-arrow-down"></i></a>
+              <a href="#" class="share-button embed-link" title="Embed"><i class="fa fa-code"></i></a>
+            </div>
+            <div class="arrow"></div>
+          </div><div id="follow_flyout" class="flyout arrowed-popup arrow-up">
+            <div class="row">
+              <a href="#" class="button popup pink" id="facebook_follow_link">FACEBOOK</a>
+              <a href="#" class="button popup pink" id="twitter_follow_link">TWITTER</a>
+            </div>
+            <div class="arrow"></div>
+          </div><div id="embed-flyout" class="flyout arrowed-popup arrow-up">
+            <h4>Player Embed Code</h4>
+            <div class="row">
+              <textarea readonly="readonly" onfocus="this.select()"></textarea></div>
+            <div class="row">
+              <a href="#" class="button pink" id="copy_embed_link">COPY EMBED</a>
+            </div>
+            <div class="arrow"></div>
+          </div><!-- the markup for the modals --><div id="search_modal_background" class="modal-content" data-body-class="search-open">
+  <div class="modal-close"><a href="#">CLOSE</a></div>
+  <section id="search_container" class="nav-overlay"><form action="http://www.kcrw.com/@@search">
+      <div id="search_inputs">
+        <input type="search" id="search_field" name="q" /><button type="submit" id="search_button">ENTER TO SEARCH</button>
+      </div>
+    </form>
+
+    <table id="search_results_preview"></table></section></div><div id="starred_modal_background" class="modal-content" data-body-class="starred-open">
+            <div class="modal-close"><a href="#">CLOSE</a></div>
+            <div id="starred_container" class="nav-overlay">
+            </div>
+          </div><div id="embed_modal_background" class="modal-content" data-body-class="embed-open">
+            <div class="modal-close"><a href="#">CLOSE</a></div>
+            <div id="embed-modal">
+              <ul class="tab-header"><li class="active"><a href="#large-embed">LARGE PLAYER</a></li>
+                <li><a href="#small-embed">SMALL PLAYER</a></li>
+              </ul><div id="large-embed" class="tab-content active">
+                <div class="EmbedWrapper"><textarea readonly="readonly" onfocus="this.select()"></textarea></div>
+                <a href="#" class="copy-embed button pink" data-clipboard-target="#large-embed textarea">Copy Embed</a>
+                <span class="tooltip" role="tooltip" aria-hidden="true"></span>
+              </div>
+              <div id="small-embed" class="tab-content">
+                <div class="EmbedWrapper"><textarea readonly="readonly" onfocus="this.select()"></textarea></div>
+                <a href="#" class="copy-embed button pink" data-clipboard-target="#small-embed textarea">Copy Embed</a>
+                <span class="tooltip" role="tooltip" aria-hidden="true"></span>
+              </div>
+            </div>
+          </div><script type="text/javascript" src="//cdn.adswizz.com/adswizz/js/SynchroClient2.js"></script><script type="text/javascript" src="//synchrobox.adswizz.com/register2.php"></script><script class="kcrw-foot" type="text/javascript">
+
+    if (window.location.hostname.search('beta.kcrw.com') != -1 || window.location.hostname.search('cms.kcrw.com') != -1) {
+      window['ga-disable-UA-404580-2'] = true;
+    }
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-404580-2']);
+    _gaq.push(['_setDomainName', 'none']);
+    if (window._KCRW_UID) {
+      _gaq.push(['_setCustomVar', 1, 'UID', window._KCRW_UID, 3]);
+      _gaq.push(['_setCustomVar', 2, 'portal_type', window._KCRW_portal_type, 3]);
+    }
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script></body></html>
