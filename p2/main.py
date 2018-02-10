@@ -1,19 +1,17 @@
-from pylab import *
+import os
+import time
+import urllib
+import cPickle
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
 import matplotlib.cbook as cbook
-import time
+from pylab import *
+from numpy import random
+from scipy.io import loadmat
 from scipy.misc import imread
 from scipy.misc import imresize
-import matplotlib.image as mpimg
 from scipy.ndimage import filters
-import urllib
-from numpy import random
-
-import cPickle
-
-import os
-from scipy.io import loadmat
 
 #Load the MNIST digit data
 M = loadmat("mnist_all.mat")
@@ -67,9 +65,9 @@ y = argmax(output)
 
 ################################################################################
 #Code for displaying a feature from the weight matrix mW
-#fig = figure(1)
-#ax = fig.gca()    
-#heatmap = ax.imshow(mW[:,50].reshape((28,28)), cmap = cm.coolwarm)    
-#fig.colorbar(heatmap, shrink = 0.5, aspect=5)
-#show()
+fig = figure(1)
+ax = fig.gca()    
+heatmap = ax.imshow(mW[:,50].reshape((28,28)), cmap = cm.coolwarm)    
+fig.colorbar(heatmap, shrink = 0.5, aspect=5)
+show()
 ################################################################################
