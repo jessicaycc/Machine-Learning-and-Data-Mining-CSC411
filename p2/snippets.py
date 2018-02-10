@@ -16,8 +16,10 @@ from scipy.ndimage import filters
 #Load the MNIST digit data
 M = loadmat("mnist_all.mat")
 
+
 #Display the 150-th "5" digit from the training set
-imshow(M["train5"][150].reshape((28,28)), cmap=cm.gray)
+imshow(M["train7"][150].reshape((28,28)), cmap=cm.gray)
+
 show()
 
 
