@@ -37,44 +37,45 @@ def relativeError(a, b):
     a, b = abs(a), abs(b)
     return 2*abs(a-b) / float(a+b)
 
-def gradDescent(f, df, x, w0, y, p, alpha=LRN_RATE, intr=5000, maxIter=MAX_ITER, out=True):
-    def update(f, df, x, y, p, i):
-        print "Iter", i
-        print "J(x) =", f(y, p) 
-        print "Gradient:", df(x, y, p), "\n"
-        return
-
+def gradDescent(x, y, w0, b0):
     i = 0
-    W = w0.copy()
+    w = w0.copy()
+    b = b0.copy()
     wPrev = w0 - 10*EPS
-    while norm(W - wPrev) > EPS and i < maxIter:
-        wPrev = W.copy()
-        W -= alpha * df(x, y, p)
-        if i % intr == 0 and out:
-            update(f, df, x, y, p, i)
+    bPrev = b0 - 10*EPS
+    while norm(w - wPrev) > EPS or norm(b - bPrev) > EPS and i < MAX_ITER:
+        wPrev = w.copy()
+        bPrev = b.copy()
+        p = forward(x, w ,b)
+        w -= LRN_RATE * dC_weight(x, y, p)
+        b -= LRN_RATE * dC_bias(y, p)
+        if i % 500 == 0:
+            print "Iter", i
+            print "C(y, p) =", C(y, p), '\n'
         i += 1
-    if out:
-        update(f, df, x, y, p, i)
-    return W
+    return w, b
+
 
 np.random.seed(0)
 M = loadmat("mnist_all.mat")
 
 x = np.array([ M["train0"][150].reshape(IMG_SHAPE).flatten() / 255. ]).T
 y = np.array([ [1, 0, 0, 0, 0, 0, 0, 0, 0, 0] ]).T
-w = np.random.rand(len(x), len(y))
-b = np.random.rand(len(y), 1)
+w0 = np.random.rand(len(x), len(y))
+b0 = np.random.rand(len(y), 1)
 
-n = dC_weight(x, y, forward(x, w, b))
-m = finiteDiff_weight(x, w, b, y, 153, 5)
-print relativeError(n[153][5], m)
-w0 = np.zeros((len(x), len(y)))
-print (gradDescent(C, dC_weight, x, w0, y, forward(x ,w0, b)))
+#n = dC_weight(x, y, forward(x, w, b))
+#m = finiteDiff_weight(x, w, b, y, 153, 5)
+#print relativeError(n[153][5], m)
 
+#n = dC_bias(y, forward(x, w, b))
+#m = finiteDiff_bias(x, w, b, y, 1)
+#print relativeError(n[1][0], m)
 
-n = dC_bias(y, forward(x, w, b))
-m = finiteDiff_bias(x, w, b, y, 1)
-print relativeError(n[1][0], m)
+#w0 = np.zeros((len(x), len(y)))
+#b0 = np.zeros((len(y), 1))
+
+w, b = gradDescent(x, y, w0, b0)
 
 #Display the 150-th "5" digit from the training set
 #imshow(M["train0"][150].reshape(IMG_SHAPE), cmap=cm.gray)
