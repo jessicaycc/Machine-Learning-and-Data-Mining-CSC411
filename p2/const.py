@@ -11,6 +11,6 @@ SET_RATIO = (100, 10, 10)
 
 LABEL = np.identity(10)
 
-EPS = 1e-5
-LRN_RATE = 0.1
+EPS = 1e-4
+LRN_RATE = 0.01
 MAX_ITER = 30000
