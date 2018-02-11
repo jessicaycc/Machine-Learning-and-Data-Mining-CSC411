@@ -1,7 +1,7 @@
 from const import *
 
 def softmax(O):
-    return exp(O)/np.tile(sum(exp(O),0), (len(O),1))
+    return exp(O)/exp(O).sum(axis=1, keepdims=True)
 
 def forward(X, W, b):
     i = np.ones((len(X), 1))

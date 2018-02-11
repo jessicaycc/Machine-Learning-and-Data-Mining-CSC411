@@ -1,4 +1,3 @@
-from const import *
 from NN import *
 
 def C(Y, P):
@@ -35,7 +34,7 @@ def gradDescent(X, Y, W0, b0):
     b = b0.copy()
     WPrev = W0 - 10*EPS
     bPrev = b0 - 10*EPS
-    while norm(W-WPrev)>EPS or norm(b-bPrev)>EPS and i<MAX_ITER:
+    while (norm(W-WPrev)>EPS or norm(b-bPrev)>EPS) and i<MAX_ITER:
         WPrev = W.copy()
         bPrev = b.copy()
         P = forward(X, W, b)
