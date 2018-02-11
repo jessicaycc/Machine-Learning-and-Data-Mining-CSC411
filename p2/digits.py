@@ -5,20 +5,18 @@ from scipy.io import loadmat
 
 np.random.seed(0)
 M = loadmat("mnist_all.mat")
-print np.shape(M)
 
-def genX():
-    Matrix = np.empty((0,784), float)
-    for i in range (0,10):
-        for j in range (SET_RATIO[0]):
-            filename = "train" + str(i)
-            x =np.array([ M[filename][j].reshape(IMG_SHAPE).flatten() / 255. ])
-            Matrix = np.vstack((Matrix, x))
-    return Matrix
-X = genX()
-#Y = genY(M)
 X = genX(M)
 Y = genY(SET_RATIO[0])
+W = np.random.rand(NUM_LABEL, NUM_FEAT)
+b = np.random.rand(NUM_LABEL, 1)
 
-#x = np.array([ M["train0"][150].reshape(IMG_SHAPE).flatten() / 255. ]).T
-#y = np.array([ [1, 0, 0, 0, 0, 0, 0, 0, 0, 0] ]).T
+P = forward(X, W, b)
+
+n = dC_weight(X, Y, P)
+m = finiteDiff_weight(X, Y, W, b, 0, 38)
+print relativeError(n[0][38], m)
+
+n = dC_bias(X, Y, P)
+m = finiteDiff_bias(X, Y, W, b, 1)
+print relativeError(n[1][0], m)

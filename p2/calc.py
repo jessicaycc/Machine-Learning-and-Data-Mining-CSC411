@@ -1,23 +1,24 @@
 from const import *
+from NN import *
 
 def C(Y, P):
-    return -sum(Y*log(P))
+    return -np.sum(Y*log(P))
 
 def dC_weight(X, Y, P):
     return dot((P-Y).T, X)
 
 def dC_bias(X, Y, P):
-    i = np.ones(len(X))
+    i = np.ones((len(X), 1))
     return dot((P-Y).T, i)
 
-def finiteDiff_weight(X, W, b, Y, i, j):
+def finiteDiff_weight(X, Y, W, b, i, j):
     def f(A):
         return C(Y, forward(X, A, b))
     E = np.zeros(np.shape(W))
     E[i][j] = EPS
     return (f(W+E)-f(W)) / EPS
 
-def finiteDiff_bias(x, w, b, y, i):
+def finiteDiff_bias(X, Y, W, b, i):
     def f(a):
         return C(Y, forward(X, W, a))
     e = np.zeros(np.shape(b))
