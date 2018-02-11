@@ -18,33 +18,32 @@ from scipy.misc import imresize
 from scipy.ndimage import filters
 
 def softmax(o):
-    return exp(o) / tile(sum(exp(o),0), (len(o),1))
+    return exp(o)/sum(exp(o))
 
 def forward(x, w, b):
-    temp = softmax(dot(w.T, x) + b)
-    return temp
+    return softmax(dot(w.T, x) + b)
 
 def C(y, p):
     return -sum(y*log(p))
 
 def dC_weight(x, y, p):
-    return dot(p-y, x.T)
+    return dot(x, (p-y).T)
 
-def dC_bias(b, y, p):
-    return dot(p-y, np.ones(shape(b)).T)
+def dC_bias(y, p):
+    return p-y
 
 def finiteDiff_weight(x, w, b, y, i, j):
     def f(n):
         return C(y, forward(x, n, b))
     e = np.zeros(np.shape(w))
-    e[i][j] = h
+    e[i][j] = EPS
     return (f(w+e)-f(w)) / EPS
 
 def finiteDiff_bias(x, w, b, y, i):
     def f(n):
         return C(y, forward(x, w, n))
     e = np.zeros(np.shape(b))
-    e[i] = h
+    e[i] = EPS
     return (f(b+e)-f(b)) / EPS
 
 def relativeError(a, b):
@@ -52,17 +51,21 @@ def relativeError(a, b):
     return 2*abs(a-b) / float(a+b)
 
 
+np.random.seed(0)
 M = loadmat("mnist_all.mat")
 
-x = M["train0"][150].reshape(IMG_SHAPE).flatten() / 255.
-y = [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+x = np.array([ M["train0"][150].reshape(IMG_SHAPE).flatten() / 255. ]).T
+y = np.array([ [1, 0, 0, 0, 0, 0, 0, 0, 0, 0] ]).T
 w = np.random.rand(len(x), len(y))
-b = np.random.rand(len(y))
+b = np.random.rand(len(y), 1)
 
 n = dC_weight(x, y, forward(x, w, b))
-m = finiteDiff_weight(x, w, b, y, 4, 10)
+m = finiteDiff_weight(x, w, b, y, 153, 5)
+print relativeError(n[153][5], m)
 
-print relativeError(n[4][10], m)
+n = dC_bias(b, y, forward(x, w, b))
+m = finiteDiff_bias(x, w, b, y, 5)
+print relativeError(n[5][0], m)
 
 #Display the 150-th "5" digit from the training set
 #imshow(M["train0"][150].reshape(IMG_SHAPE), cmap=cm.gray)
