@@ -1,3 +1,4 @@
+import cPickle
 import numpy as np
 from numpy import dot
 from numpy import log

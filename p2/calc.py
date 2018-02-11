@@ -24,8 +24,8 @@ def finiteDiff_bias(X, Y, W, b, i):
     e[i] = EPS
     return (f(b+e)-f(b)) / EPS
 
-def relativeError(a, b):
-    a, b = abs(a), abs(b)
+def relativeError(a_, b_):
+    a, b = abs(a_), abs(b_)
     return 2*abs(a-b) / float(a+b)
 
 def gradDescent(X, Y, W0, b0):
@@ -42,6 +42,6 @@ def gradDescent(X, Y, W0, b0):
         b -= LRN_RATE * dC_bias(X, Y, P)
         if i % 500 == 0:
             print "Iter", i
-            print "C(Y, P)", C(Y, P), '\n'
+            print "C(Y, P) =", C(Y, P), '\n'
         i += 1
     return W, b

@@ -1,5 +1,14 @@
+import os
 from calc import *
 from scipy.io import loadmat
+
+def save(obj, filename):
+    if not os.path.exists('objects'):
+        os.makedirs('objects')
+    cPickle.dump(obj, open('objects/'+filename+'.pk', 'wb'))
+    return
+def load(filename):
+    return cPickle.load(open('objects/'+filename+'.pk', 'rb'))
 
 np.random.seed(0)
 M = loadmat("mnist_all.mat")
@@ -20,3 +29,5 @@ b = np.zeros((NUM_LABEL, 1))
 #print relativeError(n[1][0], m)
 
 W, b = gradDescent(X, Y, W, b)
+save(W, 'weights')
+save(b, 'bias')
