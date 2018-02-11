@@ -1,21 +1,8 @@
 from const import *
+from pylab import *
 from numpy import dot
 from numpy import log
-
-import os
-import time
-import urllib
-import cPickle
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
-import matplotlib.cbook as cbook
-from pylab import *
-from numpy import random
 from scipy.io import loadmat
-from scipy.misc import imread
-from scipy.misc import imresize
-from scipy.ndimage import filters
 
 def softmax(o):
     return exp(o)/sum(exp(o))
@@ -63,9 +50,9 @@ n = dC_weight(x, y, forward(x, w, b))
 m = finiteDiff_weight(x, w, b, y, 153, 5)
 print relativeError(n[153][5], m)
 
-n = dC_bias(b, y, forward(x, w, b))
-m = finiteDiff_bias(x, w, b, y, 5)
-print relativeError(n[5][0], m)
+n = dC_bias(y, forward(x, w, b))
+m = finiteDiff_bias(x, w, b, y, 1)
+print relativeError(n[1][0], m)
 
 #Display the 150-th "5" digit from the training set
 #imshow(M["train0"][150].reshape(IMG_SHAPE), cmap=cm.gray)
