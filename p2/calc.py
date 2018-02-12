@@ -1,5 +1,4 @@
 from NN import *
-from const import *
 
 def C(Y, P):
     return -np.sum(Y*log(P))
