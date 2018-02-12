@@ -67,8 +67,8 @@ def part4():
 
     #W, b = loadObj("weights"), loadObj("bias")
     W, b = gradDescent(X, Y, W, b)
-    saveObj(W, "weights")
-    saveObj(b, "bias")
+    #saveObj(W, "weights")
+    #saveObj(b, "bias")
 
     for i in range(len(W)):
         heatmap(W[i], "pt4_weight_" + str(i))
