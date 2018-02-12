@@ -48,5 +48,9 @@ def part5():
 #_______________________________________________ MAIN _______________________________________________#
 
 #part3()
-part4()
+#part4()
 #part5()
+
+X = genX(M, TEST, 10)
+Y = genY(10)
+classifier(X, Y, load("weights"), load("bias"), 10)

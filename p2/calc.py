@@ -1,5 +1,6 @@
 from NN import *
 from const import *
+from scipy.io import loadmat
 
 def C(Y, P):
     return -np.sum(Y*log(P))
@@ -68,3 +69,16 @@ def gradDescentMoment(X, Y, W0, b0):
             print "C(Y, P) =", C(Y, P), '\n'
         i += 1
     return W, b
+
+def classifier(X, Y, W, b, size):
+    answer = forward(X, W, b)
+    for row in range (len(answer)):
+        th = max(answer[row])
+        answer[row] = (answer[row] >= th).astype(int)
+    accurate = 0
+    for i in range(size * NUM_LABEL):
+        if norm(answer[i]-Y[i]) == 0:
+            accurate+=1
+    print "Accuracy: ", (accurate/float(size * NUM_LABEL))*100, "%"
+    return (accurate/(size * NUM_LABEL))*100
+

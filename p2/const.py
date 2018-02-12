@@ -4,7 +4,7 @@ from numpy import log
 from numpy import exp
 from numpy.linalg import norm
 
-TEST = 'test'
+TEST = "test"
 TRAIN = 'train'
 
 NUM_FEAT = 784
