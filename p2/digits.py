@@ -49,15 +49,30 @@ def part4():
         W = np.zeros((NUM_LABEL, NUM_FEAT))
         b = np.zeros((NUM_LABEL, 1))
 
-        W, b = gradDescent(X, Y, W, b)
+        W, b = gradDescent(X, Y, W, b, out=False)
 
         X = genX(M, TEST, 100)
-        res = accuracy(X, W, b)
+        Y = genY(100)
+        P = classify(X, Y, W, b)
+        res = accuracy(P, Y)
 
         print "({}, {}) - point generated".format(n, res)
         return res
     
-    linegraph(f, np.arange(1, 11)*10, "pt4")
+    X = genX(M, TRAIN, 100)
+    Y = genY(100)
+    W = np.zeros((NUM_LABEL, NUM_FEAT))
+    b = np.zeros((NUM_LABEL, 1))
+
+    W, b = loadObj("weights"), loadObj("bias")
+    #W, b = gradDescent(X, Y, W, b)
+    #saveObj(W, "weights")
+    #saveObj(b, "bias")
+
+    for i in range(len(W)):
+        heatmap(W[i], "pt4_weight_" + str(i))
+
+    linegraph(f, np.arange(1, 11)*10, "pt4_learning_curve")
     return
 
 #______________________________________________ PART 5 ______________________________________________#
@@ -71,7 +86,7 @@ def part5():
     
     W = np.zeros((NUM_LABEL, NUM_FEAT))
     b = np.zeros((NUM_LABEL, 1))
-    W, b = gradDescent(X, Y, W, b, True)
+    W, b = gradDescent(X, Y, W, b, momentum=True)
 
     return
 

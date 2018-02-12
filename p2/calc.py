@@ -28,7 +28,7 @@ def relativeError(a, b):
     a, b = abs(a), abs(b)
     return 2*abs(a-b) / float(a+b)
 
-def gradDescent(X, Y, W0, b0, momentum=False):
+def gradDescent(X, Y, W0, b0, momentum=False, out=True):
     i = 0
     if momentum:
         Z = W0.copy()
@@ -49,7 +49,7 @@ def gradDescent(X, Y, W0, b0, momentum=False):
         else:
             W -= ALPHA * dC_weight(X, Y, P)
             b -= ALPHA * dC_bias(X, Y, P)
-        if i % 500 == 0:
+        if i % 500 == 0 and out:
             print "Iter", i
             print "C(Y, P) =", C(Y, P), "\n"
         i += 1

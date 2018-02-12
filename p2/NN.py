@@ -2,13 +2,13 @@ import os
 import cPickle
 from const import *
 
-def save(obj, filename):
+def saveObj(obj, filename):
     if not os.path.exists("objects"):
         os.makedirs("objects")
     cPickle.dump(obj, open("objects/"+filename+".pk", "wb"))
     return
 
-def load(filename):
+def loadObj(filename):
     return cPickle.load(open("objects/"+filename+".pk", "rb"))
 
 def softmax(O):
@@ -33,8 +33,16 @@ def genY(size):
         Y = np.vstack(( Y, np.tile(LABEL[i], (size, 1)) ))
     return Y
 
-def classify():
-    return
+def classify(X, Y, W, b):
+    P = forward(X, W, b)
+    for i in range(len(P)):
+        th = max(P[i])
+        P[i] = (P[i] >= th).astype(int)
+    return P
 
-def accuracy():
-    return
+def accuracy(P, Y):
+    total = 0
+    for i in range(len(P)):
+        if not norm(P[i] - Y[i]):
+            total += 1
+    return total / float(len(P))
