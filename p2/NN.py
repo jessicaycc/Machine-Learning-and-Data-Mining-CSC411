@@ -15,8 +15,8 @@ def softmax(O):
     return exp(O)/exp(O).sum(axis=1, keepdims=True)
 
 def forward(X, W, b):
-    i = np.ones((len(X), 1))
-    return softmax(dot(X, W.T) + dot(i, b.T))
+    i = np.ones((len(X), 1))                 
+    return softmax(dot(X, W.T) + dot(i, b.T))    #dimension same as Y
 
 def genX(M, set, size):
     X = np.empty((0, NUM_FEAT), float)
