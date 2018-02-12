@@ -46,3 +46,26 @@ def gradDescent(X, Y, W0, b0):
             print "C(Y, P) =", C(Y, P), '\n'
         i += 1
     return W, b
+
+def gradDescentMoment(X, Y, W0, b0):
+    i = 0
+    gamma = 0.99
+    z = np.zeros((NUM_LABEL,NUM_FEAT))
+    v = np.zeros((NUM_LABEL,1))
+    W = W0.copy()
+    b = b0.copy()
+    WPrev = W0 - 10*EPS
+    bPrev = b0 - 10*EPS
+    while (norm(W-WPrev)>EPS or norm(b-bPrev)>EPS) and i<MAX_ITER:
+        WPrev = W.copy()
+        bPrev = b.copy()
+        P = forward(X, W, b)
+        z = gamma * z + LRN_RATE * dC_weight(X, Y, P) 
+        v = gamma * v + LRN_RATE * dC_bias(X, Y, P)
+        W -= z
+        b -= v
+        if i % 500 == 0:
+            print "Iter", i
+            print "C(Y, P) =", C(Y, P), '\n'
+        i += 1
+    return W, b

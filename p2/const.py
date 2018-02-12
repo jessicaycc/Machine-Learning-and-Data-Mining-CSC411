@@ -14,5 +14,6 @@ IMG_SHAPE = (28, 28)
 LABEL = np.identity(10)
 
 EPS = 1e-5
-LRN_RATE = 0.025
+LRN_RATE = 0.001
 MAX_ITER = 30000
+
