@@ -1,4 +1,5 @@
 from NN import *
+from const import *
 
 def C(Y, P):
     return -np.sum(Y*log(P))
@@ -24,8 +25,8 @@ def finiteDiff_bias(X, Y, W, b, i):
     e[i] = EPS
     return (f(b+e)-f(b)) / EPS
 
-def relativeError(a_, b_):
-    a, b = abs(a_), abs(b_)
+def relativeError(a, b):
+    a, b = abs(a), abs(b)
     return 2*abs(a-b) / float(a+b)
 
 def gradDescent(X, Y, W0, b0):
