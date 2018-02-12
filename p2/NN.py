@@ -19,13 +19,9 @@ def forward(X, W, b):
     return softmax(dot(X, W.T) + dot(i, b.T))
 
 def genX(M, set, size):
-    X = np.empty((0, NUM_FEAT), float)
-    for i in range(NUM_LABEL):
-        filename = set + str(i)
-        for j in range(size):
-            x = M[filename][j].reshape(IMG_SHAPE).flatten() / 255.
-            X = np.vstack((X, x))
-    return X
+    keys = ('train0', 'train1', 'train2', 'train3', 'train4', 'train5', 'train6', 'train7', 'train8', 'train9')
+    X = np.array([M[key][:size] for key in keys])
+    return np.vstack(X)
 
 def genY(size):
     Y = np.empty((0, NUM_LABEL), float)
