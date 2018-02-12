@@ -25,6 +25,7 @@ def genX(M, set, size):
         for j in range(size):
             x = M[filename][j].reshape(IMG_SHAPE).flatten() / 255.
             X = np.vstack((X, x))
+        print filename + " - complete"
     return X
 
 def genY(size):

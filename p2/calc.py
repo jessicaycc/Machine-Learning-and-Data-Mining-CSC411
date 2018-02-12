@@ -49,7 +49,7 @@ def gradDescent(X, Y, W0, b0, momentum=False, out=True):
         else:
             W -= ALPHA * dC_weight(X, Y, P)
             b -= ALPHA * dC_bias(X, Y, P)
-        if i % 500 == 0 and out:
+        if i % 10 == 0 and out:
             print "Iter", i
             print "C(Y, P) =", C(Y, P), "\n"
         i += 1
