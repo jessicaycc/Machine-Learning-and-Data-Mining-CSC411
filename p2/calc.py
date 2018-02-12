@@ -29,7 +29,7 @@ def relativeError(a, b):
     a, b = abs(a), abs(b)
     return 2*abs(a-b) / float(a+b)
 
-def gradDescent(X, Y, W0, b0):
+def gradDescent(X, Y, W0, b0, momentum=False):
     i = 0
     W = W0.copy()
     b = b0.copy()
@@ -39,8 +39,8 @@ def gradDescent(X, Y, W0, b0):
         WPrev = W.copy()
         bPrev = b.copy()
         P = forward(X, W, b)
-        W -= LRN_RATE * dC_weight(X, Y, P)
-        b -= LRN_RATE * dC_bias(X, Y, P)
+        W -= ALPHA * dC_weight(X, Y, P)
+        b -= ALPHA * dC_bias(X, Y, P)
         if i % 500 == 0:
             print "Iter", i
             print "C(Y, P) =", C(Y, P), '\n'
@@ -49,9 +49,8 @@ def gradDescent(X, Y, W0, b0):
 
 def gradDescentMoment(X, Y, W0, b0):
     i = 0
-    gamma = 0.99
-    z = np.zeros((NUM_LABEL,NUM_FEAT))
-    v = np.zeros((NUM_LABEL,1))
+    z = np.zeros((NUM_LABEL, NUM_FEAT))
+    v = np.zeros((NUM_LABEL, 1))
     W = W0.copy()
     b = b0.copy()
     WPrev = W0 - 10*EPS
@@ -60,8 +59,8 @@ def gradDescentMoment(X, Y, W0, b0):
         WPrev = W.copy()
         bPrev = b.copy()
         P = forward(X, W, b)
-        z = gamma * z + LRN_RATE * dC_weight(X, Y, P) 
-        v = gamma * v + LRN_RATE * dC_bias(X, Y, P)
+        z = GAMMA * z + ALPHA * dC_weight(X, Y, P) 
+        v = GAMMA * v + ALPHA * dC_bias(X, Y, P)
         W -= z
         b -= v
         if i % 500 == 0:
