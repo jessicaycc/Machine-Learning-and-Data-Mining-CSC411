@@ -1,3 +1,7 @@
+# For Linux VM
+import matplotlib
+matplotlib.use('Agg')
+
 import os
 import matplotlib.pyplot as plt
 from pylab import cm
