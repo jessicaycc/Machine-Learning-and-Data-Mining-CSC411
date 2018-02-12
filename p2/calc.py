@@ -31,6 +31,9 @@ def relativeError(a, b):
 
 def gradDescent(X, Y, W0, b0, momentum=False):
     i = 0
+    if momentum:
+        Z = W0.copy()
+        v = b0.copy()
     W = W0.copy()
     b = b0.copy()
     WPrev = W0 - 10*EPS
@@ -39,32 +42,16 @@ def gradDescent(X, Y, W0, b0, momentum=False):
         WPrev = W.copy()
         bPrev = b.copy()
         P = forward(X, W, b)
-        W -= ALPHA * dC_weight(X, Y, P)
-        b -= ALPHA * dC_bias(X, Y, P)
+        if momentum:
+            Z = GAMMA * Z + ALPHA_M * dC_weight(X, Y, P) 
+            v = GAMMA * v + ALPHA_M * dC_bias(X, Y, P)
+            W -= Z
+            b -= v
+        else:
+            W -= ALPHA * dC_weight(X, Y, P)
+            b -= ALPHA * dC_bias(X, Y, P)
         if i % 500 == 0:
             print "Iter", i
-            print "C(Y, P) =", C(Y, P), '\n'
-        i += 1
-    return W, b
-
-def gradDescentMoment(X, Y, W0, b0):
-    i = 0
-    z = np.zeros((NUM_LABEL, NUM_FEAT))
-    v = np.zeros((NUM_LABEL, 1))
-    W = W0.copy()
-    b = b0.copy()
-    WPrev = W0 - 10*EPS
-    bPrev = b0 - 10*EPS
-    while (norm(W-WPrev)>EPS or norm(b-bPrev)>EPS) and i<MAX_ITER:
-        WPrev = W.copy()
-        bPrev = b.copy()
-        P = forward(X, W, b)
-        z = GAMMA * z + ALPHA * dC_weight(X, Y, P) 
-        v = GAMMA * v + ALPHA * dC_bias(X, Y, P)
-        W -= z
-        b -= v
-        if i % 500 == 0:
-            print "Iter", i
-            print "C(Y, P) =", C(Y, P), '\n'
+            print "C(Y, P) =", C(Y, P), "\n"
         i += 1
     return W, b

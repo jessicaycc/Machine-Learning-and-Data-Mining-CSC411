@@ -3,13 +3,13 @@ import cPickle
 from const import *
 
 def save(obj, filename):
-    if not os.path.exists('objects'):
-        os.makedirs('objects')
-    cPickle.dump(obj, open('objects/'+filename+'.pk', 'wb'))
+    if not os.path.exists("objects"):
+        os.makedirs("objects")
+    cPickle.dump(obj, open("objects/"+filename+".pk", "wb"))
     return
 
 def load(filename):
-    return cPickle.load(open('objects/'+filename+'.pk', 'rb'))
+    return cPickle.load(open("objects/"+filename+".pk", "rb"))
 
 def softmax(O):
     return exp(O)/exp(O).sum(axis=1, keepdims=True)
