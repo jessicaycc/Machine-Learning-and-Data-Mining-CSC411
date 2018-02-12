@@ -1,6 +1,3 @@
-import matplotlib
-matplotlib.use('qt5agg')
-
 import os
 import matplotlib.pyplot as plt
 from pylab import cm
