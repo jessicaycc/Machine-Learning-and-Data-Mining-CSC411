@@ -3,6 +3,11 @@ from calc import *
 from plot import *
 from scipy.io import loadmat
 
+from mpl_toolkits.mplot3d import Axes3D
+from matplotlib import cm
+from matplotlib.ticker import LinearLocator, FormatStrFormatter
+from matplotlib.pyplot import *
+
 np.random.seed(0)
 M = loadmat("mnist_all.mat")
 
@@ -60,8 +65,8 @@ def part4():
         print "({}, {}) - point generated".format(n, res)
         return res
     
-    X = genX(M, TRAIN, MAX_TRAIN_SIZE)
-    Y = genY(MAX_TRAIN_SIZE)
+    X = genX(M, TRAIN, 500)
+    Y = genY(500)
     W = np.zeros((NUM_LABEL, NUM_FEAT))
     b = np.zeros((NUM_LABEL, 1))
 
@@ -91,12 +96,41 @@ def part5():
 
     return
 
+#______________________________________________ PART 5 ______________________________________________#
+def part6a():
+    X = genX(M, TRAIN, 500)
+    Y = genY(500)
+    w = loadObj("weights")
+    #print w[0]
+    b = loadObj("bias")
+    w1s = np.arange(-0, 1, 0.05)
+    w2s = np.arange(-0, 1, 0.05)
+    w1z, w2z = np.meshgrid(w1s, w2s)
+    Matrix = np.zeros([w1s.size, w2s.size])
+    for i, w1 in enumerate(w1s):
+        for j, w2 in enumerate(w2s):
+            w[5, 200] = w1
+            w[6, 150] = w2
+            #print w
+            P = forward(X, w, b)
+            #print P
+            z = C(Y, P)
+            #print z
+            Matrix[j,i] = z
+    CS = plt.contour(w1z, w2z, Matrix, camp=cm.coolwarm) 
+    clabel(CS, inline=1, fontsize=10)
+    title('Contour plot')
+
+    show()
+    return
+
 #_______________________________________________ MAIN _______________________________________________#
 start = time.time()
 
 #part3()
-part4()
+#part4()
 #part5()
+part6a()
 
 end = time.time()
 print "Time elapsed:", end-start
