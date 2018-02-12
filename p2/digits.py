@@ -21,13 +21,18 @@ b = np.zeros((NUM_LABEL, 1))
 #P = forward(X, W, b)
 
 #n = dC_weight(X, Y, P)
+#print np.shape(n)
 #m = finiteDiff_weight(X, Y, W, b, 5, 157)
 #print relativeError(n[5][157], m)
 
 #n = dC_bias(X, Y, P)
+#print np.shape(n)
 #m = finiteDiff_bias(X, Y, W, b, 1)
 #print relativeError(n[1][0], m)
 
+#W, b = gradDescent(X, Y, W, b)
+#save(W, 'weights')
+#save(b, 'bias')
+
 W, b = gradDescent(X, Y, W, b)
-save(W, 'weights')
-save(b, 'bias')
+W, b = gradDescentMoment(X, Y, W, b)
