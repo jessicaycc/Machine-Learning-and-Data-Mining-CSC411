@@ -101,15 +101,14 @@ def part6a():
     X = genX(M, TRAIN, 500)
     Y = genY(500)
     w = loadObj("weights")
-    #print w[0]
     b = loadObj("bias")
-    w1s = np.arange(-0, 1, 0.05)
-    w2s = np.arange(-0, 1, 0.05)
+    w1s = np.arange(-0.1,0.1 , 0.01)
+    w2s = np.arange(-0.1,0.1 , 0.01)
     w1z, w2z = np.meshgrid(w1s, w2s)
     Matrix = np.zeros([w1s.size, w2s.size])
     for i, w1 in enumerate(w1s):
         for j, w2 in enumerate(w2s):
-            w[5, 200] = w1
+            w[5, 150] = w1
             w[6, 150] = w2
             #print w
             P = forward(X, w, b)
@@ -117,7 +116,7 @@ def part6a():
             z = C(Y, P)
             #print z
             Matrix[j,i] = z
-    CS = plt.contour(w1z, w2z, Matrix, camp=cm.coolwarm) 
+    CS = plt.contour(w1z, w2z, Matrix)#, camp=cm.coolwarm) 
     clabel(CS, inline=1, fontsize=10)
     title('Contour plot')
 
