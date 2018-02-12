@@ -60,15 +60,15 @@ def part4():
         print "({}, {}) - point generated".format(n, res)
         return res
     
-    X = genX(M, TRAIN, 100)
-    Y = genY(100)
+    X = genX(M, TRAIN, MAX_TRAIN_SIZE)
+    Y = genY(MAX_TRAIN_SIZE)
     W = np.zeros((NUM_LABEL, NUM_FEAT))
     b = np.zeros((NUM_LABEL, 1))
 
     #W, b = loadObj("weights"), loadObj("bias")
     W, b = gradDescent(X, Y, W, b)
-    #saveObj(W, "weights")
-    #saveObj(b, "bias")
+    saveObj(W, "weights")
+    saveObj(b, "bias")
 
     for i in range(len(W)):
         heatmap(W[i], "pt4_weight_" + str(i))
