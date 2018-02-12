@@ -1,3 +1,6 @@
+import matplotlib
+matplotlib.use('qt5agg')
+
 import os
 import matplotlib.pyplot as plt
 from pylab import cm
@@ -10,12 +13,12 @@ def heatmap(x, filename):
     img = np.reshape(x, IMG_SHAPE)
     plt.imshow(img, cmap=cm.coolwarm)
     plt.savefig("plots/"+filename+".png", bbox_inches="tight")
-    plt.show()
+    #plt.show()
     return
 
 def linegraph(f, x, filename):
     y = np.vectorize(f, otypes=[float])(x)
     plt.plot(x, y)
     plt.savefig("plots/"+filename+".png", bbox_inches="tight")
-    plt.show()
+    #plt.show()
     return

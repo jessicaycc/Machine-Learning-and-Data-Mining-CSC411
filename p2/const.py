@@ -18,6 +18,6 @@ EPS = 1e-5
 GAMMA = 0.99
 ALPHA = 0.025
 ALPHA_M = 0.001
-MAX_ITER = 30000
+MAX_ITER = 10000
 
 LABEL = np.identity(10)

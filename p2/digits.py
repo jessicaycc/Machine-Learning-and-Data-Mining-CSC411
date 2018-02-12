@@ -1,3 +1,4 @@
+import time
 from calc import *
 from plot import *
 from scipy.io import loadmat
@@ -64,15 +65,15 @@ def part4():
     W = np.zeros((NUM_LABEL, NUM_FEAT))
     b = np.zeros((NUM_LABEL, 1))
 
-    W, b = loadObj("weights"), loadObj("bias")
-    #W, b = gradDescent(X, Y, W, b)
+    #W, b = loadObj("weights"), loadObj("bias")
+    W, b = gradDescent(X, Y, W, b)
     #saveObj(W, "weights")
     #saveObj(b, "bias")
 
     for i in range(len(W)):
         heatmap(W[i], "pt4_weight_" + str(i))
 
-    linegraph(f, np.arange(1, 11)*10, "pt4_learning_curve")
+    #linegraph(f, np.arange(1, 11)*10, "pt4_learning_curve")
     return
 
 #______________________________________________ PART 5 ______________________________________________#
@@ -91,7 +92,11 @@ def part5():
     return
 
 #_______________________________________________ MAIN _______________________________________________#
+start = time.time()
 
 #part3()
-#part4()
+part4()
 #part5()
+
+end = time.time()
+print "Time elapsed:", end-start
