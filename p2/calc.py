@@ -54,3 +54,28 @@ def gradDescent(X, Y, W0, b0, momentum=False, out=True):
             print "C(Y, P) =", C(Y, P), "\n"
         i += 1
     return W, b
+
+
+
+# Extra code
+#def randomize(A, B):
+#    permutation = np.random.permutation(A.shape[0])
+#    Arand = A[permutation]
+#    Brand = B[permutation]
+#    return Arand, Brand
+#
+#def gradDescent_MB(X, Y, W, b, batchSize=128):
+#    Z = W.copy()
+#    v = b.copy()
+#    for iter in range(MAX_ITER):
+#        Xrand, Yrand = randomize(X, Y)
+#        for i in range(0, Xrand.shape[0], batchSize):
+#            Xsub = Xrand[i:i + batchSize]
+#            Ysub = Yrand[i:i + batchSize]
+#            P = forward(Xsub, W, b)
+#            W -= ALPHA * dC_weight(Xsub, Ysub, P) 
+#            b -= ALPHA * dC_bias(Xsub, Ysub, P)
+#        if iter % 500 == 0:
+#            print "Iter", iter
+#            print "C(Y, P) =", C(Ysub, P), "\n"
+#    return W, b
