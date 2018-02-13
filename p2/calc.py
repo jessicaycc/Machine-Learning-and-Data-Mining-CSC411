@@ -42,8 +42,8 @@ def gradDescent(X, Y, W0, b0, momentum=False, out=True):
         bPrev = b.copy()
         P = forward(X, W, b)
         if momentum:
-            Z = GAMMA * Z + ALPHA_M * dC_weight(X, Y, P) 
-            v = GAMMA * v + ALPHA_M * dC_bias(X, Y, P)
+            Z = GAMMA * Z + ALPHA * dC_weight(X, Y, P) 
+            v = GAMMA * v + ALPHA * dC_bias(X, Y, P)
             W -= Z
             b -= v
         else:

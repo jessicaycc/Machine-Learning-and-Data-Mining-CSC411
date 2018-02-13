@@ -3,15 +3,10 @@ from calc import *
 from plot import *
 from scipy.io import loadmat
 
-from mpl_toolkits.mplot3d import Axes3D
-from matplotlib import cm
-from matplotlib.ticker import LinearLocator, FormatStrFormatter
-from matplotlib.pyplot import *
-
 np.random.seed(0)
 M = loadmat("mnist_all.mat")
 
-#______________________________________________ PART 3 ______________________________________________#
+#______________________________ PART 3 ______________________________#
 def part3():
     X = genX(M, TRAIN, 100)
     Y = genY(100)
@@ -47,7 +42,7 @@ def part3():
     print "Bias gradient relative error:", biasErr/k
     return
 
-#______________________________________________ PART 4 ______________________________________________#
+#______________________________ PART 4 ______________________________#
 def part4():
     def f(n):
         X = genX(M, TRAIN, n)
@@ -57,79 +52,98 @@ def part4():
 
         W, b = gradDescent(X, Y, W, b, out=False)
 
-        X = genX(M, TEST, 100)
-        Y = genY(100)
+        X = genX(M, TEST, MAX_TEST_SIZE)
+        Y = genY(MAX_TEST_SIZE)
         P = classify(X, Y, W, b)
         res = accuracy(P, Y)
 
         print "({}, {}) - point generated".format(n, res)
         return res
     
-    X = genX(M, TRAIN, 500)
-    Y = genY(500)
+    X = genX(M, TRAIN, MAX_TRAIN_SIZE)
+    Y = genY(MAX_TRAIN_SIZE)
     W = np.zeros((NUM_LABEL, NUM_FEAT))
     b = np.zeros((NUM_LABEL, 1))
 
-    #W, b = loadObj("weights"), loadObj("bias")
     W, b = gradDescent(X, Y, W, b)
+    #W, b = loadObj("weights"), loadObj("bias")
     #saveObj(W, "weights")
     #saveObj(b, "bias")
 
     for i in range(len(W)):
         heatmap(W[i], "pt4_weight_" + str(i))
 
-    #linegraph(f, np.arange(1, 11)*10, "pt4_learning_curve")
+    x = np.arange(0, MAX_TRAIN_SIZE, 100)
+    linegraph(f, x, "pt4_learning_curve")
     return
 
-#______________________________________________ PART 5 ______________________________________________#
+#______________________________ PART 5 ______________________________#
 def part5():
-    X = genX(M, TRAIN, 100)
-    Y = genY(100)
+    def f(n):
+        X = genX(M, TRAIN, n)
+        Y = genY(n)
+        W = np.zeros((NUM_LABEL, NUM_FEAT))
+        b = np.zeros((NUM_LABEL, 1))
 
-    W = np.zeros((NUM_LABEL, NUM_FEAT))
-    b = np.zeros((NUM_LABEL, 1))
-    W, b = gradDescent(X, Y, W, b)
-    
-    W = np.zeros((NUM_LABEL, NUM_FEAT))
-    b = np.zeros((NUM_LABEL, 1))
-    W, b = gradDescent(X, Y, W, b, momentum=True)
+        W, b = gradDescent(X, Y, W, b, momentum=True, out=False)
 
+        X = genX(M, TEST, MAX_TEST_SIZE)
+        Y = genY(MAX_TEST_SIZE)
+        P = classify(X, Y, W, b)
+        res = accuracy(P, Y)
+
+        print "({}, {}) - point generated".format(n, res)
+        return res
+
+    x = np.arange(0, MAX_TRAIN_SIZE, 100)
+    linegraph(f, x, "pt5_learning_curve")
     return
 
-#______________________________________________ PART 5 ______________________________________________#
+#______________________________ PART 6 ______________________________#
 def part6a():
     X = genX(M, TRAIN, 500)
     Y = genY(500)
-    w = loadObj("weights")
+    W = loadObj("weights")
     b = loadObj("bias")
-    w1s = np.arange(-0.1,0.1 , 0.01)
-    w2s = np.arange(-0.1,0.1 , 0.01)
+
+    w1s = np.arange(-0.1, 0.1, 0.01)
+    w2s = np.arange(-0.1, 0.1, 0.01)
     w1z, w2z = np.meshgrid(w1s, w2s)
-    Matrix = np.zeros([w1s.size, w2s.size])
+
+    cost = np.zeros((w1s.size, w2s.size))
     for i, w1 in enumerate(w1s):
         for j, w2 in enumerate(w2s):
-            w[5, 150] = w1
-            w[6, 150] = w2
-            #print w
-            P = forward(X, w, b)
-            #print P
-            z = C(Y, P)
-            #print z
-            Matrix[j,i] = z
-    CS = plt.contour(w1z, w2z, Matrix)#, camp=cm.coolwarm) 
-    clabel(CS, inline=1, fontsize=10)
-    title('Contour plot')
-
-    show()
+            W[5][150] = w1
+            W[6][150] = w2
+            P = forward(X, W, b)
+            cost[i][j] = C(Y, P)
+            
+    contour(w1z, w2z, cost, "pt6_contour")
     return
 
-#_______________________________________________ MAIN _______________________________________________#
-start = time.time()
+def part6b():
+    return
 
-#part3()
-#part4()
-#part5()
-part6a()
+def part6c():
+    return
 
-end = time.time()
-print "Time elapsed:", end-start
+#______________________________ PART 7 ______________________________#
+def part7():
+    return
+
+
+#_______________________________ MAIN _______________________________#
+
+if __name__ == "__main__":
+    start = time.time()
+
+    #part3()
+    #part4()
+    #part5()
+    #part6a()
+    #part6b()
+    #part6c()
+    #part7()
+
+    end = time.time()
+    print "Time elapsed:", end-start

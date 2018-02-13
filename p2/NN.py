@@ -18,8 +18,7 @@ def forward(X, W, b):
     i = np.ones((len(X), 1))
     return softmax(dot(X, W.T) + dot(i, b.T))
 
-def genX(M, set, size):
-    keys = ('train0', 'train1', 'train2', 'train3', 'train4', 'train5', 'train6', 'train7', 'train8', 'train9')
+def genX(M, keys, size):
     X = np.array([M[key][:size] for key in keys])
     return np.vstack(X)
 
