@@ -18,14 +18,21 @@ def forward(X, W, b):
     i = np.ones((len(X), 1))
     return softmax(dot(X, W.T) + dot(i, b.T))
 
-def genX(M, keys, size):
-    X = np.array([M[key][:size] for key in keys])
-    return np.vstack(X)
+def genX(M, set, size=0):
+    if size:
+        X = np.array([M[set+str(i)][:size] for i in range(NUM_LABEL)])
+    else:
+        X = np.array([M[set+str(i)] for i in range(NUM_LABEL)])
+    X = np.vstack(X) / 255.
+    return X
 
-def genY(size):
+def genY(M, set, size=0):
     Y = np.empty((0, NUM_LABEL), float)
     for i in range(NUM_LABEL):
-        Y = np.vstack(( Y, np.tile(LABEL[i], (size, 1)) ))
+        if size:
+            Y = np.vstack(( Y, np.tile(LABEL[i], (size, 1)) ))
+        else:
+            Y = np.vstack(( Y, np.tile(LABEL[i], (len(M[set+str(i)]), 1)) ))
     return Y
 
 def classify(X, Y, W, b):

@@ -8,8 +8,8 @@ M = loadmat("mnist_all.mat")
 
 #______________________________ PART 3 ______________________________#
 def part3():
-    X = genX(M, TRAIN, 100)
-    Y = genY(100)
+    X = genX(M, TRAIN)
+    Y = genY(M, TRAIN)
     W = np.random.rand(NUM_LABEL, NUM_FEAT)
     b = np.random.rand(NUM_LABEL, 1)
     P = forward(X, W, b)
@@ -46,34 +46,34 @@ def part3():
 def part4():
     def f(n):
         X = genX(M, TRAIN, n)
-        Y = genY(n)
+        Y = genY(M, TRAIN, n)
         W = np.zeros((NUM_LABEL, NUM_FEAT))
         b = np.zeros((NUM_LABEL, 1))
 
         W, b = gradDescent(X, Y, W, b, out=False)
 
-        X = genX(M, TEST, MAX_TEST_SIZE)
-        Y = genY(MAX_TEST_SIZE)
+        X = genX(M, TEST, 100)
+        Y = genY(M, TEST, 100)
         P = classify(X, Y, W, b)
         res = accuracy(P, Y)
 
         print "({}, {}) - point generated".format(n, res)
         return res
     
-    X = genX(M, TRAIN, MAX_TRAIN_SIZE)
-    Y = genY(MAX_TRAIN_SIZE)
+    X = genX(M, TRAIN)
+    Y = genY(M, TRAIN)
     W = np.zeros((NUM_LABEL, NUM_FEAT))
     b = np.zeros((NUM_LABEL, 1))
 
-    W, b = gradDescent(X, Y, W, b)
-    #W, b = loadObj("weights"), loadObj("bias")
+    #W, b = gradDescent(X, Y, W, b)
+    W, b = loadObj("weights"), loadObj("bias")
     #saveObj(W, "weights")
     #saveObj(b, "bias")
 
     for i in range(len(W)):
         heatmap(W[i], "pt4_weight_" + str(i))
 
-    x = np.arange(0, MAX_TRAIN_SIZE, 100)
+    x = np.arange(1, 100, 10)
     linegraph(f, x, "pt4_learning_curve")
     return
 
@@ -81,33 +81,33 @@ def part4():
 def part5():
     def f(n):
         X = genX(M, TRAIN, n)
-        Y = genY(n)
+        Y = genY(M, TRAIN, n)
         W = np.zeros((NUM_LABEL, NUM_FEAT))
         b = np.zeros((NUM_LABEL, 1))
 
         W, b = gradDescent(X, Y, W, b, momentum=True, out=False)
 
-        X = genX(M, TEST, MAX_TEST_SIZE)
-        Y = genY(MAX_TEST_SIZE)
+        X = genX(M, TEST, 100)
+        Y = genY(M, TEST, 100)
         P = classify(X, Y, W, b)
         res = accuracy(P, Y)
 
         print "({}, {}) - point generated".format(n, res)
         return res
 
-    x = np.arange(0, MAX_TRAIN_SIZE, 100)
+    x = np.arange(1, 100, 10)
     linegraph(f, x, "pt5_learning_curve")
     return
 
 #______________________________ PART 6 ______________________________#
 def part6a():
     X = genX(M, TRAIN, 500)
-    Y = genY(500)
+    Y = genY(M, TRAIN, 500)
     W = loadObj("weights")
     b = loadObj("bias")
 
-    w1s = np.arange(-0.1, 0.1, 0.01)
-    w2s = np.arange(-0.1, 0.1, 0.01)
+    w1s = np.arange(-1, 1, 0.1)
+    w2s = np.arange(-1, 1, 0.1)
     w1z, w2z = np.meshgrid(w1s, w2s)
 
     cost = np.zeros((w1s.size, w2s.size))
