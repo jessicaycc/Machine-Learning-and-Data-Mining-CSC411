@@ -42,7 +42,7 @@ def gradDescent(X, Y, W0, b0, momentum=False, out=True):
         bPrev = b.copy()
         P = forward(X, W, b)
         if momentum:
-            Z = GAMMA * Z + ALPHA * dC_weight(X, Y, P) 
+            Z = GAMMA * Z + ALPHA * dC_weight(X, Y, P)
             v = GAMMA * v + ALPHA * dC_bias(X, Y, P)
             W -= Z
             b -= v
@@ -55,27 +55,28 @@ def gradDescent(X, Y, W0, b0, momentum=False, out=True):
         i += 1
     return W, b
 
-
-
-# Extra code
-#def randomize(A, B):
-#    permutation = np.random.permutation(A.shape[0])
-#    Arand = A[permutation]
-#    Brand = B[permutation]
-#    return Arand, Brand
-#
-#def gradDescent_MB(X, Y, W, b, batchSize=128):
-#    Z = W.copy()
-#    v = b.copy()
-#    for iter in range(MAX_ITER):
-#        Xrand, Yrand = randomize(X, Y)
-#        for i in range(0, Xrand.shape[0], batchSize):
-#            Xsub = Xrand[i:i + batchSize]
-#            Ysub = Yrand[i:i + batchSize]
-#            P = forward(Xsub, W, b)
-#            W -= ALPHA * dC_weight(Xsub, Ysub, P) 
-#            b -= ALPHA * dC_bias(Xsub, Ysub, P)
-#        if iter % 500 == 0:
-#            print "Iter", iter
-#            print "C(Y, P) =", C(Ysub, P), "\n"
-#    return W, b
+def genPath(X, Y, W0, b0, i, j, p, q, momentum=False):
+    MR = 0.5
+    LR = 1e-4 if momentum else 0.1
+    W = W0.copy()
+    b = b0.copy()
+    path = [(1.4, 1.4)]
+    W[i][j], W[p][q] = path[0]
+    if momentum:
+        Z = W.copy()
+        v = b.copy()
+    for k in range(20):
+        P = forward(X, W, b)
+        if momentum:
+            Z[i][j] = MR*Z[i][j] + LR*dC_weight(X, Y, P)[i][j]
+            Z[p][q] = MR*Z[p][q] + LR*dC_weight(X, Y, P)[p][q]
+            W[i][j] -= Z[i][j]
+            W[p][q] -= Z[p][q]
+            v = MR*v + LR*dC_bias(X, Y, P)
+            b -= v
+        else:
+            W[i][j] -= LR*dC_weight(X, Y, P)[i][j]
+            W[p][q] -= LR*dC_weight(X, Y, P)[p][q]
+            b -= LR*dC_bias(X, Y, P)
+        path.append([W[i][j], W[p][q]])
+    return path

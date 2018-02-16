@@ -3,6 +3,7 @@ from calc import *
 from plot import *
 from scipy.io import loadmat
 
+
 np.random.seed(0)
 M = loadmat("mnist_all.mat")
 
@@ -60,13 +61,13 @@ def part4():
         print "({}, {}) - point generated".format(n, res)
         return res
     
-    X = genX(M, TRAIN)
-    Y = genY(M, TRAIN)
+    X = genX(M, TRAIN, 500)
+    Y = genY(M, TRAIN, 500)
     W = np.zeros((NUM_LABEL, NUM_FEAT))
     b = np.zeros((NUM_LABEL, 1))
 
-    #W, b = gradDescent(X, Y, W, b)
-    W, b = loadObj("weights"), loadObj("bias")
+    W, b = gradDescent(X, Y, W, b)
+    #W, b = loadObj("weights"), loadObj("bias")
     #saveObj(W, "weights")
     #saveObj(b, "bias")
 
@@ -100,14 +101,17 @@ def part5():
     return
 
 #______________________________ PART 6 ______________________________#
-def part6a():
+def part6():
     X = genX(M, TRAIN, 500)
     Y = genY(M, TRAIN, 500)
     W = loadObj("weights")
     b = loadObj("bias")
 
-    w1s = np.arange(-1, 1, 0.1)
-    w2s = np.arange(-1, 1, 0.1)
+    path = genPath(X, Y, W, b, 5, 150, 6, 150)
+    pathM = genPath(X, Y, W, b, 5, 150, 6, 150, momentum=True)
+
+    w1s = np.arange(-1, 1.5, 0.1)
+    w2s = np.arange(-1, 1.5, 0.1)
     w1z, w2z = np.meshgrid(w1s, w2s)
 
     cost = np.zeros((w1s.size, w2s.size))
@@ -117,14 +121,8 @@ def part6a():
             W[6][150] = w2
             P = forward(X, W, b)
             cost[i][j] = C(Y, P)
-            
-    contour(w1z, w2z, cost, "pt6_contour")
-    return
-
-def part6b():
-    return
-
-def part6c():
+    
+    contourLine(w1z, w2z, cost, path, pathM, "pt6_contour")
     return
 
 #______________________________ PART 7 ______________________________#
@@ -140,10 +138,8 @@ if __name__ == "__main__":
     #part3()
     #part4()
     #part5()
-    #part6a()
-    #part6b()
-    #part6c()
-    #part7()
+    #part6()
+    part7()
 
     end = time.time()
     print "Time elapsed:", end-start
