@@ -138,8 +138,8 @@ if __name__ == "__main__":
     #part3()
     #part4()
     #part5()
-    #part6()
-    part7()
+    part6()
+    #part7()
 
     end = time.time()
     print "Time elapsed:", end-start
