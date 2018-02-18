@@ -6,9 +6,11 @@ from getData import *
 
 act = ["Lorraine Bracco", "Peri Gilpin", "Angie Harmon", "Alec Baldwin", "Bill Hader", "Steve Carell"]
 
-getData(act)
+#getData(act)
 trainSet, validSet, testSet= getSets(act)
+print "trainSet", np.shape(trainSet)
 
+print np.shape( np.asarray(trainSet).flatten() )
 trainSet = genMatrix(np.asarray(trainSet).flatten()).T
 testSet = genMatrix(np.asarray(testSet).flatten()).T
 train_x, train_y = getTrain(trainSet)

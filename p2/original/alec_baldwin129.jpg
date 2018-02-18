@@ -1,0 +1,1090 @@
+<!doctype html>
+<html class="no-js" lang="en-US" >
+	<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+    <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-21937547-1', 'auto');
+        ga('require', 'GTM-KX5FCW');
+        ga('send', 'pageview');
+    </script>
+    		<title>Adweek &#8211; Breaking News in Advertising, Media and Technology</title>
+<link rel='dns-prefetch' href='//cdn.mediavoice.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//static.adweek.com' />
+<link rel='dns-prefetch' href='//ap.lijit.com' />
+<link rel='dns-prefetch' href='//api.lytics.io' />
+<link rel='dns-prefetch' href='//c.lytics.io' />
+<link rel='dns-prefetch' href='//b.scorecardresearch.com' />
+<link rel='dns-prefetch' href='//cdn.mxpnl.com' />
+<link rel='dns-prefetch' href='//connect.facebook.net' />
+<link rel='dns-prefetch' href='//htl.bid' />
+<link rel='dns-prefetch' href='//images.outbrain.com' />
+<link rel='dns-prefetch' href='//log.outbrain.com' />
+<link rel='dns-prefetch' href='//m.addthis.com' />
+<link rel='dns-prefetch' href='//odb.outbrain.com' />
+<link rel='dns-prefetch' href='//pagead2.googlesyndication.com' />
+<link rel='dns-prefetch' href='//ping.chartbeat.com' />
+<link rel='dns-prefetch' href='//players.brightcove.net' />
+<link rel='dns-prefetch' href='//platform.instagram.com' />
+<link rel='dns-prefetch' href='//plugin.mediavoice.com' />
+<link rel='dns-prefetch' href='//pubads.g.doubleclick.net' />
+<link rel='dns-prefetch' href='//s3.amazonaws.com' />
+<link rel='dns-prefetch' href='//s7.addthis.com' />
+<link rel='dns-prefetch' href='//securepubads.g.doubleclick.net' />
+<link rel='dns-prefetch' href='//static.chartbeat.com' />
+<link rel='dns-prefetch' href='//static.parsely.com' />
+<link rel='dns-prefetch' href='//widgets.outbrain.com' />
+<link rel='dns-prefetch' href='//www.google-analytics.com' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//www.googletagservices.com' />
+<link rel='dns-prefetch' href='//www.gstatic.com' />
+<link rel='dns-prefetch' href='//twitter.com' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.adweek.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.8' type='text/css' media='all' />
+<link rel='stylesheet' id='main-stylesheet-css'  href='http://www.adweek.com/wp-content/themes/AdWeek/assets/stylesheets/foundation.css?ver=1518869017' type='text/css' media='all' />
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js?ver=2.1.0'></script>
+<script type="text/javascript" src="http://cdn.mediavoice.com/nativeads/script/adweek/adweek.js?ver=4.9.2" async="async"></script>
+<link rel="alternate" type="application/json+oembed" href="http://www.adweek.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.adweek.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.adweek.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.adweek.com%2F&#038;format=xml" />
+<!-- BEGIN wp-parsely Plugin Version 1.10.2 -->
+<meta name='wp-parsely_version' id='wp-parsely_version' content='1.10.2' />
+   <script type="application/ld+json">
+   {"@context":"http:\/\/schema.org","@type":"WebPage","headline":"Home","url":"http:\/\/www.adweek.com\/"}   </script>
+    <!-- END wp-parsely Plugin Version 1.10.2 -->
+		<style type="text/css" id="wp-custom-css">
+			/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+
+/* Article template */
+#single-post .container-title h2 {
+	font-size: 24px;
+	line-height:29px;
+}
+
+.single-post #sidebar .widget .container-title {
+    padding: 0;
+}
+
+.single-post #sidebar .widget .container-title h2 { width: 100%;
+}
+
+.interstitial-container .aw-container:after { height: 0; }
+
+/* Index pages */
+.container-title .subtitle {
+	display: block;
+	margin-bottom: 10px!important;
+}
+
+
+.container-meno #section-3 .aw-element:after { background: none; }
+
+.post-well .social span, .entry-header .social, .social-article-footer div, .addthis_toolbox, #sticky-nav .social p {display:none !important;}
+
+#floating-300 {
+	width: 100%;
+        max-width:1020px;
+        margin: 0 auto;
+	margin-bottom: 20px;
+}
+#floating-300 .vc_col-sm-9 {
+	float: left;
+	width: calc(100% - 340px);
+	min-width: 720px;
+}
+#floating-300 .vc_col-sm-9 .vcfw-link h2 { 
+        font-size:20px;
+        line-height:28px;
+}
+#floating-300 .vc_col-sm-3 {
+	float: left;
+	width: 300px;
+}
+@media screen and (max-width: 1040px) {
+#floating-300 .vc_col-sm-9 {
+	float: none;
+        margin:0 auto;
+        margin-bottom:20px;
+}
+#floating-300 .vc_col-sm-3 {
+	float: none;
+        margin: 0 auto;
+        width: 300px;
+        margin-bottom: 20px;
+}
+}
+@media screen and (max-width: 680px) {
+#floating-300 .vc_col-sm-9 {
+	min-width:300px;
+}
+}
+
+/* 21:9 images going to 16:9 */
+@media screen and (max-width: 86.1875em){
+.container-meno .ar-21-9 img,
+.aw-element.full-width .vcfw-image img, #single-post .aw-element.full-width .vcfw-image img{    
+        height: 100%;
+	    width: auto;
+    }
+}
+
+/* magazine width */
+.hero-magazine-width {
+    max-width: 640px;
+    float: right;
+}
+/* Quick fix on blockquote */
+@media screen and (min-width: 1055px){
+	#single-post .main-content blockquote {	
+    margin-left: calc( 100% - 640px);
+	}
+}
+#single-post .main-content blockquote {
+	padding-left: 24px !important;
+	padding-top: 0px;
+}
+
+.kickout .ko-embed .instagram-media {
+	position: relative;
+
+}
+
+/* Polar Fix  */
+.kickout .plr-byline, .sticky .plr-byline {
+    display:none;
+}
+
+.footer-campaign .campaign-logo img {
+	max-height:100px;
+}
+
+/* Temp Lytics Slideout fix */
+@media screen and (max-width: 53.0625em) {
+
+	body .1adweek.pf-widget.webinar.pf-widget-slideout {
+	    width: 340px;
+	    height: 270px;
+	    top: calc(100% - 339px);
+	    bottom: auto;
+	}
+	
+	
+}
+
+/* TEMP Event Fix */
+.single-event .wpcf7-form select {
+    width: 100%;
+}
+
+.single-event .aw-container h3 {
+	margin-bottom: 0;
+	margin-top: 25px;
+}
+
+		</style>
+	<style type="text/css" data-type="vc_custom-css">
+
+</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>			<script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script>
+	<!-- Twitter Meta Info -->
+    <meta name='twitter:card'     content='summary_large_image' />
+    <meta name='twitter:site'     content='@adweek' />
+    <meta name='twitter:creator'  content='@adweek' /><!-- Facebook and LinkedIn Meta Info -->
+    <meta property='fb:admins'    content='34404791,617231194' />
+    <meta property='fb:pages'     content='126756847074' />
+    <meta property='fb:app_id'    content='329778260413541' />
+    <meta property='og:title'     content='Adweek' />
+    <meta property='og:description' content='Breaking News in Advertising, Media and Technology' />
+    <meta property='og:url'     content='http://www.adweek.com' />
+    <meta property='og:image'     content='http://www.adweek.com/wp-content/themes/AdWeek/assets/images/icons/apple-touch-icon.png' /><meta name='apple-itunes-app' content='app-id=570229326' />	<meta charset="UTF-8" />
+	<meta name="viewport" 		 content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="shortcut icon" 					 href="http://www.adweek.com/wp-content/themes/AdWeek/assets/images/icons/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="152x152" href="http://www.adweek.com/wp-content/themes/AdWeek/assets/images/icons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="http://www.adweek.com/wp-content/themes/AdWeek/assets/images/icons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="76x76" 	 href="http://www.adweek.com/wp-content/themes/AdWeek/assets/images/icons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" 				 href="http://www.adweek.com/wp-content/themes/AdWeek/assets/images/icons/apple-touch-icon.png">
+	<link rel="canonical" 						 href="http://www.adweek.com">
+
+	<!-- Google Analytics -->
+    	<script>
+  		window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-21937547-1', 'auto');
+  	ga('send', 'pageview')  	</script>
+  	<script async src='https://www.google-analytics.com/analytics.js'></script>
+	<!-- End Google Analytics -->
+
+	<!-- Facebook Pixel Code -->
+	<script>
+	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+	n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+	document,'script','https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '612321248957446'); // Insert your pixel ID here.
+	fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+	src="https://www.facebook.com/tr?id=612321248957446&ev=PageView&noscript=1"
+	/></noscript>
+	<!-- DO NOT MODIFY -->
+	<!-- End Facebook Pixel Code -->
+
+<!--
+	<script>
+	fbq('track', 'Search', {
+	search_string: {{search}}
+	});
+	</script>
+-->
+
+			<!-- start Mixpanel -->
+		<script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
+	0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+	for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
+	mixpanel.init("af76fd0b18b926131d5cab8d248791a4");</script>		<!-- end Mixpanel -->
+
+		<!-- lytics for dfp -->
+	    <script>
+	      !function(l,a){a.liosetup=a.liosetup||{},a.liosetup.callback=a.liosetup.callback||[],a.liosetup.addCallback=function(l){if("function"==typeof a.liosetup.callback){var o=[];o.push(a.liosetup.callback),a.liosetup.callback=o}a.lio&&a.lio.loaded?l(a.lio.data):a.liosetup.callback.push(l)}}(document,window);
+
+	      !function(o,g){g.googletag=g.googletag||{},g.googletag.cmd=g.googletag.cmd||[],"undefined"!=typeof g.googletag?g.googletag.cmd.push(function(){g.googletag.pubads().disableInitialLoad()}):console.warn("attempting to load Lytics for DFP before initializing googletag"),g.liosetup.callback.push(function(o){o||o.segments?g.googletag.cmd.push(function(){g.googletag.pubads().setTargeting("LyticsSegments",o.segments)/* ,g.googletag.pubads().refresh() */}):(console.warn("unable to load Lytics audiences for DFP")/* ,g.googletag.pubads().refresh() */)})}(document,window);
+	    </script>
+
+	    
+	    <!-- Standard lytics tag -->
+	    <script type="text/javascript">
+	    window.jstag=function(){function t(t){return function(){return t.apply(this,arguments),this}}function n(){var n=["ready"].concat(c.call(arguments));return t(function(){n.push(c.call(arguments)),this._q.push(n)})}var i={_q:[],_c:{},ts:(new Date).getTime(),ver:"2.0.0"},c=Array.prototype.slice;return i.init=function(t){return i._c=t,t.synchronous||i.loadtagmgr(t),this},i.loadtagmgr=function(t){var n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=t.url+"/api/tag/"+t.cid+"/lio.js";var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(n,i)},i.ready=n(),i.send=n("send"),i.mock=n("mock"),i.identify=n("identify"),i.pageView=n("pageView"),i.bind=t(function(t){i._q.push([t,c.call(arguments,1)])}),i.block=t(function(){i._c.blockload=!0}),i.unblock=t(function(){i._c.blockload=!1}),i}(),window.jstag.init({cid:"abdd09476411aa251d907649c25e11e9", url:"//c.lytics.io", min:true, loadid:false});
+	</script>
+
+				<script>
+		$(window).load(function($) {
+
+			if ( typeof jstag != 'undefined' ){
+				jstag.send({
+					content_type: "home",
+					user_IP		: "173.252.123.131, 185.93.229.7, 152.195.67.125"
+				});
+			}
+
+		});
+		</script>
+
+		<!-- Start BounceX tag. -->
+		<script>
+		(function(d) {
+		    var e = d.createElement('script');
+		    e.src = d.location.protocol + '//tag.bounceexchange.com/2723/i.js';
+		    e.async = true;
+		    d.getElementsByTagName("head")[0].appendChild(e);
+		}(document));
+		</script>
+		<!-- End BounceX Tag-->
+
+
+		<!-- Bombora -->
+		<script>
+		jQuery( window ).load(function($) {
+
+			(function (w,d,t) {
+				_ml = w._ml || {};
+				_ml.eid = '54161';
+				_ml.fp = window.jstag.ckieGet('seerid');
+				_ml.ef = ['#email','#email2','.wpcf7-email'];
+				var s, cd, tag; s = d.getElementsByTagName(t)[0]; cd = new Date();
+				tag = d.createElement(t); tag.async = 1;
+				tag.src = 'https://ml314.com/tag.aspx?' + cd.getDate() + cd.getMonth();
+				s.parentNode.insertBefore(tag, s);
+			})(window,document,'script');
+
+		});
+		</script>
+
+	
+	<script>
+	function AdBlockEnabled() {
+		var ad = document.createElement('ins');
+		ad.className = 'AdSense';
+		ad.style.display = 'block';
+		ad.style.position = 'absolute';
+		ad.style.top = '-1px';
+		ad.style.height = '1px';
+		document.body.appendChild(ad);
+		var isAdBlockEnabled = !ad.clientHeight;
+		document.body.removeChild(ad);
+		return isAdBlockEnabled;
+	}
+	</script>
+		</head>
+	
+	<body class="home page-template page-template-page-templates page-template-page-blank-hf page-template-page-templatespage-blank-hf-php page page-id-148 offcanvas wpb-js-composer js-comp-ver-4.11.2.1 vc_responsive">
+		<!-- Google Tag Manager NoScript -->
+		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KX5FCW"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+
+
+	
+	
+	
+	<header id="masthead" class="site-header" role="banner">
+		
+		<div id="left-links">
+					</div>
+		
+		<div id="site-logo">
+			<a href="http://www.adweek.com/" rel="home">
+								<img src="http://www.adweek.com/wp-content/themes/AdWeek/assets/images/global/adweek-header-wt.png" />
+			</a>
+		</div>
+		
+		<div id="right-links">
+				
+			<h3>Follow</h3>
+			<div class="masthead-social"><ul id="menu-dropdown-social" class="menu masthead-social-menu"><li id="menu-item-46" class="fa fa-facebook menu-item menu-item-type-custom menu-item-object-custom menu-item-46"><a target="_blank" href="https://www.facebook.com/Adweek">facebook</a></li>
+<li id="menu-item-50" class="fa fa-twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-50"><a target="_blank" href="https://twitter.com/adweek">twitter</a></li>
+<li id="menu-item-49" class="fa fa-linkedin menu-item menu-item-type-custom menu-item-object-custom menu-item-49"><a target="_blank" href="https://www.linkedin.com/company/adweek">linkedin</a></li>
+<li id="menu-item-803594" class="fa fa-instagram menu-item menu-item-type-custom menu-item-object-custom menu-item-803594"><a target="_blank" href="https://www.instagram.com/adweek/">instagram</a></li>
+<li id="menu-item-47" class="fa fa-rss menu-item menu-item-type-custom menu-item-object-custom menu-item-47"><a href="/rss">Feed</a></li>
+</ul></div>			
+			<a href="/subscribe-header" id="header-subscribe-link">Subscribe</a>
+		</div>
+		
+		<button id="mobile-elipsis" class="dropdown-toggle triple-circle-button hide-for-large" type="button" data-toggle="mobile-menu1">
+			<i class="menu-circles" id="c1"></i>
+			<i class="menu-circles" id="c2"></i>
+			<i class="menu-circles" id="c3"></i>
+		</button>		
+
+	</header>
+	
+	<div id="secondary-head">
+		
+		<div class="menu-container"><ul id="menu-primary-menu" class="menu desktop-menu" data-dropdown-menu><li id="menu-item-154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154"><a href="http://www.adweek.com/brand-marketing/">Brand Marketing</a></li>
+<li id="menu-item-156" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156"><a href="http://www.adweek.com/agencies/">Agencies</a></li>
+<li id="menu-item-155" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"><a href="http://www.adweek.com/digital/">Digital</a></li>
+<li id="menu-item-157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-157"><a href="http://www.adweek.com/tv-video/">TV / Video</a></li>
+<li id="menu-item-800646" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-800646"><a href="http://www.adweek.com/creativity/">Creativity</a></li>
+</ul></div>		
+		<a href="#" class="search-bar-toggle"><i class="fa fa-search"></i></a>
+		
+		<button class="dropdown-toggle triple-circle-button" type="button" >
+			<i class="menu-circles" id="c1"></i>
+			<i class="menu-circles" id="c2"></i>
+			<i class="menu-circles" id="c3"></i>
+		</button>
+		
+	</div>
+	
+	<div id="searchbar" class="hidden">
+	
+	<div id="header-search">
+		<form role="search" method="get" id="searchform" action="http://www.adweek.com/" data-abide novalidate>
+		<div class="input-group">
+		<input type="text" class="input-group-field" value="" name="s" id="s" placeholder="Search" required >
+		<div class="input-group-button">
+			<input type="submit" id="searchsubmit" value="Search" class="button">
+		</div>
+		</div>
+	
+</form>
+	</div>
+	
+</div><nav id="dropdown" class="hidden">
+	
+	<div id="dropdown-wrapper" class="row">
+		<div class="dd-menu"><ul id="menu-dotmenu" class="menu dd-left-menu" data-dropdown-menu1><li id="menu-item-40" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-40"><a href="/">Verticals</a>
+<ul class="dropdown menu vertical" data-toggle>
+	<li id="menu-item-41" class="menu-item menu-item-type-taxonomy menu-item-object-vertical menu-item-41"><a href="http://www.adweek.com/vertical/agencies/">Agencies</a></li>
+	<li id="menu-item-42" class="menu-item menu-item-type-taxonomy menu-item-object-vertical menu-item-42"><a href="http://www.adweek.com/vertical/brand-marketing/">Brand Marketing</a></li>
+	<li id="menu-item-43" class="menu-item menu-item-type-taxonomy menu-item-object-vertical menu-item-43"><a href="http://www.adweek.com/vertical/creativity/">Creativity</a></li>
+	<li id="menu-item-44" class="menu-item menu-item-type-taxonomy menu-item-object-vertical menu-item-44"><a href="http://www.adweek.com/vertical/digital/">Digital</a></li>
+	<li id="menu-item-45" class="menu-item menu-item-type-taxonomy menu-item-object-vertical menu-item-45"><a href="http://www.adweek.com/vertical/tv-video/">TV / Video</a></li>
+</ul>
+</li>
+<li id="menu-item-875744" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-875744"><a href="http://jobs.adweek.com">Jobs</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-25"><a href="/subscribe-nav">Subscriptions</a>
+<ul class="dropdown menu vertical" data-toggle>
+	<li id="menu-item-26" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26"><a href="/subscribe-nav">Subscription Options</a></li>
+	<li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a target="_blank" href="https://itunes.apple.com/us/app/adweek-magazine/id570229326?mt=8">Digital App</a></li>
+	<li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28"><a href="/newsletter-preferences">Newsletters</a></li>
+	<li id="menu-item-29" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29"><a target="_blank" href="/customer-service">Customer Service</a></li>
+</ul>
+</li>
+<li id="menu-item-30" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-30"><a href="/events-and-awards">Awards / Honors / Events</a>
+<ul class="dropdown menu vertical" data-toggle>
+	<li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="/webinars">Webinars</a></li>
+	<li id="menu-item-820863" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-820863"><a href="/events-and-awards">Events and Awards</a></li>
+	<li id="menu-item-34" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a target="_blank" href="http://shop.adweek.com/collections/adweek-trophies-awards">Trophies / Awards / Seals</a></li>
+</ul>
+</li>
+<li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-21"><a href="/about">About / Advertising</a>
+<ul class="dropdown menu vertical" data-toggle>
+	<li id="menu-item-22" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22"><a target="_blank" href="http://mediakit.adweek.com">Media Kit</a></li>
+	<li id="menu-item-801260" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-801260"><a href="/sponsored">Sponsor Content</a></li>
+</ul>
+</li>
+<li id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-35"><a href="/">Publications</a>
+<ul class="dropdown menu vertical" data-toggle>
+	<li id="menu-item-36" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36"><a href="/blognetwork">Adweek Network</a></li>
+	<li id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37"><a href="/feed">RSS</a></li>
+	<li id="menu-item-38" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38"><a target="_blank" href="/subscribe-backissues">Backissues</a></li>
+	<li id="menu-item-39" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39"><a href="/reprints">Reprints / E-Prints</a></li>
+</ul>
+</li>
+</ul></div><!--
+		<div class="brandshare-container">		
+			<a href="/" class="brandshare-single">
+				<div class="brandshare-image"><img src="core/wp-content/uploads/2016/09/field-trip-to-mars-1-640x360.jpg"></div>
+				<div class="brandshare-label">BrandShare Content from WorkMarket</div>
+				<div class="brandshare-content">Here’s What Content Marketers Need to Know About Freelancers</div>
+			</a>
+		</div>
+-->
+		<div id="dropdown-social-wrapper">
+			<div id="dropdown-social">
+				<h3>Follow Us</h3>
+				<div class="dd-social-container"><ul id="menu-dropdown-social-1" class="menu dd-social-menu"><li class="fa fa-facebook menu-item menu-item-type-custom menu-item-object-custom menu-item-46"><a target="_blank" href="https://www.facebook.com/Adweek">facebook</a></li>
+<li class="fa fa-twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-50"><a target="_blank" href="https://twitter.com/adweek">twitter</a></li>
+<li class="fa fa-linkedin menu-item menu-item-type-custom menu-item-object-custom menu-item-49"><a target="_blank" href="https://www.linkedin.com/company/adweek">linkedin</a></li>
+<li class="fa fa-instagram menu-item menu-item-type-custom menu-item-object-custom menu-item-803594"><a target="_blank" href="https://www.instagram.com/adweek/">instagram</a></li>
+<li class="fa fa-rss menu-item menu-item-type-custom menu-item-object-custom menu-item-47"><a href="/rss">Feed</a></li>
+</ul></div>			</div>
+		</div>
+	</div>
+	
+</nav>
+
+	<section class="container">
+		<div class='ad-div-oop-wrapper gpt-wrapper'><div id='ad-div-oop'></div></div>
+<div id="page-blank" role="main">
+	
+			<article class="main-content post-148 page type-page status-publish hentry no-hero" id="post-148">
+
+		
+		<div class="entry-content">
+			<div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">	<div class="ad-div-lb-wrapper gpt-wrapper index-ad-wrapper">
+		<div id="ad-div-lb-1" ></div>
+	</div>
+	</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">	<div class="aw-full-width" style="background-color:  ">
+		<div class="aw-container container-title left small dark">
+			<div class="title-and-sponsor"><h2>EDITOR'S PICKS</h2>
+			
+			 
+			</div>
+						
+						
+						
+		</div>
+	</div>
+		<div class="aw-container container-meno flexbox">
+
+		<div class="aw-element aw-element-large-overlay parent-width nob-xl-down hide-for-large"><div class="ar ar-16-9"><img width="1320" height="660" src="http://www.adweek.com/wp-content/uploads/2018/02/gucci-in-the-streets-hed-2018.jpg" class="attachment-aw-full size-aw-full" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/gucci-in-the-streets-hed-2018.jpg 1320w, http://www.adweek.com/wp-content/uploads/2018/02/gucci-in-the-streets-hed-2018-652x326.jpg 652w, http://www.adweek.com/wp-content/uploads/2018/02/gucci-in-the-streets-hed-2018-768x384.jpg 768w, http://www.adweek.com/wp-content/uploads/2018/02/gucci-in-the-streets-hed-2018-1024x512.jpg 1024w, http://www.adweek.com/wp-content/uploads/2018/02/gucci-in-the-streets-hed-2018-320x160.jpg 320w, http://www.adweek.com/wp-content/uploads/2018/02/gucci-in-the-streets-hed-2018-450x225.jpg 450w, http://www.adweek.com/wp-content/uploads/2018/02/gucci-in-the-streets-hed-2018-640x320.jpg 640w" sizes="(max-width: 1320px) 100vw, 1320px" /><div class="title-overlay hide-for-small-only">
+						<a href="http://www.adweek.com/creativity/guccis-60s-inspired-student-protest-ad-misses-the-point-about-why-were-all-mad/"><h2>Gucci's '60s-Inspired Student Protest Ad Misses the Point About Why We're All Mad</h2></a><a href='http://www.adweek.com/contributor/angela-natividad/' class='contributor'>by Angela Natividad</a></div></div><div class="show-for-small-only"><a href="http://www.adweek.com/creativity/guccis-60s-inspired-student-protest-ad-misses-the-point-about-why-were-all-mad/" class="show-for-small-only"><h2>Gucci's '60s-Inspired Student Protest Ad Misses the Point About Why We're All Mad</h2></a><a href='http://www.adweek.com/contributor/angela-natividad/' class='contributor'>by Angela Natividad</a></div></div>
+		<div id="content-section" class="flexbox border-right nobr-m nobr-s xlarge-9 large-8 medium-6 small-12">
+
+			<div class="aw-element aw-element-large-overlay parent-width nob-xl-down show-for-large"><div class="ar ar-16-9"><img width="1320" height="660" src="http://www.adweek.com/wp-content/uploads/2018/02/gucci-in-the-streets-hed-2018.jpg" class="attachment-aw-full size-aw-full" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/gucci-in-the-streets-hed-2018.jpg 1320w, http://www.adweek.com/wp-content/uploads/2018/02/gucci-in-the-streets-hed-2018-652x326.jpg 652w, http://www.adweek.com/wp-content/uploads/2018/02/gucci-in-the-streets-hed-2018-768x384.jpg 768w, http://www.adweek.com/wp-content/uploads/2018/02/gucci-in-the-streets-hed-2018-1024x512.jpg 1024w, http://www.adweek.com/wp-content/uploads/2018/02/gucci-in-the-streets-hed-2018-320x160.jpg 320w, http://www.adweek.com/wp-content/uploads/2018/02/gucci-in-the-streets-hed-2018-450x225.jpg 450w, http://www.adweek.com/wp-content/uploads/2018/02/gucci-in-the-streets-hed-2018-640x320.jpg 640w" sizes="(max-width: 1320px) 100vw, 1320px" /><div class="title-overlay hide-for-small-only">
+						<a href="http://www.adweek.com/creativity/guccis-60s-inspired-student-protest-ad-misses-the-point-about-why-were-all-mad/"><h2>Gucci's '60s-Inspired Student Protest Ad Misses the Point About Why We're All Mad</h2></a><a href='http://www.adweek.com/contributor/angela-natividad/' class='contributor'>by Angela Natividad</a></div></div><div class="show-for-small-only"><a href="http://www.adweek.com/creativity/guccis-60s-inspired-student-protest-ad-misses-the-point-about-why-were-all-mad/" class="show-for-small-only"><h2>Gucci's '60s-Inspired Student Protest Ad Misses the Point About Why We're All Mad</h2></a><a href='http://www.adweek.com/contributor/angela-natividad/' class='contributor'>by Angela Natividad</a></div></div>		
+			<div id="section-1" class="flexbox border-middle nobm-m nobm-s border-right nobr-l nobr-s xlarge-8 small-12">
+				<div class="aw-element vertical parent-width xlarge-6 large-6"><a href="http://www.adweek.com/creativity/3-billboards-inspired-protest-calls-for-justice-following-the-fatal-grenfell-tower-fire/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/Grenfall-Tower-CONTENT-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/Grenfall-Tower-CONTENT-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/Grenfall-Tower-CONTENT-2018-652x367.jpg 652w, http://www.adweek.com/wp-content/uploads/2018/02/Grenfall-Tower-CONTENT-2018-768x431.jpg 768w, http://www.adweek.com/wp-content/uploads/2018/02/Grenfall-Tower-CONTENT-2018-320x180.jpg 320w, http://www.adweek.com/wp-content/uploads/2018/02/Grenfall-Tower-CONTENT-2018-450x253.jpg 450w, http://www.adweek.com/wp-content/uploads/2018/02/Grenfall-Tower-CONTENT-2018.jpg 890w" sizes="(max-width: 640px) 100vw, 640px" /></div></a>	<div class="sponsor-bar">
+		<h2 class="cat-name" >
+			<a href="/creativity">Creativity</a>		</h2>
+	</div>
+	<a href="http://www.adweek.com/creativity/3-billboards-inspired-protest-calls-for-justice-following-the-fatal-grenfell-tower-fire/"><h2>'3 Billboards'-Inspired Protest Calls for Justice Following the Fatal Grenfell Tower Fire</h2></a><a href='http://www.adweek.com/contributor/lindsay-rittenhouse/' class='contributor'>by Lindsay Rittenhouse</a></div><div class="aw-element vertical parent-width xlarge-6 large-6"><a href="http://www.adweek.com/brand-marketing/perrier-just-remade-its-most-famous-ad-lion-three-decades-later/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/perrier-lion-fi-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/perrier-lion-fi-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/perrier-lion-fi-2018-652x367.jpg 652w, http://www.adweek.com/wp-content/uploads/2018/02/perrier-lion-fi-2018-768x432.jpg 768w, http://www.adweek.com/wp-content/uploads/2018/02/perrier-lion-fi-2018-1024x576.jpg 1024w, http://www.adweek.com/wp-content/uploads/2018/02/perrier-lion-fi-2018-320x180.jpg 320w, http://www.adweek.com/wp-content/uploads/2018/02/perrier-lion-fi-2018-450x253.jpg 450w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><div class="sponsor-bar "><h2 class='cat-name'><a href='http://www.adweek.com/category/ad-of-the-day/'>Ad of the Day</a></h2></div><a href="http://www.adweek.com/brand-marketing/perrier-just-remade-its-most-famous-ad-lion-three-decades-later/"><h2>Perrier Just Remade Its Most Famous Ad, 'Lion,' Three Decades Later</h2></a><a href='http://www.adweek.com/contributor/tim-nudd/' class='contributor'>by Tim Nudd</a></div><div class="aw-element vertical parent-width xlarge-6 large-6"><a href="http://www.adweek.com/tv-video/we-asked-new-yorkers-to-name-the-brands-behind-ads-from-the-olympics/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/intel-olympics-drones-PAGE-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/intel-olympics-drones-PAGE-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/intel-olympics-drones-PAGE-2018-652x367.jpg 652w" sizes="(max-width: 640px) 100vw, 640px" /></div></a>	<div class="sponsor-bar">
+		<h2 class="cat-name" >
+			<a href="/tv-video">TV / Video</a>		</h2>
+	</div>
+	<a href="http://www.adweek.com/tv-video/we-asked-new-yorkers-to-name-the-brands-behind-ads-from-the-olympics/"><h2>We Asked People to Name the Brands Behind Ads From the Olympics</h2></a><a href='http://www.adweek.com/contributor/a-j-katz/' class='contributor'>by A.J. Katz</a></div><div class="aw-element vertical parent-width xlarge-6 large-6"><a href="http://www.adweek.com/agencies/the-u-s-armys-marketing-chief-briefed-congressional-staff-about-adweeks-coverage-of-ongoing-audit/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/DOJ-seals-CONTENT-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/DOJ-seals-CONTENT-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/DOJ-seals-CONTENT-652x367.jpg 652w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><div class="sponsor-bar "><h2 class='cat-name'><a href='http://www.adweek.com/category/leadership-talent/'>Leadership &amp; Talent</a></h2></div><a href="http://www.adweek.com/agencies/the-u-s-armys-marketing-chief-briefed-congressional-staff-about-adweeks-coverage-of-ongoing-audit/"><h2>The U.S. Army’s Marketing Chief Briefed Congressional Staff About Adweek’s Coverage of Ongoing Audit</h2></a><a href='http://www.adweek.com/contributor/patrick-coffee/' class='contributor'>by Patrick Coffee</a></div><div class="aw-element title-excerpt parent-width large-6 small-12 nob-xl"><a href="http://www.adweek.com/tv-video/advertisers-must-keep-up-with-cord-cutters-or-else-brands-risk-creating-lost-generation/"><h2>Advertisers Must Keep Up With Cord-Cutters or Else Brands Risk Creating 'Lost Generation'</h2></a><div class="excerpt"><p>The last year has marked a distinct power shift — away from the traditional thrones of cable networks and into the hands of consumers.</p></div></div><div class="aw-element title-excerpt parent-width large-6 small-12 nob-xl nob-m"><a href="http://www.adweek.com/creativity/red-stripe-offers-to-buy-a-new-bobsled-for-jamaican-olympians/"><h2>Red Stripe Says That, Whatever the Cost, It Will Buy a New Bobsled for Jamaica</h2></a><div class="excerpt"><p>'This is not a joke,' the marketing manager says after the beer tweeted its offer to help the Olympic team amid equipment uncertainty.</p></div></div>			
+			</div>
+			<div id="section-2" class="flexbox xlarge-4 border-middle nobm-xl nobm-s hide-for-medium-only">
+				<div class="aw-element horizontal-small parent-width xlarge-12 large-6"><a href="http://www.adweek.com/agencies/what-is-musicbed-and-why-did-it-create-hypertargeted-out-of-home-posters-calling-out-creatives/" class="hs-image"><div class="ar ar-4-3"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/gerry-graf-music-PAGE-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/gerry-graf-music-PAGE-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/gerry-graf-music-PAGE-2018-652x367.jpg 652w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><a href="http://www.adweek.com/agencies/what-is-musicbed-and-why-did-it-create-hypertargeted-out-of-home-posters-calling-out-creatives/" class="hs-title"><h2>What Is Musicbed and Why Did It Create Hypertargeted Out-of-Home Posters Calling Out Creatives?</h2></a></div><div class="aw-element horizontal-small parent-width xlarge-12 large-6"><a href="http://www.adweek.com/creativity/how-french-directors-megaforce-captured-the-spirit-of-london-in-nikes-wild-new-ad/" class="hs-image"><div class="ar ar-4-3"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/nothing-beats-a-londoner-hed-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/nothing-beats-a-londoner-hed-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/nothing-beats-a-londoner-hed-2018-652x367.jpg 652w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><a href="http://www.adweek.com/creativity/how-french-directors-megaforce-captured-the-spirit-of-london-in-nikes-wild-new-ad/" class="hs-title"><h2>How French Directors Megaforce Captured the Spirit of London in Nike's Wild New Ad</h2></a></div><div class="aw-element horizontal-small parent-width xlarge-12 large-6"><a href="http://www.adweek.com/tv-video/nbc-olympics-tuesday-ratings-down-from-2014-but-streaming-figures-were-huge/" class="hs-image"><div class="ar ar-4-3"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/shaun-white-olympics-CONTENT-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/shaun-white-olympics-CONTENT-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/shaun-white-olympics-CONTENT-2018-652x367.jpg 652w, http://www.adweek.com/wp-content/uploads/2018/02/shaun-white-olympics-CONTENT-2018-768x431.jpg 768w, http://www.adweek.com/wp-content/uploads/2018/02/shaun-white-olympics-CONTENT-2018-320x180.jpg 320w, http://www.adweek.com/wp-content/uploads/2018/02/shaun-white-olympics-CONTENT-2018-450x253.jpg 450w, http://www.adweek.com/wp-content/uploads/2018/02/shaun-white-olympics-CONTENT-2018.jpg 890w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><a href="http://www.adweek.com/tv-video/nbc-olympics-tuesday-ratings-down-from-2014-but-streaming-figures-were-huge/" class="hs-title"><h2>NBC Olympics Tuesday Ratings Were Down From 2014, but Streaming Figures Were Huge</h2></a></div><div class="aw-element title-only parent-width xlarge-12 large-6 medium-6 nob-l title-only--medium"><a href="http://www.adweek.com/brand-marketing/reebok-has-the-perfect-shoes-for-the-man-with-the-worlds-fastest-feet/"><h2>Reebok Has the Perfect Shoes for the Man With the World's Fastest Feet</h2></a></div><div class="aw-element horizontal-small parent-width xlarge-12 large-6"><a href="http://www.adweek.com/agencies/subways-new-bold-rebranding-campaign-promises-a-different-taste-for-everyone/" class="hs-image"><div class="ar ar-4-3"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/subway-snowboard-bro-CONTENT-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/subway-snowboard-bro-CONTENT-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/subway-snowboard-bro-CONTENT-2018-652x367.jpg 652w, http://www.adweek.com/wp-content/uploads/2018/02/subway-snowboard-bro-CONTENT-2018-768x431.jpg 768w, http://www.adweek.com/wp-content/uploads/2018/02/subway-snowboard-bro-CONTENT-2018-320x180.jpg 320w, http://www.adweek.com/wp-content/uploads/2018/02/subway-snowboard-bro-CONTENT-2018-450x253.jpg 450w, http://www.adweek.com/wp-content/uploads/2018/02/subway-snowboard-bro-CONTENT-2018.jpg 890w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><a href="http://www.adweek.com/agencies/subways-new-bold-rebranding-campaign-promises-a-different-taste-for-everyone/" class="hs-title"><h2>Subway's Bold Rebranding Campaign Promises a Different Taste for Everyone</h2></a></div><div class="aw-element horizontal-small parent-width xlarge-12 large-6"><a href="http://www.adweek.com/digital/unilevers-cmo-on-moving-meaningful-money-in-push-for-tech-platforms-to-clean-up-content/" class="hs-image"><div class="ar ar-4-3"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/keith-weed-Unilever-CONTENT-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/keith-weed-Unilever-CONTENT-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/keith-weed-Unilever-CONTENT-2018-652x367.jpg 652w, http://www.adweek.com/wp-content/uploads/2018/02/keith-weed-Unilever-CONTENT-2018-768x431.jpg 768w, http://www.adweek.com/wp-content/uploads/2018/02/keith-weed-Unilever-CONTENT-2018-320x180.jpg 320w, http://www.adweek.com/wp-content/uploads/2018/02/keith-weed-Unilever-CONTENT-2018-450x253.jpg 450w, http://www.adweek.com/wp-content/uploads/2018/02/keith-weed-Unilever-CONTENT-2018.jpg 890w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><a href="http://www.adweek.com/digital/unilevers-cmo-on-moving-meaningful-money-in-push-for-tech-platforms-to-clean-up-content/" class="hs-title"><h2>Q&A: How Unilever's CMO Is Trying to Help Make Digital a Safer Space for Brands</h2></a></div><div class="aw-element title-only parent-width xlarge-12 large-6 medium-6 nob-xl-down title-only--medium"><a href="http://www.adweek.com/brand-marketing/ethan-hawke-stars-in-the-ys-new-community-focused-campaign/"><h2>Ethan Hawke Stars in The Y's New Community-Focused Campaign</h2></a></div>			</div>
+			
+		</div>
+
+		<div class="xlarge-3 large-4 medium-6 small-12" id="section-3">
+
+<!--
+			<div class="gpt-wrapper aw-element sticky-container ">
+				<div class="sticky-widgets ad-div-m10-wrapper">
+					<div id="ad-div-m10" ></div>
+				</div>
+			</div>
+-->
+
+							<div class="aw-element parent-width">
+					<div class="widget_text widget"><div class="textwidget custom-html-widget"><a href="/events"><img  src="http://www.adweek.com/wp-content/uploads/2018/01/AdweekEvents.png"  alt="Adweek Awards, Honors, & Events" width="300" height="200" /></a></div></div><div class="widget"><div class='ad-div-m10-wrapper gpt-wrapper'><div id='ad-div-m10'></div></div></div><div class="widget">	    <div class="popular-now">
+	        <div class="container-title left">
+	            <h2>Popular Now</h2>
+	        </div>
+	        <ul>
+	        <li>
+		                <div class='popular_index'>1</div>
+		                <a href='http://adweek.com/digital/royalty-free-music/' class='popular_content'>10 Royalty-Free Music Sites Every Online Video Creator Should Know</a>
+		            </li><li>
+		                <div class='popular_index'>2</div>
+		                <a href='http://adweek.com/creativity/the-5-best-ads-of-super-bowl-lii/' class='popular_content'>The 5 Best Ads of Super Bowl LII</a>
+		            </li><li>
+		                <div class='popular_index'>3</div>
+		                <a href='http://adweek.com/digital/amazon-reportedly-set-to-take-on-fedex-and-ups/' class='popular_content'>Amazon Is Reportedly Set to Take On FedEx and UPS</a>
+		            </li><li>
+		                <div class='popular_index'>4</div>
+		                <a href='http://adweek.com/creativity/red-stripe-offers-to-buy-a-new-bobsled-for-jamaican-olympians/' class='popular_content'>Red Stripe Says That, Whatever the Cost, It Will Buy a New Bobsled for Jamaica</a>
+		            </li><li>
+		                <div class='popular_index'>5</div>
+		                <a href='http://adweek.com/agencies/what-is-musicbed-and-why-did-it-create-hypertargeted-out-of-home-posters-calling-out-creatives/' class='popular_content'>What Is Musicbed and Why Did It Create Hypertargeted Out-of-Home Posters Calling Out Creatives?</a>
+		            </li>	        </ul>
+	    </div>
+	</div>				</div>
+						
+			<div class="aw-element horizontal-small parent-width show-for-medium-only"><a href="http://www.adweek.com/agencies/what-is-musicbed-and-why-did-it-create-hypertargeted-out-of-home-posters-calling-out-creatives/" class="hs-image"><div class="ar ar-4-3"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/gerry-graf-music-PAGE-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/gerry-graf-music-PAGE-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/gerry-graf-music-PAGE-2018-652x367.jpg 652w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><a href="http://www.adweek.com/agencies/what-is-musicbed-and-why-did-it-create-hypertargeted-out-of-home-posters-calling-out-creatives/" class="hs-title"><h2>What Is Musicbed and Why Did It Create Hypertargeted Out-of-Home Posters Calling Out Creatives?</h2></a></div><div class="aw-element horizontal-small parent-width show-for-medium-only"><a href="http://www.adweek.com/creativity/how-french-directors-megaforce-captured-the-spirit-of-london-in-nikes-wild-new-ad/" class="hs-image"><div class="ar ar-4-3"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/nothing-beats-a-londoner-hed-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/nothing-beats-a-londoner-hed-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/nothing-beats-a-londoner-hed-2018-652x367.jpg 652w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><a href="http://www.adweek.com/creativity/how-french-directors-megaforce-captured-the-spirit-of-london-in-nikes-wild-new-ad/" class="hs-title"><h2>How French Directors Megaforce Captured the Spirit of London in Nike's Wild New Ad</h2></a></div><div class="aw-element horizontal-small parent-width show-for-medium-only"><a href="http://www.adweek.com/tv-video/nbc-olympics-tuesday-ratings-down-from-2014-but-streaming-figures-were-huge/" class="hs-image"><div class="ar ar-4-3"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/shaun-white-olympics-CONTENT-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/shaun-white-olympics-CONTENT-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/shaun-white-olympics-CONTENT-2018-652x367.jpg 652w, http://www.adweek.com/wp-content/uploads/2018/02/shaun-white-olympics-CONTENT-2018-768x431.jpg 768w, http://www.adweek.com/wp-content/uploads/2018/02/shaun-white-olympics-CONTENT-2018-320x180.jpg 320w, http://www.adweek.com/wp-content/uploads/2018/02/shaun-white-olympics-CONTENT-2018-450x253.jpg 450w, http://www.adweek.com/wp-content/uploads/2018/02/shaun-white-olympics-CONTENT-2018.jpg 890w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><a href="http://www.adweek.com/tv-video/nbc-olympics-tuesday-ratings-down-from-2014-but-streaming-figures-were-huge/" class="hs-title"><h2>NBC Olympics Tuesday Ratings Were Down From 2014, but Streaming Figures Were Huge</h2></a></div><div class="aw-element title-only parent-width show-for-medium-only title-only--medium"><a href="http://www.adweek.com/brand-marketing/reebok-has-the-perfect-shoes-for-the-man-with-the-worlds-fastest-feet/"><h2>Reebok Has the Perfect Shoes for the Man With the World's Fastest Feet</h2></a></div><div class="aw-element horizontal-small parent-width show-for-medium-only"><a href="http://www.adweek.com/agencies/subways-new-bold-rebranding-campaign-promises-a-different-taste-for-everyone/" class="hs-image"><div class="ar ar-4-3"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/subway-snowboard-bro-CONTENT-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/subway-snowboard-bro-CONTENT-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/subway-snowboard-bro-CONTENT-2018-652x367.jpg 652w, http://www.adweek.com/wp-content/uploads/2018/02/subway-snowboard-bro-CONTENT-2018-768x431.jpg 768w, http://www.adweek.com/wp-content/uploads/2018/02/subway-snowboard-bro-CONTENT-2018-320x180.jpg 320w, http://www.adweek.com/wp-content/uploads/2018/02/subway-snowboard-bro-CONTENT-2018-450x253.jpg 450w, http://www.adweek.com/wp-content/uploads/2018/02/subway-snowboard-bro-CONTENT-2018.jpg 890w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><a href="http://www.adweek.com/agencies/subways-new-bold-rebranding-campaign-promises-a-different-taste-for-everyone/" class="hs-title"><h2>Subway's Bold Rebranding Campaign Promises a Different Taste for Everyone</h2></a></div><div class="aw-element horizontal-small parent-width show-for-medium-only"><a href="http://www.adweek.com/digital/unilevers-cmo-on-moving-meaningful-money-in-push-for-tech-platforms-to-clean-up-content/" class="hs-image"><div class="ar ar-4-3"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/keith-weed-Unilever-CONTENT-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/keith-weed-Unilever-CONTENT-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/keith-weed-Unilever-CONTENT-2018-652x367.jpg 652w, http://www.adweek.com/wp-content/uploads/2018/02/keith-weed-Unilever-CONTENT-2018-768x431.jpg 768w, http://www.adweek.com/wp-content/uploads/2018/02/keith-weed-Unilever-CONTENT-2018-320x180.jpg 320w, http://www.adweek.com/wp-content/uploads/2018/02/keith-weed-Unilever-CONTENT-2018-450x253.jpg 450w, http://www.adweek.com/wp-content/uploads/2018/02/keith-weed-Unilever-CONTENT-2018.jpg 890w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><a href="http://www.adweek.com/digital/unilevers-cmo-on-moving-meaningful-money-in-push-for-tech-platforms-to-clean-up-content/" class="hs-title"><h2>Q&A: How Unilever's CMO Is Trying to Help Make Digital a Safer Space for Brands</h2></a></div><div class="aw-element title-only parent-width show-for-medium-only nob-m title-only--medium"><a href="http://www.adweek.com/brand-marketing/ethan-hawke-stars-in-the-ys-new-community-focused-campaign/"><h2>Ethan Hawke Stars in The Y's New Community-Focused Campaign</h2></a></div>			
+		</div>
+		
+	</div>	
+	</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">	<div class="aw-full-width" style="background-color:  ">
+		<div class="aw-container container-title left small dark">
+			<div class="title-and-sponsor"><h2>This Week's Issue</h2>
+			
+			 
+			</div>
+			<div class="subtitle hide-for-large">The hottest topics from the newest Adweek</div>			
+						
+			<div class="subtitle show-for-large">The hottest topics from the newest Adweek</div>			
+		</div>
+	</div>
+		<div class="aw-container container-grid flexbox">
+		
+		<div class="aw-element vertical parent-width border-right nobr-s xlarge-3 large-3 medium-6 small-12 nob-xl nob-l "><a href="http://www.adweek.com/brand-marketing/inside-mms-quest-to-turn-its-spokescandy-red-into-a-human-for-the-super-bowl/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/01/devito-mms-PAGE-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/01/devito-mms-PAGE-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/01/devito-mms-PAGE-2018-652x367.jpg 652w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><div class="sponsor-bar "><h2 class='cat-name'><a href='http://www.adweek.com/category/the-big-game/'>The Big Game</a></h2></div><a href="http://www.adweek.com/brand-marketing/inside-mms-quest-to-turn-its-spokescandy-red-into-a-human-for-the-super-bowl/"><h2>Inside M&M's Absurd Gambit to Turn Danny DeVito Into a Super Bowl-Sized Spokescandy</h2></a><a href='http://www.adweek.com/contributor/kristina-monllos/' class='contributor'>by Kristina Monllos</a></div><div class="aw-element vertical parent-width border-right nobr-s xlarge-3 large-3 medium-6 small-12 nob-xl nob-l nobr-m"><a href="http://www.adweek.com/tv-video/how-to-make-1-4-billion-in-22-days/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/01/nbc-sports-PAGE-2018-640x360.gif" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/01/nbc-sports-PAGE-2018-640x360.gif 640w, http://www.adweek.com/wp-content/uploads/2018/01/nbc-sports-PAGE-2018-652x367.gif 652w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><div class="sponsor-bar "><h2 class='cat-name'><a href='http://www.adweek.com/category/the-big-game/'>The Big Game</a></h2></div><a href="http://www.adweek.com/tv-video/how-to-make-1-4-billion-in-22-days/"><h2>NBC Sports Is About to Make $1.4 Billion in 22 Days Thanks to the Super Bowl and Winter Olympics</h2></a><a href='http://www.adweek.com/contributor/jason-lynch/' class='contributor'>by Jason Lynch</a></div><div class="aw-element vertical parent-width border-right nobr-s xlarge-3 large-3 medium-6 small-12 nob-xl nob-l nob-m"><a href="http://www.adweek.com/brand-marketing/tk-iggy-monster-sidebar/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/01/iggy-azalea-content-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/01/iggy-azalea-content-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/01/iggy-azalea-content-2018-652x367.jpg 652w, http://www.adweek.com/wp-content/uploads/2018/01/iggy-azalea-content-2018-768x431.jpg 768w, http://www.adweek.com/wp-content/uploads/2018/01/iggy-azalea-content-2018-320x180.jpg 320w, http://www.adweek.com/wp-content/uploads/2018/01/iggy-azalea-content-2018-450x253.jpg 450w, http://www.adweek.com/wp-content/uploads/2018/01/iggy-azalea-content-2018.jpg 890w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><div class="sponsor-bar "><h2 class='cat-name'><a href='http://www.adweek.com/category/the-big-game/'>The Big Game</a></h2></div><a href="http://www.adweek.com/brand-marketing/tk-iggy-monster-sidebar/"><h2>Inside the First Super Bowl Ad From NBCU's In-House Agency, Starring Iggy Azalea</h2></a><a href='http://www.adweek.com/contributor/jason-lynch/' class='contributor'>by Jason Lynch</a></div><div class="aw-element vertical parent-width border-right nobr-s xlarge-3 large-3 medium-6 small-12 nob-xl nob-l nob-m nob-s nobr-xl nobr-l nobr-m"><a href="http://www.adweek.com/brand-marketing/how-squarespace-created-a-killer-super-bowl-spot-that-scored-an-emmy/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/01/john-malkovich-squarespace-PAGE-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/01/john-malkovich-squarespace-PAGE-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/01/john-malkovich-squarespace-PAGE-2018-652x367.jpg 652w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><div class="sponsor-bar "><h2 class='cat-name'><a href='http://www.adweek.com/category/the-big-game/'>The Big Game</a></h2></div><a href="http://www.adweek.com/brand-marketing/how-squarespace-created-a-killer-super-bowl-spot-that-scored-an-emmy/"><h2>How Squarespace Created a Killer Super Bowl Spot That Scored an Emmy</h2></a><a href='http://www.adweek.com/contributor/katie-richards/' class='contributor'>by Katie Richards</a></div>		
+	</div>	
+		<div class="aw-full-width" style="background-color:  ">
+		<div class="aw-container container-title left small dark">
+			<div class="title-and-sponsor"><h2>Digital Transformation Playbook</h2>
+			
+			<div class="sponsor"><span>IN PARTNERSHIP WITH</span><a href="/category/digital-transformation/" class="sponsor-image"><img width="300" height="27" src="http://www.adweek.com/wp-content/uploads/2017/01/Accenture_Interactive.png" class="attachment-aw-inset size-aw-inset" alt="" /></a></div> 
+			</div>
+						
+						
+						
+		</div>
+	</div>
+		<div class="aw-container container-grid flexbox">
+		
+		<div class="aw-element vertical parent-width border-right nobr-s xlarge-3 large-3 medium-6 small-12 nob-xl nob-l "><a href="http://www.adweek.com/digital/amazon-reportedly-set-to-take-on-fedex-and-ups/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/amazon-ups-CONTENT-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/amazon-ups-CONTENT-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/amazon-ups-CONTENT-2018-652x367.jpg 652w, http://www.adweek.com/wp-content/uploads/2018/02/amazon-ups-CONTENT-2018-768x431.jpg 768w, http://www.adweek.com/wp-content/uploads/2018/02/amazon-ups-CONTENT-2018-320x180.jpg 320w, http://www.adweek.com/wp-content/uploads/2018/02/amazon-ups-CONTENT-2018-450x253.jpg 450w, http://www.adweek.com/wp-content/uploads/2018/02/amazon-ups-CONTENT-2018.jpg 890w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><a href="http://www.adweek.com/digital/amazon-reportedly-set-to-take-on-fedex-and-ups/"><h2>Amazon Is Reportedly Set to Take On FedEx and UPS</h2></a><a href='http://www.adweek.com/contributor/annmarie-alcantara/' class='contributor'>by Ann-Marie Alcántara</a></div><div class="aw-element vertical parent-width border-right nobr-s xlarge-3 large-3 medium-6 small-12 nob-xl nob-l nobr-m"><a href="http://www.adweek.com/digital/heres-what-it-will-take-to-make-autonomous-cars-a-reality/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/driverless-car-ford-CONTENT-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/driverless-car-ford-CONTENT-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/driverless-car-ford-CONTENT-2018-652x367.jpg 652w, http://www.adweek.com/wp-content/uploads/2018/02/driverless-car-ford-CONTENT-2018-768x431.jpg 768w, http://www.adweek.com/wp-content/uploads/2018/02/driverless-car-ford-CONTENT-2018-320x180.jpg 320w, http://www.adweek.com/wp-content/uploads/2018/02/driverless-car-ford-CONTENT-2018-450x253.jpg 450w, http://www.adweek.com/wp-content/uploads/2018/02/driverless-car-ford-CONTENT-2018.jpg 890w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><a href="http://www.adweek.com/digital/heres-what-it-will-take-to-make-autonomous-cars-a-reality/"><h2>Here’s What It Will Take to Make Autonomous Cars a Reality</h2></a><a href='http://www.adweek.com/contributor/kerry-fitzmaurice/' class='contributor'>by Kerry Fitzmaurice</a></div><div class="aw-element vertical parent-width border-right nobr-s xlarge-3 large-3 medium-6 small-12 nob-xl nob-l nob-m"><a href="http://www.adweek.com/digital/3-lessons-brands-can-learn-from-the-emerging-cannabis-industry/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/retail-canabis-CONTENT-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/retail-canabis-CONTENT-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/retail-canabis-CONTENT-2018-652x367.jpg 652w, http://www.adweek.com/wp-content/uploads/2018/02/retail-canabis-CONTENT-2018-768x431.jpg 768w, http://www.adweek.com/wp-content/uploads/2018/02/retail-canabis-CONTENT-2018-320x180.jpg 320w, http://www.adweek.com/wp-content/uploads/2018/02/retail-canabis-CONTENT-2018-450x253.jpg 450w, http://www.adweek.com/wp-content/uploads/2018/02/retail-canabis-CONTENT-2018.jpg 890w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><a href="http://www.adweek.com/digital/3-lessons-brands-can-learn-from-the-emerging-cannabis-industry/"><h2>3 Lessons Brands Can Learn From the Emerging Cannabis Industry</h2></a><a href='http://www.adweek.com/contributor/annmarie-alcantara/' class='contributor'>by Ann-Marie Alcántara</a></div><div class="aw-element vertical parent-width border-right nobr-s xlarge-3 large-3 medium-6 small-12 nob-xl nob-l nob-m nob-s nobr-xl nobr-l nobr-m"><a href="http://www.adweek.com/digital/how-businesses-are-using-ai-and-machine-learning-to-leverage-events/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/01/robot-ignition-CONTENT-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/01/robot-ignition-CONTENT-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/01/robot-ignition-CONTENT-2018-652x367.jpg 652w, http://www.adweek.com/wp-content/uploads/2018/01/robot-ignition-CONTENT-2018-768x431.jpg 768w, http://www.adweek.com/wp-content/uploads/2018/01/robot-ignition-CONTENT-2018-320x180.jpg 320w, http://www.adweek.com/wp-content/uploads/2018/01/robot-ignition-CONTENT-2018-450x253.jpg 450w, http://www.adweek.com/wp-content/uploads/2018/01/robot-ignition-CONTENT-2018.jpg 890w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><a href="http://www.adweek.com/digital/how-businesses-are-using-ai-and-machine-learning-to-leverage-events/"><h2>How Businesses Are Using AI and Machine Learning to Leverage Events</h2></a><a href='http://www.adweek.com/contributor/danielle-a-jackson/' class='contributor'>by Danielle A. Jackson</a></div><div class="view-more-link"><a href="/category/digital-transformation/">View more in Digital Transformation ></a></div>		
+	</div>	
+		<div class="aw-full-width" style="background-color:  ">
+		<div class="aw-container container-title left small dark">
+			<div class="title-and-sponsor"><h2>In Case You Missed It</h2>
+			
+			 
+			</div>
+			<div class="subtitle hide-for-large">Get caught up on all of the informative, inspiring and interesting reads</div>			
+						
+			<div class="subtitle show-for-large">Get caught up on all of the informative, inspiring and interesting reads</div>			
+		</div>
+	</div>
+		<div class="aw-container container-grid flexbox">
+		
+		<div class="aw-element vertical parent-width border-right nobr-s xlarge-3 large-3 medium-6 small-12"><a href="http://www.adweek.com/agencies/fearless-girl-is-getting-a-permanent-home-in-nyc-though-she-may-be-relocated/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2017/03/fearless-girl-hed-2017-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" /></div></a>	<div class="sponsor-bar">
+		<h2 class="cat-name" >
+			<a href="/agencies">Agencies</a>		</h2>
+	</div>
+	<a href="http://www.adweek.com/agencies/fearless-girl-is-getting-a-permanent-home-in-nyc-though-she-may-be-relocated/"><h2>Fearless Girl Is Getting a Permanent Home in NYC, Though She May Be Relocated</h2></a><a href='http://www.adweek.com/contributor/patrick-coffee/' class='contributor'>by Patrick Coffee</a></div><div class="aw-element vertical parent-width border-right nobr-s xlarge-3 large-3 medium-6 small-12 nobr-m"><a href="http://www.adweek.com/creativity/the-5-best-ads-of-super-bowl-lii/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/5-best-ads-of-super-bowl-lii-hed-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/5-best-ads-of-super-bowl-lii-hed-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/5-best-ads-of-super-bowl-lii-hed-2018-652x367.jpg 652w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><div class="sponsor-bar "><h2 class='cat-name'><a href='http://www.adweek.com/category/the-big-game/'>The Big Game</a></h2></div><a href="http://www.adweek.com/creativity/the-5-best-ads-of-super-bowl-lii/"><h2>The 5 Best Ads of Super Bowl LII</h2></a><a href='http://www.adweek.com/contributor/tim-nudd/' class='contributor'>by Tim Nudd</a></div><div class="aw-element vertical parent-width border-right nobr-s xlarge-3 large-3 medium-6 small-12"><a href="http://www.adweek.com/brand-marketing/every-ad-is-a-tide-ad-inside-saatchi-and-pgs-clever-super-bowl-takeover-starring-david-harbour/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/tidead-david-harbour-horse-PAGE-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/tidead-david-harbour-horse-PAGE-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/tidead-david-harbour-horse-PAGE-2018-652x367.jpg 652w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><div class="sponsor-bar "><h2 class='cat-name'><a href='http://www.adweek.com/category/the-big-game/'>The Big Game</a></h2></div><a href="http://www.adweek.com/brand-marketing/every-ad-is-a-tide-ad-inside-saatchi-and-pgs-clever-super-bowl-takeover-starring-david-harbour/"><h2>Every Ad Is a Tide Ad: Inside Saatchi and P&G’s Clever Super Bowl Takeover Starring David Harbour</h2></a><a href='http://www.adweek.com/contributor/marty-swant/' class='contributor'>by Marty Swant</a></div><div class="aw-element vertical parent-width border-right nobr-s xlarge-3 large-3 medium-6 small-12 nobr-xl nobr-l nobr-m"><a href="http://www.adweek.com/brand-marketing/that-crocodile-dundee-reboot-heres-the-whole-story-behind-the-movie-that-wasnt/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/dundee-australia-PAGE-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/dundee-australia-PAGE-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/dundee-australia-PAGE-2018-652x367.jpg 652w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><div class="sponsor-bar "><h2 class='cat-name'><a href='http://www.adweek.com/category/the-big-game/'>The Big Game</a></h2></div><a href="http://www.adweek.com/brand-marketing/that-crocodile-dundee-reboot-heres-the-whole-story-behind-the-movie-that-wasnt/"><h2>That Crocodile Dundee Reboot: Here’s the Whole Story Behind the Movie That Wasn’t</h2></a><a href='http://www.adweek.com/contributor/robert-klara/' class='contributor'>by Robert Klara</a></div><div class="aw-element vertical parent-width border-right nobr-s xlarge-3 large-3 medium-6 small-12 nob-xl nob-l "><a href="http://www.adweek.com/brand-marketing/with-a-0-ad-budget-tesla-just-pulled-off-one-of-the-greatest-marketing-stunts-ever/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/tesla-space-stunt-hed-page-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/tesla-space-stunt-hed-page-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/tesla-space-stunt-hed-page-2018-652x367.jpg 652w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><div class="sponsor-bar "><h2 class='cat-name'><a href='http://www.adweek.com/category/marketing-innovation/'>Marketing Innovation</a></h2></div><a href="http://www.adweek.com/brand-marketing/with-a-0-ad-budget-tesla-just-pulled-off-one-of-the-greatest-marketing-stunts-ever/"><h2>With a $0 Ad Budget, Tesla Just Pulled Off One of the Greatest Marketing Stunts Ever</h2></a><a href='http://www.adweek.com/contributor/david-griner/' class='contributor'>by David Griner</a></div><div class="aw-element vertical parent-width border-right nobr-s xlarge-3 large-3 medium-6 small-12 nob-xl nob-l nobr-m"><a href="http://www.adweek.com/tv-video/bloomberg-created-a-video-game-to-document-the-demise-of-the-american-shopping-mall/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/mall-page-01-2018-640x360.gif" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/mall-page-01-2018-640x360.gif 640w, http://www.adweek.com/wp-content/uploads/2018/02/mall-page-01-2018-652x367.gif 652w" sizes="(max-width: 640px) 100vw, 640px" /></div></a>	<div class="sponsor-bar">
+		<h2 class="cat-name" >
+			<a href="/tv-video">TV / Video</a>		</h2>
+	</div>
+	<a href="http://www.adweek.com/tv-video/bloomberg-created-a-video-game-to-document-the-demise-of-the-american-shopping-mall/"><h2>Bloomberg Created a Video Game to Document the Demise of the American Shopping Mall</h2></a><a href='http://www.adweek.com/contributor/chris-ariens/' class='contributor'>by Chris Ariens</a></div><div class="aw-element vertical parent-width border-right nobr-s xlarge-3 large-3 medium-6 small-12 nob-xl nob-l nob-m"><a href="http://www.adweek.com/digital/intel-choreographed-1200-drones-for-the-winter-olympics-opening-ceremony/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/intel-drone-winter-PAGE-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/intel-drone-winter-PAGE-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/intel-drone-winter-PAGE-2018-652x367.jpg 652w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><div class="sponsor-bar "><h2 class='cat-name'><a href='http://www.adweek.com/category/emerging-tech/'>Emerging Tech</a></h2></div><a href="http://www.adweek.com/digital/intel-choreographed-1200-drones-for-the-winter-olympics-opening-ceremony/"><h2>Intel Choreographed 1,200 Drones for the Winter Olympics Opening Ceremony</h2></a><a href='http://www.adweek.com/contributor/marty-swant/' class='contributor'>by Marty Swant</a></div><div class="aw-element vertical parent-width border-right nobr-s xlarge-3 large-3 medium-6 small-12 nob-xl nob-l nob-m nob-s nobr-xl nobr-l nobr-m"><a href="http://www.adweek.com/brand-marketing/why-diesel-opened-a-deceptive-nyc-pop-up-store-selling-knockoffs-of-its-own-clothes/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/deisel-popup-PAGE-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/deisel-popup-PAGE-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/deisel-popup-PAGE-2018-652x367.jpg 652w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><div class="sponsor-bar "><h2 class='cat-name'><a href='http://www.adweek.com/category/marketing-innovation/'>Marketing Innovation</a></h2></div><a href="http://www.adweek.com/brand-marketing/why-diesel-opened-a-deceptive-nyc-pop-up-store-selling-knockoffs-of-its-own-clothes/"><h2>Why Diesel Opened a Deceptive NYC Pop-Up Store Selling Knockoffs of Its Own Clothes</h2></a><a href='http://www.adweek.com/contributor/katie-richards/' class='contributor'>by Katie Richards</a></div>		
+	</div>	
+	</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">	<div class="aw-container container-subscribe flexbox  colored">
+		<div class="subscribe-box xlarge-9 large-8 medium-6  small-12" style="background-color: #e4e4e4 ">
+
+			<div class='subscribe-title'>Get Adweek's <span>Morning Digest</span> Newsletter in your Inbox</div><div class='subscribe-subtitle'>What marketers need to know today</div>			<form name="newsletter_st_form" action="aw_process_subscribe" class="sub-form" data-abide novalidate >
+				<input type="hidden" name="AWK_NewDaily" 	value="Yes" >
+				<input type="hidden" name="action" 			value="aw_process_subscribe">
+
+				<input type="text" placeholder="Enter Email Address" id="email" name="email" class="email required" required pattern="email">
+
+				<div class="hidden-options">
+					<input type="text" placeholder="First Name" name="first_name" 	class="required" required="required" >
+					<input type="text" placeholder="Last Name" 	name="last_name" 	class="required" required="required" >
+					<input type="text" placeholder="Job Title" 	name="title" 		class="required" required="required" >
+					<input type="text" placeholder="Company" 	name="company" 		class="required" required="required" >
+          <input type="checkbox" name="hiddenRecaptcha" id="hidden-recaptcha" value="false" class="hide" required/>
+
+          <div class="rc-placeholder"></div>
+
+          <div class="g-recaptcha" data-sitekey="6Lc4tCkTAAAAAL1PkFQRMal6Mkq0ApUspf5Bv3kS" ></div>
+
+					<div class="nl-checkboxes">
+	          <label class="checkbox">
+	            <input type="checkbox" name="AW_Promo" value="Yes" checked> Receive information and updates on Adweek Events, Awards, and Promotions
+	          </label>
+	          <label class="checkbox">
+	            <input type="checkbox" name="AW_Promo3P" value="Yes" checked> Receive news and offers from our friends and sponsors
+	          </label>
+	        </div>
+          <button class="button">Sign Me Up</button>
+        </div>
+        <div data-closable class="callout alert hide noemail">
+          Please enter a valid email address
+          <button class="close-button" aria-label="Dismiss alert" type="button" data-close><span>&times;</span></button>
+        </div>
+        <div data-closable class="callout alert hide emptyfield">
+          Please complete all fields
+          <button class="close-button" aria-label="Dismiss alert" type="button" data-close><span>&times;</span></button>
+        </div>
+        <div data-closable class="callout alert hide norecaptcha">
+          Please confirm with the Recaptcha
+          <button class="close-button" aria-label="Dismiss alert" type="button" data-close><span>&times;</span></button>
+        </div>
+        <div data-closable class="callout alert hide recaptcha">
+          Recaptcha response was incorrect
+          <button class="close-button" aria-label="Dismiss alert" type="button" data-close><span>&times;</span></button>
+        </div>
+        <div data-closable class="callout warning hide nochange">
+          You are already subscribed to this newsletter. To update your preferences, <a href="">click here</a>.
+          <button class="close-button" aria-label="Dismiss alert" type="button" data-close><span>&times;</span></button>
+        </div>
+		<div data-closable class="callout success hide thanks">
+			Thank you for subscribing.<br>Please check your email to confirm
+			<button class="close-button" aria-label="Dismiss alert" type="button" data-close><span>&times;</span></button>
+		</div>
+        <div data-closable class="callout alert hide error">
+        	An error has occurred, please try again later
+					<button class="close-button" aria-label="Dismiss alert" type="button" data-close><span>&times;</span></button>
+      	</div>
+			</form>
+
+			<div class="message thanks">
+				<div class='thanks-title'>Thanks for Signing Up!</div><div class='thanks-subtitle'>Follow us to stay up to date</div>				<ul class="thanks-social">
+					<li class="fa fa-facebook"><a href="https://www.facebook.com/Adweek/" target="_blank">Facebook</a></li>
+					<li class="fa fa-twitter "><a href="https://twitter.com/adweek" target="_blank">Twitter</a></li>
+					<li class="fa fa-linkedin"><a href="https://www.linkedin.com/company/adweek" target="_blank">Linkedin</a></li>
+					<li class="fa fa-rss"><a href="/feed" target="_blank">Feed</a></li>
+					<li class="fa fa-instagram "><a href="https://www.instagram.com/adweek/" target="_blank">Instagram</a></li>
+				</ul>
+
+			</div>
+
+			<div class="message nochange">
+
+				<div class='thanks-title'></div>
+				<div class='thanks-subtitle'>
+					You are already subscribed to this newsletter. To update your preferences, <a href="/newsletter-preferences" class="pref-link">click here</a>.
+				</div>
+
+				<ul class="thanks-social">
+					<li class="fa fa-facebook"><a href="https://www.facebook.com/Adweek/" target="_blank">Facebook</a></li>
+					<li class="fa fa-twitter "><a href="https://twitter.com/adweek" target="_blank">Twitter</a></li>
+					<li class="fa fa-linkedin"><a href="https://www.linkedin.com/company/adweek" target="_blank">Linkedin</a></li>
+					<li class="fa fa-rss"><a href="/feed" target="_blank">Feed</a></li>
+					<li class="fa fa-instagram "><a href="https://www.instagram.com/adweek/" target="_blank">Instagram</a></li>
+				</ul>
+
+			</div>
+
+		</div>
+		<div class="xlarge-3 large-4 medium-6 small-12">
+			<div class="aw-element parent-width"><div class="widget"><div class='ad-div-m20-wrapper gpt-wrapper'><div id='ad-div-m20'></div></div></div></div>		</div>
+	</div>
+	</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="aw-element full-width parent-width"><a href="http://www.adweek.com/digital/check-out-adweeks-instant-reviews-of-every-ad-in-super-bowl-lii/" class="vcfw-image ar ar-21-9"><img width="1320" height="660" src="http://www.adweek.com/wp-content/uploads/2018/02/superbowl-ad-ratings-2018-02.gif" class="attachment-aw-full size-aw-full" alt="" /></a><a href="http://www.adweek.com/digital/check-out-adweeks-instant-reviews-of-every-ad-in-super-bowl-lii/" class="vcfw-link"><h2>Check Out Adweek's Instant Reviews of Every Ad in Super Bowl LII</h2></a></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">	<div class="aw-full-width" style="background-color:  ">
+		<div class="aw-container container-title left small dark">
+			<div class="title-and-sponsor"><h2>Agencies</h2>
+			
+			 
+			</div>
+						
+						
+						
+		</div>
+	</div>
+		<div class="aw-container container-g variation-2 flexbox">
+		
+		<div class="section-1 border-right nobr-m nobr-s border-middle nobm-s flexbox xlarge-6 large-8 medium-12">
+			<div class="aw-element vertical parent-width xlarge-6 medium-6 small-12 nob-xl nob-l"><a href="http://www.adweek.com/agencies/hearts-science-hires-groupm-executive-to-help-run-the-att-business/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/AJ-Storinge-hs-CONTENT-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/AJ-Storinge-hs-CONTENT-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/AJ-Storinge-hs-CONTENT-2018-652x367.jpg 652w, http://www.adweek.com/wp-content/uploads/2018/02/AJ-Storinge-hs-CONTENT-2018-768x431.jpg 768w, http://www.adweek.com/wp-content/uploads/2018/02/AJ-Storinge-hs-CONTENT-2018-320x180.jpg 320w, http://www.adweek.com/wp-content/uploads/2018/02/AJ-Storinge-hs-CONTENT-2018-450x253.jpg 450w, http://www.adweek.com/wp-content/uploads/2018/02/AJ-Storinge-hs-CONTENT-2018.jpg 890w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><div class="sponsor-bar "><h2 class='cat-name'><a href='http://www.adweek.com/category/leadership-talent/'>Leadership &amp; Talent</a></h2></div><a href="http://www.adweek.com/agencies/hearts-science-hires-groupm-executive-to-help-run-the-att-business/"><h2>Hearts & Science Hires GroupM Executive to Help Run the AT&T Business</h2></a><a href='http://www.adweek.com/contributor/erik-oster/' class='contributor'>by Erik Oster</a></div><div class="aw-element vertical parent-width xlarge-6 medium-6 small-12 nob-xl nob-l"><a href="http://www.adweek.com/agencies/iprospect-shakes-up-leadership-with-new-u-s-cmo-and-first-chief-tech-officer/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/iprospect-content-2018-640x360.png" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/iprospect-content-2018-640x360.png 640w, http://www.adweek.com/wp-content/uploads/2018/02/iprospect-content-2018-652x367.png 652w, http://www.adweek.com/wp-content/uploads/2018/02/iprospect-content-2018-768x431.png 768w, http://www.adweek.com/wp-content/uploads/2018/02/iprospect-content-2018-320x180.png 320w, http://www.adweek.com/wp-content/uploads/2018/02/iprospect-content-2018-450x253.png 450w, http://www.adweek.com/wp-content/uploads/2018/02/iprospect-content-2018.png 890w" sizes="(max-width: 640px) 100vw, 640px" /></div></a>	<div class="sponsor-bar">
+		<h2 class="cat-name" >
+			<a href="/agencies">Agencies</a>		</h2>
+	</div>
+	<a href="http://www.adweek.com/agencies/iprospect-shakes-up-leadership-with-new-u-s-cmo-and-first-chief-tech-officer/"><h2>iProspect Shakes Up Leadership With New U.S. CMO and First Chief Tech Officer</h2></a><a href='http://www.adweek.com/contributor/lindsay-rittenhouse/' class='contributor'>by Lindsay Rittenhouse</a></div>		</div>
+		
+		<div class="section-2 border-middle nobm-l nobm-m nobm-s flexbox xlarge-6 large-4 medium-12">
+		
+				
+			<div class="row-1 flexbox">
+				<div class="aw-element title-only parent-width border-right nobr-l nobr-s xlarge-6 large-12 medium-6 small-12 title-only--medium"><a href="http://www.adweek.com/agencies/the-u-s-armys-marketing-chief-briefed-congressional-staff-about-adweeks-coverage-of-ongoing-audit/"><h2>The U.S. Army’s Marketing Chief Briefed Congressional Staff About Adweek’s Coverage of Ongoing Audit</h2></a></div>				<div class="flexbox xlarge-6 large-12 medium-6 small-12">
+					<div class="aw-element title-only parent-width title-only--small"><a href="http://www.adweek.com/agencies/what-is-musicbed-and-why-did-it-create-hypertargeted-out-of-home-posters-calling-out-creatives/"><h2>What Is Musicbed and Why Did It Create Hypertargeted Out-of-Home Posters Calling Out Creatives?</h2></a></div><div class="aw-element title-only parent-width nob-l title-only--small"><a href="http://www.adweek.com/agencies/subways-new-bold-rebranding-campaign-promises-a-different-taste-for-everyone/"><h2>Subway's Bold Rebranding Campaign Promises a Different Taste for Everyone</h2></a></div>				</div>
+			</div>
+
+			<div class="row-2 flexbox hide-for-large-only">
+				<div class="flexbox border-right large-6 medium-6 small-12 nobr-s">
+					<div class="aw-element title-only parent-width title-only--small"><a href="http://www.adweek.com/agencies/r-ga-promotes-veteran-executive-to-new-global-chief-design-officer-role/"><h2>R/GA Promotes Veteran Executive to New Global Chief Design Officer Role</h2></a></div><div class="aw-element title-only parent-width nob-xl nob-l nob-m title-only--small"><a href="http://www.adweek.com/agencies/las-vegas-ad-agency-explains-why-what-happens-here-stays-here-isnt-going-anywhere/"><h2>Las Vegas' Ad Agency Explains Why 'What Happens Here, Stays Here' Isn't Going Anywhere</h2></a></div>				</div>
+				<div class="aw-element title-only parent-width large-6 medium-6 small-12 nob-xl-down title-only--medium"><a href="http://www.adweek.com/agencies/huge-hires-young-rubicam-chief-strategy-officer-to-head-up-global-planning/"><h2>Huge Hires Young & Rubicam Chief Strategy Officer to Head Up Global Planning</h2></a></div>			</div>
+				
+				
+		</div>
+		
+		<div class="view-more-link"><a href="/agencies">View more in Agencies ></a></div>		
+	</div>	
+	</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">	<div class="aw-full-width" style="background-color:  ">
+		<div class="aw-container container-title left small dark">
+			<div class="title-and-sponsor"><h2>Brand Marketing</h2>
+			
+			 
+			</div>
+						
+						
+						
+		</div>
+	</div>
+		<div class="aw-container container-g variation-2 flexbox">
+		
+		<div class="section-1 border-right nobr-m nobr-s border-middle nobm-s flexbox xlarge-6 large-8 medium-12">
+			<div class="aw-element vertical parent-width xlarge-6 medium-6 small-12 nob-xl nob-l"><a href="http://www.adweek.com/brand-marketing/look-out-trade-shows-here-comes-the-anti-swag-swag-bag/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/MAPTMESSENGER-content-01-2018-640x360.png" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/MAPTMESSENGER-content-01-2018-640x360.png 640w, http://www.adweek.com/wp-content/uploads/2018/02/MAPTMESSENGER-content-01-2018-652x367.png 652w, http://www.adweek.com/wp-content/uploads/2018/02/MAPTMESSENGER-content-01-2018-768x431.png 768w, http://www.adweek.com/wp-content/uploads/2018/02/MAPTMESSENGER-content-01-2018-320x180.png 320w, http://www.adweek.com/wp-content/uploads/2018/02/MAPTMESSENGER-content-01-2018-450x253.png 450w, http://www.adweek.com/wp-content/uploads/2018/02/MAPTMESSENGER-content-01-2018.png 890w" sizes="(max-width: 640px) 100vw, 640px" /></div></a>	<div class="sponsor-bar">
+		<h2 class="cat-name" >
+			<a href="/brand-marketing">Brand Marketing</a>		</h2>
+	</div>
+	<a href="http://www.adweek.com/brand-marketing/look-out-trade-shows-here-comes-the-anti-swag-swag-bag/"><h2>Look Out, Trade Shows, Here Comes the Anti-Swag Swag Bag</h2></a><a href='http://www.adweek.com/contributor/robert-klara/' class='contributor'>by Robert Klara</a></div><div class="aw-element vertical parent-width xlarge-6 medium-6 small-12 nob-xl nob-l"><a href="http://www.adweek.com/brand-marketing/black-panther-star-michael-b-jordan-explains-the-creative-process-in-brisks-new-meta-campaign/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/michaelbjordan-balckpanther-PAGE-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/michaelbjordan-balckpanther-PAGE-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/michaelbjordan-balckpanther-PAGE-2018-652x367.jpg 652w" sizes="(max-width: 640px) 100vw, 640px" /></div></a>	<div class="sponsor-bar">
+		<h2 class="cat-name" >
+			<a href="/brand-marketing">Brand Marketing</a>		</h2>
+	</div>
+	<a href="http://www.adweek.com/brand-marketing/black-panther-star-michael-b-jordan-explains-the-creative-process-in-brisks-new-meta-campaign/"><h2>Black Panther Star Michael B. Jordan Explains the Creative Process in Brisk's New Meta Campaign</h2></a><a href='http://www.adweek.com/contributor/kristina-monllos/' class='contributor'>by Kristina Monllos</a></div>		</div>
+		
+		<div class="section-2 border-middle nobm-l nobm-m nobm-s flexbox xlarge-6 large-4 medium-12">
+		
+				
+			<div class="row-1 flexbox">
+				<div class="aw-element title-only parent-width border-right nobr-l nobr-s xlarge-6 large-12 medium-6 small-12 title-only--medium"><a href="http://www.adweek.com/brand-marketing/perrier-just-remade-its-most-famous-ad-lion-three-decades-later/"><h2>Perrier Just Remade Its Most Famous Ad, 'Lion,' Three Decades Later</h2></a></div>				<div class="flexbox xlarge-6 large-12 medium-6 small-12">
+					<div class="aw-element title-only parent-width title-only--small"><a href="http://www.adweek.com/brand-marketing/serena-williams-stars-in-new-lincoln-navigator-campaign/"><h2>Serena Williams Stars in New Lincoln Navigator Campaign</h2></a></div><div class="aw-element title-only parent-width nob-l title-only--small"><a href="http://www.adweek.com/brand-marketing/reebok-has-the-perfect-shoes-for-the-man-with-the-worlds-fastest-feet/"><h2>Reebok Has the Perfect Shoes for the Man With the World's Fastest Feet</h2></a></div>				</div>
+			</div>
+
+			<div class="row-2 flexbox hide-for-large-only">
+				<div class="flexbox border-right large-6 medium-6 small-12 nobr-s">
+					<div class="aw-element title-only parent-width title-only--small"><a href="http://www.adweek.com/brand-marketing/ethan-hawke-stars-in-the-ys-new-community-focused-campaign/"><h2>Ethan Hawke Stars in The Y's New Community-Focused Campaign</h2></a></div><div class="aw-element title-only parent-width nob-xl nob-l nob-m title-only--small"><a href="http://www.adweek.com/brand-marketing/how-papyrus-leveraged-its-ny-fashion-week-partnership-to-empower-women-on-the-runway/"><h2>How Papyrus Leveraged Its NY Fashion Week Partnership to Empower Women on the Runway</h2></a></div>				</div>
+				<div class="aw-element title-only parent-width large-6 medium-6 small-12 nob-xl-down title-only--medium"><a href="http://www.adweek.com/brand-marketing/why-brand-love-has-to-go-beyond-algorithms-to-be-real/"><h2>Why Brand Love Has to Go Beyond Algorithms to Be Real</h2></a></div>			</div>
+				
+				
+		</div>
+		
+		<div class="view-more-link"><a href="/brand-marketing">View more in Brand Marketing ></a></div>		
+	</div>	
+	</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">	<div class="aw-full-width" style="background-color:  ">
+		<div class="aw-container container-title left small dark">
+			<div class="title-and-sponsor"><h2>Creativity</h2>
+			
+			 
+			</div>
+						
+						
+						
+		</div>
+	</div>
+		<div class="aw-container container-g variation-2 flexbox">
+		
+		<div class="section-1 border-right nobr-m nobr-s border-middle nobm-s flexbox xlarge-6 large-8 medium-12">
+			<div class="aw-element vertical parent-width xlarge-6 medium-6 small-12 nob-xl nob-l"><a href="http://www.adweek.com/creativity/guccis-60s-inspired-student-protest-ad-misses-the-point-about-why-were-all-mad/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/gucci-in-the-streets-hed-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/gucci-in-the-streets-hed-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/gucci-in-the-streets-hed-2018-652x367.jpg 652w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><div class="sponsor-bar "><h2 class='cat-name'><a href='http://www.adweek.com/category/adfreak/'>AdFreak</a></h2></div><a href="http://www.adweek.com/creativity/guccis-60s-inspired-student-protest-ad-misses-the-point-about-why-were-all-mad/"><h2>Gucci's '60s-Inspired Student Protest Ad Misses the Point About Why We're All Mad</h2></a><a href='http://www.adweek.com/contributor/angela-natividad/' class='contributor'>by Angela Natividad</a></div><div class="aw-element vertical parent-width xlarge-6 medium-6 small-12 nob-xl nob-l"><a href="http://www.adweek.com/creativity/pokerstars-found-a-dude-with-the-perfect-poker-face-for-its-new-ad/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/pokerstars-hed-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/pokerstars-hed-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/pokerstars-hed-2018-652x367.jpg 652w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><div class="sponsor-bar "><h2 class='cat-name'><a href='http://www.adweek.com/category/adfreak/'>AdFreak</a></h2></div><a href="http://www.adweek.com/creativity/pokerstars-found-a-dude-with-the-perfect-poker-face-for-its-new-ad/"><h2>PokerStars Found a Dude With the Perfect Poker Face for Its New Ad</h2></a><a href='http://www.adweek.com/contributor/david-gianatasio/' class='contributor'>by David Gianatasio</a></div>		</div>
+		
+		<div class="section-2 border-middle nobm-l nobm-m nobm-s flexbox xlarge-6 large-4 medium-12">
+		
+				
+			<div class="row-1 flexbox">
+				<div class="aw-element title-only parent-width border-right nobr-l nobr-s xlarge-6 large-12 medium-6 small-12 title-only--medium"><a href="http://www.adweek.com/creativity/3-billboards-inspired-protest-calls-for-justice-following-the-fatal-grenfell-tower-fire/"><h2>'3 Billboards'-Inspired Protest Calls for Justice Following the Fatal Grenfell Tower Fire</h2></a></div>				<div class="flexbox xlarge-6 large-12 medium-6 small-12">
+					<div class="aw-element title-only parent-width title-only--small"><a href="http://www.adweek.com/creativity/red-stripe-offers-to-buy-a-new-bobsled-for-jamaican-olympians/"><h2>Red Stripe Says That, Whatever the Cost, It Will Buy a New Bobsled for Jamaica</h2></a></div><div class="aw-element title-only parent-width nob-l title-only--small"><a href="http://www.adweek.com/creativity/how-french-directors-megaforce-captured-the-spirit-of-london-in-nikes-wild-new-ad/"><h2>How French Directors Megaforce Captured the Spirit of London in Nike's Wild New Ad</h2></a></div>				</div>
+			</div>
+
+			<div class="row-2 flexbox hide-for-large-only">
+				<div class="flexbox border-right large-6 medium-6 small-12 nobr-s">
+					<div class="aw-element title-only parent-width title-only--small"><a href="http://www.adweek.com/creativity/a-deserted-small-town-is-the-magical-setting-for-this-new-york-lottery-ad/"><h2>A Deserted Small Town Is Not What It Appears in This Magical New York Lottery Ad</h2></a></div><div class="aw-element title-only parent-width nob-xl nob-l nob-m title-only--small"><a href="http://www.adweek.com/creativity/snickers-opened-a-valentines-day-restaurant-oublie-for-couples-who-forgot-to-make-reservations/"><h2>Snickers Opened a Valentine's Day Restaurant, Oublié, for Couples Who Forgot to Make Reservations</h2></a></div>				</div>
+				<div class="aw-element title-only parent-width large-6 medium-6 small-12 nob-xl-down title-only--medium"><a href="http://www.adweek.com/creativity/godiva-causes-a-stir-in-japan-by-urging-women-to-stop-buying-chocolates-for-male-coworkers/"><h2>Godiva Causes a Stir in Japan by Urging Women to Stop Buying Chocolates for Male Coworkers</h2></a></div>			</div>
+				
+				
+		</div>
+		
+		<div class="view-more-link"><a href="/creativity">View more in Creativity ></a></div>		
+	</div>	
+	</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">	<div class="aw-full-width" style="background-color:  ">
+		<div class="aw-container container-title left small dark">
+			<div class="title-and-sponsor"><h2>Digital</h2>
+			
+			 
+			</div>
+						
+						
+						
+		</div>
+	</div>
+		<div class="aw-container container-g variation-2 flexbox">
+		
+		<div class="section-1 border-right nobr-m nobr-s border-middle nobm-s flexbox xlarge-6 large-8 medium-12">
+			<div class="aw-element vertical parent-width xlarge-6 medium-6 small-12 nob-xl nob-l"><a href="http://www.adweek.com/digital/twitter-pokemon-was-the-most-mentioned-game-globally-in-2017/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/TwitterMostMentionedESPortsTeams2017-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/TwitterMostMentionedESPortsTeams2017-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/TwitterMostMentionedESPortsTeams2017-652x367.jpg 652w, http://www.adweek.com/wp-content/uploads/2018/02/TwitterMostMentionedESPortsTeams2017-768x432.jpg 768w, http://www.adweek.com/wp-content/uploads/2018/02/TwitterMostMentionedESPortsTeams2017-320x180.jpg 320w, http://www.adweek.com/wp-content/uploads/2018/02/TwitterMostMentionedESPortsTeams2017-450x253.jpg 450w, http://www.adweek.com/wp-content/uploads/2018/02/TwitterMostMentionedESPortsTeams2017.jpg 890w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><div class="sponsor-bar "><h2 class='cat-name'><a href='http://www.adweek.com/category/social-pro-daily/'>Social Pro Daily</a></h2></div><a href="http://www.adweek.com/digital/twitter-pokemon-was-the-most-mentioned-game-globally-in-2017/"><h2>Twitter: Pokemon Was the Most-Mentioned Game Globally in 2017</h2></a><a href='http://www.adweek.com/contributor/Brandy-Shaul/' class='contributor'>by Brandy Shaul</a></div><div class="aw-element vertical parent-width xlarge-6 medium-6 small-12 nob-xl nob-l"><a href="http://www.adweek.com/digital/if-you-thought-voice-was-easy-wait-until-devices-make-predictions/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/predictions-machine-PAGE-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/predictions-machine-PAGE-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/predictions-machine-PAGE-2018-652x367.jpg 652w" sizes="(max-width: 640px) 100vw, 640px" /></div></a>	<div class="sponsor-bar">
+		<h2 class="cat-name" >
+			<a href="/digital">Digital</a>		</h2>
+	</div>
+	<a href="http://www.adweek.com/digital/if-you-thought-voice-was-easy-wait-until-devices-make-predictions/"><h2>If You Thought Voice Was Easy, Wait Until Devices Make Predictions</h2></a><a href='http://www.adweek.com/contributor/lisa-lacy/' class='contributor'>by Lisa Lacy</a></div>		</div>
+		
+		<div class="section-2 border-middle nobm-l nobm-m nobm-s flexbox xlarge-6 large-4 medium-12">
+		
+				
+			<div class="row-1 flexbox">
+				<div class="aw-element title-only parent-width border-right nobr-l nobr-s xlarge-6 large-12 medium-6 small-12 title-only--medium"><a href="http://www.adweek.com/digital/4-deceptive-mobile-ad-tricks-and-what-marketers-can-learn-from-them/"><h2>4 Deceptive Mobile Ad Tricks and What Marketers Can Learn From Them</h2></a></div>				<div class="flexbox xlarge-6 large-12 medium-6 small-12">
+					<div class="aw-element title-only parent-width title-only--small"><a href="http://www.adweek.com/digital/evan-neufeld-l2-guest-post-personalized-marketing/"><h2>Brand CMOs Acknowledge the Need for Better Personalized Marketing Efforts</h2></a></div><div class="aw-element title-only parent-width nob-l title-only--small"><a href="http://www.adweek.com/digital/why-scannable-shelf-tags-could-improve-the-retail-experience-after-beacons-failed/"><h2>Why Scannable Shelf Tags Could Improve the Retail Experience After Beacons Failed</h2></a></div>				</div>
+			</div>
+
+			<div class="row-2 flexbox hide-for-large-only">
+				<div class="flexbox border-right large-6 medium-6 small-12 nobr-s">
+					<div class="aw-element title-only parent-width title-only--small"><a href="http://www.adweek.com/digital/facebook-messenger-heres-how-to-create-a-secret-conversation/"><h2>Facebook Messenger: Here's How to Create a Secret Conversation</h2></a></div><div class="aw-element title-only parent-width nob-xl nob-l nob-m title-only--small"><a href="http://www.adweek.com/digital/facebook-iq-topics-to-watch-january-2018/"><h2>Health and Wellness Occupied Facebook Users’ Thoughts in January</h2></a></div>				</div>
+				<div class="aw-element title-only parent-width large-6 medium-6 small-12 nob-xl-down title-only--medium"><a href="http://www.adweek.com/digital/facebook-community-help-businesses-organizations/"><h2>Facebook Is Opening Up Its Community Help Feature to Businesses, Organizations</h2></a></div>			</div>
+				
+				
+		</div>
+		
+		<div class="view-more-link"><a href="/digital">View more in Digital ></a></div>		
+	</div>	
+	</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">	<div class="aw-full-width" style="background-color:  ">
+		<div class="aw-container container-title left small dark">
+			<div class="title-and-sponsor"><h2>TV / Video</h2>
+			
+			 
+			</div>
+						
+						
+						
+		</div>
+	</div>
+		<div class="aw-container container-g variation-2 flexbox">
+		
+		<div class="section-1 border-right nobr-m nobr-s border-middle nobm-s flexbox xlarge-6 large-8 medium-12">
+			<div class="aw-element vertical parent-width xlarge-6 medium-6 small-12 nob-xl nob-l"><a href="http://www.adweek.com/tv-video/advertisers-must-keep-up-with-cord-cutters-or-else-brands-risk-creating-lost-generation/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/cord-cutting-content-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/cord-cutting-content-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/cord-cutting-content-2018-652x367.jpg 652w, http://www.adweek.com/wp-content/uploads/2018/02/cord-cutting-content-2018-768x431.jpg 768w, http://www.adweek.com/wp-content/uploads/2018/02/cord-cutting-content-2018-320x180.jpg 320w, http://www.adweek.com/wp-content/uploads/2018/02/cord-cutting-content-2018-450x253.jpg 450w, http://www.adweek.com/wp-content/uploads/2018/02/cord-cutting-content-2018.jpg 890w" sizes="(max-width: 640px) 100vw, 640px" /></div></a><div class="sponsor-bar "><h2 class='cat-name'><a href='http://www.adweek.com/category/voice/'>Voice</a></h2></div><a href="http://www.adweek.com/tv-video/advertisers-must-keep-up-with-cord-cutters-or-else-brands-risk-creating-lost-generation/"><h2>Advertisers Must Keep Up With Cord-Cutters or Else Brands Risk Creating 'Lost Generation'</h2></a><a href='http://www.adweek.com/contributor/tim-sims-2/' class='contributor'>by Tim Sims</a></div><div class="aw-element vertical parent-width xlarge-6 medium-6 small-12 nob-xl nob-l"><a href="http://www.adweek.com/tv-video/we-asked-new-yorkers-to-name-the-brands-behind-ads-from-the-olympics/"><div class="ar ar-16-9"><img width="640" height="360" src="http://www.adweek.com/wp-content/uploads/2018/02/intel-olympics-drones-PAGE-2018-640x360.jpg" class="attachment-aw-text size-aw-text" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/intel-olympics-drones-PAGE-2018-640x360.jpg 640w, http://www.adweek.com/wp-content/uploads/2018/02/intel-olympics-drones-PAGE-2018-652x367.jpg 652w" sizes="(max-width: 640px) 100vw, 640px" /></div></a>	<div class="sponsor-bar">
+		<h2 class="cat-name" >
+			<a href="/tv-video">TV / Video</a>		</h2>
+	</div>
+	<a href="http://www.adweek.com/tv-video/we-asked-new-yorkers-to-name-the-brands-behind-ads-from-the-olympics/"><h2>We Asked People to Name the Brands Behind Ads From the Olympics</h2></a><a href='http://www.adweek.com/contributor/a-j-katz/' class='contributor'>by A.J. Katz</a></div>		</div>
+		
+		<div class="section-2 border-middle nobm-l nobm-m nobm-s flexbox xlarge-6 large-4 medium-12">
+		
+				
+			<div class="row-1 flexbox">
+				<div class="aw-element title-only parent-width border-right nobr-l nobr-s xlarge-6 large-12 medium-6 small-12 title-only--medium"><a href="http://www.adweek.com/tv-video/nbc-olympics-ratings-took-a-tumble-on-wednesday-night/"><h2>NBC Olympics Ratings Took a Tumble on Wednesday Night</h2></a></div>				<div class="flexbox xlarge-6 large-12 medium-6 small-12">
+					<div class="aw-element title-only parent-width title-only--small"><a href="http://www.adweek.com/tv-video/nbc-olympics-tuesday-ratings-down-from-2014-but-streaming-figures-were-huge/"><h2>NBC Olympics Tuesday Ratings Were Down From 2014, but Streaming Figures Were Huge</h2></a></div><div class="aw-element title-only parent-width nob-l title-only--small"><a href="http://www.adweek.com/tv-video/the-cw-will-expand-its-schedule-to-sunday-nights-in-october/"><h2>The CW Will Expand Its Schedule to Sunday Nights in October</h2></a></div>				</div>
+			</div>
+
+			<div class="row-2 flexbox hide-for-large-only">
+				<div class="flexbox border-right large-6 medium-6 small-12 nobr-s">
+					<div class="aw-element title-only parent-width title-only--small"><a href="http://www.adweek.com/tv-video/as-netflix-pulls-viewers-from-linear-tv-its-also-boosting-ratings-of-shows-it-streams/"><h2>As Netflix Pulls Viewers From Linear TV, It’s Also Boosting Ratings of Shows It Streams</h2></a></div><div class="aw-element title-only parent-width nob-xl nob-l nob-m title-only--small"><a href="http://www.adweek.com/tv-video/spooked-by-the-pending-disney-deal-ryan-murphy-leaves-longtime-studio-home-fox-for-netflix/"><h2>Spooked by the Pending Disney Deal, Ryan Murphy Leaves Longtime Studio Home Fox for Netflix</h2></a></div>				</div>
+				<div class="aw-element title-only parent-width large-6 medium-6 small-12 nob-xl-down title-only--medium"><a href="http://www.adweek.com/tv-video/the-winter-olympics-exceeds-nbc-sports-ratings-guarantees-freeing-up-more-ad-inventory-to-sell/"><h2>The Winter Olympics Exceeds NBC Sports’ Ratings Guarantees, Freeing Up More Ad Inventory to Sell</h2></a></div>			</div>
+				
+				
+		</div>
+		
+		<div class="view-more-link"><a href="/tv-video">View more in TV / Video ></a></div>		
+	</div>	
+	</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">	<div class="ad-div-lb-wrapper gpt-wrapper index-ad-wrapper">
+		<div id="ad-div-lb-1" ></div>
+	</div>
+	</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="aw-element full-width parent-width"><a href="http://www.adweek.com/brand-marketing/that-crocodile-dundee-reboot-heres-the-whole-story-behind-the-movie-that-wasnt/" class="vcfw-image ar ar-21-9"><img width="1320" height="660" src="http://www.adweek.com/wp-content/uploads/2018/02/dundee-australia-PAGE-2018.jpg" class="attachment-aw-full size-aw-full" alt="" srcset="http://www.adweek.com/wp-content/uploads/2018/02/dundee-australia-PAGE-2018.jpg 1320w, http://www.adweek.com/wp-content/uploads/2018/02/dundee-australia-PAGE-2018-652x326.jpg 652w, http://www.adweek.com/wp-content/uploads/2018/02/dundee-australia-PAGE-2018-768x384.jpg 768w, http://www.adweek.com/wp-content/uploads/2018/02/dundee-australia-PAGE-2018-1024x512.jpg 1024w, http://www.adweek.com/wp-content/uploads/2018/02/dundee-australia-PAGE-2018-320x160.jpg 320w, http://www.adweek.com/wp-content/uploads/2018/02/dundee-australia-PAGE-2018-450x225.jpg 450w, http://www.adweek.com/wp-content/uploads/2018/02/dundee-australia-PAGE-2018-640x320.jpg 640w" sizes="(max-width: 1320px) 100vw, 1320px" /></a><a href="http://www.adweek.com/brand-marketing/that-crocodile-dundee-reboot-heres-the-whole-story-behind-the-movie-that-wasnt/" class="vcfw-link"><h2>That Crocodile Dundee Reboot: Here’s the Whole Story Behind the Movie That Wasn’t</h2></a></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">	<div class="ad-div-lb-wrapper gpt-wrapper index-ad-wrapper">
+		<div id="ad-div-lb-1" ></div>
+	</div>
+	</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div></div>
+		</div>
+		
+	</article>
+		
+</div>
+
+	</section>
+	
+	<div id="footer-container">
+		
+		<div id="footer-site-logo">
+			<a href="http://www.adweek.com/" rel="home"><img src="http://www.adweek.com/wp-content/themes/AdWeek/assets/images/global/Adweek.svg"/></a>
+		</div>
+		
+		<div id="footer-inner">
+			<footer id="footer">
+
+								
+				<div>
+					<div class="small-12 columns"><ul id="menu-footer-menu" class="menu desktop-menu"><li id="menu-item-2" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2"><a target="_blank" href="/about/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-914056" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-914056"><a href="/contact-us/">Contact Us</a></li>
+	<li id="menu-item-910772" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-910772"><a href="/media-kit">Media Kit</a></li>
+	<li id="menu-item-910809" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-910809"><a href="http://www.adweek.com/editorial-calendar/">Editorial Calendar</a></li>
+	<li id="menu-item-4" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4"><a href="/sponsored">Sponsor Content</a></li>
+	<li id="menu-item-875745" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-875745"><a href="http://jobs.adweek.com">Jobs</a></li>
+</ul>
+</li>
+<li id="menu-item-6" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6"><a href="/subscribe-footer">Subscriptions</a>
+<ul class="sub-menu">
+	<li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a target="_blank" href="/subscribe-footer">Subscription Options</a></li>
+	<li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8"><a target="_blank" href="https://itunes.apple.com/us/app/adweek-magazine/id570229326?mt=8">Digital App</a></li>
+	<li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a href="/newsletter-preferences">Newsletters</a></li>
+	<li id="menu-item-10" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a target="_blank" href="/customer-service">Customer Service</a></li>
+</ul>
+</li>
+<li id="menu-item-11" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11"><a href="/events-and-awards">Awards / Honors / Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-820866" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-820866"><a href="/events-and-awards">Awards and Honors</a></li>
+	<li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a href="/events-and-awards">Adweek Events</a></li>
+	<li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12"><a href="/webinars">Webinars</a></li>
+	<li id="menu-item-820869" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-820869"><a href="/webinars">On-Demand Webinars</a></li>
+	<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a target="_blank" href="http://shop.adweek.com/collections/adweek-trophies-awards">Trophies / Awards / Seals</a></li>
+</ul>
+</li>
+<li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-16"><a href="/">Publications</a>
+<ul class="sub-menu">
+	<li id="menu-item-17" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17"><a href="/blognetwork">Adweek Network</a></li>
+	<li id="menu-item-18" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18"><a href="/rss">RSS</a></li>
+	<li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a target="_blank" href="/subscribe-backissues">Backissues</a></li>
+	<li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20"><a href="/reprints">Reprints / E-Prints</a></li>
+</ul>
+</li>
+</ul></div>				</div>
+				
+							</footer>
+		</div>
+		
+		<div id="footer-copyright">
+			<ul>
+				<li>© 2018 Adweek - All Rights Reserved</li>
+				<div class="tiny-menu-container"><li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a href="http://www.adweek.com/terms-use/">Terms of Use</a></li>
+<li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="http://www.adweek.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-801345" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-801345"><a href="http://www.adweek.com/about/">About Adweek</a></li>
+<li id="menu-item-914058" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-914058"><a href="/contact-us/">Contact Us</a></li>
+</div>			</ul>
+		</div>
+	</div>
+
+    
+	
+<!--START Lightbox Javascript-->
+<script type="text/javascript">
+    /*<![CDATA[*/ window.lightboxjs || function (c) { function g(b, d) { d && (d += (/\?/.test(d) ? "&" : "?") + "lv=1"); c[b] || function () { var i = window, h = document, j = b, g = h.location.protocol, l = "load", k = 0; (function () { function b() { a.P(l); a.w = 1; c[j]("_load") } c[j] = function () { function m() { m.id = e; return c[j].apply(m, arguments) } var b, e = ++k; b = this && this != i ? this.id || 0 : 0; (a.s = a.s || []).push([e, b, arguments]); m.then = function (b, c, h) { var d = a.fh[e] = a.fh[e] || [], j = a.eh[e] = a.eh[e] || [], f = a.ph[e] = a.ph[e] || []; b && d.push(b); c && j.push(c); h && f.push(h); return m }; return m }; var a = c[j]._ = {}; a.fh = {}; a.eh = {}; a.ph = {}; a.l = d ? d.replace(/^\/\//, (g == "https:" ? g : "http:") + "//") : d; a.p = { 0: +new Date }; a.P = function (b) { a.p[b] = new Date - a.p[0] }; a.w && b(); i.addEventListener ? i.addEventListener(l, b, !1) : i.attachEvent("on" + l, b); var q = function () { function b() { return ["<head></head><", c, ' onload="var d=', n, ";d.getElementsByTagName('head')[0].", d, "(d.", g, "('script')).", i, "='", a.l, "'\"></", c, ">"].join("") } var c = "body", e = h[c]; if (!e) return setTimeout(q, 100); a.P(1); var d = "appendChild", g = "createElement",
+    i = "src", k = h[g]("div"), l = k[d](h[g]("div")), f = h[g]("iframe"), n = "document", p; k.style.display = "none"; e.insertBefore(k, e.firstChild).id = o + "-" + j; f.frameBorder = "0"; f.id = o + "-frame-" + j; /MSIE[ ]+6/.test(navigator.userAgent) && (f[i] = "javascript:false"); f.allowTransparency = "true"; l[d](f); try { f.contentWindow[n].open() } catch (s) { a.domain = h.domain, p = "javascript:var d=" + n + ".open();d.domain='" + h.domain + "';", f[i] = p + "void(0);" } try { var r = f.contentWindow[n]; r.write(b()); r.close() } catch (t) { f[i] = p + 'd.write("' + b().replace(/"/g, String.fromCharCode(92) + '"') + '");d.close();' } a.P(2) }; a.l && q() })() }(); c[b].lv = "1"; return c[b] } var o = "lightboxjs", k = window[o] = g(o); k.require = g; k.modules = c }({}); /*]]>*/</script><script type="text/javascript">window.lightboxlib = lightboxjs.require("lightboxlib", "//www.lightboxcdn.com/vendor/fa326600-3d11-46ca-9bff-f8d76abc17a3/lightbox.js?mb=" + (new Date().getTime()));</script>
+<!--END Lightbox Javascript-->	
+
+<!-- START Parse.ly Include: Standard -->
+<div id="parsely-root" style="display: none">
+  <div id="parsely-cfg" data-parsely-site="adweek.com"></div>
+</div>
+<script data-cfasync="false">
+(function(s, p, d) {
+  var h=d.location.protocol, i=p+"-"+s,
+      e=d.getElementById(i), r=d.getElementById(p+"-root"),
+      u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+      :"static."+p+".com";
+  if (e) return;
+  e = d.createElement(s); e.id = i; e.async = true;
+  e.setAttribute('data-cfasync', 'false'); e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+})("script", "parsely", document);
+</script>
+<!-- END Parse.ly Include: Standard -->
+<script type="text/javascript">
+var recaptchaWidgets = [];
+var recaptchaCallback = function() {
+	var forms = document.getElementsByTagName( 'form' );
+	var pattern = /(^|\s)g-recaptcha(\s|$)/;
+
+	for ( var i = 0; i < forms.length; i++ ) {
+		var divs = forms[ i ].getElementsByTagName( 'div' );
+
+		for ( var j = 0; j < divs.length; j++ ) {
+			var sitekey = divs[ j ].getAttribute( 'data-sitekey' );
+
+			if ( divs[ j ].className && divs[ j ].className.match( pattern ) && sitekey ) {
+				var params = {
+					'sitekey': sitekey,
+					'type': divs[ j ].getAttribute( 'data-type' ),
+					'size': divs[ j ].getAttribute( 'data-size' ),
+					'theme': divs[ j ].getAttribute( 'data-theme' ),
+					'badge': divs[ j ].getAttribute( 'data-badge' ),
+					'tabindex': divs[ j ].getAttribute( 'data-tabindex' )
+				};
+
+				var callback = divs[ j ].getAttribute( 'data-callback' );
+
+				if ( callback && 'function' == typeof window[ callback ] ) {
+					params[ 'callback' ] = window[ callback ];
+				}
+
+				var expired_callback = divs[ j ].getAttribute( 'data-expired-callback' );
+
+				if ( expired_callback && 'function' == typeof window[ expired_callback ] ) {
+					params[ 'expired-callback' ] = window[ expired_callback ];
+				}
+
+				var widget_id = grecaptcha.render( divs[ j ], params );
+				recaptchaWidgets.push( widget_id );
+				break;
+			}
+		}
+	}
+}
+
+document.addEventListener( 'wpcf7submit', function( event ) {
+	switch ( event.detail.status ) {
+		case 'spam':
+		case 'mail_sent':
+		case 'mail_failed':
+			for ( var i = 0; i < recaptchaWidgets.length; i++ ) {
+				grecaptcha.reset( recaptchaWidgets[ i ] );
+			}
+	}
+}, false );
+</script>
+<script type='text/javascript' src='http://www.adweek.com/wp-content/plugins/aw-posttype-events/includes/../assets/event_settings.js?ver=1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajaxurl = "http:\/\/www.adweek.com\/wp-admin\/admin-ajax.php";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.adweek.com/wp-content/plugins/aw-newsletters/assets/nl-front.js?ver=1518869017'></script>
+<script type='text/javascript' src='http://www.adweek.com/wp-content/plugins/aw-sitewide/assets/js-cookie.js?ver=4.9.2'></script>
+<script type='text/javascript' src='http://www.adweek.com/wp-content/plugins/aw-sitewide/assets/frontend.js?ver=1518869017'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var chartData = {"contributors":[],"title":"Home","sections":null,"featured":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.adweek.com/wp-content/plugins/aw-sitewide/assets/chartbeat-comscore.js?ver=4.9.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/www.adweek.com\/wp-json\/","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.adweek.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var gptData = {"id":"148","zone":"Homepage","posttags":["","","Homepage"],"authors":"Nadine-Cheung","post-date":"2017-01-25 05:57","featured":["",""],"debug":"","presentation":"Off","ads":"Yes","company":[],"outstream":"yes"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.adweek.com/wp-content/plugins/aw-gpt/js/gpt.js?ver=2.6.4'></script>
+<script type='text/javascript' src='http://www.adweek.com/wp-content/themes/AdWeek/assets/javascript/foundation.js?ver=2.6.1'></script>
+<script type='text/javascript' src='http://www.adweek.com/wp-includes/js/wp-embed.min.js?ver=4.9.2'></script>
+<script type='text/javascript' src='http://www.adweek.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=4.11.2.1'></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=recaptchaCallback&#038;render=explicit&#038;ver=2.0" async defer></script>
+	<script type="text/javascript">
+		// Set Newfront cookies
+		function updateOutbrain(){
+			OBR.extern.researchWidget();
+		}
+		
+		// Add to infinite scroll functions called on new post
+		if (typeof awIS !== 'undefined') {
+			awIS.functions.push( updateOutbrain );
+		}
+
+	</script>
+		
+	<script type="text/javascript">
+	var addthis_config 						 = addthis_config || {};
+	    addthis_config.data_track_addressbar = false;
+	    addthis_config.data_track_clickback  = false;
+	</script>
+
+
+</body>
+</html>

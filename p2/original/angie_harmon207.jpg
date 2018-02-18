@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html class="no-js lt-ie10 lt-ie9" id="ie8" lang="en-US"
+ xmlns:fb="http://ogp.me/ns/fb#"><![endif]-->
+<!--[if IE 9]>
+<html class="no-js lt-ie10" id="ie9" lang="en-US"
+ xmlns:fb="http://ogp.me/ns/fb#"><![endif]-->
+<!--[if !IE]><!-->
+<html class="no-js" lang="en-US"
+ xmlns:fb="http://ogp.me/ns/fb#"><!--<![endif]-->
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="profile" href="http://gmpg.org/xfn/11"/>
+	<link rel="pingback" href="http://thebosh.com/xmlrpc.php"/>
+
+	<title>TheBosh - Social network for crazy people</title>
+
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+<!-- This site is optimized with the Yoast SEO plugin v6.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Social network for crazy people"/>
+<link rel="canonical" href="http://thebosh.com/" />
+<link rel="next" href="http://thebosh.com/page/2/" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/thebosh.com\/","name":"TheBosh","potentialAction":{"@type":"SearchAction","target":"http:\/\/thebosh.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//s.gravatar.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="TheBosh &raquo; Feed" href="http://thebosh.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="TheBosh &raquo; Comments Feed" href="http://thebosh.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/thebosh.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=8c5eed8d52073e2448d394dafa0c6fcc"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bbp-default-css'  href='http://thebosh.com/wp-content/themes/bimber/css/bbpress.css?ver=2.5.14-6684' type='text/css' media='screen' />
+<link rel='stylesheet' id='bp-mentions-css-css'  href='http://thebosh.com/wp-content/plugins/buddypress/bp-activity/css/mentions.min.css?ver=2.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-parent-css-css'  href='http://thebosh.com/wp-content/themes/bimber/buddypress/css/buddypress.css?ver=2.9.3' type='text/css' media='screen' />
+<link rel='stylesheet' id='mashsb-styles-css'  href='http://thebosh.com/wp-content/plugins/mashsharer/assets/css/mashsb.min.css?ver=3.4.9' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-magnific-popup-css'  href='http://thebosh.com/wp-content/plugins/snax/assets/js/jquery.magnific-popup/magnific-popup.css?ver=8c5eed8d52073e2448d394dafa0c6fcc' type='text/css' media='all' />
+<link rel='stylesheet' id='snax-css'  href='http://thebosh.com/wp-content/plugins/snax/css/snax.css?ver=1.13.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wyr-main-css'  href='http://thebosh.com/wp-content/plugins/whats-your-reaction/css/main.min.css?ver=1.2.11' type='text/css' media='all' />
+<link rel='stylesheet' id='wordpress-popular-posts-css-css'  href='http://thebosh.com/wp-content/plugins/wordpress-popular-posts/public/css/wpp.css?ver=4.0.13' type='text/css' media='all' />
+<link rel='stylesheet' id='g1-main-css'  href='http://thebosh.com/wp-content/themes/bimber/css/styles/original/all-light.css?ver=5.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bimber-snax-extra-css'  href='http://thebosh.com/wp-content/themes/bimber/css/styles/original/snax-extra.css?ver=5.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bimber-buddypress-css'  href='http://thebosh.com/wp-content/themes/bimber/css/styles/original/buddypress.css?ver=5.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bimber-woocommerce-css'  href='http://thebosh.com/wp-content/themes/bimber/css/woocommerce.css?ver=5.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bimber-google-fonts-css'  href='//fonts.googleapis.com/css?family=Roboto%3A400%2C300%2C500%2C600%2C700%2C900%7CPoppins%3A400%2C300%2C500%2C600%2C700&#038;subset=latin%2Clatin-ext&#038;ver=5.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bimber-dynamic-style-css'  href='http://thebosh.com/wp-content/uploads/dynamic-style.css?respondjs=no&#038;ver=5.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bimber-style-css'  href='http://thebosh.com/wp-content/themes/bimber-child-theme/style.css?ver=8c5eed8d52073e2448d394dafa0c6fcc' type='text/css' media='screen' />
+<link rel='stylesheet' id='rt-mediaelement-css'  href='http://thebosh.com/wp-content/plugins/buddypress-media/lib/media-element/mediaelementplayer-legacy.min.css?ver=4.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='rt-mediaelement-wp-css'  href='http://thebosh.com/wp-content/plugins/buddypress-media/lib/media-element/wp-mediaelement.min.css?ver=4.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://thebosh.com/wp-includes/css/dashicons.min.css?ver=8c5eed8d52073e2448d394dafa0c6fcc' type='text/css' media='all' />
+<link rel='stylesheet' id='rtmedia-main-css'  href='http://thebosh.com/wp-content/plugins/buddypress-media/app/assets/css/rtmedia.min.css?ver=4.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='http://thebosh.com/wp-content/plugins/jetpack/css/jetpack.css?ver=5.8' type='text/css' media='all' />
+<script type='text/javascript' src='http://thebosh.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-includes/js/plupload/moxie.min.js?ver=1.3.5'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-includes/js/plupload/plupload.min.js?ver=2.1.9'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var BP_Confirm = {"are_you_sure":"Are you sure?"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/buddypress/bp-core/js/confirm.min.js?ver=2.9.3'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/buddypress/bp-core/js/widget-members.min.js?ver=2.9.3'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/buddypress/bp-core/js/jquery-query.min.js?ver=2.9.3'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/buddypress/bp-core/js/vendor/jquery-cookie.min.js?ver=2.9.3'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/buddypress/bp-core/js/vendor/jquery-scroll-to.min.js?ver=2.9.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var BP_DTheme = {"accepted":"Accepted","close":"Close","comments":"comments","leave_group_confirm":"Are you sure you want to leave this group?","mark_as_fav":"Favorite","my_favs":"My Favorites","rejected":"Rejected","remove_fav":"Remove Favorite","show_all":"Show all","show_all_comments":"Show all comments for this thread","show_x_comments":"Show all comments (%d)","unsaved_changes":"Your profile has unsaved changes. If you leave the page, the changes will be lost.","view":"View"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/buddypress/bp-templates/bp-legacy/js/buddypress.min.js?ver=2.9.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mashsb = {"shares":"0","round_shares":"1","animate_shares":"0","dynamic_buttons":"0","share_url":"http:\/\/thebosh.com\/kim-jong-un-impersonator-winter-olympics\/","title":"Kim+Jong-un+Impersonator+at+winter+Olympics","image":"http:\/\/thebosh.com\/wp-content\/uploads\/2018\/02\/Kim-Impersonator-Olympics.jpg","desc":"A Kim Jong-un impersonator calling himself \"Howard\" has apparently trolled North Korea, after walking past North Korean cheer leaders dancing and waving a Korean unification flag during a hockey match in Gangneung, South Korea.\r\n\r\nhttps:\/\/twitter.com\/Vinncent\/status\/963706291523747841?ref_src=twsrc%5Etfw\r\n\r\nSecurity guards \u2026","hashtag":"","subscribe":"link","subscribe_url":"","activestatus":"1","singular":"0","twitter_popup":"1","refresh":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/mashsharer/assets/js/mashsb.min.js?ver=3.4.9'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/themes/bimber/js/modernizr/modernizr-custom.min.js?ver=3.3.0'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/buddypress-media/lib/media-element/mediaelement-and-player.min.js?ver=4.4.5'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/buddypress-media/lib/media-element/wp-mediaelement.min.js?ver=4.4.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var rtmedia_ajax_url = "http:\/\/thebosh.com\/wp-admin\/admin-ajax.php";
+var rtmedia_media_slug = "media";
+var rtmedia_lightbox_enabled = "1";
+var rtmedia_direct_upload_enabled = "0";
+var rtmedia_gallery_reload_on_upload = "1";
+var rtmedia_empty_activity_msg = "Please enter some content to post.";
+var rtmedia_empty_comment_msg = "Empty Comment is not allowed.";
+var rtmedia_media_delete_confirmation = "Are you sure you want to delete this media?";
+var rtmedia_media_comment_delete_confirmation = "Are you sure you want to delete this comment?";
+var rtmedia_album_delete_confirmation = "Are you sure you want to delete this Album?";
+var rtmedia_drop_media_msg = "Drop files here";
+var rtmedia_album_created_msg = " album created successfully.";
+var rtmedia_something_wrong_msg = "Something went wrong. Please try again.";
+var rtmedia_empty_album_name_msg = "Enter an album name.";
+var rtmedia_max_file_msg = "Max file Size Limit : ";
+var rtmedia_allowed_file_formats = "Allowed File Formats";
+var rtmedia_select_all_visible = "Select All Visible";
+var rtmedia_unselect_all_visible = "Unselect All Visible";
+var rtmedia_no_media_selected = "Please select some media.";
+var rtmedia_selected_media_delete_confirmation = "Are you sure you want to delete the selected media?";
+var rtmedia_selected_media_move_confirmation = "Are you sure you want to move the selected media?";
+var rtmedia_waiting_msg = "Waiting";
+var rtmedia_uploaded_msg = "Uploaded";
+var rtmedia_uploading_msg = "Uploading";
+var rtmedia_upload_failed_msg = "Failed";
+var rtmedia_close = "Close";
+var rtmedia_edit = "Edit";
+var rtmedia_delete = "Delete";
+var rtmedia_edit_media = "Edit Media";
+var rtmedia_remove_from_queue = "Remove from queue";
+var rtmedia_add_more_files_msg = "Add more files";
+var rtmedia_file_extension_error_msg = "File not supported";
+var rtmedia_more = "more";
+var rtmedia_less = "less";
+var rtmedia_read_more = "Read more";
+var rtmedia__show_less = "Show less";
+var rtmedia_activity_text_with_attachment = "disable";
+var rtmedia_delete_uploaded_media = "This media is uploaded. Are you sure you want to delete this media?";
+var rtm_wp_version = "4.9.4";
+var rtmedia_main_js_strings = {"rtmedia_albums":"Albums","privacy_update_success":"Privacy updated successfully.","privacy_update_error":"Couldn't change privacy, please try again.","file_delete_success":"file deleted successfully."};
+var rtmedia_masonry_layout = "false";
+var rtmedia_media_size_config = {"photo":{"thumb":{"width":150,"height":150,"crop":1},"medium":{"width":320,"height":240,"crop":1},"large":{"width":800,"height":0,"crop":1}},"video":{"activity_media":{"width":320,"height":240},"single_media":{"width":640,"height":480}},"music":{"activity_media":{"width":320},"single_media":{"width":640}},"featured":{"default":{"width":100,"height":100,"crop":1}}};
+var rtmedia_disable_media_in_commented_media = "1";
+var rtmedia_disable_media_in_commented_media_text = "Adding media in Comments is not allowed";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/buddypress-media/app/assets/js/rtmedia.min.js?ver=4.4.5'></script>
+<link rel='https://api.w.org/' href='http://thebosh.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://thebosh.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://thebosh.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='https://wp.me/72z6M' />
+
+	<script type="text/javascript">var ajaxurl = 'http://thebosh.com/wp-admin/admin-ajax.php';</script>
+
+			<style type="text/css">
+						.rtmedia-activity-container .media-type-photo .rtmedia-item-thumbnail {
+		max-width: 320px;
+		max-height: 240px;
+		overflow: hidden;
+		}
+
+		.rtmedia-comment-media-container .mejs-container.mejs-video,
+		.rtmedia-activity-container .mejs-container.mejs-video{
+		min-height: 240px;
+		min-width: 320px;
+		}
+						#buddypress ul.activity-list li.activity-item .activity-comments ul li form.ac-form .rtmedia-comment-media-upload,#buddypress ul.activity-list li.activity-item .activity-comments ul li form.ac-form .rtmedia-container {
+				    display: none !important
+				}
+					.rtmedia-container ul.rtmedia-list li.rtmedia-list-item div.rtmedia-item-thumbnail {
+		width: 150px;
+		height: 150px;
+		line-height: 150px;
+		}
+		.rtmedia-container ul.rtmedia-list li.rtmedia-list-item div.rtmedia-item-thumbnail img {
+		max-width: 150px;
+		max-height: 150px;
+		}
+		.rtmedia-container .rtmedia-list  .rtmedia-list-item {
+		width: 150px;
+		}
+					</style>
+			
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<link rel='dns-prefetch' href='//i0.wp.com'/>
+<link rel='dns-prefetch' href='//i1.wp.com'/>
+<link rel='dns-prefetch' href='//i2.wp.com'/>
+<style type='text/css'>img#wpstats{display:none}</style>	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="TheBosh" />
+<meta property="og:description" content="Social network for crazy people" />
+<meta property="og:url" content="http://thebosh.com/" />
+<meta property="og:site_name" content="TheBosh" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+			<style type="text/css" id="wp-custom-css">
+				/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+
+
+.activity .page-header {
+display:none
+}
+
+.activity .activity-item {
+width:100% !important
+		;
+	max-width:100% !important;
+}
+
+.g1-header .g1-id {
+   
+}
+
+.g1-drop-toggle-icon {
+ 
+    font-weight: 100;
+ 
+}
+
+.entry-tpl-grid-fancy .entry-counter {
+   font-size: 26px;
+line-height: 26px;
+font-weight: bold;
+text-transform: uppercase;
+	
+}
+
+.g1-content-narrow {
+   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.g1-header-gag > .g1-row-inner > .g1-column {
+
+  
+}
+
+.archive-featured .archive-featured-title strong {
+    padding: 10px 10px;
+    display: block;
+    background-color: #f2f2f2;
+  
+}
+
+
+.g1-body-inner .g1-primary-nav-menu > .menu-item > a {
+    padding: 18px 10px;
+}
+
+
+.g1-primary-nav-menu > .menu-item > a {
+
+
+
+font-size: 17px;
+	padding: 0 14px;
+	font-weight: 700;
+text-transform: uppercase;
+	
+}
+
+
+.entry-header {
+
+font-size: 26px;
+line-height: 26px;
+font-weight: bold;
+text-transform: uppercase;
+
+}
+
+.g1-header > .g1-row-background {
+    border-bottom: 0px solid transparent;
+        border-bottom-color: transparent;
+}
+
+.entry-title > a {
+
+    color: inherit;
+    font-size:32px;
+	line-height:32px;
+    
+    font-weight: bold;
+    text-transform: uppercase;
+  
+}
+
+#secondary .entry-title > a {
+    color: inherit;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+   
+}
+
+
+
+.archive-featured-with-title > .g1-row-inner {
+    padding-top: 0px;
+}
+
+.archive-featured.g1-row .archive-featured-title {
+  
+top: 10px;
+}
+
+.g1-featured  .entry-title > a  {
+ font-size: 12px;
+    line-height: 12px;
+
+}
+
+.g1-header .g1-id {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}			</style>
+		</head>
+
+<body class="home-page bp-legacy home blog snax-hoverable g1-layout-stretched g1-hoverable no-js" itemscope itemtype="http://schema.org/WebPage">
+
+<div class="g1-body-inner">
+
+	<div id="page">
+		
+
+		
+
+		
+		<div class="g1-row g1-row-layout-page g1-preheader g1-preheader-smiley">
+	<div class="g1-row-inner">
+
+		<div class="g1-column g1-dropable">
+
+			<!-- BEGIN .g1-secondary-nav -->
+						<!-- END .g1-secondary-nav -->
+
+			
+					</div>
+
+	</div>
+
+	<div class="g1-row-background">
+	</div>
+</div><!-- .g1-preheader -->
+
+	<div class="g1-sticky-top-wrapper">
+
+		
+		<div class="g1-header g1-header-mobile-01 g1-header-smiley g1-row g1-row-layout-page">
+			<div class="g1-row-inner">
+			<div class="g1-column g1-dropable">
+
+									<a class="g1-hamburger g1-hamburger-show" href="">
+						<span class="g1-hamburger-icon"></span>
+						<span class="g1-hamburger-label">Menu</span>
+					</a>
+				
+				
+<div class="g1-id">
+			<h1 class="g1-mega g1-mega-2nd site-title">
+		
+			<a class="g1-logo-wrapper"
+			   href="http://thebosh.com/" rel="home">
+									<img class="g1-logo g1-logo-default" width="200" height="60" src="http://thebosh.com/wp-content/uploads/2016/10/THEBOSH-1.png" srcset="http://thebosh.com/wp-content/uploads/2016/10/THEBOSH-1.png 2x,http://thebosh.com/wp-content/uploads/2016/10/THEBOSH-1.png 1x" alt="TheBosh" />							</a>
+
+				</h1>
+
+	</div>
+				
+				<!-- BEGIN .g1-primary-nav -->
+				<nav id="g1-primary-nav" class="g1-primary-nav"><ul id="g1-primary-nav-menu" class="g1-primary-nav-menu"><li id="menu-item-1000000" class="menu-item menu-item-type-g1-top menu-item-object-page menu-item-g1-standard menu-item-1000000"><a href="http://thebosh.com/top/">Top</a></li>
+<li id="menu-item-2111" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home menu-item-g1-standard menu-item-2111"><a href="http://thebosh.com/">Home</a></li>
+<li id="menu-item-639" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-g1-standard menu-item-639"><a href="http://thebosh.com/category/news/">News</a></li>
+<li id="menu-item-799" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-g1-standard menu-item-799"><a href="http://thebosh.com/category/rants/">Rants</a></li>
+<li id="menu-item-407" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-g1-standard menu-item-407"><a href="http://thebosh.com/activity/">Feed</a></li>
+<li id="menu-item-2397" class="menu-item menu-item-type-post_type menu-item-object-forum menu-item-g1-standard menu-item-2397"><a href="http://thebosh.com/forums/forum/general-chat/">Discussions</a></li>
+<li id="menu-item-2434" class="bp-menu bp-register-nav menu-item menu-item-type-custom menu-item-object-custom menu-item-g1-standard menu-item-2434"><a href="http://thebosh.com/sign-up/">Sign up</a></li>
+</ul></nav>				<!-- END .g1-primary-nav -->
+
+				<div class="g1-helper"></div>
+
+													<a class="g1-button g1-button-m g1-button-solid snax-button snax-button-create"
+		   href="http://thebosh.com/frontend-submission/">Create Post</a>
+		
+	
+
+<!-- BEGIN .g1-user-nav -->
+	<nav class="g1-drop g1-drop-before g1-drop-the-user">
+
+		
+					<a class="g1-drop-toggle snax-login-required" href="#">
+				<i class="g1-drop-toggle-icon"></i>
+				<span class="g1-drop-toggle-arrow"></span>
+			</a>
+		
+			</nav>
+<!-- END .g1-user-nav -->
+
+					<div class="g1-drop g1-drop-before g1-drop-the-search">
+		<a class="g1-drop-toggle" href="http://thebosh.com/?s=">
+			<i class="g1-drop-toggle-icon"></i>Search			<span class="g1-drop-toggle-arrow"></span>
+		</a>
+		<div class="g1-drop-content">
+			
+
+<div role="search" class="search-form-wrapper">
+	<form method="get"
+	      class="g1-searchform-tpl-default g1-form-s g1-searchform-ajax search-form"
+	      action="http://thebosh.com/">
+		<label>
+			<span class="screen-reader-text">Search for:</span>
+			<input type="search" class="search-field"
+			       placeholder="Search &hellip;"
+			       value="" name="s"
+			       title="Search for:"/>
+		</label>
+		<button class="search-submit">Search</button>
+	</form>
+
+			<div class="g1-searches g1-searches-ajax"></div>
+	</div>
+		</div>
+	</div>
+							</div>
+
+		</div>
+		<div class="g1-row-background"></div>
+	</div>
+	</div>
+
+<div class="g1-row g1-row-layout-page g1-navbar">
+	<div class="g1-row-inner">
+		<div class="g1-column">
+					</div>
+	</div>
+</div>
+
+		
+	<aside class="g1-row g1-row-layout-page g1-featured-row">
+		<div class="g1-row-inner">
+			<div class="g1-column">
+				
+				<h2 class="g1-zeta g1-zeta-2nd g1-featured-title">Most viewed stories</h2>
+
+				<div class="g1-featured g1-featured-6 g1-featured-start">
+					<ul class="g1-featured-items">
+						
+							<li class="g1-featured-item">
+								
+<article class="entry-tpl-gridxs post-2403 post type-post status-publish format-standard has-post-thumbnail category-news">
+	<figure class="entry-featured-media " ><a class="g1-frame" href="http://thebosh.com/lenny-dykstra-accuses-charlie-sheen-murder/"><span class="g1-frame-inner" style="padding-bottom: 56.25000000%;"><img width="200" height="211" src="https://i2.wp.com/thebosh.com/wp-content/uploads/2018/02/200w.gif?fit=200%2C211" class="attachment-full size-full wp-post-image" alt="" /><span class="g1-frame-icon g1-frame-icon-"></span></span></a></figure>
+	<header class="entry-header">
+		<h3 class="g1-zeta g1-zeta-1st entry-title"><a href="http://thebosh.com/lenny-dykstra-accuses-charlie-sheen-murder/" rel="bookmark">Charlie Sheen accused of murder</a></h3>	</header>
+</article>
+							</li>
+
+						
+							<li class="g1-featured-item">
+								
+<article class="entry-tpl-gridxs post-1794 post type-post status-publish format-standard has-post-thumbnail category-uncategorized snax_format-list snax-list">
+	<figure class="entry-featured-media " ><a class="g1-frame" href="http://thebosh.com/funny-north-korea-meme-war/"><span class="g1-frame-inner" style="padding-bottom: 56.25000000%;"><img width="192" height="108" src="https://i1.wp.com/thebosh.com/wp-content/uploads/2017/09/north-korea-meme.png?resize=192%2C108" class="attachment-bimber-grid-xs-ratio-16-9 size-bimber-grid-xs-ratio-16-9 wp-post-image" alt="" srcset="https://i1.wp.com/thebosh.com/wp-content/uploads/2017/09/north-korea-meme.png?resize=192%2C108 192w, https://i1.wp.com/thebosh.com/wp-content/uploads/2017/09/north-korea-meme.png?resize=384%2C216 384w, https://i1.wp.com/thebosh.com/wp-content/uploads/2017/09/north-korea-meme.png?resize=364%2C205 364w" sizes="(max-width: 192px) 100vw, 192px" /><span class="g1-frame-icon g1-frame-icon-"></span></span></a></figure>
+	<header class="entry-header">
+		<h3 class="g1-zeta g1-zeta-1st entry-title"><a href="http://thebosh.com/funny-north-korea-meme-war/" rel="bookmark">Funny North Korea meme war! (Open list) (9 submissions)</a></h3>	</header>
+</article>
+							</li>
+
+						
+							<li class="g1-featured-item">
+								
+<article class="entry-tpl-gridxs post-2375 post type-post status-publish format-standard has-post-thumbnail category-news">
+	<figure class="entry-featured-media " ><a class="g1-frame" href="http://thebosh.com/google-is-evil-google-home-censors-christianity/"><span class="g1-frame-inner" style="padding-bottom: 56.25000000%;"><img width="400" height="300" src="https://i0.wp.com/thebosh.com/wp-content/uploads/2018/01/feef2-1.gif?fit=400%2C300" class="attachment-full size-full wp-post-image" alt="" /><span class="g1-frame-icon g1-frame-icon-"></span></span></a></figure>
+	<header class="entry-header">
+		<h3 class="g1-zeta g1-zeta-1st entry-title"><a href="http://thebosh.com/google-is-evil-google-home-censors-christianity/" rel="bookmark">Google Home Censors Christianity!</a></h3>	</header>
+</article>
+							</li>
+
+						
+							<li class="g1-featured-item">
+								
+<article class="entry-tpl-gridxs post-2366 post type-post status-publish format-standard has-post-thumbnail category-news">
+	<figure class="entry-featured-media " ><a class="g1-frame" href="http://thebosh.com/so-called-religion-of-peace-islam-main-cause-of-christian-persecution/"><span class="g1-frame-inner" style="padding-bottom: 56.25000000%;"><img width="192" height="108" src="https://i2.wp.com/thebosh.com/wp-content/uploads/2018/01/love-your-neightbour.jpg?resize=192%2C108" class="attachment-bimber-grid-xs-ratio-16-9 size-bimber-grid-xs-ratio-16-9 wp-post-image" alt="" srcset="https://i2.wp.com/thebosh.com/wp-content/uploads/2018/01/love-your-neightbour.jpg?resize=192%2C108 192w, https://i2.wp.com/thebosh.com/wp-content/uploads/2018/01/love-your-neightbour.jpg?resize=384%2C216 384w, https://i2.wp.com/thebosh.com/wp-content/uploads/2018/01/love-your-neightbour.jpg?resize=364%2C205 364w, https://i2.wp.com/thebosh.com/wp-content/uploads/2018/01/love-your-neightbour.jpg?resize=728%2C410 728w, https://i2.wp.com/thebosh.com/wp-content/uploads/2018/01/love-your-neightbour.jpg?resize=561%2C316 561w, https://i2.wp.com/thebosh.com/wp-content/uploads/2018/01/love-your-neightbour.jpg?resize=758%2C426 758w" sizes="(max-width: 192px) 100vw, 192px" /><span class="g1-frame-icon g1-frame-icon-"></span></span></a></figure>
+	<header class="entry-header">
+		<h3 class="g1-zeta g1-zeta-1st entry-title"><a href="http://thebosh.com/so-called-religion-of-peace-islam-main-cause-of-christian-persecution/" rel="bookmark">So called “religion of peace” Islam MAIN cause of Christian persecution</a></h3>	</header>
+</article>
+							</li>
+
+						
+							<li class="g1-featured-item">
+								
+<article class="entry-tpl-gridxs post-1150 post type-post status-publish format-standard has-post-thumbnail category-news">
+	<figure class="entry-featured-media " ><a class="g1-frame" href="http://thebosh.com/undertaker-retire-proffesional-wrestling/"><span class="g1-frame-inner" style="padding-bottom: 56.25000000%;"><img width="192" height="108" src="https://i2.wp.com/thebosh.com/wp-content/uploads/2017/04/a-undertaker-wwe-wrestling-stars.jpg?resize=192%2C108" class="attachment-bimber-grid-xs-ratio-16-9 size-bimber-grid-xs-ratio-16-9 wp-post-image" alt="" srcset="https://i2.wp.com/thebosh.com/wp-content/uploads/2017/04/a-undertaker-wwe-wrestling-stars.jpg?resize=192%2C108 192w, https://i2.wp.com/thebosh.com/wp-content/uploads/2017/04/a-undertaker-wwe-wrestling-stars.jpg?resize=384%2C216 384w, https://i2.wp.com/thebosh.com/wp-content/uploads/2017/04/a-undertaker-wwe-wrestling-stars.jpg?resize=364%2C205 364w, https://i2.wp.com/thebosh.com/wp-content/uploads/2017/04/a-undertaker-wwe-wrestling-stars.jpg?zoom=3&amp;resize=192%2C108 576w" sizes="(max-width: 192px) 100vw, 192px" /><span class="g1-frame-icon g1-frame-icon-"></span></span></a></figure>
+	<header class="entry-header">
+		<h3 class="g1-zeta g1-zeta-1st entry-title"><a href="http://thebosh.com/undertaker-retire-proffesional-wrestling/" rel="bookmark">The Undertaker to retire from proffesional wrestling</a></h3>	</header>
+</article>
+							</li>
+
+						
+							<li class="g1-featured-item">
+								
+<article class="entry-tpl-gridxs post-2336 post type-post status-publish format-standard has-post-thumbnail category-uncategorized">
+	<figure class="entry-featured-media " ><a class="g1-frame" href="http://thebosh.com/swedish-police-station-bombed-in-terrorist-attack/"><span class="g1-frame-inner" style="padding-bottom: 56.25000000%;"><img width="192" height="108" src="https://i2.wp.com/thebosh.com/wp-content/uploads/2018/01/GettyImages-461085332-640x480-1-640x480.png?resize=192%2C108" class="attachment-bimber-grid-xs-ratio-16-9 size-bimber-grid-xs-ratio-16-9 wp-post-image" alt="" srcset="https://i2.wp.com/thebosh.com/wp-content/uploads/2018/01/GettyImages-461085332-640x480-1-640x480.png?resize=192%2C108 192w, https://i2.wp.com/thebosh.com/wp-content/uploads/2018/01/GettyImages-461085332-640x480-1-640x480.png?resize=384%2C216 384w, https://i2.wp.com/thebosh.com/wp-content/uploads/2018/01/GettyImages-461085332-640x480-1-640x480.png?resize=364%2C205 364w, https://i2.wp.com/thebosh.com/wp-content/uploads/2018/01/GettyImages-461085332-640x480-1-640x480.png?resize=561%2C316 561w" sizes="(max-width: 192px) 100vw, 192px" /><span class="g1-frame-icon g1-frame-icon-"></span></span></a></figure>
+	<header class="entry-header">
+		<h3 class="g1-zeta g1-zeta-1st entry-title"><a href="http://thebosh.com/swedish-police-station-bombed-in-terrorist-attack/" rel="bookmark">Swedish police station bombed in terrorist attack</a></h3>	</header>
+</article>
+							</li>
+
+											</ul>
+
+					<a href="#" class="g1-featured-arrow g1-featured-arrow-prev">Previous</a>
+					<a href="#" class="g1-featured-arrow g1-featured-arrow-next">Next</a>
+					<div class="g1-featured-fade g1-featured-fade-before"></div>
+					<div class="g1-featured-fade g1-featured-fade-after"></div>
+				</div>
+			</div>
+		</div>
+		<div class="g1-row-background"></div>
+	</aside>
+
+		
+
+
+		
+
+	<div id="primary" class="g1-primary-max">
+		<div id="content" role="main">
+
+			<article id="post-0">
+				
+<header class="g1-row g1-row-layout-page page-header page-header-01">
+	<div class="g1-row-inner">
+		<div class="g1-column">
+			
+							<h1 class="g1-alpha g1-alpha-2nd page-title">Ooops, sorry! We couldn't find it</h1>
+			
+							<h2 class="g1-delta g1-delta-3rd page-subtitle">You have requested a page or file which doesn't exist</h2>
+					</div>
+	</div>
+	<div class="g1-row-background">
+	</div>
+</header>
+				<div class="g1-row g1-row-layout-page g1-row-padding-m entry-content">
+					<div class="g1-row-inner">
+
+						<div class="g1-column g1-column-1of3">
+							<div class="g1-column-inner">
+								<i class="bimber-search g1-404-icon"></i>
+								<h2 class="g1-gamma g1-gamma-2nd">Search Our Website</h2>
+								
+
+<div role="search" class="search-form-wrapper">
+	<form method="get"
+	      class="g1-searchform-tpl-default g1-form-s g1-searchform-ajax g1-searchform-ajax search-form"
+	      action="http://thebosh.com/">
+		<label>
+			<span class="screen-reader-text">Search for:</span>
+			<input type="search" class="search-field"
+			       placeholder="Search &hellip;"
+			       value="" name="s"
+			       title="Search for:"/>
+		</label>
+		<button class="search-submit">Search</button>
+	</form>
+
+			<div class="g1-searches g1-searches-ajax"></div>
+	</div>
+							</div>
+						</div><!-- .g1-column -->
+
+						<div class="g1-column g1-column-1of3">
+							<div class="g1-column-inner">
+								<i class="bimber-mail g1-404-icon"></i>
+								<h2 class="g1-gamma g1-gamma-2nd">Report a Problem</h2>
+								<p>Please write some descriptive information about your problem, and email our <a href="mailto:ad&#109;%69&#110;%40t&#104;%65&#098;&#111;&#115;h&#046;c%6fm">webmaster</a>.</p>
+							</div>
+						</div><!-- .g1-column -->
+
+						<div class="g1-column g1-column-1of3">
+							<div class="g1-column-inner">
+								<i class="bimber-home g1-404-icon"></i>
+								<h2 class="g1-gamma g1-gamma-2nd">Back to the Homepage</h2>
+								<p>You can also <a href="http://thebosh.com">go back to the homepage</a> and start browsing from there.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="g1-row-background">
+					</div>
+				</div><!-- .entry-content -->
+
+			</article><!-- #post-0 -->
+
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+
+
+<div class="g1-row g1-row-layout-page g1-footer">
+	<div class="g1-row-inner">
+		<div class="g1-column">
+
+			<p class="g1-footer-text">© 2017 TheBosh!</p>
+
+			<nav id="g1-footer-nav" class="g1-footer-nav"><ul id="g1-footer-nav-menu" class=""><li class="menu-item menu-item-type-g1-top menu-item-object-page menu-item-1000000"><a href="http://thebosh.com/top/">Top</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home menu-item-2111"><a href="http://thebosh.com/">Home</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-639"><a href="http://thebosh.com/category/news/">News</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-799"><a href="http://thebosh.com/category/rants/">Rants</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-407"><a href="http://thebosh.com/activity/">Feed</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-forum menu-item-2397"><a href="http://thebosh.com/forums/forum/general-chat/">Discussions</a></li>
+<li class="bp-menu bp-register-nav menu-item menu-item-type-custom menu-item-object-custom menu-item-2434"><a href="http://thebosh.com/sign-up/">Sign up</a></li>
+</ul></nav>
+			
+	<a class="g1-footer-stamp" href="">
+		<img class="g1-footer-stamp-icon" width="0" height="0" src="http://thebosh.com" srcset="http://thebosh.com 2x" alt="" />			</a>
+
+		</div><!-- .g1-column -->
+	</div>
+	<div class="g1-row-background">
+	</div>
+</div><!-- .g1-row -->
+
+	<a href="#page" class="g1-back-to-top">Back to Top</a>
+
+</div><!-- #page -->
+
+
+<div class="g1-canvas-overlay"></div>
+
+</div><!-- .g1-body-inner -->
+<div id="g1-breakpoint-desktop"></div>
+
+<div class="g1-canvas g1-canvas-global">
+	<a class="g1-canvas-toggle" href="#"></a>
+	<div class="g1-canvas-content">
+		
+
+<div role="search" class="search-form-wrapper">
+	<form method="get"
+	      class="g1-searchform-tpl-default g1-form-s g1-searchform-ajax g1-searchform-ajax search-form"
+	      action="http://thebosh.com/">
+		<label>
+			<span class="screen-reader-text">Search for:</span>
+			<input type="search" class="search-field"
+			       placeholder="Search &hellip;"
+			       value="" name="s"
+			       title="Search for:"/>
+		</label>
+		<button class="search-submit">Search</button>
+	</form>
+
+	</div>
+
+		<!-- BEGIN .g1-primary-nav -->
+		<nav id="g1-canvas-primary-nav" class="g1-primary-nav"><ul id="g1-canvas-primary-nav-menu" class="g1-primary-nav-menu"><li class="menu-item menu-item-type-g1-top menu-item-object-page menu-item-1000000"><a href="http://thebosh.com/top/">Top</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home menu-item-2111"><a href="http://thebosh.com/">Home</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-639"><a href="http://thebosh.com/category/news/">News</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-799"><a href="http://thebosh.com/category/rants/">Rants</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-407"><a href="http://thebosh.com/activity/">Feed</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-forum menu-item-2397"><a href="http://thebosh.com/forums/forum/general-chat/">Discussions</a></li>
+<li class="bp-menu bp-register-nav menu-item menu-item-type-custom menu-item-object-custom menu-item-2434"><a href="http://thebosh.com/sign-up/">Sign up</a></li>
+</ul></nav>		<!-- END .g1-primary-nav -->
+
+													<a class="g1-button g1-button-m g1-button-solid snax-button snax-button-create"
+				href="http://thebosh.com/frontend-submission/">Create Post</a>
+						
+
+		
+		
+		<!-- BEGIN .g1-secondary-nav -->
+				<!-- END .g1-secondary-nav -->
+
+		
+		
+
+	</div>
+</div>
+
+	<div id="snax-popup-content" class="snax white-popup mfp-hide">
+		
+<div class="snax-login-tab snax-tab-active">
+
+	<h2 class="g1-alpha g1-alpha-2nd">Hey there!</h2>
+
+	
+	
+	
+		
+		<h4 class="snax-form-legend snax-form-legend-sign-in">Sign in</h4>
+
+		<div class="snax-login-form" data-snax-nonce="eeb8b2e80d">
+			
+		<form name="loginform-in-popup" id="loginform-in-popup" action="http://thebosh.com/wp-login.php" method="post">
+			<div class="snax-validation-error snax-login-error-message"></div>
+			<p class="login-username">
+				<label for="user_login">Username or Email Address</label>
+				<input type="text" name="log" id="user_login" class="input" value="" size="20" />
+			</p>
+			<p class="login-password">
+				<label for="user_pass">Password</label>
+				<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" />
+			</p>
+			<div id="snax-login-recaptcha"></div>
+			
+			<p class="login-submit">
+				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary" value="Log In" />
+				<input type="hidden" name="redirect_to" value="http://thebosh.com/upload/2008/08/16/angie_harmons_pregnant/Angie-Harmon.jpg/" />
+			</p>
+			
+		</form>		</div>
+
+		<a class="snax-link-forgot-pass" href="http://thebosh.com/my-account/lost-password/">Forgot password?</a>
+
+					<p class="snax-form-tip snax-form-tip-register">Don&#039;t have an account? <a
+					href="http://thebosh.com/sign-up/">Register</a>
+			</p>
+		
+	
+	
+</div>
+
+<div class="snax-forgot-pass-tab snax-tab-inactive">
+
+	<h2 class="g1-alpha g1-alpha-2nd">Forgot your password?</h2>
+
+	<p>
+		Enter your account data and we will send you a link to reset your password.	</p>
+
+	
+	<div class="snax-forgot-pass-form" data-snax-nonce="339c8c9025">
+		<form name="lostpasswordform" id="lostpasswordform" action="http://thebosh.com/wp-login.php?action=lostpassword" method="post">
+			<div class="snax-validation-error snax-forgot-pass-error-message"></div>
+			<div class="snax-validation-error snax-forgot-pass-success-message"></div>
+			<p class="forgot-username">
+				<label for="user_login">Username or Email Address</label>
+				<input type="text" name="user_login" id="user_login" class="input" value="" size="20" placeholder="Username or Email Address" />
+			</p>
+			
+			<input type="hidden" name="redirect_to" value="http://" />
+			<p class="forgot-submit">
+				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Reset password" />
+			</p>
+
+			<a href="#" class="snax-back-to-login-tab">Back to Login</a>
+		</form>
+	</div>
+
+	
+</div>
+
+<div class="snax-reset-tab snax-tab-inactive">
+
+	<div class="snax-reset-pass-form">
+		<h2>Your password reset link appears to be invalid or expired.</h2>
+	</div>
+
+
+</div>
+	</div>
+	<div class="snax">
+	<div class="snax-feedback snax-feedback-off snax-feedback-processing-files">
+		<div class="snax-feedback-inner">
+
+			<div class="snax-details">
+				<a href="#" class="snax-close-button">Close</a>
+
+				<div class="snax-xofy">
+					<span class="snax-xofy-x"></span> <span class="snax-xofy-of">of</span>
+					<span class="snax-xofy-y"></span>
+				</div>
+
+				<ul class="snax-states">
+				</ul>
+
+				<p class="snax-text-processing">Processing files&hellip;</p>
+
+			</div>
+
+		</div>
+	</div>
+</div>
+	<div style="display:none">
+	</div>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/jetpack/_inc/build/photon/photon.min.js?ver=20130122'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/bbpress/templates/default/js/editor.js?ver=2.5.14-6684'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-includes/js/backbone.min.js?ver=1.2.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var template_url = "http:\/\/thebosh.com\/wp-admin\/admin-ajax.php?action=rtmedia_get_template&template=media-gallery-item";
+var rtMedia_plupload_config = {"url":"\/upload\/2008\/08\/16\/angie_harmons_pregnant\/Angie-Harmon.jpg\/upload\/","runtimes":"html5,flash,html4","browse_button":"rtMedia-upload-button","container":"rtmedia-upload-container","drop_element":"drag-drop-area","filters":[{"title":"Media Files","extensions":"jpg,jpeg,png,gif,mp4,mp3"}],"max_file_size":"32M","multipart":"1","urlstream_upload":"1","flash_swf_url":"http:\/\/thebosh.com\/wp-includes\/js\/plupload\/plupload.flash.swf","silverlight_xap_url":"http:\/\/thebosh.com\/wp-includes\/js\/plupload\/plupload.silverlight.xap","file_data_name":"rtmedia_file","multi_selection":"1","multipart_params":{"redirect":"no","action":"wp_handle_upload","_wp_http_referer":"\/upload\/2008\/08\/16\/angie_harmons_pregnant\/Angie-Harmon.jpg\/","mode":"file_upload","rtmedia_upload_nonce":"e2c26a2e39"},"max_file_size_msg":"32M"};
+var rMedia_loading_media = "http:\/\/thebosh.com\/wp-content\/plugins\/buddypress-media\/app\/assets\/admin\/img\/boxspinner.gif";
+var rtmedia_media_thumbs = {"photo":"http:\/\/thebosh.com\/wp-content\/plugins\/buddypress-media\/app\/assets\/admin\/img\/image_thumb.png","video":"http:\/\/thebosh.com\/wp-content\/plugins\/buddypress-media\/app\/assets\/admin\/img\/video_thumb.png","music":"http:\/\/thebosh.com\/wp-content\/plugins\/buddypress-media\/app\/assets\/admin\/img\/audio_thumb.png"};
+var rtmedia_set_featured_image_msg = "Featured media set successfully.";
+var rtmedia_unset_featured_image_msg = "Featured media removed successfully.";
+var rtmedia_edit_media_info_upload = {"title":"Title:","description":"Description:"};
+var rtmedia_no_media_found = "Oops !! There&#039;s no media found for the request !!";
+var rtmedia_backbone_strings = {"rtm_edit_file_name":"Edit File Name"};
+var rtmedia_load_more_or_pagination = "load_more";
+var rtmedia_bp_enable_activity = "1";
+var rtmedia_upload_progress_error_message = "There are some uploads in progress. Do you want to cancel them?";
+var rtmedia_exteansions = {"photo":["jpg","jpeg","png","gif"],"video":["mp4"],"music":["mp3"]};
+var rtMedia_update_plupload_comment = {"url":"\/upload\/2008\/08\/16\/angie_harmons_pregnant\/Angie-Harmon.jpg\/upload\/","runtimes":"html5,flash,html4","browse_button":"rtmedia-comment-media-upload","container":"rtmedia-comment-media-upload-container","filters":[{"title":"Media Files","extensions":"jpg,jpeg,png,gif,mp4,mp3"}],"max_file_size":"32M","multipart":"1","urlstream_upload":"1","flash_swf_url":"http:\/\/thebosh.com\/wp-includes\/js\/plupload\/plupload.flash.swf","silverlight_xap_url":"http:\/\/thebosh.com\/wp-includes\/js\/plupload\/plupload.silverlight.xap","file_data_name":"rtmedia_file","multi_selection":"","multipart_params":{"redirect":"no","action":"wp_handle_upload","_wp_http_referer":"\/upload\/2008\/08\/16\/angie_harmons_pregnant\/Angie-Harmon.jpg\/","mode":"file_upload","rtmedia_upload_nonce":"e2c26a2e39"},"max_file_size_msg":"32M"};
+var rMedia_loading_file = "http:\/\/thebosh.com\/wp-admin\/images\/loading.gif";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/buddypress-media/app/assets/js/rtMedia.backbone.js?ver=4.4.5'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/buddypress/bp-core/js/vendor/jquery.caret.min.js?ver=2.9.3'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/buddypress/bp-core/js/vendor/jquery.atwho.min.js?ver=2.9.3'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/buddypress/bp-activity/js/mentions.min.js?ver=2.9.3'></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201807'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/snax/assets/js/jquery.magnific-popup/jquery.magnific-popup.min.js?ver=1.1.0'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/snax/assets/js/jquery.timeago/jquery.timeago.js?ver=1.5.2'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/snax/assets/js/jquery.timeago/locales/jquery.timeago.en.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var snax_front_config = "{\"ajax_url\":\"http:\\\/\\\/thebosh.com\\\/wp-admin\\\/admin-ajax.php\",\"site_url\":\"http:\\\/\\\/thebosh.com\",\"autosave_interval\":60,\"use_login_recaptcha\":false,\"recaptcha_api_url\":\"https:\\\/\\\/www.google.com\\\/recaptcha\\\/api.js\",\"recaptcha_site_key\":\"\",\"enable_login_popup\":true,\"login_url\":\"http:\\\/\\\/thebosh.com\\\/?snax_login_popup\",\"login_popup_url_var\":\"snax_login_popup\",\"logged_in\":false,\"i18n\":{\"recaptcha_invalid\":\"<strong>ERROR<\\\/strong>: The reCAPTCHA you entered is incorrect.\",\"passwords_dont_match\":\"Passwords don't match.\",\"link_invalid\":\"Your password reset link appears to be invalid or expired.\",\"password_set\":\"New password has been set\",\"duplicate_comment\":\"Duplicate comment detected; it looks as though you&#8217;ve already said that!\",\"comment_fail\":\"Comment Submission Failure\",\"see_all_replies\":\"See all replies\"}}";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/snax/assets/js/front.js?ver=1.13.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wyr_front_config = "{\"ajax_url\":\"http:\\\/\\\/thebosh.com\\\/wp-admin\\\/admin-ajax.php\",\"error_msg\":\"Some error occurred while voting. Please try again.\"}";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/whats-your-reaction/js/front.js?ver=1.2.11'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"http:\/\/thebosh.com\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/thebosh.com\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"http:\/\/thebosh.com\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.3.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"http:\/\/thebosh.com\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_517f2bb18022000b976455c58d2d6f0d","fragment_name":"wc_fragments_517f2bb18022000b976455c58d2d6f0d"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.3.1'></script>
+<script type='text/javascript'>
+var renderInvisibleReCaptcha = function() {
+
+    for (var i = 0; i < document.forms.length; ++i) {
+        var form = document.forms[i];
+        var holder = form.querySelector('.inv-recaptcha-holder');
+
+        if (null === holder) continue;
+		holder.innerHTML = '';
+
+         (function(frm){
+			var cf7SubmitElm = frm.querySelector('.wpcf7-submit');
+            var holderId = grecaptcha.render(holder,{
+                'sitekey': '6LctZEYUAAAAAMpirKQDumWMvtOw_0OKENF8Bkh_', 'size': 'invisible', 'badge' : 'bottomright',
+                'callback' : function (recaptchaToken) {
+					if((null !== cf7SubmitElm) && (typeof jQuery != 'undefined')){jQuery(frm).submit();grecaptcha.reset(holderId);return;}
+					 HTMLFormElement.prototype.submit.call(frm);
+                },
+                'expired-callback' : function(){grecaptcha.reset(holderId);}
+            });
+
+			if(null !== cf7SubmitElm && (typeof jQuery != 'undefined') ){
+				jQuery(cf7SubmitElm).off('click').on('click', function(clickEvt){
+					clickEvt.preventDefault();
+					grecaptcha.execute(holderId);
+				});
+			}
+			else
+			{
+				frm.onsubmit = function (evt){evt.preventDefault();grecaptcha.execute(holderId);};
+			}
+
+
+        })(form);
+    }
+};
+</script>
+<script type='text/javascript' async defer src='https://www.google.com/recaptcha/api.js?onload=renderInvisibleReCaptcha&#038;render=explicit'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2018Febaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=8c5eed8d52073e2448d394dafa0c6fcc'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/themes/bimber/js/stickyfill/stickyfill.min.js?ver=1.3.1'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/themes/bimber/js/jquery.placeholder/placeholders.jquery.min.js?ver=4.0.1'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/themes/bimber/js/matchMedia/matchMedia.js'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/themes/bimber/js/matchMedia/matchMedia.addListener.js'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/themes/bimber/js/picturefill/picturefill.min.js?ver=2.3.1'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/themes/bimber/js/jquery.waypoints/jquery.waypoints.min.js?ver=4.0.0'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/themes/bimber/js/libgif/libgif.js'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/themes/bimber/js/enquire/enquire.min.js?ver=2.1.2'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-includes/js/wp-a11y.min.js?ver=8c5eed8d52073e2448d394dafa0c6fcc'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://thebosh.com/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var bimber_front_config = "{\"ajax_url\":\"http:\\\/\\\/thebosh.com\\\/wp-admin\\\/admin-ajax.php\",\"timeago\":\"on\",\"sharebar\":\"on\",\"i18n\":{\"menu\":{\"go_to\":\"Go to\"},\"newsletter\":{\"subscribe_mail_subject_tpl\":\"Check out this great article: %subject%\"},\"bp_profile_nav\":{\"more_link\":\"More\"}},\"comment_types\":[\"wp\",\"fb\"],\"auto_load_limit\":\"0\",\"auto_play_videos\":false,\"setTargetBlank\":true,\"useWaypoints\":true}";
+var bimber_front_microshare = "[]";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/themes/bimber/js/front.js?ver=5.3.4'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/themes/bimber-child-theme/modifications.js'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-content/plugins/buddypress-media/lib/touchswipe/jquery.touchSwipe.min.js?ver=4.4.5'></script>
+<script type='text/javascript' src='http://thebosh.com/wp-includes/js/wp-embed.min.js?ver=8c5eed8d52073e2448d394dafa0c6fcc'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201807.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:5.8',blog:'104045968',post:'0',tz:'0',srv:'thebosh.com'} ]);
+	_stq.push([ 'clickTrackerInit', '104045968', '0' ]);
+</script>
+</body>
+</html>
+
+	<div id="primary" class="g1-primary-max">
+		<div id="content" role="main">
+
+			
+<article id="post-2442" class="post-2442 bp_member type-bp_member status-publish has-post-thumbnail" itemscope=""
+		itemtype="http://schema.org/CreativeWork">
+
+	
+<header class="g1-row g1-row-layout-page page-header page-header-01">
+	<div class="g1-row-inner">
+		<div class="g1-column">
+			
+							<h1 class="g1-alpha g1-alpha-2nd page-title"><a href=""></a></h1>
+			
+					</div>
+	</div>
+	<div class="g1-row-background">
+	</div>
+</header>
+	<div class="g1-row g1-row-layout-page g1-row-padding-m entry-body-row">
+		<div class="g1-row-inner">
+
+			<div class="g1-column g1-column-2of3">
+				<figure class="entry-featured-media" itemprop="video" itemscope itemtype="http://schema.org/VideoObject"><blockquote class="twitter-tweet" data-width="550" data-dnt="true"><p lang="en" dir="ltr">At the united Korea vs Japan womens&#39; hockey game, an apparent Kim Jong-un impersonator starts dancing in front of North Korean cheerleaders. Apparent employees of the DPRK push him aside. He&#39;s now sitting nearby giving interviews (in English) <a href="https://t.co/PeVJYtri5Y">pic.twitter.com/PeVJYtri5Y</a></p>&mdash; Vincent Bevins (@Vinncent) <a href="https://twitter.com/Vinncent/status/963706291523747841?ref_src=twsrc%5Etfw">February 14, 2018</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></figure>
+				<div class="entry-content" itemprop="text">
+						<div id="buddypress">
+	<div id="item-body">
+	<input type="hidden" id="rtmedia_media_delete_nonce" name="rtmedia_media_delete_nonce" value="0b3b555d15" /><input type="hidden" name="_wp_http_referer" value="/upload/2008/08/16/angie_harmons_pregnant/Angie-Harmon.jpg/" />	</div><!--#item-body-->
+		</div><!--#buddypress-->
+
+
+
+
+
+<div class="g1-comments" id="comments-section">
+
+	
+	
+			<h2 class="comments-title g1-beta g1-beta-2nd">
+			Comments		</h2>
+
+		<div style="clear: both;">
+		</div>
+
+		<div class="g1-tabs">
+			<ul class="g1-tab-items">
+				
+					
+					<li class="g1-tab-item g1-tab-item-wp g1-tab-item-current" data-bimber-type="wp">
+						<a class="g1-tab">Our site <span class="count">1</span></a>
+					</li>
+
+				
+					
+					<li class="g1-tab-item g1-tab-item-fb" data-bimber-type="fb">
+						<a class="g1-tab">Facebook</a>
+					</li>
+
+				
+			</ul>
+		</div>
+	
+	
+		<div class="g1-comment-type g1-comment-type-fb">
+		<p class="g1-notice g1-notice-loading">Loading&hellip;</p>
+
+		<div class="g1-comment-count" data-bimber-fb-comment-count="0" data-bimber-post-id="2442" data-bimber-nonce="d77f12f324">
+			<fb:comments-count href="http://thebosh.com/kim-jong-un-impersonator-winter-olympics/"></fb:comments-count>
+		</div>
+
+		<div class="g1-comment-list">
+			
+				
+					</div>
+	</div>
+	
+</div>
+				</div><!-- .entry-content -->
+			</div>
+
+			<div id="secondary" class="g1-column g1-column-1of3">
+	<aside id="bimber_widget_posts-2" class="widget widget_bimber_widget_posts"><header><h2 class="g1-delta g1-delta-2nd widgettitle">Trending Now</h2></header>			<div id="g1-widget-posts-1"
+			     class=" g1-widget-posts">
+				
+					
+					<div class="g1-collection g1-collection-numbered">
+						<div class="g1-collection-viewport">
+							<ul class="g1-collection-items">
+								
+									<li class="g1-collection-item">
+										<article class="entry-tpl-grid-fancy post-2011 post type-post status-publish format-standard has-post-thumbnail category-tech">
+	<figure class="entry-featured-media " ><a class="g1-frame" href="http://thebosh.com/review-reasons-why-you-should-never-buy-lenovo-products/"><span class="g1-frame-inner" style="padding-bottom: 48.75000000%;"><img width="320" height="240" src="https://i2.wp.com/thebosh.com/wp-content/uploads/2017/10/bad-bad-computer-gif.gif?fit=320%2C240" class="attachment-full size-full wp-post-image" alt="" /><span class="g1-frame-icon g1-frame-icon-"></span></span></a></figure>
+	<div class="entry-counter"></div>
+
+	<div class="entry-body">
+		<header class="entry-header">
+			<div class="entry-before-title">
+				
+							</div>
+
+			<h3 class="g1-delta g1-delta-1st entry-title"><a href="http://thebosh.com/review-reasons-why-you-should-never-buy-lenovo-products/" rel="bookmark">Review. Reasons why you should never buy Lenovo products</a></h3>		</header>
+
+		
+			</div>
+</article>
+									</li>
+
+								
+									<li class="g1-collection-item">
+										<article class="entry-tpl-grid-fancy post-1794 post type-post status-publish format-standard has-post-thumbnail category-uncategorized snax_format-list snax-list">
+	<figure class="entry-featured-media " ><a class="g1-frame" href="http://thebosh.com/funny-north-korea-meme-war/"><span class="g1-frame-inner" style="padding-bottom: 42.85714286%;"><img width="364" height="156" src="https://i1.wp.com/thebosh.com/wp-content/uploads/2017/09/north-korea-meme.png?resize=364%2C156" class="attachment-bimber-grid-fancy size-bimber-grid-fancy wp-post-image" alt="" /><span class="g1-frame-icon g1-frame-icon-"></span></span></a></figure>
+	<div class="entry-counter"></div>
+
+	<div class="entry-body">
+		<header class="entry-header">
+			<div class="entry-before-title">
+				
+							</div>
+
+			<h3 class="g1-delta g1-delta-1st entry-title"><a href="http://thebosh.com/funny-north-korea-meme-war/" rel="bookmark">Funny North Korea meme war! (Open list) (9 submissions)</a></h3>		</header>
+
+		
+			</div>
+</article>
+									</li>
+
+								
+									<li class="g1-collection-item">
+										<article class="entry-tpl-grid-fancy post-2442 post type-post status-publish format-standard has-post-thumbnail category-news">
+	<figure class="entry-featured-media " ><a class="g1-frame" href="http://thebosh.com/kim-jong-un-impersonator-winter-olympics/"><span class="g1-frame-inner" style="padding-bottom: 42.85714286%;"><img width="364" height="156" src="https://i2.wp.com/thebosh.com/wp-content/uploads/2018/02/Kim-Impersonator-Olympics.jpg?resize=364%2C156" class="attachment-bimber-grid-fancy size-bimber-grid-fancy wp-post-image" alt="" srcset="https://i2.wp.com/thebosh.com/wp-content/uploads/2018/02/Kim-Impersonator-Olympics.jpg?resize=364%2C156 364w, https://i2.wp.com/thebosh.com/wp-content/uploads/2018/02/Kim-Impersonator-Olympics.jpg?resize=728%2C312 728w" sizes="(max-width: 364px) 100vw, 364px" /><span class="g1-frame-icon g1-frame-icon-"></span></span></a></figure>
+	<div class="entry-counter"></div>
+
+	<div class="entry-body">
+		<header class="entry-header">
+			<div class="entry-before-title">
+				
+							</div>
+
+			<h3 class="g1-delta g1-delta-1st entry-title"><a href="http://thebosh.com/kim-jong-un-impersonator-winter-olympics/" rel="bookmark">Kim Jong-un Impersonator at winter Olympics</a></h3>		</header>
+
+		
+			</div>
+</article>
+									</li>
+
+								
+									<li class="g1-collection-item">
+										<article class="entry-tpl-grid-fancy post-2403 post type-post status-publish format-standard has-post-thumbnail category-news">
+	<figure class="entry-featured-media " ><a class="g1-frame" href="http://thebosh.com/lenny-dykstra-accuses-charlie-sheen-murder/"><span class="g1-frame-inner" style="padding-bottom: 78.00000000%;"><img width="200" height="211" src="https://i2.wp.com/thebosh.com/wp-content/uploads/2018/02/200w.gif?fit=200%2C211" class="attachment-full size-full wp-post-image" alt="" /><span class="g1-frame-icon g1-frame-icon-"></span></span></a></figure>
+	<div class="entry-counter"></div>
+
+	<div class="entry-body">
+		<header class="entry-header">
+			<div class="entry-before-title">
+				
+							</div>
+
+			<h3 class="g1-delta g1-delta-1st entry-title"><a href="http://thebosh.com/lenny-dykstra-accuses-charlie-sheen-murder/" rel="bookmark">Charlie Sheen accused of murder</a></h3>		</header>
+
+		
+			</div>
+</article>
+									</li>
+
+								
+									<li class="g1-collection-item">
+										<article class="entry-tpl-grid-fancy post-2375 post type-post status-publish format-standard has-post-thumbnail category-news">
+	<figure class="entry-featured-media " ><a class="g1-frame" href="http://thebosh.com/google-is-evil-google-home-censors-christianity/"><span class="g1-frame-inner" style="padding-bottom: 42.85714286%;"><img width="400" height="300" src="https://i0.wp.com/thebosh.com/wp-content/uploads/2018/01/feef2-1.gif?fit=400%2C300" class="attachment-full size-full wp-post-image" alt="" /><span class="g1-frame-icon g1-frame-icon-"></span></span></a></figure>
+	<div class="entry-counter"></div>
+
+	<div class="entry-body">
+		<header class="entry-header">
+			<div class="entry-before-title">
+				
+							</div>
+
+			<h3 class="g1-delta g1-delta-1st entry-title"><a href="http://thebosh.com/google-is-evil-google-home-censors-christianity/" rel="bookmark">Google Home Censors Christianity!</a></h3>		</header>
+
+		
+			</div>
+</article>
+									</li>
+
+								
+									<li class="g1-collection-item">
+										<article class="entry-tpl-grid-fancy post-1150 post type-post status-publish format-standard has-post-thumbnail category-news">
+	<figure class="entry-featured-media " ><a class="g1-frame" href="http://thebosh.com/undertaker-retire-proffesional-wrestling/"><span class="g1-frame-inner" style="padding-bottom: 42.85714286%;"><img width="364" height="156" src="https://i2.wp.com/thebosh.com/wp-content/uploads/2017/04/a-undertaker-wwe-wrestling-stars.jpg?resize=364%2C156" class="attachment-bimber-grid-fancy size-bimber-grid-fancy wp-post-image" alt="" /><span class="g1-frame-icon g1-frame-icon-"></span></span></a></figure>
+	<div class="entry-counter"></div>
+
+	<div class="entry-body">
+		<header class="entry-header">
+			<div class="entry-before-title">
+				
+							</div>
+
+			<h3 class="g1-delta g1-delta-1st entry-title"><a href="http://thebosh.com/undertaker-retire-proffesional-wrestling/" rel="bookmark">The Undertaker to retire from proffesional wrestling</a></h3>		</header>
+
+		
+			</div>
+</article>
+									</li>
+
+															</ul>
+						</div>
+					</div>
+
+										
+							</div>
+			</aside><div class="g1-sticky-sidebar" data-g1-offset="1"><aside id="blog_subscription-2" class="widget jetpack_subscription_widget"><header><h2 class="g1-delta g1-delta-2nd widgettitle">Subscribe to Blog via Email</h2></header>
+			<form action="#" method="post" accept-charset="utf-8" id="subscribe-blog-blog_subscription-2">
+				<div id="subscribe-text"><p>Enter your email address to subscribe to this blog and receive notifications of new posts by email.</p>
+</div><p>Join 5 other subscribers</p>
+					<p id="subscribe-email">
+						<label id="jetpack-subscribe-label" for="subscribe-field-blog_subscription-2">
+							Email Address						</label>
+						<input type="email" name="email" required="required" class="required" value="" id="subscribe-field-blog_subscription-2" placeholder="Email Address" />
+					</p>
+
+					<p id="subscribe-submit">
+						<input type="hidden" name="action" value="subscribe" />
+						<input type="hidden" name="source" value="http://thebosh.com/upload/2008/08/16/angie_harmons_pregnant/Angie-Harmon.jpg/" />
+						<input type="hidden" name="sub-type" value="widget" />
+						<input type="hidden" name="redirect_fragment" value="blog_subscription-2" />
+												<input type="submit" value="Subscribe" name="jetpack_subscriptions_widget" />
+					</p>
+							</form>
+
+			<script>
+			/*
+			Custom functionality for safari and IE
+			 */
+			(function( d ) {
+				// In case the placeholder functionality is available we remove labels
+				if ( ( 'placeholder' in d.createElement( 'input' ) ) ) {
+					var label = d.querySelector( 'label[for=subscribe-field-blog_subscription-2]' );
+						label.style.clip 	 = 'rect(1px, 1px, 1px, 1px)';
+						label.style.position = 'absolute';
+						label.style.height   = '1px';
+						label.style.width    = '1px';
+						label.style.overflow = 'hidden';
+				}
+
+				// Make sure the email value is filled in before allowing submit
+				var form = d.getElementById('subscribe-blog-blog_subscription-2'),
+					input = d.getElementById('subscribe-field-blog_subscription-2'),
+					handler = function( event ) {
+						if ( '' === input.value ) {
+							input.focus();
+
+							if ( event.preventDefault ){
+								event.preventDefault();
+							}
+
+							return false;
+						}
+					};
+
+				if ( window.addEventListener ) {
+					form.addEventListener( 'submit', handler, false );
+				} else {
+					form.attachEvent( 'onsubmit', handler );
+				}
+			})( document );
+			</script>
+				
+</aside></div></div><!-- #secondary -->
+
+		</div>
+		<div class="g1-row-background">
+		</div>
+	</div>
+
+</article><!-- #post-## -->
+
+		</div><!-- #content -->
+	</div><!-- #primary -->
+

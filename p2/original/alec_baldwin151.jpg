@@ -1,0 +1,582 @@
+
+
+
+
+			<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>404 Error - Mid Day</title>
+<link href="/Resources/midday/css/headfoot2017.css" rel="stylesheet" type="text/css"/>
+<link href="/Resources/midday/css/error.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="https://www.mid-day.com/Resources/midday/js/jquery-1.8.1.js"></script>
+<script type="text/javascript" src="https://www.mid-day.com/Resources/midday/js/swiper.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-2326030-24', 'auto');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+</script>
+
+</head>
+<body>
+<!--header starts here-->
+<header role="header" class="header">
+  <div class="top-row">
+    <div class="container">
+      <div class="logo"> <a href="/"><img src="/Resources/midday/images/logo-new.png" title="Latest Breaking News" name="Latest Breaking News" alt="mid-day"></a> </div>
+      <div class="navigation-row">
+        <div class="respmenu">
+          <ul class="menu">
+            <li> <a href="/mumbai">Mumbai</a>
+              <div class="dropdownbox">
+                <div class="ddcol1">
+                  <p> <a href="/mumbai">More in Mumbai</a> </p>
+                  <ul>
+                    <li> <a href="/mumbai/food" title="Mumbai Food">Mumbai Food</a> </li>
+                    <li> <a href="/mumbai/things-to-do" title="Things to do">Things to do</a> </li>
+                    <li> <a href="/mumbai/famous-personalities" title="Famous Personalities">Famous Personalities</a> </li>
+                    <li> <a href="/mumbai/vintage" title="Vintage Mumbai">Vintage Mumbai</a> </li>
+                    <li> <a href="/mumbai/festivals" title="Festivals">Festivals</a> </li>
+                  </ul>
+                </div>
+                <div class="ddcol2"> <a href="/articles/sena-leader-compiles-booklet-on-bjps-scams-party-says-its-not-official/18707187" title="Sena leader compiles booklet on BJP's 'scams', party says its not official"><img  alt="Sena leader compiles booklet on BJP's 'scams', party says its not official" title="Sena leader compiles booklet on BJP's 'scams', party says its not official" src="//images.mid-day.com/images/2017/nov/scam-s.jpg">
+                  <p>Sena leader compiles booklet on BJP's 'scams', party says its not official</p>
+                  </a>
+                  <ul class="ddcol3">
+                    <li> <a href="/articles/thane-man-gets-seven-years-rigorous-imprisonment-for-raping-girl/18707173" title="Thane man gets seven years rigorous imprisonment for raping girl">
+                      <p>Thane man gets seven years rigorous imprisonment for raping girl</p>
+                      </a> </li>
+                    <li> <a href="/articles/new-scam-targeting-mumbai-cops-policemens-salary-accounts-hacked/18706154" title="New scam targeting Mumbai cops? Policemen's salary accounts hacked">
+                      <p>New scam targeting Mumbai cops? Policemen's salary accounts hacked</p>
+                      </a> </li>
+                    <li> <a href="/articles/lilavati-trustee-alleges-management-siphoned-off-crores-hospital-denies-allegations/18705199" title="Lilavati trustee alleges management siphoned off crores, hospital denies allegat">
+                      <p>Lilavati trustee alleges management siphoned off crores, hospital denies allegat</p>
+                      </a> </li>
+                    <li> <a href="/articles/yuva-sena-chief-aaditya-thackeray-promises-support-for-save-aarey-campaign/18705183" title="Yuva Sena chief Aaditya Thackeray promises support for Save Aarey campaign">
+                      <p>Yuva Sena chief Aaditya Thackeray promises support for Save Aarey campaign</p>
+                      </a> </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li> <a href="/entertainment">Entertainment</a>
+              <div class="dropdownbox">
+                <div class="ddcol1">
+                  <p> <a href="/entertainment">More in Entertainment</a> </p>
+                  <ul>
+                    <li> <a href="/entertainment/bollywood" title="Bollywood News">Bollywood News</a> </li>
+                    <li> <a href="/entertainment/television" title="Television News">Television News</a> </li>
+                    <li> <a href="/entertainment/hollywood" title="Hollywood News">Hollywood News</a> </li>
+                    <li> <a href="/entertainment/regional-cinema" title="Regional Cinema">Regional Cinema</a> </li>
+                    <li> <a href="/entertainment/bollywood-fashion" title="Bollywood Fashion">Bollywood Fashion</a> </li>
+                    <li> <a href="/entertainment/movie-reviews" title="Movie Reviews">Movie Reviews</a> </li>
+                    <li> <a href="/entertainment/movies" title="Movies">Movies</a> </li>
+                    <li> <a href="/entertainment/celebrities" title="Celebrities">Celebrities</a> </li>
+                  </ul>
+                </div>
+                <div class="ddcol2"> <a href="/articles/krk-aka-kamaal-rashid-khan-threatens-to-commit-suicide/18707196" title="KRK threatens to commit suicide"><img  alt="KRK threatens to commit suicide" title="KRK threatens to commit suicide" src="//images.mid-day.com/images/2017/nov/krk-suicide-s.jpg">
+                  <p>KRK threatens to commit suicide</p>
+                  </a>
+                  <ul class="ddcol3">
+                    <li> <a href="/articles/shah-rukh-khan-there-will-be-a-superstar-in-future-who-will-be-bigger-than-us/18705184" title="Shah Rukh Khan: There will be a superstar in future who will be bigger than us">
+                      <p>Shah Rukh Khan: There will be a superstar in future who will be bigger than us</p>
+                      </a> </li>
+                    <li> <a href="/articles/alia-bhatt-returns-from-alibaug-wearing-sidharth-malhotras-t-shirt/18705166" title="Alia Bhatt returns from Alibaug wearing Sidharth Malhotra's T-shirt?">
+                      <p>Alia Bhatt returns from Alibaug wearing Sidharth Malhotra's T-shirt?</p>
+                      </a> </li>
+                    <li> <a href="/articles/aishwarya-rai-bachchans-birthday-cake-inspired-by-cannes-gown/18706150" title="Wow! Aishwarya Rai Bachchan's birthday cake inspired by this gown">
+                      <p>Wow! Aishwarya Rai Bachchan's birthday cake inspired by this gown</p>
+                      </a> </li>
+                    <li> <a href="/articles/top-chef-host-padma-lakshmi-casting-indians-makes-business-sense/18704174" title="'Top Chef' host Padma Lakshmi: Casting Indians makes business sense">
+                      <p>'Top Chef' host Padma Lakshmi: Casting Indians makes business sense</p>
+                      </a> </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li> <a href="/news">News</a>
+              <div class="dropdownbox">
+                <div class="ddcol1">
+                  <p> <a href="/news">More in News</a> </p>
+                  <ul>
+                    <li> <a href="/news/mumbai" title="Mumbai News">Mumbai News</a> </li>
+                    <li> <a href="/news/crime" title="Crime News">Crime News</a> </li>
+                    <li> <a href="/news/national" title="National News">National News</a> </li>
+                    <li> <a href="/news/international" title="International News">International News</a> </li>
+                    <li> <a href="/news/columnists" title="Columnists">Columnists</a> </li>
+                    <li> <a href="/news/hatke" title="Hatke News">Hatke News</a> </li>
+                    <li> <a href="/news/mumbai-rains" title="Mumbai Rains">Mumbai Rains</a> </li>
+                  </ul>
+                </div>
+                <div class="ddcol2"> <a href="/articles/lilavati-trustee-alleges-management-siphoned-off-crores-hospital-denies-allegations/18705199" title="Lilavati trustee alleges management siphoned off crores, hospital denies allegat"><img  alt="Lilavati trustee alleges management siphoned off crores, hospital denies allegat" title="Lilavati trustee alleges management siphoned off crores, hospital denies allegat" src="//images.mid-day.com/images/2017/nov/surgical-instruments-s.jpg">
+                  <p>Lilavati trustee alleges management siphoned off crores, hospital denies allegat</p>
+                  </a>
+                  <ul class="ddcol3">
+                    <li> <a href="/articles/kalyan-policemen-suspended-for-letting-mob-kill-truck-driver/18701199" title="Policemen suspended for letting mob kill truck driver in Kalyan">
+                      <p>Policemen suspended for letting mob kill truck driver in Kalyan</p>
+                      </a> </li>
+                    <li> <a href="/articles/new-scam-targeting-mumbai-cops-policemens-salary-accounts-hacked/18706154" title="New scam targeting Mumbai cops? Policemen's salary accounts hacked">
+                      <p>New scam targeting Mumbai cops? Policemen's salary accounts hacked</p>
+                      </a> </li>
+                    <li> <a href="/articles/uddhav-thackeray-mamata-banerjee-meet-to-plan-how-they-can-come-together-in-the-future/18705195" title="Uddhav Thackeray, Mamata Banerjee meet, plan to 'come together in the future'">
+                      <p>Uddhav Thackeray, Mamata Banerjee meet, plan to 'come together in the future'</p>
+                      </a> </li>
+                    <li> <a href="/articles/as-tomatoes-hit-rs-100-per-kg-chandigarh-hyper-local-transport-and-logistics-app-jugnoo-offers-re-1/18705160" title="Tomato Loot! This app delivers tomato at just Re 1 per kg">
+                      <p>Tomato Loot! This app delivers tomato at just Re 1 per kg</p>
+                      </a> </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li> <a href="/photos">Photos</a>
+              <div class="dropdownbox">
+                <div class="ddcol1">
+                  <p> <a href="/photos">More in Photos</a> </p>
+                  <ul>
+                    <li> <a href="/photos/online-entertainment-gallery" title="Entertainment galleries">Entertainment galleries</a> </li>
+                    <li> <a href="/photos/online-mumbai-gallery" title="Mumbai galleries">Mumbai galleries</a> </li>
+                    <li> <a href="/photos/online-sports-gallery" title="Sports galleries">Sports galleries</a> </li>
+                    <li> <a href="/photos/online-news-gallery" title="News galleries">News galleries</a> </li>
+                    <li> <a href="/photos/online-offbeat-gallery" title="Offbeat galleries">Offbeat galleries</a> </li>
+                    <li> <a href="/photos/online-life-and-style-gallery" title="Lifestyle galleries">Lifestyle galleries</a> </li>
+                  </ul>
+                </div>
+                <div class="ddcol2"> <a href="/photos/photos-suhana-khan-ananya-pandey-shweta-bachchan-watch-ittefaq/15167" title="Photos: Suhana Khan, Ananya Pandey, Shweta Bachchan watch 'Ittefaq'"><img  alt="Photos: Suhana Khan, Ananya Pandey, Shweta Bachchan watch 'Ittefaq'" title="Photos: Suhana Khan, Ananya Pandey, Shweta Bachchan watch 'Ittefaq'" src="//images.mid-day.com/images/2017/nov/suhana-ananya-s.jpg">
+                  <p>Photos: Suhana Khan, Ananya Pandey, Shweta Bachchan watch 'Ittefaq'</p>
+                  </a>
+                  <ul class="ddcol3">
+                    <li> <a href="/photos/photos-sophie-choudry-kim-sharma-at-halloween-bash-in-bandra/15158" title="Photos: Sophie Choudry, Kim Sharma at Halloween bash in Bandra">
+                      <p>Photos: Sophie Choudry, Kim Sharma at Halloween bash in Bandra</p>
+                      </a> </li>
+                    <li> <a href="/photos/pernia-qureshi-the-designer-for-sonam-kapoor-starrer-aisha/15147" title="Pernia Qureshi: The designer for Sonam Kapoor starrer Aisha">
+                      <p>Pernia Qureshi: The designer for Sonam Kapoor starrer Aisha</p>
+                      </a> </li>
+                    <li> <a href="/photos/photos-shah-rukh-khan-abram-greet-media-fans-outside-mannat/15170" title="Photos: Shah Rukh Khan, AbRam greet media, fans outside Mannat">
+                      <p>Photos: Shah Rukh Khan, AbRam greet media, fans outside Mannat</p>
+                      </a> </li>
+                    <li> <a href="/photos/photos-kajol-at-event-honouring-grandfather-sashadhar-mukherjee/15168" title="Photos: Kajol at event honouring grandfather Sashadhar Mukherjee">
+                      <p>Photos: Kajol at event honouring grandfather Sashadhar Mukherjee</p>
+                      </a> </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li> <a href="/videos">Videos</a>
+              <div class="dropdownbox">
+                <div class="ddcol1">
+                  <p> <a href="/videos">More in Videos</a> </p>
+                  <ul>
+                    <li> <a href="/videos/entertainment" title="Entertainment Videos">Entertainment Videos</a> </li>
+                    <li> <a href="/videos/viral" title="Viral Videos">Viral Videos</a> </li>
+                    <li> <a href="/videos/mumbai" title="Mumbai Videos">Mumbai Videos</a> </li>
+                    <li> <a href="/videos/news" title="News Videos">News Videos</a> </li>
+                    <li> <a href="/videos/sports" title="Sports Videos">Sports Videos</a> </li>
+                  </ul>
+                </div>
+                <div class="ddcol2"> <a href="/videos/how-much-has-shilpa-shirodkar-changed-over-the-years/1005929" title="How much has Shilpa Shirodkar changed over the years"><img  alt="How much has Shilpa Shirodkar changed over the years" title="How much has Shilpa Shirodkar changed over the years" src="//images.mid-day.com/images/2017/nov/Shilpa-Shirodkar-video-l.jpg">
+                  <p>How much has Shilpa Shirodkar changed over the years</p>
+                  </a>
+                  <ul class="ddcol3">
+                    <li> <a href="/videos/video-tusshar-kapoors-special-birthday-celebration-with-mid-day/1005909" title="Video: Tusshar Kapoor's special birthday celebration with mid-day">
+                      <p>Video: Tusshar Kapoor's special birthday celebration with mid-day</p>
+                      </a> </li>
+                    <li> <a href="/videos/all-you-need-to-know-about-miss-world-manushi-chhillar/1005949" title="All you need to know about Miss World Manushi Chhillar">
+                      <p>All you need to know about Miss World Manushi Chhillar</p>
+                      </a> </li>
+                    <li> <a href="/videos/here-is-why-we-need-to-celebrate-international-mens-day-in-india/1005891" title="Here is why we need to celebrate International men's day in India">
+                      <p>Here is why we need to celebrate International men's day in India</p>
+                      </a> </li>
+                    <li> <a href="/videos/worst-crime-naked-woman-burnt-to-death-after-sexual-abuse/1005872" title="Worst Crime: Naked woman burnt to death after sexual abuse">
+                      <p>Worst Crime: Naked woman burnt to death after sexual abuse</p>
+                      </a> </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li> <a href="/sports">Sports</a>
+              <div class="dropdownbox">
+                <div class="ddcol1">
+                  <p> <a href="/sports">More in Sports</a> </p>
+                  <ul>
+                    <li> <a href="/sports/cricket" title="Cricket">Cricket</a> </li>
+                    <li> <a href="/sports/football" title="Football">Football</a> </li>
+                    <li> <a href="/sports/tennis" title="Tennis">Tennis</a> </li>
+                    <li> <a href="/sports/badminton" title="Badminton">Badminton</a> </li>
+                    <li> <a href="/sports/other-sports" title="Other Sports">Other Sports</a> </li>
+                  </ul>
+                </div>
+                <div class="ddcol2"> <a href="/articles/ranji-trophy-cheteshwar-pujara-scores-12th-first-class-double-ton-most-by-an-indian/18705189" title="Ranji Trophy: Cheteshwar Pujara scores most first-class double tons by an Indian"><img  alt="Ranji Trophy: Cheteshwar Pujara scores most first-class double tons by an Indian" title="Ranji Trophy: Cheteshwar Pujara scores most first-class double tons by an Indian" src="//images.mid-day.com/images/2017/nov/raised-pujara-s.jpg">
+                  <p>Ranji Trophy: Cheteshwar Pujara scores most first-class double tons by an Indian</p>
+                  </a>
+                  <ul class="ddcol3">
+                    <li> <a href="/articles/mumbai-lad-prithvi-shaw-posts-photo-with-father-pankaj-along-with-an-emotional-message/18704190" title="Prithvi Shaw posts photo with father along with an emotional message">
+                      <p>Prithvi Shaw posts photo with father along with an emotional message</p>
+                      </a> </li>
+                    <li> <a href="/articles/shane-warne-to-reveal-intimate-details-of-affairs-with-elizabeth-hurley-simone-callahan/18702191" title="Shane Warne to reveal intimate details of affairs with Liz Hurley, Simone">
+                      <p>Shane Warne to reveal intimate details of affairs with Liz Hurley, Simone</p>
+                      </a> </li>
+                    <li> <a href="/articles/adult-actress-mia-khalifa-is-not-excited-about-golfer-tiger-woods-comeback/18706156" title="Adult actress Mia Khalifa has a message for golfer Tiger Woods">
+                      <p>Adult actress Mia Khalifa has a message for golfer Tiger Woods</p>
+                      </a> </li>
+                    <li> <a href="/articles/lindsey-vonn-reveals-she-was-only-blocks-away-from-new-york-terror-attack/18706162" title="Lindsey Vonn reveals she was only blocks away from New York terror attack">
+                      <p>Lindsey Vonn reveals she was only blocks away from New York terror attack</p>
+                      </a> </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li> <a href="/life-and-style">Life &amp; Style</a>
+              <div class="dropdownbox">
+                <div class="ddcol1">
+                  <p> <a href="/life-and-style">More in Life &amp; Style</a> </p>
+                  <ul>
+                    <li> <a href="/horoscope" title="Horoscope">Horoscope</a> </li>
+                    <li> <a href="/life-and-style/sex-relationships" title="Sex &amp; relationships">Sex &amp; relationships</a> </li>
+                    <li> <a href="/life-and-style/food-drinks" title="Food &amp; Drinks">Food &amp; Drinks</a> </li>
+                    <li> <a href="/life-and-style/sunday-mid-day" title="Sunday-midday">Sunday-midday</a> </li>
+                    <li> <a href="/life-and-style/dr-love" title="Dr. Love">Dr. Love</a> </li>
+                    <li> <a href="/life-and-style/technology" title="Technology">Technology</a> </li>
+                    <li> <a href="/life-and-style/cars-bikes" title="Cars-Bikes">Cars-Bikes</a> </li>
+                    <li> <a href="/life-and-style/health" title="Health">Health</a> </li>
+                    <li> <a href="/life-and-style/travel" title="Travel">Travel</a> </li>
+                    <li> <a href="/life-and-style/culture" title="Culture">Culture</a> </li>
+                    <li> <a href="/life-and-style/environment" title="Environment">Environment</a> </li>
+                  </ul>
+                </div>
+                <div class="ddcol2"> <a href="/articles/should-i-get-back-together-with-my-ex/18706169" title="'Should I get back together with my ex?'"><img  alt="'Should I get back together with my ex?'" title="'Should I get back together with my ex?'" src="//images.mid-day.com/images/2017/nov/drlove-chating-s.jpg">
+                  <p>'Should I get back together with my ex?'</p>
+                  </a>
+                  <ul class="ddcol3">
+                    <li> <a href="/articles/heres-a-roundup-for-travel-options-for-the-disabled/18705176" title="Here's a roundup for travel options for the disabled">
+                      <p>Here's a roundup for travel options for the disabled</p>
+                      </a> </li>
+                    <li> <a href="/articles/human-brainpower-not-as-exceptional-as-thought-study/18699197" title="Human brainpower not as exceptional as thought: Study">
+                      <p>Human brainpower not as exceptional as thought: Study</p>
+                      </a> </li>
+                    <li> <a href="/articles/men-can-have-multiple-orgasms-too-says-study/18699198" title="Men can have multiple orgasms too! Says study">
+                      <p>Men can have multiple orgasms too! Says study</p>
+                      </a> </li>
+                    <li> <a href="/articles/getting-married-here-are-some-lingerie-essentials-that-are-sexy-and-comfortable/18700162" title="Getting married? Here's are some sexy lingerie essentials you will need">
+                      <p>Getting married? Here's are some sexy lingerie essentials you will need</p>
+                      </a> </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="seachBox">
+        <div class="search-box">
+          <button href="javascript:void(0);" title="Search" class="btn-search"></button>
+          <form id="headerSearchForm" name="headerSearchForm" action="/midday/video-detail.page?submit=true&amp;componentID=1511789456839" method="post">
+            <input onKeyPress="return submitenter('/','headerSearchForm',event)" id="serchText" name="serchText" placeholder="Search here.." class="txtsearch" type="text">
+            <input onClick="searchFunc('/','headerSearchForm');" value="search" type="button">
+          </form>
+        </div>
+        <ul class="box2">
+          <li class="fb"> <a title="Facebook" target="_blank" href="https://www.facebook.com/middayindia">Facebook</a> </li>
+          <li class="tw"> <a title="Twitter" target="_blank" href="https://twitter.com/mid_day">Twitter</a> </li>
+          <li class="gplus"> <a title="Googleplus" target="_blank" href="https://plus.google.com/109295877251930046128">Googleplus</a> </li>
+          <li class="ytube"> <a title="Youtube" target="_blank" href="https://www.youtube.com/c/middayindia">You Tube</a> </li>
+          <li class="epaper"> <a title="Epaper" href="http://epaper2.mid-day.com" target="_blank">Epaper</a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!--header ends here-->
+
+<div class="ls-area header" id="ls-row-2-area-1">
+  <div id='midday_ros_pagepush' style="position:relative;clear:left;text-align:center; padding:5px 0px;z-index:999;">
+
+</div>
+</div>
+
+<!-- mid part-->
+
+<div class="error-page" style="float:left;">
+  <div class="error-img" style="display:inline-block"><img style="float:left;margin-right:10px;" src="https://dev.midday.com:1776/Resources/midday/images/error-404.png" alt=""/>
+    <h2 style="float:left">404</h2>
+  </div>
+  <div class="h3">Page Not Found</div>
+  <p>We're sorry, We seem to have lost this page, but we don't want to lose you.</p>
+  <p>May be you would like to check out our top stories at the moment.</p>
+  <ul>
+    <li><a href="javascript: window.history.back();">Go back to the previous page</a></li>
+    <li><a href="/">Go to Homepage</a></li>
+  </ul>
+</div>
+<script type="text/javascript">
+$( document ).ready(function() {
+   callPhotosXml();
+   callVideosXml();
+ });
+ 
+ function callPhotosXml(){
+  $.ajax({
+	type     : "GET",
+	url      : "/Resources/midday/xmls/photo/photoTopSlider.xml",
+	dataType : "xml",
+	success  : function(xmlData){
+	  photoBind(xmlData);
+	},
+	error    : function(){
+     console.error("Could not retrieve photo XML file.");
+	}
+ }); 
+ }
+ 
+ function photoBind(xml){
+ 
+	 document.getElementById('data').innerHTML="";
+	 
+	  var databind = '<div class="swiper-container swiper2">'+
+	  				 '<div class="swiper-wrapper">';
+	     
+	     var list = $(xml).find("LIST");
+	      console.error(list);
+	    
+	     $(list).each(function(){
+	    var id = $(this).find('ID').text();
+	    var name = $(this).find('NAME').text();
+	    var pdate = $(this).find('PUBLISH_DATE').text();
+	    var bimag = $(this).find('BIG_IMAGE').text();
+	    var catname = $(this).find('CATEGORY_NAME').text();
+	    var caturl = $(this).find('SUB_CATEGORY_URL').text();
+	    var url = $(this).find('URL').text();
+	    
+	    var hrefpath= '/photos/'+url+'/'+id;
+	    var srcpath = 'https://images.mid-day.com/'+bimag;
+	    var cathrefpath= '/photos/'+caturl;
+	    
+	      databind = databind.concat('<div class="box swiper-slide" style="width: 300px; margin-right: 48px;">'+
+	    				'<a href="'+hrefpath+'" title="'+name+'"><i class="cam-icon"></i>'+
+	    				'<figure>'+
+	    				  '<img class="swiper-lazy swiper-lazy-loaded" src="'+srcpath+'" title="'+name+'" alt="'+name+'"></img>'+
+	    				'</figure></a>'+
+	    				'<div class="text_gbgBlack">'+	    				
+	    				'<div class="h4"><a href="'+hrefpath+'">'+name+'</a></div>'+
+	    				'</div></div>');
+	    }); 
+		
+		
+	   
+	  databind = databind.concat('</div></div>');
+	  document.getElementById('data').innerHTML=databind;
+	  photogallery();
+ }
+ 
+  function callVideosXml(){
+  $.ajax({
+	type     : "GET",
+	url      : "/Resources/midday/xmls/video/videoCategory.xml",
+	dataType : "xml",
+	success  : function(xmlData){
+	  videoBind(xmlData);
+	},
+	error    : function(){
+     console.error("Could not retrieve video XML file.");
+	}
+ }); 
+ }
+ 
+ function videoBind(xml){
+ 
+	 document.getElementById('vdata').innerHTML="";
+	 
+	  var databind = '<div class="swiper-container swiper3">'+
+	  				 '<div class="swiper-wrapper">';
+	     
+	     var list = $(xml).find("LIST");
+	      console.error(list);
+	    
+	     $(list).each(function(){
+	    var id = $(this).find('ID').text();
+	    var name = $(this).find('TITLE').text();
+	    var pdate = $(this).find('PUBLISH_DATE').text();
+	    var bimag = $(this).find('BIG_IMAGE').text();
+	    var catname = $(this).find('CATEGORY_NAME').text();
+	    var caturl = $(this).find('SUB_CATEGORY_URL').text();
+	    var url = $(this).find('URL').text();
+	    
+	    var hrefpath= '/videos/'+url+'/'+id;
+	    var srcpath = 'https://images.mid-day.com/'+bimag;
+	    var cathrefpath= '/videos/'+caturl;
+	    
+	      databind = databind.concat('<div class="box swiper-slide" style="width: 300px; margin-right: 48px;">'+
+	    				'<a href="'+hrefpath+'" title="'+name+'"><i class="video-playicon"></i>'+
+	    				'<figure>'+
+	    				  '<img class="swiper-lazy" src="'+srcpath+'" title="'+name+'" alt="'+name+'"></img>'+
+	    				'</figure></a>'+
+	    				'<div class="text_gbgBlack">'+	    				
+	    				'<div class="h4"><a href="'+hrefpath+'">'+name+'</a></div>'+
+	    				'</div></div>');
+						
+						
+	    }); 
+	  
+	  databind = databind.concat('</div></div>');
+	  document.getElementById('vdata').innerHTML=databind;
+	   videogallery();
+ }
+ 
+</script>
+<div class="container">
+  <div class="photoGallery">
+    <h2 class="iconPhoto"> <i class="icon"></i><a title="Top Photo Galleries" href="/photos">Top Photo Galleries</a> </h2>
+    <div class="clear"></div>
+    <div id="data"></div>
+    <div class="swiper-button-next2"></div>
+    <div class="swiper-button-prev2 swiper-button-disabled"></div>
+    <div class="vmore"> <a href="/photos">View More</a> </div>
+  </div>
+</div>
+<div class="container">
+  <div class="videoGallery">
+    <h2 class="iconVideo"> <i class="icon"></i><a title="Top Videos" href="/videos">Top Videos</a> </h2>
+    <div class="clear"></div>
+    <div id="vdata"></div>
+    <div class="swiper-button-next3"></div>
+    <div class="swiper-button-prev3 swiper-button-disabled"></div>
+    <div class="vmore"> <a href="/videos">View More</a> </div>
+  </div>
+</div>
+
+<!--mid part ends--> 
+
+<!--footer starts here-->
+<footer role="footer">
+  <div class="footer-last">
+    <div class="container">
+      <div class="footer-navTop">
+        <ul>
+          <li> <a href="https://www.jagran.com">Hindi News</a> </li>
+          <li> <a href="http://www.onlymyhealth.com">Health</a> </li>
+          <li> <a href="https://www.jagranjosh.com/">Education</a> </li>
+          <li> <a href="https://naidunia.jagran.com/">Nai Dunia</a> </li>
+          <li> <a href="http://inextlive.jagran.com/">Inext</a> </li>
+          <li> <a href="http://www.radiocity.in">Radio City</a> </li>
+          <li> <a href="http://www.gujaratimidday.com">Gujarati News</a> </li>
+          <li> <a href="http://inquilab.com/">Urdu News</a> </li>
+        </ul>
+      </div>
+      <div class="footermid">
+        <ul class="footer-icon">
+          <li class="mdlogo"> <a href="/" target="_blank" title="Mid-Day"><i class="icon">Mid-Day</i></a> </li>
+          <li class="fb"> <a href="https://www.facebook.com/middayindia" target="_blank" title="Facebook"><i class="icon">Facebook</i></a> </li>
+          <li class="tw"> <a href="https://twitter.com/mid_day" target="_blank" title="Twitter"><i class="icon">Twitter</i></a> </li>
+          <li class="insta"> <a href="https://www.instagram.com/middayindia" target="_blank" title="Instagram"><i class="icon">Instagram</i></a> </li>
+          <li class="gplus"> <a href="https://plus.google.com/109295877251930046128" target="_blank" title="Googleplus"><i class="icon">Googleplus</i></a> </li>
+          <li class="youtube"> <a href="https://www.youtube.com/c/middayindia" target="_blank" title="YouTube"><i class="icon"></i></a> </li>
+          <li class="apple"> <a href="https://itunes.apple.com/in/app/mid-day/id1155001691?mt=8" target="_blank" title="Apple"><i class="icon">Apple</i></a> </li>
+          <li class="android"> <a href="https://play.google.com/store/apps/details?id=com.jagran.midday&amp;hl=en" target="_blank" title="Android"><i class="icon">Android</i></a> </li>
+        </ul>
+      </div>
+      <div class="footer-navBottom">
+        <ul>
+          <li> <a href="/about-us">About Us</a> </li>
+          <li> <a href="/advertise-with-us">Advertise With Us</a> </li>
+          <li> <a href="/privacy-policy">Privacy Policy</a> </li>
+          <li> <a href="/terms-and-conditions">Terms &amp; Conditions</a> </li>
+          <li> <a href="/contact-us">Contact Us</a> </li>
+          <li> <a href="http://middayinfomedia.com">Corporate</a> </li>
+        </ul>
+      </div>
+      <div class="copy-right MT15">
+        <p>Copyright © 2018 Mid-Day Infomedia Ltd. All rights reserverd.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<a class="gotop" href="#top" id="gotop" style="display: block;">Go to top</a> 
+<!--footer ends here-->
+
+<div id="midday_ros_lhs_160x600" style="position:fixed; left:0; bottom:0;float:left"> </div>
+<div id="midday_ros_rhs_160x600" style="position:fixed; right:0; bottom:0;float:right"> </div>
+<script type="text/javascript"> 
+ 	$(document).ready(function() {
+       	
+		$(".btn-search").click(function(){
+			
+        	$("#headerSearchForm").slideToggle("slow");
+    	});	
+ });
+ $('#gotop').hide();
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#gotop').fadeIn();
+			} else {
+				$('#gotop').fadeOut();
+			}
+		});
+		// scroll body to 0px on click
+		$('#gotop').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
+	photogallery();videogallery();
+	function photogallery(){
+	var swiper2 = new Swiper('.swiper2', {
+        nextButton: '.swiper-button-next2',
+        prevButton: '.swiper-button-prev2', 
+		 slidesPerView: 3,
+		  spaceBetween: 48,   
+		  preloadImages: false,
+		  lazyLoading: true    
+    });
+	}
+	
+	function videogallery(){
+	var swiper3 = new Swiper('.swiper3', {
+        nextButton: '.swiper-button-next3',
+        prevButton: '.swiper-button-prev3', 
+		 slidesPerView: 3,
+		  spaceBetween: 48,
+		  preloadImages: false,
+		  lazyLoading: true    
+    });}
+	
+	
+	
+	
+	
+ </script> 
+
+<div class="landing-adsbase"> 
+	<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+    <script>
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+    </script>   
+    
+    <script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/1025214/midday_404error_ad_header_728x90', [[996, 60], [996, 270], [728, 90]], 'midday_ros_pagepush').addService(googletag.pubads());
+	googletag.defineSlot('/1025214/midday_ros_lhs_160x600', [160, 600], 'midday_ros_lhs_160x600').addService(googletag.pubads());
+    googletag.defineSlot('/1025214/midday_ros_rhs_160x600', [160, 600], 'midday_ros_rhs_160x600').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+	googletag.display("midday_ros_pagepush");
+	googletag.display("midday_ros_lhs_160x600");
+	googletag.display("midday_ros_rhs_160x600");
+  });
+</script>
+  
+</div>
+</div>
+</body>
+</html>
+
+			

@@ -28,8 +28,8 @@ def getData(act, download=True):
     def process(filename, data, line):
         boundingBox = tuple(map(int, data[DATA_BBOX].split(",")))
         img = Image.open("original/" + filename)
-        img = img.crop(boundingBox).resize(DATA_SIZE).convert("L")
-        h = hashlib.sha256(open(filename, "rb").read()).hexdigest()
+        img = img.crop(boundingBox).resize(DATA_SIZE)
+        h = hashlib.sha256(open("original/" + filename, "rb").read()).hexdigest()
         print h
         if line.split()[6] == h:
             img.save("processed/" + filename)
@@ -104,6 +104,9 @@ def genMatrix(fileList):
     M = np.empty((0, VEC_SIZE), float)
     for filename in fileList:
         img = Image.open("processed/" + filename)
+        print filename
+        print np.shape(img)
         x = np.array(img).flatten() / 255.
+        print "x", np.shape(x)
         M = np.vstack((M, x))
     return np.append(M, np.ones((len(M), 1)), axis=1)

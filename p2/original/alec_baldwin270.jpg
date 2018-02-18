@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="nl">
+<head>
+    <meta charset="UTF-8" />
+    
+    <link rel="pingback" href="http://rtvchannel.tv/xmlrpc.php" />
+    <script>
+    var themeHasJQuery = !!window.jQuery;
+</script>
+<script src="http://rtvchannel.tv/wp-content/themes/rtvchannel/jquery.js?ver=1.0.404"></script>
+<script>
+    window._$ = jQuery.noConflict(themeHasJQuery);
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if lte IE 9]>
+<link rel="stylesheet" type="text/css" href="http://rtvchannel.tv/wp-content/themes/rtvchannel/layout.ie.css" />
+<script src="http://rtvchannel.tv/wp-content/themes/rtvchannel/layout.ie.js"></script>
+<![endif]-->
+<script src="http://rtvchannel.tv/wp-content/themes/rtvchannel/layout.core.js"></script>
+<script src="http://rtvchannel.tv/wp-content/themes/rtvchannel/CloudZoom.js?ver=1.0.404" type="text/javascript"></script>
+    
+    <title>Pagina niet gevonden &#8211; RTV CHANNEL TELEVISION</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="RTV CHANNEL TELEVISION &raquo; Feed" href="http://rtvchannel.tv/feed/" />
+<link rel="alternate" type="application/rss+xml" title="RTV CHANNEL TELEVISION &raquo; Reactiesfeed" href="http://rtvchannel.tv/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/rtvchannel.tv\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.1"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56794,8205,9794,65039],[55358,56794,8203,9794,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='theme-bootstrap-css'  href='//rtvchannel.tv/wp-content/themes/rtvchannel/bootstrap.min.css?ver=1.0.404' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-style-css'  href='//rtvchannel.tv/wp-content/themes/rtvchannel/style.min.css?ver=1.0.404' type='text/css' media='all' />
+<link rel='stylesheet' id='themler-core-upage-css'  href='http://rtvchannel.tv/wp-content/plugins/themler-core/shortcodes/assets/css/upage.css?ver=0.2.16' type='text/css' media='all' />
+<script type='text/javascript' src='http://rtvchannel.tv/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://rtvchannel.tv/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='//rtvchannel.tv/wp-content/themes/rtvchannel/bootstrap.min.js?ver=1.0.404'></script>
+<script type='text/javascript' src='//rtvchannel.tv/wp-content/themes/rtvchannel/script.js?ver=1.0.404'></script>
+<link rel='https://api.w.org/' href='http://rtvchannel.tv/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://rtvchannel.tv/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://rtvchannel.tv/wp-includes/wlwmanifest.xml" /> 
+<script>window.wpJQuery = window.jQuery;</script>		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		    
+</head>
+<body class="error404  bootstrap bd-body-9 bd-pagebackground bd-margins">
+<header class=" bd-headerarea-1 bd-margins">
+        	
+		<section class=" bd-section-3 bd-page-width bd-tagstyles " id="section3" data-section-title="Simple Centered On BG">
+    <div class="bd-container-inner bd-margins clearfix">
+        
+<a class=" bd-logo-2" href="">
+<img class=" bd-imagestyles" src="http://rtvchannel.tv/wp-content/themes/rtvchannel/images/18bdf608ed10058817a921dda46cad7e_200losangeles.gif" alt="RTV CHANNEL TELEVISION">
+</a>
+	
+		    
+    <nav class=" bd-hmenu-1" data-responsive-menu="true" data-responsive-levels="">
+        
+            <div class=" bd-responsivemenu-11 collapse-button">
+    <div class="bd-container-inner">
+        <div class="bd-menuitem-4 ">
+            <a  data-toggle="collapse"
+                data-target=".bd-hmenu-1 .collapse-button + .navbar-collapse"
+                href="#" onclick="return false;">
+                    <span>MENU</span>
+            </a>
+        </div>
+    </div>
+</div>
+            <div class="navbar-collapse collapse">
+        
+        <div class=" bd-horizontalmenu-1 clearfix">
+            <div class="bd-container-inner">
+            
+<ul class=" bd-menu-1 nav nav-pills nav-center">
+    <li class=" bd-menuitem-2 bd-toplevel-item ">
+    <a class=" "  href="http://rtvchannel.tv">
+        <span>
+            home        </span>
+    </a>    </li>
+    
+<li class=" bd-menuitem-2 bd-toplevel-item ">
+    <a class=" "  href="http://rtvchannel.tv/voorbeeld-pagina/">
+        <span>
+            geen info        </span>
+    </a>    </li>
+    
+</ul>            </div>
+        </div>
+        
+        
+            </div>
+    </nav>
+    
+    </div>
+</section>
+</header>
+	
+		<div class="bd-containereffect-23 container-effect container ">
+<div class=" bd-stretchtobottom-5 bd-stretch-to-bottom" data-control-selector=".bd-contentlayout-9">
+<div class="bd-contentlayout-9   bd-sheetstyles  bd-no-margins bd-margins" >
+    <div class="bd-container-inner">
+
+        <div class="bd-flex-vertical bd-stretch-inner bd-contentlayout-offset">
+            
+ 
+                                        <div class="bd-flex-horizontal bd-flex-wide bd-no-margins">
+                
+ 
+                                    <aside class="bd-sidebararea-5-column  bd-flex-vertical bd-flex-fixed">
+                    <div class="bd-sidebararea-5 bd-flex-wide  bd-contentlayout-offset">
+                        
+                        <div  class=" bd-primarywidgetarea-2 clearfix" data-position="primary"><div class=" bd-block bd-own-margins widget widget_search" data-block-id="search-2">
+        <div class=" bd-blockcontent bd-tagstyles  shape-only">
+
+<form id="search-2" class=" bd-searchwidget-2 form-inline" method="get" name="searchform" action="http://rtvchannel.tv/">
+    <div class="bd-container-inner">
+        <div class="bd-search-wrapper">
+            
+                
+                <div class="bd-input-wrapper">
+                    <input name="s" type="text" class=" bd-bootstrapinput-2 form-control" value="" placeholder="Zoeken">
+                </div>
+                
+                <div class="bd-button-wrapper">
+                    <input type="submit" class=" bd-button" value="Zoeken">
+                </div>
+        </div>
+    </div>
+    </form></div>
+</div>
+    <div class=" bd-block bd-own-margins widget widget_recent_entries" data-block-id="recent-posts-2">
+        
+    <div class=" bd-blockheader bd-tagstyles">
+        <h4>Meest recente berichten</h4>
+    </div>
+    
+    <div class=" bd-blockcontent bd-tagstyles ">
+						<ul>
+											<li>
+					<a href="http://rtvchannel.tv/2017/03/19/hallo-wereld/">Hallo wereld.</a>
+									</li>
+					</ul>
+		</div>
+</div>
+    <div class=" bd-block bd-own-margins widget widget_recent_comments" data-block-id="recent-comments-2">
+        
+    <div class=" bd-blockheader bd-tagstyles">
+        <h4>Recente reacties</h4>
+    </div>
+    
+    <div class=" bd-blockcontent bd-tagstyles ">
+<ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='https://wordpress.org/' rel='external nofollow' class='url'>Een WordPress commentator</a></span> op <a href="http://rtvchannel.tv/2017/03/19/hallo-wereld/#comment-1">Hallo wereld.</a></li></ul></div>
+</div>
+    <div class=" bd-block bd-own-margins widget widget_archive" data-block-id="archives-2">
+        
+    <div class=" bd-blockheader bd-tagstyles">
+        <h4>Archief</h4>
+    </div>
+    
+    <div class=" bd-blockcontent bd-tagstyles ">
+		<ul>
+			<li><a href='http://rtvchannel.tv/2017/03/'>maart 2017</a></li>
+		</ul>
+		</div>
+</div></div>                        
+                    </div>
+                </aside>
+                                    <div class="bd-flex-vertical bd-flex-wide bd-no-margins">
+                    
+
+                    <div class=" bd-layoutitemsbox-2 bd-flex-wide bd-no-margins">
+    <div class=" bd-text404-12 bd-tagstyles bd-no-margins shape-only"><h4>Not Found</h4><p class="center">Apologies, but the page you requested could not be found. Perhaps searching will help.</p></div>
+</div>
+
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+
+    </div>
+</div></div>
+</div>
+	
+		<footer class=" bd-footerarea-1">
+            <section class=" bd-section-2 bd-tagstyles" id="section3" data-section-title="Three Columns With Social">
+    <div class="bd-container-inner bd-margins clearfix">
+        <div class=" bd-layoutcontainer-28 bd-columns bd-no-margins">
+    <div class="bd-container-inner">
+        <div class="container-fluid">
+            <div class="row 
+ bd-row-flex 
+ bd-row-align-middle">
+                <div class=" bd-columnwrapper-62 
+ col-lg-4
+ col-md-4">
+    <div class="bd-layoutcolumn-62 bd-column" ><div class="bd-vertical-align-wrapper"><p class=" bd-textblock-2 bd-content-element">
+    RTV Channel<br>Maashaven OZ<br>Rotterdam&nbsp;<br>Nederland</p></div></div>
+</div>
+	
+		<div class=" bd-columnwrapper-63 
+ col-lg-4
+ col-md-4">
+    <div class="bd-layoutcolumn-63 bd-column" ><div class="bd-vertical-align-wrapper"><div class=" bd-socialicons-2">
+    
+        <a target="_blank" class=" bd-socialicon-5 bd-socialicon" href="//www.facebook.com/sharer.php?u=">
+    <span class="bd-icon"></span><span></span>
+</a>
+    
+        <a target="_blank" class=" bd-socialicon-6 bd-socialicon" href="//twitter.com/share?url=&amp;text=">
+    <span class="bd-icon"></span><span></span>
+</a>
+    
+        <a target="_blank" class=" bd-socialicon-7 bd-socialicon" href="//plus.google.com/share?url=">
+    <span class="bd-icon"></span><span></span>
+</a>
+    
+        <a target="_blank" class=" bd-socialicon-8 bd-socialicon" href="//pinterest.com/pin/create/button/?url=&amp;media=&amp;description=">
+    <span class="bd-icon"></span><span></span>
+</a>
+    
+    
+    
+    
+    
+    
+</div></div></div>
+</div>
+	
+		<div class=" bd-columnwrapper-64 
+ col-lg-4
+ col-md-4">
+    <div class="bd-layoutcolumn-64 bd-column" ><div class="bd-vertical-align-wrapper"><p class=" bd-textblock-5 bd-content-element">
+    <br>
+email: info@rtvchannel.tvl</p></div></div>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+	
+		<div class=" bd-pagefooter-1 hidden-md hidden-sm hidden-xs hidden-lg">
+    <div class="bd-container-inner">
+        
+            <a href='http://www.themler.com/wordpress-themes' target="_blank">WordPress Theme</a> created with <a href='http://themler.com' target="_blank">Themler</a>.
+    </div>
+</div>
+    </div>
+</section>
+    </footer>
+<div id="wp-footer">
+    <script type='text/javascript' src='http://rtvchannel.tv/wp-includes/js/wp-embed.min.js?ver=4.9.1'></script>
+    <!-- 41 queries. 0,134 seconds. -->
+</div>
+</body>
+</html>

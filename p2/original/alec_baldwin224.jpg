@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html id='en' lang='en' xmlns:fb='http://ogp.me/ns/fb#'>
+<head>
+<style>*,:after,:before,input[type=search]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box}.input-group,.input-group-btn,.input-group-btn>.btn,.nav>li,.nav>li>a{position:relative}.container-fluid:after,.container-fluid:before,.navbar-collapse:after,.navbar-collapse:before,.navbar-header:after,.navbar-header:before,.navbar:after,.navbar:before,.row:after,.row:before{content:" "}.btn-link,.navbar-default .btn-link,.navbar-default .navbar-nav>li>a,a{color:#FF5294}.clearfix:after,.container-fluid:after,.nav:after,.navbar-collapse:after,.navbar-header:after,.navbar:after,.row:after{clear:both}.btn,.input-group-btn{vertical-align:middle;white-space:nowrap}.alert-danger,.btn-default,.navbar-default,body{background-repeat:repeat-x}iframe,img{max-width:100%}#navbar,#wrapper{max-width:1010px}@-ms-viewport{width:device-width}@font-face{font-family:FontAwesome;src:url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?v=4.2.0);src:url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0) format('embedded-opentype'),url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0) format('woff'),url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf?v=4.2.0) format('truetype'),url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular) format('svg');font-weight:400;font-style:normal}@font-face{font-family:Merriweather;font-style:normal;font-weight:400;src:local('Merriweather'),local('Merriweather-Regular'),url(https://fonts.gstatic.com/s/merriweather/v13/RFda8w1V0eDZheqfcyQ4EInF5uFdDttMLvmWuJdhhgs.ttf) format('truetype')}@font-face{font-family:Merriweather;font-style:normal;font-weight:700;src:local('Merriweather Bold'),local('Merriweather-Bold'),url(https://fonts.gstatic.com/s/merriweather/v13/ZvcMqxEwPfh2qDWBPxn6nn06qf9KHRHwsVx7iw5MXmY.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(https://fonts.gstatic.com/s/raleway/v11/bIcY3_3JNqUVRAQQRNVteQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(https://fonts.gstatic.com/s/raleway/v11/JbtMzqLaYbbbCL9X6EvaIy3USBnSvpkopQaUR-2r7iU.ttf) format('truetype')}@-ms-viewport{width:device-width}@font-face{font-family:FontAwesome;src:url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?v=4.2.0);src:url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0) format('embedded-opentype'),url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0) format('woff'),url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf?v=4.2.0) format('truetype'),url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular) format('svg');font-weight:400;font-style:normal}@font-face{font-family:Merriweather;font-style:normal;font-weight:400;src:local('Merriweather'),local('Merriweather-Regular'),url(https://fonts.gstatic.com/s/merriweather/v13/RFda8w1V0eDZheqfcyQ4EInF5uFdDttMLvmWuJdhhgs.ttf) format('truetype')}@font-face{font-family:Merriweather;font-style:normal;font-weight:700;src:local('Merriweather Bold'),local('Merriweather-Bold'),url(https://fonts.gstatic.com/s/merriweather/v13/ZvcMqxEwPfh2qDWBPxn6nn06qf9KHRHwsVx7iw5MXmY.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(https://fonts.gstatic.com/s/raleway/v11/bIcY3_3JNqUVRAQQRNVteQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(https://fonts.gstatic.com/s/raleway/v11/JbtMzqLaYbbbCL9X6EvaIy3USBnSvpkopQaUR-2r7iU.ttf) format('truetype')}@-ms-viewport{width:device-width}.alert-danger{background-image:linear-gradient(to bottom,#f2dede 0,#e7c3c3 100%)}@font-face{font-family:FontAwesome;src:url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?v=4.2.0);src:url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0) format('embedded-opentype'),url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0) format('woff'),url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf?v=4.2.0) format('truetype'),url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular) format('svg');font-weight:400;font-style:normal}@font-face{font-family:Merriweather;font-style:normal;font-weight:400;src:local('Merriweather'),local('Merriweather-Regular'),url(https://fonts.gstatic.com/s/merriweather/v13/RFda8w1V0eDZheqfcyQ4EInF5uFdDttMLvmWuJdhhgs.ttf) format('truetype')}@font-face{font-family:Merriweather;font-style:normal;font-weight:700;src:local('Merriweather Bold'),local('Merriweather-Bold'),url(https://fonts.gstatic.com/s/merriweather/v13/ZvcMqxEwPfh2qDWBPxn6nn06qf9KHRHwsVx7iw5MXmY.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(https://fonts.gstatic.com/s/raleway/v11/bIcY3_3JNqUVRAQQRNVteQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(https://fonts.gstatic.com/s/raleway/v11/JbtMzqLaYbbbCL9X6EvaIy3USBnSvpkopQaUR-2r7iU.ttf) format('truetype')}hr,img{border:0}@-ms-viewport{width:device-width}.btn-default{background-image:linear-gradient(to bottom,#fff 0,#e0e0e0 100%)}.navbar-default{background-image:-o-linear-gradient(top,#fff 0,#f8f8f8 100%);background-image:linear-gradient(to bottom,#fff 0,#f8f8f8 100%)}.alert-danger{background-image:-o-linear-gradient(top,#f2dede 0,#e7c3c3 100%);background-image:linear-gradient(to bottom,#f2dede 0,#e7c3c3 100%)}@font-face{font-family:FontAwesome;src:url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?v=4.2.0);src:url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0) format('embedded-opentype'),url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0) format('woff'),url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf?v=4.2.0) format('truetype'),url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular) format('svg');font-weight:400;font-style:normal}@font-face{font-family:Merriweather;font-style:normal;font-weight:400;src:local('Merriweather'),local('Merriweather-Regular'),url(https://fonts.gstatic.com/s/merriweather/v13/RFda8w1V0eDZheqfcyQ4EInF5uFdDttMLvmWuJdhhgs.ttf) format('truetype')}@font-face{font-family:Merriweather;font-style:normal;font-weight:700;src:local('Merriweather Bold'),local('Merriweather-Bold'),url(https://fonts.gstatic.com/s/merriweather/v13/ZvcMqxEwPfh2qDWBPxn6nn06qf9KHRHwsVx7iw5MXmY.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(https://fonts.gstatic.com/s/raleway/v11/bIcY3_3JNqUVRAQQRNVteQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(https://fonts.gstatic.com/s/raleway/v11/JbtMzqLaYbbbCL9X6EvaIy3USBnSvpkopQaUR-2r7iU.ttf) format('truetype')}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}ul{margin-top:0}input[type=search]{box-sizing:border-box;-webkit-appearance:none}@media (min-width:960px){.navbar,.navbar-static-top{border-radius:0}.navbar-header{float:left}.navbar-collapse{width:auto;border-top:0;box-shadow:none}.navbar-collapse.collapse{display:block!important;height:auto!important;padding-bottom:0;overflow:visible!important}.navbar-static-top .navbar-collapse{padding-left:0;padding-right:0}}.navbar-default,.navbar-default .navbar-collapse{border-color:#e7e7e7}hr,img{border:0}@-ms-viewport{width:device-width}.btn-default{background-image:-o-linear-gradient(top,#fff 0,#e0e0e0 100%);background-image:linear-gradient(to bottom,#fff 0,#e0e0e0 100%)}.navbar-default{background-image:-webkit-linear-gradient(top,#fff 0,#f8f8f8 100%);background-image:-o-linear-gradient(top,#fff 0,#f8f8f8 100%);background-image:linear-gradient(to bottom,#fff 0,#f8f8f8 100%)}.alert-danger{background-image:-o-linear-gradient(top,#f2dede 0,#e7c3c3 100%);background-image:linear-gradient(to bottom,#f2dede 0,#e7c3c3 100%)}@font-face{font-family:FontAwesome;src:url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?v=4.2.0);src:url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0) format('embedded-opentype'),url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0) format('woff'),url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf?v=4.2.0) format('truetype'),url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular) format('svg');font-weight:400;font-style:normal}@font-face{font-family:Merriweather;font-style:normal;font-weight:400;src:local('Merriweather'),local('Merriweather-Regular'),url(https://fonts.gstatic.com/s/merriweather/v15/RFda8w1V0eDZheqfcyQ4EInF5uFdDttMLvmWuJdhhgs.ttf) format('truetype')}@font-face{font-family:Merriweather;font-style:normal;font-weight:700;src:local('Merriweather Bold'),local('Merriweather-Bold'),url(https://fonts.gstatic.com/s/merriweather/v15/ZvcMqxEwPfh2qDWBPxn6nn06qf9KHRHwsVx7iw5MXmY.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(https://fonts.gstatic.com/s/raleway/v11/bIcY3_3JNqUVRAQQRNVteQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(https://fonts.gstatic.com/s/raleway/v11/JbtMzqLaYbbbCL9X6EvaIy3USBnSvpkopQaUR-2r7iU.ttf) format('truetype')}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,nav{display:block}.container-fluid:after,.container-fluid:before,.row:after,.row:before{display:table;content:" "}a{background-color:transparent;text-decoration:none}img{vertical-align:middle}hr{box-sizing:content-box;height:0;margin-top:22px;margin-bottom:22px;border-top:1px solid #eee}button,input{color:inherit;font:inherit;margin:0}button{overflow:visible;text-transform:none;-webkit-appearance:button}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}*,:after,:before{box-sizing:border-box}html{font-size:10px}body{margin:0;font-family:Raleway,sans-serif;font-size:16px;line-height:1.42857143;color:#333}button,input{font-family:inherit;font-size:inherit;line-height:inherit}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}h2,h4,ul{margin-bottom:11px}h2,h4{font-family:Merriweather,serif;font-weight:700;line-height:1.1;color:inherit}.btn,.btn-link,.teaser h2{font-weight:400}h2{font-size:34px}h4{margin-top:11px;font-size:20px}p{margin:0 0 11px}.container-fluid{margin-right:auto;margin-left:auto}.row{margin-left:-8px;margin-right:-8px}.col-lg-4,.col-lg-8,.col-sm-6{position:relative;min-height:1px;padding-left:8px;padding-right:8px}.btn,.form-control{background-image:none;padding:6px 12px;line-height:1.42857143;font-size:16px}@media (min-width:480px){.col-sm-6{float:left;width:50%}}@media (min-width:992px){.col-lg-4,.col-lg-8{float:left}.col-lg-4{width:33.33333333%}.col-lg-8{width:66.66666667%}}input[type=search]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-appearance:none}.form-control{display:block;width:100%;height:36px;color:#555;background-color:#fff;border:1px solid #ccc;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075)}.form-control::-moz-placeholder{color:#999;opacity:1}.form-control:-ms-input-placeholder{color:#999}.form-control::-webkit-input-placeholder{color:#999}.btn{display:inline-block;margin-bottom:0;text-align:center;touch-action:manipulation;border:1px solid transparent;border-radius:4px}.btn-default{color:#333;background-color:#fff}.btn-link,.navbar-default .btn-link,.navbar-default .navbar-nav>li>a{color:#FF5294}.btn-link{border-radius:0;background-color:transparent;-webkit-box-shadow:none;box-shadow:none;border-color:transparent}.collapse{display:none}.dropdown{position:relative}.dropdown-menu{position:absolute;top:100%;left:0;z-index:1000;display:none;float:left;min-width:160px;padding:5px 0;margin:2px 0 0;list-style:none;font-size:16px;text-align:left;background-color:#fff;border:1px solid #ccc;border:1px solid rgba(0,0,0,.15);border-radius:4px;-webkit-box-shadow:0 6px 12px rgba(0,0,0,.175);box-shadow:0 6px 12px rgba(0,0,0,.175);background-clip:padding-box}.input-group,.input-group-btn,.input-group-btn>.btn{position:relative}.dropdown-menu-right{left:auto;right:0}.input-group{display:table;border-collapse:separate}.input-group .form-control{position:relative;z-index:2;float:left;width:100%;margin-bottom:0}.input-group .form-control,.input-group-btn{display:table-cell}.input-group-btn{width:1%;font-size:0}.input-group .form-control:first-child{border-bottom-right-radius:0;border-top-right-radius:0}.input-group-btn:last-child>.btn{border-bottom-left-radius:0;border-top-left-radius:0;z-index:2;margin-left:-1px}.nav{margin-bottom:0;padding-left:0;list-style:none}.nav:after,.nav:before{content:" ";display:table}.nav>li,.nav>li>a{display:block;position:relative}.nav>li>a{padding:10px 15px}.navbar-collapse:after,.navbar-collapse:before,.navbar-header:after,.navbar-header:before,.navbar:after,.navbar:before{display:table;content:" "}.navbar{position:relative;min-height:50px;margin-bottom:22px;border:1px solid transparent}.navbar-collapse{overflow-x:visible;padding-right:8px;padding-left:8px;border-top:1px solid transparent;box-shadow:inset 0 1px 0 rgba(255,255,255,.1);-webkit-overflow-scrolling:touch}@media (min-width:960px){.navbar{border-radius:0}.navbar-header{float:left}.navbar-collapse{width:auto;border-top:0;box-shadow:none}.navbar-collapse.collapse{display:block!important;height:auto!important;padding-bottom:0;overflow:visible!important}.navbar-static-top .navbar-collapse{padding-left:0;padding-right:0}.navbar-static-top{border-radius:0}}.navbar-default,.navbar-default .navbar-collapse{border-color:#e7e7e7}.navbar-static-top{z-index:1000;border-width:0 0 1px}.navbar-nav{margin:7px -8px}.navbar-nav>li>a{padding-top:10px;padding-bottom:10px;line-height:22px}@media (min-width:960px){.navbar-nav{float:left;margin:0}.navbar-nav>li{float:left}.navbar-nav>li>a{padding-top:14px;padding-bottom:14px}}.navbar-default{background-color:#f8f8f8}.alert{padding:15px;margin-bottom:22px;border:1px solid transparent;border-radius:4px}.navbar-default,.navbar-static-top{border-radius:0}.clearfix:after,.clearfix:before{content:" ";display:table}@-ms-viewport{width:device-width}.visible-lg{display:none!important}@media (min-width:992px){.visible-lg{display:block!important}}.visible-print-block{display:none!important}.btn-default{-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075);background-image:-webkit-linear-gradient(top,#fff 0,#e0e0e0 100%);background-image:-o-linear-gradient(top,#fff 0,#e0e0e0 100%);background-image:linear-gradient(to bottom,#fff 0,#e0e0e0 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFE0E0E0', GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);text-shadow:0 1px 0 #fff;border-color:#ccc}.navbar-default{background-image:-webkit-linear-gradient(top,#fff 0,#f8f8f8 100%);background-image:-o-linear-gradient(top,#fff 0,#f8f8f8 100%);background-image:linear-gradient(to bottom,#fff 0,#f8f8f8 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFF8F8F8', GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075);box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075)}.navbar-nav>li>a{text-shadow:0 1px 0 rgba(255,255,255,.25)}.alert{text-shadow:0 1px 0 rgba(255,255,255,.2);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 2px rgba(0,0,0,.05);box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 2px rgba(0,0,0,.05)}.alert-danger{background-color:#f2dede;color:#a94442;background-image:-webkit-linear-gradient(top,#f2dede 0,#e7c3c3 100%);background-image:-o-linear-gradient(top,#f2dede 0,#e7c3c3 100%);background-image:linear-gradient(to bottom,#f2dede 0,#e7c3c3 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF2DEDE', endColorstr='#FFE7C3C3', GradientType=0);border-color:#dca7a7}#wrapper,.teaser h2{background-color:#fff}.image_outter_wrapper{margin:0 auto}.image_wrapper{position:relative;height:0;overflow:hidden}.image_wrapper img{position:absolute;top:0;left:0;width:100%;height:100%}.teaser{margin-bottom:20px}.teaser .image_wrapper{position:relative;padding-bottom:60.869565217391%;height:0;overflow:hidden}.teaser h2{display:inline-block;padding:4px 0;border-top:4px solid #FF5294;font-size:24px;line-height:26px;margin:0;max-height:88px;overflow:hidden}.teaser .details{margin-top:4px;font-size:11px;color:#999}.teaser .details time{float:right;margin-left:10px}.widget ul.nav li a{padding:4px 0 4px 4px}#navbar{margin:0 auto;border-bottom:1px solid #eee;box-shadow:0 1px 2px rgba(0,0,0,.05)}#navbar .navbar-header{float:none;height:50px}#navbar .navbar-collapse{border-top:1px solid transparent;box-shadow:inset 0 1px 0 rgba(255,255,255,.1)}#navbar .navbar-collapse.collapse{display:none!important}#navbar .navbar-nav{float:none!important;margin-top:7.5px}#navbar .navbar-nav>li{float:none}#navbar .navbar-nav>li>a{padding-top:10px;padding-bottom:10px}#navbar .navbar-center{position:absolute;left:25%;top:0;text-align:center;margin:auto;width:50%;line-height:50px}#navbar .search-dropdown{right:0;padding:10px;left:inherit}#navbar .search-dropdown input{width:240px}#navbar .search-dropdown .btn{margin:0!important}#navbar .navbar-button{position:relative;float:right}#navbar .btn-link{font-size:22px}#navbar .btn{padding:6px 8px!important}#navbar .nav>li>a{text-shadow:none;font-weight:700;text-transform:uppercase;font-size:12px}.teaser .description{max-height:88px;overflow:hidden;font-size:12px}.teaser p{margin-bottom:5px}#sidebar h4{font-size:17px;line-height:auto;color:#fff}body{background-image:url(/assets/bg-1e9087ba7ce85db7471ac371c217d2c8.jpg);background-color:#EAAACC}#wrapper{position:relative;margin:0 auto;padding:10px 20px 20px}.container-fluid{padding-left:0;padding-right:0}h2{margin-top:0}.widget{margin:0 0 10px}.widget h4{font-weight:700;background-color:#ff7fd9;color:#fff;padding:10px 0 8px 10px;margin:0 0 8px;font-size:14px;line-height:20px}.widget ul.nav li{padding:0;border-top:1px solid #E1E1E1}.widget ul.nav li a{display:block}.widget ul.nav li:first-child{border-top:0}@font-face{font-family:FontAwesome;src:url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?v=4.2.0);src:url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0) format('embedded-opentype'),url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0) format('woff'),url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf?v=4.2.0) format('truetype'),url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular) format('svg');font-weight:400;font-style:normal}.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.fa-search:before{content:"\f002"}.fa-user:before{content:"\f007"}.fa-bars:before{content:"\f0c9"}@font-face{font-family:Merriweather;font-style:normal;font-weight:400;src:local('Merriweather'),local('Merriweather-Regular'),url(https://fonts.gstatic.com/s/merriweather/v15/RFda8w1V0eDZheqfcyQ4EInF5uFdDttMLvmWuJdhhgs.ttf) format('truetype')}@font-face{font-family:Merriweather;font-style:normal;font-weight:700;src:local('Merriweather Bold'),local('Merriweather-Bold'),url(https://fonts.gstatic.com/s/merriweather/v15/ZvcMqxEwPfh2qDWBPxn6nn06qf9KHRHwsVx7iw5MXmY.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:400;src:local('Raleway'),local('Raleway-Regular'),url(https://fonts.gstatic.com/s/raleway/v11/bIcY3_3JNqUVRAQQRNVteQ.ttf) format('truetype')}@font-face{font-family:Raleway;font-style:normal;font-weight:700;src:local('Raleway Bold'),local('Raleway-Bold'),url(https://fonts.gstatic.com/s/raleway/v11/JbtMzqLaYbbbCL9X6EvaIy3USBnSvpkopQaUR-2r7iU.ttf) format('truetype')}
+</style>
+<meta charset='utf-8'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='block-all-mixed-content' http-equiv='Content-Security-Policy'>
+<meta content='DPR, Viewport-Width, Width' http-equiv='Accept-CH'>
+<script type="text/javascript">
+!function(n,t){"undefined"!=typeof module&&module.exports?module.exports=t():"function"==typeof define&&define.amd?define(t):this[n]=t()}("$script",function(){function n(n,t){for(var e=0,o=n.length;o>e;++e)if(!t(n[e]))return c;return 1}function t(t,e){n(t,function(n){return!e(n)})}function e(r,u,f){function c(n){return n.call?n():s[n]}function l(){if(!--y){s[v]=1,g&&g();for(var e in m)n(e.split("|"),c)&&!t(m[e],c)&&(m[e]=[])}}r=r[a]?r:[r];var d=u&&u.call,g=d?u:f,v=d?r.join(""):u,y=r.length;return setTimeout(function(){t(r,function n(t,e){return null===t?l():(t=e||-1!==t.indexOf(".js")||/^https?:\/\//.test(t)||!i?t:i+t+".js",p[t]?(v&&(h[v]=1),2==p[t]?l():setTimeout(function(){n(t,!0)},0)):(p[t]=1,v&&(h[v]=1),o(t,l),void 0))})},0),e}function o(n,t){var e,o=u.createElement("script");o.onload=o.onerror=o[d]=function(){o[l]&&!/^c|loade/.test(o[l])||e||(o.onload=o[d]=null,e=1,p[n]=2,t())},o.async=1,o.src=r?n+(-1===n.indexOf("?")?"?":"&")+r:n,f.insertBefore(o,f.lastChild)}var i,r,u=document,f=u.getElementsByTagName("head")[0],c=!1,a="push",l="readyState",d="onreadystatechange",s={},h={},m={},p={};return e.get=o,e.order=function(n,t,o){!function i(r){r=n.shift(),n.length?e(r,i):e(r,t,o)}()},e.path=function(n){i=n},e.urlArgs=function(n){r=n},e.ready=function(o,i,r){o=o[a]?o:[o];var u=[];return!t(o,function(n){s[n]||u[a](n)})&&n(o,function(n){return s[n]})?i():!function(n){m[n]=m[n]||[],m[n][a](i),r&&r(u)}(o.join("|")),e},e.done=function(n){e([null],n)},e});
+</script>
+
+<script>
+(function() {
+  var src;
+  if (window.location.href.match(/staging/)) {
+    src = '//scripts-staging.mediavine.com/tags/the-hollywood-gossip.js';
+  }
+  else {
+    if (Math.random() > 0.5 || window.location.href.match(/beta/)) {
+      src = '//beta.mediavine.com/tags/the-hollywood-gossip.js';
+    } else {
+      src = '//scripts.mediavine.com/tags/the-hollywood-gossip.js';
+    }
+  }
+  document.write('<scr' + 'ipt src="' + src + '" async></scr' + 'ipt>');
+})();
+</script>
+
+<title>The Hollywood Gossip - Celebrity Gossip and Entertainment News</title>
+<link href="https://www.thehollywoodgossip.com/assets/favicon-4d16c0ad68e3e27dd194f4461f9188f4.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<link href="https://www.thehollywoodgossip.com" rel="canonical" />
+<link href="/page-2.html" rel="next" />
+<link href="https://www.thehollywoodgossip.com/rss.xml" rel="alternate" title="The Hollywood Gossip Feed" type="application/atom+xml" />
+<meta content='277650442346327' property='fb:app_id'>
+<meta content='The Hollywood Gossip' property='og:site_name'>
+<meta content='51771366570' property='fb:page_id'>
+<meta content='website' property='og:type'>
+<meta content='https://www.thehollywoodgossip.com/' property='og:url'>
+<meta content='The Hollywood Gossip' property='og:title'>
+<meta content='Celebrity gossip blog with the latest entertainment news, scandals, fashion, hairstyles, pictures, and videos of your favorite celebrities' property='og:description'>
+
+<meta content='thgossip' name='twitter:site'>
+
+<link rel="manifest" href="/manifest.json">
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(["init", {
+    appId: "138c8d49-8d2d-48e4-b1ad-6b835498250e",
+    safari_web_id: "web.onesignal.auto.054b4fc9-febb-45d1-b366-8fc183da0d9e",
+    welcomeNotification: {
+      disable: true
+    }
+  }]);
+
+  OneSignal.push(function() {
+    OneSignal.on('notificationPermissionChange', function(permissionChange) {
+      try { window.ga('send', 'event', 'OneSignal', permissionChange.to); } catch(e) {}
+    });
+  });
+
+  OneSignal.push(function() {
+    OneSignal.on('permissionPromptDisplay', function() {
+      try { window.ga('send', 'event', 'OneSignal', 'prompt'); } catch(e) {}
+    });
+  });
+</script>
+
+<meta content="Celebrity gossip blog with the latest entertainment news, scandals, fashion, hairstyles, pictures, and videos of your favorite celebrities" name="description"></meta>
+<script type="text/javascript">
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};
+ga.l=+new Date;
+$script.ready("application",function() {
+  $script('//www.google-analytics.com/analytics.js');
+});
+ga('create', 'UA-2410076-1', 'auto');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+</script>
+
+<script>
+  $script('//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js', 'jquery');
+  $script.ready('jquery', function() {
+    $script('//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js','bootstrap');
+  });
+  $script.ready('bootstrap', function() {
+    $script('https://www.thehollywoodgossip.com/assets/application-fa0a88984bff30dd0167907543c0b37b.js','application');
+  });
+</script>
+<link as="style" href="https://www.thehollywoodgossip.com/assets/application-cd020f6a8516f3f5ec32fe6e6bb08d49.css" onload="this.rel='stylesheet'" rel="preload" /><noscript><link href="https://www.thehollywoodgossip.com/assets/application-cd020f6a8516f3f5ec32fe6e6bb08d49.css" rel="stylesheet" /></noscript>
+<link as="style" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" onload="this.rel='stylesheet'" rel="preload" /><noscript><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" /></noscript>
+<script>
+!function(a){"use strict";var b=function(b,c,d){function j(a){return e.body?a():void setTimeout(function(){j(a)})}function l(){f.addEventListener&&f.removeEventListener("load",l),f.media=d||"all"}var g,e=a.document,f=e.createElement("link");if(c)g=c;else{var h=(e.body||e.getElementsByTagName("head")[0]).childNodes;g=h[h.length-1]}var i=e.styleSheets;f.rel="stylesheet",f.href=b,f.media="only x",j(function(){g.parentNode.insertBefore(f,c?g:g.nextSibling)});var k=function(a){for(var b=f.href,c=i.length;c--;)if(i[c].href===b)return a();setTimeout(function(){k(a)})};return f.addEventListener&&f.addEventListener("load",l),f.onloadcssdefined=k,k(l),f};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this),function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(a){}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){a.clearInterval(c)})}}}(this);
+</script>
+
+
+<!--[if lt IE 9]>
+<script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<link href='//assets.thehollywoodgossip.com/respond-proxy.html' id='respond-proxy' rel='respond-proxy'>
+<link href='/respondjs/respond.proxy.gif' id='respond-redirect' rel='respond-redirect'>
+<script src='/respondjs/respond.proxy.js'></script>
+<![endif]-->
+
+<link href='https://www.thehollywoodgossip.com/assets/icons/apple-touch-icon-144-2bc4a488554f5851b3c9cf68f077c195.png' rel='apple-touch-icon' sizes='144x144'>
+<link href='https://www.thehollywoodgossip.com/assets/icons/apple-touch-icon-114-a83f3b82961e2addfd7250318384970f.png' rel='apple-touch-icon' sizes='114x114'>
+<link href='https://www.thehollywoodgossip.com/assets/icons/apple-touch-icon-72-62e7bca4faac4b15d443347166387c3c.png' rel='apple-touch-icon' sizes='72x72'>
+<link href='https://www.thehollywoodgossip.com/assets/icons/apple-touch-icon-57-4133deec4c32f8db268d83b6e92cf9c5.png' rel='apple-touch-icon'>
+<link href='https://plus.google.com/+hollywoodgossip' rel='publisher'>
+
+<script type="text/javascript">
+$script.ready('application',function() {
+  $script("//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=277650442346327", 'facebook');
+});
+</script>
+
+<link as="style" href="//fonts.googleapis.com/css?family=Merriweather:400,700|Raleway:400,700" onload="this.rel='stylesheet'" rel="preload" /><noscript><link href="//fonts.googleapis.com/css?family=Merriweather:400,700|Raleway:400,700" rel="stylesheet" /></noscript>
+
+<script type="application/ld+json">
+{
+   "@context": "http://schema.org",
+   "@type": "WebSite",
+   "url": "https://www.thehollywoodgossip.com",
+   "potentialAction": {
+     "@type": "SearchAction",
+     "target": "https://www.thehollywoodgossip.com/search/?q={search_term_string}",
+     "query-input": "required name=search_term_string"
+   }
+}
+</script>
+
+<script type="application/ld+json">
+{
+   "@context": "https://schema.org",
+   "@type": "Organization",
+   "url": "https://www.thehollywoodgossip.com",
+   "name": "The Hollywood Gossip",
+   "logo": "https://www.thehollywoodgossip.com/assets/square-logo-539587552547e007a1a36861ff999004.png",
+   "sameAs": [
+     "https://www.facebook.com/thehollywoodgossip",
+     "https://www.instagram.com/thehollywoodgossip/",
+     "https://twitter.com/thgossip",
+     "https://www.pinterest.com/thgossip/",
+     "https://plus.google.com/+hollywoodgossip"
+   ]
+}
+</script>
+
+<script type="text/javascript">
+  var addthis_share = {
+    url: 'https://www.thehollywoodgossip.com/',
+    templates: {
+      twitter: "{{title}} {{url}} via @thgossip"
+    }
+  }
+  var addthis_config = {
+    data_ga_property: 'UA-2410076-1'
+  }
+</script>
+<script type="text/javascript">
+$script.ready('application',function() {
+  $script("//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-530cd2b027aa2325");
+});
+</script>
+
+</head>
+<body>
+<div id='fb-root'></div>
+<nav class='navbar navbar-default navbar-static-top' id='navbar' role='navigation'>
+<div class='navbar-header'>
+<div class='dropdown navbar-button'>
+<button class='btn btn-link' data-toggle='dropdown'>
+<i class="fa fa-search"></i>
+</button>
+<div class='dropdown-menu search-dropdown'>
+<form action='/search' role='search'>
+<div class='input-group'>
+<input class="form-control" id="q" name="q" placeholder="Search" type="search" />
+<div class='input-group-btn'><button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button></div>
+</div>
+</form>
+</div>
+</div>
+<div class='dropdown navbar-button'>
+<button class='btn btn-link' data-toggle='dropdown'>
+<i class="fa fa-user"></i>
+</button>
+<ul class='dropdown-menu user-dropdown dropdown-menu-right'></ul>
+</div>
+<button class='btn btn-link' data-target='.navbar-collapse' data-toggle='collapse' type='button'>
+<span class='sr-only'>Toggle navigation</span>
+<i class="fa fa-bars"></i>
+</button>
+<div class='navbar-center'>
+<a href="/"><img alt="The Hollywood Gossip" src="https://www.thehollywoodgossip.com/assets/logo-white-43e42ea51834b5cd7d39e44c56610ab5.png" /></a>
+</div>
+</div>
+<div class='navbar-collapse collapse'>
+<ul class='nav navbar-nav'>
+<li><a href="/categories/celebrity-gossip/">Celebrity Gossip</a></li>
+<li><a href="/categories/celebrity-fashion/">Fashion</a></li>
+<li><a href="/categories/celebrity-weddings/">Weddings</a></li>
+<li><a href="/categories/celebrity-babies/">Babies</a></li>
+<li><a href="/categories/celebrity-hairstyles/">Hair</a></li>
+<li><a href="/categories/pets/">Pets</a></li>
+<li><a href="/categories/news/">News</a></li>
+<li><a href="/categories/sports/">Sports</a></li>
+<li><a href="/categories/politics/">Politics</a></li>
+<li><a href="/categories/tv/">TV</a></li>
+<li><a href="/categories/movies/">Movies</a></li>
+</ul>
+</div>
+</nav>
+
+<div class='container-fluid' id='wrapper'>
+<div id='leaderboard_atf_target'></div>
+<div class='row'>
+<div class='col-lg-8' id='content'>
+<div id='flash'></div>
+<div class='visible-print-block' id='print_logo'><img alt="The Hollywood Gossip" src="https://www.thehollywoodgossip.com/assets/logo-white-43e42ea51834b5cd7d39e44c56610ab5.png" /></div>
+<div class='row' id='infinite'>
+<div class='col-sm-6'>
+<article class='teaser'>
+<a href="/2018/02/rebecca-gayheart-and-eric-dane-the-marriage-is-over/"><div class="image_outter_wrapper" style="max-width:424px;"><div class="image_wrapper" style="padding-bottom:60.84905660377359%;"><img alt="Rebecca Gayheart and Eric Dane: The Marriage is Over!" data-pin-media="https://the-hollywood-gossip-res.cloudinary.com/iu/s--Yryubmny--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1518864580/rebecca-gayheart-and-eric-dane-together.jpg" data-pin-url="https://www.thehollywoodgossip.com/2018/02/rebecca-gayheart-and-eric-dane-the-marriage-is-over/" height="258" src="https://the-hollywood-gossip-res.cloudinary.com/iu/s--a1vsi6b0--/c_fill,cs_srgb,f_auto,fl_strip_profile.lossy,g_auto,h_258,q_auto:420,w_424/v1518864580/rebecca-gayheart-and-eric-dane-together" width="424" /></div></div>
+<h2>Rebecca Gayheart and Eric Dane: The Marriage is Over!</h2>
+</a><div class='description'><p>
+	After 14 years, two daughters and at least one well-publicized threesome, Rebecca Gayheart and Eric Dane have decided to end their marriage.</p><p>
+	Or Gayheart has decided to end her marriage, to be more specific.</p></div>
+<div class='details clearfix'>
+<time datetime="2018-02-17T06:04:55-05:00">Feb 17,  6:04 am</time>
+<div class='tag'>
+Posted in:
+<a href="/categories/celebrity-break-ups/">Celebrity Break-Ups</a>
+</div>
+</div>
+</article>
+</div>
+
+<div class='col-sm-6'>
+<article class='teaser'>
+<a href="/videos/jamie-foxx-abruptly-ends-espn-interview-due-to-katie-holmes-ques/"><div class="image_outter_wrapper" style="max-width:424px;"><div class="image_wrapper" style="padding-bottom:60.84905660377359%;"><img alt="Jamie Foxx Asked About Katie Holmes, Responds Like THIS" data-pin-media="https://the-hollywood-gossip-res.cloudinary.com/iu/s--JdtXN___--/t_v_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1518864100/video/jamie-foxx-abruptly-ends-espn-interview-due-to-katie-holmes-ques.png" data-pin-url="https://www.thehollywoodgossip.com/2018/02/jamie-foxx-gets-asked-katie-holmes-responds-like-this/" height="258" src="https://the-hollywood-gossip-res.cloudinary.com/iu/s--W4P4HXbw--/c_fill,cs_srgb,f_auto,fl_strip_profile.lossy,g_auto,h_258,q_auto:420,w_424/v1518864100/video/jamie-foxx-abruptly-ends-espn-interview-due-to-katie-holmes-ques" width="424" /></div></div>
+<h2>Jamie Foxx Asked About Katie Holmes, Responds Like THIS</h2>
+</a><div class='description'>Jamie Foxx gets asked an innocent question here about Katie Holmes. But the actor is simply NOT having it.</div>
+<div class='details clearfix'>
+<time datetime="2018-02-17T05:43:20-05:00">Feb 17,  5:43 am</time>
+<div class='tag'>
+Posted in:
+<a href="/stars/jamie-foxx.html">Jamie Foxx</a>
+</div>
+</div>
+</article>
+</div>
+<div class='clearfix'></div>
+
+<div class='col-sm-6'>
+<article class='teaser'>
+<a href="/2018/02/celebrity-big-brother-recap-brandi-glanville-asked-omarosa-what/"><div class="image_outter_wrapper" style="max-width:424px;"><div class="image_wrapper" style="padding-bottom:60.84905660377359%;"><img alt="Celebrity Big Brother Recap: Brandi Glanville Asked Omarosa WHAT?!" data-pin-media="https://the-hollywood-gossip-res.cloudinary.com/iu/s--qy0D5yi2--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1518859241/brandi-glanville-big-hair.png" data-pin-url="https://www.thehollywoodgossip.com/2018/02/celebrity-big-brother-recap-brandi-glanville-asked-omarosa-what/" height="258" src="https://the-hollywood-gossip-res.cloudinary.com/iu/s--QPKEl9zX--/c_fill,cs_srgb,f_auto,fl_strip_profile.lossy,g_auto,h_258,q_auto:420,w_424/v1518859241/brandi-glanville-big-hair" width="424" /></div></div>
+<h2>Celebrity Big Brother Recap: Brandi Glanville Asked Omarosa WHAT?!</h2>
+</a><div class='description'><p>
+	Brandi Glanville is not one to follow a crowd. </p><p>
+	That's why we rolled our eyes when we heard she had been cast on the first season of Celebrity Big Brother. For better or worse, she's managed to find herself in a good spot in the game. </p></div>
+<div class='details clearfix'>
+<time datetime="2018-02-17T04:23:51-05:00">Feb 17,  4:23 am</time>
+<div class='tag'>
+Posted in:
+<a href="/categories/celebrity-big-brother/">Celebrity Big Brother</a>
+</div>
+</div>
+</article>
+</div>
+
+<div class='col-sm-6'>
+<article class='teaser'>
+<a href="/2018/02/jill-duggar-and-derick-dillard-drinking-alcohol-on-instagram/"><div class="image_outter_wrapper" style="max-width:424px;"><div class="image_wrapper" style="padding-bottom:60.84905660377359%;"><img alt="Jill Duggar and Derick Dillard: Drinking Alcohol on Instagram?!" data-pin-media="https://the-hollywood-gossip-res.cloudinary.com/iu/s--LzmaNIeJ--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1518818979/derick-dillard-drinking.png" data-pin-url="https://www.thehollywoodgossip.com/2018/02/jill-duggar-and-derick-dillard-drinking-alcohol-on-instagram/" height="258" src="https://the-hollywood-gossip-res.cloudinary.com/iu/s--rHhbI1Ik--/c_fill,cs_srgb,f_auto,fl_strip_profile.lossy,g_auto,h_258,q_auto:420,w_424/v1518818979/derick-dillard-drinking" width="424" /></div></div>
+<h2>Jill Duggar and Derick Dillard: Drinking Alcohol on Instagram?!</h2>
+</a><div class='description'><p>
+	Like millions of Americans, you might have shared a bottle of wine with your significant other on Valentine's Day.</p><p>
+	But because you're not a Duggar (we assume) your massive social media following probably didn't freak the eff out over it.</p></div>
+<div class='details clearfix'>
+<time datetime="2018-02-16T17:13:39-05:00">Feb 16,  5:13 pm</time>
+<div class='tag'>
+Posted in:
+<a href="/stars/jill-duggar/">Jill Duggar</a>
+</div>
+</div>
+</article>
+</div>
+<div class='clearfix'></div>
+<div class='content_desktop_hint'></div>
+<div class='content_mobile_hint'></div>
+
+
+<div class='col-sm-6'>
+<article class='teaser'>
+<a href="/2018/02/khloe-kardashian-this-was-my-pregnancy-sex-experience/"><div class="image_outter_wrapper" style="max-width:424px;"><div class="image_wrapper" style="padding-bottom:60.84905660377359%;"><img alt="Khloe Kardashian: I Had Sex While Pregnant And ..." data-pin-media="https://the-hollywood-gossip-res.cloudinary.com/iu/s--shTAMb0x--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1502111266/khloe-and-tristan-thompson-all-my-love.png" data-pin-url="https://www.thehollywoodgossip.com/2018/02/khloe-kardashian-this-was-my-pregnancy-sex-experience/" height="258" src="https://the-hollywood-gossip-res.cloudinary.com/iu/s--x5MLztLZ--/c_fill,cs_srgb,f_auto,fl_strip_profile.lossy,g_auto,h_258,q_auto:420,w_424/v1502111266/khloe-and-tristan-thompson-all-my-love" width="424" /></div></div>
+<h2>Khloe Kardashian: I Had Sex While Pregnant And ...</h2>
+</a><div class='description'><p>
+	Kylie may have given birth, but her big sister is still very pregnant with Stormi Webster's younger cousin. And <a href="https://www.thehollywoodgossip.com/2018/02/khloe-kardashian-check-out-my-baby-bump/">Khloe Kardashian's been showing off her baby bump</a> left and right.</p><p>
+	Fans asked Khloe a ton of questions once the pregnancy news was out in the open. One fan even asked her about what it's like to have sex while pregnant.</p></div>
+<div class='details clearfix'>
+<time datetime="2018-02-16T16:45:25-05:00">Feb 16,  4:45 pm</time>
+<div class='tag'>
+Posted in:
+<a href="/stars/khloe-kardashian/">Khloe Kardashian</a>
+</div>
+</div>
+</article>
+</div>
+
+<div class='col-sm-6'>
+<article class='teaser'>
+<a href="/2018/02/kailyn-lowry-writing-a-tell-all-about-chris-lopez/"><div class="image_outter_wrapper" style="max-width:424px;"><div class="image_wrapper" style="padding-bottom:60.84905660377359%;"><img alt="Kailyn Lowry: Writing a Tell-All About Chris Lopez?!" data-pin-media="https://the-hollywood-gossip-res.cloudinary.com/iu/s--aHFO6Led--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1510661721/kailyn-at-teen-mom-2-reunion.jpg" data-pin-url="https://www.thehollywoodgossip.com/2018/02/kailyn-lowry-writing-a-tell-all-about-chris-lopez/" height="258" src="https://the-hollywood-gossip-res.cloudinary.com/iu/s--uWtgPAFL--/c_fill,cs_srgb,f_auto,fl_strip_profile.lossy,g_auto,h_258,q_auto:420,w_424/v1510661721/kailyn-at-teen-mom-2-reunion" width="424" /></div></div>
+<h2>Kailyn Lowry: Writing a Tell-All About Chris Lopez?!</h2>
+</a><div class='description'><p>
+	To say that Kailyn Lowry has had a complicated relationship with Chris Lopez would be a pretty big understatement.</p><p>
+	Really, to call their relationship a disastrous, burning hot mess would even be an understatement.</p></div>
+<div class='details clearfix'>
+<time datetime="2018-02-16T16:08:47-05:00">Feb 16,  4:08 pm</time>
+<div class='tag'>
+Posted in:
+<a href="/stars/kailyn-lowry/">Kailyn Lowry</a>
+</div>
+</div>
+</article>
+</div>
+<div class='clearfix'></div>
+
+<div class='col-sm-6'>
+<article class='teaser'>
+<a href="/videos/amber-portwood-freaks-out-do-i-look-f-king-high/"><div class="image_outter_wrapper" style="max-width:424px;"><div class="image_wrapper" style="padding-bottom:60.84905660377359%;"><img alt="Amber Portwood Freaks Out: Do I LOOK F--king High?!" data-pin-media="https://the-hollywood-gossip-res.cloudinary.com/iu/s--Q5mqSrzV--/t_v_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1518814105/video/amber-portwood-freaks-out-do-i-look-f-king-high.png" data-pin-url="https://www.thehollywoodgossip.com/2018/02/amber-portwood-freaks-out-do-i-look-f-king-high/" height="258" src="https://the-hollywood-gossip-res.cloudinary.com/iu/s--dIUKUSnL--/c_fill,cs_srgb,f_auto,fl_strip_profile.lossy,g_auto,h_258,q_auto:420,w_424/v1518814105/video/amber-portwood-freaks-out-do-i-look-f-king-high" width="424" /></div></div>
+<h2>Amber Portwood Freaks Out: Do I LOOK F--king High?!</h2>
+</a><div class='description'>Amber Portwood is shown in a Marriage Boot Camp teaser video to be freaking out at the suggestion that she's high on drugs.</div>
+<div class='details clearfix'>
+<time datetime="2018-02-16T15:48:45-05:00">Feb 16,  3:48 pm</time>
+<div class='tag'>
+Posted in:
+<a href="/stars/amber-portwood/">Amber Portwood</a>
+</div>
+</div>
+</article>
+</div>
+
+<div class='col-sm-6'>
+<article class='teaser'>
+<a href="/2018/02/briana-dejesus-back-together-with-ex-boyfriend-already/"><div class="image_outter_wrapper" style="max-width:424px;"><div class="image_wrapper" style="padding-bottom:60.84905660377359%;"><img alt="Briana DeJesus: Back Together With Ex-Boyfriend ALREADY?!" data-pin-media="https://the-hollywood-gossip-res.cloudinary.com/iu/s--s8RaEUel--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1518693567/briana-dejesus-post-surgery.jpg" data-pin-url="https://www.thehollywoodgossip.com/2018/02/briana-dejesus-back-together-with-ex-boyfriend-already/" height="258" src="https://the-hollywood-gossip-res.cloudinary.com/iu/s--DUuNoUmX--/c_fill,cs_srgb,f_auto,fl_strip_profile.lossy,g_auto,h_258,q_auto:420,w_424/v1518693567/briana-dejesus-post-surgery" width="424" /></div></div>
+<h2>Briana DeJesus: Back Together With Ex-Boyfriend ALREADY?!</h2>
+</a><div class='description'><p>
+	It's only been six weeks since <a href="https://www.thehollywoodgossip.com/2018/01/briana-dejesus-javi-marroquin-dumped-me-because-of-my-plastic-su/">Briana DeJesus and Javi Marroquin broke up</a>, but it seems she's had no trouble moving on with someone new.</p><p>
+	<a href="https://www.thehollywoodgossip.com/2018/02/javi-marroquin-i-ditched-briana-dejesus-after-her-surgery/">Javi "ditched" Briana</a> after her recent plastic surgery session in Miami, and he later explained that it was because her baby daddy Devoin Austin unexpectedly showed up.</p></div>
+<div class='details clearfix'>
+<time datetime="2018-02-16T15:47:18-05:00">Feb 16,  3:47 pm</time>
+<div class='tag'>
+Posted in:
+<a href="/stars/briana-dejesus/">Briana DeJesus</a>
+</div>
+</div>
+</article>
+</div>
+<div class='clearfix'></div>
+<div class='content_desktop_hint'></div>
+<div class='content_mobile_hint'></div>
+
+
+<div class='col-sm-6'>
+<article class='teaser'>
+<a href="/videos/demi-lovato-announces-new-tour-in-sexy-white-lingerie/"><div class="image_outter_wrapper" style="max-width:424px;"><div class="image_wrapper" style="padding-bottom:60.84905660377359%;"><img alt="Demi Lovato Announces New Tour in Sexy White Lingerie" data-pin-media="https://the-hollywood-gossip-res.cloudinary.com/iu/s--Wt69qHRf--/t_v_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1518809878/video/demi-lovato-announces-new-tour-in-sexy-white-lingerie.png" data-pin-url="https://www.thehollywoodgossip.com/2018/02/demi-lovato-announces-new-tour-in-sexy-white-lingerie/" height="258" src="https://the-hollywood-gossip-res.cloudinary.com/iu/s--SU24fa_2--/c_fill,cs_srgb,f_auto,fl_strip_profile.lossy,g_auto,h_258,q_auto:420,w_424/v1518809878/video/demi-lovato-announces-new-tour-in-sexy-white-lingerie" width="424" /></div></div>
+<h2>Demi Lovato Announces New Tour in Sexy White Lingerie</h2>
+</a><div class='description'>Demi Lovato shared an Instagram video of herself in white lingerie, a tour announcement and a thirst trap rolled into one.</div>
+<div class='details clearfix'>
+<time datetime="2018-02-16T14:38:11-05:00">Feb 16,  2:38 pm</time>
+<div class='tag'>
+Posted in:
+<a href="/stars/demi-lovato/">Demi Lovato</a>
+</div>
+</div>
+</article>
+</div>
+
+<div class='col-sm-6'>
+<article class='teaser'>
+<a href="/2018/02/karen-mcdougal-details-lengthy-affair-with-donald-trump/"><div class="image_outter_wrapper" style="max-width:424px;"><div class="image_wrapper" style="padding-bottom:60.84905660377359%;"><img alt="Karen McDougal Details Lengthy Affair with Donald Trump" data-pin-media="https://the-hollywood-gossip-res.cloudinary.com/iu/s--5rq240uJ--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1518807568/karen-mcdougal-photo.jpg" data-pin-url="https://www.thehollywoodgossip.com/2018/02/karen-mcdougal-details-lengthy-affair-with-donald-trump/" height="258" src="https://the-hollywood-gossip-res.cloudinary.com/iu/s--GTK-7syg--/c_fill,cs_srgb,f_auto,fl_strip_profile.lossy,g_auto,h_258,q_auto:420,w_424/v1518807568/karen-mcdougal-photo" width="424" /></div></div>
+<h2>Karen McDougal Details Lengthy Affair with Donald Trump</h2>
+</a><div class='description'><p>
+	Karen McDougal has come out and confessed to having had sex with Donald Trump.</p><p>
+	We know: we're as grossed out as you are.</p></div>
+<div class='details clearfix'>
+<time datetime="2018-02-16T14:29:54-05:00">Feb 16,  2:29 pm</time>
+<div class='tag'>
+Posted in:
+<a href="/stars/donald-trump.html">Donald Trump</a>
+</div>
+</div>
+</article>
+</div>
+<div class='clearfix'></div>
+
+<div class='col-sm-6'>
+<article class='teaser'>
+<a href="/2018/02/stassi-schroeder-introduces-new-boyfriend-beau-clark-hes-not-a-d/"><div class="image_outter_wrapper" style="max-width:424px;"><div class="image_wrapper" style="padding-bottom:60.84905660377359%;"><img alt="Stassi Schroeder Introduces New Boyfriend Beau Clark: He&#39;s Not a Douche!" data-pin-media="https://the-hollywood-gossip-res.cloudinary.com/iu/s--92W9PGQg--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1515287301/two-bottoms-up.png" data-pin-url="https://www.thehollywoodgossip.com/2018/02/stassi-schroeder-introduces-new-boyfriend-beau-clark-hes-not-a-d/" height="258" src="https://the-hollywood-gossip-res.cloudinary.com/iu/s--Q1sfKyfO--/c_fill,cs_srgb,f_auto,fl_strip_profile.lossy,g_auto,h_258,q_auto:420,w_424/v1515287301/two-bottoms-up" width="424" /></div></div>
+<h2>Stassi Schroeder Introduces New Boyfriend!</h2>
+</a><div class='description'><p>
+	If you've been watching the current season of Vanderpump Rules, you know that former SUR girl and reigning controversy queen Stassi Schroeder is having a tough go of it.</p><p>
+	Granted, many of Stassi's problems are self-created, but it's still jarring to see the former queen bee take such a tumble from the top of the social ladder.</p></div>
+<div class='details clearfix'>
+<time datetime="2018-02-16T14:09:39-05:00">Feb 16,  2:09 pm</time>
+<div class='tag'>
+Posted in:
+<a href="/stars/stassi-schroeder/">Stassi Schroeder</a>
+</div>
+</div>
+</article>
+</div>
+
+<div class='col-sm-6'>
+<article class='teaser'>
+<a href="/2018/02/stormy-daniels-has-trumps-dna-on-a-dress-plans-to-tell-all/"><div class="image_outter_wrapper" style="max-width:424px;"><div class="image_wrapper" style="padding-bottom:60.84905660377359%;"><img alt="Stormy Daniels: I Have Trump DNA on a Dress, Monica Lewinsky Style!!" data-pin-media="https://the-hollywood-gossip-res.cloudinary.com/iu/s--t5RHGg1z--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1518800966/stormy-daniels-superbowl-2018.jpg" data-pin-url="https://www.thehollywoodgossip.com/2018/02/stormy-daniels-has-trumps-dna-on-a-dress-plans-to-tell-all/" height="258" src="https://the-hollywood-gossip-res.cloudinary.com/iu/s--Kj2OYjaU--/c_fill,cs_srgb,f_auto,fl_strip_profile.lossy,g_auto,h_258,q_auto:420,w_424/v1518800966/stormy-daniels-superbowl-2018" width="424" /></div></div>
+<h2>Stormy Daniels: I Have Trump DNA on a Dress, Lewinsky Style!!</h2>
+</a><div class='description'><p>
+	There are a couple of pieces of big news regarding Stormy Daniels, the <a href="https://www.thehollywoodgossip.com/2018/01/stormy-daniels-donald-trump-allegedly-banged-porn-star-payed-for/">porn star who allegedly had an affair with Donald Trump</a> in 2006.</p><p>
+	For one thing, Stormy's management has announced that Trump's lawyer has now broken the NDA, freeing Stormy to tell all without fear of repercussion.</p></div>
+<div class='details clearfix'>
+<time datetime="2018-02-16T12:59:06-05:00">Feb 16, 12:59 pm</time>
+<div class='tag'>
+Posted in:
+<a href="/stars/stormy-daniels/">Stormy Daniels</a>
+</div>
+</div>
+</article>
+</div>
+<div class='clearfix'></div>
+<div class='content_desktop_hint'></div>
+<div class='content_mobile_hint'></div>
+
+
+
+</div>
+<div id='pagination'>
+<div class="text-center">
+  <a class="btn btn-primary btn-block btn-lg" href="/page-2.html" rel="next">Next &raquo;</a>
+
+  <ul class="pagination">
+          <li class='active'>
+    <a remote="false">1</a>
+  </li>
+
+          <li>
+    <a href="/page-2.html" rel="next">2</a>
+  </li>
+
+          <li>
+    <a href="/page-3.html">3</a>
+  </li>
+
+        <li class='disabled'>
+  <a>&hellip;</a>
+</li>
+
+          <li>
+    <a href="/page-7992.html">7992</a>
+  </li>
+
+  </ul>
+</div>
+
+</div>
+
+<div class='hidden-print'>
+<div class='ggnoads' id='taboola_content'>
+<div class='ggnoads' id='partners_content'></div>
+</div>
+<div class='well well-small text-center newsletter_signup'>
+<h2>Follow The Hollywood Gossip?</h2>
+<div addthis:url='http://www.facebook.com/51771366570' class='likeus_content clearfix addthis_toolbox'>
+<a class='addthis_button_facebook_like' fb:like:href='http://www.facebook.com/51771366570' fb:like:layout='standard' fb:like:width='300'></a>
+</div>
+
+<form action='//mediavine.us3.list-manage.com/subscribe/post?u=6cc823beaefa265ec8884bca6&amp;amp;id=d0abf9d31f' class='newsletter_signup form-inline' id='newsletter_below_content' method='post' target='_blank'>
+<div class='alert alert-danger error' style='display:none;margin:10px;'></div>
+<div aria-hidden='true' style='position: absolute; left: -5000px;'>
+<input name='b_6cc823beaefa265ec8884bca6_d0abf9d31f' tabindex='-1' type='text' value=''>
+</div>
+<div class='input-group input-group-lg'>
+<input class='email form-control input-lg' name='EMAIL' placeholder='Your Email Address' type='email'>
+<span class='input-group-btn'>
+<input class='btn btn-lg btn-primary' name='subscribe' type='submit' value='Subscribe'>
+</span>
+</div>
+</form>
+
+</div>
+
+</div>
+
+</div>
+<div class='col-lg-4 visible-lg' id='sidebar'>
+<div id='sidebar_atf_target'></div>
+<div class='widget'>
+<h4>Must Read Gossip</h4>
+<ul class='nav'>
+<li>
+<a class="clearfix" href="/2018/02/jennifer-aniston-and-justin-theroux-its-over/" style="font-weight:bold;"><div style='margin:0 10px 0 0;float:left;width:125px;'>
+<div class="image_outter_wrapper" style="max-width:125px;"><div class="image_wrapper" style="padding-bottom:72.0%;"><img alt="Jennifer Aniston &amp; Justin Theroux: It&#39;s Over!" data-pin-media="https://the-hollywood-gossip-res.cloudinary.com/iu/s--jHgswd7q--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1518741242/jennifer-aniston-and-justin-theroux-in-happier-times.jpg" data-pin-url="https://www.thehollywoodgossip.com/2018/02/jennifer-aniston-and-justin-theroux-its-over/" height="90" src="https://the-hollywood-gossip-res.cloudinary.com/iu/s--e7LSnPwn--/c_fill,cs_srgb,f_auto,fl_strip_profile.lossy,g_auto,h_90,q_auto:420,w_125/v1518741242/jennifer-aniston-and-justin-theroux-in-happier-times" width="125" /></div></div>
+</div>
+Jennifer Aniston &amp; Justin Theroux: It's Over!
+</a></li>
+<li>
+<a class="clearfix" href="/2018/02/kate-middleton-is-she-pregnant-with-twin-girls/" style="font-weight:bold;"><div style='margin:0 10px 0 0;float:left;width:125px;'>
+<div class="image_outter_wrapper" style="max-width:125px;"><div class="image_wrapper" style="padding-bottom:72.0%;"><img alt="Kate Middleton: Is She Pregnant With Twin Girls?!" data-pin-media="https://the-hollywood-gossip-res.cloudinary.com/iu/s---Eal1HUA--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1511884862/kate-middleton-thumbs-up.jpg" data-pin-url="https://www.thehollywoodgossip.com/2018/02/kate-middleton-is-she-pregnant-with-twin-girls/" height="90" src="https://the-hollywood-gossip-res.cloudinary.com/iu/s--M3VWhZ57--/c_fill,cs_srgb,f_auto,fl_strip_profile.lossy,g_auto,h_90,q_auto:420,w_125/v1511884862/kate-middleton-thumbs-up" width="125" /></div></div>
+</div>
+Kate Middleton: Is She Pregnant With Twin Girls?!
+</a></li>
+<li>
+<a class="clearfix" href="/2018/02/justin-theroux-and-jennifer-aniston-all-you-need-to-know-about-t/" style="font-weight:bold;"><div style='margin:0 10px 0 0;float:left;width:125px;'>
+<div class="image_outter_wrapper" style="max-width:125px;"><div class="image_wrapper" style="padding-bottom:72.0%;"><img alt="Justin Theroux and Jennifer Aniston: All You Need to Know About Their Split" data-pin-media="https://the-hollywood-gossip-res.cloudinary.com/iu/s--I_ksWhBo--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1518779635/jen-and-justin.jpg" data-pin-url="https://www.thehollywoodgossip.com/2018/02/justin-theroux-and-jennifer-aniston-all-you-need-to-know-about-t/" height="90" src="https://the-hollywood-gossip-res.cloudinary.com/iu/s--B66GUlCU--/c_fill,cs_srgb,f_auto,fl_strip_profile.lossy,g_auto,h_90,q_auto:420,w_125/v1518779635/jen-and-justin" width="125" /></div></div>
+</div>
+Justin Theroux and Jennifer Aniston: All You Need to Know About Their Split
+</a></li>
+<li>
+<a class="clearfix" href="/2018/02/carrie-underwood-and-mike-fisher-headed-for-divorce/" style="font-weight:bold;"><div style='margin:0 10px 0 0;float:left;width:125px;'>
+<div class="image_outter_wrapper" style="max-width:125px;"><div class="image_wrapper" style="padding-bottom:72.0%;"><img alt="Carrie Underwood and Mike Fisher: Headed for Divorce?!" data-pin-media="https://the-hollywood-gossip-res.cloudinary.com/iu/s--74KLUtwn--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1518724635/mike-fisher-and-carrie-underwood.jpg" data-pin-url="https://www.thehollywoodgossip.com/2018/02/carrie-underwood-and-mike-fisher-headed-for-divorce/" height="90" src="https://the-hollywood-gossip-res.cloudinary.com/iu/s--QRmwqjHj--/c_fill,cs_srgb,f_auto,fl_strip_profile.lossy,g_auto,h_90,q_auto:420,w_125/v1518724635/mike-fisher-and-carrie-underwood" width="125" /></div></div>
+</div>
+Carrie Underwood and Mike Fisher: Headed for Divorce?!
+</a></li>
+<li>
+<a class="clearfix" href="/2018/02/amy-roloff-and-chris-marek-fans-think-theyve-broken-up/" style="font-weight:bold;"><div style='margin:0 10px 0 0;float:left;width:125px;'>
+<div class="image_outter_wrapper" style="max-width:125px;"><div class="image_wrapper" style="padding-bottom:72.0%;"><img alt="Amy Roloff and Chris Marek: Did They Just Break Up?!" data-pin-media="https://the-hollywood-gossip-res.cloudinary.com/iu/s--3Hg9nmFW--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1514291428/amy-and-chris-on-christmas.png" data-pin-url="https://www.thehollywoodgossip.com/2018/02/amy-roloff-and-chris-marek-fans-think-theyve-broken-up/" height="90" src="https://the-hollywood-gossip-res.cloudinary.com/iu/s--DqYHa0BH--/c_fill,cs_srgb,f_auto,fl_strip_profile.lossy,g_auto,h_90,q_auto:420,w_125/v1514291428/amy-and-chris-on-christmas" width="125" /></div></div>
+</div>
+Amy Roloff and Chris Marek: Did They Just Break Up?!
+</a></li>
+<li>
+<a class="clearfix" href="/2018/02/jenna-morasca-ex-survivor-winner-arrested-after-biting-police-of/" style="font-weight:bold;"><div style='margin:0 10px 0 0;float:left;width:125px;'>
+<div class="image_outter_wrapper" style="max-width:125px;"><div class="image_wrapper" style="padding-bottom:72.0%;"><img alt="Jenna Morasca, Ex-Survivor Winner, Arrested After Biting Police Officer" data-pin-media="https://the-hollywood-gossip-res.cloudinary.com/iu/s--7s7aUBzD--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1518727769/jenna-morasca.jpg" data-pin-url="https://www.thehollywoodgossip.com/2018/02/jenna-morasca-ex-survivor-winner-arrested-after-biting-police-of/" height="90" src="https://the-hollywood-gossip-res.cloudinary.com/iu/s--qmRBxm4S--/c_fill,cs_srgb,f_auto,fl_strip_profile.lossy,g_auto,h_90,q_auto:420,w_125/v1518727769/jenna-morasca" width="125" /></div></div>
+</div>
+Jenna Morasca, Ex-Survivor Winner, Arrested After Biting Police Officer
+</a></li>
+</ul>
+
+</div>
+
+<div id='sidebar_btf_target'></div>
+
+</div>
+</div>
+<div class='row'>
+<div id='footer'>
+
+<p class='hidden-print'>Submissions? Questions? Looking to advertise?</p>
+<p class='hidden-print'>
+<a href="/about-us/">About Us | Advertising Info | Copyright Inquiry | Privacy Policy | Contact Us</a>
+</p>
+<hr class='visible-print-block'>
+<p>&copy; 2018 The Hollywood Gossip - Celebrity Gossip and Entertainment News</p>
+<p>Food Innovation Group: Bon Appetit and Epicurious</p>
+<ul class='hidden-print nav nav-pills'>
+<li><a href="/2018/02/">February 2018</a></li>
+<li><a href="/2018/01/">January 2018</a></li>
+<li><a href="/2017/">2017 Archives</a></li>
+<li><a href="/2016/">2016 Archives</a></li>
+<li><a href="/2015/">2015 Archives</a></li>
+<li><a href="/2014/">2014 Archives</a></li>
+<li><a href="/2013/">2013 Archives</a></li>
+<li><a href="/2012/">2012 Archives</a></li>
+<li><a href="/2011/">2011 Archives</a></li>
+<li><a href="/2010/">2010 Archives</a></li>
+<li><a href="/2009/">2009 Archives</a></li>
+<li><a href="/2008/">2008 Archives</a></li>
+</ul>
+
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
