@@ -20,9 +20,9 @@ def timeout(func, args=(), kwargs={}, timeout_duration=1, default=None):
     it.start()
     it.join(timeout_duration)
     if it.isAlive():
-        return False
+        return(False)
     else:
-        return it.result
+        return(it.result)
 
 def getData(act, download=True):
     def process(filename, data, line):
@@ -30,7 +30,7 @@ def getData(act, download=True):
         img = Image.open("original/" + filename)
         img = img.crop(boundingBox).resize(DATA_SIZE)
         h = hashlib.sha256(open("original/" + filename, "rb").read()).hexdigest()
-        print h
+        print(h)
         if line.split()[6] == h:
             img.save("processed/" + filename)
         return
@@ -47,11 +47,11 @@ def getData(act, download=True):
                 if os.path.isfile("original/" + filename):
                     try:
                         process(filename, data, line)
-                        print filename, "- success"
+                        print(filename, "- success")
                     except IOError:
-                        print filename, "- failed"
+                        print(filename, "- failed")
                 else:
-                    print filename, "- failed"
+                    print(filename, "- failed")
                 i += 1
         return
 
@@ -71,7 +71,7 @@ def getSets(act, rand=True, setRatio=DATA_SET_RATIO):
         filename = name.replace(" ","_").lower()
         database = [f for f in os.listdir("processed") if f.startswith(filename)]
         if sampleSize > len(database):
-            print "ERROR from getSets() - sample size is greater than size of database"
+            print("ERROR from getSets() - sample size is greater than size of database")
             quit()
         if rand:
             sample = np.random.choice(database, sampleSize, replace=False)
@@ -80,7 +80,7 @@ def getSets(act, rand=True, setRatio=DATA_SET_RATIO):
         set1.append(sample[:setRatio[0]])
         set2.append(sample[setRatio[0]:setRatio[0]+setRatio[1]])
         set3.append(sample[setRatio[0]+setRatio[1]:])
-    return set1, set2, set3
+    return(set1, set2, set3)
 
 def getTrain(trainSet):
     N = len(trainSet[0])
@@ -89,7 +89,7 @@ def getTrain(trainSet):
     trainSet_Y = np.empty((6, 0), float)
     for i in range(0, 6):
         trainSet_Y = np.hstack( (trainSet_Y, np.tile(I[:,[i]], (1, N))) )
-    return trainSet_X, trainSet_Y
+    return(trainSet_X, trainSet_Y)
 
 def getTest(testSet):
     N = len(testSet[0])
@@ -98,7 +98,7 @@ def getTest(testSet):
     testSet_Y = np.empty((6, 0), float)
     for i in range(0, 6):
         testSet_Y = np.hstack( (testSet_Y, np.tile(I[:,[i]], (1, N))) )
-    return testSet_X, testSet_Y
+    return(testSet_X, testSet_Y)
 
 def genMatrix(fileList):
     M = np.empty((0, VEC_SIZE), float)
@@ -108,4 +108,4 @@ def genMatrix(fileList):
             continue
         x = np.array(img)[:,:,:3].flatten() / 255.
         M = np.vstack((M, x))
-    return np.append(M, np.ones((len(M), 1)), axis=1)
+    return( np.append(M, np.ones((len(M), 1)), axis=1) )

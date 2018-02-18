@@ -40,4 +40,4 @@ for t in range(10000):
 x = Variable(torch.from_numpy(test_x), requires_grad=False).type(dtype_float)
 y_pred = model(x).data.numpy()
 accuracy = np.mean(np.argmax(y_pred, 1) == np.argmax(test_y, 1))
-print accuracy
+print(accuracy)
