@@ -104,9 +104,8 @@ def genMatrix(fileList):
     M = np.empty((0, VEC_SIZE), float)
     for filename in fileList:
         img = Image.open("processed/" + filename)
-        print filename
-        print np.shape(img)
-        x = np.array(img).flatten() / 255.
-        print "x", np.shape(x)
+        if np.shape(img) == (32,32):
+            continue
+        x = np.array(img)[:,:,:3].flatten() / 255.
         M = np.vstack((M, x))
     return np.append(M, np.ones((len(M), 1)), axis=1)

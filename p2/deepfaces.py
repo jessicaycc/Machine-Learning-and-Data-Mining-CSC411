@@ -8,9 +8,6 @@ act = ["Lorraine Bracco", "Peri Gilpin", "Angie Harmon", "Alec Baldwin", "Bill H
 
 #getData(act)
 trainSet, validSet, testSet= getSets(act)
-print "trainSet", np.shape(trainSet)
-
-print np.shape( np.asarray(trainSet).flatten() )
 trainSet = genMatrix(np.asarray(trainSet).flatten()).T
 testSet = genMatrix(np.asarray(testSet).flatten()).T
 train_x, train_y = getTrain(trainSet)
@@ -23,11 +20,7 @@ dim_out = 6
 dtype_float = torch.FloatTensor
 dtype_long = torch.LongTensor
 
-print np.shape(train_y)
-train_idx = np.random.permutation(range(train_x.shape[0]))
-print np.shape(train_idx)
 train_idx = np.random.permutation(range(train_x.shape[0]))[:480]
-print np.shape(train_idx)
 x = Variable(torch.from_numpy(train_x[train_idx]), requires_grad=False).type(dtype_float)
 y_classes = Variable(torch.from_numpy(np.argmax((train_y.T)[train_idx], 1)), requires_grad=False).type(dtype_long)
 
