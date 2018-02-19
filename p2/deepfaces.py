@@ -13,20 +13,20 @@ test_x = genX(testSet)
 test_y = genY(testSet)
 
 dim_x = 32*32*3
-dim_h = 20
+dim_h = 30
 dim_out = 6
 
 dtype_float = torch.FloatTensor
 dtype_long = torch.LongTensor
 
-train_idx = np.random.permutation(range(train_x.shape[0]))[:480]
+train_idx = np.random.permutation(range(train_x.shape[0]))[:360]
 x = Variable(torch.from_numpy(train_x[train_idx]), requires_grad=False).type(dtype_float)
 y_classes = Variable(torch.from_numpy(np.argmax((train_y)[train_idx], 1)), requires_grad=False).type(dtype_long)
 
 model = torch.nn.Sequential(torch.nn.Linear(dim_x, dim_h), torch.nn.ReLU(), torch.nn.Linear(dim_h, dim_out))
 
 loss_fn = torch.nn.CrossEntropyLoss()
-learning_rate = 1e-2
+learning_rate = 1e-5
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
 for t in range(10000):

@@ -69,18 +69,16 @@ def getData(act, download=True):
     return
 
 def getSets(act, set_ratio=DATA_SET_RATIO):
-    sample_size = sum(set_ratio)
+    set_ratio = [float(x)/sum(set_ratio) for x in set_ratio]
     set1, set2, set3 = list(), list(), list()
     for name in act:
         filename = name.replace(" ","_").lower()
         database = [f for f in os.listdir("processed") if f.startswith(filename)]
-        if sample_size > len(database):
-            print("ERROR from getSets() - sample size is greater than size of database")
-            quit()
-        sample = np.random.choice(database, sample_size, replace=False)
-        set1.append(sample[:set_ratio[0]])
-        set2.append(sample[set_ratio[0]:set_ratio[0]+set_ratio[1]])
-        set3.append(sample[set_ratio[0]+set_ratio[1]:])
+        size = [int(x*len(database)) for x in set_ratio]
+        sample = np.random.choice(database, sum(size), replace=False)
+        set1.append(sample[:size[0]])
+        set2.append(sample[size[0]:size[0]+size[1]])
+        set3.append(sample[size[0]+size[1]:])
     return(set1, set2, set3)
 
 def genX(file_set):
@@ -93,9 +91,9 @@ def genX(file_set):
     return(X)
 
 def genY(file_set):
-    size = len(file_set[0])
     labels = np.identity(NUM_ACT)
     Y = np.empty((0, NUM_ACT), float)
     for i, file_list in enumerate(file_set):
+        size = len(file_list)
         Y = np.vstack(( Y, np.tile(labels[i], (size, 1)) ))
     return(Y)
