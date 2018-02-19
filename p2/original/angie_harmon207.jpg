@@ -154,7 +154,39 @@ var rtmedia_disable_media_in_commented_media_text = "Adding media in Comments is
 
 	<script type="text/javascript">var ajaxurl = 'http://thebosh.com/wp-admin/admin-ajax.php';</script>
 
-			<style type="text/css">
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//thebosh.com/?wordfence_lh=1&hid=D9E6C40D58EEA54C00F5544F35558EAF');
+</script>			<style type="text/css">
 						.rtmedia-activity-container .media-type-photo .rtmedia-item-thumbnail {
 		max-width: 320px;
 		max-height: 240px;
@@ -582,7 +614,7 @@ top: 10px;
 							<div class="g1-column-inner">
 								<i class="bimber-mail g1-404-icon"></i>
 								<h2 class="g1-gamma g1-gamma-2nd">Report a Problem</h2>
-								<p>Please write some descriptive information about your problem, and email our <a href="mailto:ad&#109;%69&#110;%40t&#104;%65&#098;&#111;&#115;h&#046;c%6fm">webmaster</a>.</p>
+								<p>Please write some descriptive information about your problem, and email our <a href="mailto:&#097;d&#109;&#105;%6e%40&#116;h&#101;bo%73h.co&#109;">webmaster</a>.</p>
 							</div>
 						</div><!-- .g1-column -->
 
@@ -698,7 +730,7 @@ top: 10px;
 		
 		<h4 class="snax-form-legend snax-form-legend-sign-in">Sign in</h4>
 
-		<div class="snax-login-form" data-snax-nonce="eeb8b2e80d">
+		<div class="snax-login-form" data-snax-nonce="b38e006678">
 			
 		<form name="loginform-in-popup" id="loginform-in-popup" action="http://thebosh.com/wp-login.php" method="post">
 			<div class="snax-validation-error snax-login-error-message"></div>
@@ -737,7 +769,7 @@ top: 10px;
 		Enter your account data and we will send you a link to reset your password.	</p>
 
 	
-	<div class="snax-forgot-pass-form" data-snax-nonce="339c8c9025">
+	<div class="snax-forgot-pass-form" data-snax-nonce="237fd0355f">
 		<form name="lostpasswordform" id="lostpasswordform" action="http://thebosh.com/wp-login.php?action=lostpassword" method="post">
 			<div class="snax-validation-error snax-forgot-pass-error-message"></div>
 			<div class="snax-validation-error snax-forgot-pass-success-message"></div>
@@ -798,7 +830,7 @@ top: 10px;
 <script type='text/javascript'>
 /* <![CDATA[ */
 var template_url = "http:\/\/thebosh.com\/wp-admin\/admin-ajax.php?action=rtmedia_get_template&template=media-gallery-item";
-var rtMedia_plupload_config = {"url":"\/upload\/2008\/08\/16\/angie_harmons_pregnant\/Angie-Harmon.jpg\/upload\/","runtimes":"html5,flash,html4","browse_button":"rtMedia-upload-button","container":"rtmedia-upload-container","drop_element":"drag-drop-area","filters":[{"title":"Media Files","extensions":"jpg,jpeg,png,gif,mp4,mp3"}],"max_file_size":"32M","multipart":"1","urlstream_upload":"1","flash_swf_url":"http:\/\/thebosh.com\/wp-includes\/js\/plupload\/plupload.flash.swf","silverlight_xap_url":"http:\/\/thebosh.com\/wp-includes\/js\/plupload\/plupload.silverlight.xap","file_data_name":"rtmedia_file","multi_selection":"1","multipart_params":{"redirect":"no","action":"wp_handle_upload","_wp_http_referer":"\/upload\/2008\/08\/16\/angie_harmons_pregnant\/Angie-Harmon.jpg\/","mode":"file_upload","rtmedia_upload_nonce":"e2c26a2e39"},"max_file_size_msg":"32M"};
+var rtMedia_plupload_config = {"url":"\/upload\/2008\/08\/16\/angie_harmons_pregnant\/Angie-Harmon.jpg\/upload\/","runtimes":"html5,flash,html4","browse_button":"rtMedia-upload-button","container":"rtmedia-upload-container","drop_element":"drag-drop-area","filters":[{"title":"Media Files","extensions":"jpg,jpeg,png,gif,mp4,mp3"}],"max_file_size":"32M","multipart":"1","urlstream_upload":"1","flash_swf_url":"http:\/\/thebosh.com\/wp-includes\/js\/plupload\/plupload.flash.swf","silverlight_xap_url":"http:\/\/thebosh.com\/wp-includes\/js\/plupload\/plupload.silverlight.xap","file_data_name":"rtmedia_file","multi_selection":"1","multipart_params":{"redirect":"no","action":"wp_handle_upload","_wp_http_referer":"\/upload\/2008\/08\/16\/angie_harmons_pregnant\/Angie-Harmon.jpg\/","mode":"file_upload","rtmedia_upload_nonce":"c9e5d9fd70"},"max_file_size_msg":"32M"};
 var rMedia_loading_media = "http:\/\/thebosh.com\/wp-content\/plugins\/buddypress-media\/app\/assets\/admin\/img\/boxspinner.gif";
 var rtmedia_media_thumbs = {"photo":"http:\/\/thebosh.com\/wp-content\/plugins\/buddypress-media\/app\/assets\/admin\/img\/image_thumb.png","video":"http:\/\/thebosh.com\/wp-content\/plugins\/buddypress-media\/app\/assets\/admin\/img\/video_thumb.png","music":"http:\/\/thebosh.com\/wp-content\/plugins\/buddypress-media\/app\/assets\/admin\/img\/audio_thumb.png"};
 var rtmedia_set_featured_image_msg = "Featured media set successfully.";
@@ -810,7 +842,7 @@ var rtmedia_load_more_or_pagination = "load_more";
 var rtmedia_bp_enable_activity = "1";
 var rtmedia_upload_progress_error_message = "There are some uploads in progress. Do you want to cancel them?";
 var rtmedia_exteansions = {"photo":["jpg","jpeg","png","gif"],"video":["mp4"],"music":["mp3"]};
-var rtMedia_update_plupload_comment = {"url":"\/upload\/2008\/08\/16\/angie_harmons_pregnant\/Angie-Harmon.jpg\/upload\/","runtimes":"html5,flash,html4","browse_button":"rtmedia-comment-media-upload","container":"rtmedia-comment-media-upload-container","filters":[{"title":"Media Files","extensions":"jpg,jpeg,png,gif,mp4,mp3"}],"max_file_size":"32M","multipart":"1","urlstream_upload":"1","flash_swf_url":"http:\/\/thebosh.com\/wp-includes\/js\/plupload\/plupload.flash.swf","silverlight_xap_url":"http:\/\/thebosh.com\/wp-includes\/js\/plupload\/plupload.silverlight.xap","file_data_name":"rtmedia_file","multi_selection":"","multipart_params":{"redirect":"no","action":"wp_handle_upload","_wp_http_referer":"\/upload\/2008\/08\/16\/angie_harmons_pregnant\/Angie-Harmon.jpg\/","mode":"file_upload","rtmedia_upload_nonce":"e2c26a2e39"},"max_file_size_msg":"32M"};
+var rtMedia_update_plupload_comment = {"url":"\/upload\/2008\/08\/16\/angie_harmons_pregnant\/Angie-Harmon.jpg\/upload\/","runtimes":"html5,flash,html4","browse_button":"rtmedia-comment-media-upload","container":"rtmedia-comment-media-upload-container","filters":[{"title":"Media Files","extensions":"jpg,jpeg,png,gif,mp4,mp3"}],"max_file_size":"32M","multipart":"1","urlstream_upload":"1","flash_swf_url":"http:\/\/thebosh.com\/wp-includes\/js\/plupload\/plupload.flash.swf","silverlight_xap_url":"http:\/\/thebosh.com\/wp-includes\/js\/plupload\/plupload.silverlight.xap","file_data_name":"rtmedia_file","multi_selection":"","multipart_params":{"redirect":"no","action":"wp_handle_upload","_wp_http_referer":"\/upload\/2008\/08\/16\/angie_harmons_pregnant\/Angie-Harmon.jpg\/","mode":"file_upload","rtmedia_upload_nonce":"c9e5d9fd70"},"max_file_size_msg":"32M"};
 var rMedia_loading_file = "http:\/\/thebosh.com\/wp-admin\/images\/loading.gif";
 /* ]]> */
 </script>
@@ -818,7 +850,7 @@ var rMedia_loading_file = "http:\/\/thebosh.com\/wp-admin\/images\/loading.gif";
 <script type='text/javascript' src='http://thebosh.com/wp-content/plugins/buddypress/bp-core/js/vendor/jquery.caret.min.js?ver=2.9.3'></script>
 <script type='text/javascript' src='http://thebosh.com/wp-content/plugins/buddypress/bp-core/js/vendor/jquery.atwho.min.js?ver=2.9.3'></script>
 <script type='text/javascript' src='http://thebosh.com/wp-content/plugins/buddypress/bp-activity/js/mentions.min.js?ver=2.9.3'></script>
-<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201807'></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201808'></script>
 <script type='text/javascript' src='http://thebosh.com/wp-content/plugins/snax/assets/js/jquery.magnific-popup/jquery.magnific-popup.min.js?ver=1.1.0'></script>
 <script type='text/javascript' src='http://thebosh.com/wp-content/plugins/snax/assets/js/jquery.timeago/jquery.timeago.js?ver=1.5.2'></script>
 <script type='text/javascript' src='http://thebosh.com/wp-content/plugins/snax/assets/js/jquery.timeago/locales/jquery.timeago.en.js'></script>
@@ -928,7 +960,7 @@ var bimber_front_microshare = "[]";
 <script type='text/javascript' src='http://thebosh.com/wp-content/themes/bimber-child-theme/modifications.js'></script>
 <script type='text/javascript' src='http://thebosh.com/wp-content/plugins/buddypress-media/lib/touchswipe/jquery.touchSwipe.min.js?ver=4.4.5'></script>
 <script type='text/javascript' src='http://thebosh.com/wp-includes/js/wp-embed.min.js?ver=8c5eed8d52073e2448d394dafa0c6fcc'></script>
-<script type='text/javascript' src='https://stats.wp.com/e-201807.js' async='async' defer='defer'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201808.js' async='async' defer='defer'></script>
 <script type='text/javascript'>
 	_stq = window._stq || [];
 	_stq.push([ 'view', {v:'ext',j:'1:5.8',blog:'104045968',post:'0',tz:'0',srv:'thebosh.com'} ]);
@@ -964,7 +996,7 @@ var bimber_front_microshare = "[]";
 				<div class="entry-content" itemprop="text">
 						<div id="buddypress">
 	<div id="item-body">
-	<input type="hidden" id="rtmedia_media_delete_nonce" name="rtmedia_media_delete_nonce" value="0b3b555d15" /><input type="hidden" name="_wp_http_referer" value="/upload/2008/08/16/angie_harmons_pregnant/Angie-Harmon.jpg/" />	</div><!--#item-body-->
+	<input type="hidden" id="rtmedia_media_delete_nonce" name="rtmedia_media_delete_nonce" value="af15fb4fe2" /><input type="hidden" name="_wp_http_referer" value="/upload/2008/08/16/angie_harmons_pregnant/Angie-Harmon.jpg/" />	</div><!--#item-body-->
 		</div><!--#buddypress-->
 
 
@@ -1003,7 +1035,7 @@ var bimber_front_microshare = "[]";
 		<div class="g1-comment-type g1-comment-type-fb">
 		<p class="g1-notice g1-notice-loading">Loading&hellip;</p>
 
-		<div class="g1-comment-count" data-bimber-fb-comment-count="0" data-bimber-post-id="2442" data-bimber-nonce="d77f12f324">
+		<div class="g1-comment-count" data-bimber-fb-comment-count="0" data-bimber-post-id="2442" data-bimber-nonce="4a20f767c2">
 			<fb:comments-count href="http://thebosh.com/kim-jong-un-impersonator-winter-olympics/"></fb:comments-count>
 		</div>
 
@@ -1046,25 +1078,6 @@ var bimber_front_microshare = "[]";
 
 								
 									<li class="g1-collection-item">
-										<article class="entry-tpl-grid-fancy post-1794 post type-post status-publish format-standard has-post-thumbnail category-uncategorized snax_format-list snax-list">
-	<figure class="entry-featured-media " ><a class="g1-frame" href="http://thebosh.com/funny-north-korea-meme-war/"><span class="g1-frame-inner" style="padding-bottom: 42.85714286%;"><img width="364" height="156" src="https://i1.wp.com/thebosh.com/wp-content/uploads/2017/09/north-korea-meme.png?resize=364%2C156" class="attachment-bimber-grid-fancy size-bimber-grid-fancy wp-post-image" alt="" /><span class="g1-frame-icon g1-frame-icon-"></span></span></a></figure>
-	<div class="entry-counter"></div>
-
-	<div class="entry-body">
-		<header class="entry-header">
-			<div class="entry-before-title">
-				
-							</div>
-
-			<h3 class="g1-delta g1-delta-1st entry-title"><a href="http://thebosh.com/funny-north-korea-meme-war/" rel="bookmark">Funny North Korea meme war! (Open list) (9 submissions)</a></h3>		</header>
-
-		
-			</div>
-</article>
-									</li>
-
-								
-									<li class="g1-collection-item">
 										<article class="entry-tpl-grid-fancy post-2442 post type-post status-publish format-standard has-post-thumbnail category-news">
 	<figure class="entry-featured-media " ><a class="g1-frame" href="http://thebosh.com/kim-jong-un-impersonator-winter-olympics/"><span class="g1-frame-inner" style="padding-bottom: 42.85714286%;"><img width="364" height="156" src="https://i2.wp.com/thebosh.com/wp-content/uploads/2018/02/Kim-Impersonator-Olympics.jpg?resize=364%2C156" class="attachment-bimber-grid-fancy size-bimber-grid-fancy wp-post-image" alt="" srcset="https://i2.wp.com/thebosh.com/wp-content/uploads/2018/02/Kim-Impersonator-Olympics.jpg?resize=364%2C156 364w, https://i2.wp.com/thebosh.com/wp-content/uploads/2018/02/Kim-Impersonator-Olympics.jpg?resize=728%2C312 728w" sizes="(max-width: 364px) 100vw, 364px" /><span class="g1-frame-icon g1-frame-icon-"></span></span></a></figure>
 	<div class="entry-counter"></div>
@@ -1076,6 +1089,25 @@ var bimber_front_microshare = "[]";
 							</div>
 
 			<h3 class="g1-delta g1-delta-1st entry-title"><a href="http://thebosh.com/kim-jong-un-impersonator-winter-olympics/" rel="bookmark">Kim Jong-un Impersonator at winter Olympics</a></h3>		</header>
+
+		
+			</div>
+</article>
+									</li>
+
+								
+									<li class="g1-collection-item">
+										<article class="entry-tpl-grid-fancy post-1794 post type-post status-publish format-standard has-post-thumbnail category-uncategorized snax_format-list snax-list">
+	<figure class="entry-featured-media " ><a class="g1-frame" href="http://thebosh.com/funny-north-korea-meme-war/"><span class="g1-frame-inner" style="padding-bottom: 42.85714286%;"><img width="364" height="156" src="https://i1.wp.com/thebosh.com/wp-content/uploads/2017/09/north-korea-meme.png?resize=364%2C156" class="attachment-bimber-grid-fancy size-bimber-grid-fancy wp-post-image" alt="" /><span class="g1-frame-icon g1-frame-icon-"></span></span></a></figure>
+	<div class="entry-counter"></div>
+
+	<div class="entry-body">
+		<header class="entry-header">
+			<div class="entry-before-title">
+				
+							</div>
+
+			<h3 class="g1-delta g1-delta-1st entry-title"><a href="http://thebosh.com/funny-north-korea-meme-war/" rel="bookmark">Funny North Korea meme war! (Open list) (9 submissions)</a></h3>		</header>
 
 		
 			</div>
@@ -1103,8 +1135,8 @@ var bimber_front_microshare = "[]";
 
 								
 									<li class="g1-collection-item">
-										<article class="entry-tpl-grid-fancy post-2375 post type-post status-publish format-standard has-post-thumbnail category-news">
-	<figure class="entry-featured-media " ><a class="g1-frame" href="http://thebosh.com/google-is-evil-google-home-censors-christianity/"><span class="g1-frame-inner" style="padding-bottom: 42.85714286%;"><img width="400" height="300" src="https://i0.wp.com/thebosh.com/wp-content/uploads/2018/01/feef2-1.gif?fit=400%2C300" class="attachment-full size-full wp-post-image" alt="" /><span class="g1-frame-icon g1-frame-icon-"></span></span></a></figure>
+										<article class="entry-tpl-grid-fancy post-2436 post type-post status-publish format-standard has-post-thumbnail category-news">
+	<figure class="entry-featured-media " ><a class="g1-frame" href="http://thebosh.com/pierce-brosnan-face-jail-time/"><span class="g1-frame-inner" style="padding-bottom: 42.85714286%;"><img width="364" height="156" src="https://i1.wp.com/thebosh.com/wp-content/uploads/2018/02/91558760_pierce.jpg?resize=364%2C156" class="attachment-bimber-grid-fancy size-bimber-grid-fancy wp-post-image" alt="" /><span class="g1-frame-icon g1-frame-icon-"></span></span></a></figure>
 	<div class="entry-counter"></div>
 
 	<div class="entry-body">
@@ -1113,7 +1145,7 @@ var bimber_front_microshare = "[]";
 				
 							</div>
 
-			<h3 class="g1-delta g1-delta-1st entry-title"><a href="http://thebosh.com/google-is-evil-google-home-censors-christianity/" rel="bookmark">Google Home Censors Christianity!</a></h3>		</header>
+			<h3 class="g1-delta g1-delta-1st entry-title"><a href="http://thebosh.com/pierce-brosnan-face-jail-time/" rel="bookmark">Pierce Brosnan could face jail time</a></h3>		</header>
 
 		
 			</div>

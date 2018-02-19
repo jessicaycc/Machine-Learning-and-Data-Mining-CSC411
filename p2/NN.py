@@ -2,9 +2,10 @@ import os
 import cPickle
 from const import *
 
+if not os.path.exists("objects"):
+    os.makedirs("objects")
+
 def saveObj(obj, filename):
-    if not os.path.exists("objects"):
-        os.makedirs("objects")
     cPickle.dump(obj, open("objects/"+filename+".pk", "wb"))
     return
 

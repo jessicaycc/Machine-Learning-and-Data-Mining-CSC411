@@ -3,9 +3,7 @@ from calc import *
 from plot import *
 from scipy.io import loadmat
 
-
-np.random.seed(0)
-M = loadmat("mnist_all.mat")
+M = loadmat("data/mnist_all.mat")
 
 #______________________________ PART 3 ______________________________#
 def part3():
@@ -125,21 +123,14 @@ def part6():
     contourLine(w1z, w2z, cost, path, pathM, "pt6_contour")
     return
 
-#______________________________ PART 7 ______________________________#
-def part7():
-    return
-
-
 #_______________________________ MAIN _______________________________#
-
 if __name__ == "__main__":
     start = time.time()
 
     #part3()
     #part4()
     #part5()
-    part6()
-    #part7()
+    #part6()
 
     end = time.time()
     print "Time elapsed:", end-start

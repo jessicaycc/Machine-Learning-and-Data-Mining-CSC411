@@ -2,7 +2,7 @@
 <html lang="en" class="no-js">
 
 <head>
-  <script type='text/javascript'>window.NREUM||(NREUM={});NREUM.info = {"agent":"","beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"3672224fa0","applicationID":"76197341","applicationTime":1.283813,"transactionName":"MQZQMEVRDUNYARddWwhMdxxHQgZDSggQG3MjNx1L","queueTime":0,"ttGuid":"a9ad26952c9ff","agentToken":null}; window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <script type='text/javascript'>window.NREUM||(NREUM={});NREUM.info = {"agent":"","beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"3672224fa0","applicationID":"76197341","applicationTime":1.22348,"transactionName":"MQZQMEVRDUNYARddWwhMdxxHQgZDSggQG3MjNx1L","queueTime":0,"ttGuid":"87dacd2fbec480","agentToken":null}; window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
   <title>Movies News - MTV</title>
   <link rel="dns-prefetch" href="https://shared.mtv.com"/>
   <link rel="dns-prefetch" href="http://btg.mtvnservices.com"/>
@@ -135,6 +135,126 @@
 
     <div class="card post">
     
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3065386" data-taxonomy="category:movies" class="post " >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3065386/black-panther-box-office-records/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:395115?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy  ">
+    		                <a href="http://www.mtv.com/news/movies/">
+    		                    Movies
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3065386/black-panther-box-office-records/">
+    		          <span>                  Here's A List Of All The Box Office Records <em>Black Panther</em> Just Broke
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            WAKANDA FTW!
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2017/05/hil-hughes-250-1495648696.jpg?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/hugheshi/" rel="author" class="author">Hilary Hughes</a>
+    		                        <a href="https://twitter.com/hilmonstah" class="twitter" target="twitter"><span class="handle">hilmonstah</span></a>
+    		                    <time datetime="2018-02-18 17:09">5h ago</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3065386",
+    		    "title": "Here's A List Of All The Box Office Records <em>Black Panther</em> Just Broke",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":77238,"label":"Black Panther","slug":"black-panther","description":null,"mgid":"mgid:aodb:term:mtv:77238","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"}],
+    		    "dateCreated": "2018-02-18T22:09:06+00:00",
+    		    "author": "Hilary Hughes"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
+    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3065346" data-taxonomy="category:movies" class="post " >
+    		
+    		
+    		    <a class="post "  href="http://www.mtv.com/news/3065346/chris-evans-ryan-reynolds-marvel-tweets-black-panther/">
+    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:395086?height={height}&width={width}&format=jpg&quality=.7"/>
+    		    </a>
+    		
+    		
+    		    <header class="post-header">
+    		          <label class="taxonomy  ">
+    		                <a href="http://www.mtv.com/news/movies/">
+    		                    Movies
+    		                </a>
+    		      
+    		      
+    		          </label>
+    		      <h1 class="headline">
+    		        <a class="post"  href="http://www.mtv.com/news/3065346/chris-evans-ryan-reynolds-marvel-tweets-black-panther/">
+    		          <span>                  Chris Evans, Ryan Reynolds, And Other Marvel Heroes Celebrated <em>Black Panther</em>'s Opening Weekend
+    		          </span>
+    		        </a>
+    		      </h1>
+    		      <p class="subhead">
+    		            The Avengers (and more) assembled to show love for Wakanda
+    		    
+    		      </p>
+    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
+    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2017/05/hil-hughes-250-1495648696.jpg?format=jpg&quality=.8"/>
+    		                
+    		                <div>
+    		                  <address>
+    		                    <a href="http://www.mtv.com/news/author/hugheshi/" rel="author" class="author">Hilary Hughes</a>
+    		                        <a href="https://twitter.com/hilmonstah" class="twitter" target="twitter"><span class="handle">hilmonstah</span></a>
+    		                    <time datetime="2018-02-18 12:11">10h ago</time>
+    		                  </address>
+    		                </div>
+    		              </div>
+    		    
+    		    </header>
+    		
+    		
+    		
+    		
+    		
+    		  <script type="application/json" class="article_model">
+    		  {
+    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3065346",
+    		    "title": "Chris Evans, Ryan Reynolds, And Other Marvel Heroes Celebrated <em>Black Panther</em>'s Opening Weekend",
+    		    "contentType": "post",
+    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":77238,"label":"Black Panther","slug":"black-panther","description":null,"mgid":"mgid:aodb:term:mtv:77238","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":83772,"label":"Marvel's The Avengers: Infinity War, Part I","slug":"marvels-the-avengers-infinity-war-part-i","description":null,"mgid":"mgid:aodb:term:mtv:83772","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":73187,"label":"Mark Ruffalo","slug":"mark-ruffalo","description":null,"mgid":"mgid:aodb:term:mtv:73187","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":73213,"label":"Ryan Reynolds","slug":"ryan-reynolds","description":null,"mgid":"mgid:aodb:term:mtv:73213","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":73334,"label":"Chris Evans","slug":"chris-evans","description":null,"mgid":"mgid:aodb:term:mtv:73334","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":74422,"label":"Chris Hemsworth","slug":"chris-hemsworth","description":null,"mgid":"mgid:aodb:term:mtv:74422","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":74908,"label":"Chadwick Boseman","slug":"chadwick-boseman","description":null,"mgid":"mgid:aodb:term:mtv:74908","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":79265,"label":"Brie Larson","slug":"brie-larson","description":null,"mgid":"mgid:aodb:term:mtv:79265","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"}],
+    		    "dateCreated": "2018-02-18T17:11:45+00:00",
+    		    "author": "Hilary Hughes"
+    		  }
+    		</script>
+    		
+    		</article>
+    
+    </div>
+    <div class="card post">
+    
     		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3065259" data-taxonomy="category:movies" class="post " >
     		
     		
@@ -168,7 +288,7 @@
     		                  <address>
     		                    <a href="http://www.mtv.com/news/author/hugheshi/" rel="author" class="author">Hilary Hughes</a>
     		                        <a href="https://twitter.com/hilmonstah" class="twitter" target="twitter"><span class="handle">hilmonstah</span></a>
-    		                    <time datetime="2018-02-17 11:13">5h ago</time>
+    		                    <time datetime="2018-02-17 11:13">02/17/2018</time>
     		                  </address>
     		                </div>
     		              </div>
@@ -192,6 +312,11 @@
     		
     		</article>
     
+    </div>
+    <div class="card ad ">
+    
+    
+    			<div id="ad-0" data-ad-sizes="300x250"></div>
     </div>
     <div class="card post">
     
@@ -227,7 +352,7 @@
     		                <div>
     		                  <address>
     		                    <a href="http://www.mtv.com/news/author/schulmana/" rel="author" class="author">Alissa Schulman</a>
-    		                    <time datetime="2018-02-16 20:46">19h ago</time>
+    		                    <time datetime="2018-02-16 20:46">02/16/2018</time>
     		                  </address>
     		                </div>
     		              </div>
@@ -311,11 +436,6 @@
     		
     		</article>
     
-    </div>
-    <div class="card ad ">
-    
-    
-    			<div id="ad-0" data-ad-sizes="300x250"></div>
     </div>
     <div class="card post">
     
@@ -1442,125 +1562,6 @@
     		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":77262,"label":"Kim Possible [Animated TV Series]","slug":"kim-possible-animated-tv-series","description":null,"mgid":"mgid:aodb:term:mtv:77262","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"}],
     		    "dateCreated": "2018-02-07T22:11:58+00:00",
     		    "author": "Madeline Roth"
-    		  }
-    		</script>
-    		
-    		</article>
-    
-    </div>
-    <div class="card post">
-    
-    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3063165" data-taxonomy="category:movies" class="post " >
-    		
-    		
-    		    <a class="post "  href="http://www.mtv.com/news/3063165/every-day-exclusive-clip/">
-    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:265763?height={height}&width={width}&format=jpg&quality=.7"/>
-    		    </a>
-    		
-    		
-    		    <header class="post-header">
-    		          <label class="taxonomy  ">
-    		                <a href="http://www.mtv.com/news/movies/">
-    		                    Movies
-    		                </a>
-    		      
-    		      
-    		          </label>
-    		      <h1 class="headline">
-    		        <a class="post"  href="http://www.mtv.com/news/3063165/every-day-exclusive-clip/">
-    		          <span>                  Meet 'A' In This Exclusive Clip From Body-Swapping Teen Romance <i>Every Day</i>
-    		          </span>
-    		        </a>
-    		      </h1>
-    		      <p class="subhead">
-    		            'I know what makes each person different, and what makes everyone the same'
-    		    
-    		      </p>
-    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
-    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2016/07/no_author_photo_250x250-1468514818.png?format=jpg&quality=.8"/>
-    		                
-    		                <div>
-    		                  <address>
-    		                    <a href="http://www.mtv.com/news/author/schulmana/" rel="author" class="author">Alissa Schulman</a>
-    		                    <time datetime="2018-02-07 12:00">02/07/2018</time>
-    		                  </address>
-    		                </div>
-    		              </div>
-    		    
-    		    </header>
-    		
-    		
-    		
-    		
-    		
-    		  <script type="application/json" class="article_model">
-    		  {
-    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3063165",
-    		    "title": "Meet 'A' In This Exclusive Clip From Body-Swapping Teen Romance <i>Every Day</i>",
-    		    "contentType": "post",
-    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":84643,"label":"Every Day","slug":"every-day","description":null,"mgid":"mgid:aodb:term:mtv:84643","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"},{"slug":"personality","description":null,"id":83,"name":"personality","terms":[{"modifiedDate":null,"id":84396,"label":"Jacob Batalon","slug":"jacob-batalon","description":null,"mgid":"mgid:aodb:term:mtv:84396","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}},{"modifiedDate":null,"id":84644,"label":"Angourie Rice","slug":"angourie-rice","description":null,"mgid":"mgid:aodb:term:mtv:84644","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"personality"}],
-    		    "dateCreated": "2018-02-07T17:00:00+00:00",
-    		    "author": "Alissa Schulman"
-    		  }
-    		</script>
-    		
-    		</article>
-    
-    </div>
-    <div class="card post">
-    
-    		<article itemscope itemtype="http://schema.org/NewsArticle" data-mgid="mgid:wordpress:post:articles.mtv.com:3063403" data-taxonomy="category:movies" class="post " >
-    		
-    		
-    		    <a class="post "  href="http://www.mtv.com/news/3063403/deadpool-sequel-trailer-r-rated-toy-story/">
-    		      <img data-ratio="16/9"undefined data-sizes="auto" class="lazyload blur-up" data-src="https://imagesmtv-a.akamaihd.net/uri/mgid:ao:image:mtv.com:265769?height={height}&width={width}&format=jpg&quality=.7"/>
-    		    </a>
-    		
-    		
-    		    <header class="post-header">
-    		          <label class="taxonomy  ">
-    		                <a href="http://www.mtv.com/news/movies/">
-    		                    Movies
-    		                </a>
-    		      
-    		      
-    		          </label>
-    		      <h1 class="headline">
-    		        <a class="post"  href="http://www.mtv.com/news/3063403/deadpool-sequel-trailer-r-rated-toy-story/">
-    		          <span>                  New <i>Deadpool</i> Sequel Trailer Is Like An R-Rated <i>Toy Story</i>
-    		          </span>
-    		        </a>
-    		      </h1>
-    		      <p class="subhead">
-    		            Deadpool, meet Cable
-    		    
-    		      </p>
-    		              <div class="byline" itemscope itemtype="http://schema.org/Person">
-    		                	<img class="avatar" src="https://imagesmtv-a.akamaihd.net/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2017/05/headshot-med-1495221420.png?format=jpg&quality=.8"/>
-    		                
-    		                <div>
-    		                  <address>
-    		                    <a href="http://www.mtv.com/news/author/bellcr/" rel="author" class="author">Crystal Bell</a>
-    		                        <a href="https://twitter.com/crystalbell" class="twitter" target="twitter"><span class="handle">crystalbell</span></a>
-    		                    <time datetime="2018-02-07 10:46">02/07/2018</time>
-    		                  </address>
-    		                </div>
-    		              </div>
-    		    
-    		    </header>
-    		
-    		
-    		
-    		
-    		
-    		  <script type="application/json" class="article_model">
-    		  {
-    		    "mgid": "mgid:wordpress:post:articles.mtv.com:3063403",
-    		    "title": "New <i>Deadpool</i> Sequel Trailer Is Like An R-Rated <i>Toy Story</i>",
-    		    "contentType": "post",
-    		    "taxonomy": [{"slug":"category","description":null,"id":72,"name":"category","terms":[{"modifiedDate":null,"id":79036,"label":"Movies","slug":"movies","description":"The latest movie news, casting updates and rumors, trailer sneak peeks, and expert reviews on MTV.","mgid":"mgid:aodb:term:mtv:79036","searchIndex":null,"image":null,"adOverrides":null,"reportingOverrides":null,"attributes":{}}],"taxslug":"category"},{"slug":"story-type","description":null,"id":87,"name":"story-type","terms":[{"modifiedDate":null,"id":83281,"label":"News","slug":"news","description":"Stories written to report the news (e.g., new album or song announcement, the latest on a celebrity).","mgid":"mgid:aodb:term:mtv:83281","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"story-type"},{"slug":"movie","description":null,"id":84,"name":"movie","terms":[{"modifiedDate":null,"id":79000,"label":"Deadpool 2","slug":"deadpool-2","description":null,"mgid":"mgid:aodb:term:mtv:79000","searchIndex":null,"image":null,"adOverrides":{"eventOverride":null,"franchiseOverride":null,"level3Override":null,"contentTypeOverride":null},"reportingOverrides":{"eventRollup":null},"attributes":{}}],"taxslug":"movie"}],
-    		    "dateCreated": "2018-02-07T15:46:32+00:00",
-    		    "author": "Crystal Bell"
     		  }
     		</script>
     		
