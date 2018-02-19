@@ -97,3 +97,10 @@ def genY(file_set):
         size = len(file_list)
         Y = np.vstack(( Y, np.tile(labels[i], (size, 1)) ))
     return(Y)
+
+def convert(A, range_old, range_new):
+    len_old = range_old[1]-range_old[0]
+    len_new = range_new[1]-range_new[0]
+    old_min = np.ones(A.shape)*range_old[0]
+    new_min = np.ones(A.shape)*range_new[0]
+    return (A - old_min)*len_new/len_old + new_min
