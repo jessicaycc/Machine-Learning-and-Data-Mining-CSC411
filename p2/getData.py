@@ -88,8 +88,6 @@ def genX(file_set):
     for file_list in file_set:
         for filename in file_list:
             img = Image.open("processed/"+filename)
-            if np.array(img).ndim != 3:
-                print(np.array(img).ndim)
             x = np.array(img)[:,:,:3].flatten() / 255.
             X = np.vstack((X, x))
     return(X)
