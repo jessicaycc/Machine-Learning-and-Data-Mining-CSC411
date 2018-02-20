@@ -81,21 +81,21 @@ def getSets(act, set_ratio=DATA_SET_RATIO):
     return(set1, set2, set3)
 
 def genX(file_set):
-    X = np.empty((0, VEC_SIZE), float)
+    X = np.empty((0, IN_SIZE), float)
     for file_list in file_set:
         for filename in file_list:
             img = Image.open("processed/"+filename)
             x = np.array(img)[:,:,:3].flatten() / 255.
             X = np.vstack((X, x))
-    return(X)
+    return( convert(X, (0,1), (-1,1)) )
 
 def genY(file_set):
-    labels = np.identity(NUM_ACT)
-    Y = np.empty((0, NUM_ACT), float)
+    labels = np.identity(OUT_SIZE)
+    Y = np.empty((0, OUT_SIZE), float)
     for i, file_list in enumerate(file_set):
         size = len(file_list)
         Y = np.vstack(( Y, np.tile(labels[i], (size, 1)) ))
-    return(Y)
+    return( convert(Y, (0,1), (-1,1)) )
 
 def convert(A, range_old, range_new):
     len_old = range_old[1]-range_old[0]

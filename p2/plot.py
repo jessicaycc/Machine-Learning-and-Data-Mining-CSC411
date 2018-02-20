@@ -6,8 +6,8 @@ from matplotlib.pyplot import clabel
 if not os.path.exists("plots"):
     os.makedirs("plots")
 
-def heatmap(x, filename):
-    img = np.reshape(x, IMG_SHAPE)
+def heatmap(x, filename, shape=IMG_SHAPE):
+    img = np.reshape(x, shape)
     plt.imshow(img, cmap=cm.coolwarm)
     plt.savefig("plots/"+filename+".png", bbox_inches="tight")
     plt.show()

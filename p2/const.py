@@ -1,4 +1,5 @@
 import os
+import time
 #import cPickle
 import _pickle as cPickle
 import numpy as np
@@ -49,5 +50,5 @@ DATA_HASH = 5
 DATA_SIZE = (32, 32)
 DATA_SET_RATIO = (60, 0, 20)
 
-NUM_ACT = 6
-VEC_SIZE = 3072
+OUT_SIZE = 6
+IN_SIZE = 3072
