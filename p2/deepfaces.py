@@ -36,6 +36,9 @@ def part8():
 
     dtype_float = torch.FloatTensor
     dtype_long = torch.LongTensor
+    
+    t = np.arange(1, 1001)
+    acc_test, acc_train, batches = [], [], []
 
     train_idx = np.random.permutation(range(train_x.shape[0]))
     x = torch.from_numpy(train_x[train_idx])
@@ -43,6 +46,11 @@ def part8():
 
     dataset = torch.utils.data.TensorDataset(x, y_classes)
     train_loader = torch.utils.data.DataLoader(dataset, batch_size=16)
+    for data, target in train_loader:
+        batches.append((
+            Variable(data, requires_grad=False).type(dtype_float),
+            Variable(target, requires_grad=False).type(dtype_long)
+        ))
 
     model = torch.nn.Sequential(torch.nn.Linear(dim_x, dim_h), torch.nn.Tanh(), torch.nn.Linear(dim_h, dim_out))
     model.apply(initWeights)
@@ -51,26 +59,24 @@ def part8():
     learning_rate = 1e-5
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
-    t = np.arange(1, 1001)
-    acc_test, acc_train = [], []
+    test_x = Variable(torch.from_numpy(test_x), requires_grad=False).type(dtype_float)
+    train_x = Variable(torch.from_numpy(train_x), requires_grad=False).type(dtype_float)
+
     for epoch in t:
-        for data, target in train_loader:
-            data = Variable(data, requires_grad=False).type(dtype_float)
-            target = Variable(target, requires_grad=False).type(dtype_long)
+        for data, target in batches:
             pred = model(data)
             loss = loss_fn(pred, target)
             model.zero_grad()
             loss.backward()  
             optimizer.step()
             
-        x = Variable(torch.from_numpy(test_x), requires_grad=False).type(dtype_float)
-        y_pred = model(x).data.numpy()
+        y_pred = model(test_x).data.numpy()
         acc_test.append( np.mean(np.argmax(y_pred, 1) == np.argmax(test_y, 1)) )
-        
-        x = Variable(torch.from_numpy(train_x), requires_grad=False).type(dtype_float)
-        y_pred = model(x).data.numpy()
+        y_pred = model(train_x).data.numpy()
         acc_train.append( np.mean(np.argmax(y_pred, 1) == np.argmax(train_y, 1)) )
-
+        
+        if epoch == 700:
+            saveObj(model, "model")
         if epoch % 100 == 0:
             print("Epoch {} - completed".format(epoch))
 

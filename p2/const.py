@@ -12,7 +12,7 @@ if not os.path.exists("objects"):
     os.makedirs("objects")
 
 def saveObj(obj, filename):
-    cPickle.dump(obj, open("objects/"+filename+".pk", "wb"))
+    cPickle.dump(obj, open("objects/"+filename+".pk", "wb"), protocol=2)
     return
 
 def loadObj(filename):
