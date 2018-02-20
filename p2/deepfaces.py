@@ -9,7 +9,7 @@ from torch.autograd import Variable
 from scipy.misc import imread, imresize
 
 torch.manual_seed(0)
-act = ["Lorraine Bracco", "Peri Gilpin", "Angie Harmon", "Alec Baldwin", "Bill Hader", "Steve Carell"]
+class_names = ["Lorraine Bracco", "Peri Gilpin", "Angie Harmon", "Alec Baldwin", "Bill Hader", "Steve Carell"]
 
 #______________________________ PART 10 _____________________________#
 def part10():
@@ -27,7 +27,7 @@ def part10():
                 self.classifier[i].weight = an_builtin.classifier[i].weight
                 self.classifier[i].bias = an_builtin.classifier[i].bias
 
-        def __init__(self, num_classes=1000):
+        def __init__(self, num_classes=6):
             super(MyAlexNet, self).__init__()
             self.features = nn.Sequential(
                 nn.Conv2d(3, 64, kernel_size=11, stride=4, padding=2),
@@ -67,10 +67,10 @@ def part10():
     model.eval()
 
     # read an image
-    im = imread('kiwi227.png')[:,:,:3]
+    im = imread('processed/alec_baldwin1.jpg')[:,:,:3]
     im = im - np.mean(im.flatten())
     im = im/np.max(np.abs(im.flatten()))
-    im = np.rollaxis(im, -1).astype(float32)
+    im = np.rollaxis(im, -1).astype(np.float32)
 
     # turn the image into a numpy variable
     im_v = Variable(torch.from_numpy(im).unsqueeze_(0), requires_grad=False)    
