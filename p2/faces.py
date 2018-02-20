@@ -39,7 +39,9 @@ def part8():
     dtype_long = torch.LongTensor
     
     t = np.arange(1, 1001)
-    acc_test, acc_train, batches = [], [], []
+    batches = []
+    acc_test, acc_train = [], []
+    loss_test, loss_train = [], []
 
     train_idx = np.random.permutation(range(train_x.shape[0]))
     x = torch.from_numpy(train_x[train_idx])
@@ -60,8 +62,10 @@ def part8():
     learning_rate = 1e-5
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
-    test_x = Variable(torch.from_numpy(test_x), requires_grad=False).type(dtype_float)
-    train_x = Variable(torch.from_numpy(train_x), requires_grad=False).type(dtype_float)
+    data_test = Variable(torch.from_numpy(test_x), requires_grad=False).type(dtype_float)
+    target_test = Variable(torch.from_numpy(np.argmax(test_y, 1)), requires_grad=False).type(dtype_long)
+    data_train = Variable(torch.from_numpy(train_x), requires_grad=False).type(dtype_float)
+    target_train = Variable(torch.from_numpy(np.argmax(train_y, 1)), requires_grad=False).type(dtype_long)
 
     for epoch in t:
         for data, target in batches:
@@ -71,18 +75,24 @@ def part8():
             loss.backward()  
             optimizer.step()
             
-        y_pred = model(test_x).data.numpy()
-        acc_test.append( np.mean(np.argmax(y_pred, 1) == np.argmax(test_y, 1)) )
-        y_pred = model(train_x).data.numpy()
-        acc_train.append( np.mean(np.argmax(y_pred, 1) == np.argmax(train_y, 1)) )
+        pred = model(data_test)
+        loss = loss_fn(pred, target_test)
+        acc_test.append(np.mean(np.argmax(pred.data.numpy(), 1) == np.argmax(test_y, 1)))
+        loss_test.append(loss.data.numpy())
         
-        if epoch == 700:
-            saveObj(model, "model")
+        pred = model(data_train)
+        loss = loss_fn(pred, target_train)
+        acc_train.append(np.mean(np.argmax(pred.data.numpy(), 1) == np.argmax(train_y, 1)))
+        loss_train.append(loss.data.numpy())
+        
+        #if epoch == 700:
+        #    saveObj(model, "model")
         if epoch % 100 == 0:
             print("Epoch {} - completed".format(epoch))
 
     print("Max accuracy:", max(acc_test))
-    linegraphVec(acc_test, acc_train, t, "pt8_learning_curve")
+    linegraphVec(acc_test, acc_train, t, "pt8_learning_curve_accuracy")
+    linegraphVec(loss_test, loss_train, t, "pt8_learning_curve_loss")
     return
 
 #______________________________ PART 9 ______________________________#
