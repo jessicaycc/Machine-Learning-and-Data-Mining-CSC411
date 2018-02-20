@@ -1,5 +1,5 @@
 import time
-from calc import *
+from NN import *
 from plot import *
 from scipy.io import loadmat
 

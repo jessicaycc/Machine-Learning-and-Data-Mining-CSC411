@@ -1,4 +1,3 @@
-import os
 import hashlib
 import threading
 from const import *

@@ -1,4 +1,3 @@
-import os
 import matplotlib.pyplot as plt
 from const import *
 from matplotlib import cm

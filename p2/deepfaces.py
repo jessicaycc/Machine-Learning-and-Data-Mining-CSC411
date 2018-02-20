@@ -36,7 +36,6 @@ x = torch.from_numpy(train_x[train_idx])
 y_classes = torch.from_numpy(np.argmax((train_y)[train_idx], 1))
 
 model = torch.nn.Sequential(torch.nn.Linear(dim_x, dim_h), torch.nn.Tanh(), torch.nn.Linear(dim_h, dim_out))
-
 model.apply(initWeights)
 
 loss_fn = torch.nn.CrossEntropyLoss()
@@ -50,7 +49,7 @@ for epoch, (data, target) in enumerate(train_loader):
     print("Epoch", epoch+1)
     data = Variable(data, requires_grad=False).type(dtype_float)
     target = Variable(target, requires_grad=False).type(dtype_long)
-    for t in range(3000):
+    for t in range(2000):
         pred = model(data)
         loss = loss_fn(pred, target)
         model.zero_grad()
@@ -59,6 +58,8 @@ for epoch, (data, target) in enumerate(train_loader):
         if (t+1) % 100 == 0:
             print("Iter", t+1)
     print("\n")
+
+#saveObj(model, "model")
 
 x = Variable(torch.from_numpy(test_x), requires_grad=False).type(dtype_float)
 y_pred = model(x).data.numpy()

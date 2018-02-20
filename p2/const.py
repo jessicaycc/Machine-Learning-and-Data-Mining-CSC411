@@ -1,8 +1,21 @@
+import os
+#import cPickle
+import _pickle as cPickle
 import numpy as np
 from numpy import dot
 from numpy import log
 from numpy import exp
 from numpy.linalg import norm
+
+if not os.path.exists("objects"):
+    os.makedirs("objects")
+
+def saveObj(obj, filename):
+    cPickle.dump(obj, open("objects/"+filename+".pk", "wb"))
+    return
+
+def loadObj(filename):
+    return cPickle.load(open("objects/"+filename+".pk", "rb"))
 
 np.random.seed(0)
 
