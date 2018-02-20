@@ -30,16 +30,19 @@ def part8():
     test_x = genX(test_set)
     test_y = genY(test_set)
 
-    dim_x = IN_SIZE
+    dim_x = 3072
     dim_h = 30
-    dim_out = OUT_SIZE
+    dim_out = 6
 
     dtype_float = torch.FloatTensor
     dtype_long = torch.LongTensor
 
-    train_idx = np.random.permutation(range(train_x.shape[0]))[:550]
+    train_idx = np.random.permutation(range(train_x.shape[0]))
     x = torch.from_numpy(train_x[train_idx])
     y_classes = torch.from_numpy(np.argmax((train_y)[train_idx], 1))
+
+    dataset = torch.utils.data.TensorDataset(x, y_classes)
+    train_loader = torch.utils.data.DataLoader(dataset, batch_size=16)
 
     model = torch.nn.Sequential(torch.nn.Linear(dim_x, dim_h), torch.nn.Tanh(), torch.nn.Linear(dim_h, dim_out))
     model.apply(initWeights)
@@ -48,29 +51,31 @@ def part8():
     learning_rate = 1e-5
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
-    dataset = torch.utils.data.TensorDataset(x, y_classes)
-    train_loader = torch.utils.data.DataLoader(dataset, batch_size=50)
-
-    for epoch, (data, target) in enumerate(train_loader):
-        print("Epoch", epoch+1)
-        data = Variable(data, requires_grad=False).type(dtype_float)
-        target = Variable(target, requires_grad=False).type(dtype_long)
-        for t in range(2000):
+    t = np.arange(1, 1001)
+    acc_test, acc_train = [], []
+    for epoch in t:
+        for data, target in train_loader:
+            data = Variable(data, requires_grad=False).type(dtype_float)
+            target = Variable(target, requires_grad=False).type(dtype_long)
             pred = model(data)
             loss = loss_fn(pred, target)
             model.zero_grad()
             loss.backward()  
             optimizer.step()
-            if (t+1) % 100 == 0:
-                print("Iter", t+1)
-        print("\n")
+            
+        x = Variable(torch.from_numpy(test_x), requires_grad=False).type(dtype_float)
+        y_pred = model(x).data.numpy()
+        acc_test.append( np.mean(np.argmax(y_pred, 1) == np.argmax(test_y, 1)) )
+        
+        x = Variable(torch.from_numpy(train_x), requires_grad=False).type(dtype_float)
+        y_pred = model(x).data.numpy()
+        acc_train.append( np.mean(np.argmax(y_pred, 1) == np.argmax(train_y, 1)) )
 
-    #saveObj(model, "model")
+        if epoch % 100 == 0:
+            print("Epoch {} - completed".format(epoch))
 
-    x = Variable(torch.from_numpy(test_x), requires_grad=False).type(dtype_float)
-    y_pred = model(x).data.numpy()
-    accuracy = np.mean(np.argmax(y_pred, 1) == np.argmax(test_y, 1))
-    print(accuracy)
+    print("Max accuracy:", max(acc_test))
+    linegraphVec(acc_test, acc_train, t, "pt8_learning_curve")
     return
 
 #______________________________ PART 9 ______________________________#
@@ -83,8 +88,8 @@ def part9():
 if __name__ == "__main__":
     start = time.time()
 
-    #part8()
-    part9()
+    part8()
+    #part9()
 
     end = time.time()
     print("Time elapsed:", end-start)

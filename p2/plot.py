@@ -13,9 +13,16 @@ def heatmap(x, filename, shape=IMG_SHAPE):
     plt.show()
     return
 
-def linegraph(f, x, filename):
+def linegraphFunc(f, x, filename):
     y = np.vectorize(f, otypes=[float])(x)
     plt.plot(x, y)
+    plt.savefig("plots/"+filename+".png", bbox_inches="tight")
+    plt.show()
+    return
+
+def linegraphVec(y1, y2, x, filename):
+    plt.plot(x, y1)
+    plt.plot(x, y2)
     plt.savefig("plots/"+filename+".png", bbox_inches="tight")
     plt.show()
     return

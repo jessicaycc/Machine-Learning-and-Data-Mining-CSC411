@@ -78,6 +78,7 @@ def part4():
 #______________________________ PART 5 ______________________________#
 def part5():
     def f(n):
+        n = n if n else 1
         X = genX(M, TRAIN, n)
         Y = genY(M, TRAIN, n)
         W = np.zeros((NUM_LABEL, NUM_FEAT))
@@ -93,8 +94,8 @@ def part5():
         print "({}, {}) - point generated".format(n, res)
         return res
 
-    x = np.arange(1, 100, 10)
-    linegraph(f, x, "pt5_learning_curve")
+    x = np.arange(0, 100, 10)
+    linegraphFunc(f, x, "pt5_learning_curve")
     return
 
 #______________________________ PART 6 ______________________________#
