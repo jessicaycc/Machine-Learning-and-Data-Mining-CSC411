@@ -1,6 +1,61 @@
 from plot import *
 from getdata import *
 
+def visWeights(m):
+    W = convert(np.array(m.weight.data), (-1,1), (0,255))
+    for i in range(len(W)):
+        name = "pt9_weight_"+str(i)
+        img = np.reshape(W[i],(32,32,3))
+        R = img[:, :, 0]
+        G = img[:, :, 1]
+        B = img[:, :, 2]
+        img = R + G + B
+        plt.imshow(img, cmap=cm.coolwarm)
+        plt.savefig("plots/"+name+".png", bbox_inches="tight")
+        plt.show()
+    return
+
+def visWeightsNegPos(m):   
+    W = np.array(m.weight.data)
+    for i in range(len(W)):
+        name = "pt9_weight_"+str(i)
+        img = np.reshape(W[i],(32,32,3))
+        R = img[:, :, 0]
+        negR = R
+        R = R.clip(0)
+        negR = np.clip(negR, -5, 0)
+        R = convert(R, (0,1), (0,255))
+        negR = convert(negR, (-1,0), (0,255))
+        
+        G = img[:, :, 1]
+        negG = G
+        G = G.clip(0)
+        negG = np.clip(negG, -5, 0)
+        G = convert(G, (0,1), (0,255))
+        negG = convert(negG, (-1,0), (0,255))
+
+        B = img[:, :, 2]
+        negB = B
+        B = B.clip(0)
+        negB = np.clip(negB, -5, 0)
+        B = convert(B, (0,1), (0,255))
+        negB = convert(negB, (-1,0), (0,255))
+
+        img = R + G + B
+        negImg = negR +negG +negB
+        f = plt.figure()
+        f.add_subplot(1,2,1)
+        plt.imshow(img, cmap=cm.coolwarm)
+        #plt.title("pos")
+        f.add_subplot(1,2,2)
+        plt.imshow(negImg, cmap=cm.coolwarm)
+        #plt.title("neg")
+        #plt.savefig("plots/"+name+".png", bbox_inches="tight")
+        
+        plt.show(block=True)
+        
+    return
+
 #______________________________ PART 8 ______________________________#
 def part8():
     getData(act, (32, 32), download=False)
@@ -80,15 +135,42 @@ def part8():
 
 #______________________________ PART 9 ______________________________#
 def part9():
-    model = loadObj('model')
-    model.apply(visWeights)
+    dim_x = 3072
+    dim_h = 30
+    dim_out = 6
+    model = loadObj("model")
+    dtype_float = torch.FloatTensor
+    model[0].apply(visWeights)
+    model2 = nn.Sequential(nn.Linear(dim_x, dim_h), nn.Tanh())
+    model2[0].weight = model[0].weight
+    model2[0].bias = model[0].bias
+    train_set, test_set, _ = getSets(act, (60, 20, 0), 'processed/32x32')
+   
+    train_x = genX(train_set, 3072, 'processed/32x32')
+    print ("Lorraine Bracco")
+    img = train_x[:84, :]
+    X = Variable(torch.from_numpy(img), requires_grad = False).type(dtype_float)
+    out = model2[0].forward(X).data.numpy()
+    activation = np.argmax(out, 1).tolist()
+    ans = max(set(activation), key=activation.count)
+    print (ans)
+    
+    print ("Steven Carell")
+    img = train_x[449:556, :]
+    X = Variable(torch.from_numpy(img), requires_grad = False).type(dtype_float)
+    out = model2[0].forward(X).data.numpy()
+
+    activation = np.argmax(out,1).tolist()
+    ans = max(set(activation), key=activation.count)
+    print (ans)
+    
     return
 
 #_______________________________ MAIN _______________________________#
 if __name__ == '__main__':
     start = time.time()
 
-    part8()
+    #part8()
     part9()
 
     end = time.time()

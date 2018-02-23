@@ -128,12 +128,12 @@ def convert(A, range_old, range_new):
     new_min = np.ones(A.shape)*range_new[0]
     return (A - old_min)*len_new/len_old + new_min
 
-def visWeights(model):
-    if isinstance(model, nn.Linear):
-        W = convert(np.array(model.weight.data), (-1,1), (0,255))
-        for i in range(len(W)):
-            heatmap(W[i], (32,32,3), 'pt9_weight_'+str(i))
-    return
+#def visWeights(model):
+#    if isinstance(model, nn.Linear):
+#        W = convert(np.array(model.weight.data), (-1,1), (0,255))
+#        for i in range(len(W)):
+#            heatmap(W[i], (32,32,3), 'pt9_weight_'+str(i))
+#    return
 
 def imgs2obj(model, dir):
     if not os.path.exists('objects/AlexNet'):
