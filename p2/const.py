@@ -11,11 +11,11 @@ if not os.path.exists('objects'):
     os.makedirs('objects')
 
 def saveObj(obj, filename):
-    _pickle.dump(obj, open('objects/'+filename+'.pk', 'wb'))
+    _pickle.dump(obj, open('objects/'+filename+'.obj', 'wb'))
     return
 
 def loadObj(filename):
-    return _pickle.load(open('objects/'+filename+'.pk', 'rb'))
+    return _pickle.load(open('objects/'+filename+'.obj', 'rb'))
 
 np.random.seed(0)
 

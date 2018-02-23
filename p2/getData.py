@@ -50,7 +50,7 @@ def process(filename, data, res):
 
     return
 
-def search(name, textFile, res, download):
+def search(name, textFile, res, download=True):
     for i, line in enumerate(l for l in open(textFile) if name in l):
         data = line.strip('\r\n').split('\t')
         ext = '.' + data[DATA_URL].split('.')[-1]

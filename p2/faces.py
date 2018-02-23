@@ -7,15 +7,15 @@ from torch.autograd import Variable
 
 torch.manual_seed(0)
 
-def initWeights(m):
-    if isinstance(m, nn.Linear):
-        nn.init.xavier_uniform(m.weight.data)
-        nn.init.constant(m.bias, 0.1)
+def initWeights(model):
+    if isinstance(model, nn.Linear):
+        nn.init.xavier_uniform(model.weight.data)
+        nn.init.constant(model.bias, 0.1)
     return
 
-def visWeights(m):
-    if isinstance(m, nn.Linear):
-        W = convert(np.array(m.weight.data), (-1,1), (0,255))
+def visWeights(model):
+    if isinstance(model, nn.Linear):
+        W = convert(np.array(model.weight.data), (-1,1), (0,255))
         for i in range(len(W)):
             heatmap(W[i], (32,32,3), 'pt9_weight_'+str(i))
     return
