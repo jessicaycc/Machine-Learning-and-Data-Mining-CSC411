@@ -75,6 +75,7 @@ def gradDescent(X, Y, W0, b0, momentum=False, out=True):
     b = b0.copy()
     WPrev = W0 - 10*EPS
     bPrev = b0 - 10*EPS
+
     while (norm(W-WPrev)>EPS or norm(b-bPrev)>EPS) and i<MAX_ITER:
         WPrev = W.copy()
         bPrev = b.copy()
@@ -88,8 +89,8 @@ def gradDescent(X, Y, W0, b0, momentum=False, out=True):
             W -= ALPHA * dC_weight(X, Y, P)
             b -= ALPHA * dC_bias(X, Y, P)
         if i % 500 == 0 and out:
-            print "Iter", i
-            print "C(Y, P) =", C(Y, P), "\n"
+            print('Iter', i)
+            print('C(Y, P) =', C(Y, P), '\n')
         i += 1
     return W, b
 
@@ -100,6 +101,7 @@ def genPath(X, Y, W0, b0, i, j, p, q, momentum=False):
     b = b0.copy()
     path = [(1.4, 1.4)]
     W[i][j], W[p][q] = path[0]
+    
     if momentum:
         Z = W.copy()
         v = b.copy()

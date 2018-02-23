@@ -2,7 +2,7 @@ from NN import *
 from plot import *
 from scipy.io import loadmat
 
-M = loadmat("data/mnist_all.mat")
+M = loadmat('data/mnist_all.mat')
 
 #______________________________ PART 3 ______________________________#
 def part3():
@@ -27,7 +27,7 @@ def part3():
         else:
             continue
 
-    print "Weight gradient relative error:", weightErr/k
+    print('Weight gradient relative error:', weightErr/k)
     
     k = 0.
     grad = dC_bias(X, Y, P)
@@ -37,7 +37,7 @@ def part3():
             biasErr += relativeError(grad[i][0], diff)
             k += 1.
     
-    print "Bias gradient relative error:", biasErr/k
+    print('Bias gradient relative error:', biasErr/k)
     return
 
 #______________________________ PART 4 ______________________________#
@@ -55,7 +55,7 @@ def part4():
         P = classify(X, Y, W, b)
         res = accuracy(P, Y)
 
-        print "({}, {}) - point generated".format(n, res)
+        print('({}, {}) - point generated'.format(n, res))
         return res
     
     X = genX(M, TRAIN, 500)
@@ -64,15 +64,15 @@ def part4():
     b = np.zeros((NUM_LABEL, 1))
 
     W, b = gradDescent(X, Y, W, b)
-    #W, b = loadObj("weights"), loadObj("bias")
-    #saveObj(W, "weights")
-    #saveObj(b, "bias")
+    #W, b = loadObj('weights'), loadObj('bias')
+    #saveObj(W, 'weights')
+    #saveObj(b, 'bias')
 
     for i in range(len(W)):
-        heatmap(W[i], "pt4_weight_" + str(i))
+        heatmap(W[i], 'pt4_weight_' + str(i))
 
     x = np.arange(1, 100, 10)
-    linegraph(f, x, "pt4_learning_curve")
+    linegraphFunc(f, x, 'pt4_learning_curve')
     return
 
 #______________________________ PART 5 ______________________________#
@@ -91,19 +91,19 @@ def part5():
         P = classify(X, Y, W, b)
         res = accuracy(P, Y)
 
-        print "({}, {}) - point generated".format(n, res)
+        print('({}, {}) - point generated'.format(n, res))
         return res
 
     x = np.arange(0, 100, 10)
-    linegraphFunc(f, x, "pt5_learning_curve")
+    linegraphFunc(f, x, 'pt5_learning_curve')
     return
 
 #______________________________ PART 6 ______________________________#
 def part6():
     X = genX(M, TRAIN, 500)
     Y = genY(M, TRAIN, 500)
-    W = loadObj("weights")
-    b = loadObj("bias")
+    W = loadObj('weights')
+    b = loadObj('bias')
 
     path = genPath(X, Y, W, b, 5, 150, 6, 150)
     pathM = genPath(X, Y, W, b, 5, 150, 6, 150, momentum=True)
@@ -120,17 +120,17 @@ def part6():
             P = forward(X, W, b)
             cost[i][j] = C(Y, P)
     
-    contourLine(w1z, w2z, cost, path, pathM, "pt6_contour")
+    contour(w1z, w2z, cost, path, pathM, 'pt6_contour')
     return
 
 #_______________________________ MAIN _______________________________#
-if __name__ == "__main__":
+if __name__ == '__main__':
     start = time.time()
 
-    #part3()
-    #part4()
-    #part5()
-    #part6()
+    part3()
+    part4()
+    part5()
+    part6()
 
     end = time.time()
-    print "Time elapsed:", end-start
+    print('Time elapsed:', end-start)
