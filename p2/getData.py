@@ -1,8 +1,17 @@
+import torch
 import hashlib
 import threading
+import torchvision
+import torch.nn as nn
+import torch.utils.data
+import torchvision.models as models
 from const import *
 from PIL import Image
+from torch.autograd import Variable
 from urllib.request import urlretrieve
+from scipy.misc import imread, imresize
+
+torch.manual_seed(0)
 
 if not os.path.exists('original'):
     os.makedirs('original')
@@ -81,7 +90,7 @@ def getSets(act, set_ratio, dir):
     set_ratio = [float(x)/sum(set_ratio) for x in set_ratio]
     for name in act:
         filename = name.replace(' ', '_').lower()
-        database = [f for f in os.listdir('processed/'+dir) if f.startswith(filename)]
+        database = [f for f in os.listdir(dir) if f.startswith(filename)]
         size = [int(x*len(database)) for x in set_ratio]
         sample = np.random.choice(database, sum(size), replace=False)
         set1.append(sample[:size[0]])
@@ -90,17 +99,23 @@ def getSets(act, set_ratio, dir):
     return set1, set2, set3
 
 def genX(file_set, num_features, dir):
-    X = np.empty((0, num_features), float)
-    for file_list in file_set:
-        for filename in file_list:
-            img = Image.open('processed/{}/{}'.format(dir, filename))
-            x = np.array(img)[:,:,:3].flatten() / 255.
-            X = np.vstack((X, x))
+    X = np.empty((0, num_features), np.float32)
+    if dir.startswith('processed'):
+        for file_list in file_set:
+            for filename in file_list:
+                img = Image.open('{}/{}'.format(dir, filename))
+                x = np.array(img)[:,:,:3].flatten() / 255.
+                X = np.vstack((X, x))
+    elif dir.startswith('objects'):
+        for file_list in file_set:
+            for filename in file_list:
+                x = loadObj('AlexNet/'+filename.split('.')[0])
+                X = np.vstack((X, x))
     return X
 
 def genY(file_set, num_labels):
     labels = np.identity(num_labels)
-    Y = np.empty((0, num_labels), float)
+    Y = np.empty((0, num_labels), np.float32)
     for i, file_list in enumerate(file_set):
         size = len(file_list)
         Y = np.vstack(( Y, np.tile(labels[i], (size, 1)) ))
@@ -112,3 +127,27 @@ def convert(A, range_old, range_new):
     old_min = np.ones(A.shape)*range_old[0]
     new_min = np.ones(A.shape)*range_new[0]
     return (A - old_min)*len_new/len_old + new_min
+
+def visWeights(model):
+    if isinstance(model, nn.Linear):
+        W = convert(np.array(model.weight.data), (-1,1), (0,255))
+        for i in range(len(W)):
+            heatmap(W[i], (32,32,3), 'pt9_weight_'+str(i))
+    return
+
+def imgs2obj(model, dir):
+    if not os.path.exists('objects/AlexNet'):
+        os.makedirs('objects/AlexNet')
+    for filename in os.listdir('processed/'+dir):
+        im = imread('processed/{}/{}'.format(dir, filename))[:,:,:3]
+        im = im - np.mean(im.flatten())
+        im = im/np.max(np.abs(im.flatten()))
+        im = np.rollaxis(im, -1).astype(np.float32)
+
+        im_v = Variable(torch.from_numpy(im).unsqueeze_(0), requires_grad=False)
+        im_v = model.forward(im_v).data.numpy()
+        filename = filename.split('.')[0]
+
+        saveObj(im_v, 'AlexNet/' + filename)
+        print(filename, '- success')
+    return

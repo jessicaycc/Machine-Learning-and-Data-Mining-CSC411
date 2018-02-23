@@ -7,6 +7,8 @@ from numpy import log
 from numpy import exp
 from numpy.linalg import norm
 
+np.random.seed(0)
+
 if not os.path.exists('objects'):
     os.makedirs('objects')
 
@@ -16,8 +18,6 @@ def saveObj(obj, filename):
 
 def loadObj(filename):
     return _pickle.load(open('objects/'+filename+'.obj', 'rb'))
-
-np.random.seed(0)
 
 # For parts 1-7
 NUM_FEAT = 784

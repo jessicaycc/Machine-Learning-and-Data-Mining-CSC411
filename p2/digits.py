@@ -127,10 +127,10 @@ def part6():
 if __name__ == '__main__':
     start = time.time()
 
-    #part3()
-    #part4()
-    #part5()
-    #part6()
+    part3()
+    part4()
+    part5()
+    part6()
 
     end = time.time()
     print('Time elapsed:', end-start)

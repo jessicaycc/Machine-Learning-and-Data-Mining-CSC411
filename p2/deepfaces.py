@@ -1,14 +1,5 @@
-import torch
-import torchvision
-import numpy as np
-import torch.nn as nn
-import torchvision.models as models
 from plot import *
 from getdata import *
-from torch.autograd import Variable
-from scipy.misc import imread, imresize
-
-torch.manual_seed(0)
 
 class AlexNet(nn.Module):
     def init_weights(self):
@@ -41,7 +32,7 @@ class AlexNet(nn.Module):
 
     def forward(self, x):
         x = self.features(x)
-        x = x.view(x.size(0), 256*6*6)
+        x = x.view(x.size(0), 9216)
         return x
 
 class Classify(nn.Module):
@@ -53,10 +44,10 @@ class Classify(nn.Module):
         nn.init.constant(self.classifier[2].bias, 0.1)
 
     def __init__(self):
-        super(MyAlexNet, self).__init__()
+        super(Classify, self).__init__()
         self.classifier = nn.Sequential(
-            nn.Linear(256*6*6, 30),
-            nn.Tanh(inplace=True),
+            nn.Linear(9216, 30),
+            nn.Tanh(),
             nn.Linear(30, 6)
         )
         
@@ -65,45 +56,75 @@ class Classify(nn.Module):
     def forward(self, x):
         return self.classifier(x)
 
-def img2obj(model, filename, dir):
-    im = imread('processed/{}/{}'.format(dir, filename))[:,:,:3]
-    im = im - np.mean(im.flatten())
-    im = im/np.max(np.abs(im.flatten()))
-    im = np.rollaxis(im, -1).astype(np.float32)
-
-    im_v = Variable(torch.from_numpy(im).unsqueeze_(0), requires_grad=False)
-    im_v = model.forward(im_v)
-    filename = filename.split('.')[0]
-
-    if not os.path.exists('objects/AlexNet'):
-        os.makedirs('objects/AlexNet')
-    try:
-        saveObj(im_v, 'AlexNet/' + filename)
-        print(filename, '- success')
-    except IOError as err:
-        print('{} - failed with error: {}'.format(filename, err.args[0]))
-    return
-
 #______________________________ PART 10 _____________________________#
 def part10():
-    #getData(act, (227, 227), download=False)
+    getData(act, (227, 227), download=False)
+    imgs2obj(AlexNet().eval(), '227x227')
 
-    model = AlexNet()
-    model.eval()
+    dim_x = 9216
+    dim_h = 30
+    dim_out = 6
 
-    for f in os.listdir('processed/227x227'):
-        img2obj(model, f, '227x227')
+    dtype_float = torch.FloatTensor
+    dtype_long = torch.LongTensor
 
-#    softmax = nn.Softmax()
-#    all_probs = softmax(model.forward(im_v)).data.numpy()[0]
-#    sorted_ans = np.argsort(all_probs)
-#
-#    for i in range(-1, -6, -1):
-#        print('Answer:', class_names[sorted_ans[i]], ', Prob:', all_probs[sorted_ans[i]])
-#
-#    ans = np.argmax(model.forward(im_v).data.numpy())
-#    prob_ans = softmax(model.forward(im_v)).data.numpy()[0][ans]
-#    print('Top Answer:', class_names[ans], 'P(ans) = ', prob_ans)
+    train_set, test_set, _ = getSets(act, (60, 20, 0), 'objects/AlexNet')
+    train_x = genX(train_set, dim_x, 'objects/AlexNet')
+    train_y = genY(train_set, dim_out)
+    test_x  = genX(test_set,  dim_x, 'objects/AlexNet')
+    test_y  = genY(test_set,  dim_out)
+    
+    batches = list()
+    acc_test, acc_train = list(), list()
+    loss_test, loss_train = list(), list()
+
+    train_idx = np.random.permutation(range(train_x.shape[0]))
+    x = torch.from_numpy(train_x[train_idx])
+    y_classes = torch.from_numpy(np.argmax((train_y)[train_idx], 1))
+
+    dataset = torch.utils.data.TensorDataset(x, y_classes)
+    train_loader = torch.utils.data.DataLoader(dataset, batch_size=16)
+    for data, target in train_loader:
+        batches.append((
+            Variable(data,   requires_grad=False).type(dtype_float),
+            Variable(target, requires_grad=False).type(dtype_long)
+        ))
+
+    model = Classify().eval()
+    loss_fn = nn.CrossEntropyLoss()
+    learning_rate = 1e-5
+    optimizer = torch.optim.Adam(model.classifier.parameters(), lr=learning_rate)
+
+    data_test    = Variable(torch.from_numpy(test_x),                requires_grad=False).type(dtype_float)
+    target_test  = Variable(torch.from_numpy(np.argmax(test_y, 1)),  requires_grad=False).type(dtype_long)
+    data_train   = Variable(torch.from_numpy(train_x),               requires_grad=False).type(dtype_float)
+    target_train = Variable(torch.from_numpy(np.argmax(train_y, 1)), requires_grad=False).type(dtype_long)
+
+    t = np.arange(1, 1001)
+    for epoch in t:
+        for data, target in batches:
+            pred = model.forward(data)
+            loss = loss_fn(pred, target)
+            model.classifier.zero_grad()
+            loss.backward()  
+            optimizer.step()
+            
+        pred = model.forward(data_test)
+        loss = loss_fn(pred, target_test)
+        acc_test.append(np.mean(np.argmax(pred.data.numpy(), 1) == np.argmax(test_y, 1)))
+        loss_test.append(loss.data.numpy())
+        
+        pred = model.forward(data_train)
+        loss = loss_fn(pred, target_train)
+        acc_train.append(np.mean(np.argmax(pred.data.numpy(), 1) == np.argmax(train_y, 1)))
+        loss_train.append(loss.data.numpy())
+        
+        if epoch % 100 == 0:
+            print('Epoch {} - completed'.format(epoch))
+
+    print('Max accuracy:', max(acc_test))
+    linegraphVec(acc_test, acc_train, t, 'pt10_learning_curve_accuracy')
+    linegraphVec(loss_test, loss_train, t, 'pt10_learning_curve_loss')
     return
 
 #_______________________________ MAIN _______________________________#
