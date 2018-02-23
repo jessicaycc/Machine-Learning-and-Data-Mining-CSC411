@@ -10,7 +10,7 @@ def heatmap(x, shape, filename):
     img = np.reshape(x, shape)
     plt.imshow(img, cmap=cm.coolwarm)
     plt.savefig('plots/'+filename+'.png', bbox_inches='tight')
-    #plt.show()
+    plt.show()
     return
 
 def linegraphFunc(f, x, filename):

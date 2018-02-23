@@ -26,8 +26,6 @@ IMG_SHAPE = (28, 28)
 
 STEP = 100
 EPS = 1e-5
-GAMMA = 0.99
-ALPHA = 0.025
 MAX_ITER = 10000
 
 TEST = 'test'

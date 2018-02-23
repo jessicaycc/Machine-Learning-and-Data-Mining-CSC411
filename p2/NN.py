@@ -68,6 +68,8 @@ def relativeError(a, b):
 
 def gradDescent(X, Y, W0, b0, momentum=False, out=True):
     i = 0
+    MR = 0.99
+    LR = 1e-4 if momentum else 0.005
     if momentum:
         Z = W0.copy()
         v = b0.copy()
@@ -81,13 +83,13 @@ def gradDescent(X, Y, W0, b0, momentum=False, out=True):
         bPrev = b.copy()
         P = forward(X, W, b)
         if momentum:
-            Z = GAMMA * Z + ALPHA * dC_weight(X, Y, P)
-            v = GAMMA * v + ALPHA * dC_bias(X, Y, P)
+            Z = MR * Z + LR * dC_weight(X, Y, P)
+            v = MR * v + LR * dC_bias(X, Y, P)
             W -= Z
             b -= v
         else:
-            W -= ALPHA * dC_weight(X, Y, P)
-            b -= ALPHA * dC_bias(X, Y, P)
+            W -= LR * dC_weight(X, Y, P)
+            b -= LR * dC_bias(X, Y, P)
         if i % 500 == 0 and out:
             print('Iter', i)
             print('C(Y, P) =', C(Y, P), '\n')
