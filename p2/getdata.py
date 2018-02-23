@@ -128,12 +128,61 @@ def convert(A, range_old, range_new):
     new_min = np.ones(A.shape)*range_new[0]
     return (A - old_min)*len_new/len_old + new_min
 
-#def visWeights(model):
-#    if isinstance(model, nn.Linear):
-#        W = convert(np.array(model.weight.data), (-1,1), (0,255))
-#        for i in range(len(W)):
-#            heatmap(W[i], (32,32,3), 'pt9_weight_'+str(i))
-#    return
+def visWeights(m):
+    W = convert(np.array(m.weight.data), (-1,1), (0,255))
+    for i in range(len(W)):
+        name = 'pt9_weight_'+str(i)
+        img = np.reshape(W[i], (32,32,3))
+        R = img[:,:,0]
+        G = img[:,:,1]
+        B = img[:,:,2]
+        img = R + G + B
+        plt.imshow(img, cmap=cm.coolwarm)
+        plt.savefig('plots/'+name+'.png', bbox_inches='tight')
+        plt.show()
+    return
+
+def visWeightsNegPos(m):
+    W = np.array(m.weight.data)
+
+    for i in range(len(W)):
+        name = 'pt9_weight_'+str(i)
+        img = np.reshape(W[i], (32,32,3))
+
+        R = img[:,:,0]
+        negR = R
+        R = R.clip(0)
+        negR = np.clip(negR, -5, 0)
+        R = convert(R, (0,1), (0,255))
+        negR = convert(negR, (-1,0), (0,255))
+        
+        G = img[:,:,1]
+        negG = G
+        G = G.clip(0)
+        negG = np.clip(negG, -5, 0)
+        G = convert(G, (0,1), (0,255))
+        negG = convert(negG, (-1,0), (0,255))
+
+        B = img[:,:,2]
+        negB = B
+        B = B.clip(0)
+        negB = np.clip(negB, -5, 0)
+        B = convert(B, (0,1), (0,255))
+        negB = convert(negB, (-1,0), (0,255))
+
+        img = R + G + B
+        negImg = negR + negG + negB
+        f = plt.figure()
+        f.add_subplot(1, 2, 1)
+        plt.imshow(img, cmap=cm.coolwarm)
+        #plt.title('pos')
+        f.add_subplot(1, 2, 2)
+        plt.imshow(negImg, cmap=cm.coolwarm)
+        #plt.title('neg')
+        #plt.savefig('plots/'+name+'.png', bbox_inches='tight')
+        plt.show(block=True)
+ 
+    return
 
 def imgs2obj(model, dir):
     if not os.path.exists('objects/AlexNet'):
