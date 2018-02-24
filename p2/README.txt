@@ -1,0 +1,1 @@
+Please add all data files (facescrub.txt and mnist_all.mat) to folder called data!
