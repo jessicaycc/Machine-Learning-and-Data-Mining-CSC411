@@ -6,6 +6,7 @@ import torch.nn as nn
 import torch.utils.data
 import torchvision.models as models
 from const import *
+from plot import *
 from PIL import Image
 from torch.autograd import Variable
 from urllib.request import urlretrieve

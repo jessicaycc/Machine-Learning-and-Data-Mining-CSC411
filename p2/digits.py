@@ -66,8 +66,8 @@ def part4():
 
     W, b = gradDescent(X, Y, W, b)
     #W, b = loadObj('weights'), loadObj('bias')
-    #saveObj(W, 'weights')
-    #saveObj(b, 'bias')
+    saveObj(W, 'weights')
+    saveObj(b, 'bias')
 
     for i in range(len(W)):
         heatmap(W[i], (28,28), 'pt4_weight_' + str(i))
@@ -105,7 +105,7 @@ def part6():
     Y = genY(M, TRAIN, 500)
     W = loadObj('weights')
     b = loadObj('bias')
-
+    #5 ,150, 6, 150
     path = genPath(X, Y, W, b, 5, 150, 6, 150)
     pathM = genPath(X, Y, W, b, 5, 150, 6, 150, momentum=True)
 
@@ -124,14 +124,40 @@ def part6():
     contour(w1z, w2z, cost, path, pathM, 'pt6_contour')
     return
 
+#______________________________ PART 6e ______________________________#
+def part6e():
+    X = genX(M, TRAIN, 500)
+    Y = genY(M, TRAIN, 500)
+    W = loadObj('weights')
+    b = loadObj('bias')
+    
+    path = genPath6e(X, Y, W, b, 0, 150, 0, 600)
+    pathM = genPath6e(X, Y, W, b, 0, 150, 0, 600, momentum=True)
+
+    w1s = np.arange(-1, 1.5, 0.1)
+    w2s = np.arange(-1, 1.5, 0.1)
+    w1z, w2z = np.meshgrid(w1s, w2s)
+
+    cost = np.zeros((w1s.size, w2s.size))
+    for i, w1 in enumerate(w1s):
+        for j, w2 in enumerate(w2s):
+            W[0][150] = w1
+            W[0][600] = w2
+            P = forward(X, W, b)
+            cost[i][j] = C(Y, P)
+    
+    contour(w1z, w2z, cost, path, pathM, 'pt6_contour')
+    return    
+
 #_______________________________ MAIN _______________________________#
 if __name__ == '__main__':
     start = time.time()
 
-    part3()
-    part4()
-    part5()
+    #part3()
+    #part4()
+    #part5()
     part6()
+    #part6e()
 
     end = time.time()
     print('Time elapsed:', end-start)

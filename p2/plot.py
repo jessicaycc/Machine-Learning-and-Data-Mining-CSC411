@@ -21,8 +21,9 @@ def linegraphFunc(f, x, filename):
     return
 
 def linegraphVec(y1, y2, x, filename):
-    plt.plot(x, y1)
-    plt.plot(x, y2)
+    plt.plot(x, y1, label="validation")
+    plt.plot(x, y2, label = "training")
+    plt.legend(loc="lower left")
     plt.savefig('plots/'+filename+'.png', bbox_inches='tight')
     plt.show()
     return
@@ -32,6 +33,8 @@ def contour(x, y, M, p1, p2, filename):
     clabel(cs, inline=1, fontsize=10)
     plt.plot([a for a,b in p1], [b for a,b in p1], 'yo-', label='No Momentum')
     plt.plot([a for a,b in p2], [b for a,b in p2], 'ro-', label='Momentum')
+    plt.xlabel("W1")
+    plt.ylabel("W2")
     plt.legend(loc='lower left')
     plt.savefig('plots/'+filename+'.png', bbox_inches='tight')
     plt.show()
