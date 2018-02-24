@@ -61,18 +61,18 @@ def part4():
         print('({}, {}) - point generated'.format(n, res_test))
         return res_test, res_train
     
-    #X = genX(M, TRAIN, 500)
-    #Y = genY(M, TRAIN, 500)
-    #W = np.zeros((NUM_LABEL, NUM_FEAT))
-    #b = np.zeros((NUM_LABEL, 1))
+    X = genX(M, TRAIN, 500)
+    Y = genY(M, TRAIN, 500)
+    W = np.zeros((NUM_LABEL, NUM_FEAT))
+    b = np.zeros((NUM_LABEL, 1))
 
-    #W, b = gradDescent(X, Y, W, b)
+    W, b = gradDescent(X, Y, W, b)
     #W, b = loadObj('weights'), loadObj('bias')
-    #saveObj(W, 'weights')
-    #saveObj(b, 'bias')
+    saveObj(W, 'weights')
+    saveObj(b, 'bias')
 
-    #for i in range(len(W)):
-    #    heatmap(W[i], (28,28), 'pt4_weight_' + str(i))
+    for i in range(len(W)):
+        heatmap(W[i], (28,28), 'pt4_weight_' + str(i))
 
     y1, y2 = list(), list()
     x = np.arange(0, 210, 10)
