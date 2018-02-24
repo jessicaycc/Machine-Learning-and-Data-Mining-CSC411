@@ -3,7 +3,7 @@ from getdata import *
 
 #______________________________ PART 8 ______________________________#
 def part8():
-    #getData(act, (32, 32), download=False)
+    getData(act, (32, 32), download=True)
 
     dim_x = 3072
     dim_h = 30
@@ -115,7 +115,7 @@ def part9():
 if __name__ == '__main__':
     start = time.time()
 
-    #part8()
+    part8()
     part9()
 
     end = time.time()
