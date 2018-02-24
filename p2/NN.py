@@ -98,7 +98,34 @@ def gradDescent(X, Y, W0, b0, momentum=False, out=True):
 
 def genPath(X, Y, W0, b0, i, j, p, q, momentum=False):
     MR = 0.5
-    LR = 1e-4 if momentum else 0.1
+    LR = 1e-4 if momentum else 2
+    W = W0.copy()
+    b = b0.copy()
+    path = [(1.4, 1.4)]
+    W[i][j], W[p][q] = path[0]
+    
+    if momentum:
+        Z = W.copy()
+        v = b.copy()
+    for k in range(20):
+        P = forward(X, W, b)
+        if momentum:
+            Z[i][j] = MR*Z[i][j] + LR*dC_weight(X, Y, P)[i][j]
+            Z[p][q] = MR*Z[p][q] + LR*dC_weight(X, Y, P)[p][q]
+            W[i][j] -= Z[i][j]
+            W[p][q] -= Z[p][q]
+            v = MR*v + LR*dC_bias(X, Y, P)
+            b -= v
+        else:
+            W[i][j] -= LR*dC_weight(X, Y, P)[i][j]
+            W[p][q] -= LR*dC_weight(X, Y, P)[p][q]
+            b -= LR*dC_bias(X, Y, P)
+        path.append([W[i][j], W[p][q]])
+    return path
+
+def genPath6e(X, Y, W0, b0, i, j, p, q, momentum=False):
+    MR = 0.2
+    LR = 2e-4 if momentum else 3
     W = W0.copy()
     b = b0.copy()
     path = [(1.4, 1.4)]
