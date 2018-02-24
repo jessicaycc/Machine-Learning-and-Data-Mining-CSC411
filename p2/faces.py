@@ -109,7 +109,6 @@ def part9():
     activation = np.argmax(out, 1).tolist()
     print('Steven Carell: {}'.format(max(set(activation), key=activation.count)))
 
-   
     return
 
 #_______________________________ MAIN _______________________________#

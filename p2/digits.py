@@ -50,30 +50,37 @@ def part4():
         b = np.zeros((NUM_LABEL, 1))
 
         W, b = gradDescent(X, Y, W, b, out=False)
+        P = classify(X, Y, W, b)
+        res_train = accuracy(P, Y)
 
         X = genX(M, TEST, 100)
         Y = genY(M, TEST, 100)
         P = classify(X, Y, W, b)
-        res = accuracy(P, Y)
+        res_test = accuracy(P, Y)
 
-        print('({}, {}) - point generated'.format(n, res))
-        return res
+        print('({}, {}) - point generated'.format(n, res_test))
+        return res_test, res_train
     
-    X = genX(M, TRAIN, 500)
-    Y = genY(M, TRAIN, 500)
-    W = np.zeros((NUM_LABEL, NUM_FEAT))
-    b = np.zeros((NUM_LABEL, 1))
+    #X = genX(M, TRAIN, 500)
+    #Y = genY(M, TRAIN, 500)
+    #W = np.zeros((NUM_LABEL, NUM_FEAT))
+    #b = np.zeros((NUM_LABEL, 1))
 
-    W, b = gradDescent(X, Y, W, b)
+    #W, b = gradDescent(X, Y, W, b)
     #W, b = loadObj('weights'), loadObj('bias')
-    saveObj(W, 'weights')
-    saveObj(b, 'bias')
+    #saveObj(W, 'weights')
+    #saveObj(b, 'bias')
 
-    for i in range(len(W)):
-        heatmap(W[i], (28,28), 'pt4_weight_' + str(i))
+    #for i in range(len(W)):
+    #    heatmap(W[i], (28,28), 'pt4_weight_' + str(i))
 
-    x = np.arange(0, 130, 10)
-    linegraphFunc(f, x, 'pt4_learning_curve_accuracy')
+    y1, y2 = list(), list()
+    x = np.arange(0, 210, 10)
+    for n in x:
+        res = f(n)
+        y1.append(res[0])
+        y2.append(res[1])
+    linegraphVec(y1, y2, x, 'pt4_learning_curve_accuracy')
     return
 
 #______________________________ PART 5 ______________________________#
@@ -86,17 +93,24 @@ def part5():
         b = np.zeros((NUM_LABEL, 1))
 
         W, b = gradDescent(X, Y, W, b, momentum=True, out=False)
+        P = classify(X, Y, W, b)
+        res_train = accuracy(P, Y)
 
         X = genX(M, TEST, 100)
         Y = genY(M, TEST, 100)
         P = classify(X, Y, W, b)
-        res = accuracy(P, Y)
+        res_test = accuracy(P, Y)
 
-        print('({}, {}) - point generated'.format(n, res))
-        return res
+        print('({}, {}) - point generated'.format(n, res_test))
+        return res_test, res_train
 
-    x = np.arange(0, 130, 10)
-    linegraphFunc(f, x, 'pt5_learning_curve')
+    y1, y2 = list(), list()
+    x = np.arange(0, 210, 10)
+    for n in x:
+        res = f(n)
+        y1.append(res[0])
+        y2.append(res[1])
+    linegraphVec(y1, y2, x, 'pt5_learning_curve_accuracy')
     return
 
 #______________________________ PART 6 ______________________________#
@@ -154,9 +168,9 @@ if __name__ == '__main__':
     start = time.time()
 
     #part3()
-    #part4()
-    #part5()
-    part6()
+    part4()
+    part5()
+    #part6()
     #part6e()
 
     end = time.time()
