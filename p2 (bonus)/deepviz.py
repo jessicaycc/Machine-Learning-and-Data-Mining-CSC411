@@ -72,16 +72,13 @@ class AlexNet(nn.Module):
 
         return self.out6
 
-def visFirstLayer():
-    model = AlexNet().eval()
-    W = model.conv1[0].weight.data.numpy()
-    visWeights(W)
-    return
-
 if __name__ == '__main__':
     start = time.time()
 
-    visFirstLayer()
+    model = AlexNet().eval()
+    W = model.conv1[0].weight.data.numpy()
+    
+    visWeights(W)
 
     end = time.time()
     print('Time elapsed:', end-start)
