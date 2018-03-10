@@ -39,16 +39,12 @@ def part4():
     model = train(
         model = LogisticRegression(input_size, num_classes),
         loss_fn = nn.CrossEntropyLoss(),
-        num_epochs = 100,
+        num_epochs = 50,
         batch_size = 10,
         learn_rate = 1e-3)
 
     print('Accuracy on train set: %.2f%%' % test(model,'train'))
     print('Accuracy on test set: %.2f%%' % test(model,'test'))
-    return
-
-#______________________________ PART 5 ______________________________#
-def part5():
     return
 
 #______________________________ PART 6 ______________________________#
@@ -59,10 +55,6 @@ def part6():
 def part7():
     return
 
-#______________________________ PART 8 ______________________________#
-def part8():
-    return
-
 #_______________________________ MAIN _______________________________#
 if __name__ == '__main__':
     start = time.time()
@@ -71,10 +63,8 @@ if __name__ == '__main__':
     #part2()
     #part3()
     part4()
-    #part5()
     #part6()
     #part7()
-    #part8()
 
     end = time.time()
-    print('Time elapsed: %.4fs' % (end-start))
+    print('Time elapsed: %.2fs' % (end-start))

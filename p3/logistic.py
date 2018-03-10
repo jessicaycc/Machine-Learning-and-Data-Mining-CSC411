@@ -31,8 +31,8 @@ def train(model, loss_fn, num_epochs, batch_size, learn_rate):
     num_steps = len(train_dataset) // batch_size
     optimizer = torch.optim.Adam(model.parameters(), lr=learn_rate)
 
-    train_acc.append(test(model, 'train'))
-    valid_acc.append(test(model, 'valid'))
+    train_acc.append(test(model,'train'))
+    valid_acc.append(test(model,'valid'))
 
     for epoch in range(num_epochs):
         for i, (review, target) in enumerate(train_loader, 1):
@@ -49,8 +49,8 @@ def train(model, loss_fn, num_epochs, batch_size, learn_rate):
                 print ('Epoch: [%d/%d], Step: [%d/%d], Loss: %.4f' 
                     % (epoch+1, num_epochs, i, num_steps, loss.data[0]))
 
-        train_acc.append(test(model, 'train'))
-        valid_acc.append(test(model, 'valid'))
+        train_acc.append(test(model,'train'))
+        valid_acc.append(test(model,'valid'))
 
     linegraph(train_acc, valid_acc, epochs, 'pt4_curve')
     return model
