@@ -1,14 +1,30 @@
-import numpy as np
 from const import *
-import random
-def getSets(textFile, setRatio=DATA_SET_RATIO):
-    set1, set2, set3 = list(), list(), list()
-    dataSize = 1298 if textFile == "clean_fake.txt" else 1968
-    shuffled = open(textFile).readlines()
-    random.shuffle(shuffled)
-    set1.append(shuffled[:int(dataSize*setRatio[0])])
-    set2.append(shuffled[int(dataSize*setRatio[0]):int(dataSize*(setRatio[0]+setRatio[1]))])
-    set3.append(shuffled[int(dataSize*(setRatio[0]+setRatio[1])):])
+
+def genSets(input, ratio=DATA_SET_RATIO):
+    shuffled = list()
+    with open(input) as f:
+        for line in f:
+            shuffled.append(line.split())
+    np.random.shuffle(shuffled)
+    size = len(shuffled)
+    set1 = shuffled[:int(size*ratio[0])]
+    set2 = shuffled[int(size*ratio[0]):int(size*(ratio[0]+ratio[1]))]
+    set3 = shuffled[int(size*(ratio[0]+ratio[1])):]
     return set1, set2, set3
 
-getSets("clean_real.txt")
+def genVocab(input):
+    vocab = list()
+    for line in input:
+        for word in line:
+            if word not in vocab:
+                vocab.append(word)
+    vocab = sorted(vocab)
+    return {k: v for v,k in enumerate(vocab)}
+
+def genX(input, vocab):
+    X = np.zeros((len(input), len(vocab)))
+    for i, line in enumerate(input):
+        for word in line:
+            if word in vocab:
+                X[i][vocab[word]] = 1.
+    return X

@@ -1,5 +1,19 @@
-import time
-from const import *
+from getdata import *
+
+#______________________________ PART 1 ______________________________#
+def part1():
+    train, valid, test = (a+b for a,b in zip(genSets('clean_real.txt'), genSets('clean_fake.txt')))
+
+    vocab = genVocab(train)
+    train_x = genX(train, vocab)
+    valid_x = genX(valid, vocab)
+    test_x = genX(test, vocab)
+
+    saveObj(vocab, "vocab")
+    saveObj(train_x, "train_x")
+    saveObj(valid_x, "valid_x")
+    saveObj(test_x, "test_x")
+    return
 
 #______________________________ PART 2 ______________________________#
 def part2():
@@ -33,7 +47,8 @@ def part8():
 if __name__ == '__main__':
     start = time.time()
 
-    part2()
+    part1()
+    #part2()
     #part3()
     #part4()
     #part5()
