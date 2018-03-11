@@ -37,18 +37,18 @@ def naiveBayes(train_x, valid_x, trainSet = True):
     count = 0
     m = 7
     p = 0.03
-    realSize = int(1968*DATA_SET_RATIO[0])
-    fakeSize = int(1298*DATA_SET_RATIO[0])
+    realSize = int(1968*SET_RATIO[0])
+    fakeSize = int(1298*SET_RATIO[0])
     pReal = realSize/(realSize+fakeSize)
     pFake = fakeSize/(realSize+fakeSize)
     real = ((np.sum(train_x[:realSize],axis=0))+m*p)/(realSize+m)
     fake = ((np.sum(train_x[realSize:],axis=0))+m*p)/(fakeSize+m)
     if trainSet:
-        midpoint = int(1968*DATA_SET_RATIO[0])
+        midpoint = int(1968*SET_RATIO[0])
         set = train_x
         total = 2285.0
     else:
-        midpoint = int(1968*DATA_SET_RATIO[1])
+        midpoint = int(1968*SET_RATIO[1])
         set = valid_x
         total = 489.0
     for j, line in enumerate(set):
@@ -89,7 +89,7 @@ def getTop10_noStop(array, top):
     top10 = topWords[-top:]
     print (top10)
     return top10
-    
+
 def genY(set, ratio=SET_RATIO):
     size = {
         'train': ratio[0],

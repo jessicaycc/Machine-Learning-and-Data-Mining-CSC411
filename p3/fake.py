@@ -42,8 +42,8 @@ def part3():
     
     m = 7
     p = 0.03
-    realSize = int(1968*DATA_SET_RATIO[0])
-    fakeSize = int(1298*DATA_SET_RATIO[0])
+    realSize = int(1968*SET_RATIO[0])
+    fakeSize = int(1298*SET_RATIO[0])
     pReal = realSize/(realSize+fakeSize)
     pFake = fakeSize/(realSize+fakeSize)
     invertTrain_x = -1*(train_x - 1)
