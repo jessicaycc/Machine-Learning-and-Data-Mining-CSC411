@@ -1,7 +1,6 @@
 from const import *
 from getdata import *
 from logistic import *
-from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 
 #______________________________ PART 1 ______________________________#
 def part1():
@@ -90,8 +89,8 @@ if __name__ == '__main__':
     #part2()
     #part3()
     #part4()
-    part6()
-    #part7()
+    #part6()
+    part7()
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))

@@ -19,13 +19,13 @@ class LogisticRegression(nn.Module):
         return self.features(x)
 
 def L1(model):
-    reg = Variable(torch.FloatTensor(1), requires_grad=True).type(dtype_float)
+    reg = Variable(torch.FloatTensor(1), requires_grad=True).type(TF)
     for W in model.parameters():
         reg = reg + W.norm(1)
     return reg
 
 def L2(model):
-    reg = Variable(torch.FloatTensor(1), requires_grad=True).type(dtype_float)
+    reg = Variable(torch.FloatTensor(1), requires_grad=True).type(TF)
     for W in model.parameters():
         reg = reg + W.norm(2)
     return reg
@@ -52,8 +52,8 @@ def train(model, loss_fn, num_epochs, batch_size, learn_rate, reg_rate):
 
     for epoch in range(1, num_epochs+1):
         for i, (review, target) in enumerate(train_loader, 1):
-            review = Variable(review, requires_grad=False).type(dtype_float)
-            target = Variable(target, requires_grad=False).type(dtype_float)
+            review = Variable(review, requires_grad=False).type(TF)
+            target = Variable(target, requires_grad=False).type(TF)
 
             pred = model.forward(review).squeeze()
             loss = loss_fn(pred, target)
@@ -84,8 +84,8 @@ def test(model, set, th=0.5, batch_size=24):
 
     correct, total = 0, 0
     for review, target in test_loader:
-        review = Variable(review, requires_grad=False).type(dtype_float)
-        target = Variable(target, requires_grad=False).type(dtype_float)
+        review = Variable(review, requires_grad=False).type(TF)
+        target = Variable(target, requires_grad=False).type(TF)
 
         pred = model(review).squeeze().data.numpy()
         pred = (pred >= 0.5).astype(int)
