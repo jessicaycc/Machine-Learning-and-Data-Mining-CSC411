@@ -34,16 +34,16 @@ def part3():
 #______________________________ PART 4 ______________________________#
 def part4():
     vocab = loadObj('vocab')
-    input_size = len(vocab)
-    num_classes = 2
 
     model = train(
-        model = LogisticRegression(input_size, num_classes),
-        loss_fn = nn.CrossEntropyLoss(),
-        num_epochs = 50,
-        batch_size = 24,
-        learn_rate = 1e-3,
-        reg_rate = 1e-6)
+        model=LogisticRegression(len(vocab)),
+        loss_fn=nn.BCELoss(size_average=True),
+        num_epochs=50,
+        batch_size=24,
+        learn_rate=1e-3,
+        reg_rate=1e-4)
+
+    saveObj(model, 'model')
 
     print('Accuracy on train set: %.2f%%' % test(model,'train'))
     print('Accuracy on test set: %.2f%%' % test(model,'test'))
@@ -51,6 +51,9 @@ def part4():
 
 #______________________________ PART 6 ______________________________#
 def part6():
+    model = loadObj('model')
+    W = model.features[1].weight.data
+    
     return
 
 #______________________________ PART 7 ______________________________#
@@ -64,8 +67,8 @@ if __name__ == '__main__':
     #part1()
     #part2()
     #part3()
-    part4()
-    #part6()
+    #part4()
+    part6()
     #part7()
 
     end = time.time()

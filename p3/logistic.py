@@ -6,7 +6,7 @@ class LogisticRegression(nn.Module):
         nn.init.xavier_uniform(self.features[1].weight.data)
         nn.init.constant(self.features[1].bias, 0.1)
 
-    def __init__(self, input_size, num_classes):
+    def __init__(self, input_size, num_classes=1):
         super(LogisticRegression, self).__init__()
         self.features = nn.Sequential(
             nn.Dropout(),
@@ -40,41 +40,37 @@ def train(model, loss_fn, num_epochs, batch_size, learn_rate, reg_rate):
         batch_size=batch_size, 
         shuffle=True)
 
-    train_acc, valid_acc = list(), list()
-    epochs = np.arange(num_epochs + 1)
-    num_steps = len(train_dataset) // batch_size
-
     optimizer = torch.optim.Adam(
         model.parameters(),
         lr=learn_rate,
         weight_decay=reg_rate)
-
-    train_acc.append(test(model,'train'))
-    valid_acc.append(test(model,'valid'))
-
+    
     model.train()
 
-    for epoch in range(num_epochs):
+    train_acc = [test(model,'train')]
+    valid_acc = [test(model,'valid')]
+
+    for epoch in range(1, num_epochs+1):
         for i, (review, target) in enumerate(train_loader, 1):
             review = Variable(review, requires_grad=False).type(dtype_float)
-            target = Variable(target, requires_grad=False).type(dtype_long)
+            target = Variable(target, requires_grad=False).type(dtype_float)
 
-            pred = model.forward(review)
+            pred = model.forward(review).squeeze()
             loss = loss_fn(pred, target)
-            model.features.zero_grad()
+            optimizer.zero_grad()
             loss.backward()
             optimizer.step()
 
         print ('Epoch: [%d/%d], Steps: %d, Loss: %.4f' 
-            % (epoch+1, num_epochs, num_steps, loss.data[0]))
+            % (epoch, num_epochs, len(train_dataset)//batch_size, loss.data[0]))
 
         train_acc.append(test(model,'train'))
         valid_acc.append(test(model,'valid'))
 
-    linegraph(train_acc, valid_acc, epochs, 'pt4_curve')
+    linegraph(train_acc, valid_acc, np.arange(num_epochs+1), 'pt4_curve')
     return model
 
-def test(model, set, batch_size=10):
+def test(model, set, th=0.5, batch_size=24):
     test_x = torch.from_numpy(loadObj(set+'_x'))
     test_y = torch.from_numpy(loadObj(set+'_y'))
     test_dataset = torch.utils.data.TensorDataset(test_x, test_y)
@@ -83,15 +79,19 @@ def test(model, set, batch_size=10):
         dataset=test_dataset, 
         batch_size=batch_size, 
         shuffle=False)
-    
+
     model.eval()
-    
+
     correct, total = 0, 0
     for review, target in test_loader:
         review = Variable(review, requires_grad=False).type(dtype_float)
-        pred = model(review)
-        _, pred = torch.max(pred.data, 1)
-        total += target.size(0)
-        correct += (pred == target.type(dtype_long)).sum()
+        target = Variable(target, requires_grad=False).type(dtype_float)
+
+        pred = model(review).squeeze().data.numpy()
+        pred = (pred >= 0.5).astype(int)
+        target = target.data.numpy()
+
+        total += len(target)
+        correct += np.sum(pred == target)
 
     return 100 * correct/total
