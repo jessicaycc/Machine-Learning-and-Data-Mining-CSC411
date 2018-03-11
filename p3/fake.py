@@ -29,9 +29,11 @@ def part1():
 def part2():
     train_x = loadObj('train_x')
     valid_x = loadObj('valid_x')
+    test_x  = loadObj('test_x')
 
-    naiveBayes(train_x, valid_x, trainSet=True)
+    naiveBayes(train_x, train_x, trainSet=True)
     naiveBayes(train_x, valid_x, trainSet=False)
+    naiveBayes(train_x, test_x, trainSet=False)
     return
 
 #______________________________ PART 3 ______________________________#
