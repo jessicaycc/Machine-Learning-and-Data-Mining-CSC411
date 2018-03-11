@@ -1,3 +1,4 @@
+from const import *
 from getdata import *
 from logistic import *
 
@@ -40,8 +41,9 @@ def part4():
         model = LogisticRegression(input_size, num_classes),
         loss_fn = nn.CrossEntropyLoss(),
         num_epochs = 50,
-        batch_size = 10,
-        learn_rate = 1e-3)
+        batch_size = 24,
+        learn_rate = 1e-3,
+        reg_rate = 1e-6)
 
     print('Accuracy on train set: %.2f%%' % test(model,'train'))
     print('Accuracy on test set: %.2f%%' % test(model,'test'))
