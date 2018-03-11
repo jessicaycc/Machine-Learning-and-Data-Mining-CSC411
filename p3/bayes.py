@@ -44,11 +44,11 @@ def naiveBayes(train_x, valid_x, trainSet=True):
                 count += 1
 
     accuracy = 100 * count/total
-    print ("Accuracy:", accuracy, "%")
+    print ('Accuracy:', accuracy, '%')
     return accuracy
 
 def getTop10(array, top):
-    vocab = loadObj("vocab")
+    vocab = loadObj('vocab')
     vocab = list(vocab.keys())
 
     index = np.argpartition(array, -top)[-top:]
@@ -59,7 +59,7 @@ def getTop10(array, top):
     return top10
 
 def getTop10_noStop(array, top):
-    vocab = loadObj("vocab")
+    vocab = loadObj('vocab')
     vocab = list(vocab.keys())
 
     index = np.argsort(array)

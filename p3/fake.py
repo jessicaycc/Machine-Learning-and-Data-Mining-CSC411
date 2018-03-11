@@ -2,6 +2,7 @@ from const import *
 from bayes import *
 from getdata import *
 from logistic import *
+from sklearn.tree import DecisionTreeClassifier
 
 #______________________________ PART 1 ______________________________#
 def part1():
@@ -26,8 +27,8 @@ def part1():
 
 #______________________________ PART 2 ______________________________#
 def part2():
-    train_x = loadObj("train_x")
-    valid_x = loadObj("valid_x")
+    train_x = loadObj('train_x')
+    valid_x = loadObj('valid_x')
 
     naiveBayes(train_x, valid_x, trainSet=True)
     naiveBayes(train_x, valid_x, trainSet=False)
@@ -35,7 +36,7 @@ def part2():
 
 #______________________________ PART 3 ______________________________#
 def part3():
-    train_x = loadObj("train_x")
+    train_x = loadObj('train_x')
     
     m = 7
     p = 0.03
@@ -56,13 +57,13 @@ def part3():
     fake_presence = np.divide(list(map(lambda x: x * pFake, fake_x1)), (real_x1*pReal + fake_x1*pFake))
     fake_absence  = np.divide(list(map(lambda x: x * pFake, fake_x0)), (real_x0*pReal + fake_x0*pFake))
 
-    print ("TOP 10 WORDS:")
+    print ('TOP 10 WORDS:')
     getTop10(real_presence, 10)
     getTop10(real_absence,  10) 
     getTop10(fake_presence, 10) 
     getTop10(fake_absence,  10)
 
-    print ("\nTOP 10 NON-STOPWORDS:")
+    print ('\nTOP 10 NON-STOPWORDS:')
     getTop10_noStop(real_presence, 10)
     getTop10_noStop(real_absence,  10) 
     getTop10_noStop(fake_presence, 10) 
@@ -117,6 +118,16 @@ def part6():
 
 #______________________________ PART 7 ______________________________#
 def part7():
+    train_x = loadObj('train_x')
+    train_y = loadObj('train_y')
+
+    model = DecisionTreeClassifier(
+        criterion='entropy',
+        random_state=100,
+        max_depth=3,
+        min_samples_leaf=5)
+
+    model.fit(train_x, train_y)
     return
 
 #_______________________________ MAIN _______________________________#

@@ -14,9 +14,9 @@ def heatmap(x, shape, filename):
     return
 
 def linegraph(y1, y2, x, filename):
-    plt.plot(x, y1, label="validation")
-    plt.plot(x, y2, label="training")
-    plt.legend(loc="lower left")
+    plt.plot(x, y1, label='validation')
+    plt.plot(x, y2, label='training')
+    plt.legend(loc='lower left')
     plt.savefig('plots/'+filename+'.png', bbox_inches='tight')
     plt.show()
     return
@@ -24,8 +24,8 @@ def linegraph(y1, y2, x, filename):
 def contour(y, x, M, filename):
     cs = plt.contour(x, y, M)
     clabel(cs, inline=1, fontsize=10)
-    plt.xlabel("w1")
-    plt.ylabel("w2")
+    plt.xlabel('w1')
+    plt.ylabel('w2')
     plt.legend(loc='lower left')
     plt.savefig('plots/'+filename+'.png', bbox_inches='tight')
     plt.show()
