@@ -3,7 +3,7 @@ from const import *
 from functools import reduce
 
 def naiveBayes(train_x, valid_x, trainSet=True):
-    m = 7
+    m = 4
     p = 0.03
     count = 0
 
