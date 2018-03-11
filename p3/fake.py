@@ -1,6 +1,7 @@
 from const import *
 from getdata import *
 from logistic import *
+from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 
 #______________________________ PART 1 ______________________________#
 def part1():
@@ -51,9 +52,30 @@ def part4():
 
 #______________________________ PART 6 ______________________________#
 def part6():
+    vocab = loadObj('vocab')
     model = loadObj('model')
-    W = model.features[1].weight.data
+
+    vocab = list(vocab.keys())
+    W = model.features[1].weight.data.numpy()[0]
+    W_index_sorted = W.argsort()
+
+    W_pos = W_index_sorted[-10:][::-1]
+    W_neg = W_index_sorted[:10]
+
+    top10_pos = [(W[i], vocab[i]) for i in W_pos]
+    top10_neg = [(W[i], vocab[i]) for i in W_neg]
+
+    print('Top 10 positive weights:', top10_pos)
+    print('\nTop 10 negative weights:', top10_neg)
     
+    W_pos = W_index_sorted[::-1]
+    W_neg = W_index_sorted[:]
+
+    top10_pos = [(W[i], vocab[i]) for i in W_pos if vocab[i] not in ENGLISH_STOP_WORDS][:10]
+    top10_neg = [(W[i], vocab[i]) for i in W_neg if vocab[i] not in ENGLISH_STOP_WORDS][:10]
+
+    print('\nTop 10 positive weights (no stop words):', top10_pos)
+    print('\nTop 10 negative weights (no stop words):', top10_neg)
     return
 
 #______________________________ PART 7 ______________________________#
