@@ -16,6 +16,9 @@ from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 np.random.seed(0)
 torch.manual_seed(0)
 
+if not os.path.exists('plots'):
+    os.makedirs('plots')
+
 if not os.path.exists('objects'):
     os.makedirs('objects')
 

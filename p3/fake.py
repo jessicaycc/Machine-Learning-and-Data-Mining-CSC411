@@ -1,3 +1,4 @@
+import graphviz
 from const import *
 from bayes import *
 from getdata import *
@@ -148,18 +149,19 @@ def part7():
     acc = accuracy_score(test_y, pred)*100
     print('Accuracy on test set: %.2f%%' % acc)
 
-    with open('plots/graph.dot', 'w') as f:
-        f = tree.export_graphviz(
-            dtc,
-            out_file=f,
-            feature_names=list(vocab.keys()),
-            class_names=('real','fake'),
-            max_depth=5,
-            filled=True,
-            rounded=True,
-            special_characters=True)
+    dot_data = tree.export_graphviz(
+        dtc,
+        out_file=None,
+        feature_names=list(vocab.keys()),
+        class_names=('real','fake'),
+        max_depth=5,
+        filled=True,
+        rounded=True,
+        special_characters=True)
 
-    os.system('dot -Tpng plots/graph.dot -o plots/graph.png')
+    graph = graphviz.Source(dot_data) 
+    graph.format = 'png'
+    graph.render('plots/graph', view=True)
     return
 
 #_______________________________ MAIN _______________________________#
