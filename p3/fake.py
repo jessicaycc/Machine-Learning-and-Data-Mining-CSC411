@@ -168,11 +168,11 @@ def part7():
 if __name__ == '__main__':
     start = time.time()
 
-    #part1()
-    #part2()
-    #part3()
-    #part4()
-    #part6()
+    part1()
+    part2()
+    part3()
+    part4()
+    part6()
     part7()
 
     end = time.time()
