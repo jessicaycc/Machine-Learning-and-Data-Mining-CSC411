@@ -154,7 +154,7 @@ def part7():
         out_file=None,
         feature_names=list(vocab.keys()),
         class_names=('real','fake'),
-        max_depth=5,
+        max_depth=3,
         filled=True,
         rounded=True,
         special_characters=True)
@@ -168,11 +168,11 @@ def part7():
 if __name__ == '__main__':
     start = time.time()
 
-    part1()
-    part2()
-    part3()
-    part4()
-    part6()
+    #part1()
+    #part2()
+    #part3()
+    #part4()
+    #part6()
     part7()
 
     end = time.time()
