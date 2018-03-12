@@ -43,9 +43,7 @@ def naiveBayes(train_x, valid_x, trainSet=True):
             if pred == 1:
                 count += 1
 
-    accuracy = 100 * count/total
-    print ('Accuracy:', accuracy, '%')
-    return accuracy
+    return 100 * count/total
 
 def getTop10(array, top):
     vocab = loadObj('vocab')

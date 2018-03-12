@@ -67,7 +67,7 @@ def train(model, loss_fn, num_epochs, batch_size, learn_rate, reg_rate):
         train_acc.append(test(model,'train'))
         valid_acc.append(test(model,'valid'))
 
-    linegraph(train_acc, valid_acc, np.arange(num_epochs+1), 'pt4_curve')
+    linegraph(train_acc, valid_acc, np.arange(num_epochs+1), 'curve')
     return model
 
 def test(model, set, th=0.5, batch_size=24):

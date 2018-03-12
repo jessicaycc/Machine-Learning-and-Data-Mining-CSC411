@@ -2,7 +2,8 @@ from const import *
 from bayes import *
 from getdata import *
 from logistic import *
-from sklearn.tree import DecisionTreeClassifier
+from sklearn import tree
+from sklearn.metrics import accuracy_score
 
 #______________________________ PART 1 ______________________________#
 def part1():
@@ -31,9 +32,9 @@ def part2():
     valid_x = loadObj('valid_x')
     test_x  = loadObj('test_x')
 
-    naiveBayes(train_x, train_x, trainSet=True)
-    naiveBayes(train_x, valid_x, trainSet=False)
-    naiveBayes(train_x, test_x, trainSet=False)
+    print('Accuracy on train set: %.2f%%' % naiveBayes(train_x, train_x, trainSet=True))
+    print('Accuracy on valid set: %.2f%%' % naiveBayes(train_x, valid_x, trainSet=False))
+    print('Accuracy on test set: %.2f%%'  % naiveBayes(train_x, test_x,  trainSet=False))
     return
 
 #______________________________ PART 3 ______________________________#
@@ -59,13 +60,13 @@ def part3():
     fake_presence = np.divide(list(map(lambda x: x * pFake, fake_x1)), (real_x1*pReal + fake_x1*pFake))
     fake_absence  = np.divide(list(map(lambda x: x * pFake, fake_x0)), (real_x0*pReal + fake_x0*pFake))
 
-    print ('TOP 10 WORDS:')
+    print('TOP 10 WORDS:')
     getTop10(real_presence, 10)
     getTop10(real_absence,  10) 
     getTop10(fake_presence, 10) 
     getTop10(fake_absence,  10)
 
-    print ('\nTOP 10 NON-STOPWORDS:')
+    print('\nTOP 10 NON-STOPWORDS:')
     getTop10_noStop(real_presence, 10)
     getTop10_noStop(real_absence,  10) 
     getTop10_noStop(fake_presence, 10) 
@@ -120,28 +121,57 @@ def part6():
 
 #______________________________ PART 7 ______________________________#
 def part7():
+    vocab = loadObj('vocab')
     train_x = loadObj('train_x')
     train_y = loadObj('train_y')
+    valid_x = loadObj('valid_x')
+    valid_y = loadObj('valid_y')
+    test_x  = loadObj('test_x')
+    test_y  = loadObj('test_y')
 
-    model = DecisionTreeClassifier(
+    dtc = tree.DecisionTreeClassifier(
         criterion='entropy',
-        random_state=100,
-        max_depth=3,
-        min_samples_leaf=5)
+        max_features=310,
+        max_depth=151)
 
-    model.fit(train_x, train_y)
+    dtc.fit(train_x, train_y)
+
+    pred = dtc.predict(train_x)
+    acc = accuracy_score(train_y, pred)*100
+    print('Accuracy on train set: %.2f%%' % acc)
+
+    pred = dtc.predict(valid_x)
+    acc = accuracy_score(valid_y, pred)*100
+    print('Accuracy on valid set: %.2f%%' % acc)
+
+    pred = dtc.predict(test_x)
+    acc = accuracy_score(test_y, pred)*100
+    print('Accuracy on test set: %.2f%%' % acc)
+
+    with open('plots/graph.dot', 'w') as f:
+        f = tree.export_graphviz(
+            dtc,
+            out_file=f,
+            feature_names=list(vocab.keys()),
+            class_names=('real','fake'),
+            max_depth=5,
+            filled=True,
+            rounded=True,
+            special_characters=True)
+
+    os.system('dot -Tpng plots/graph.dot -o plots/graph.png')
     return
 
 #_______________________________ MAIN _______________________________#
 if __name__ == '__main__':
     start = time.time()
 
-    #part1()
+    part1()
     part2()
-    #part3()
-    #part4()
-    #part6()
-    #part7()
+    part3()
+    part4()
+    part6()
+    part7()
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
