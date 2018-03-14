@@ -97,8 +97,8 @@ def test(model, set, th=0.5, batch_size=24):
     return 100 * correct/total
 
 def linegraph(y1, y2, x, filename):
-    plt.plot(x, y1, label='validation')
-    plt.plot(x, y2, label='training')
+    plt.plot(x, y1, label='training')
+    plt.plot(x, y2, label='validation')
     plt.legend(loc='lower left')
     plt.savefig('plots/'+filename+'.png', bbox_inches='tight')
     plt.show()
