@@ -93,12 +93,16 @@ def test(model, set, th=0.5, batch_size=24):
 
         total += len(target)
         correct += np.sum(pred == target)
+    
+    model.train()
 
     return 100 * correct/total
 
 def linegraph(y1, y2, x, filename):
     plt.plot(x, y1, label='training')
     plt.plot(x, y2, label='validation')
+    plt.xlabel('Epochs')
+    plt.ylabel('Accuracy (%)')
     plt.legend(loc='lower left')
     plt.savefig('plots/'+filename+'.png', bbox_inches='tight')
     plt.show()

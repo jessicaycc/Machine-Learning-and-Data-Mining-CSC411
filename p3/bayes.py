@@ -49,9 +49,9 @@ def getTop10(array, top):
     vocab = loadObj('vocab')
     vocab = list(vocab.keys())
 
-    index = np.argpartition(array, -top)[-top:]
-    index = index[np.argsort(array[index])]
-    top10 = [vocab[i] for i in index] 
+    index = np.argsort(array)
+    topWords = [vocab[i] for i in index]
+    top10 = topWords[::-1][:top]
 
     print(top10)
     return top10
@@ -61,8 +61,8 @@ def getTop10_noStop(array, top):
     vocab = list(vocab.keys())
 
     index = np.argsort(array)
-    topWords = [vocab[i] for i in (index) if vocab[i] not in ENGLISH_STOP_WORDS]
-    top10 = topWords[-top:]
+    topWords = [vocab[i] for i in index if vocab[i] not in ENGLISH_STOP_WORDS]
+    top10 = topWords[::-1][:top]
 
     print(top10)
     return top10

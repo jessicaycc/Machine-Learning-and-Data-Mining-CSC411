@@ -81,7 +81,7 @@ def part4():
     model = train(
         model=LogisticRegression(len(vocab)),
         loss_fn=nn.BCELoss(size_average=True),
-        num_epochs=50,
+        num_epochs=80,
         batch_size=24,
         learn_rate=1e-3,
         reg_rate=1e-4)
@@ -168,12 +168,12 @@ def part7():
 if __name__ == '__main__':
     start = time.time()
 
-    part1()
-    part2()
-    part3()
-    part4()
+    #part1()
+    #part2()
+    #part3()
+    #part4()
     part6()
-    part7()
+    #part7()
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
