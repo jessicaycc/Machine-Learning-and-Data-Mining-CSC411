@@ -98,10 +98,10 @@ def test(model, set, th=0.5, batch_size=24):
 
     return 100 * correct/total
 
-def linegraph(y1, y2, x, filename):
+def linegraph(y1, y2, x, filename, label='Epochs'):
     plt.plot(x, y1, label='training')
     plt.plot(x, y2, label='validation')
-    plt.xlabel('Epochs')
+    plt.xlabel(label)
     plt.ylabel('Accuracy (%)')
     plt.legend(loc='lower left')
     plt.savefig('plots/'+filename+'.png', bbox_inches='tight')

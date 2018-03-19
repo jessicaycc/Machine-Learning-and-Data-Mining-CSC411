@@ -130,6 +130,27 @@ def part7():
     test_x  = loadObj('test_x')
     test_y  = loadObj('test_y')
 
+    train_acc = list()
+    valid_acc = list()
+    depths = np.arange(1, 152, 10)
+
+    for depth in depths:
+        dtc = tree.DecisionTreeClassifier(
+            criterion='entropy',
+            max_depth=depth)
+
+        dtc.fit(train_x, train_y)
+
+        pred = dtc.predict(train_x)
+        train_acc.append(accuracy_score(train_y, pred)*100)
+
+        pred = dtc.predict(valid_x)
+        valid_acc.append(accuracy_score(valid_y, pred)*100)
+
+        print("Depth [{}/{}]: done".format(depth, depths[-1]))
+    
+    linegraph(train_acc, valid_acc, depths, 'curve_tree', 'Depth')
+
     dtc = tree.DecisionTreeClassifier(
         criterion='entropy',
         max_features=310,
@@ -154,7 +175,7 @@ def part7():
         out_file=None,
         feature_names=list(vocab.keys()),
         class_names=('real','fake'),
-        max_depth=3,
+        max_depth=2,
         filled=True,
         rounded=True,
         special_characters=True)
@@ -172,8 +193,8 @@ if __name__ == '__main__':
     #part2()
     #part3()
     #part4()
-    part6()
-    #part7()
+    #part6()
+    part7()
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
