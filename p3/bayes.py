@@ -50,9 +50,11 @@ def getTop10(array, top):
     vocab = list(vocab.keys())
 
     index = np.argsort(array)
+    probs = [array[i] for i in index]
+    probs = probs[::-1][:top]
     topWords = [vocab[i] for i in index]
     top10 = topWords[::-1][:top]
-
+    print (probs)
     print(top10)
     return top10
 
