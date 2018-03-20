@@ -61,6 +61,8 @@ def part2():
     valid_x = loadObj('valid_x')
     test_x  = loadObj('test_x')
 
+    #naiveBayesGridSearch(train_x, valid_x, trainSet=False)
+    
     print('Accuracy on train set: %.2f%%' % naiveBayes(train_x, train_x, trainSet=True))
     print('Accuracy on valid set: %.2f%%' % naiveBayes(train_x, valid_x, trainSet=False))
     print('Accuracy on test set: %.2f%%'  % naiveBayes(train_x, test_x,  trainSet=False))
@@ -224,12 +226,16 @@ if __name__ == '__main__':
     start = time.time()
 
     #part1()
-    #part2()
+    part2()
     #part3()
     #part4()
     #part6()
+<<<<<<< HEAD
     part7()
     #part8()
+=======
+    #part7()
+>>>>>>> c5a9bc5b800509a78d0fafa05ee222293aa3533a
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
