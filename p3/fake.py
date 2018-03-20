@@ -9,43 +9,43 @@ from sklearn.metrics import accuracy_score
 
 #______________________________ PART 1 ______________________________#
 def part1():
-    # train, valid, test = (a+b for a,b in zip(genSets('clean_real.txt'), genSets('clean_fake.txt')))
+    train, valid, test = (a+b for a,b in zip(genSets('clean_real.txt'), genSets('clean_fake.txt')))
 
-    # vocab   = genVocab(train)
-    # train_x = genX(train, vocab)
-    # valid_x = genX(valid, vocab)
-    # test_x  = genX(test,  vocab)
-    # train_y = genY('train')
-    # valid_y = genY('valid')
-    # test_y  = genY('test' )
+    vocab   = genVocab(train)
+    train_x = genX(train, vocab)
+    valid_x = genX(valid, vocab)
+    test_x  = genX(test,  vocab)
+    train_y = genY('train')
+    valid_y = genY('valid')
+    test_y  = genY('test' )
 
-    # saveObj(vocab, 'vocab')
-    # saveObj(train_x, 'train_x')
-    # saveObj(valid_x, 'valid_x')
-    # saveObj(test_x,  'test_x' )
-    # saveObj(train_y, 'train_y')
-    # saveObj(valid_y, 'valid_y')
-    # saveObj(test_y,  'test_y' )
+    saveObj(vocab, 'vocab')
+    saveObj(train_x, 'train_x')
+    saveObj(valid_x, 'valid_x')
+    saveObj(test_x,  'test_x' )
+    saveObj(train_y, 'train_y')
+    saveObj(valid_y, 'valid_y')
+    saveObj(test_y,  'test_y' )
 
-    train_x = loadObj('train_x')
-    vocab = loadObj('vocab')
-    vocab = list(vocab.keys())
-    realSize = int(NUM_REAL*SET_RATIO[0])
-    fakeSize = int(NUM_FAKE*SET_RATIO[0])
-    real_x1 = ((np.sum(train_x[:realSize], axis=0)) ) / (realSize)
-    fake_x1 = ((np.sum(train_x[realSize:], axis=0)) ) / (fakeSize)
-    diff = abs(real_x1-fake_x1)
-    index = np.argsort(diff)
-    words = [vocab[i] for i in index]
-    real = [real_x1[i] for i in index]
-    fake = [fake_x1[i] for i in index]
-    w = words[::-1][:3]
-    r = real[::-1][:3]
-    f = fake[::-1][:3]
-    print ("Three Keywords:")
-    print (w)
-    print (r)
-    print (f)
+    # train_x = loadObj('train_x')
+    # vocab = loadObj('vocab')
+    # vocab = list(vocab.keys())
+    # realSize = int(NUM_REAL*SET_RATIO[0])
+    # fakeSize = int(NUM_FAKE*SET_RATIO[0])
+    # real_x1 = ((np.sum(train_x[:realSize], axis=0)) ) / (realSize)
+    # fake_x1 = ((np.sum(train_x[realSize:], axis=0)) ) / (fakeSize)
+    # diff = abs(real_x1-fake_x1)
+    # index = np.argsort(diff)
+    # words = [vocab[i] for i in index]
+    # real = [real_x1[i] for i in index]
+    # fake = [fake_x1[i] for i in index]
+    # w = words[::-1][:3]
+    # r = real[::-1][:3]
+    # f = fake[::-1][:3]
+    # print ("Three Keywords:")
+    # print (w)
+    # print (r)
+    # print (f)
     return
 
 #______________________________ PART 2 ______________________________#
@@ -55,7 +55,6 @@ def part2():
     test_x  = loadObj('test_x')
 
     #naiveBayesGridSearch(train_x, valid_x, trainSet=False)
-    
     print('Accuracy on train set: %.2f%%' % naiveBayes(train_x, train_x, trainSet=True))
     print('Accuracy on valid set: %.2f%%' % naiveBayes(train_x, valid_x, trainSet=False))
     print('Accuracy on test set: %.2f%%'  % naiveBayes(train_x, test_x,  trainSet=False))
@@ -207,17 +206,51 @@ def part7():
     graph.format = 'png'
     graph.render('plots/graph', view=True)
     return
+#______________________________ PART 8 ______________________________#
+def part8():
+    def I(vocab, word, x):
+        real_x1 = 0
+        real_x0 = 0
+        fake_x1 = 0
+        fake_x0 = 0
+        total = float(len(x))
+        midpoint = int(NUM_REAL*SET_RATIO[0])
+        vocab = list(vocab.keys())
+        index = vocab.index(word)
+        for i, n in enumerate(x):
+            if i < midpoint: 
+                if n[index] == 1:
+                    real_x1 += 1
+                else:
+                    real_x0 += 1
+            else:
+                if n[index] == 1:
+                    fake_x1 += 1
+                else: 
+                    fake_x0 += 1
+        h_Y = H(real_x1 + real_x0, fake_x1 + fake_x0)
+        h_YXi = (real_x1 + fake_x1)/total * H(real_x1, fake_x1) + (real_x0+fake_x0)/total * H(real_x0, fake_x0)
+        mutualInfo = h_Y - h_YXi
+        print(mutualInfo)
+        return (mutualInfo)
 
+    def H(x1, x2):
+        total = float(x1 + x2)
+        return -x1/total * np.log2(x1/total)-x2/total * np.log2(x2/total)
+    vocab = loadObj('vocab')
+    train_x = loadObj('train_x')    
+    I(vocab, "donald", train_x)
+    I(vocab, "star", train_x)
 #_______________________________ MAIN _______________________________#
 if __name__ == '__main__':
     start = time.time()
 
     #part1()
-    part2()
+    #part2()
     #part3()
     #part4()
     #part6()
     #part7()
-
+    part8()
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
