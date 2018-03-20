@@ -52,7 +52,6 @@ def part1():
     print(w)
     print(r)
     print(f)
-
     return
 
 #______________________________ PART 2 ______________________________#
@@ -230,12 +229,8 @@ if __name__ == '__main__':
     #part3()
     #part4()
     #part6()
-<<<<<<< HEAD
-    part7()
-    #part8()
-=======
     #part7()
->>>>>>> c5a9bc5b800509a78d0fafa05ee222293aa3533a
+    #part8()
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
