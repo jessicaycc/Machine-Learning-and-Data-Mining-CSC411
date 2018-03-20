@@ -54,6 +54,7 @@ def getTop10(array, top):
     probs = probs[::-1][:top]
     topWords = [vocab[i] for i in index]
     top10 = topWords[::-1][:top]
+
     print (probs)
     print(top10)
     return top10

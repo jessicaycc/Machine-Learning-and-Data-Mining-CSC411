@@ -9,43 +9,50 @@ from sklearn.metrics import accuracy_score
 
 #______________________________ PART 1 ______________________________#
 def part1():
-    # train, valid, test = (a+b for a,b in zip(genSets('clean_real.txt'), genSets('clean_fake.txt')))
+    train, valid, test = (a+b for a,b in zip(genSets('clean_real.txt'), genSets('clean_fake.txt')))
 
-    # vocab   = genVocab(train)
-    # train_x = genX(train, vocab)
-    # valid_x = genX(valid, vocab)
-    # test_x  = genX(test,  vocab)
-    # train_y = genY('train')
-    # valid_y = genY('valid')
-    # test_y  = genY('test' )
+    vocab   = genVocab(train)
+    train_x = genX(train, vocab)
+    valid_x = genX(valid, vocab)
+    test_x  = genX(test,  vocab)
+    train_y = genY('train')
+    valid_y = genY('valid')
+    test_y  = genY('test' )
 
-    # saveObj(vocab, 'vocab')
-    # saveObj(train_x, 'train_x')
-    # saveObj(valid_x, 'valid_x')
-    # saveObj(test_x,  'test_x' )
-    # saveObj(train_y, 'train_y')
-    # saveObj(valid_y, 'valid_y')
-    # saveObj(test_y,  'test_y' )
+    saveObj(vocab, 'vocab')
+    saveObj(train_x, 'train_x')
+    saveObj(valid_x, 'valid_x')
+    saveObj(test_x,  'test_x' )
+    saveObj(train_y, 'train_y')
+    saveObj(valid_y, 'valid_y')
+    saveObj(test_y,  'test_y' )
 
     train_x = loadObj('train_x')
     vocab = loadObj('vocab')
     vocab = list(vocab.keys())
+
     realSize = int(NUM_REAL*SET_RATIO[0])
     fakeSize = int(NUM_FAKE*SET_RATIO[0])
-    real_x1 = ((np.sum(train_x[:realSize], axis=0)) ) / (realSize)
-    fake_x1 = ((np.sum(train_x[realSize:], axis=0)) ) / (fakeSize)
-    diff = abs(real_x1-fake_x1)
+
+    real_x = np.sum(train_x[:realSize], axis=0) / realSize
+    fake_x = np.sum(train_x[realSize:], axis=0) / fakeSize
+    
+    diff = abs(real_x-fake_x)
     index = np.argsort(diff)
+
     words = [vocab[i] for i in index]
-    real = [real_x1[i] for i in index]
-    fake = [fake_x1[i] for i in index]
+    real = [real_x[i] for i in index]
+    fake = [fake_x[i] for i in index]
+
     w = words[::-1][:3]
     r = real[::-1][:3]
     f = fake[::-1][:3]
-    print ("Three Keywords:")
-    print (w)
-    print (r)
-    print (f)
+
+    print("Three Keywords:")
+    print(w)
+    print(r)
+    print(f)
+
     return
 
 #______________________________ PART 2 ______________________________#
@@ -110,6 +117,7 @@ def part4():
     saveObj(model, 'model')
 
     print('Accuracy on train set: %.2f%%' % test(model,'train'))
+    print('Accuracy on valid set: %.2f%%' % test(model,'valid'))
     print('Accuracy on test set: %.2f%%' % test(model,'test'))
     return
 
@@ -155,23 +163,6 @@ def part7():
     valid_acc = list()
     depths = np.arange(1, 152, 10)
 
-    for depth in depths:
-        dtc = tree.DecisionTreeClassifier(
-            criterion='entropy',
-            max_depth=depth)
-
-        dtc.fit(train_x, train_y)
-
-        pred = dtc.predict(train_x)
-        train_acc.append(accuracy_score(train_y, pred)*100)
-
-        pred = dtc.predict(valid_x)
-        valid_acc.append(accuracy_score(valid_y, pred)*100)
-
-        print("Depth [{}/{}]: done".format(depth, depths[-1]))
-    
-    linegraph(train_acc, valid_acc, depths, 'curve_tree', 'Depth')
-
     dtc = tree.DecisionTreeClassifier(
         criterion='entropy',
         max_features=310,
@@ -204,18 +195,41 @@ def part7():
     graph = graphviz.Source(dot_data) 
     graph.format = 'png'
     graph.render('plots/graph', view=True)
+
+    for depth in depths:
+        dtc = tree.DecisionTreeClassifier(
+            criterion='entropy',
+            max_depth=depth)
+
+        dtc.fit(train_x, train_y)
+
+        pred = dtc.predict(train_x)
+        train_acc.append(accuracy_score(train_y, pred)*100)
+
+        pred = dtc.predict(valid_x)
+        valid_acc.append(accuracy_score(valid_y, pred)*100)
+
+        print("Depth [{}/{}]: done".format(depth, depths[-1]))
+    
+    linegraph(train_acc, valid_acc, depths, 'curve_tree', 'Depth')
+    return
+
+#______________________________ PART 8 ______________________________#
+def part8():
+    
     return
 
 #_______________________________ MAIN _______________________________#
 if __name__ == '__main__':
     start = time.time()
 
-    part1()
-    part2()
-    part3()
-    part4()
-    part6()
+    #part1()
+    #part2()
+    #part3()
+    #part4()
+    #part6()
     part7()
+    #part8()
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
