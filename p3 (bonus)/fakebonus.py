@@ -1,4 +1,3 @@
-import matplotlib.pyplot as plt
 from const import *
 
 class CNN(nn.Module):
