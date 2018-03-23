@@ -1,19 +1,22 @@
 {
-	"folders": [
-		{
-			"path": "p1"
-		},
-		{
-			"path": "p1 (bonus)"
-		},
-		{
-			"path": "p2"
-		},
-		{
-			"path": "p2 (bonus)"
-		},
-		{
-			"path": "p3"
-		}
-	]
+    "folders": [
+        {
+            "path": "p1"
+        },
+        {
+            "path": "p1 (bonus)"
+        },
+        {
+            "path": "p2"
+        },
+        {
+            "path": "p2 (bonus)"
+        },
+        {
+            "path": "p3"
+        },
+        {
+            "path": "p3 (bonus)"
+        }
+    ]
 }
