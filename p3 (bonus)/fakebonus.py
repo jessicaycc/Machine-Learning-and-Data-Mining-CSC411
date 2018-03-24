@@ -145,7 +145,7 @@ def learn_curve(y1, y2, x):
     plt.ylabel('Accuracy (%)')
     plt.legend(loc='lower left')
     plt.savefig('plots/learn_curve.png', bbox_inches='tight')
-    plt.show()
+    #plt.show()
     return
 
 
