@@ -50,6 +50,8 @@ def clean_fake():
                 continue
             if line['thread_title']:
                 otitle = line['thread_title'].lower()
+                if "links" in otitle or "link" in otitle:
+                    continue
                 # print(otitle)
                 otitle = clean_str(otitle)
                 # "don t" -> "dont"; "wasn t" -> "wasnt"; etc
