@@ -1,35 +1,40 @@
 from const import *
 
 class CNN(nn.Module):
-    def __init__(self, vocab_size, hidden_size, num_filters, kernel_size):
+    def __init__(self, vocab_size):
         super(CNN, self).__init__()
 
-        self.classify = nn.Sequential(
-            nn.Embedding(vocab_size, hidden_size),
-            nn.Conv2d(hidden_size, num_filters, kernel_size),
-            nn.ReLU(),
-            nn.Linear(num_filters, vocab_size),
-            nn.Softmax(dim=1))
+        self.embed = nn.Embedding(vocab_size, 512)
 
-        self.apply(self.weight_init)
-    
-    def weight_init(self, x):
-        if isinstance(x, nn.Conv2d) or isinstance(x, nn.Linear):
-            nn.init.xavier_uniform(x.weights.data)
-            nn.init.xavier_uniform(x.bias.data)
+        self.conv = nn.Sequential(
+            nn.Conv2d(1, 64, kernel_size=11, stride=4, padding=2),
+            nn.ReLU(inplace=True),
+            nn.Conv2d(64, 128, kernel_size=5, stride=2, padding=2),
+            nn.ReLU(inplace=True),
+            nn.Conv2d(128, 256, kernel_size=3, stride=2, padding=1),
+            nn.ReLU(inplace=True),
+            nn.Conv2d(256, 256, kernel_size=3, stride=2, padding=1),
+            nn.ReLU(inplace=True))
+
+        self.fc = nn.Sequential(
+            nn.Dropout(),
+            nn.Linear(4096, 1),
+            nn.Sigmoid())
 
     def forward(self, x):
-        self.out = self.classify(x)
-        return self.out
+        x = self.embed(x).unsqueeze(1)
+        x = self.conv(x)
+        x = self.fc(x.view(x.size(0), 4096))
+        return x
 
 
 def gen_vocab(data_file):
     vocab = list()
-    for line in data_file:
-        for word in line:
-            if word not in vocab:
-                vocab.append(word)
-    vocab = sorted(vocab)
+    for ln in data_file:
+        for w in ln:
+            if w not in vocab:
+                vocab.append(w)
+    vocab = [PAD_WORD] + sorted(vocab)
     return {k: v for v,k in enumerate(vocab)}
 
 def gen_data_sets(data_file):
@@ -44,15 +49,30 @@ def gen_data_sets(data_file):
     tes = shuffled[(i+j):(i+j+k)]
     return tra, val, tes
 
+def gen_data_labels(data_list):
+    size = {
+        'tra': SET_RATIO[0],
+        'val': SET_RATIO[1],
+        'tes': SET_RATIO[2]
+        }[data_list]
+    real = np.zeros(int(size*NUM_REAL))
+    fake = np.ones(int(size*NUM_FAKE))
+    return np.concatenate((real, fake))
+
 def word_to_num(data_list, vocab):
-    numbers = [[vocab[w] for hl in data] for w in hl]
-    padded = [hl + [0]*(MAX_HL_LEN-len(hl)) for hl in numbers]
-    return np.asarray(padded)
+    numbers = np.zeros((len(data_list), MAX_HL_LEN))
+    for i, hl in enumerate(data_list):
+        for j, w in enumerate(hl):
+            if j >= MAX_HL_LEN:
+                break
+            if w in vocab:
+                numbers[i][j] = vocab[w]
+    return numbers
 
 
 def train(model, loss_fn, num_epochs, batch_size, learn_rate, reg_rate):
-    train_x = torch.from_numpy(loadObj('train_x'))
-    train_y = torch.from_numpy(loadObj('train_y'))
+    train_x = torch.from_numpy(loadObj('tra_x'))
+    train_y = torch.from_numpy(loadObj('tra_y'))
     train_dataset = torch.utils.data.TensorDataset(train_x, train_y)
 
     train_loader = torch.utils.data.DataLoader(
@@ -67,12 +87,12 @@ def train(model, loss_fn, num_epochs, batch_size, learn_rate, reg_rate):
     
     model.train()
 
-    train_acc = [test(model,'train')]
-    valid_acc = [test(model,'valid')]
+    #train_acc = [test(model,'tra')]
+    #valid_acc = [test(model,'val')]
 
     for epoch in range(1, num_epochs+1):
         for i, (review, target) in enumerate(train_loader, 1):
-            review = Variable(review, requires_grad=False).type(TF)
+            review = Variable(review, requires_grad=False).type(TL)
             target = Variable(target, requires_grad=False).type(TF)
 
             pred = model.forward(review).squeeze()
@@ -84,15 +104,17 @@ def train(model, loss_fn, num_epochs, batch_size, learn_rate, reg_rate):
         print ('Epoch: [%d/%d], Steps: %d, Loss: %.4f' 
             % (epoch, num_epochs, len(train_dataset)//batch_size, loss.data[0]))
 
-        train_acc.append(test(model,'train'))
-        valid_acc.append(test(model,'valid'))
+        test(model,'val')
 
-    linegraph(train_acc, valid_acc, np.arange(num_epochs+1), 'curve')
+        #train_acc.append(test(model,'tra'))
+        #valid_acc.append(test(model,'val'))
+
+    #learn_curve(train_acc, valid_acc, np.arange(num_epochs+1))
     return model
 
-def test(model, set, th=0.5, batch_size=24):
-    test_x = torch.from_numpy(loadObj(set+'_x'))
-    test_y = torch.from_numpy(loadObj(set+'_y'))
+def test(model, data_set, th=0.5, batch_size=24):
+    test_x = torch.from_numpy(loadObj(data_set+'_x'))
+    test_y = torch.from_numpy(loadObj(data_set+'_y'))
     test_dataset = torch.utils.data.TensorDataset(test_x, test_y)
 
     test_loader = torch.utils.data.DataLoader(
@@ -104,7 +126,7 @@ def test(model, set, th=0.5, batch_size=24):
 
     correct, total = 0, 0
     for review, target in test_loader:
-        review = Variable(review, requires_grad=False).type(TF)
+        review = Variable(review, requires_grad=False).type(TL)
         target = Variable(target, requires_grad=False).type(TF)
 
         pred = model(review).squeeze().data.numpy()
@@ -116,23 +138,58 @@ def test(model, set, th=0.5, batch_size=24):
     
     model.train()
 
-    return 100 * correct/total
+    acc = 100 * correct/total
+    print('Accuracy [' + data_set + ']: %.2f%%' % acc)
+    return
 
-def linegraph(y1, y2, x, filename):
+def learn_curve(y1, y2, x):
     plt.plot(x, y1, label='training')
     plt.plot(x, y2, label='validation')
     plt.xlabel('Epochs')
     plt.ylabel('Accuracy (%)')
     plt.legend(loc='lower left')
-    plt.savefig('plots/'+filename+'.png', bbox_inches='tight')
-    plt.show()
+    plt.savefig('plots/learn_curve.png', bbox_inches='tight')
+    #plt.show()
+    return
+
+
+def init_data():
+    tra, val, tes = (a+b for a,b in zip(gen_data_sets('clean_real.txt'), gen_data_sets('clean_fake.txt')))
+
+    vocab = gen_vocab(tra)
+    tra_x = word_to_num(tra, vocab)
+    val_x = word_to_num(val, vocab)
+    tes_x = word_to_num(tes, vocab)
+    tra_y = gen_data_labels('tra')
+    val_y = gen_data_labels('val')
+    tes_y = gen_data_labels('tes')
+
+    saveObj(vocab, 'vocab')
+    saveObj(tra_x, 'tra_x')
+    saveObj(val_x, 'val_x')
+    saveObj(tes_x, 'tes_x')
+    saveObj(tra_y, 'tra_y')
+    saveObj(val_y, 'val_y')
+    saveObj(tes_y, 'tes_y')
     return
 
 
 if __name__ == '__main__':
     start = time.time()
 
-    #TODO write main function
+    # init_data()    # NOTE only have to create data files once
+
+    VOCAB_SIZE = len(loadObj('vocab'))
+
+    model = train(
+        model=CNN(VOCAB_SIZE),
+        loss_fn=nn.BCELoss(),
+        num_epochs=50,
+        batch_size=100,
+        learn_rate=1e-3,
+        reg_rate=0)
+
+    # saveObj(model, 'model')
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))

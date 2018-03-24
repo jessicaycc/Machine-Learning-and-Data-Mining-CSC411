@@ -5,12 +5,8 @@ import _pickle
 import numpy as np
 import torch.nn as nn
 import torch.utils.data
+import torch.nn.functional as F
 import matplotlib.pyplot as plt
-
-from numpy import dot
-from numpy import log
-from numpy import exp
-from numpy.linalg import norm
 from torch.autograd import Variable
 
 np.random.seed(0)
@@ -30,7 +26,9 @@ def loadObj(filename):
     return _pickle.load(open('objects/'+filename+'.pkl', 'rb'))
 
 TF = torch.FloatTensor
-NUM_FAKE = 1298
-NUM_REAL = 1968
-MAX_HL_LEN = 20
+TL = torch.LongTensor
+PAD_WORD = '<>'
+NUM_FAKE = 6452
+NUM_REAL = 3746
+MAX_HL_LEN = 10
 SET_RATIO = (0.70, 0.15, 0.15)
