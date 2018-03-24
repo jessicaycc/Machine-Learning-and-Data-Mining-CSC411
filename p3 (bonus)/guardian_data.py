@@ -29,8 +29,8 @@ my_params = {
 
 # day iteration from here:
 # http://stackoverflow.com/questions/7274267/print-all-day-dates-between-two-dates
-start_date = date(2017, 6, 1)
-end_date = date(2018,3, 23)
+start_date = date(2013, 4, 20)
+end_date = date(2014,3, 23)
 dayrange = range((end_date - start_date).days + 1)
 for daycount in dayrange:
     dt = start_date + timedelta(days=daycount)
