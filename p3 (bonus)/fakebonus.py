@@ -179,7 +179,7 @@ def init_data():
 if __name__ == '__main__':
     start = time.time()
 
-    # init_data()    # NOTE only have to create data files once
+    init_data()    # NOTE only have to create data files once
 
     VOCAB_SIZE = len(loadObj('vocab'))
 
