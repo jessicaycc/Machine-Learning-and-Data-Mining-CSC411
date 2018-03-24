@@ -4,23 +4,27 @@ class CNN(nn.Module):
     def __init__(self, vocab_size):
         super(CNN, self).__init__()
 
-        self.embed = nn.Embedding(vocab_size, 256)
+        self.embed = nn.Embedding(vocab_size, 512)
 
         self.conv = nn.Sequential(
             nn.Conv2d(1, 64, kernel_size=11, stride=4, padding=2),
             nn.ReLU(inplace=True),
-            nn.Conv2d(64, 64, kernel_size=5, padding=2),
+            nn.Conv2d(64, 128, kernel_size=5, stride=2, padding=2),
+            nn.ReLU(inplace=True),
+            nn.Conv2d(128, 256, kernel_size=3, stride=2, padding=1),
+            nn.ReLU(inplace=True),
+            nn.Conv2d(256, 256, kernel_size=3, stride=2, padding=1),
             nn.ReLU(inplace=True))
 
         self.fc = nn.Sequential(
             nn.Dropout(),
-            nn.Linear(4032, 1),
+            nn.Linear(4096, 1),
             nn.Sigmoid())
 
     def forward(self, x):
         x = self.embed(x).unsqueeze(1)
         x = self.conv(x)
-        x = self.fc(x.view(x.size(0), 4032))
+        x = self.fc(x.view(x.size(0), 4096))
         return x
 
 
