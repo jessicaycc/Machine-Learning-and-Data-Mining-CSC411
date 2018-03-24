@@ -29,6 +29,23 @@ class CNN(nn.Module):
         x = self.fc(x.view(x.size(0), 512))
         return x
 
+class LogisticRegression(nn.Module):
+    def init_weights(self):
+        nn.init.xavier_uniform(self.features[1].weight.data)
+        nn.init.constant(self.features[1].bias, 0.1)
+
+    def __init__(self, input_size):
+        super(LogisticRegression, self).__init__()
+        self.features = nn.Sequential(
+            nn.Dropout(),
+            nn.Linear(input_size, 1),
+            nn.Sigmoid())
+        
+        self.init_weights()
+
+    def forward(self, x):
+        return self.features(x)
+
 
 def gen_vocab(data_file):
     vocab = list()
@@ -71,6 +88,14 @@ def word_to_num(data_list, vocab):
                 numbers[i][j] = vocab[w]
     return numbers
 
+def one_hot(data_list, vocab):
+    X = np.zeros((len(data_list), len(vocab)))
+    for i, line in enumerate(data_list):
+        for word in line:
+            if word in vocab:
+                X[i][vocab[word]] = 1.
+    return X
+
 
 def train(model, loss_fn, num_epochs, batch_size, learn_rate, reg_rate):
     train_x = torch.from_numpy(loadObj('tra_x'))
@@ -94,7 +119,7 @@ def train(model, loss_fn, num_epochs, batch_size, learn_rate, reg_rate):
 
     for epoch in range(1, num_epochs+1):
         for i, (review, target) in enumerate(train_loader, 1):
-            review = Variable(review, requires_grad=False).type(TL)
+            review = Variable(review, requires_grad=False).type(TF)
             target = Variable(target, requires_grad=False).type(TF)
 
             pred = model.forward(review).squeeze()
@@ -128,7 +153,7 @@ def test(model, data_set, th=0.5, batch_size=24):
 
     correct, total = 0, 0
     for review, target in test_loader:
-        review = Variable(review, requires_grad=False).type(TL)
+        review = Variable(review, requires_grad=False).type(TF)
         target = Variable(target, requires_grad=False).type(TF)
 
         pred = model(review).squeeze().data.numpy()
@@ -159,9 +184,9 @@ def init_data():
     tra, val, tes = (a+b for a,b in zip(gen_data_sets('clean_real.txt'), gen_data_sets('clean_fake.txt')))
 
     vocab = gen_vocab(tra)
-    tra_x = word_to_num(tra, vocab)
-    val_x = word_to_num(val, vocab)
-    tes_x = word_to_num(tes, vocab)
+    tra_x = one_hot(tra, vocab)
+    val_x = one_hot(val, vocab)
+    tes_x = one_hot(tes, vocab)
     tra_y = gen_data_labels('tra')
     val_y = gen_data_labels('val')
     tes_y = gen_data_labels('tes')
@@ -179,15 +204,15 @@ def init_data():
 if __name__ == '__main__':
     start = time.time()
 
-    # init_data()    # NOTE only have to create data files once
+    init_data()    # NOTE only have to create data files once
 
     VOCAB_SIZE = len(loadObj('vocab'))
 
     model = train(
-        model=CNN(VOCAB_SIZE),
+        model=LogisticRegression(VOCAB_SIZE),
         loss_fn=nn.BCELoss(),
         num_epochs=50,
-        batch_size=100,
+        batch_size=128,
         learn_rate=1e-3,
         reg_rate=0)
 
