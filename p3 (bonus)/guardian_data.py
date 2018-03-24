@@ -32,6 +32,7 @@ my_params = {
 start_date = date(2017, 6, 1)
 end_date = date(2018,3, 23)
 dayrange = range((end_date - start_date).days + 1)
+
 for daycount in dayrange:
     dt = start_date + timedelta(days=daycount)
     datestr = dt.strftime('%Y-%m-%d')
@@ -44,6 +45,7 @@ for daycount in dayrange:
     my_params['to-date'] = datestr
     current_page = 1
     total_pages = 1
+
     while current_page <= total_pages:
         print("...page", current_page)
         my_params['page'] = current_page
@@ -53,6 +55,7 @@ for daycount in dayrange:
         headline = ''.join(headline)
         #all_results.extend(headline)
         headline = clean_str(headline)
+
         with open('data/guardian.txt', 'a') as f:
             f.write(headline+"\n")
         print(headline)
