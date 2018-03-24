@@ -1,26 +1,26 @@
 from const import *
 
 class CNN(nn.Module):
-    def __init__(self, vocab_size, input_size):
+    def __init__(self, vocab_size):
         super(CNN, self).__init__()
 
-        self.embed = nn.Embedding(vocab_size, input_size)
+        self.embed = nn.Embedding(vocab_size, 256)
 
         self.conv = nn.Sequential(
             nn.Conv2d(1, 64, kernel_size=11, stride=4, padding=2),
             nn.ReLU(inplace=True),
-            nn.Conv2d(64, 64, kernel_size=5, stride=2, padding=2),
+            nn.Conv2d(64, 64, kernel_size=5, padding=2),
             nn.ReLU(inplace=True))
 
         self.fc = nn.Sequential(
             nn.Dropout(),
-            nn.Linear(256, 1),
+            nn.Linear(4032, 1),
             nn.Sigmoid())
 
     def forward(self, x):
         x = self.embed(x).unsqueeze(1)
         x = self.conv(x)
-        x = self.fc(x.view(x.size(0), 256))
+        x = self.fc(x.view(x.size(0), 4032))
         return x
 
 
@@ -83,8 +83,8 @@ def train(model, loss_fn, num_epochs, batch_size, learn_rate, reg_rate):
     
     model.train()
 
-    train_acc = [test(model,'tra')]
-    valid_acc = [test(model,'val')]
+    #train_acc = [test(model,'tra')]
+    #valid_acc = [test(model,'val')]
 
     for epoch in range(1, num_epochs+1):
         for i, (review, target) in enumerate(train_loader, 1):
@@ -100,10 +100,12 @@ def train(model, loss_fn, num_epochs, batch_size, learn_rate, reg_rate):
         print ('Epoch: [%d/%d], Steps: %d, Loss: %.4f' 
             % (epoch, num_epochs, len(train_dataset)//batch_size, loss.data[0]))
 
-        train_acc.append(test(model,'tra'))
-        valid_acc.append(test(model,'val'))
+        test(model,'val')
 
-    learn_curve(train_acc, valid_acc, np.arange(num_epochs+1))
+        #train_acc.append(test(model,'tra'))
+        #valid_acc.append(test(model,'val'))
+
+    #learn_curve(train_acc, valid_acc, np.arange(num_epochs+1))
     return model
 
 def test(model, data_set, th=0.5, batch_size=24):
@@ -117,6 +119,7 @@ def test(model, data_set, th=0.5, batch_size=24):
         shuffle=False)
 
     model.eval()
+
     correct, total = 0, 0
     for review, target in test_loader:
         review = Variable(review, requires_grad=False).type(TL)
@@ -130,7 +133,10 @@ def test(model, data_set, th=0.5, batch_size=24):
         correct += np.sum(pred == target)
     
     model.train()
-    return 100 * correct/total
+
+    acc = 100 * correct/total
+    print('Accuracy [' + data_set + ']: %.2f%%' % acc)
+    return
 
 def learn_curve(y1, y2, x):
     plt.plot(x, y1, label='training')
@@ -172,18 +178,14 @@ if __name__ == '__main__':
     VOCAB_SIZE = len(loadObj('vocab'))
 
     model = train(
-        model=CNN(VOCAB_SIZE, MAX_HL_LEN),
+        model=CNN(VOCAB_SIZE),
         loss_fn=nn.BCELoss(),
         num_epochs=50,
-        batch_size=24,
+        batch_size=100,
         learn_rate=1e-3,
-        reg_rate=1e-4)
+        reg_rate=0)
 
     # saveObj(model, 'model')
-
-    print('Accuracy [train]: %.2f%%' % test(model,'tra'))
-    print('Accuracy [valid]: %.2f%%' % test(model,'val'))
-    print('Accuracy [test]: %.2f%%'  % test(model,'tes'))
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
