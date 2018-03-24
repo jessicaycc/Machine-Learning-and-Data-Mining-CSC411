@@ -9,18 +9,18 @@ class CNN(nn.Module):
         self.conv = nn.Sequential(
             nn.Conv2d(1, 64, kernel_size=11, stride=4, padding=2),
             nn.ReLU(inplace=True),
-            nn.Conv2d(64, 1, kernel_size=5, stride=2, padding=2),
+            nn.Conv2d(64, 64, kernel_size=5, stride=2, padding=2),
             nn.ReLU(inplace=True))
 
         self.fc = nn.Sequential(
             nn.Dropout(),
-            nn.Linear(4, 1),
+            nn.Linear(256, 1),
             nn.Sigmoid())
 
     def forward(self, x):
         x = self.embed(x).unsqueeze(1)
         x = self.conv(x)
-        x = self.fc(x.view(x.size(0), 4))
+        x = self.fc(x.view(x.size(0), 256))
         return x
 
 
