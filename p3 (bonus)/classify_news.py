@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import sys
 from fakebonus import *
 
 def gen_data(data_file):
