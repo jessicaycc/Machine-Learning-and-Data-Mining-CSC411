@@ -4,7 +4,7 @@ class CNN(nn.Module):
     def __init__(self, vocab_size):
         super(CNN, self).__init__()
 
-        self.embed = nn.Embedding(vocab_size, 256)
+        self.embed = nn.Embedding(vocab_size, 128)
 
         self.conv = nn.Sequential(
             nn.Conv2d(1, 64, kernel_size=11, stride=4, padding=1),
@@ -14,13 +14,13 @@ class CNN(nn.Module):
 
         self.fc = nn.Sequential(
             nn.Dropout(),
-            nn.Linear(3968, 1),
+            nn.Linear(1920, 1),
             nn.Sigmoid())
 
     def forward(self, x):
         x = self.embed(x).unsqueeze(1)
         x = self.conv(x)
-        x = self.fc(x.view(x.size(0), 3968))
+        x = self.fc(x.view(x.size(0), 1920))
         return x
 
 class LogisticRegression(nn.Module):
