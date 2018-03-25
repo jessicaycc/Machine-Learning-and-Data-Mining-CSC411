@@ -106,14 +106,13 @@ def train(model, loss_fn, num_epochs, batch_size, learn_rate, reg_rate):
         lr=learn_rate,
         weight_decay=reg_rate)
     
+    train_acc = [test(model,'tra')]
+    valid_acc = [test(model,'val')]
+
     model.train()
-
-    #train_acc = [test(model,'tra')]
-    #valid_acc = [test(model,'val')]
-
     for epoch in range(1, num_epochs+1):
         for i, (review, target) in enumerate(train_loader, 1):
-            review = Variable(review, requires_grad=False).type(TL)
+            review = Variable(review, requires_grad=False).type(TF)
             target = Variable(target, requires_grad=False).type(TF)
 
             pred = model.forward(review).squeeze()
@@ -125,12 +124,10 @@ def train(model, loss_fn, num_epochs, batch_size, learn_rate, reg_rate):
         print ('Epoch: [%d/%d], Steps: %d, Loss: %.4f' 
             % (epoch, num_epochs, len(train_dataset)//batch_size, loss.data[0]))
 
-        test(model,'val')
+        train_acc.append(test(model,'tra'))
+        valid_acc.append(test(model,'val'))
 
-        #train_acc.append(test(model,'tra'))
-        #valid_acc.append(test(model,'val'))
-
-    #learn_curve(train_acc, valid_acc, np.arange(num_epochs+1))
+    learn_curve(train_acc, valid_acc, np.arange(num_epochs+1))
     return model
 
 def test(model, data_set, th=0.5, batch_size=24):
@@ -144,10 +141,9 @@ def test(model, data_set, th=0.5, batch_size=24):
         shuffle=False)
 
     model.eval()
-
     correct, total = 0, 0
     for review, target in test_loader:
-        review = Variable(review, requires_grad=False).type(TL)
+        review = Variable(review, requires_grad=False).type(TF)
         target = Variable(target, requires_grad=False).type(TF)
 
         pred = model(review).squeeze().data.numpy()
@@ -158,10 +154,7 @@ def test(model, data_set, th=0.5, batch_size=24):
         correct += np.sum(pred == target)
     
     model.train()
-
-    acc = 100 * correct/total
-    print('Accuracy [' + data_set + ']: %.2f%%' % acc)
-    return
+    return 100 * correct/total
 
 def learn_curve(y1, y2, x):
     plt.plot(x, y1, label='training')
@@ -178,9 +171,9 @@ def init_data():
     tra, val, tes = (a+b for a,b in zip(gen_data_sets('clean_real.txt'), gen_data_sets('clean_fake.txt')))
 
     vocab = gen_vocab(tra)
-    tra_x = word_to_num(tra, vocab)
-    val_x = word_to_num(val, vocab)
-    tes_x = word_to_num(tes, vocab)
+    tra_x = one_hot(tra, vocab)
+    val_x = one_hot(val, vocab)
+    tes_x = one_hot(tes, vocab)
     tra_y = gen_data_labels('tra')
     val_y = gen_data_labels('val')
     tes_y = gen_data_labels('tes')
@@ -203,14 +196,18 @@ if __name__ == '__main__':
     VOCAB_SIZE = len(loadObj('vocab'))
 
     model = train(
-        model=CNN(VOCAB_SIZE),
+        model=LogisticRegression(VOCAB_SIZE),
         loss_fn=nn.BCELoss(),
         num_epochs=50,
         batch_size=128,
         learn_rate=1e-3,
         reg_rate=0)
 
-    # saveObj(model, 'model')
+    saveObj(model, 'model')
+
+    print('Accuracy on train set: %.2f%%' % test(model,'tra'))
+    print('Accuracy on valid set: %.2f%%' % test(model,'val'))
+    print('Accuracy on test set: %.2f%%'  % test(model,'tes'))
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))

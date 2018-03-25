@@ -5,7 +5,6 @@ import _pickle
 import numpy as np
 import torch.nn as nn
 import torch.utils.data
-import torch.nn.functional as F
 import matplotlib.pyplot as plt
 from torch.autograd import Variable
 
