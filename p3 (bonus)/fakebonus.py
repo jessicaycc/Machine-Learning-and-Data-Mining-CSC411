@@ -62,14 +62,18 @@ def gen_data_sets(data_file):
     tes = shuffled[(i+j):(i+j+k)]
     return tra, val, tes
 
-def gen_data_labels(data_list):
+def gen_data_labels(data_list, test_p3=False):
     size = {
         'tra': SET_RATIO[0],
         'val': SET_RATIO[1],
         'tes': SET_RATIO[2]
         }[data_list]
-    real = np.zeros(int(size*NUM_REAL))
-    fake = np.ones(int(size*NUM_FAKE))
+    if test_p3:
+        real = np.zeros(int(size*NUM_REAL_P3))
+        fake = np.ones(int(size*NUM_FAKE_P3))
+    else:
+        real = np.zeros(int(size*NUM_REAL))
+        fake = np.ones(int(size*NUM_FAKE))
     return np.concatenate((real, fake))
 
 def word_to_num(data_list, vocab):
@@ -136,14 +140,18 @@ def train(model, loss_fn, num_epochs, batch_size, learn_rate, reg_rate):
     learn_curve(tra_acc, val_acc, np.arange(num_epochs+1))
     return
 
-def test(model, data_set, th=0.5, batch_size=24):
-    test_x = torch.from_numpy(loadObj(data_set+'_x'))
-    test_y = torch.from_numpy(loadObj(data_set+'_y'))
+def test(model, data_set, test_p3=False):
+    if test_p3:
+        test_x = torch.from_numpy(loadObj('tes_x_p3'))
+        test_y = torch.from_numpy(loadObj('tes_y_p3'))
+    else:
+        test_x = torch.from_numpy(loadObj(data_set+'_x'))
+        test_y = torch.from_numpy(loadObj(data_set+'_y'))
+        
     test_dataset = torch.utils.data.TensorDataset(test_x, test_y)
-
     test_loader = torch.utils.data.DataLoader(
         dataset=test_dataset, 
-        batch_size=batch_size, 
+        batch_size=128, 
         shuffle=False)
 
     model.eval()
@@ -171,6 +179,33 @@ def learn_curve(y1, y2, x):
     plt.savefig('plots/learn_curve.png', bbox_inches='tight')
     return
 
+def disp_keywords():
+    vocab = loadObj('vocab')
+    model = loadObj('model')
+
+    vocab = list(vocab.keys())
+    W = model.features[1].weight.data.numpy()[0]
+    W_index_sorted = W.argsort()
+
+    W_pos = W_index_sorted[-10:][::-1]
+    W_neg = W_index_sorted[:10]
+
+    top10_pos = [(W[i], vocab[i]) for i in W_pos]
+    top10_neg = [(W[i], vocab[i]) for i in W_neg]
+
+    print('Top 10 positive weights:', top10_pos)
+    print('\nTop 10 negative weights:', top10_neg)
+    
+    W_pos = W_index_sorted[::-1]
+    W_neg = W_index_sorted[:]
+
+    top10_pos = [(W[i], vocab[i]) for i in W_pos if vocab[i] not in ENGLISH_STOP_WORDS][:10]
+    top10_neg = [(W[i], vocab[i]) for i in W_neg if vocab[i] not in ENGLISH_STOP_WORDS][:10]
+
+    print('\nTop 10 positive weights (no stop words):', top10_pos)
+    print('\nTop 10 negative weights (no stop words):', top10_neg)
+    return
+
 
 def init_data():
     tra, val, tes = (a+b for a,b in zip(gen_data_sets('clean_real.txt'), gen_data_sets('clean_fake.txt')))
@@ -190,6 +225,14 @@ def init_data():
     saveObj(tra_y, 'tra_y')
     saveObj(val_y, 'val_y')
     saveObj(tes_y, 'tes_y')
+
+    _, _, tes = (a+b for a,b in zip(gen_data_sets('clean_real_p3.txt'), gen_data_sets('clean_fake_p3.txt')))
+
+    tes_x = one_hot(tes, vocab)
+    tes_y = gen_data_labels('tes', test_p3=True)
+
+    saveObj(tes_x, 'tes_x_p3')
+    saveObj(tes_y, 'tes_y_p3')
     return
 
 
@@ -211,6 +254,10 @@ if __name__ == '__main__':
     print('Accuracy on train set: %.2f%%' % test(model,'tra'))
     print('Accuracy on valid set: %.2f%%' % test(model,'val'))
     print('Accuracy on test set: %.2f%%'  % test(model,'tes'))
+    print('Accuracy on test set (p3): %.2f%%' % test(model, '', test_p3=True))
+    print('\n')
+
+    disp_keywords()
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
