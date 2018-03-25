@@ -2,14 +2,18 @@ import os
 import time
 import torch
 import _pickle
+
 import numpy as np
 import torch.nn as nn
 import torch.utils.data
 import matplotlib.pyplot as plt
+
 from torch.autograd import Variable
+
 
 np.random.seed(0)
 torch.manual_seed(0)
+
 
 if not os.path.exists('plots'):
     os.makedirs('plots')
@@ -17,12 +21,14 @@ if not os.path.exists('plots'):
 if not os.path.exists('objects'):
     os.makedirs('objects')
 
+
 def saveObj(obj, filename):
     _pickle.dump(obj, open('objects/'+filename+'.pkl', 'wb'))
     return
 
 def loadObj(filename):
     return _pickle.load(open('objects/'+filename+'.pkl', 'rb'))
+
 
 TF = torch.FloatTensor
 TL = torch.LongTensor

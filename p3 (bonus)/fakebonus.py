@@ -106,10 +106,13 @@ def train(model, loss_fn, num_epochs, batch_size, learn_rate, reg_rate):
         lr=learn_rate,
         weight_decay=reg_rate)
     
-    train_acc = [test(model,'tra')]
-    valid_acc = [test(model,'val')]
+    tra_acc = [test(model,'tra')]
+    val_acc = [test(model,'val')]
+    max_acc = val_acc[0]
 
     model.train()
+    saveObj(model, 'model')
+
     for epoch in range(1, num_epochs+1):
         for i, (review, target) in enumerate(train_loader, 1):
             review = Variable(review, requires_grad=False).type(TF)
@@ -124,11 +127,14 @@ def train(model, loss_fn, num_epochs, batch_size, learn_rate, reg_rate):
         print ('Epoch: [%d/%d], Steps: %d, Loss: %.4f' 
             % (epoch, num_epochs, len(train_dataset)//batch_size, loss.data[0]))
 
-        train_acc.append(test(model,'tra'))
-        valid_acc.append(test(model,'val'))
+        tra_acc.append(test(model,'tra'))
+        val_acc.append(test(model,'val'))
 
-    learn_curve(train_acc, valid_acc, np.arange(num_epochs+1))
-    return model
+        if val_acc[-1] > max_acc:
+            saveObj(model, 'model')
+
+    learn_curve(tra_acc, val_acc, np.arange(num_epochs+1))
+    return
 
 def test(model, data_set, th=0.5, batch_size=24):
     test_x = torch.from_numpy(loadObj(data_set+'_x'))
@@ -163,7 +169,6 @@ def learn_curve(y1, y2, x):
     plt.ylabel('Accuracy (%)')
     plt.legend(loc='lower left')
     plt.savefig('plots/learn_curve.png', bbox_inches='tight')
-    #plt.show()
     return
 
 
@@ -194,15 +199,14 @@ if __name__ == '__main__':
     init_data()
     VOCAB_SIZE = len(loadObj('vocab'))
 
-    model = train(
-        model=LogisticRegression(VOCAB_SIZE),
-        loss_fn=nn.BCELoss(),
-        num_epochs=80,
-        batch_size=128,
-        learn_rate=1e-3,
-        reg_rate=0)
+    train(model=LogisticRegression(VOCAB_SIZE),
+          loss_fn=nn.BCELoss(),
+          num_epochs=100,
+          batch_size=128,
+          learn_rate=1e-3,
+          reg_rate=0)
 
-    saveObj(model, 'model')
+    model = loadObj('model')
 
     print('Accuracy on train set: %.2f%%' % test(model,'tra'))
     print('Accuracy on valid set: %.2f%%' % test(model,'val'))
