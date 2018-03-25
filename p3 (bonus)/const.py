@@ -27,7 +27,7 @@ def loadObj(filename):
 TF = torch.FloatTensor
 TL = torch.LongTensor
 PAD_WORD = '<>'
-NUM_FAKE = 5000
-NUM_REAL = 4893
+NUM_FAKE = 4736
+NUM_REAL = 4736
 MAX_HL_LEN = 10
 SET_RATIO = (0.70, 0.15, 0.15)

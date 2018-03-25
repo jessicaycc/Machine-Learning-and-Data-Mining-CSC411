@@ -191,14 +191,13 @@ def init_data():
 if __name__ == '__main__':
     start = time.time()
 
-    init_data()    # NOTE only have to create data files once
-
+    init_data()
     VOCAB_SIZE = len(loadObj('vocab'))
 
     model = train(
         model=LogisticRegression(VOCAB_SIZE),
         loss_fn=nn.BCELoss(),
-        num_epochs=50,
+        num_epochs=80,
         batch_size=128,
         learn_rate=1e-3,
         reg_rate=0)
