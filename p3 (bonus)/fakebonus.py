@@ -4,29 +4,23 @@ class CNN(nn.Module):
     def __init__(self, vocab_size):
         super(CNN, self).__init__()
 
-        self.embed = nn.Embedding(vocab_size, 1024)
+        self.embed = nn.Embedding(vocab_size, 256)
 
         self.conv = nn.Sequential(
-            nn.Conv2d(1, 64, kernel_size=11, stride=4, padding=2),
+            nn.Conv2d(1, 64, kernel_size=11, stride=4, padding=1),
             nn.ReLU(inplace=True),
-            nn.Conv2d(64, 128, kernel_size=5, stride=2, padding=2),
-            nn.ReLU(inplace=True),
-            nn.Conv2d(128, 512, kernel_size=3, stride=2, padding=1),
-            nn.ReLU(inplace=True),
-            nn.Conv2d(512, 128, kernel_size=3, stride=2, padding=1),
-            nn.ReLU(inplace=True),
-            nn.Conv2d(128, 64, kernel_size=3, stride=4, padding=1),
+            nn.Conv2d(64, 64, kernel_size=3, padding=1),
             nn.ReLU(inplace=True))
 
         self.fc = nn.Sequential(
             nn.Dropout(),
-            nn.Linear(512, 1),
+            nn.Linear(3968, 1),
             nn.Sigmoid())
 
     def forward(self, x):
         x = self.embed(x).unsqueeze(1)
         x = self.conv(x)
-        x = self.fc(x.view(x.size(0), 512))
+        x = self.fc(x.view(x.size(0), 3968))
         return x
 
 class LogisticRegression(nn.Module):
@@ -119,7 +113,7 @@ def train(model, loss_fn, num_epochs, batch_size, learn_rate, reg_rate):
 
     for epoch in range(1, num_epochs+1):
         for i, (review, target) in enumerate(train_loader, 1):
-            review = Variable(review, requires_grad=False).type(TF)
+            review = Variable(review, requires_grad=False).type(TL)
             target = Variable(target, requires_grad=False).type(TF)
 
             pred = model.forward(review).squeeze()
@@ -153,7 +147,7 @@ def test(model, data_set, th=0.5, batch_size=24):
 
     correct, total = 0, 0
     for review, target in test_loader:
-        review = Variable(review, requires_grad=False).type(TF)
+        review = Variable(review, requires_grad=False).type(TL)
         target = Variable(target, requires_grad=False).type(TF)
 
         pred = model(review).squeeze().data.numpy()
@@ -184,9 +178,9 @@ def init_data():
     tra, val, tes = (a+b for a,b in zip(gen_data_sets('clean_real.txt'), gen_data_sets('clean_fake.txt')))
 
     vocab = gen_vocab(tra)
-    tra_x = one_hot(tra, vocab)
-    val_x = one_hot(val, vocab)
-    tes_x = one_hot(tes, vocab)
+    tra_x = word_to_num(tra, vocab)
+    val_x = word_to_num(val, vocab)
+    tes_x = word_to_num(tes, vocab)
     tra_y = gen_data_labels('tra')
     val_y = gen_data_labels('val')
     tes_y = gen_data_labels('tes')
@@ -209,7 +203,7 @@ if __name__ == '__main__':
     VOCAB_SIZE = len(loadObj('vocab'))
 
     model = train(
-        model=LogisticRegression(VOCAB_SIZE),
+        model=CNN(VOCAB_SIZE),
         loss_fn=nn.BCELoss(),
         num_epochs=50,
         batch_size=128,
