@@ -168,7 +168,7 @@ def finish_episode(saved_rewards, saved_logprobs, gamma=1.0):
 def get_reward(status):
     """Returns a numeric given an environment status."""
     return {
-            Environment.STATUS_VALID_MOVE  : 0, # TODO
+            Environment.STATUS_VALID_MOVE  : 0,
             Environment.STATUS_INVALID_MOVE: 0,
             Environment.STATUS_WIN         : 0,
             Environment.STATUS_TIE         : 0,
@@ -236,14 +236,6 @@ def part1():
     env.step(1)
     env.render()
     return
-
-#______________________________ PART 2 ______________________________#
-def part2():
-    pass
-
-#______________________________ PART 3 ______________________________#
-def part3():
-    pass
 
 #______________________________ PART 4 ______________________________#
 def part4():
