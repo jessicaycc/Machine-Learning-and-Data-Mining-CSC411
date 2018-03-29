@@ -228,8 +228,7 @@ def load_weights(policy, episode):
     policy.load_state_dict(weights)
 
 
-#______________________________ PART 1 ______________________________#
-def part1():
+def play_self():
     env = Environment()
 
     env.render()
@@ -237,28 +236,16 @@ def part1():
     env.render()
     return
 
-#______________________________ PART 4 ______________________________#
-def part4():
-    pass
-
-#______________________________ PART 5 ______________________________#
 def part5():
     pass
 
-#______________________________ PART 6 ______________________________#
 def part6():
     pass
 
-#______________________________ PART 7 ______________________________#
 def part7():
     pass
 
-#______________________________ PART 8 ______________________________#
-def part8():
-    pass
 
-
-#_______________________________ MAIN _______________________________#
 if __name__ == '__main__':
     start = time.time()
 
@@ -272,13 +259,7 @@ if __name__ == '__main__':
     #     load_weights(policy, ep)
     #     print(first_move_distr(policy, env))
 
-    part1()
-    # part2()
-    # part3()
-    # part4()
-    # part6()
-    # part7()
-    # part8()
+    play_self()
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
