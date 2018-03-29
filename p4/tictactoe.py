@@ -9,14 +9,15 @@ import torch.distributions
 import numpy as np
 import torch.nn as nn
 import torch.optim as optim
-import torch.nn.functional as F
 import matplotlib.pyplot as plt
+import torch.nn.functional as F
 
 from itertools import count
 from collections import defaultdict
 from torch.autograd import Variable
 
 
+random.seed(0)
 np.random.seed(0)
 torch.manual_seed(0)
 
@@ -190,6 +191,7 @@ def train(policy, env, gamma=0.9, log_interval=1000):
     scheduler = torch.optim.lr_scheduler.StepLR(
             optimizer, step_size=10000, gamma=gamma)
     running_reward = 0
+    invalid_moves = 0
     average_return = []
 
     for i_episode in range(50000):
@@ -200,6 +202,10 @@ def train(policy, env, gamma=0.9, log_interval=1000):
         while not done:
             action, logprob = select_action(policy, state)
             state, status, done = env.play_against_random(action)
+
+            if status == env.STATUS_INVALID_MOVE:
+                invalid_moves += 1
+
             reward = get_reward(status)
             saved_logprobs.append(logprob)
             saved_rewards.append(reward)
@@ -210,11 +216,13 @@ def train(policy, env, gamma=0.9, log_interval=1000):
         finish_episode(saved_rewards, saved_logprobs, gamma)
 
         if i_episode % log_interval == 0:
-            print('Episode {}\tAverage return: {:.2f}'.format(
+            print('Episode {}\tAverage return: {:.2f}\tInvalid moves: {}'.format(
                 i_episode,
-                running_reward / log_interval))
+                running_reward / log_interval,
+                invalid_moves))
             average_return.append(running_reward / log_interval)
             running_reward = 0
+            invalid_moves = 0
             
 
         if i_episode % (log_interval) == 0:
@@ -226,11 +234,7 @@ def train(policy, env, gamma=0.9, log_interval=1000):
             scheduler.step()
             optimizer.zero_grad()
 
-    plt.plot(np.arange(0, 50000, 1000), average_return)
-    plt.xlabel("Episode")
-    plt.ylabel('Average Return')
-    plt.savefig('plots/learningCurve.png', bbox_inches='tight')
-    plt.show()
+    learn_curve(np.arange(0, 50000, 1000), average_return)
 
 def first_move_distr(policy, env):
     """Display the distribution of first moves."""
@@ -251,11 +255,41 @@ def play_self(env):
     env.render()
     return
 
+def learn_curve(x, y):
+    plt.plot(x, y)
+    plt.xlabel("Episode")
+    plt.ylabel('Average Return')
+    plt.savefig('plots/learningCurve.png', bbox_inches='tight')
+    plt.show()
+
+def test(policy, env, num_games=100):
+    win = 0
+    tie = 0
+    lose = 0
+
+    for i in range(num_games):
+        state = env.reset()
+        done = False
+
+        while not done:
+            action, _ = select_action(policy, state)
+            state, status, done = env.play_against_random(action)
+
+        if status == env.STATUS_WIN:
+            win += 1
+        elif status == env.STATUS_TIE:
+            tie += 1
+        elif status == env.STATUS_LOSE:
+            lose += 1
+    
+    print('# Games: {}     Wins: {}     Ties: {}     Losses: {}'.format(
+        num_games, win, tie, lose))
+
 
 if __name__ == '__main__':
     start = time.time()
 
-    policy = Policy()
+    policy = Policy(hidden_size=96)
     env = Environment()
 
     # play_self(env)
@@ -265,7 +299,8 @@ if __name__ == '__main__':
     else:
         ep = int(sys.argv[1])
         load_weights(policy, ep)
-        print(first_move_distr(policy, env))
+        test(policy, env)
+        # print(first_move_distr(policy, env))
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
