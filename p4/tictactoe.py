@@ -13,7 +13,6 @@ import torch.nn.functional as F
 from itertools import count
 from collections import defaultdict
 from torch.autograd import Variable
-from __future__ import print_function
 
 
 class Environment(object):
@@ -110,9 +109,11 @@ class Policy(nn.Module):
     def __init__(self, input_size=27, hidden_size=64, output_size=9):
         super(Policy, self).__init__()
         # TODO
+        pass
 
     def forward(self, x):
         # TODO
+        pass
 
 
 def select_action(policy, state):
@@ -223,7 +224,12 @@ def load_weights(policy, episode):
 
 #______________________________ PART 1 ______________________________#
 def part1():
-    pass
+    env = Environment()
+
+    env.render()
+    env.step(1)
+    env.render()
+    return
 
 #______________________________ PART 2 ______________________________#
 def part2():
@@ -258,26 +264,23 @@ def part8():
 if __name__ == '__main__':
     start = time.time()
 
-    policy = Policy()
-    env = Environment()
+    # policy = Policy()
+    # env = Environment()
 
-    if len(sys.argv) == 1:
-        # `python tictactoe.py` to train the agent
-        train(policy, env)
-    else:
-        # `python tictactoe.py <ep>` to print the first move distribution
-        # using weightt checkpoint at episode int(<ep>)
-        ep = int(sys.argv[1])
-        load_weights(policy, ep)
-        print(first_move_distr(policy, env))
+    # if len(sys.argv) == 1:
+    #     train(policy, env)
+    # else:
+    #     ep = int(sys.argv[1])
+    #     load_weights(policy, ep)
+    #     print(first_move_distr(policy, env))
 
     part1()
-    #part2()
-    #part3()
-    #part4()
-    #part6()
-    #part7()
-    #part8()
+    # part2()
+    # part3()
+    # part4()
+    # part6()
+    # part7()
+    # part8()
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
