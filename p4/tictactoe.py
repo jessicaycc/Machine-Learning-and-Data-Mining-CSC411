@@ -108,12 +108,14 @@ class Policy(nn.Module):
     """
     def __init__(self, input_size=27, hidden_size=64, output_size=9):
         super(Policy, self).__init__()
-        # TODO
-        pass
+        
+        self.features = nn.Sequential(
+            nn.Linear(input_size, hidden_size),
+            nn.Linear(hidden_size, output_size),
+            nn.Softmax(dim=1))
 
     def forward(self, x):
-        # TODO
-        pass
+        return self.features(x)
 
 
 def select_action(policy, state):
@@ -142,7 +144,14 @@ def compute_returns(rewards, gamma=1.0):
     >>> compute_returns([0,-0.5,5,0.5,-10], 0.9)
     [-2.5965000000000003, -2.8850000000000002, -2.6500000000000004, -8.5, -10.0]
     """
-    # TODO
+    r_sum = 0
+    returns = np.zeros(len(rewards))
+
+    for i, r in enumerate(rewards):
+        r_sum += r * gamma**i
+        returns[i] = r_sum
+
+    return returns
 
 def finish_episode(saved_rewards, saved_logprobs, gamma=1.0):
     """Samples an action from the policy at the state."""
