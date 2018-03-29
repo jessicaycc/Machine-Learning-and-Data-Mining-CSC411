@@ -1,3 +1,4 @@
+import os
 import sys
 import time
 import math
@@ -13,6 +14,13 @@ import torch.nn.functional as F
 from itertools import count
 from collections import defaultdict
 from torch.autograd import Variable
+
+
+np.random.seed(0)
+torch.manual_seed(0)
+
+if not os.path.exists('ttt'):
+    os.makedirs('ttt')
 
 
 class Environment(object):
@@ -182,7 +190,7 @@ def train(policy, env, gamma=1.0, log_interval=1000):
             optimizer, step_size=10000, gamma=0.9)
     running_reward = 0
 
-    for i_episode in count(1):
+    for i_episode in range(50000):
         saved_rewards = []
         saved_logprobs = []
         state = env.reset()
@@ -227,10 +235,7 @@ def load_weights(policy, episode):
     weights = torch.load("ttt/policy-%d.pkl" % episode)
     policy.load_state_dict(weights)
 
-
-def play_self():
-    env = Environment()
-
+def play_self(env):
     env.render()
     env.step(1)
     env.render()
@@ -240,17 +245,17 @@ def play_self():
 if __name__ == '__main__':
     start = time.time()
 
-    # policy = Policy()
-    # env = Environment()
+    policy = Policy()
+    env = Environment()
 
-    # if len(sys.argv) == 1:
-    #     train(policy, env)
-    # else:
-    #     ep = int(sys.argv[1])
-    #     load_weights(policy, ep)
-    #     print(first_move_distr(policy, env))
+    # play_self(env)
 
-    play_self()
+    if len(sys.argv) == 1:
+        train(policy, env)
+    else:
+        ep = int(sys.argv[1])
+        load_weights(policy, ep)
+        print(first_move_distr(policy, env))
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
