@@ -10,6 +10,7 @@ import numpy as np
 import torch.nn as nn
 import torch.optim as optim
 import torch.nn.functional as F
+import matplotlib.pyplot as plt
 
 from itertools import count
 from collections import defaultdict
@@ -136,7 +137,7 @@ def select_action(policy, state):
     log_prob = torch.sum(m.log_prob(action))
     return action.data[0], log_prob
 
-def compute_returns(rewards, gamma=1.0):
+def compute_returns(rewards, gamma=0.9):
     """
     Compute returns for each time step, given the rewards
       @param rewards: list of floats, where rewards[t] is the reward
@@ -158,7 +159,7 @@ def compute_returns(rewards, gamma=1.0):
 
     return returns
 
-def finish_episode(saved_rewards, saved_logprobs, gamma=1.0):
+def finish_episode(saved_rewards, saved_logprobs, gamma=0.9):
     """Samples an action from the policy at the state."""
     policy_loss = []
     returns = compute_returns(saved_rewards, gamma)
@@ -183,12 +184,13 @@ def get_reward(status):
             Environment.STATUS_LOSE        : -1
     }[status]
 
-def train(policy, env, gamma=1.0, log_interval=1000):
+def train(policy, env, gamma=0.9, log_interval=1000):
     """Train policy gradient."""
     optimizer = optim.Adam(policy.parameters(), lr=0.001)
     scheduler = torch.optim.lr_scheduler.StepLR(
             optimizer, step_size=10000, gamma=0.9)
     running_reward = 0
+    average_return = []
 
     for i_episode in range(50000):
         saved_rewards = []
@@ -211,7 +213,9 @@ def train(policy, env, gamma=1.0, log_interval=1000):
             print('Episode {}\tAverage return: {:.2f}'.format(
                 i_episode,
                 running_reward / log_interval))
+            average_return.append(running_reward / log_interval)
             running_reward = 0
+            
 
         if i_episode % (log_interval) == 0:
             torch.save(policy.state_dict(),
@@ -221,6 +225,12 @@ def train(policy, env, gamma=1.0, log_interval=1000):
             optimizer.step()
             scheduler.step()
             optimizer.zero_grad()
+
+    plt.plot(np.arange(0, 50000, 1000), average_return)
+    plt.xlabel("Episode")
+    plt.ylabel('Average Return')
+    plt.savefig('plots/learningCurve.png', bbox_inches='tight')
+    plt.show()
 
 def first_move_distr(policy, env):
     """Display the distribution of first moves."""
@@ -251,7 +261,7 @@ if __name__ == '__main__':
     # play_self(env)
 
     if len(sys.argv) == 1:
-        train(policy, env)
+        train(policy, env, 0.9)
     else:
         ep = int(sys.argv[1])
         load_weights(policy, ep)
