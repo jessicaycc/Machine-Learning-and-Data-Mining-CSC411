@@ -188,7 +188,7 @@ def train(policy, env, gamma=0.9, log_interval=1000):
     """Train policy gradient."""
     optimizer = optim.Adam(policy.parameters(), lr=0.001)
     scheduler = torch.optim.lr_scheduler.StepLR(
-            optimizer, step_size=10000, gamma=0.9)
+            optimizer, step_size=10000, gamma=gamma)
     running_reward = 0
     average_return = []
 
