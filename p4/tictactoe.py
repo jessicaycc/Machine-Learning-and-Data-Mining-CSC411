@@ -236,15 +236,6 @@ def play_self():
     env.render()
     return
 
-def part5():
-    pass
-
-def part6():
-    pass
-
-def part7():
-    pass
-
 
 if __name__ == '__main__':
     start = time.time()
