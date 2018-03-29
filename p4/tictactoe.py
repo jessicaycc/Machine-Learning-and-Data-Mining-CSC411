@@ -1,3 +1,5 @@
+import sys
+import time
 import math
 import torch
 import random
@@ -219,8 +221,43 @@ def load_weights(policy, episode):
     policy.load_state_dict(weights)
 
 
+#______________________________ PART 1 ______________________________#
+def part1():
+    pass
+
+#______________________________ PART 2 ______________________________#
+def part2():
+    pass
+
+#______________________________ PART 3 ______________________________#
+def part3():
+    pass
+
+#______________________________ PART 4 ______________________________#
+def part4():
+    pass
+
+#______________________________ PART 5 ______________________________#
+def part5():
+    pass
+
+#______________________________ PART 6 ______________________________#
+def part6():
+    pass
+
+#______________________________ PART 7 ______________________________#
+def part7():
+    pass
+
+#______________________________ PART 8 ______________________________#
+def part8():
+    pass
+
+
+#_______________________________ MAIN _______________________________#
 if __name__ == '__main__':
-    import sys
+    start = time.time()
+
     policy = Policy()
     env = Environment()
 
@@ -233,3 +270,14 @@ if __name__ == '__main__':
         ep = int(sys.argv[1])
         load_weights(policy, ep)
         print(first_move_distr(policy, env))
+
+    part1()
+    #part2()
+    #part3()
+    #part4()
+    #part6()
+    #part7()
+    #part8()
+
+    end = time.time()
+    print('Time elapsed: %.2fs' % (end-start))
