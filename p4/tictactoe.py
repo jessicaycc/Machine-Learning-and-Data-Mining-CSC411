@@ -9,8 +9,8 @@ import torch.optim as optim
 import torch.nn.functional as F
 
 from itertools import count
-from torch.autograd import Variable
 from collections import defaultdict
+from torch.autograd import Variable
 from __future__ import print_function
 
 
