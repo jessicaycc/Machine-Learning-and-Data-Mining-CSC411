@@ -284,7 +284,30 @@ def test(policy, env, num_games=100):
     
     print('# Games: {}     Wins: {}     Ties: {}     Losses: {}'.format(
         num_games, win, tie, lose))
+    return win, tie, lose
 
+def part6():
+    win = []
+    tie = []
+    lose = []
+    policy = Policy(hidden_size=96)
+    env = Environment()
+
+    for i in range (0, 50000, 1000):
+        load_weights(policy, i)
+        w, t, l = test(policy, env)
+        win.append(w)
+        tie.append(t)
+        lose.append(l)
+
+    plt.plot(np.arange(0, 50000, 1000), win, label='win')
+    plt.plot(np.arange(0, 50000, 1000), tie, label='tie')
+    plt.plot(np.arange(0, 50000, 1000), lose, label='lose')
+    plt.xlabel("Episode")
+    plt.ylabel('Rate')
+    plt.legend(loc='lower left')
+    plt.savefig('plots/winRate.png', bbox_inches='tight')
+    plt.show()
 
 if __name__ == '__main__':
     start = time.time()
@@ -294,13 +317,15 @@ if __name__ == '__main__':
 
     # play_self(env)
 
-    if len(sys.argv) == 1:
-        train(policy, env, 0.9)
-    else:
-        ep = int(sys.argv[1])
-        load_weights(policy, ep)
-        test(policy, env)
+    # if len(sys.argv) == 1:
+    #     train(policy, env, 0.9)
+    # else:
+    #     ep = int(sys.argv[1])
+    #     load_weights(policy, ep)
+    #     test(policy, env)
         # print(first_move_distr(policy, env))
+    
+    part6()
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
