@@ -281,17 +281,16 @@ def test(policy, env, ep, num_games=100):
             tie += 1
         elif status == env.STATUS_LOSE:
             lose += 1
-    
+
     print('# Games: {}     Wins: {}     Ties: {}     Losses: {}'.format(
         num_games, win, tie, lose))
-    return win, tie, lose
+    return win/num_games, tie/num_games, lose/num_games
 
 def plot_performance(policy, env):
     win, tie, lose = list(), list(), list()
 
-    for i in range (0, 50000, 1000):
-        load_weights(policy, i)
-        w, t, l = test(policy, env)
+    for ep in range (0, 50000, 1000):
+        w, t, l = test(policy, env, ep)
         win.append(w)
         tie.append(t)
         lose.append(l)
@@ -314,8 +313,8 @@ if __name__ == '__main__':
 
     # play_self(env)
     # train(policy, env)    
-    # test(policy, env, sys.argv[1])
-    plot_performance(policy, env)
+    # test(policy, env, int(sys.argv[1]))
+    # plot_performance(policy, env)
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
