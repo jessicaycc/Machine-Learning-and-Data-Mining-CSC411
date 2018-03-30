@@ -9,6 +9,7 @@ import torch.nn as nn
 import matplotlib.pyplot as plt
 from torch.autograd import Variable
 
+
 if not os.path.exists('ttt'):
     os.makedirs('ttt')
 
