@@ -17,9 +17,9 @@ from collections import defaultdict
 from torch.autograd import Variable
 
 
-random.seed(0)
-np.random.seed(0)
-torch.manual_seed(0)
+# random.seed(0)
+# np.random.seed(0)
+# torch.manual_seed(0)
 
 if not os.path.exists('ttt'):
     os.makedirs('ttt')
