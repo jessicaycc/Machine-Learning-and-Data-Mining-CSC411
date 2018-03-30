@@ -24,11 +24,14 @@ torch.manual_seed(0)
 if not os.path.exists('ttt'):
     os.makedirs('ttt')
 
+if not os.path.exists('plots'):
+    os.makedirs('plots')
+
 
 class Environment(object):
-    """
+    '''
     The Tic-Tac-Toe Environment
-    """
+    '''
     # possible ways to win
     win_set = frozenset([(0,1,2), (3,4,5), (6,7,8), # horizontal
                          (0,3,6), (1,4,7), (2,5,8), # vertical
@@ -45,14 +48,14 @@ class Environment(object):
         self.reset()
 
     def reset(self):
-        """Reset the game to an empty board."""
+        '''Reset the game to an empty board.'''
         self.grid = np.array([0] * 9) # grid
         self.turn = 1                 # whose turn it is
         self.done = False             # whether game is done
         return self.grid
 
     def render(self):
-        """Print what is on the board."""
+        '''Print what is on the board.'''
         map = {0:'.', 1:'x', 2:'o'} # grid label vs how to plot
         print(''.join(map[i] for i in self.grid[0:3]))
         print(''.join(map[i] for i in self.grid[3:6]))
@@ -60,7 +63,7 @@ class Environment(object):
         print('====')
 
     def check_win(self):
-        """Check if someone has won the game."""
+        '''Check if someone has won the game.'''
         for pos in self.win_set:
             s = set([self.grid[p] for p in pos])
             if len(s) == 1 and (0 not in s):
@@ -68,7 +71,7 @@ class Environment(object):
         return False
 
     def step(self, action):
-        """Mark a point on position action."""
+        '''Mark a point on position action.'''
         assert type(action) == int and action >= 0 and action < 9
         # done = already finished the game
         if self.done:
@@ -93,13 +96,13 @@ class Environment(object):
         return self.grid, self.STATUS_VALID_MOVE, self.done
 
     def random_step(self):
-        """Choose a random, unoccupied move on the board to play."""
+        '''Choose a random, unoccupied move on the board to play.'''
         pos = [i for i in range(9) if self.grid[i] == 0]
         move = random.choice(pos)
         return self.step(move)
 
     def play_against_random(self, action):
-        """Play a move, and then have a random agent play the next move."""
+        '''Play a move, and then have a random agent play the next move.'''
         state, status, done = self.step(action)
         if not done and self.turn == 2:
             state, s2, done = self.random_step()
@@ -109,13 +112,13 @@ class Environment(object):
                 elif s2 == self.STATUS_TIE:
                     status = self.STATUS_TIE
                 else:
-                    raise ValueError("???")
+                    raise ValueError('???')
         return state, status, done
 
 class Policy(nn.Module):
-    """
+    '''
     The Tic-Tac-Toe Policy
-    """
+    '''
     def __init__(self, input_size=27, hidden_size=64, output_size=9):
         super(Policy, self).__init__()
         
@@ -129,7 +132,7 @@ class Policy(nn.Module):
 
 
 def select_action(policy, state):
-    """Samples an action from the policy at the state."""
+    '''Samples an action from the policy at the state.'''
     state = torch.from_numpy(state).long().unsqueeze(0)
     state = torch.zeros(3,9).scatter_(0,state,1).view(1,27)
     pr = policy(Variable(state))
@@ -139,7 +142,7 @@ def select_action(policy, state):
     return action.data[0], log_prob
 
 def compute_returns(rewards, gamma=0.9):
-    """
+    '''
     Compute returns for each time step, given the rewards
       @param rewards: list of floats, where rewards[t] is the reward
                       obtained at time step t
@@ -153,7 +156,7 @@ def compute_returns(rewards, gamma=0.9):
     [0.7290000000000001, 0.81, 0.9, 1.0]
     >>> compute_returns([0,-0.5,5,0.5,-10], 0.9)
     [-2.5965000000000003, -2.8850000000000002, -2.6500000000000004, -8.5, -10.0]
-    """
+    '''
     returns = list()
     for i in range(len(rewards)):
         returns.append(sum(r*gamma**t for t,r in enumerate(rewards[i:])))
@@ -161,7 +164,7 @@ def compute_returns(rewards, gamma=0.9):
     return returns
 
 def finish_episode(saved_rewards, saved_logprobs, gamma=0.9):
-    """Samples an action from the policy at the state."""
+    '''Samples an action from the policy at the state.'''
     policy_loss = []
     returns = compute_returns(saved_rewards, gamma)
     returns = torch.Tensor(returns)
@@ -176,7 +179,7 @@ def finish_episode(saved_rewards, saved_logprobs, gamma=0.9):
     # in a single step
 
 def get_reward(status):
-    """Returns a numeric given an environment status."""
+    '''Returns a numeric given an environment status.'''
     return {
             Environment.STATUS_VALID_MOVE  :  0,
             Environment.STATUS_INVALID_MOVE: -1,
@@ -186,7 +189,7 @@ def get_reward(status):
     }[status]
 
 def train(policy, env, gamma=0.9, log_interval=1000):
-    """Train policy gradient."""
+    '''Train policy gradient.'''
     optimizer = optim.Adam(policy.parameters(), lr=0.001)
     scheduler = torch.optim.lr_scheduler.StepLR(
             optimizer, step_size=10000, gamma=gamma)
@@ -227,17 +230,21 @@ def train(policy, env, gamma=0.9, log_interval=1000):
 
         if i_episode % (log_interval) == 0:
             torch.save(policy.state_dict(),
-                       "ttt/policy-%d.pkl" % i_episode)
+                       'ttt/policy-%d.pkl' % i_episode)
 
         if i_episode % 1 == 0: # batch_size
             optimizer.step()
             scheduler.step()
             optimizer.zero_grad()
 
-    learn_curve(np.arange(0, 50000, 1000), average_return)
+    plt.plot(np.arange(0, 50000, 1000), average_return)
+    plt.xlabel('Episode')
+    plt.ylabel('Average Return')
+    plt.savefig('plots/learningCurve.png', bbox_inches='tight')
+    plt.show()
 
 def first_move_distr(policy, env):
-    """Display the distribution of first moves."""
+    '''Display the distribution of first moves.'''
     state = env.reset()
     state = torch.from_numpy(state).long().unsqueeze(0)
     state = torch.zeros(3,9).scatter_(0,state,1).view(1,27)
@@ -245,8 +252,8 @@ def first_move_distr(policy, env):
     return pr.data
 
 def load_weights(policy, episode):
-    """Load saved weights"""
-    weights = torch.load("ttt/policy-%d.pkl" % episode)
+    '''Load saved weights'''
+    weights = torch.load('ttt/policy-%d.pkl' % episode)
     policy.load_state_dict(weights)
 
 def play_self(env):
@@ -255,17 +262,9 @@ def play_self(env):
     env.render()
     return
 
-def learn_curve(x, y):
-    plt.plot(x, y)
-    plt.xlabel("Episode")
-    plt.ylabel('Average Return')
-    plt.savefig('plots/learningCurve.png', bbox_inches='tight')
-    plt.show()
-
-def test(policy, env, num_games=100):
-    win = 0
-    tie = 0
-    lose = 0
+def test(policy, env, ep, num_games=100):
+    win, tie, lose = 0, 0, 0
+    load_weights(policy, ep)
 
     for i in range(num_games):
         state = env.reset()
@@ -284,6 +283,26 @@ def test(policy, env, num_games=100):
     
     print('# Games: {}     Wins: {}     Ties: {}     Losses: {}'.format(
         num_games, win, tie, lose))
+    return win, tie, lose
+
+def plot_performance(policy, env):
+    win, tie, lose = list(), list(), list()
+
+    for i in range (0, 50000, 1000):
+        load_weights(policy, i)
+        w, t, l = test(policy, env)
+        win.append(w)
+        tie.append(t)
+        lose.append(l)
+
+    plt.plot(np.arange(0, 50000, 1000), win, label='win')
+    plt.plot(np.arange(0, 50000, 1000), tie, label='tie')
+    plt.plot(np.arange(0, 50000, 1000), lose, label='lose')
+    plt.xlabel('Episode')
+    plt.ylabel('Rate')
+    plt.legend(loc='lower left')
+    plt.savefig('plots/winRate.png', bbox_inches='tight')
+    plt.show()
 
 
 if __name__ == '__main__':
@@ -293,14 +312,9 @@ if __name__ == '__main__':
     env = Environment()
 
     # play_self(env)
-
-    if len(sys.argv) == 1:
-        train(policy, env)
-    else:
-        ep = int(sys.argv[1])
-        load_weights(policy, ep)
-        test(policy, env)
-        # print(first_move_distr(policy, env))
+    # train(policy, env)    
+    # test(policy, env, sys.argv[1])
+    plot_performance(policy, env)
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
