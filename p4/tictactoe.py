@@ -188,6 +188,26 @@ def get_reward(status):
             Environment.STATUS_LOSE        : -1
     }[status]
 
+def first_move_distr(policy, env):
+    '''Display the distribution of first moves.'''
+    state = env.reset()
+    state = torch.from_numpy(state).long().unsqueeze(0)
+    state = torch.zeros(3,9).scatter_(0,state,1).view(1,27)
+    pr = policy(Variable(state))
+    return pr.data
+
+def load_weights(policy, episode):
+    '''Load saved weights'''
+    weights = torch.load('ttt/policy-%d.pkl' % episode)
+    policy.load_state_dict(weights)
+
+
+def play_self(env):
+    env.render()
+    env.step(1)
+    env.render()
+    return
+
 def train(policy, env, gamma=0.9, log_interval=1000):
     '''Train policy gradient.'''
     optimizer = optim.Adam(policy.parameters(), lr=0.001)
@@ -242,25 +262,6 @@ def train(policy, env, gamma=0.9, log_interval=1000):
     plt.ylabel('Average Return')
     plt.savefig('plots/learningCurve.png', bbox_inches='tight')
     plt.show()
-
-def first_move_distr(policy, env):
-    '''Display the distribution of first moves.'''
-    state = env.reset()
-    state = torch.from_numpy(state).long().unsqueeze(0)
-    state = torch.zeros(3,9).scatter_(0,state,1).view(1,27)
-    pr = policy(Variable(state))
-    return pr.data
-
-def load_weights(policy, episode):
-    '''Load saved weights'''
-    weights = torch.load('ttt/policy-%d.pkl' % episode)
-    policy.load_state_dict(weights)
-
-def play_self(env):
-    env.render()
-    env.step(1)
-    env.render()
-    return
 
 def test(policy, env, ep, num_games=100):
     win, tie, lose = 0, 0, 0
