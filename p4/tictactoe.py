@@ -255,6 +255,7 @@ def train(policy, env, gamma=0.9, log_interval=1000):
                 i_episode,
                 running_reward / log_interval,
                 invalid_moves))
+            print("First move distribution: \n", first_move_distr(policy, env).numpy(), "\n")
             average_return.append(running_reward / log_interval)
             running_reward = 0
             invalid_moves = 0
