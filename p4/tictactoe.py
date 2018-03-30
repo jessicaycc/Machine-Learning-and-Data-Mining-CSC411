@@ -1,32 +1,19 @@
 import os
 import sys
 import time
-import math
 import torch
 import random
-import torch.distributions
 
 import numpy as np
 import torch.nn as nn
-import torch.optim as optim
 import matplotlib.pyplot as plt
-import torch.nn.functional as F
-
-from itertools import count
-from collections import defaultdict
 from torch.autograd import Variable
-
-
-random.seed(0)
-np.random.seed(0)
-torch.manual_seed(0)
 
 if not os.path.exists('ttt'):
     os.makedirs('ttt')
 
 if not os.path.exists('plots'):
     os.makedirs('plots')
-
 
 class Environment(object):
     '''
@@ -203,14 +190,38 @@ def load_weights(policy, episode):
 
 
 def play_self(env):
-    env.render()
+    # X - 1
     env.step(1)
     env.render()
-    return
+
+    # O - 8
+    env.step(8)
+    env.render()
+
+    # X - 6
+    env.step(6)
+    env.render()
+
+    # O - 4
+    env.step(4)
+    env.render()
+
+    # X - 0
+    env.step(0)
+    env.render()
+
+    # O - 3
+    env.step(3)
+    env.render()
+
+    # X - 2
+    env.step(2)
+    env.render()
+    print('X wins!')
 
 def train(policy, env, gamma=0.9, log_interval=1000):
     '''Train policy gradient.'''
-    optimizer = optim.Adam(policy.parameters(), lr=0.001)
+    optimizer = torch.optim.Adam(policy.parameters(), lr=0.001)
     scheduler = torch.optim.lr_scheduler.StepLR(
             optimizer, step_size=10000, gamma=gamma)
     running_reward = 0
@@ -308,13 +319,17 @@ def plot_performance(policy, env):
 if __name__ == '__main__':
     start = time.time()
 
+    random.seed(0)
+    np.random.seed(0)
+    torch.manual_seed(0)
+
     policy = Policy(hidden_size=96)
     env = Environment()
 
-    # play_self(env)
-    # train(policy, env)    
-    # test(policy, env, int(sys.argv[1]))
-    # plot_performance(policy, env)
+    play_self(env)
+    train(policy, env)    
+    test(policy, env, int(sys.argv[1]))
+    plot_performance(policy, env)
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
