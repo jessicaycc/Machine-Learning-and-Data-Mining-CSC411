@@ -284,9 +284,18 @@ def test(policy, env, ep, num_games=100):
         state = env.reset()
         done = False
 
+        if i % 20 == 0:
+            print("Game", i)
+
         while not done:
             action, _ = select_action(policy, state)
             state, status, done = env.play_against_random(action)
+
+            if i % 20 == 0:
+                env.render()
+        
+        if i % 20 == 0:
+            print("\n")
 
         if status == env.STATUS_WIN:
             win += 1
