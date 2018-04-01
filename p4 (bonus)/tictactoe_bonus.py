@@ -253,7 +253,7 @@ def train(policy, env, gamma=0.9, log_interval=1000):
     plt.savefig('plots/learningCurve.png', bbox_inches='tight')
     plt.show()
 
-def test(policy, env, ep, num_games=100, turn=1, out=True):
+def test(policy, env, ep, num_games=100, turn=1, out=True, play_self=False):
     win, tie, lose = 0, 0, 0
     first_player = 'X' if turn == 1 else 'O'
     load_weights(policy, ep)
