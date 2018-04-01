@@ -253,7 +253,7 @@ def train(policy, env, gamma=0.9, log_interval=1000):
     plt.savefig('plots/learningCurve.png', bbox_inches='tight')
     plt.show()
 
-def test(policy, env, ep, num_games=100, turn=1):
+def test(policy, env, ep, num_games=100, turn=1, out=True):
     win, tie, lose = 0, 0, 0
     first_player = 'X' if turn == 1 else 'O'
     load_weights(policy, ep)
@@ -262,9 +262,15 @@ def test(policy, env, ep, num_games=100, turn=1):
         state = env.reset(turn=turn)
         done = False
 
+        if i % 20 == 0 and out:
+            print("Game", i)
+
         while not done:
             action, _ = select_action(policy, state)
             state, status, done = env.play_against_random(action)
+
+            if i % 20 == 0 and out:
+                env.render()
 
         if status == env.STATUS_WIN:
             win += 1
@@ -281,11 +287,11 @@ def plot_performance(policy, env):
     win_1, win_2 = list(), list()
 
     for ep in range (0, 60000, 1000):
-        w, _, _ = test(policy, env, ep, turn=1)
+        w, _, _ = test(policy, env, ep, turn=1, out=False)
         win_1.append(w)
 
     for ep in range (0, 60000, 1000):
-        w, _, _ = test(policy, env, ep, turn=2)
+        w, _, _ = test(policy, env, ep, turn=2, out=False)
         win_2.append(w)
 
     plt.plot(np.arange(0, 60000, 1000), win_1, label='first player')
@@ -307,8 +313,10 @@ if __name__ == '__main__':
     policy = Policy()
     env = Environment()
 
-    #train(policy, env)
+    train(policy, env)
     plot_performance(policy, env)
+    test(policy, env, int(sys.argv[1]), turn=1)
+    test(policy, env, int(sys.argv[1]), turn=2)
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))

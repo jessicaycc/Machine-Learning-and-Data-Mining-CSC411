@@ -276,7 +276,7 @@ def train(policy, env, gamma=0.9, log_interval=1000):
     plt.savefig('plots/learningCurve.png', bbox_inches='tight')
     plt.show()
 
-def test(policy, env, ep, num_games=100):
+def test(policy, env, ep, num_games=100, out=True):
     win, tie, lose = 0, 0, 0
     load_weights(policy, ep)
 
@@ -284,18 +284,15 @@ def test(policy, env, ep, num_games=100):
         state = env.reset()
         done = False
 
-        if i % 20 == 0:
+        if i % 20 == 0 and out:
             print("Game", i)
 
         while not done:
             action, _ = select_action(policy, state)
             state, status, done = env.play_against_random(action)
 
-            if i % 20 == 0:
+            if i % 20 == 0 and out:
                 env.render()
-        
-        if i % 20 == 0:
-            print("\n")
 
         if status == env.STATUS_WIN:
             win += 1
@@ -304,7 +301,7 @@ def test(policy, env, ep, num_games=100):
         elif status == env.STATUS_LOSE:
             lose += 1
 
-    print('# Games: {}     Wins: {}     Ties: {}     Losses: {}'.format(
+    print('# Games: {}\tWins: {}\tTies: {} \tLosses: {}'.format(
         num_games, win, tie, lose))
     return win/num_games, tie/num_games, lose/num_games
 
@@ -312,7 +309,7 @@ def plot_performance(policy, env):
     win, tie, lose = list(), list(), list()
 
     for ep in range (0, 50000, 1000):
-        w, t, l = test(policy, env, ep)
+        w, t, l = test(policy, env, ep, out=False)
         win.append(w)
         tie.append(t)
         lose.append(l)
@@ -337,8 +334,8 @@ if __name__ == '__main__':
     policy = Policy(hidden_size=96)
     env = Environment()
 
-    play_self(env)
-    train(policy, env)    
+    #play_self(env)
+    #train(policy, env)
     test(policy, env, int(sys.argv[1]))
     plot_performance(policy, env)
 
