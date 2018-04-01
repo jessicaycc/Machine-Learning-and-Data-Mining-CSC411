@@ -273,7 +273,7 @@ def test(policy, env, ep, num_games=100, turn=1):
         elif status == env.STATUS_LOSE:
             lose += 1
 
-    print('# Games: {}     Wins: {}     Ties: {}     Losses: {}     First Player: {}'.format(
+    print('# Games: {}\tWins: {}\tTies: {} \tLosses: {}\tFirst Player: {}'.format(
         num_games, win, tie, lose, first_player))
     return win/num_games, tie/num_games, lose/num_games
 
@@ -307,7 +307,7 @@ if __name__ == '__main__':
     policy = Policy()
     env = Environment()
 
-    train(policy, env)
+    #train(policy, env)
     plot_performance(policy, env)
 
     end = time.time()
