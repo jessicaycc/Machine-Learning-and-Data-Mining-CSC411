@@ -334,9 +334,13 @@ if __name__ == '__main__':
     policy = Policy(hidden_size=96)
     env = Environment()
 
-    #play_self(env)
-    #train(policy, env)
-    test(policy, env, int(sys.argv[1]))
+    play_self(env)
+    train(policy, env)
+
+    if len(sys.argv) > 1:
+        # final model is policy-47000.pkl
+        test(policy, env, int(sys.argv[1]))
+
     plot_performance(policy, env)
 
     end = time.time()
