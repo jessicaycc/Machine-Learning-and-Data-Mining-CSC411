@@ -108,6 +108,21 @@ class Environment(object):
                     raise ValueError('???')
         return state, status, done
 
+    def play_against_self(self, policy, action):
+        '''Play a move, and then have an identical agent play the next move.'''
+        state, status, done = self.step(action)
+        if not done and self.turn == 2:
+            action2, _ = select_action(policy, state)
+            state, s2, done = self.step(action2)
+            if done:
+                if s2 == self.STATUS_WIN:
+                    status = self.STATUS_LOSE
+                elif s2 == self.STATUS_TIE:
+                    status = self.STATUS_TIE
+                else:
+                    raise ValueError('???')
+        return state, status, done
+
 class Policy(nn.Module):
     '''
     The Tic-Tac-Toe Policy
@@ -134,7 +149,7 @@ def select_action(policy, state):
     log_prob = torch.sum(m.log_prob(action))
     return action.data[0], log_prob
 
-def compute_returns(rewards, gamma=0.9):
+def compute_returns(rewards, gamma=0.8):
     '''
     Compute returns for each time step, given the rewards
       @param rewards: list of floats, where rewards[t] is the reward
@@ -156,7 +171,7 @@ def compute_returns(rewards, gamma=0.9):
 
     return returns
 
-def finish_episode(saved_rewards, saved_logprobs, gamma=0.9):
+def finish_episode(saved_rewards, saved_logprobs, gamma=0.8):
     '''Samples an action from the policy at the state.'''
     policy_loss = []
     returns = compute_returns(saved_rewards, gamma)
@@ -175,7 +190,7 @@ def get_reward(status):
     '''Returns a numeric given an environment status.'''
     return {
             Environment.STATUS_VALID_MOVE  :  0,
-            Environment.STATUS_INVALID_MOVE: -2,
+            Environment.STATUS_INVALID_MOVE: -9,
             Environment.STATUS_WIN         :  1,
             Environment.STATUS_TIE         :  0,
             Environment.STATUS_LOSE        : -1
@@ -187,9 +202,9 @@ def load_weights(policy, episode):
     policy.load_state_dict(weights)
 
 
-def train(policy, env, gamma=0.9, log_interval=1000):
+def train(policy, env, gamma=0.8, log_interval=1000, self_train=False):
     '''Train policy gradient.'''
-    optimizer = torch.optim.Adam(policy.parameters(), lr=0.001)
+    optimizer = torch.optim.Adam(policy.parameters(), lr=0.0005)
     scheduler = torch.optim.lr_scheduler.StepLR(
             optimizer, step_size=10000, gamma=gamma)
     running_reward = 0
@@ -198,7 +213,7 @@ def train(policy, env, gamma=0.9, log_interval=1000):
     o_turns = 0
     average_return = list()
 
-    for i_episode in range(60000):
+    for i_episode in range(100000):
         saved_rewards = []
         saved_logprobs = []
         state = env.reset()
@@ -212,7 +227,11 @@ def train(policy, env, gamma=0.9, log_interval=1000):
 
         while not done:
             action, logprob = select_action(policy, state)
-            state, status, done = env.play_against_random(action)
+
+            if self_train:
+                state, status, done = env.play_against_self(policy, action)
+            else:
+                state, status, done = env.play_against_random(action)
 
             if status == env.STATUS_INVALID_MOVE:
                 invalid_moves += 1
@@ -237,8 +256,10 @@ def train(policy, env, gamma=0.9, log_interval=1000):
             
 
         if i_episode % (log_interval) == 0:
-            torch.save(policy.state_dict(),
-                       'ttt/policy-%d.pkl' % i_episode)
+            if self_train:
+                torch.save(policy.state_dict(), 'ttt/policy-self-%d.pkl' % i_episode)
+            else:
+                torch.save(policy.state_dict(), 'ttt/policy-%d.pkl' % i_episode)
 
         if i_episode % 1 == 0: # batch_size
             optimizer.step()
@@ -247,7 +268,7 @@ def train(policy, env, gamma=0.9, log_interval=1000):
 
     print('X went first {} times, O went first {} times'.format(x_turns, o_turns))
 
-    plt.plot(np.arange(0, 60000, 1000), average_return)
+    plt.plot(np.arange(0, 100000, 1000), average_return)
     plt.xlabel('Episode')
     plt.ylabel('Average Return')
     plt.savefig('plots/learningCurve.png', bbox_inches='tight')
@@ -286,16 +307,16 @@ def test(policy, env, ep, num_games=100, turn=1, out=True, play_self=False):
 def plot_performance(policy, env):
     win_1, win_2 = list(), list()
 
-    for ep in range (0, 60000, 1000):
+    for ep in range (0, 100000, 1000):
         w, _, _ = test(policy, env, ep, turn=1, out=False)
         win_1.append(w)
 
-    for ep in range (0, 60000, 1000):
+    for ep in range (0, 100000, 1000):
         w, _, _ = test(policy, env, ep, turn=2, out=False)
         win_2.append(w)
 
-    plt.plot(np.arange(0, 60000, 1000), win_1, label='first player')
-    plt.plot(np.arange(0, 60000, 1000), win_2, label='second player')
+    plt.plot(np.arange(0, 100000, 1000), win_1, label='first player')
+    plt.plot(np.arange(0, 100000, 1000), win_2, label='second player')
     plt.xlabel('Episode')
     plt.ylabel('Win Rate')
     plt.legend(loc='lower left')
@@ -315,8 +336,12 @@ if __name__ == '__main__':
 
     train(policy, env)
     plot_performance(policy, env)
-    test(policy, env, int(sys.argv[1]), turn=1)
-    test(policy, env, int(sys.argv[1]), turn=2)
+    #test(policy, env, int(sys.argv[1]), turn=1)
+    #test(policy, env, int(sys.argv[1]), turn=2)
+
+    #policy = Policy()
+    #load_weights(policy, int(sys.argv[1]))
+    #train(policy, env, self_train=True)
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
