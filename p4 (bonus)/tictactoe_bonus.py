@@ -196,9 +196,12 @@ def get_reward(status):
             Environment.STATUS_LOSE        : -1
     }[status]
 
-def load_weights(policy, episode):
+def load_weights(policy, episode, self_train=False):
     '''Load saved weights'''
-    weights = torch.load('ttt/policy-%d.pkl' % episode)
+    if self_train:
+        weights = torch.load('ttt/policy-self-%d.pkl' % episode)
+    else:
+        weights = torch.load('ttt/policy-%d.pkl' % episode)
     policy.load_state_dict(weights)
 
 
@@ -274,10 +277,10 @@ def train(policy, env, gamma=0.9, log_interval=1000, self_train=False):
     plt.savefig('plots/learningCurve.png', bbox_inches='tight')
     plt.show()
 
-def test(policy, env, ep, num_games=100, turn=1, out=True, play_self=False):
+def test(policy, env, ep, num_games=100, turn=1, out=True, self_train=False):
     win, tie, lose = 0, 0, 0
     first_player = 'X' if turn == 1 else 'O'
-    load_weights(policy, ep)
+    load_weights(policy, ep, self_train=self_train)
 
     for i in range(num_games):
         state = env.reset(turn=turn)
@@ -304,15 +307,15 @@ def test(policy, env, ep, num_games=100, turn=1, out=True, play_self=False):
         num_games, win, tie, lose, first_player))
     return win/num_games, tie/num_games, lose/num_games
 
-def plot_performance(policy, env):
+def plot_performance(policy, env, self_train=False):
     win_1, win_2 = list(), list()
 
     for ep in range (0, 100000, 1000):
-        w, _, _ = test(policy, env, ep, turn=1, out=False)
+        w, _, _ = test(policy, env, ep, turn=1, out=False, self_train=self_train)
         win_1.append(w)
 
     for ep in range (0, 100000, 1000):
-        w, _, _ = test(policy, env, ep, turn=2, out=False)
+        w, _, _ = test(policy, env, ep, turn=2, out=False, self_train=self_train)
         win_2.append(w)
 
     plt.plot(np.arange(0, 100000, 1000), win_1, label='first player')
@@ -337,14 +340,16 @@ if __name__ == '__main__':
     # train(policy, env)
     # plot_performance(policy, env)
 
-    if len(sys.argv) > 1:
+    # if len(sys.argv) > 1:
         # final model is policy-98000.pkl
         # test(policy, env, int(sys.argv[1]), turn=1)
         # test(policy, env, int(sys.argv[1]), turn=2)
 
-        policy = Policy()
-        load_weights(policy, int(sys.argv[1]))
-        train(policy, env, self_train=True)
+        # policy = Policy()
+        # load_weights(policy, int(sys.argv[1]))
+        # train(policy, env, self_train=True)
+
+    plot_performance(policy, env, self_train=True)
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
