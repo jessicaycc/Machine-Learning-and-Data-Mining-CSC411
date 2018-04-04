@@ -149,7 +149,7 @@ def select_action(policy, state):
     log_prob = torch.sum(m.log_prob(action))
     return action.data[0], log_prob
 
-def compute_returns(rewards, gamma=0.8):
+def compute_returns(rewards, gamma=0.9):
     '''
     Compute returns for each time step, given the rewards
       @param rewards: list of floats, where rewards[t] is the reward
@@ -171,7 +171,7 @@ def compute_returns(rewards, gamma=0.8):
 
     return returns
 
-def finish_episode(saved_rewards, saved_logprobs, gamma=0.8):
+def finish_episode(saved_rewards, saved_logprobs, gamma=0.9):
     '''Samples an action from the policy at the state.'''
     policy_loss = []
     returns = compute_returns(saved_rewards, gamma)
@@ -202,7 +202,7 @@ def load_weights(policy, episode):
     policy.load_state_dict(weights)
 
 
-def train(policy, env, gamma=0.8, log_interval=1000, self_train=False):
+def train(policy, env, gamma=0.9, log_interval=1000, self_train=False):
     '''Train policy gradient.'''
     optimizer = torch.optim.Adam(policy.parameters(), lr=0.0005)
     scheduler = torch.optim.lr_scheduler.StepLR(
@@ -334,14 +334,17 @@ if __name__ == '__main__':
     policy = Policy()
     env = Environment()
 
-    train(policy, env)
-    plot_performance(policy, env)
-    #test(policy, env, int(sys.argv[1]), turn=1)
-    #test(policy, env, int(sys.argv[1]), turn=2)
+    # train(policy, env)
+    # plot_performance(policy, env)
 
-    #policy = Policy()
-    #load_weights(policy, int(sys.argv[1]))
-    #train(policy, env, self_train=True)
+    if len(sys.argv) > 1:
+        # final model is policy-98000.pkl
+        # test(policy, env, int(sys.argv[1]), turn=1)
+        # test(policy, env, int(sys.argv[1]), turn=2)
+
+        policy = Policy()
+        load_weights(policy, int(sys.argv[1]))
+        train(policy, env, self_train=True)
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
