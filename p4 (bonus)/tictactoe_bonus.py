@@ -277,7 +277,7 @@ def train(policy, env, gamma=0.9, log_interval=1000, self_train=False):
     plt.savefig('plots/learningCurve.png', bbox_inches='tight')
     plt.show()
 
-def test(policy, env, ep, num_games=100, turn=1, out=True, self_train=False):
+def test(policy, env, ep, num_games=100, turn=1, out=True, self_train=False, self_play=False):
     win, tie, lose = 0, 0, 0
     first_player = 'X' if turn == 1 else 'O'
     load_weights(policy, ep, self_train=self_train)
@@ -291,8 +291,10 @@ def test(policy, env, ep, num_games=100, turn=1, out=True, self_train=False):
 
         while not done:
             action, _ = select_action(policy, state)
-            state, status, done = env.play_against_random(action)
-
+            if self_play:
+                state, status, done = env.play_against_self(policy, action)
+            else:
+                state, status, done = env.play_against_random(action)
             if i % 20 == 0 and out:
                 env.render()
 
@@ -337,19 +339,19 @@ if __name__ == '__main__':
     policy = Policy()
     env = Environment()
 
-    # train(policy, env)
-    # plot_performance(policy, env)
+    train(policy, env, self_train=True)
+    # plot_performance(policy, env, self_train=True)
 
     # if len(sys.argv) > 1:
-        # final model is policy-98000.pkl
-        # test(policy, env, int(sys.argv[1]), turn=1)
-        # test(policy, env, int(sys.argv[1]), turn=2)
+    #     # final model is policy-98000.pkl
+    #     test(policy, env, int(sys.argv[1]), turn=1, self_play=False)
+    #     test(policy, env, int(sys.argv[1]), turn=2, self_play=False)
 
         # policy = Policy()
         # load_weights(policy, int(sys.argv[1]))
         # train(policy, env, self_train=True)
 
-    plot_performance(policy, env, self_train=True)
+    # plot_performance(policy, env, self_train=True)
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
