@@ -339,25 +339,25 @@ if __name__ == '__main__':
     policy = Policy()
     env = Environment()
 
-    # train(policy, env)
-    # plot_performance(policy, env)
+    train(policy, env)
+    plot_performance(policy, env)
 
-    # if len(sys.argv) > 1:
-    #     # final model is policy-98000.pkl
-    #     test(policy, env, int(sys.argv[1]), turn=1)
-    #     test(policy, env, int(sys.argv[1]), turn=2)
+    if len(sys.argv) > 1:
+        # final model is policy-98000.pkl
+        test(policy, env, int(sys.argv[1]), turn=1)
+        test(policy, env, int(sys.argv[1]), turn=2)
 
-        # policy = Policy()
-        # load_weights(policy, int(sys.argv[1]))
-        # train(policy, env, self_train=True)
+        policy = Policy()
+        load_weights(policy, int(sys.argv[1]))
+        train(policy, env, self_train=True)
 
-    #plot_performance(policy, env, self_train=True)
+    plot_performance(policy, env, self_train=True)
     plot_performance(policy, env, self_train=True, play_self=True)
 
-    # if len(sys.argv) > 1:
-    #     # final model is policy-98000.pkl
-    #     test(policy, env, int(sys.argv[1]), out=False, turn=1, play_self=True)
-    #     test(policy, env, int(sys.argv[1]), out=False, turn=2, play_self=True)
+    if len(sys.argv) > 1:
+        # final model is policy-98000.pkl
+        test(policy, env, int(sys.argv[1]), out=False, turn=1, play_self=True)
+        test(policy, env, int(sys.argv[1]), out=False, turn=2, play_self=True)
 
     end = time.time()
     print('Time elapsed: %.2fs' % (end-start))
